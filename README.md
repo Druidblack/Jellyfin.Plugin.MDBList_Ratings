@@ -65,3 +65,9 @@ MDBList Ratings is a Jellyfin plugin that automatically fetches ratings from MDB
   - When enabled and when a link is available, icons link to provider pages:
 
     IMDb, Trakt, TMDb, Metacritic, RottenTomatoes, Letterboxd, RogerEbert, etc.
+    
+![1](https://github.com/Druidblack/Jellyfin.Plugin.MDBList_Ratings/blob/main/images/1.jpg)
+![2](https://github.com/Druidblack/Jellyfin.Plugin.MDBList_Ratings/blob/main/images/2.jpg)
+![3](https://github.com/Druidblack/Jellyfin.Plugin.MDBList_Ratings/blob/main/images/3.jpg)
+![4](https://github.com/Druidblack/Jellyfin.Plugin.MDBList_Ratings/blob/main/images/4.jpg)
+![5](https://github.com/Druidblack/Jellyfin.Plugin.MDBList_Ratings/blob/main/images/5.jpg)
