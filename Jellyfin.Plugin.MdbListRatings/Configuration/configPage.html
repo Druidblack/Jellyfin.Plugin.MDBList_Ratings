@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MDBList Ratings</title>
+</head>
+<body>
+<div data-role="page" class="page type-interior pluginConfigurationPage" id="mdbListRatingsConfigPage"
+     data-require="emby-input,emby-button,emby-select,emby-checkbox">
+    <div data-role="content">
+        <div class="content-primary">
+
+            <h1>MDBList Ratings</h1>
+
+            <form id="mdbListRatingsConfigForm">
+
+                <div class="inputContainer">
+                    <label class="inputLabel inputLabelUnfocused" for="mdbApiKey">MDBList API key</label>
+                    <input id="mdbApiKey" name="mdbApiKey" type="password" class="emby-input" autocomplete="off" />
+                    <div class="fieldDescription">
+                        Request format:
+                        <code>https://api.mdblist.com/tmdb/&lt;type&gt;/&lt;tmdbId&gt;?apikey=&lt;key&gt;</code>
+                        where <code>type</code> is <code>movie</code> or <code>show</code>.
+                    </div>
+                </div>
+
+                <h2>Rating mapping</h2>
+
+                <h3>Movies</h3>
+
+                <div class="selectContainer">
+                    <label class="selectLabel" for="movieCommunity">Community rating</label>
+                    <select id="movieCommunity" name="movieCommunity" class="emby-select"></select>
+                </div>
+
+                <div class="selectContainer">
+                    <label class="selectLabel" for="movieCommunityFallback">Fallback source (if no data)</label>
+                    <select id="movieCommunityFallback" name="movieCommunityFallback" class="emby-select"></select>
+                </div>
+
+                <div class="selectContainer">
+                    <label class="selectLabel" for="movieCritic">Critic rating</label>
+                    <select id="movieCritic" name="movieCritic" class="emby-select"></select>
+                </div>
+
+                <div class="selectContainer">
+                    <label class="selectLabel" for="movieCriticFallback">Fallback source (if no data)</label>
+                    <select id="movieCriticFallback" name="movieCriticFallback" class="emby-select"></select>
+                </div>
+
+                <h3>Series / Shows</h3>
+
+                <div class="selectContainer">
+                    <label class="selectLabel" for="showCommunity">Community rating</label>
+                    <select id="showCommunity" name="showCommunity" class="emby-select"></select>
+                    <div class="fieldDescription">
+                        In Jellyfin, series typically use only the Community rating field.
+                    </div>
+
+                    </div>
+
+                <div class="selectContainer">
+                    <label class="selectLabel" for="showCommunityFallback">Fallback source (if no data)</label>
+                    <select id="showCommunityFallback" name="showCommunityFallback" class="emby-select"></select>
+                </div>
+
+                <h2>Per-library overrides</h2>
+
+                <div class="fieldDescription">
+                    Here you can set specific rating sources for a particular library.
+                    For example, for an “Anime” library you can choose <b>MyAnimeList</b> with <b>IMDb</b> as a fallback, without changing the global settings.
+                    <br />
+                    If a field is left <i>empty</i> (“Use global”), the value from the global section above is used.
+                </div>
+
+                <div id="libraryOverridesContainer"></div>
+
+                <div style="margin: 8px 0 18px 0;">
+                    <button is="emby-button" type="button" id="addLibraryOverride" class="raised emby-button">
+                        <span>Add library</span>
+                    </button>
+                </div>
+
+                <h2>Update behavior</h2>
+
+                <label class="checkboxContainer">
+                    <input type="checkbox" is="emby-checkbox" id="updateOnlyWhenEmpty" />
+                    <span>Update only when the field is empty/0</span>
+                </label>
+
+                <label class="checkboxContainer" style="margin-top: 10px;">
+                    <input type="checkbox" is="emby-checkbox" id="enableWebIcons" />
+                    <span>Show rating source icon in the Web UI (next to the star)</span>
+                </label>
+                <div class="fieldDescription" style="margin-top: 4px;">
+                    Adds a small logo (IMDb/TMDb/MAL, etc.) next to the standard rating star.
+                    Works only in Jellyfin Web.
+                </div>
+
+                <label class="checkboxContainer" style="margin-top: 10px;">
+                    <input type="checkbox" is="emby-checkbox" id="enableWebAllRatings" />
+                    <span>On item Details, show all ratings from cache (hide the default blocks)</span>
+                </label>
+                <div class="fieldDescription" style="margin-top: 4px;">
+                    If enabled, on the <b>Details</b> page the default rating blocks (star rating and critic rating)
+                    will be hidden, and all ratings available in the MDBList cache will be shown instead,
+                    each with its own icon. Metadata is not modified.
+                </div>
+
+                <div id="webAllRatingsOptions" style="margin-left: 22px; margin-top: 8px; display: none;">
+                    <div class="selectContainer" style="margin-top: 6px;">
+                        <label class="selectLabel" for="webAllRatingsMode">What to show</label>
+                        <select id="webAllRatingsMode" name="webAllRatingsMode" class="emby-select">
+                            <option value="all">All available ratings (as in cache)</option>
+                            <option value="custom">Only selected sources (in the specified order)</option>
+                        </select>
+                        <div class="fieldDescription">
+                            In <b>Only selected sources</b> mode, only the sources you list below will be shown.
+                        </div>
+                    </div>
+
+                    <div class="inputContainer" id="webAllRatingsCustomWrap" style="margin-top: 6px; display: none;">
+                        <label class="inputLabel inputLabelUnfocused" for="webAllRatingsOrder">Rating sources and order</label>
+                        <textarea id="webAllRatingsOrder" name="webAllRatingsOrder" class="emby-textarea" rows="4"
+                                  placeholder="imdb\ntmdb\nmetacritic\nmetacriticuser\ntomatoes\npopcorn\nletterboxd\ntrakt\nrogerebert\nmyanimelist
+anilist"></textarea>
+                        <div class="fieldDescription">
+                            Enter one source per line or separated by commas. Source keys must match what MDBList returns
+                            (e.g. imdb, tmdb, metacritic, metacriticuser, tomatoes, popcorn, trakt, letterboxd, rogerebert, myanimelist, anilist).
+                        </div>
+                    
+
+                    </div>
+                
+
+                    <div class="fieldDescription" style="margin-top: 10px;">
+                        Web-only extras (fetched live; nothing is saved):
+                    </div>
+
+                    <label class="checkboxContainer" style="margin-top: 6px;">
+                        <input type="checkbox" is="emby-checkbox" id="enableWebExtraTomatoesCertified" />
+                        <span>RottenTomatoes: Certified Fresh badge (Tomatoes)</span>
+                    </label>
+
+                    <label class="checkboxContainer" style="margin-top: 6px;">
+                        <input type="checkbox" is="emby-checkbox" id="enableWebExtraRottenVerified" />
+                        <span>RottenTomatoes: Verified Hot badge (Audience)</span>
+                    </label>
+
+                    <label class="checkboxContainer" style="margin-top: 6px;">
+                        <input type="checkbox" is="emby-checkbox" id="enableWebExtraMetacriticMustSee" />
+                        <span>Metacritic: Must-See badge</span>
+                    </label>
+
+                    <label class="checkboxContainer" style="margin-top: 6px;">
+                        <input type="checkbox" is="emby-checkbox" id="enableWebExtraAniList" />
+                        <span>AniList rating (meanScore)</span>
+                    </label>
+
+                    <label class="checkboxContainer" style="margin-top: 8px;">
+                        <input type="checkbox" is="emby-checkbox" id="enableWebClickableRatingIcons" />
+                        <span>Make rating icons clickable (open provider pages)</span>
+                    </label>
+
+                </div>
+
+                <div class="selectContainer">
+                    <label class="selectLabel" for="cacheInterval">Cache refresh interval</label>
+                    <select id="cacheInterval" name="cacheInterval" class="emby-select">
+                        <option value="1">1 day</option>
+                        <option value="2">1 week</option>
+                        <option value="3">1 month</option>
+                    </select>
+                    <div class="fieldDescription">
+                        While the cache entry is fresh, the plugin does not make a network request to MDBList and uses the saved data.
+                        This also lets you change the rating mapping without re-querying.
+                    </div>
+                </div>
+
+                <div class="inputContainer">
+                    <label class="inputLabel inputLabelUnfocused" for="requestDelayMs">Delay between requests (ms)</label>
+                    <input id="requestDelayMs" name="requestDelayMs" type="number" min="0" max="5000" step="50" class="emby-input" />
+                    <div class="fieldDescription">
+                        Useful for large libraries to reduce the chance of hitting the rate limit.
+                    </div>
+                </div>
+
+                <div>
+                    <button is="emby-button" type="submit" class="raised button-submit block emby-button">
+                        <span>Save</span>
+                    </button>
+                </div>
+
+                <div class="fieldDescription" style="margin-top: 12px;">
+                    To apply ratings to your library, run the task
+                    <b>Update MDBList ratings</b> in <b>Dashboard → Scheduled Tasks</b>.
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        (function () {
+            var pluginId = 'ab96f8b5-45ef-44be-81d6-99bc01e26b9d';
+
+            var sources = [
+    { value: "none", text: "Do not fill" },
+    { value: "imdb", text: "IMDb" },
+    { value: "tmdb", text: "TMDb" },
+    { value: "trakt", text: "Trakt" },
+    { value: "tomatoes", text: "RottenTomatoes (critics)" },
+    { value: "popcorn", text: "RottenTomatoes (audience)" },
+    { value: "metacritic", text: "Metacritic" },
+    { value: "metacriticuser", text: "Metacritic User" },
+    { value: "letterboxd", text: "Letterboxd" },
+    { value: "rogerebert", text: "RogerEbert" },
+    { value: "myanimelist", text: "MyAnimeList" },
+            ];
+
+            // Same as sources, but with a leading "use global" option for per-library overrides.
+            var overrideSources = [{ value: "", text: "Use global setting" }].concat(sources);
+
+            var loadedLibraries = [];
+            var librariesCache = [];
+
+            function fillSelect(select, value, list) {
+                list = list || sources;
+                select.innerHTML = '';
+                list.forEach(function (s) {
+                    var opt = document.createElement('option');
+                    opt.value = s.value;
+                    opt.textContent = s.text;
+                    if (s.value === value) {
+                        opt.selected = true;
+                    }
+                    select.appendChild(opt);
+                });
+            }
+
+            function ajaxGetJson(urlPath) {
+                return ApiClient.ajax({
+                    type: 'GET',
+                    url: ApiClient.getUrl(urlPath)
+                }).then(function (result) {
+                    if (!result) return null;
+                    if (typeof result === 'string') {
+                        try { return JSON.parse(result); } catch (e) { return null; }
+                    }
+                    return result;
+                });
+            }
+
+            function loadLibraries() {
+                // Prefer /Library/MediaFolders (returns collection folders with Id + Name).
+                return ajaxGetJson('Library/MediaFolders').then(function (result) {
+                    var list = [];
+                    if (Array.isArray(result)) {
+                        list = result;
+                    } else if (result && Array.isArray(result.Items)) {
+                        list = result.Items;
+                    } else if (result && Array.isArray(result.items)) {
+                        list = result.items;
+                    }
+
+                    librariesCache = list;
+
+                    var libs = list
+                        .map(function (it) {
+                            return {
+                                id: (it.Id || it.id || ''),
+                                name: (it.Name || it.name || '')
+                            };
+                        })
+                        .filter(function (x) { return !!x.id && !!x.name; });
+
+                    loadedLibraries = libs;
+
+                    if (libs.length) {
+                        return libs;
+                    }
+
+                    // Fallback: /Library/VirtualFolders (older/alternative) - requires ItemId.
+                    return ajaxGetJson('Library/VirtualFolders').then(function (vfList) {
+                        var v = Array.isArray(vfList) ? vfList : [];
+                        librariesCache = v;
+
+                        var mapped = v
+                            .map(function (vf) {
+                                return {
+                                    id: (vf.ItemId || vf.itemId || vf.Id || vf.id || ''),
+                                    name: (vf.Name || vf.name || '')
+                                };
+                            })
+                            .filter(function (x) { return !!x.id && !!x.name; });
+
+                        loadedLibraries = mapped;
+                        return mapped;
+                    });
+                }).catch(function () {
+                    loadedLibraries = [];
+                    librariesCache = [];
+                    return [];
+                });
+            }
+
+            function createOverrideRow(libraries, ov) {
+                ov = ov || {};
+                var container = document.createElement('div');
+                container.className = 'libraryOverrideRow';
+                container.style.border = '1px solid rgba(0,0,0,.12)';
+                container.style.borderRadius = '12px';
+                container.style.padding = '12px';
+                container.style.margin = '12px 0';
+
+                var header = document.createElement('div');
+                header.style.display = 'flex';
+                header.style.gap = '10px';
+                header.style.alignItems = 'center';
+                header.style.flexWrap = 'wrap';
+
+                var libLabel = document.createElement('div');
+                libLabel.textContent = 'Library:';
+                libLabel.style.fontWeight = '600';
+
+                // Library selector (optional) + manual input.
+                // Some Jellyfin builds don't expose library IDs via API to the dashboard page;
+                // to keep overrides usable in all environments, we always allow manual entry.
+                var libSelect = null;
+                if (libraries && libraries.length) {
+                    libSelect = document.createElement('select');
+                    libSelect.className = 'emby-select overrideLibrarySelect';
+                    libSelect.style.minWidth = '220px';
+                    libSelect.innerHTML = '';
+
+                    var emptyOpt = document.createElement('option');
+                    emptyOpt.value = '';
+                    emptyOpt.textContent = '— select —';
+                    libSelect.appendChild(emptyOpt);
+
+                    libraries.forEach(function (l) {
+                        var opt = document.createElement('option');
+                        opt.value = l.id;
+                        opt.textContent = l.name;
+                        if ((ov.LibraryId || '') === l.id) {
+                            opt.selected = true;
+                        }
+                        libSelect.appendChild(opt);
+                    });
+                }
+
+                var libInputWrap = document.createElement('div');
+                libInputWrap.style.display = 'flex';
+                libInputWrap.style.flexDirection = 'column';
+                libInputWrap.style.gap = '4px';
+                libInputWrap.style.minWidth = '260px';
+
+                var libInput = document.createElement('input');
+                libInput.className = 'emby-input overrideLibraryKey';
+                libInput.type = 'text';
+                libInput.placeholder = 'Enter library ID (GUID) or library name';
+                libInput.value = (ov.LibraryId || ov.LibraryName || '').toString();
+
+                var libHint = document.createElement('div');
+                libHint.className = 'fieldDescription';
+                libHint.style.margin = '0';
+                libHint.textContent = 'You can enter a library GUID (if you know it) or the exact library name as shown in Dashboard → Libraries.';
+
+                libInputWrap.appendChild(libInput);
+                libInputWrap.appendChild(libHint);
+
+                if (libSelect) {
+                    // If user selects from the list, populate manual input.
+                    libSelect.addEventListener('change', function () {
+                        var v = libSelect.value || '';
+                        if (!v) {
+                            return;
+                        }
+                        var name = (libSelect.options && libSelect.selectedIndex >= 0)
+                            ? (libSelect.options[libSelect.selectedIndex].textContent || '')
+                            : '';
+                        libInput.value = v;
+                        // keep name handy for display in saved config
+                        libInput.setAttribute('data-selected-name', name);
+                    });
+                }
+
+                var enabledLabel = document.createElement('label');
+                enabledLabel.className = 'checkboxContainer';
+                enabledLabel.style.margin = '0';
+                var enabled = document.createElement('input');
+                enabled.type = 'checkbox';
+                enabled.setAttribute('is', 'emby-checkbox');
+                enabled.className = 'overrideEnabled';
+                enabled.checked = (ov.Enabled !== false);
+                var enabledText = document.createElement('span');
+                enabledText.textContent = 'Enabled';
+                enabledLabel.appendChild(enabled);
+                enabledLabel.appendChild(enabledText);
+
+                var removeBtn = document.createElement('button');
+                removeBtn.setAttribute('is', 'emby-button');
+                removeBtn.type = 'button';
+                removeBtn.className = 'raised emby-button overrideRemove';
+                removeBtn.innerHTML = '<span>Remove</span>';
+                removeBtn.addEventListener('click', function () {
+                    container.parentNode && container.parentNode.removeChild(container);
+                });
+
+                header.appendChild(libLabel);
+                if (libSelect) {
+                    header.appendChild(libSelect);
+                }
+                header.appendChild(libInputWrap);
+                header.appendChild(enabledLabel);
+                header.appendChild(removeBtn);
+                container.appendChild(header);
+
+                // Movies section
+                var hMovies = document.createElement('h3');
+                hMovies.textContent = 'Movies — override';
+                hMovies.style.marginTop = '14px';
+                container.appendChild(hMovies);
+
+                function addSelectRow(labelText, cls, value) {
+                    var row = document.createElement('div');
+                    row.className = 'selectContainer';
+                    var label = document.createElement('label');
+                    label.className = 'selectLabel';
+                    label.textContent = labelText;
+                    var sel = document.createElement('select');
+                    sel.className = 'emby-select ' + cls;
+                    fillSelect(sel, (value || '').toLowerCase(), overrideSources);
+                    row.appendChild(label);
+                    row.appendChild(sel);
+                    container.appendChild(row);
+                }
+
+                addSelectRow('Community rating', 'ovMovieCommunity', ov.MovieCommunitySource);
+                addSelectRow('Fallback source (if no data)', 'ovMovieCommunityFallback', ov.MovieCommunityFallbackSource);
+                addSelectRow('Critic rating', 'ovMovieCritic', ov.MovieCriticSource);
+                addSelectRow('Fallback source (if no data)', 'ovMovieCriticFallback', ov.MovieCriticFallbackSource);
+
+                // Shows section
+                var hShows = document.createElement('h3');
+                hShows.textContent = 'Series / Shows — override';
+                hShows.style.marginTop = '14px';
+                container.appendChild(hShows);
+
+                addSelectRow('Community rating', 'ovShowCommunity', ov.ShowCommunitySource);
+                addSelectRow('Fallback source (if no data)', 'ovShowCommunityFallback', ov.ShowCommunityFallbackSource);
+
+                return container;
+            }
+
+            function renderOverrides(page, config, libraries) {
+                var wrap = page.querySelector('#libraryOverridesContainer');
+                wrap.innerHTML = '';
+                // If the API list is empty, manual entry in each override row still works.
+                var list = (config.LibraryOverrides || config.libraryOverrides || []);
+                if (!Array.isArray(list)) list = [];
+
+                list.forEach(function (ov) {
+                    wrap.appendChild(createOverrideRow(libraries, ov));
+                });
+            }
+
+            function getPage() {
+                return document.querySelector('#mdbListRatingsConfigPage');
+            }
+
+            function normalizeWebAllRatingsMode(v) {
+                if (!v) return 'all';
+                try {
+                    // Some configs may serialize enums as numbers.
+                    if (typeof v === 'number') {
+                        return (v === 1) ? 'custom' : 'all';
+                    }
+                    var s = String(v).toLowerCase();
+                    return (s === 'custom' || s === 'selected') ? 'custom' : 'all';
+                } catch (e) {
+                    return 'all';
+                }
+            }
+
+            function csvToMultiline(v) {
+                if (!v) return '';
+                return String(v)
+                    .split(/[\n,;]+/)
+                    .map(function (x) { return (x || '').trim(); })
+                    .filter(Boolean)
+                    .join('\n');
+            }
+
+            function multilineToCsv(v) {
+                if (!v) return '';
+                // Dedup while preserving order.
+                var parts = String(v)
+                    .split(/[\n,;]+/)
+                    .map(function (x) { return (x || '').trim().toLowerCase(); })
+                    .filter(Boolean);
+                var seen = Object.create(null);
+                var out = [];
+                parts.forEach(function (p) {
+                    if (!seen[p]) {
+                        seen[p] = true;
+                        out.push(p);
+                    }
+                });
+                return out.join(',');
+            }
+
+            function updateWebAllRatingsUi(page) {
+                try {
+                    var enabled = !!page.querySelector('#enableWebAllRatings').checked;
+                    var opts = page.querySelector('#webAllRatingsOptions');
+                    if (opts) {
+                        opts.style.display = enabled ? 'block' : 'none';
+                    }
+
+                    var modeSel = page.querySelector('#webAllRatingsMode');
+                    var mode = modeSel ? normalizeWebAllRatingsMode(modeSel.value) : 'all';
+
+                    var wrap = page.querySelector('#webAllRatingsCustomWrap');
+                    if (wrap) {
+                        wrap.style.display = (enabled && mode === 'custom') ? 'block' : 'none';
+                    }
+                } catch (e) {
+                    // ignore
+                }
+            }
+
+            function loadConfig(page) {
+                Promise.all([
+                    ApiClient.getPluginConfiguration(pluginId),
+                    loadLibraries()
+                ]).then(function (arr) {
+                    var config = arr[0];
+                    var libraries = arr[1] || [];
+                    page.querySelector('#mdbApiKey').value = config.MdbListApiKey || '';
+
+                    fillSelect(page.querySelector('#movieCommunity'), (config.MovieCommunitySource || 'imdb').toLowerCase());
+                    fillSelect(page.querySelector('#movieCommunityFallback'), (config.MovieCommunityFallbackSource || 'none').toLowerCase());
+                    fillSelect(page.querySelector('#movieCritic'), (config.MovieCriticSource || 'metacritic').toLowerCase());
+                    fillSelect(page.querySelector('#movieCriticFallback'), (config.MovieCriticFallbackSource || 'none').toLowerCase());
+                    fillSelect(page.querySelector('#showCommunity'), (config.ShowCommunitySource || 'tmdb').toLowerCase());
+                    fillSelect(page.querySelector('#showCommunityFallback'), (config.ShowCommunityFallbackSource || 'none').toLowerCase());
+
+                    page.querySelector('#updateOnlyWhenEmpty').checked = (config.UpdateOnlyWhenEmpty !== false);
+                    page.querySelector('#enableWebIcons').checked = (config.EnableWebRatingSourceIcon !== false);
+                    page.querySelector('#enableWebAllRatings').checked = (config.EnableWebAllRatingsFromCache === true);
+
+
+page.querySelector('#enableWebExtraTomatoesCertified').checked = (config.EnableWebExtraTomatoesCertified === true);
+page.querySelector('#enableWebExtraRottenVerified').checked = (config.EnableWebExtraRottenVerified === true);
+page.querySelector('#enableWebExtraMetacriticMustSee').checked = (config.EnableWebExtraMetacriticMustSee === true);
+page.querySelector('#enableWebExtraAniList').checked = (config.EnableWebExtraAniList === true);
+            page.querySelector('#enableWebClickableRatingIcons').checked = (config.EnableWebClickableRatingIcons === true);
+                    // Web Details all-ratings panel: mode + custom order.
+                    var mode = normalizeWebAllRatingsMode(config.WebAllRatingsMode || config.webAllRatingsMode);
+                    var modeEl = page.querySelector('#webAllRatingsMode');
+                    if (modeEl) {
+                        modeEl.value = mode;
+                    }
+                    var orderEl = page.querySelector('#webAllRatingsOrder');
+                    if (orderEl) {
+                        orderEl.value = csvToMultiline(config.WebAllRatingsOrderCsv || config.webAllRatingsOrderCsv || '');
+                    }
+                    updateWebAllRatingsUi(page);
+
+                    // CacheInterval: 1=day, 2=week, 3=month.
+                    // Depending on Jellyfin JSON settings, enums may arrive as numbers (1) or strings ("Day").
+                    // Normalize to numeric values that match <option value="1|2|3">.
+                    var ciRaw = (config.CacheInterval ?? 0);
+                    var ci;
+
+                    if (typeof ciRaw === 'string') {
+                        var s = ciRaw.toLowerCase();
+                        if (s === 'day') ci = 1;
+                        else if (s === 'week') ci = 2;
+                        else if (s === 'month') ci = 3;
+                        else ci = 0;
+                    } else {
+                        ci = parseInt(ciRaw || 0, 10) || 0;
+                    }
+
+                    // Legacy configs may only have CacheHours.
+                    if (!ci) {
+                        var h = (config.CacheHours || 24);
+                        ci = (h >= 24 * 30) ? 3 : (h >= 24 * 7) ? 2 : 1;
+                    }
+
+                    page.querySelector('#cacheInterval').value = String(ci);
+                    page.querySelector('#requestDelayMs').value = config.RequestDelayMs || 0;
+
+                    // Per-library overrides
+                    renderOverrides(page, config, libraries);
+
+                    Dashboard.hideLoadingMsg();
+                });
+            }
+
+            function saveConfig(page) {
+                Dashboard.showLoadingMsg();
+
+                ApiClient.getPluginConfiguration(pluginId).then(function (config) {
+                    config.MdbListApiKey = page.querySelector('#mdbApiKey').value || '';
+
+                    config.MovieCommunitySource = page.querySelector('#movieCommunity').value;
+                    config.MovieCommunityFallbackSource = page.querySelector('#movieCommunityFallback').value;
+                    config.MovieCriticSource = page.querySelector('#movieCritic').value;
+                    config.MovieCriticFallbackSource = page.querySelector('#movieCriticFallback').value;
+                    config.ShowCommunitySource = page.querySelector('#showCommunity').value;
+                    config.ShowCommunityFallbackSource = page.querySelector('#showCommunityFallback').value;
+
+                    config.UpdateOnlyWhenEmpty = page.querySelector('#updateOnlyWhenEmpty').checked;
+                    config.EnableWebRatingSourceIcon = page.querySelector('#enableWebIcons').checked;
+                    config.EnableWebAllRatingsFromCache = page.querySelector('#enableWebAllRatings').checked;
+                    config.EnableWebClickableRatingIcons = page.querySelector('#enableWebClickableRatingIcons').checked;
+
+                    config.EnableWebExtraTomatoesCertified = page.querySelector('#enableWebExtraTomatoesCertified').checked;
+                    config.EnableWebExtraRottenVerified = page.querySelector('#enableWebExtraRottenVerified').checked;
+                    config.EnableWebExtraMetacriticMustSee = page.querySelector('#enableWebExtraMetacriticMustSee').checked;
+                    config.EnableWebExtraAniList = page.querySelector('#enableWebExtraAniList').checked;
+
+
+                    // Web Details all-ratings panel settings.
+                    var modeEl = page.querySelector('#webAllRatingsMode');
+                    config.WebAllRatingsMode = normalizeWebAllRatingsMode(modeEl ? modeEl.value : 'all');
+
+                    var orderEl = page.querySelector('#webAllRatingsOrder');
+                    config.WebAllRatingsOrderCsv = multilineToCsv(orderEl ? orderEl.value : '');
+
+                    config.CacheInterval = parseInt(page.querySelector('#cacheInterval').value || '1', 10);
+                    // Keep legacy CacheHours in sync for backward compatibility.
+                    config.CacheHours = (config.CacheInterval === 3) ? 720 : (config.CacheInterval === 2) ? 168 : 24;
+                    config.RequestDelayMs = parseInt(page.querySelector('#requestDelayMs').value || '0', 10);
+
+                    // Per-library overrides
+                    var overrides = [];
+                    var rows = page.querySelectorAll('.libraryOverrideRow');
+                    rows.forEach(function (row) {
+                        var libKeyInput = row.querySelector('.overrideLibraryKey');
+                        var libKey = (libKeyInput && libKeyInput.value) ? libKeyInput.value.trim() : '';
+
+                        // Optional: if user didn't type anything, fall back to dropdown selection.
+                        if (!libKey) {
+                            var libSel = row.querySelector('.overrideLibrarySelect');
+                            libKey = (libSel && libSel.value) ? String(libSel.value).trim() : '';
+                        }
+
+                        if (!libKey) {
+                            return; // skip incomplete rows
+                        }
+
+                        var libName = '';
+                        var libSel2 = row.querySelector('.overrideLibrarySelect');
+                        if (libSel2 && libSel2.options && libSel2.selectedIndex >= 0) {
+                            libName = (libSel2.options[libSel2.selectedIndex].textContent || '');
+                        }
+                        if (!libName && libKeyInput) {
+                            libName = (libKeyInput.getAttribute('data-selected-name') || '');
+                        }
+                        if (!libName) {
+                            libName = libKey; // for display only
+                        }
+                        overrides.push({
+                            // LibraryId is treated as "match key" (GUID or Name).
+                            LibraryId: libKey,
+                            LibraryName: libName,
+                            Enabled: !!(row.querySelector('.overrideEnabled') && row.querySelector('.overrideEnabled').checked),
+                            MovieCommunitySource: (row.querySelector('.ovMovieCommunity') || {}).value || '',
+                            MovieCommunityFallbackSource: (row.querySelector('.ovMovieCommunityFallback') || {}).value || '',
+                            MovieCriticSource: (row.querySelector('.ovMovieCritic') || {}).value || '',
+                            MovieCriticFallbackSource: (row.querySelector('.ovMovieCriticFallback') || {}).value || '',
+                            ShowCommunitySource: (row.querySelector('.ovShowCommunity') || {}).value || '',
+                            ShowCommunityFallbackSource: (row.querySelector('.ovShowCommunityFallback') || {}).value || ''
+                        });
+                    });
+
+                    config.LibraryOverrides = overrides;
+
+                    ApiClient.updatePluginConfiguration(pluginId, config).then(function () {
+                        Dashboard.processPluginConfigurationUpdateResult();
+                    });
+                });
+            }
+
+            document.addEventListener('pageshow', function (e) {
+                var page = e.target;
+                if (page.id === 'mdbListRatingsConfigPage') {
+                    loadConfig(page);
+                }
+            });
+
+            // UI visibility toggles for Web Details all-ratings panel settings.
+            getPage().querySelector('#enableWebAllRatings').addEventListener('change', function () {
+                updateWebAllRatingsUi(getPage());
+            });
+            getPage().querySelector('#webAllRatingsMode').addEventListener('change', function () {
+                updateWebAllRatingsUi(getPage());
+            });
+
+            getPage().querySelector('#addLibraryOverride').addEventListener('click', function () {
+                // Add a blank row using the currently loaded libraries (if any)
+                var wrap = getPage().querySelector('#libraryOverridesContainer');
+                var libs = (loadedLibraries || []);
+                if (!Array.isArray(libs)) {
+                    libs = [];
+                }
+                wrap.appendChild(createOverrideRow(libs, { Enabled: true }));
+            });
+
+            getPage().querySelector('#mdbListRatingsConfigForm').addEventListener('submit', function (e) {
+                e.preventDefault();
+                saveConfig(getPage());
+                return false;
+            });
+        })();
+    </script>
+
+</div>
+</body>
+</html>
