@@ -6,6 +6,10 @@ Jellyfin plugin for getting ratings from a website mdblist.com for movies and TV
 ```
 https://raw.githubusercontent.com/Druidblack/Jellyfin.Plugin.MDBList_Ratings/main/manifest.json
 ```
+
+To work with the plugin, you need to install [File Transformation](https://github.com/IAmParadox27/jellyfin-plugin-file-transformation)
+
+
 ## Description
 
 MDBList Ratings is a Jellyfin plugin that automatically fetches ratings from MDBList using a media item’s TMDb ID, writes selected ratings into Jellyfin’s built-in rating fields, and (optionally) enhances the Jellyfin Web UI with an “All ratings” panel showing every rating MDBList provides.
