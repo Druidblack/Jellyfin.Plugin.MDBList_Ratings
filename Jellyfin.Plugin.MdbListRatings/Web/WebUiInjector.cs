@@ -14,6 +14,48 @@ internal static class WebUiInjector
     private const string MarkerStart = "<!-- MDBListRatings:rating-source-icons:start -->";
     private const string MarkerEnd = "<!-- MDBListRatings:rating-source-icons:end -->";
 
+    /// <summary>
+    /// Transforms index.html contents by injecting (or updating) the MDBListRatings Web UI script block.
+    /// This is designed to be used with jellyfin-plugin-file-transformation (in-memory web file transforms)
+    /// and is idempotent (safe to run multiple times).
+    /// </summary>
+    /// <param name="html">Original index.html content.</param>
+    /// <param name="pluginId">This plugin's id, used by the injected script to fetch configuration.</param>
+    /// <returns>Transformed HTML.</returns>
+    internal static string TransformIndexHtml(string html, Guid pluginId)
+    {
+        if (string.IsNullOrEmpty(html))
+        {
+            return html;
+        }
+
+        var injection = BuildInjectionBlock(pluginId);
+
+        // If a previous version was injected, replace it in-place so updates take effect.
+        var startIdx = html.IndexOf(MarkerStart, StringComparison.Ordinal);
+        if (startIdx >= 0)
+        {
+            var endIdx = html.IndexOf(MarkerEnd, startIdx, StringComparison.Ordinal);
+            if (endIdx > startIdx)
+            {
+                endIdx += MarkerEnd.Length;
+                return html.Substring(0, startIdx)
+                    + injection
+                    + html.Substring(endIdx);
+            }
+            // If markers are malformed, fall through and re-inject at the end.
+        }
+
+        var insertPos = html.LastIndexOf("</body>", StringComparison.OrdinalIgnoreCase);
+        if (insertPos < 0)
+        {
+            // Fallback: append.
+            return html + Environment.NewLine + injection + Environment.NewLine;
+        }
+
+        return html.Insert(insertPos, injection + Environment.NewLine);
+    }
+
     public static void TryInject(IApplicationPaths applicationPaths, Guid pluginId, ILogger logger)
     {
         try
@@ -33,39 +75,8 @@ internal static class WebUiInjector
             }
 
             var html = File.ReadAllText(indexPath);
-            var injection = BuildInjectionBlock(pluginId);
-
-            // If a previous version was injected, replace it in-place so updates take effect.
-            var startIdx = html.IndexOf(MarkerStart, StringComparison.Ordinal);
-            if (startIdx >= 0)
-            {
-                var endIdx = html.IndexOf(MarkerEnd, startIdx, StringComparison.Ordinal);
-                if (endIdx > startIdx)
-                {
-                    endIdx += MarkerEnd.Length;
-                    html = html.Substring(0, startIdx)
-                        + injection
-                        + html.Substring(endIdx);
-
-                    File.WriteAllText(indexPath, html);
-                    logger.LogInformation("MDBListRatings: updated Web UI rating icon replacer in index.html. Refresh your browser to apply.");
-                    return;
-                }
-                // If markers are malformed, fall through and re-inject at the end.
-            }
-
-            var insertPos = html.LastIndexOf("</body>", StringComparison.OrdinalIgnoreCase);
-            if (insertPos < 0)
-            {
-                // Fallback: append.
-                html += Environment.NewLine + injection + Environment.NewLine;
-            }
-            else
-            {
-                html = html.Insert(insertPos, injection + Environment.NewLine);
-            }
-
-            File.WriteAllText(indexPath, html);
+            var transformed = TransformIndexHtml(html, pluginId);
+            File.WriteAllText(indexPath, transformed);
             logger.LogInformation("MDBListRatings: injected Web UI rating icon replacer into index.html. Refresh your browser to apply.");
         }
         catch (Exception ex)

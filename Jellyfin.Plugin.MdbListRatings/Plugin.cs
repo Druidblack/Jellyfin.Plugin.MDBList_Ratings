@@ -54,10 +54,8 @@ public class Plugin : BasePlugin<PluginConfiguration>, IHasWebPages
 
         Updater = new Ratings.RatingsUpdater(httpClientFactory, cacheDir, statePath, loggerFactory.CreateLogger<Ratings.RatingsUpdater>());
 
-        // Optional Web UI enhancement: replace the star icon with the provider logo
-        // for items where this plugin applied the rating (tracked via ProviderIds).
-        // This is injected once into jellyfin-web/index.html and persists until web files are updated.
-        WebUiInjector.TryInject(applicationPaths, Id, Log);
+        // Web UI enhancement (rating source icons, optional “all ratings” display, etc.)
+        // is registered via jellyfin-plugin-file-transformation at server startup.
     }
 
     public IEnumerable<PluginPageInfo> GetPages()
