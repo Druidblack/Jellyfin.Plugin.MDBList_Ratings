@@ -9,6 +9,14 @@
         "imageUrl": "https://raw.githubusercontent.com/Druidblack/Jellyfin.Plugin.MDBList_Ratings/main/images/logo.jpg",
         "versions": [
             {
+                "version": "1.0.0.1",
+                "changelog": "Added collaboration with the plugin [File Transformation](https://github.com/IAmParadox27/jellyfin-plugin-file-transformation)",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Druidblack/Jellyfin.Plugin.MDBList_Ratings/releases/download/Release-1.0.0.1/Release-1.0.0.1.zip",
+                "checksum": "0df2c9f428b4516f13044860b5b9d2f1",
+                "timestamp": "2026-02-21T16:50:00+00:00"
+            },
+            {
                 "version": "1.0.0.0",
                 "changelog": "Public release",
                 "targetAbi": "10.11.0.0",
