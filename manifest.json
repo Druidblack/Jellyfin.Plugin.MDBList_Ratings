@@ -12,7 +12,7 @@
                 "version": "1.0.0.2",
                 "changelog": "bug fix (index.html)",
                 "targetAbi": "10.11.0.0",
-                "sourceUrl": "https://github.com/Druidblack/Jellyfin.Plugin.MDBList_Ratings/releases/download/Release-1.0.0.1/Release-1.0.0.2.zip",
+                "sourceUrl": "https://github.com/Druidblack/Jellyfin.Plugin.MDBList_Ratings/releases/download/Release-1.0.0.2/Release-1.0.0.2.zip",
                 "checksum": "64d939307131efcba4e9605b5745f8a4",
                 "timestamp": "2026-02-24T13:05:00+00:00"
             },
