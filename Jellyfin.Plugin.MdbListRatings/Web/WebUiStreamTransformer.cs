@@ -18,6 +18,21 @@ internal static class WebUiStreamTransformer
             throw new ArgumentNullException(nameof(contents));
         }
 
+        // Safety guard:
+        // Some versions/configurations of jellyfin-plugin-file-transformation treat the provided
+        // match string as a regex (where '.' matches any character). In that case, a pattern like
+        // "index.html" may unintentionally match files such as "playback-video-index-html.*.js".
+        // We must *only* transform the real Jellyfin Web entry file: "index.html".
+        if (!IsExactIndexHtmlPath(path))
+        {
+            if (contents.CanSeek)
+            {
+                contents.Seek(0, SeekOrigin.Begin);
+            }
+
+            return;
+        }
+
         // Read current HTML.
         string html;
         contents.Seek(0, SeekOrigin.Begin);
@@ -53,5 +68,28 @@ internal static class WebUiStreamTransformer
         }
 
         contents.Seek(0, SeekOrigin.Begin);
+    }
+
+    private static bool IsExactIndexHtmlPath(string path)
+    {
+        if (string.IsNullOrWhiteSpace(path))
+        {
+            return false;
+        }
+
+        // Strip query/hash just in case we get URL-like paths.
+        var p = path;
+        var q = p.IndexOfAny(new[] { '?', '#' });
+        if (q >= 0)
+        {
+            p = p.Substring(0, q);
+        }
+
+        // Normalize separators and take the last segment.
+        p = p.Replace('\\', '/');
+        var slash = p.LastIndexOf('/');
+        var file = slash >= 0 ? p.Substring(slash + 1) : p;
+
+        return string.Equals(file, "index.html", StringComparison.OrdinalIgnoreCase);
     }
 }
