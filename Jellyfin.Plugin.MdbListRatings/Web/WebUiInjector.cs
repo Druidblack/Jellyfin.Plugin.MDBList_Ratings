@@ -131,13 +131,49 @@ internal static class WebUiInjector
       anilist:            'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/anilist.png'
     };
 
+    // Resolve the Jellyfin base URL (e.g. "" or "/jellyfin") even before ApiClient is ready.
+    // This is needed when Jellyfin is hosted under a sub-path via reverse proxy.
+    var _basePrefix = null;
+    function getBasePrefix(){
+      if (_basePrefix !== null) return _basePrefix;
+      try {
+        // Typical pathname values:
+        //   /web/index.html
+        //   /jellyfin/web/index.html
+        //   /jellyfin/web/
+        var p = (window.location && window.location.pathname) ? String(window.location.pathname) : '';
+        var pl = p.toLowerCase();
+
+        var idx = pl.indexOf('/web/');
+        if (idx >= 0) {
+          _basePrefix = p.substring(0, idx);
+        } else {
+          // Handle rare cases like "/jellyfin/web" (no trailing slash)
+          idx = pl.indexOf('/web');
+          _basePrefix = (idx >= 0) ? p.substring(0, idx) : '';
+        }
+
+        // Normalize
+        if (_basePrefix === '/' || _basePrefix === '') {
+          _basePrefix = '';
+        } else if (_basePrefix.charAt(_basePrefix.length - 1) === '/') {
+          _basePrefix = _basePrefix.slice(0, -1);
+        }
+      } catch (e) {
+        _basePrefix = '';
+      }
+      return _basePrefix;
+    }
+
     function asset(name){
       try {
         if (window.ApiClient && window.ApiClient.getUrl) {
+          // ApiClient.getUrl() correctly accounts for Base URL.
           return window.ApiClient.getUrl('Plugins/MdbListRatings/Assets/' + name, {});
         }
       } catch (e) {}
-      return '/Plugins/MdbListRatings/Assets/' + name;
+      // Fallback that still respects Base URL when hosted under a sub-path.
+      return getBasePrefix() + '/Plugins/MdbListRatings/Assets/' + name;
     }
 
     function localizeIconUrl(url){
