@@ -8,10 +8,10 @@
 
     <AssemblyName>Jellyfin.Plugin.MdbListRatings</AssemblyName>
     <RootNamespace>Jellyfin.Plugin.MdbListRatings</RootNamespace>
-    <Version>1.0.0.2</Version>
-    <AssemblyVersion>1.0.0.2</AssemblyVersion>
-    <FileVersion>1.0.0.2</FileVersion>
-    <InformationalVersion>1.0.0.2</InformationalVersion>
+    <Version>1.0.0.1</Version>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.3</FileVersion>
+    <InformationalVersion>1.0.0.3</InformationalVersion>
     <!-- IMPORTANT: match your Jellyfin Server version (e.g. 10.11.5) -->
     <JellyfinVersion>10.11.5</JellyfinVersion>
   </PropertyGroup>
