@@ -29,6 +29,7 @@ public class Plugin : BasePlugin<PluginConfiguration>, IHasWebPages
     internal string PluginDataPath { get; }
 
     internal Ratings.RatingsUpdater Updater { get; }
+    internal Api.WebExtrasCacheStore WebExtrasCache { get; }
 
     public Plugin(
         IApplicationPaths applicationPaths,
@@ -51,8 +52,10 @@ public class Plugin : BasePlugin<PluginConfiguration>, IHasWebPages
 
         var cacheDir = Path.Combine(PluginDataPath, "cache");
         var statePath = Path.Combine(PluginDataPath, "state.json");
+        var webExtrasCacheDir = Path.Combine(PluginDataPath, "web-extras-cache");
 
         Updater = new Ratings.RatingsUpdater(httpClientFactory, cacheDir, statePath, loggerFactory.CreateLogger<Ratings.RatingsUpdater>());
+        WebExtrasCache = new Api.WebExtrasCacheStore(webExtrasCacheDir, loggerFactory.CreateLogger<Api.WebExtrasCacheStore>());
 
         // Web UI enhancement (rating source icons, optional “all ratings” display, etc.)
         // is registered via jellyfin-plugin-file-transformation at server startup.
