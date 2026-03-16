@@ -110,6 +110,9 @@ internal static class WebUiInjector
     var IMG_CLASS = 'mdblist-rating-icon-img';
     var STAR_SHRINK_CLASS = 'mdblist-star-shrink';
     var STYLE_ID = 'mdblist-rating-icon-style';
+    var DETAILS_AWARDS_CONTAINER_CLASS = 'mdblist-awards-details-container';
+    var DETAILS_AWARD_BADGE_CLASS = 'mdblist-award-badge';
+    var DETAILS_AWARD_SUMMARY_CLASS = 'mdblist-award-summary-badge';
 
     var ICONS = {
       imdb:               'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/IMDb.png',
@@ -128,7 +131,9 @@ internal static class WebUiInjector
       letterboxd:         'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/letterboxd.png',
       kinopoisk:          'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/kinopoisk.png',
       myanimelist:        'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/mal.png',
-      anilist:            'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/anilist.png'
+      anilist:            'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/anilist.png',
+      tvmaze:             asset('tvmaze.png'),
+      imdb_top_250:       asset('imdb_top_250.png')
     };
 
     // Resolve the Jellyfin base URL (e.g. "" or "/jellyfin") even before ApiClient is ready.
@@ -167,13 +172,18 @@ internal static class WebUiInjector
 
     function asset(name){
       try {
-        if (window.ApiClient && window.ApiClient.getUrl) {
-          // ApiClient.getUrl() correctly accounts for Base URL.
-          return window.ApiClient.getUrl('Plugins/MdbListRatings/Assets/' + name, {});
+        if (window.ApiClient && typeof window.ApiClient.getUrl === 'function') {
+          var resolved = window.ApiClient.getUrl('Plugins/MdbListRatings/Assets/' + name, {});
+          resolved = (resolved == null) ? '' : String(resolved);
+          if (resolved && resolved !== 'undefined' && resolved.indexOf('undefined/') !== 0 && resolved.indexOf('/undefined/') < 0) {
+            return resolved;
+          }
         }
       } catch (e) {}
       // Fallback that still respects Base URL when hosted under a sub-path.
-      return getBasePrefix() + '/Plugins/MdbListRatings/Assets/' + name;
+      var prefix = getBasePrefix();
+      if (typeof prefix !== 'string' || prefix === 'undefined') prefix = '';
+      return prefix + '/Plugins/MdbListRatings/Assets/' + name;
     }
 
     function localizeIconUrl(url){
@@ -260,9 +270,15 @@ internal static class WebUiInjector
         '.mdblist-allratings-container{display:flex;flex-wrap:wrap;align-items:center;gap:0.8em;}' +
         '.mdblist-allratings-item{display:inline-flex;align-items:center;gap:0.25em;}' +
         '.mdblist-allratings-icon{display:inline-block;height:1.35em;width:auto;vertical-align:-0.22em;object-fit:contain;max-width:3.2em;}' +
-        '.mdblist-allratings-link{display:inline-flex;align-items:center;text-decoration:none;}' +
-        '.mdblist-allratings-link:hover{text-decoration:none;}' +
-        '.mdblist-allratings-link img{cursor:pointer;}';
+        '.mdblist-allratings-link{display:inline-flex !important;align-items:center !important;justify-content:flex-start !important;gap:0 !important;margin:0 !important;padding:0 !important;min-width:0 !important;width:auto !important;height:auto !important;line-height:1 !important;background:transparent !important;border:0 !important;box-shadow:none !important;border-radius:0 !important;color:inherit !important;text-decoration:none !important;vertical-align:middle !important;}' +
+        '.mdblist-allratings-link[is="emby-linkbutton"],.mdblist-allratings-link[is="emby-linkbutton"]:hover,.mdblist-allratings-link[is="emby-linkbutton"]:focus,.mdblist-allratings-link[is="emby-linkbutton"]:active{display:inline-flex !important;align-items:center !important;justify-content:flex-start !important;gap:0 !important;margin:0 !important;padding:0 !important;min-width:0 !important;width:auto !important;height:auto !important;line-height:1 !important;background:transparent !important;border:0 !important;box-shadow:none !important;border-radius:0 !important;color:inherit !important;text-decoration:none !important;outline:none !important;}' +
+        '.mdblist-allratings-link:hover{text-decoration:none !important;}' +
+        '.mdblist-allratings-link img{cursor:pointer;margin:0 !important;}' +
+        '.mdblist-awards-container{display:flex;flex-wrap:wrap;align-items:center;gap:0.55em;}' +
+        '.mdblist-award-badge{display:inline-flex;align-items:center;}' +
+        '.mdblist-award-icon{display:inline-block;height:1.5em;width:auto;vertical-align:-0.22em;object-fit:contain;max-width:3.4em;}' +
+        '.mdblist-award-summary-icon{display:inline-flex;align-items:center;justify-content:center;min-width:1.5em;height:1.5em;padding:0 0.42em;border-radius:999px;box-sizing:border-box;font-size:0.82em;line-height:1;font-weight:700;background:rgba(255,255,255,0.12);border:1px solid rgba(255,255,255,0.28);color:inherit;}' +
+        '.mdblist-award-summary-badge{display:inline-flex;align-items:center;}';
       document.head.appendChild(style);
     }
 
@@ -330,7 +346,7 @@ internal static class WebUiInjector
 
       // If ApiClient isn't ready or doesn't expose getPluginConfiguration, default to disabled.
       if (!hasApiClient() || !window.ApiClient.getPluginConfiguration){
-        _allRatingsSettings = { enabled: false, mode: 'all', order: [], extras: { tc:false, rv:false, mc:false, al:false }, clickable: false };
+        _allRatingsSettings = { enabled: false, mode: 'all', order: [], extras: { tc:false, rv:false, mc:false, al:false }, clickable: false, top250: false, awards: { enabled: false, keys: [], nominations: false } };
         return Promise.resolve(_allRatingsSettings);
       }
 
@@ -345,10 +361,10 @@ internal static class WebUiInjector
           mc: !!(cfg && (cfg.EnableWebExtraMetacriticMustSee === true)),
           al: !!(cfg && (cfg.EnableWebExtraAniList === true))
         };
-        _allRatingsSettings = { enabled: enabled, mode: mode, order: order, extras: extras, clickable: !!(cfg && (cfg.EnableWebClickableRatingIcons === true)) };
+        _allRatingsSettings = { enabled: enabled, mode: mode, order: order, extras: extras, clickable: !!(cfg && (cfg.EnableWebClickableRatingIcons === true)), top250: !!(cfg && (cfg.EnableImdbTop250Icon === true)), awards: { enabled: !!(cfg && (cfg.EnableWebAwardBadges === true)), keys: parseSourcesList(cfg ? (cfg.WebAwardKeysCsv || cfg.webAwardKeysCsv || '') : ''), nominations: !!(cfg && (cfg.EnableWebAwardNominationsBadge === true)) } };
         return _allRatingsSettings;
       }).catch(function(){
-        _allRatingsSettings = { enabled: false, mode: 'all', order: [], extras: { tc:false, rv:false, mc:false, al:false }, clickable: false };
+        _allRatingsSettings = { enabled: false, mode: 'all', order: [], extras: { tc:false, rv:false, mc:false, al:false }, clickable: false, top250: false, awards: { enabled: false, keys: [], nominations: false } };
         return _allRatingsSettings;
       }).finally(function(){
         _allRatingsSettingsPromise = null;
@@ -375,6 +391,62 @@ internal static class WebUiInjector
       if (!window.ApiClient) return Promise.reject(new Error('ApiClient not ready'));
       if (window.ApiClient.getJSON) return window.ApiClient.getJSON(url);
       return window.ApiClient.ajax({ url: url, type: 'GET', dataType: 'json' });
+    }
+
+    var _top250Index = null;
+    var _top250IndexPromise = null;
+
+    function normalizeImdbId(imdbId){
+      try {
+        var s = String(imdbId || '').trim();
+        if (!s) return null;
+        if (s.toLowerCase().indexOf('tt') !== 0) return null;
+        return s.toLowerCase();
+      } catch (e) {
+        return null;
+      }
+    }
+
+    function ensureTop250Index(){
+      if (_top250Index !== null) return Promise.resolve(_top250Index);
+      if (_top250IndexPromise) return _top250IndexPromise;
+      if (!hasApiClient()) {
+        _top250Index = { enabled: false, hasCache: false, ids: Object.create(null) };
+        return Promise.resolve(_top250Index);
+      }
+
+      var url = window.ApiClient.getUrl('Plugins/MdbListRatings/ImdbTop250Index', {});
+      _top250IndexPromise = ajaxJson(url).then(function(resp){
+        var ids = (resp && (resp.ids || resp.Ids)) || [];
+        var map = Object.create(null);
+        for (var i=0;i<ids.length;i++) {
+          var norm = normalizeImdbId(ids[i]);
+          if (norm) map[norm] = true;
+        }
+        _top250Index = { enabled: !!(resp && (resp.enabled !== false)), hasCache: !!(resp && (resp.hasCache === true || resp.HasCache === true)), ids: map };
+        return _top250Index;
+      }).catch(function(){
+        _top250Index = { enabled: false, hasCache: false, ids: Object.create(null) };
+        return _top250Index;
+      }).finally(function(){
+        _top250IndexPromise = null;
+      });
+
+      return _top250IndexPromise;
+    }
+
+    function isImdbTop250(imdbId){
+      var norm = normalizeImdbId(imdbId);
+      if (!norm || !_top250Index || !_top250Index.ids) return false;
+      return _top250Index.ids[norm] === true;
+    }
+
+    function resolveDisplaySource(source, imdbId, settings){
+      var src = String(source || '').toLowerCase();
+      if (src === 'imdb' && settings && settings.top250 === true && isImdbTop250(imdbId)) {
+        return 'imdb_top_250';
+      }
+      return src;
     }
 
     function parseItemIdFromHref(href){
@@ -427,7 +499,7 @@ internal static class WebUiInjector
       return true;
     }
 
-    var itemCache = Object.create(null); // itemId -> { source: string|null, community: number|null }
+    var itemCache = Object.create(null); // itemId -> { source, community, tmdbId, imdbId, contentType, votes, tooltip, tooltipLoaded, tooltipInflight }
     var inflight = Object.create(null);
 
     function toIconKey(source, communityRating0to10){
@@ -448,12 +520,16 @@ internal static class WebUiInjector
       return s;
     }
 
-    function applyIconToEl(el, itemId, source, communityRating){
-      var iconKey = toIconKey(source, communityRating);
+    function applyIconToEl(el, itemId, source, communityRating, settings){
+      var info = itemCache[itemId] || null;
+      var displaySource = resolveDisplaySource(source, info ? info.imdbId : null, settings);
+      var iconKey = toIconKey(displaySource, communityRating);
       var url = iconKey ? ICONS[iconKey] : null;
       if (!url) return;
 
       ensureStyle();
+      var title = buildRatingTooltip(displaySource, info ? info.votes : null);
+      var alt = getSourceDisplayName(displaySource);
 
       // If an icon image is already right after the star, just update it.
       var next = el && el.nextElementSibling;
@@ -461,22 +537,28 @@ internal static class WebUiInjector
         try {
           if (next.getAttribute('data-mdblist-icon') !== iconKey) next.setAttribute('data-mdblist-icon', iconKey);
           if (next.getAttribute('data-mdblist-itemid') !== itemId) next.setAttribute('data-mdblist-itemid', itemId);
-          if (next.title !== iconKey) next.title = iconKey;
-          if (next.alt !== iconKey) next.alt = iconKey;
+          if (next.title !== title) next.title = title;
+          if (next.alt !== alt) next.alt = alt;
           if (next.src !== url) next.src = url;
+          if (next.getAttribute('data-mdblist-source') !== String(displaySource || '').toLowerCase()) next.setAttribute('data-mdblist-source', String(displaySource || '').toLowerCase());
         } catch (e) {}
-        // Ensure the star is visually hidden when icons are enabled.
+        next.__mdblistTooltipSource = String(source || '').toLowerCase();
+        next.__mdblistTooltipDisplaySource = String(displaySource || '').toLowerCase();
+        if (!next.__mdblistTooltipBound) {
+          next.__mdblistTooltipBound = true;
+          next.addEventListener('mouseenter', function(){ ensureIconTooltip(next, itemId, next.__mdblistTooltipSource || source, next.__mdblistTooltipDisplaySource || displaySource); });
+        }
         try { el.classList.add(STAR_SHRINK_CLASS); } catch (e) {}
         return;
       }
 
-      // Insert after the star. Do NOT hide or replace the star (test mode).
       var img = document.createElement('img');
       img.className = IMG_CLASS;
       img.setAttribute('data-mdblist-icon', iconKey);
       img.setAttribute('data-mdblist-itemid', itemId);
-      img.alt = iconKey;
-      img.title = iconKey;
+      img.setAttribute('data-mdblist-source', String(displaySource || '').toLowerCase());
+      img.alt = alt;
+      img.title = title;
       img.loading = 'lazy';
       img.decoding = 'async';
       try { img.referrerPolicy = 'no-referrer'; } catch (e) {}
@@ -485,7 +567,10 @@ internal static class WebUiInjector
         try { img.remove(); } catch (e) {}
       };
 
+      img.__mdblistTooltipSource = String(source || '').toLowerCase();
+      img.__mdblistTooltipDisplaySource = String(displaySource || '').toLowerCase();
       img.src = url;
+      img.addEventListener('mouseenter', function(){ ensureIconTooltip(img, itemId, img.__mdblistTooltipSource || source, img.__mdblistTooltipDisplaySource || displaySource); });
 
       try {
         el.insertAdjacentElement('afterend', img);
@@ -493,7 +578,6 @@ internal static class WebUiInjector
         try { el.parentNode && el.parentNode.insertBefore(img, el.nextSibling); } catch (e2) {}
       }
 
-      // Option enabled: visually hide/shrink the star so only the rating icon is visible.
       try { el.classList.add(STAR_SHRINK_CLASS); } catch (e) {}
     }
 
@@ -502,6 +586,8 @@ internal static class WebUiInjector
     var DETAILS_HIDE_CLASS = 'mdblist-hide-default-rating';
     var _detailsLastItemId = null;
     var _detailsInflightId = null;
+    var _detailsAwardsLastItemId = null;
+    var _detailsAwardsInflightId = null;
 
     function isDetailsPage(){
       var h = (window.location && window.location.hash) ? window.location.hash : '';
@@ -543,12 +629,20 @@ internal static class WebUiInjector
       return boxes[0];
     }
 
-    function removeCustomFromBox(box){
+    function removeCustomFromBox(box, includeAwards){
       if (!box) return;
+      if (includeAwards === undefined) includeAwards = true;
       try {
         var existing = box.querySelectorAll('.' + DETAILS_CONTAINER_CLASS);
         for (var i=0;i<existing.length;i++) {
           try { existing[i].remove(); } catch(e2) {}
+        }
+      } catch (e) {}
+      if (!includeAwards) return;
+      try {
+        var awards = box.querySelectorAll('.' + DETAILS_AWARDS_CONTAINER_CLASS);
+        for (var j=0;j<awards.length;j++) {
+          try { awards[j].remove(); } catch(e3) {}
         }
       } catch (e) {}
     }
@@ -573,6 +667,13 @@ internal static class WebUiInjector
       } catch (e) {}
 
       try {
+        var awardNodes = document.querySelectorAll('.' + DETAILS_AWARDS_CONTAINER_CLASS);
+        for (var k=0;k<awardNodes.length;k++) {
+          try { awardNodes[k].remove(); } catch(e4) {}
+        }
+      } catch (e) {}
+
+      try {
         var hidden = document.querySelectorAll('.' + DETAILS_HIDE_CLASS);
         for (var j=0;j<hidden.length;j++) {
           try { hidden[j].classList.remove(DETAILS_HIDE_CLASS); } catch(e3) {}
@@ -581,6 +682,8 @@ internal static class WebUiInjector
 
       _detailsLastItemId = null;
       _detailsInflightId = null;
+      _detailsAwardsLastItemId = null;
+      _detailsAwardsInflightId = null;
     }
 
     function parseItemIdFromHash(){
@@ -616,6 +719,104 @@ internal static class WebUiInjector
       return null;
     }
 
+
+    function getSourceDisplayName(source){
+      var s = String(source || '').toLowerCase();
+      if (!s) return 'Rating';
+      var map = {
+        imdb: 'IMDb',
+        imdb_top_250: 'IMDb Top 250',
+        tmdb: 'TMDb',
+        trakt: 'Trakt',
+        tomatoes: 'Rotten Tomatoes',
+        popcorn: 'Rotten Tomatoes Audience',
+        metacritic: 'Metacritic',
+        metacriticus: 'Metacritic User',
+        metacriticuser: 'Metacritic User',
+        metacriticms: 'Metacritic Must-See',
+        letterboxd: 'Letterboxd',
+        rogerebert: 'RogerEbert.com',
+        anilist: 'AniList',
+        tvmaze: 'TVmaze'
+      };
+      if (map[s]) return map[s];
+      return s.charAt(0).toUpperCase() + s.slice(1);
+    }
+
+    function formatVotesCount(votes){
+      var n = Number(votes);
+      if (!isFinite(n) || n <= 0) return null;
+      try {
+        return new Intl.NumberFormat(undefined).format(Math.round(n));
+      } catch (e) {
+        return String(Math.round(n));
+      }
+    }
+
+    function buildRatingTooltip(source, votes){
+      var title = getSourceDisplayName(source);
+      var fv = formatVotesCount(votes);
+      if (!fv) return title;
+      return title + '\nVotes: ' + fv;
+    }
+
+    function tryGetVotesFromRating(r){
+      if (!r) return null;
+      var votes = (r.votes !== undefined && r.votes !== null) ? Number(r.votes) : ((r.Votes !== undefined && r.Votes !== null) ? Number(r.Votes) : null);
+      if (!isFinite(votes) || votes <= 0) return null;
+      return votes;
+    }
+
+    function findVotesForSource(ratings, source){
+      var src = String(source || '').toLowerCase();
+      if (!src || !ratings || !ratings.length) return null;
+      for (var i=0;i<ratings.length;i++) {
+        var r = ratings[i];
+        if (!r) continue;
+        var rsrc = String(r.source || r.Source || '').toLowerCase();
+        if (rsrc !== src) continue;
+        var votes = tryGetVotesFromRating(r);
+        if (votes !== null) return votes;
+      }
+      return null;
+    }
+
+    function ensureIconTooltip(img, itemId, source, displaySource){
+      if (!img || !itemId || !source) return;
+      var info = itemCache[itemId];
+      var shownSource = displaySource || source;
+      var baseTitle = buildRatingTooltip(shownSource, info ? info.votes : null);
+      try {
+        if (img.title !== baseTitle) img.title = baseTitle;
+        if (img.alt !== getSourceDisplayName(shownSource)) img.alt = getSourceDisplayName(shownSource);
+      } catch (e) {}
+
+      if (!info || info.tooltipLoaded || info.tooltipInflight) return;
+      if (!info.contentType) return;
+      if (info.contentType !== 'season' && info.contentType !== 'episode' && !info.tmdbId) return;
+
+      info.tooltipInflight = true;
+      var url = (info.contentType === 'season' || info.contentType === 'episode')
+        ? window.ApiClient.getUrl('Plugins/MdbListRatings/CachedByItemId', { itemId: itemId })
+        : window.ApiClient.getUrl('Plugins/MdbListRatings/CachedByTmdb', { type: info.contentType, tmdbId: info.tmdbId });
+      ajaxJson(url).then(function(resp){
+        if (!resp || resp.hasCache === false || resp.HasCache === false) return;
+        var ratings = resp.ratings || resp.Ratings || [];
+        var votes = findVotesForSource(ratings, source);
+        if (votes !== null) info.votes = votes;
+        info.tooltip = buildRatingTooltip(shownSource, info.votes);
+        info.tooltipLoaded = true;
+        try {
+          img.title = info.tooltip;
+          img.alt = getSourceDisplayName(shownSource);
+        } catch (e) {}
+      }).catch(function(){
+        // ignore
+      }).finally(function(){
+        info.tooltipInflight = false;
+      });
+    }
+
     
     function isDigitsOnly(s){
       try { return /^[0-9]+$/.test(String(s||'')); } catch (e) { return false; }
@@ -628,6 +829,39 @@ internal static class WebUiInjector
       if (s.indexOf('http://') === 0 || s.indexOf('https://') === 0) return s;
       if (s[0] !== '/') s = '/' + s;
       return s;
+    }
+
+    function setExternalLinkBehavior(el, url){
+      if (!el || !url) return false;
+      try {
+        el.href = url;
+        el.target = '_blank';
+        el.rel = 'nofollow noopener noreferrer';
+        el.setAttribute('is', 'emby-linkbutton');
+        el.setAttribute('data-mdblist-external-link', 'true');
+        try {
+          el.style.display = 'inline-flex';
+          el.style.alignItems = 'center';
+          el.style.justifyContent = 'flex-start';
+          el.style.gap = '0';
+          el.style.margin = '0';
+          el.style.padding = '0';
+          el.style.minWidth = '0';
+          el.style.width = 'auto';
+          el.style.height = 'auto';
+          el.style.lineHeight = '1';
+          el.style.background = 'transparent';
+          el.style.border = '0';
+          el.style.boxShadow = 'none';
+          el.style.borderRadius = '0';
+          el.style.textDecoration = 'none';
+          el.style.color = 'inherit';
+        } catch (styleErr) {}
+        return true;
+      } catch (e) {
+        try { el.href = url; } catch (e2) {}
+        return false;
+      }
     }
 
     function buildProviderHref(src, rating, ctx){
@@ -646,9 +880,30 @@ internal static class WebUiInjector
           return null;
         }
 
+        // TVmaze
+        if (src === 'tvmaze') {
+          if (!rawUrl) return null;
+          var tvmazeUrl = String(rawUrl).trim();
+          if (!tvmazeUrl) return null;
+          if (tvmazeUrl.indexOf('http://') === 0 || tvmazeUrl.indexOf('https://') === 0) return tvmazeUrl;
+          if (tvmazeUrl.indexOf('/') === 0) return 'https://www.tvmaze.com' + tvmazeUrl;
+          return 'https://www.tvmaze.com/' + tvmazeUrl.replace(/^\/+/, '');
+        }
+
         // TMDb
         if (src === 'tmdb') {
+          if (rawUrl) {
+            var tmdbUrl = String(rawUrl).trim();
+            if (tmdbUrl.indexOf('http://') === 0 || tmdbUrl.indexOf('https://') === 0) return tmdbUrl;
+            if (tmdbUrl.indexOf('/') === 0) return 'https://www.themoviedb.org' + tmdbUrl;
+          }
           if (tmdbId) {
+            if (ctx && ctx.contentType === 'episode' && ctx.seasonNumber !== undefined && ctx.seasonNumber !== null && ctx.episodeNumber !== undefined && ctx.episodeNumber !== null) {
+              return 'https://www.themoviedb.org/tv/' + String(tmdbId).trim() + '/season/' + String(ctx.seasonNumber).trim() + '/episode/' + String(ctx.episodeNumber).trim();
+            }
+            if (ctx && ctx.contentType === 'season' && ctx.seasonNumber !== undefined && ctx.seasonNumber !== null) {
+              return 'https://www.themoviedb.org/tv/' + String(tmdbId).trim() + '/season/' + String(ctx.seasonNumber).trim();
+            }
             var kind = (ctx && ctx.contentType === 'show') ? 'tv' : 'movie';
             return 'https://www.themoviedb.org/' + kind + '/' + String(tmdbId).trim();
           }
@@ -657,7 +912,18 @@ internal static class WebUiInjector
 
         // Trakt (use imdb id)
         if (src === 'trakt') {
+          if (rawUrl) {
+            var traktUrl = String(rawUrl).trim();
+            if (traktUrl.indexOf('http://') === 0 || traktUrl.indexOf('https://') === 0) return traktUrl;
+            if (traktUrl.indexOf('/') === 0) return 'https://trakt.tv' + traktUrl;
+          }
           if (imdbId) {
+            if (ctx && ctx.contentType === 'episode' && ctx.seasonNumber !== undefined && ctx.seasonNumber !== null && ctx.episodeNumber !== undefined && ctx.episodeNumber !== null) {
+              return 'https://trakt.tv/shows/' + String(imdbId).trim() + '/seasons/' + String(ctx.seasonNumber).trim() + '/episodes/' + String(ctx.episodeNumber).trim();
+            }
+            if (ctx && ctx.contentType === 'season' && ctx.seasonNumber !== undefined && ctx.seasonNumber !== null) {
+              return 'https://trakt.tv/shows/' + String(imdbId).trim() + '/seasons/' + String(ctx.seasonNumber).trim();
+            }
             var kind2 = (ctx && ctx.contentType === 'show') ? 'shows' : 'movies';
             return 'https://trakt.tv/' + kind2 + '/' + String(imdbId).trim();
           }
@@ -749,17 +1015,22 @@ function buildAllRatingsContainer(ratings, itemId, settings, ctx){
         var fmt = formatCachedRating(r);
         if (!fmt) continue;
 
-        var iconUrl = getIconUrlForSource(src, fmt.rating0to10);
-        if (!iconUrl) iconUrl = getFallbackIconUrl(src) || ICONS.tmdb;
+        var ids = (ctx && (ctx.ids || ctx.Ids)) || {};
+        var imdbId = ids.imdb || ids.Imdb || null;
+        var displaySource = resolveDisplaySource(src, imdbId, settings);
+        var iconUrl = getIconUrlForSource(displaySource, fmt.rating0to10);
+        if (!iconUrl) iconUrl = getFallbackIconUrl(displaySource) || ICONS.tmdb;
 
         var item = document.createElement('span');
         item.className = 'mdblist-allratings-item';
-        item.title = src;
+        item.setAttribute('data-rating-source', src);
+        var ratingTitle = buildRatingTooltip(displaySource, tryGetVotesFromRating(r));
+        item.title = ratingTitle;
 
         var img = document.createElement('img');
         img.className = 'mdblist-allratings-icon';
-        img.alt = src;
-        img.title = src;
+        img.alt = getSourceDisplayName(displaySource);
+        img.title = ratingTitle;
         img.loading = 'lazy';
         img.decoding = 'async';
         try { img.referrerPolicy = 'no-referrer'; } catch (e) {}
@@ -771,9 +1042,7 @@ function buildAllRatingsContainer(ratings, itemId, settings, ctx){
           if (href) {
             var a = document.createElement('a');
             a.className = 'mdblist-allratings-link';
-            a.href = href;
-            a.target = '_blank';
-            a.rel = 'nofollow noopener noreferrer';
+            setExternalLinkBehavior(a, href);
             a.appendChild(img);
             item.appendChild(a);
           } else {
@@ -793,33 +1062,286 @@ function buildAllRatingsContainer(ratings, itemId, settings, ctx){
       return container;
     }
 
-    function fetchItemDetailsForTmdb(itemId){
+    function buildAwardBadgeItem(badge){
+      if (!badge) return null;
+
+      var isNominationSummary = (badge.nominationSummary === true) || (badge.NominationSummary === true) || (badge.type === 'nominations') || (badge.Type === 'nominations');
+      var item = document.createElement('span');
+      item.className = 'mdblist-allratings-item ' + DETAILS_AWARD_BADGE_CLASS + (isNominationSummary ? (' ' + DETAILS_AWARD_SUMMARY_CLASS) : '');
+      if (badge.key || badge.Key) {
+        item.setAttribute('data-award-key', (badge.key || badge.Key) + '');
+      }
+
+      var title = (badge.tooltip || badge.Tooltip || badge.name || badge.Name || badge.key || badge.Key || 'award') + '';
+      item.title = title;
+
+      if (isNominationSummary) {
+        var summary = document.createElement('span');
+        summary.className = 'mdblist-allratings-icon mdblist-award-summary-icon';
+        summary.textContent = 'N';
+        summary.title = title;
+        summary.setAttribute('aria-label', (badge.name || badge.Name || 'Nominations') + '');
+        item.appendChild(summary);
+        return item;
+      }
+
+      var iconFile = badge.iconFile || badge.IconFile || null;
+      if (!iconFile) return null;
+
+      var img = document.createElement('img');
+      img.className = 'mdblist-allratings-icon mdblist-award-icon';
+      img.alt = (badge.name || badge.Name || badge.key || badge.Key || 'award') + '';
+      img.title = title;
+      img.loading = 'lazy';
+      img.decoding = 'async';
+      try { img.referrerPolicy = 'no-referrer'; } catch (e) {}
+      img.src = asset(iconFile);
+      item.appendChild(img);
+
+      return item;
+    }
+
+    function buildNominationSummaryBadge(summary){
+      if (!summary) return null;
+      var tooltip = (summary.tooltip || summary.Tooltip || '') + '';
+      if (!tooltip) return null;
+      return {
+        key: '__nominations__',
+        name: (summary.name || summary.Name || 'Nominations') + '',
+        tooltip: tooltip,
+        nominationSummary: true,
+        awardCount: summary.awardCount || summary.AwardCount || 0,
+        categoryCount: summary.categoryCount || summary.CategoryCount || 0
+      };
+    }
+
+    function buildStandaloneAwardsContainer(badges, itemId){
+      var container = document.createElement('div');
+      container.className = 'mediaInfoItem mdblist-awards-container ' + DETAILS_AWARDS_CONTAINER_CLASS;
+      try { container.setAttribute('data-mdblist-itemid', itemId); } catch (e) {}
+
+      for (var i=0;i<(badges || []).length;i++) {
+        var node = buildAwardBadgeItem(badges[i]);
+        if (node) {
+          container.appendChild(node);
+        }
+      }
+
+      return container;
+    }
+
+    function appendAwardsToExistingContainer(container, badges){
+      if (!container || !badges || !badges.length) return 0;
+
+      var added = 0;
+      for (var i=0;i<badges.length;i++) {
+        var badge = badges[i];
+        if (!badge) continue;
+
+        var key = (badge.key || badge.Key || '').toString().toLowerCase();
+        if (key) {
+          try {
+            if (container.querySelector('.' + DETAILS_AWARD_BADGE_CLASS + '[data-award-key="' + key + '"]')) {
+              continue;
+            }
+          } catch (e) {}
+        }
+
+        var node = buildAwardBadgeItem(badge);
+        if (node) {
+          container.appendChild(node);
+          added++;
+        }
+      }
+
+      return added;
+    }
+
+    function runDetailsAwardBadges(settings){
+      if (!isDetailsPage()) {
+        if (_detailsAwardsLastItemId !== null) clearDetailsCustom();
+        return;
+      }
+
+      var awardSettings = settings && settings.awards ? settings.awards : { enabled: false, keys: [], nominations: false };
+
+      var itemId = parseItemIdFromHash();
+      if (!itemId) return;
+
+      var box = getActiveDetailsBox();
+      if (!box) return;
+
+      if (!awardSettings.enabled) {
+        try {
+          var existingDisabled = box.querySelectorAll('.' + DETAILS_AWARDS_CONTAINER_CLASS);
+          for (var d=0; d<existingDisabled.length; d++) {
+            try { existingDisabled[d].remove(); } catch (e2) {}
+          }
+        } catch (e) {}
+        _detailsAwardsLastItemId = null;
+        _detailsAwardsInflightId = null;
+        return;
+      }
+
+      if (_detailsAwardsLastItemId && _detailsAwardsLastItemId !== itemId) {
+        try {
+          var oldAwards = box.querySelectorAll('.' + DETAILS_AWARDS_CONTAINER_CLASS);
+          for (var o=0;o<oldAwards.length;o++) {
+            try { oldAwards[o].remove(); } catch (e3) {}
+          }
+        } catch (e) {}
+      }
+
+      var existingStandalone = null;
+      try { existingStandalone = box.querySelector('.' + DETAILS_AWARDS_CONTAINER_CLASS + '[data-mdblist-itemid="' + itemId + '"]'); } catch (e) {}
+      if (existingStandalone) {
+        _detailsAwardsLastItemId = itemId;
+        return;
+      }
+
+      var existingInline = null;
+      try { existingInline = box.querySelector('.' + DETAILS_CONTAINER_CLASS + '[data-mdblist-itemid="' + itemId + '"]'); } catch (e) {}
+      if (existingInline) {
+        try {
+          var existingBadges = existingInline.querySelectorAll('.' + DETAILS_AWARD_BADGE_CLASS);
+          if (existingBadges && existingBadges.length) {
+            _detailsAwardsLastItemId = itemId;
+            return;
+          }
+        } catch (e) {}
+      }
+
+      if (_detailsAwardsInflightId === itemId) return;
+
+      var anchor = existingInline ||
+        box.querySelector('div.mediaInfoItem.mediaInfoCriticRating') ||
+        box.querySelector('div.starRatingContainer.mediaInfoItem');
+
+      if (!anchor) return;
+
+      _detailsAwardsInflightId = itemId;
+
+      fetchItemDetailsForTmdb(itemId).then(function(info){
+        if (!info) return null;
+
+        function fetchByKnownImdb(imdbId){
+          if (!imdbId) return Promise.resolve(null);
+          return fetchAwardsByImdb(imdbId, awardSettings.keys).then(function(resp){
+            return { info: info, resp: resp };
+          });
+        }
+
+        if (info.imdbId) {
+          return fetchByKnownImdb(info.imdbId);
+        }
+
+        if (!info.tmdbId || !info.contentType) {
+          return null;
+        }
+
+        return fetchCachedRatingsByTmdb(info.contentType, info.tmdbId).then(function(resp){
+          var ids = (resp && (resp.ids || resp.Ids)) || {};
+          var imdbId = ids.imdb || ids.Imdb || null;
+          if (!imdbId) return null;
+          return fetchByKnownImdb(imdbId);
+        });
+      }).then(function(pack){
+        if (!pack || !pack.resp) return;
+
+        var resp = pack.resp;
+        var badges = resp.badges || resp.Badges || [];
+        var nominationSummary = awardSettings.nominations ? (resp.nominationSummary || resp.NominationSummary || null) : null;
+        var renderBadges = [];
+        if (badges && badges.length) renderBadges = renderBadges.concat(badges);
+        var nominationBadge = buildNominationSummaryBadge(nominationSummary);
+        if (nominationBadge) renderBadges.push(nominationBadge);
+        var hasAwards = renderBadges.length > 0;
+
+        if (!hasAwards) return;
+
+        ensureStyle();
+
+        var inlineContainer = null;
+        try { inlineContainer = box.querySelector('.' + DETAILS_CONTAINER_CLASS + '[data-mdblist-itemid="' + itemId + '"]'); } catch (e) {}
+        if (inlineContainer) {
+          appendAwardsToExistingContainer(inlineContainer, renderBadges);
+          _detailsAwardsLastItemId = itemId;
+          return;
+        }
+
+        try {
+          var stale = box.querySelectorAll('.' + DETAILS_AWARDS_CONTAINER_CLASS);
+          for (var s=0;s<stale.length;s++) {
+            try { stale[s].remove(); } catch (e2) {}
+          }
+        } catch (e) {}
+
+        var container = buildStandaloneAwardsContainer(renderBadges, itemId);
+        if (!container || !container.children || !container.children.length) return;
+
+        var insertAfter = anchor;
+        try {
+          insertAfter.insertAdjacentElement('afterend', container);
+        } catch (e) {
+          try { insertAfter.parentNode && insertAfter.parentNode.insertBefore(container, insertAfter.nextSibling); } catch (e2) {}
+        }
+
+        _detailsAwardsLastItemId = itemId;
+      }).catch(function(){
+        // ignore
+      }).finally(function(){
+        if (_detailsAwardsInflightId === itemId) _detailsAwardsInflightId = null;
+      });
+    }
+
+    function fetchItemDetailsForRatings(itemId){
       try {
         var userId = getUserId();
         if (!userId) return Promise.resolve(null);
-        var url = window.ApiClient.getUrl('Users/' + userId + '/Items/' + itemId, { Fields: 'ProviderIds,ProductionYear,OriginalTitle' });
+        var url = window.ApiClient.getUrl('Users/' + userId + '/Items/' + itemId, { Fields: 'ProviderIds,ProductionYear,OriginalTitle,IndexNumber' });
         return ajaxJson(url).then(function(item){
           if (!item) return null;
           var p = item.ProviderIds || item.providerIds || {};
           var tmdbId = p.Tmdb || p.tmdb || p.TMDb || p.TMDB || null;
-          if (!tmdbId) return null;
+          var imdbId = p.Imdb || p.imdb || p.IMDb || p.IMDB || null;
           var type = (item.Type || item.type || '').toString();
           var contentType = null;
           if (type === 'Movie') contentType = 'movie';
           else if (type === 'Series') contentType = 'show';
+          else if (type === 'Season') contentType = 'season';
+          else if (type === 'Episode') contentType = 'episode';
           else return null;
           var title = (item.OriginalTitle || item.originalTitle || item.Name || item.name || '') + '';
           var year = (item.ProductionYear || item.productionYear || null);
-          return { contentType: contentType, tmdbId: String(tmdbId), title: title, year: year ? Number(year) : null };
+          var seasonNumber = (item.ParentIndexNumber !== undefined && item.ParentIndexNumber !== null)
+            ? Number(item.ParentIndexNumber)
+            : ((item.IndexNumber !== undefined && item.IndexNumber !== null && contentType === 'season') ? Number(item.IndexNumber) : null);
+          var episodeNumber = (contentType === 'episode' && item.IndexNumber !== undefined && item.IndexNumber !== null) ? Number(item.IndexNumber) : null;
+          return { contentType: contentType, tmdbId: tmdbId ? String(tmdbId) : null, imdbId: imdbId ? String(imdbId) : null, title: title, year: year ? Number(year) : null, seasonNumber: seasonNumber, episodeNumber: episodeNumber, itemId: itemId };
         });
       } catch (e) {
         return Promise.resolve(null);
       }
     }
 
+    function fetchItemDetailsForTmdb(itemId){
+      return fetchItemDetailsForRatings(itemId);
+    }
+
     function fetchCachedRatingsByTmdb(contentType, tmdbId){
       try {
+        if (!contentType || !tmdbId) return Promise.resolve(null);
         var url = window.ApiClient.getUrl('Plugins/MdbListRatings/CachedByTmdb', { type: contentType, tmdbId: tmdbId });
+        return ajaxJson(url);
+      } catch (e) {
+        return Promise.resolve(null);
+      }
+    }
+
+    function fetchCachedRatingsByItemId(itemId){
+      try {
+        if (!itemId) return Promise.resolve(null);
+        var url = window.ApiClient.getUrl('Plugins/MdbListRatings/CachedByItemId', { itemId: itemId });
         return ajaxJson(url);
       } catch (e) {
         return Promise.resolve(null);
@@ -844,6 +1366,19 @@ function buildAllRatingsContainer(ratings, itemId, settings, ctx){
       }
     }
 
+    function fetchAwardsByImdb(imdbId, keys){
+      try {
+        if (!imdbId) return Promise.resolve(null);
+        var url = window.ApiClient.getUrl('Plugins/MdbListRatings/AwardsByImdb', {
+          imdbId: imdbId,
+          keys: (keys && keys.length) ? keys.join(',') : ''
+        });
+        return ajaxJson(url);
+      } catch (e) {
+        return Promise.resolve(null);
+      }
+    }
+
 
     function runDetailsAllRatings(settings){
       if (!isDetailsPage()) {
@@ -860,7 +1395,7 @@ function buildAllRatingsContainer(ratings, itemId, settings, ctx){
 
       // If the feature is disabled, ensure we restore the original UI.
       if (!settings || settings.enabled !== true) {
-        try { removeCustomFromBox(box); } catch (e) {}
+        try { removeCustomFromBox(box, false); } catch (e) {}
         try { unhideDefaultInBox(box); } catch (e) {}
         _detailsLastItemId = null;
         _detailsInflightId = null;
@@ -885,9 +1420,12 @@ function buildAllRatingsContainer(ratings, itemId, settings, ctx){
 
       _detailsInflightId = itemId;
 
-      fetchItemDetailsForTmdb(itemId).then(function(info){
+      fetchItemDetailsForRatings(itemId).then(function(info){
         if (!info) return null;
-        return fetchCachedRatingsByTmdb(info.contentType, info.tmdbId).then(function(resp){
+        var cachePromise = (info.contentType === 'season' || info.contentType === 'episode')
+          ? fetchCachedRatingsByItemId(info.itemId)
+          : fetchCachedRatingsByTmdb(info.contentType, info.tmdbId);
+        return cachePromise.then(function(resp){
           return { info: info, resp: resp };
         });
       }).then(function(pack){
@@ -940,6 +1478,8 @@ function buildAllRatingsContainer(ratings, itemId, settings, ctx){
           : Promise.resolve(null);
 
         return extrasPromise.then(function(extras){
+          var top250Promise = (settings && settings.top250 === true) ? ensureTop250Index() : Promise.resolve(null);
+          return top250Promise.then(function(){
 
           // Add AniList as a virtual rating (web-only). Not saved anywhere.
           if (extras && want.al && extras.anilistScore !== undefined && extras.anilistScore !== null) {
@@ -958,7 +1498,7 @@ function buildAllRatingsContainer(ratings, itemId, settings, ctx){
           removeCustomFromBox(box);
 
           var ids = resp.ids || resp.Ids || null;
-          var container = buildAllRatingsContainer(ratings, itemId, settings, { contentType: pack.info.contentType, ids: ids });
+          var container = buildAllRatingsContainer(ratings, itemId, settings, { contentType: pack.info.contentType, ids: ids, seasonNumber: pack.info.seasonNumber, episodeNumber: pack.info.episodeNumber });
           if (!container || !container.children || container.children.length === 0) return;
 
           hideDefaultRatingsBlocks(box);
@@ -974,7 +1514,7 @@ function buildAllRatingsContainer(ratings, itemId, settings, ctx){
           }
 
           function findIcon(key){
-            try { return container.querySelector('.mdblist-allratings-item[title=\"' + key + '\"] img'); } catch (e) { return null; }
+            try { return container.querySelector('.mdblist-allratings-item[data-rating-source=\"' + key + '\"] img'); } catch (e) { return null; }
           }
 
           // Replace base icons with badge-specific icons when applicable.
@@ -992,6 +1532,7 @@ function buildAllRatingsContainer(ratings, itemId, settings, ctx){
           }
 
           _detailsLastItemId = itemId;
+          });
         });
       }).catch(function(){
         // ignore
@@ -1037,12 +1578,30 @@ function buildAllRatingsContainer(ratings, itemId, settings, ctx){
           if (!it || !it.Id) continue;
           var pids = it.ProviderIds || it.ProviderID || it.ProviderIdsMap || it.ProviderIds; // tolerate variants
           var src = null;
+          var tmdbId = null;
+          var imdbId = null;
           if (pids && typeof pids === 'object') {
             src = pids[PROVIDER_KEY] || pids[PROVIDER_KEY.toLowerCase()] || null;
+            tmdbId = pids.Tmdb || pids.tmdb || pids.TMDB || null;
+            imdbId = pids.Imdb || pids.imdb || pids.IMDb || null;
           }
+          var contentType = null;
+          var type = String(it.Type || it.type || '').toLowerCase();
+          if (type === 'movie') contentType = 'movie';
+          else if (type === 'series') contentType = 'show';
+          else if (type === 'season') contentType = 'season';
+          else if (type === 'episode') contentType = 'episode';
+
           itemCache[it.Id] = {
             source: src,
-            community: (typeof it.CommunityRating === 'number') ? it.CommunityRating : null
+            community: (typeof it.CommunityRating === 'number') ? it.CommunityRating : null,
+            tmdbId: tmdbId,
+            imdbId: imdbId,
+            contentType: contentType,
+            votes: null,
+            tooltip: buildRatingTooltip(src, null),
+            tooltipLoaded: false,
+            tooltipInflight: false
           };
         }
       }).catch(function(){
@@ -1065,9 +1624,10 @@ function buildAllRatingsContainer(ratings, itemId, settings, ctx){
         return;
       }
 
-      // Details page feature (independent from the star-icon feature).
+      // Details page features (independent from the star-icon feature).
       ensureAllRatingsSettings().then(function(st){
         runDetailsAllRatings(st);
+        runDetailsAwardBadges(st);
       });
 
       ensureIconsEnabled().then(function(en){
@@ -1102,12 +1662,18 @@ function buildAllRatingsContainer(ratings, itemId, settings, ctx){
       });
 
       p.then(function(){
-        // Apply icons.
+        return ensureAllRatingsSettings();
+      }).then(function(settings){
+        if (settings && settings.top250 === true) {
+          return ensureTop250Index().then(function(){ return settings; });
+        }
+        return settings || { top250: false };
+      }).then(function(settings){
         for (var i=0;i<targets.length;i++) {
           var t = targets[i];
           var info = itemCache[t.itemId];
           if (!info || !info.source) continue;
-          applyIconToEl(t.el, t.itemId, info.source, info.community);
+          applyIconToEl(t.el, t.itemId, info.source, info.community, settings);
         }
       });
     }
