@@ -8,10 +8,10 @@
 
     <AssemblyName>Jellyfin.Plugin.MdbListRatings</AssemblyName>
     <RootNamespace>Jellyfin.Plugin.MdbListRatings</RootNamespace>
-    <Version>1.0.0.4</Version>
-    <AssemblyVersion>1.0.0.4</AssemblyVersion>
-    <FileVersion>1.0.0.4</FileVersion>
-    <InformationalVersion>1.0.0.4</InformationalVersion>
+    <Version>1.0.0.5</Version>
+    <AssemblyVersion>1.0.0.5</AssemblyVersion>
+    <FileVersion>1.0.0.5</FileVersion>
+    <InformationalVersion>1.0.0.5</InformationalVersion>
     <!-- IMPORTANT: match your Jellyfin Server version (e.g. 10.11.5) -->
     <JellyfinVersion>10.11.5</JellyfinVersion>
   </PropertyGroup>
@@ -23,11 +23,15 @@
     <PackageReference Include="Jellyfin.Model" Version="$(JellyfinVersion)">
       <ExcludeAssets>runtime</ExcludeAssets>
     </PackageReference>
+    <PackageReference Include="YamlDotNet" Version="15.1.2" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Configuration\configPage.html" />
     <EmbeddedResource Include="Assets\**\*.*" />
+    <EmbeddedResource Include="AwardData\**\*.json" />
+    <EmbeddedResource Include="AwardData\**\*.yml" />
+    <EmbeddedResource Include="AwardData\**\*.yaml" />
   </ItemGroup>
 
   <!-- Needed for ASP.NET Core MVC attributes/controllers (plugin API endpoint) -->
