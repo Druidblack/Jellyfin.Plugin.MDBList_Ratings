@@ -1,0 +1,1975 @@
+# People's Choice Awards, USA
+'2024':  # https://www.imdb.com/event/ev0000530/2024/1/
+  people's choice award:
+    comedy act of the year:
+      nominee: [tt23571908, tt26753138, tt26931915, tt27141610, tt27443713, tt27791865, tt28227488, tt30895036]
+      winner: [tt23571908]
+    the action movie of the year:
+      nominee: [tt10366206, tt10545296, tt10676048, tt10954600, tt5090568, tt5433140, tt6791350, tt9603212]
+      winner: [tt10545296]
+    the action movie star of the year:
+      nominee: [tt10366206, tt10545296, tt10676048, tt13603966, tt6791350, tt9603212, tt9663764]
+      winner: [tt10545296]
+    the bingeworthy show of the year:
+      nominee: [tt11704040, tt13918776, tt14016500, tt14403178, tt14661396, tt22074164, tt4786824, tt9794044]
+      winner: [tt14016500]
+    the comedy movie of the year:
+      nominee: [tt14209916, tt14230388, tt1517268, tt15671028, tt18079362, tt26047818, tt6166392, tt9185206]
+      winner: [tt1517268]
+    the comedy movie star of the year:
+      nominee: [tt14230388, tt1517268, tt15671028, tt21276878, tt26047818, tt6166392]
+      winner: [tt15671028]
+    the comedy show of the year:
+      nominee: [tt0072562, tt10062292, tt10986410, tt11691774, tt13819960, tt14218830, tt14452776, tt6226232]
+      winner: [tt11691774]
+    the comedy tv star of the year:
+      nominee: [tt0072562, tt10986410, tt11691774, tt14218830, tt14403178, tt14452776]
+      winner: [tt14452776]
+    the competition contestant of the year:
+      nominee: [tt0319931, tt0348894, tt0463398, tt10023294, tt1353056, tt27789140]
+      winner: [tt0463398]
+    the competition show of the year:
+      nominee: [tt0239195, tt0251497, tt0319931, tt0463398, tt0759364, tt1353056, tt1839337, tt28104766]
+      winner: [tt1839337]
+    the daytime talk show of the year:
+      nominee: [tt0044298, tt0072506, tt0096636, tt0123366, tt10827252, tt15847104, tt18300006, tt9022950]
+      winner: [tt9022950]
+    the drama movie of the year:
+      nominee: [tt11145118, tt1200263, tt12747748, tt15398776, tt17663992, tt4589218, tt5537002, tt8760708]
+      winner: [tt15398776]
+    the drama movie star of the year:
+      nominee: [tt11145118, tt1200263, tt12747748, tt15398776, tt17663992, tt22041854, tt5537002]
+      winner: [tt17663992]
+    the drama show of the year:
+      nominee: [tt0203259, tt0413573, tt10293938, tt10813940, tt2261391, tt3581920, tt7203552, tt7660850]
+      winner: [tt3581920]
+    the drama tv star of the year:
+      nominee: [tt0203259, tt10293938, tt3581920, tt7203552, tt7660850]
+      winner: [tt7203552]
+    the female movie star of the year:
+      nominee: [tt10545296, tt12747748, tt1517268, tt15398776, tt15671028, tt17663992, tt5971474]
+      winner: [tt1517268]
+    the female tv star of the year:
+      nominee: [tt0203259, tt10986410, tt11691774, tt13622776, tt14218830, tt14403178, tt7203552]
+      winner: [tt11691774]
+    the host of the year:
+      nominee: [tt0319931, tt0437005, tt0759364, tt0765425, tt10023294, tt1249208, tt1353056, tt7670568]
+      winner: [tt10023294]
+    the male movie star of the year:
+      nominee: [tt10366206, tt11145118, tt1517268, tt15398776, tt5537002, tt6166392, tt6791350, tt9603212]
+      winner: [tt1517268]
+    the male tv star of the year:
+      nominee: [tt10293938, tt10986410, tt11691774, tt13157618, tt14452776, tt3581920, tt7660850, tt9140554]
+      winner: [tt3581920]
+    the movie of the year:
+      nominee: [tt1517268, tt15398776, tt28814949, tt5433140, tt5971474, tt6718170, tt6791350, tt9362722]
+      winner: [tt1517268]
+    the movie performance of the year:
+      nominee: [tt1200263, tt13651794, tt1517268, tt16419074, tt17351924, tt5971474]
+      winner: [tt1517268]
+    the nighttime talk show of the year:
+      nominee: [tt0115147, tt0320037, tt14809614, tt2057880, tt3444938, tt3513388, tt3530232, tt3697842]
+      winner: [tt3444938]
+    the reality show of the year:
+      nominee: [tt1411598, tt15791630, tt1720601, tt2342499, tt2343157, tt6142940, tt7686456, tt9817298]
+      winner: [tt15791630]
+    the reality tv star of the year:
+      nominee: [tt1252370, tt15791630, tt1720601, tt2343157, tt7686456, tt9817298]
+      winner: [tt15791630]
+    the sci-fi/fantasy show of the year:
+      nominee: [tt11379026, tt13157618, tt13622776, tt1844624, tt2085059, tt5180504, tt8111088, tt9140554]
+      winner: [tt9140554]
+    the show of the year:
+      nominee: [tt0072562, tt0203259, tt0413573, tt10986410, tt11691774, tt14452776, tt2343157, tt3581920]
+      winner: [tt0413573]
+    the tv performance of the year:
+      nominee: [tt11691774, tt14403178, tt14452776, tt14661396, tt14961048, tt15384586, tt3581920, tt7203552]
+      winner: [tt14961048]
+'2022': # https://www.imdb.com/event/ev0000530/2022/1/
+  people's choice award:
+    the action movie of 2022:
+      nominee: [tt10648342, tt12593682, tt1745960, tt1877830, tt6443346, tt8041270, tt8093700, tt9419884]
+      winner: [tt1745960]
+    the action movie star of 2022:
+      nominee: [tt10648342, tt12593682, tt1745960, tt1877830, tt6443346, tt8041270, tt8093700, tt9419884]
+      winner: [tt9419884]
+    the bingeworthy show of 2022:
+      nominee: [tt11280740, tt1190634, tt12878838, tt13207736, tt13984270, tt14452776, tt8740790, tt8740976]
+      winner: [tt13207736]
+    the comedy movie of 2022:
+      nominee: [tt10223460, tt11909878, tt13320622, tt14109724, tt15218000, tt2463208, tt5315212, tt8009428]
+      winner: [tt2463208]
+    the comedy movie star of 2022:
+      nominee: [tt10223460, tt13320622, tt14109724, tt2463208, tt8009428]
+      winner: [tt8009428]
+    the comedy show of 2022:
+      nominee: [tt0072562, tt10062292, tt11639952, tt11691774, tt13315324, tt14218830, tt3487356, tt6226232]
+      winner: [tt10062292]
+    the comedy tv star of 2022:
+      nominee: [tt0072562, tt10062292, tt11639952, tt11691774, tt13315324, tt14218830, tt3487356]
+      winner: [tt11691774]
+    the competition contestant of 2022:
+      nominee: [tt0319931, tt0348894, tt0463398, tt0759364, tt1353056, tt7670568]
+      winner: [tt0463398]
+    the competition show of 2022:
+      nominee: [tt0319931, tt0348894, tt0463398, tt0759364, tt1353056, tt16232892, tt1839337, tt7670568]
+      winner: [tt1839337]
+    the daytime talk show of 2022:
+      nominee: [tt0072506, tt0096636, tt0123366, tt0379623, tt10827252, tt15847104, tt18884302, tt9022950]
+      winner: [tt9022950]
+    the drama movie of 2022:
+      nominee: [tt10665342, tt10731256, tt10954984, tt11245972, tt3704428, tt4595186, tt7657566, tt9411972]
+      winner: [tt10731256]
+    the drama movie star of 2022:
+      nominee: [tt10665342, tt10731256, tt10954984, tt3704428, tt4595186, tt7657566]
+      winner: [tt3704428]
+    the drama show of 2022:
+      nominee: [tt0203259, tt0413573, tt1520211, tt3032476, tt5071412, tt5555260, tt7221388, tt8772296]
+      winner: [tt0413573]
+    the drama tv star of 2022:
+      nominee: [tt0203259, tt0413573, tt1520211, tt5071412, tt5555260, tt8772296]
+      winner: [tt0203259]
+    the female movie star of 2022:
+      nominee: [tt10223460, tt10954984, tt12593682, tt2463208, tt7657566, tt8009428, tt8093700, tt9419884]
+      winner: [tt9419884]
+    the female tv star of 2022:
+      nominee: [tt0203259, tt0413573, tt10062292, tt11691774, tt13315324, tt14218830, tt4574334, tt5555260]
+      winner: [tt0413573]
+    the male movie star of 2022:
+      nominee: [tt10648342, tt10954984, tt12593682, tt1745960, tt2463208, tt6443346, tt8041270]
+      winner: [tt10648342]
+    the male tv star of 2022:
+      nominee: [tt0203259, tt10234724, tt11639952, tt1520211, tt4574334, tt5071412, tt5555260, tt8466564]
+      winner: [tt4574334]
+    the movie of 2022:
+      nominee: [tt10648342, tt10954984, tt12593682, tt1745960, tt1877830, tt3704428, tt8041270, tt9419884]
+      winner: [tt9419884]
+    the music video of 2022:
+      nominee: [tt16964776, tt18075692, tt19336582, tt19800004, tt21001342, tt21111956, tt21835204, tt22890016]
+      winner: [tt22890016]
+    the nighttime talk show of 2022:
+      nominee: [tt0115147, tt0320037, tt2057880, tt3444938, tt3513388, tt3530232, tt3697842, tt4280606]
+      winner: [tt3444938]
+    the pop podcast of 2022:
+      nominee: [tt21920936]
+      winner: [tt21920936]
+    the reality show of 2022:
+      nominee: [tt10087444, tt1252370, tt15791630, tt1720601, tt2224452, tt7252812, tt7686456, tt9817298]
+      winner: [tt15791630]
+    the reality tv star of 2022:
+      nominee: [tt1252370, tt15791630, tt1720601, tt7686456, tt9817298]
+      winner: [tt15791630]
+    the sci-fi/fantasy show of 2022:
+      nominee: [tt10234724, tt10857160, tt11198330, tt11640018, tt1312171, tt4574334, tt7631058, tt8466564]
+      winner: [tt4574334]
+    the show of 2022:
+      nominee: [tt0072562, tt0413573, tt11198330, tt14218830, tt3032476, tt4574334, tt5555260, tt8466564]
+      winner: [tt4574334]
+'2021': # https://www.imdb.com/event/ev0000530/2021/1/
+  people's choice award:
+    favorite action movie star:
+      nominee: [tt2382320, tt3480822, tt5433138, tt9376612, tt9777666]
+      winner: [tt9376612]
+    favorite comedy movie:
+      nominee: [tt6264654]
+      winner: [tt6264654]
+    favorite comedy movie star:
+      nominee: [tt6264654]
+      winner: []
+    favorite female movie star:
+      nominee: [tt2452150, tt3480822, tt5433138, tt6334354, tt6802400, tt8385148, tt9376612]
+      winner: [tt3480822]
+    favorite male movie star:
+      nominee: [tt0870154, tt2382320, tt5433138, tt6264654, tt6802400, tt9376612, tt9777666]
+      winner: [tt0870154]
+    favorite movie:
+      nominee: [tt1160419, tt2382320, tt3480822, tt5433138, tt6802400, tt7097896, tt9376612, tt9777666]
+      winner: [tt3480822]
+    people's choice awards honoree:
+      nominee: [tt10919420, tt9140554]
+      winner: []
+    the bingeworthy show of 2021:
+      nominee: [tt10155688, tt10293938, tt10839422, tt10919420, tt10986410, tt13406094, tt7221388, tt9140554]
+      winner: [tt10919420]
+    the comedy movie of 2021:
+      nominee: [tt0870154, tt10121392, tt3554046, tt3626476, tt4590256, tt6264654, tt6802400, tt8385148]
+      winner: [tt6264654]
+    the comedy movie star of 2021:
+      nominee: [tt0870154, tt10121392, tt6264654, tt6802400, tt8385148]
+      winner: [tt0870154]
+    the comedy show of 2021:
+      nominee: [tt0072562, tt10062292, tt10945036, tt10986410, tt11639952, tt11691774, tt2467372, tt7018644]
+      winner: [tt10062292]
+    the comedy tv star of 2021:
+      nominee: [tt0072562, tt10945036, tt10986410, tt11639952, tt11691774, tt2467372, tt7018644]
+      winner: [tt11691774]
+    the drama movie of 2021:
+      nominee: [tt10665338, tt10954652, tt1160419, tt1321510, tt2452150, tt3228774, tt4733624, tt8332922]
+      winner: [tt3228774]
+    the drama show of 2021:
+      nominee: [tt0203259, tt0413573, tt10293938, tt11242246, tt1520211, tt5555260, tt7221388, tt7235466]
+      winner: [tt0413573]
+    the drama tv star of 2021:
+      nominee: [tt0203259, tt0413573, tt10293938, tt11242246, tt1520211, tt5555260, tt7235466]
+      winner: [tt10293938]
+    the family movie of 2021:
+      nominee: [tt10155932, tt12801262, tt1361336, tt5109280, tt6338498, tt6932874, tt7979580, tt8521876]
+      winner: [tt12801262]
+    the female tv star of 2021:
+      nominee: [tt0203259, tt0413573, tt11242246, tt5555260, tt7018644, tt7235466, tt9140560]
+      winner: [tt0413573]
+    the male tv star of 2021:
+      nominee: [tt0072562, tt10293938, tt10986410, tt11639952, tt1520211, tt5555260, tt9140554, tt9208876]
+      winner: [tt9140554]
+    the sci-fi/fantasy show of 2021:
+      nominee: [tt11192306, tt11640018, tt2403776, tt3107288, tt4052886, tt9140554, tt9140560, tt9208876]
+      winner: [tt4052886]
+    the show of 2021:
+      nominee: [tt0072562, tt0203259, tt0313038, tt0413573, tt5555260, tt7221388, tt9140554, tt9140560]
+      winner: [tt9140554]
+  special achievement award:
+    people's icon:
+      nominee: [tt10919420]
+      winner: []
+'2020': # https://www.imdb.com/event/ev0000530/2020/1/
+  people's choice award:
+    favorite action movie:
+      nominee: [tt1502397, tt1634106, tt4566758, tt6723592, tt7550000, tt7556122, tt7713068, tt8936646]
+      winner: [tt4566758]
+    favorite action movie star:
+      nominee: [tt1502397, tt1634106, tt6723592, tt7550000, tt7556122, tt7713068, tt8936646]
+      winner: [tt8936646]
+    favorite comedy movie:
+      nominee: [tt1086064, tt7545266, tt8580274, tt8851668, tt9354842, tt9619798, tt9686708, tt9784456]
+      winner: [tt9784456]
+    favorite comedy movie star:
+      nominee: [tt1086064, tt7545266, tt8580274, tt8851668, tt9354842, tt9619798, tt9686708, tt9784456]
+      winner: [tt9784456]
+    favorite comedy tv star:
+      nominee: [tt0072562, tt1442437, tt3526078, tt4955642, tt5024912, tt7018644, tt8064302]
+      winner: [tt1442437]
+    favorite drama movie star:
+      nominee: [tt10059518, tt1051906, tt6048922, tt7798646, tt8503618, tt8544498, tt9308382, tt9779516]
+      winner: [tt8503618]
+    favorite drama show:
+      nominee: [tt0203259, tt10293938, tt1520211, tt3281796, tt5071412, tt5420376, tt5555260]
+      winner: [tt5420376]
+    favorite drama tv star:
+      nominee: [tt0203259, tt0413573, tt10293938, tt1520211, tt5420376, tt5555260, tt7016936]
+      winner: [tt5555260]
+    favorite female movie star:
+      nominee: [tt10183816, tt1051906, tt1502397, tt7545266, tt7556122, tt7713068, tt8851668]
+      winner: [tt7545266]
+    favorite female tv star:
+      nominee: [tt0203259, tt0413573, tt1442437, tt1520211, tt5420376, tt5555260, tt7016936, tt8064302]
+      winner: [tt0413573]
+    favorite male movie star:
+      nominee: [tt1502397, tt1634106, tt6048922, tt6673612, tt7550000, tt8503618, tt8629748, tt8936646]
+      winner: [tt1502397]
+    favorite male tv star:
+      nominee: [tt0413573, tt10293938, tt1520211, tt3526078, tt5071412, tt5420376, tt5555260, tt9612516]
+      winner: [tt5420376]
+    favorite motion picture:
+      nominee: [tt1051906, tt1502397, tt6587640, tt7550000, tt7556122, tt7713068, tt8503618, tt8936646]
+      winner: [tt1502397]
+    favorite reality tv star:
+      nominee: [tt1086761, tt1252370, tt12872744, tt1720601, tt7259746]
+      winner: [tt1086761]
+    favorite sci-fi/fantasy show:
+      nominee: [tt0460681, tt1312171, tt3007572, tt3107288, tt4016454, tt4532368, tt4878326, tt8103070]
+      winner: [tt4878326]
+    the bingeworthy show of 2020:
+      nominee: [tt10062292, tt10293938, tt11426660, tt11704040, tt11823076, tt3526078, tt5071412, tt9059760]
+      winner: [tt10293938]
+    the music video of 2020:
+      nominee: [tt12992692]
+      winner: []
+'2019': # https://www.imdb.com/event/ev0000530/2019/1/
+  people's choice award:
+    favorite action movie:
+      nominee: [tt0448115, tt3741700, tt4154664, tt4154796, tt6146586, tt6320628, tt6565702, tt6806448]
+      winner: [tt4154796]
+    favorite action movie star:
+      nominee: [tt4154664, tt4154796, tt6146586, tt6320628, tt6565702, tt6806448]
+      winner: [tt6320628]
+    favorite animated movie star:
+      nominee: [tt1979376, tt2386490, tt3513498, tt5113040, tt5884052, tt6095472, tt6105098]
+      winner: [tt6105098]
+    favorite comedy movie:
+      nominee: [tt1298644, tt1618434, tt1987680, tt2139881, tt2283336, tt6977338, tt8079248, tt8085790]
+      winner: [tt1618434]
+    favorite comedy movie star:
+      nominee: [tt1618434, tt1987680, tt2452244, tt6107548, tt6513120, tt7374948, tt8201170]
+      winner: [tt8201170]
+    favorite comedy show:
+      nominee: [tt0072562, tt0898266, tt1442437, tt1759761, tt2372162, tt3526078, tt4955642, tt7018644]
+      winner: [tt0898266]
+    favorite comedy tv star:
+      nominee: [tt0072562, tt0898266, tt1759761, tt3487356, tt4955642, tt5363912, tt7018644]
+      winner: [tt4955642]
+    favorite drama movie:
+      nominee: [tt1488606, tt2066051, tt2481498, tt4126476, tt6472976, tt6823368, tt6857112, tt7131622]
+      winner: [tt4126476]
+    favorite drama movie star:
+      nominee: [tt2066051, tt2481498, tt6472976, tt6823368, tt6857112, tt7131622]
+      winner: [tt6472976]
+    favorite drama tv star:
+      nominee: [tt0944947, tt1520211, tt3920596, tt4574334, tt5420376, tt5555260, tt8772296]
+      winner: [tt8772296]
+    favorite family movie:
+      nominee: [tt1979376, tt2386490, tt3513498, tt5113040, tt5884052, tt6095472, tt6105098, tt6139732]
+      winner: [tt6139732]
+    favorite female movie star:
+      nominee: [tt1618434, tt2283336, tt3741700, tt4154664, tt4154796, tt6320628, tt6565702, tt6857112]
+      winner: [tt6320628]
+    favorite female tv star:
+      nominee: [tt0944947, tt1520211, tt3920596, tt4574334, tt5420376, tt5555260]
+      winner: [tt4574334]
+    favorite male movie star:
+      nominee: [tt1618434, tt4154664, tt4154796, tt6139732, tt6146586, tt6320628, tt6806448]
+      winner: [tt4154796]
+    favorite male tv star:
+      nominee: [tt0898266, tt0944947, tt1520211, tt4574334, tt5420376, tt5555260]
+      winner: [tt5420376]
+    favorite movie:
+      nominee: [tt1979376, tt4154664, tt4154796, tt6105098, tt6146586, tt6320628, tt6806448, tt6857112]
+      winner: [tt4154796]
+    favorite reality tv star:
+      nominee: [tt1086761, tt1252370, tt1720601, tt7259746]
+      winner: [tt1086761]
+    favorite sci-fi/fantasy show:
+      nominee: [tt0460681, tt1312171, tt2193021, tt2661044, tt3107288, tt4145054, tt4574334, tt7569592]
+      winner: [tt4145054]
+    favorite tv drama:
+      nominee: [tt3920596]
+      winner: []
+'2018': # https://www.imdb.com/event/ev0000530/2018/1/
+  people's choice award:
+    drama movie star:
+      nominee: [tt1413492, tt2873282, tt4477536, tt6644200]
+      winner: [tt4477536]
+    favorite action movie:
+      nominee: [tt1825683, tt4154756, tt4881806, tt5164214, tt5463162]
+      winner: [tt4154756]
+    favorite action movie star:
+      nominee: [tt1825683, tt4154756, tt4881806, tt5463162]
+      winner: [tt1825683]
+    favorite comedic movie:
+      nominee: [tt2531344, tt3104988, tt5164432, tt6663582, tt6911608]
+      winner: [tt6663582]
+    favorite comedy star:
+      nominee: [tt2531344, tt5164432, tt5619332, tt6663582, tt6911608]
+      winner: [tt5619332]
+    favorite comedy tv star:
+      nominee: [tt0898266, tt1442437, tt4288182, tt4955642, tt5580540]
+      winner: [tt0898266]
+    favorite drama movie:
+      nominee: [tt1413492, tt2873282, tt4477536, tt4799066, tt6644200]
+      winner: [tt4477536]
+    favorite drama tv star:
+      nominee: [tt0203259, tt0413573, tt1837492, tt2788432, tt5420376]
+      winner: [tt0203259]
+    favorite family movie:
+      nominee: [tt1620680, tt3606756, tt4575576, tt5220122, tt6450186]
+      winner: [tt3606756]
+    favorite female movie star:
+      nominee: [tt4154756, tt4881806, tt5164214, tt6911608]
+      winner: [tt4154756]
+    favorite female tv star:
+      nominee: [tt0413573, tt3205802, tt4145054, tt5420376, tt5555260]
+      winner: [tt4145054]
+    favorite male movie star:
+      nominee: [tt1825683, tt4154756, tt4881806, tt5164432]
+      winner: [tt1825683]
+    favorite male tv star:
+      nominee: [tt0413573, tt1520211, tt4145054, tt5420376, tt6470478]
+      winner: [tt4145054]
+    favorite movie:
+      nominee: [tt1825683, tt3606756, tt4154756, tt4477536, tt6644200]
+      winner: [tt4154756]
+    favorite reality tv star:
+      nominee: [tt1086761, tt4591390, tt5646172, tt7259746, tt7686456]
+      winner: [tt1086761]
+    favorite revival show:
+      nominee: [tt0319931, tt5339440, tt6128300, tt7259746, tt7686456]
+      winner: [tt6128300]
+    favorite sci-fi/fantasy show:
+      nominee: [tt0460681, tt2632424, tt3230854, tt4145054, tt4878326]
+      winner: [tt4878326]
+    favorite tv comedy:
+      nominee: [tt0898266, tt1442437, tt2372162, tt3487356, tt4955642]
+      winner: [tt2372162]
+    favorite tv drama:
+      nominee: [tt0413573, tt1837492, tt5420376, tt5555260, tt5834204]
+      winner: [tt5420376]
+    favorite tv show:
+      nominee: [tt0413573, tt0898266, tt1837492, tt4145054, tt5555260]
+      winner: [tt4145054]
+    music video of 2018:
+      nominee: [tt8517786]
+      winner: []
+'2017': # https://www.imdb.com/event/ev0000530/2017/1/
+  people's choice award:
+    favorite action movie:
+      nominee: [tt1386697, tt1431045, tt2975590, tt3385516, tt3498820]
+      winner: [tt1431045]
+    favorite animated movie voice:
+      nominee: [tt2277860, tt2709768, tt2948356, tt3040964]
+      winner: [tt2277860]
+    favorite animated tv show:
+      nominee: [tt0096697, tt0121955, tt0182576, tt0397306, tt1561755]
+      winner: [tt0096697]
+    favorite cable sci-fi/fantasy tv show:
+      nominee: [tt1520211, tt1567432, tt1844624, tt2234222, tt4145054]
+      winner: [tt1520211]
+    favorite cable tv comedy:
+      nominee: [tt0472954, tt2177489, tt2608368, tt3288518, tt4288182]
+      winner: [tt2177489]
+    favorite cable tv drama:
+      nominee: [tt1578873, tt2149175, tt2188671, tt4158110, tt4419214]
+      winner: [tt2188671]
+    favorite comedic collaboration:
+      nominee: [tt0072562, tt0379623, tt1637574, tt4280606, tt4335742]
+      winner: [tt0379623]
+    favorite comedic movie:
+      nominee: [tt1289401, tt1292566, tt1489889, tt4438848, tt4651520]
+      winner: [tt4651520]
+    favorite competition tv show:
+      nominee: [tt0463398, tt0759364, tt1587934, tt1694423, tt1839337]
+      winner: [tt1839337]
+    favorite daytime tv hosting team:
+      nominee: [tt0044298, tt0072506, tt0123366, tt1740718, tt2071236]
+      winner: [tt0072506]
+    favorite digital obsession:
+      nominee: [tt5024026]
+      winner: []
+    favorite dramatic movie:
+      nominee: [tt1860357, tt1935859, tt2674426, tt3263904, tt4257926]
+      winner: [tt2674426]
+    favorite family movie:
+      nominee: [tt2277860, tt2567026, tt2709768, tt2948356, tt3040964]
+      winner: [tt2277860]
+    favorite movie:
+      nominee: [tt1386697, tt1431045, tt2277860, tt2948356, tt3498820]
+      winner: [tt2277860]
+    favorite network sci-fi/fantasy tv show:
+      nominee: [tt0460681, tt1405406, tt1843230, tt2193021, tt3107288]
+      winner: [tt0460681]
+    favorite network tv comedy:
+      nominee: [tt0898266, tt1442437, tt1826940, tt3487356, tt3566726]
+      winner: [tt0898266]
+    favorite network tv drama:
+      nominee: [tt0413573, tt2261391, tt3205802, tt3228904, tt4428122]
+      winner: [tt0413573]
+    favorite new tv comedy:
+      nominee: [tt4955642, tt5396394, tt5462720, tt5485566, tt5536400]
+      winner: [tt5536400]
+    favorite new tv drama:
+      nominee: [tt5296406, tt5368542, tt5511582, tt5555260, tt5827228]
+      winner: [tt5555260]
+    favorite premium comedy series:
+      nominee: [tt1586680, tt1759761, tt2211129, tt3339966, tt3986586]
+      winner: [tt3986586]
+    favorite premium drama series:
+      nominee: [tt1796960, tt1856010, tt2372162, tt2707408, tt3281796]
+      winner: [tt2372162]
+    favorite premium sci-fi/fantasy series:
+      nominee: [tt0475784, tt0944947, tt3006802, tt3322314, tt4574334]
+      winner: [tt3006802]
+    favorite thriller movie:
+      nominee: [tt3065204, tt3531824, tt3631112, tt4052882, tt4094724]
+      winner: [tt3631112]
+    favorite tv crime drama:
+      nominee: [tt0203259, tt0364845, tt0452046, tt2741602, tt4052886]
+      winner: [tt0452046]
+    favorite tv show:
+      nominee: [tt0413573, tt0898266, tt1520211, tt3006802, tt4574334]
+      winner: [tt3006802]
+    favorite year end blockbuster:
+      nominee: [tt1211837, tt3183660, tt3470600, tt3521164, tt3748528]
+      winner: [tt3183660]
+'2016': # https://www.imdb.com/event/ev0000530/2016/1/
+  people's choice award:
+    favorite actor in a new tv series:
+      nominee: [tt3556944, tt4428022, tt4465368, tt4481322]
+      winner: [tt4465368]
+    favorite actress in a new tv series:
+      nominee: [tt4145384, tt4428122, tt4452630]
+      winner: [tt4428122]
+    favorite animated movie voice:
+      nominee: [tt2096673, tt2224026, tt2293640, tt2510894]
+      winner: [tt2510894]
+    favorite animated tv show:
+      nominee: [tt0096697, tt0121955, tt0182576, tt0397306, tt1561755]
+      winner: [tt0096697]
+    favorite cable sci-fi/fantasy tv show:
+      nominee: [tt0944947, tt1520211, tt1567432, tt1844624, tt3006802]
+      winner: [tt3006802]
+    favorite cable tv actress:
+      nominee: [tt1551632, tt1578873, tt3288518]
+      winner: [tt1551632]
+    favorite cable tv comedy:
+      nominee: [tt0472954, tt2084712, tt2177489, tt2608368, tt3127020]
+      winner: [tt0472954]
+    favorite cable tv drama:
+      nominee: [tt1578873, tt1632701]
+      winner: [tt1578873]
+    favorite comedic movie:
+      nominee: [tt1666801, tt2637276, tt2848292, tt3079380, tt3152624]
+      winner: [tt2848292]
+    favorite crime drama tv actor:
+      nominee: [tt1219024, tt1839578]
+      winner: [tt1219024]
+    favorite dramatic movie:
+      nominee: [tt1398426, tt1655441, tt2322441, tt2726560, tt3659388]
+      winner: [tt3659388]
+    favorite family movie:
+      nominee: [tt1661199, tt2096673, tt2224026, tt2293640, tt2510894]
+      winner: [tt2293640]
+    favorite movie:
+      nominee: [tt0369610, tt2096673, tt2395427, tt2820852, tt2848292]
+      winner: [tt2820852]
+    favorite network sci-fi/fantasy tv show:
+      nominee: [tt0460681, tt1405406, tt1843230, tt2193021, tt2193041]
+      winner: [tt2193041]
+    favorite new tv comedy:
+      nominee: [tt4094300, tt4145384, tt4384086, tt4465368, tt4651824]
+      winner: [tt4145384]
+    favorite new tv drama:
+      nominee: [tt3556944, tt4016454, tt4428122, tt4452630, tt4474344]
+      winner: [tt4016454]
+    favorite sci-fi/fantasy tv actor:
+      nominee: [tt0460681]
+      winner: [tt0460681]
+    favorite thriller movie:
+      nominee: [tt1029360, tt2446042, tt3181822, tt3195644, tt3713166]
+      winner: [tt2446042]
+    favorite tv crime drama:
+      nominee: [tt0364845, tt0452046, tt0460627, tt1219024, tt1839578]
+      winner: [tt1839578]
+    favorite tv show:
+      nominee: [tt0413573, tt0898266, tt0944947, tt1520211, tt1839337]
+      winner: [tt0898266]
+'2015': # https://www.imdb.com/event/ev0000530/2015/1/
+  people's choice award:
+    favorite action movie:
+      nominee: [tt1840309, tt1843866, tt1872181, tt1877832, tt2015381]
+      winner: [tt1840309]
+    favorite animated tv show:
+      nominee: [tt0096697, tt0121955, tt0182576, tt0397306, tt1561755]
+      winner: [tt0096697]
+    favorite cable sci-fi/fantasy tv show:
+      nominee: [tt0436992, tt0944947, tt1520211, tt1844624, tt3006802]
+      winner: [tt3006802]
+    favorite cable tv comedy:
+      nominee: [tt1441109, tt1597420, tt2084712, tt2177489, tt3127020]
+      winner: [tt1597420]
+    favorite cable tv drama:
+      nominee: [tt1124373, tt1551632, tt1578873, tt2188671, tt2356777]
+      winner: [tt1578873]
+    favorite comedic movie:
+      nominee: [tt1086772, tt1924435, tt2004420, tt2203939, tt2294449]
+      winner: [tt2294449]
+    favorite competition tv show:
+      nominee: [tt0437005, tt0463398, tt0759364, tt1694423, tt1839337]
+      winner: [tt1839337]
+    favorite dramatic movie:
+      nominee: [tt0435651, tt1355630, tt1929263, tt1959490, tt2582846]
+      winner: [tt2582846]
+    favorite dramedy:
+      nominee: [tt1358522, tt1586680, tt1632701, tt1663676, tt2372162]
+      winner: [tt2372162]
+    favorite family movie:
+      nominee: [tt1490017, tt1587310, tt1646971, tt1698641, tt2357291]
+      winner: [tt1587310]
+    favorite movie:
+      nominee: [tt1587310, tt1843866, tt1877832, tt2015381, tt2294449]
+      winner: [tt1587310]
+    favorite movie duo:
+      nominee: [tt1840309, tt1843866, tt1872181, tt2294449, tt2582846]
+      winner: [tt1840309]
+    favorite network sci-fi/fantasy tv show:
+      nominee: [tt0460681, tt1405406, tt1843230, tt2193041, tt2364582]
+      winner: [tt2193041]
+    favorite network tv comedy:
+      nominee: [tt0898266, tt1442437, tt1826940, tt1845307, tt2660806]
+      winner: [tt0898266]
+    favorite network tv drama:
+      nominee: [tt0413573, tt1606375, tt1837576, tt1837642, tt2261391]
+      winner: [tt0413573]
+    favorite new tv comedy:
+      nominee: [tt2753110, tt2769470, tt3216682, tt3434378, tt3460454, tt3487356, tt3549044, tt3566726, tt3729144]
+      winner: [tt3566726]
+    favorite new tv drama:
+      nominee: [tt3107288, tt3187578, tt3205802, tt3435532, tt3487382, tt3489184, tt3501074, tt3514324, tt3560084, tt3560094, tt3576794, tt3749900]
+      winner: [tt3107288]
+    favorite sci-fi/fantasy tv actor:
+      nominee: [tt0460681]
+      winner: [tt0460681]
+    favorite sketch comedy tv show:
+      nominee: [tt0072562, tt1981538, tt1981558, tt2578508, tt2712612]
+      winner: [tt0072562]
+    favorite thriller movie:
+      nominee: [tt0455944, tt0829150, tt2267998, tt2975578, tt3322940]
+      winner: [tt2267998]
+    favorite tv character we miss most:
+      nominee: [tt0413573, tt0460627, tt1520211, tt1843230, tt2261391]
+      winner: [tt0413573]
+    favorite tv crime drama:
+      nominee: [tt0364845, tt0452046, tt0460627, tt1196946, tt1219024]
+      winner: [tt1219024]
+    favorite tv duo:
+      nominee: [tt0460627, tt0460681, tt1219024, tt1405406, tt1843230]
+      winner: [tt1405406]
+    favorite tv show:
+      nominee: [tt0364845, tt0898266, tt0944947, tt1520211, tt1843230]
+      winner: [tt0898266]
+'2014': # https://www.imdb.com/event/ev0000530/2014/1/
+  people's choice award:
+    favorite action movie:
+      nominee: [tt0816711, tt1300854, tt1408101, tt1430132, tt1905041]
+      winner: [tt1300854]
+    favorite cable tv comedy:
+      nominee: [tt0491738, tt1441109, tt1583607, tt1597420, tt1663676]
+      winner: [tt0491738]
+    favorite cable tv drama:
+      nominee: [tt1124373, tt1358522, tt1520211, tt1578873, tt1606375]
+      winner: [tt1520211]
+    favorite comedic movie:
+      nominee: [tt1723121, tt1951261, tt2191701, tt2404463, tt3007030]
+      winner: [tt2404463]
+    favorite comedic movie actress:
+      nominee: [tt1723121]
+      winner: []
+    favorite competition tv show:
+      nominee: [tt0463398, tt0759364, tt1582461, tt1694423, tt1839337]
+      winner: [tt1839337]
+    favorite dramatic movie:
+      nominee: [tt1327773, tt1343092, tt1392214, tt1454468, tt1535109]
+      winner: [tt1454468]
+    favorite family movie:
+      nominee: [tt1453405, tt1623205, tt1690953, tt1854564, tt2017020]
+      winner: [tt1690953]
+    favorite horror movie:
+      nominee: [tt1428538, tt1457767, tt1939659, tt2023587, tt2226417]
+      winner: [tt1939659]
+    favorite movie:
+      nominee: [tt1300854, tt1408101, tt1453405, tt1690953, tt1905041]
+      winner: [tt1300854]
+    favorite movie actress:
+      nominee: [tt1723121]
+      winner: []
+    favorite movie duo:
+      nominee: [tt1300854, tt1408101, tt1454468, tt1723121, tt2404463]
+      winner: [tt1454468]
+    favorite network tv comedy:
+      nominee: [tt0460649, tt0898266, tt1327801, tt1442437, tt1845307]
+      winner: [tt0898266]
+    favorite network tv drama:
+      nominee: [tt0413573, tt1416765, tt1442462, tt2261391, tt2281375]
+      winner: [tt1442462]
+    favorite new tv comedy:
+      nominee: [tt2298477, tt2338232, tt2400736, tt2467372, tt2647548, tt2660806, tt2710104, tt2712740, tt2715776, tt2737290]
+      winner: [tt2298477]
+    favorite new tv drama:
+      nominee: [tt2296682, tt2364582, tt2632424, tt2647258, tt2647544, tt2660734, tt2710394, tt2741602, tt2751074, tt2802008]
+      winner: [tt2710394]
+    favorite on-screen chemistry:
+      nominee: [tt0413573, tt1219024, tt1327801, tt1405406, tt1843230]
+      winner: [tt1405406]
+    favorite premium cable tv show:
+      nominee: [tt0844441, tt0904208, tt0944947, tt1723816, tt1796960]
+      winner: [tt1796960]
+    favorite sci-fi/fantasy tv actor:
+      nominee: [tt0460681]
+      winner: []
+    favorite sci-fi/fantasy tv show:
+      nominee: [tt0460681, tt1405406, tt1520211, tt1843230, tt2193041]
+      winner: [tt2193041]
+    favorite series we miss most:
+      nominee: [tt0386676, tt0496424, tt0773262, tt0903747, tt1119644]
+      winner: [tt0903747]
+    favorite streaming series:
+      nominee: [tt0367279, tt1535002, tt1856010, tt2372162, tt3169718]
+      winner: [tt2372162]
+    favorite thriller movie:
+      nominee: [tt1606378, tt1670345, tt1821694, tt1911644, tt2334879]
+      winner: [tt1670345]
+    favorite tv anti-hero:
+      nominee: [tt0773262, tt0903747, tt0944947, tt1520211, tt2188671]
+      winner: [tt1520211]
+    favorite tv bromance:
+      nominee: [tt0460649, tt0460681, tt0898266, tt1219024, tt1327801]
+      winner: [tt0460681]
+    favorite tv crime drama:
+      nominee: [tt0364845, tt0452046, tt0460627, tt1196946, tt1219024]
+      winner: [tt1219024]
+    favorite tv gal pals:
+      nominee: [tt0413573, tt0460649, tt0898266, tt1327801, tt1845307]
+      winner: [tt1327801]
+    favorite tv movie/miniseries:
+      nominee: [tt1291580, tt1844624, tt2245988, tt2372220, tt2724064]
+      winner: [tt1844624]
+    favorite year end movie:
+      nominee: [tt1170358, tt1229340, tt1951264, tt1981115, tt2294629]
+      winner: [tt1951264]
+'2013': # https://www.imdb.com/event/ev0000530/2013/1/
+  people's choice award:
+    favorite action movie:
+      nominee: [tt0848228, tt0948470, tt1345836, tt1392170, tt1409024]
+      winner: [tt1392170]
+    favorite cable tv comedy:
+      nominee: [tt0472954, tt0491738, tt1583607, tt1597420, tt1663676]
+      winner: [tt1663676]
+    favorite cable tv drama:
+      nominee: [tt0810788, tt1103987, tt1358522, tt1520211, tt1578873]
+      winner: [tt1103987]
+    favorite celebrity judge:
+      nominee: [tt0319931, tt1582461, tt1839337]
+      winner: [tt1582461]
+    favorite comedic movie:
+      nominee: [tt1077368, tt1232829, tt1586265, tt1637725, tt1981677]
+      winner: [tt1637725]
+    favorite comedic movie actress:
+      nominee: [tt1655460]
+      winner: [tt1655460]
+    favorite competition tv show:
+      nominee: [tt0319931, tt0463398, tt0759364, tt1582461, tt1839337]
+      winner: [tt1582461]
+    favorite daytime tv host:
+      nominee: [tt0044298, tt0072506, tt0096636, tt0123366, tt0379623]
+      winner: [tt0379623]
+    favorite dramatic movie:
+      nominee: [tt1024648, tt1327194, tt1606389, tt1659337, tt1915581]
+      winner: [tt1659337]
+    favorite dramatic tv actor:
+      nominee: [tt0460681]
+      winner: []
+    favorite face of heroism:
+      nominee: [tt0848228, tt0948470, tt1345836, tt1392170, tt1735898]
+      winner: [tt1392170]
+    favorite move fan following:
+      nominee: [tt0120737, tt0167260, tt0167261, tt0241527, tt0295297, tt0304141, tt0325980, tt0330373, tt0373889, tt0383574, tt0417741, tt0449088, tt0926084, tt1099212, tt1201607, tt1259571, tt1298650, tt1324999, tt1325004, tt1392170, tt1673434]
+      winner: [tt1099212, tt1259571, tt1324999, tt1325004, tt1673434]
+    favorite movie:
+      nominee: [tt0848228, tt0948470, tt1345836, tt1392170, tt1735898]
+      winner: [tt1392170]
+    favorite movie franchise:
+      nominee: [tt0848228, tt0948470, tt1277953, tt1345836, tt1392170]
+      winner: [tt1392170]
+    favorite movie superhero:
+      nominee: [tt0848228, tt0948470, tt1345836]
+      winner: [tt0848228]
+    favorite music video:
+      nominee: [tt5049610, tt6833468]
+      winner: []
+    favorite network tv comedy:
+      nominee: [tt0460649, tt0898266, tt1327801, tt1442437, tt1826940]
+      winner: [tt0898266]
+    favorite network tv drama:
+      nominee: [tt0397442, tt0413573, tt1830617, tt1837642, tt1843230]
+      winner: [tt0413573]
+    favorite new talk show host:
+      nominee: [tt0096636]
+      winner: []
+    favorite new tv comedy:
+      nominee: [tt2087571, tt2177491, tt2182229, tt2211129, tt2248977, tt2281583, tt2300923]
+      winner: [tt2087571]
+    favorite new tv drama:
+      nominee: [tt2070791, tt2191671, tt2193021, tt2193041, tt2281375]
+      winner: [tt2193041]
+    favorite on-screen chemistry:
+      nominee: [tt0848228, tt0948470, tt1392170, tt1606389, tt1735898]
+      winner: [tt1392170]
+    favorite premium cable tv show:
+      nominee: [tt0773262, tt0844441, tt0944947, tt1442449, tt1796960]
+      winner: [tt0844441]
+    favorite sci-fi/fantasy tv show:
+      nominee: [tt0436992, tt0460681, tt1405406, tt1520211, tt1843230]
+      winner: [tt0460681]
+    favorite tv comedy actress:
+      nominee: [tt1327801]
+      winner: [tt1327801]
+    favorite tv crime drama:
+      nominee: [tt0247082, tt0364845, tt0452046, tt0460627, tt1219024]
+      winner: [tt1219024]
+    favorite tv fan following:
+      nominee: [tt0460681, tt1327801, tt1405406, tt1578873, tt1843230]
+      winner: [tt0460681]
+'2012': # https://www.imdb.com/event/ev0000530/2012/1/
+  people's choice award:
+    favorite action movie:
+      nominee: [tt0800369, tt1201607, tt1270798, tt1399103, tt1596343]
+      winner: [tt1201607]
+    favorite animated movie voice:
+      nominee: [tt0472181, tt1192628, tt1216475, tt1302011, tt1436562]
+      winner: [tt1192628]
+    favorite book adaptation:
+      nominee: [tt1067583, tt1201607, tt1454029, tt1464540, tt1596346]
+      winner: [tt1201607]
+    favorite cable tv comedy:
+      nominee: [tt0439100, tt0472954, tt1190689, tt1319735, tt1583607]
+      winner: [tt1583607]
+    favorite cable tv drama:
+      nominee: [tt0773262, tt0844441, tt0944947, tt1358522, tt1578873]
+      winner: [tt1578873]
+    favorite comedic movie actress:
+      nominee: [tt1499658, tt1564367]
+      winner: []
+    favorite comedy movie:
+      nominee: [tt1284575, tt1411697, tt1478338, tt1570728, tt1632708]
+      winner: [tt1478338]
+    favorite daytime tv host:
+      nominee: [tt0044298, tt0096636, tt0379623, tt0827947, tt1796776]
+      winner: [tt0379623]
+    favorite drama movie:
+      nominee: [tt1067583, tt1210166, tt1219289, tt1385826, tt1454029]
+      winner: [tt1067583]
+    favorite ensemble movie cast:
+      nominee: [tt1201607, tt1270798, tt1298650, tt1411697, tt1478338]
+      winner: [tt1201607]
+    favorite late night tv host:
+      nominee: [tt0103569, tt0106053, tt0320037, tt1231460, tt1637574]
+      winner: [tt1231460]
+    favorite movie:
+      nominee: [tt1201607, tt1298650, tt1399103, tt1454029, tt1478338]
+      winner: [tt1201607]
+    favorite movie actress:
+      nominee: [tt1499658, tt1564367]
+      winner: []
+    favorite network tv comedy:
+      nominee: [tt0369179, tt0460649, tt0898266, tt1327801, tt1442437]
+      winner: [tt0460649]
+    favorite network tv drama:
+      nominee: [tt0412142, tt0413573, tt0460681, tt1405406, tt1442462]
+      winner: [tt0460681]
+    favorite new tv comedy:
+      nominee: [tt1741256, tt1790914, tt1826940, tt1828238, tt1828327, tt1843323, tt1845307, tt1850458]
+      winner: [tt1845307]
+    favorite new tv drama:
+      nominee: [tt1582456, tt1641349, tt1819654, tt1820742, tt1826805, tt1830617, tt1832979, tt1837642, tt1837654, tt1839578, tt1842530, tt1843230]
+      winner: [tt1839578]
+    favorite sci-fi/fantasy show:
+      nominee: [tt0460681, tt0844441, tt1119644, tt1405406, tt1520211]
+      winner: [tt0460681]
+    favorite tv celebreality star:
+      nominee: [tt0476916, tt0498617, tt1086761, tt1484626, tt1844181]
+      winner: [tt1086761]
+    favorite tv competition show:
+      nominee: [tt0319931, tt0463398, tt0472023, tt0759364, tt1839337]
+      winner: [tt0319931]
+    favorite tv crime drama:
+      nominee: [tt0247082, tt0364845, tt0452046, tt0460627, tt1219024]
+      winner: [tt1219024]
+    favorite tv guest star:
+      nominee: [tt0386676, tt0460649, tt1327801, tt1442462]
+      winner: [tt0460649]
+'2011': # https://www.imdb.com/event/ev0000530/2011/1/
+  people's choice award:
+    favorite action movie:
+      nominee: [tt0473075, tt0944835, tt0955308, tt1228705, tt1250777]
+      winner: [tt1228705]
+    favorite comedy movie:
+      nominee: [tt0817230, tt1261945, tt1279935, tt1282140, tt1375670]
+      winner: [tt1375670]
+    favorite competition show:
+      nominee: [tt0319931, tt0437005, tt0463398, tt0472023, tt0759364]
+      winner: [tt0319931]
+    favorite drama movie:
+      nominee: [tt0989757, tt1014759, tt1285016, tt1325004, tt1375666]
+      winner: [tt1325004]
+    favorite family movie:
+      nominee: [tt0435761, tt0892769, tt0892791, tt1155076, tt1323594]
+      winner: [tt0435761]
+    favorite family tv movie:
+      nominee: [tt0972534, tt1252380, tt1493842, tt1579247, tt1666642]
+      winner: [tt1252380]
+    favorite horror movie:
+      nominee: [tt0455407, tt1179056, tt1220634, tt1228987, tt1320244]
+      winner: [tt1179056]
+    favorite movie:
+      nominee: [tt0435761, tt1014759, tt1228705, tt1325004, tt1375666]
+      winner: [tt1325004]
+    favorite movie actress:
+      nominee: [tt0889573]
+      winner: []
+    favorite music video:
+      nominee: [tt4451268]
+      winner: []
+    favorite new tv comedy:
+      nominee: [tt1593756, tt1598876, tt1608180, tt1612578, tt1615919, tt1615926]
+      winner: [tt1612578]
+    favorite new tv drama:
+      nominee: [tt1578258, tt1582458, tt1582459, tt1591493, tt1592154, tt1592254, tt1595859, tt1596356, tt1600194, tt1657081]
+      winner: [tt1600194]
+    favorite on-screen team:
+      nominee: [tt1155076, tt1228705, tt1279935, tt1325004, tt1375666]
+      winner: [tt1325004]
+    favorite sci-fi/fantasy show:
+      nominee: [tt0279600, tt0460681, tt0844441, tt1119644, tt1405406]
+      winner: [tt1119644]
+    favorite talk show host:
+      nominee: [tt0090493, tt0379623, tt1002838, tt1489432, tt1637574]
+      winner: [tt1637574]
+    favorite tv comedy:
+      nominee: [tt0369179, tt0460649, tt0898266, tt1327801, tt1442437]
+      winner: [tt1327801]
+    favorite tv crime drama:
+      nominee: [tt0203259, tt0364845, tt0452046, tt0460627, tt1235099]
+      winner: [tt1235099]
+    favorite tv crime fighter:
+      nominee: [tt0203259, tt0364845, tt0460627, tt1196946, tt1235099]
+      winner: [tt1235099]
+    favorite tv drama:
+      nominee: [tt0397442, tt0412142, tt0413573, tt1405406, tt1442462]
+      winner: [tt0412142]
+    favorite tv family:
+      nominee: [tt0096697, tt0182576, tt0369179, tt0410975, tt1442437]
+      winner: [tt0096697]
+    favorite tv guest star:
+      nominee: [tt0413573, tt0460649, tt1327801, tt1439629]
+      winner: [tt0413573]
+    favorite tv guilty pleasure:
+      nominee: [tt0476916, tt1086761, tt1411598, tt1430587, tt1563069]
+      winner: [tt1086761]
+    favorite tv obsession:
+      nominee: [tt0773262, tt0810788, tt0844441, tt1358522, tt1578873]
+      winner: [tt0773262]
+'2010': # https://www.imdb.com/event/ev0000530/2010/1/
+  people's choice award:
+    favorite animal show:
+      nominee: [tt0423642]
+      winner: [tt0423642]
+    favorite comedy movie:
+      nominee: [tt0901476, tt0974661, tt1001508, tt1041829, tt1119646]
+      winner: [tt1041829]
+    favorite family movie:
+      nominee: [tt0386117, tt1049413, tt1078912, tt1080016, tt1114677]
+      winner: [tt1049413]
+    favorite independent movie:
+      nominee: [tt0361748, tt1022603, tt1136608, tt1142800, tt1179904]
+      winner: [tt0361748]
+    favorite movie:
+      nominee: [tt0417741, tt0796366, tt1041829, tt1099212, tt1119646]
+      winner: [tt1099212]
+    favorite movie actress:
+      nominee: [tt1001508]
+      winner: []
+    favorite new tv comedy:
+      nominee: [tt1441109]
+      winner: []
+    favorite new tv drama:
+      nominee: [tt1307824, tt1378167, tt1405406, tt1441135]
+      winner: [tt1405406]
+    favorite on-screen team:
+      nominee: [tt0417741, tt0458525, tt1041829, tt1055369, tt1099212]
+      winner: [tt1099212]
+    favorite sci-fi/fantasy show:
+      nominee: [tt0411008, tt0460681, tt0813715, tt0844441, tt1405406]
+      winner: [tt0460681]
+    favorite tv comedy:
+      nominee: [tt0898266]
+      winner: [tt0898266]
+    favorite tv drama:
+      nominee: [tt0411008, tt0412142]
+      winner: [tt0412142]
+    favorite tv drama actor:
+      nominee: [tt0411008]
+      winner: []
+    favorite tv obsession:
+      nominee: [tt0773262, tt0844441]
+      winner: [tt0844441]
+'2009': # https://www.imdb.com/event/ev0000530/2009/1/
+  people's choice award:
+    favorite action movie:
+      nominee: [tt0367882, tt0371746, tt0468569]
+      winner: [tt0468569]
+    favorite animated comedy:
+      nominee: [tt0096697, tt0121955, tt0182576]
+      winner: [tt0096697]
+    favorite cast:
+      nominee: [tt0468569, tt0795421, tt1000774]
+      winner: [tt0468569]
+    favorite competition/reality show:
+      nominee: [tt0319931, tt0388595, tt0463398]
+      winner: [tt0463398]
+    favorite family movie:
+      nominee: [tt0441773, tt0499448, tt0910970]
+      winner: [tt0910970]
+    favorite game show:
+      nominee: [tt0159881, tt0958228]
+      winner: []
+    favorite independent movie:
+      nominee: [tt0416212, tt0864761, tt0970468]
+      winner: [tt0416212]
+    favorite movie:
+      nominee: [tt0367882, tt0371746, tt0468569]
+      winner: [tt0468569]
+    favorite movie comedy:
+      nominee: [tt0425061, tt0795421, tt0988595]
+      winner: [tt0988595]
+    favorite movie drama:
+      nominee: [tt0416212, tt0478087, tt1059786]
+      winner: [tt0416212]
+    favorite new tv comedy:
+      nominee: [tt0948539, tt1197632, tt1229401]
+      winner: [tt1229401]
+    favorite new tv drama:
+      nominee: [tt1119644, tt1196946, tt1225901]
+      winner: [tt1196946]
+    favorite on-screen match-up:
+      nominee: [tt0367882, tt0468569, tt0871426]
+      winner: [tt0468569]
+    favorite online sensation:
+      nominee: [tt1227926]
+      winner: [tt1227926]
+    favorite scene stealing guest star:
+      nominee: [tt0203259, tt0460649]
+      winner: [tt0203259]
+    favorite sci fi/fantasy show:
+      nominee: [tt0460681, tt0813715, tt0851851]
+      winner: [tt0813715]
+    favorite song from a soundtrack:
+      nominee: [tt0795421, tt0830515, tt1000774]
+      winner: [tt0795421]
+    favorite superhero:
+      nominee: [tt0371746, tt0448157, tt0468569]
+      winner: [tt0468569]
+    favorite tv comedy:
+      nominee: [tt0369179, tt0805669, tt0898332]
+      winner: [tt0369179]
+    favorite tv drama:
+      nominee: [tt0247082, tt0412142, tt0413573]
+      winner: [tt0412142]
+    favorite tv drama diva:
+      nominee: [tt0439100, tt0458253, tt0830900]
+      winner: [tt0458253]
+    favorite user generated video:
+      nominee: [tt1251139, tt5583438]
+      winner: []
+'2008': # https://www.imdb.com/event/ev0000530/2008/1/
+  people's choice award:
+    favorite action movie:
+      nominee: [tt0416449, tt0418279, tt0440963]
+      winner: [tt0440963]
+    favorite animated tv comedy:
+      nominee: [tt0096697, tt0118375, tt0182576]
+      winner: [tt0096697]
+    favorite competition/reality show:
+      nominee: [tt0319931, tt0388595, tt0463398]
+      winner: [tt0463398]
+    favorite family movie:
+      nominee: [tt0382932, tt0413099, tt0413267]
+      winner: [tt0413267]
+    favorite game show:
+      nominee: [tt0159881, tt0493378, tt0958228]
+      winner: [tt0493378]
+    favorite independent movie:
+      nominee: [tt0386032, tt0416508, tt0829459]
+      winner: [tt0416508]
+    favorite movie:
+      nominee: [tt0418279, tt0440963, tt0449088]
+      winner: [tt0449088]
+    favorite movie comedy:
+      nominee: [tt0462538, tt0478311, tt0486946]
+      winner: [tt0478311]
+    favorite movie drama:
+      nominee: [tt0373889, tt0477071, tt0486822]
+      winner: [tt0373889]
+    favorite new tv comedy:
+      nominee: [tt0898332, tt0925266, tt0934814]
+      winner: [tt0898332]
+    favorite new tv drama:
+      nominee: [tt0397442, tt0955346, tt0972412]
+      winner: [tt0955346]
+    favorite on screen match-up:
+      nominee: [tt0293564, tt0413300, tt0496806]
+      winner: [tt0496806]
+    favorite scene stealing star:
+      nominee: [tt0203259, tt0413573, tt0460649]
+      winner: [tt0413573]
+    favorite sci-fi show:
+      nominee: [tt0374455, tt0407362, tt0436992]
+      winner: [tt0374455]
+    favorite song from a soundtrack:
+      nominee: [tt0418279, tt0427327, tt0758745]
+      winner: [tt0427327]
+    favorite threequel:
+      nominee: [tt0413300, tt0440963, tt0449088]
+      winner: [tt0449088]
+    favorite tv comedy:
+      nominee: [tt0165581, tt0369179, tt0460091]
+      winner: [tt0369179]
+    favorite tv drama:
+      nominee: [tt0203259, tt0247082, tt0412142]
+      winner: [tt0412142]
+    favorite user generated video:
+      nominee: [tt11164336]
+      winner: []
+    favorite user-generated video:
+      nominee: [tt4687548]
+      winner: [tt4687548]
+'2007': # https://www.imdb.com/event/ev0000530/2007/1/
+  people's choice award:
+    favorite competition/reality show:
+      nominee: [tt0319931, tt0388595, tt0493378]
+      winner: [tt0319931]
+    favorite family movie:
+      nominee: [tt0317219, tt0327084, tt0438097]
+      winner: [tt0317219]
+    favorite female movie star:
+      nominee: [tt0452594]
+      winner: [tt0452594]
+    favorite movie:
+      nominee: [tt0317219, tt0376994, tt0383574]
+      winner: [tt0383574]
+    favorite movie comedy:
+      nominee: [tt0389860, tt0415306, tt0427229]
+      winner: [tt0389860]
+    favorite movie drama:
+      nominee: [tt0376994, tt0382625, tt0383574]
+      winner: [tt0383574]
+    favorite new tv comedy:
+      nominee: [tt0484082, tt0496424, tt0759475]
+      winner: [tt0484082]
+    favorite new tv drama:
+      nominee: [tt0758737, tt0805669, tt0813715]
+      winner: [tt0813715]
+    favorite on-screen match-up:
+      nominee: [tt0383574, tt0407887, tt0452594]
+      winner: [tt0383574]
+    favorite song from a movie:
+      nominee: [tt0317219, tt0458352]
+      winner: [tt0317219]
+    favorite tv comedy:
+      nominee: [tt0165581, tt0369179, tt0460091]
+      winner: [tt0369179]
+    favorite tv comedy - animated:
+      nominee: [tt0096697, tt0118375, tt0182576]
+      winner: [tt0096697]
+    favorite tv drama:
+      nominee: [tt0247082, tt0412142, tt0413573]
+      winner: [tt0413573]
+'2006': # https://www.imdb.com/event/ev0000530/2006/1/
+  people's choice award:
+    favorite family movie:
+      nominee: [tt0351283, tt0367594, tt0371606]
+      winner: [tt0367594]
+    favorite movie:
+      nominee: [tt0121766, tt0372784, tt0386588]
+      winner: [tt0121766]
+    favorite movie comedy:
+      nominee: [tt0386588, tt0396269, tt0398165]
+      winner: [tt0396269]
+    favorite movie drama:
+      nominee: [tt0121766, tt0372784, tt0393162]
+      winner: [tt0121766]
+    favorite new television comedy:
+      nominee: [tt0460091, tt0460637, tt0460649]
+      winner: [tt0460091]
+    favorite new television drama:
+      nominee: [tt0429455, tt0452046, tt0455275]
+      winner: [tt0455275]
+    favorite on-screen match-up:
+      nominee: [tt0356910, tt0396269, tt0398165]
+      winner: [tt0396269]
+    favorite reality show - competition:
+      nominee: [tt0239195, tt0278191, tt0319931]
+      winner: [tt0319931]
+    favorite reality show - other:
+      nominee: [tt0364807, tt0388595, tt0429442]
+      winner: [tt0388595]
+    favorite song from a movie:
+      nominee: [tt0377818, tt0386588, tt0398165]
+      winner: [tt0377818]
+    favorite television comedy:
+      nominee: [tt0096697, tt0115167, tt0165598]
+      winner: [tt0115167]
+    favorite television drama:
+      nominee: [tt0203259, tt0247082, tt0410975]
+      winner: [tt0247082]
+'2005': # https://www.imdb.com/event/ev0000530/2005/1/
+  people's choice award:
+    favorite animated movie:
+      nominee: [tt0298148, tt0317705, tt0338348, tt0345950, tt0372588]
+      winner: [tt0298148]
+    favorite animated movie star:
+      nominee: [tt0298148]
+      winner: [tt0298148]
+    favorite motion picture:
+      nominee: [tt0298148, tt0316654, tt0317705, tt0338013, tt0361596]
+      winner: [tt0361596]
+    favorite movie comedy:
+      nominee: [tt0298148, tt0317198, tt0337563, tt0357413, tt0377092]
+      winner: [tt0298148]
+    favorite movie drama:
+      nominee: [tt0308644, tt0335345, tt0350258, tt0369339, tt0372183]
+      winner: [tt0335345]
+    favorite movie villain:
+      nominee: [tt0298148]
+      winner: [tt0298148]
+    favorite new television comedy:
+      nominee: [tt0361179, tt0375355, tt0387199, tt0407441, tt0411024]
+      winner: [tt0375355]
+    favorite new television drama:
+      nominee: [tt0395843, tt0402711, tt0410975, tt0410997, tt0411008]
+      winner: [tt0410975]
+    favorite on-screen chemistry:
+      nominee: [tt0308644, tt0316654, tt0335438, tt0338013, tt0343660]
+      winner: [tt0343660]
+    favorite reality show - competition:
+      nominee: [tt0239195, tt0285335, tt0319931, tt0364782, tt0364829]
+      winner: [tt0319931]
+    favorite reality show - makeover:
+      nominee: [tt0278249, tt0358332, tt0388595, tt0393009, tt0395891]
+      winner: [tt0388595]
+    favorite reality show - other:
+      nominee: [tt0103520, tt0337784, tt0380934, tt0395378, tt0411040]
+      winner: [tt0380934]
+    favorite sequel:
+      nominee: [tt0298148, tt0304141, tt0316654, tt0317198, tt0378194]
+      winner: [tt0298148]
+    favorite television comedy:
+      nominee: [tt0115167, tt0157246, tt0165598, tt0285403, tt0367279]
+      winner: [tt0157246]
+    favorite television drama:
+      nominee: [tt0141842, tt0238784, tt0247082, tt0285333, tt0362359]
+      winner: [tt0247082]
+    favorite villain movie star:
+      nominee: [tt0304141, tt0316654, tt0378194]
+      winner: []
+'2004': # https://www.imdb.com/event/ev0000530/2004/1/
+  people's choice award:
+    favorite comedy motion picture:
+      nominee: [tt0315327]
+      winner: [tt0315327]
+    favorite dramatic motion picture:
+      nominee: [tt0167261]
+      winner: [tt0167261]
+    favorite female television performer:
+      nominee: [tt0108778]
+      winner: [tt0108778]
+    favorite motion picture:
+      nominee: [tt0325980]
+      winner: [tt0325980]
+    favorite reality based television program:
+      nominee: [tt0239195]
+      winner: [tt0239195]
+    favorite television comedy series:
+      nominee: [tt0108778]
+      winner: [tt0108778]
+    favorite television dramatic series:
+      nominee: [tt0247082]
+      winner: [tt0247082]
+    favorite television new comedy series:
+      nominee: [tt0369179]
+      winner: [tt0369179]
+    favorite television new dramatic series:
+      nominee: [tt0367345]
+      winner: [tt0367345]
+'2003': # https://www.imdb.com/event/ev0000530/2003/1/
+  people's choice award:
+    favorite comedy motion picture:
+      nominee: [tt0259446]
+      winner: [tt0259446]
+    favorite daytime dramatic television series:
+      nominee: [tt0058796]
+      winner: [tt0058796]
+    favorite dramatic motion picture:
+      nominee: [tt0120737]
+      winner: [tt0120737]
+    favorite female television performer:
+      nominee: [tt0108778]
+      winner: [tt0108778]
+    favorite motion picture:
+      nominee: [tt0120737, tt0145487]
+      winner: [tt0120737, tt0145487]
+    favorite reality based television program:
+      nominee: [tt0239195, tt0278191]
+      winner: [tt0239195]
+    favorite television comedy series:
+      nominee: [tt0108778]
+      winner: [tt0108778]
+    favorite television dramatic series:
+      nominee: [tt0247082]
+      winner: [tt0247082]
+    favorite television new comedy series:
+      nominee: [tt0312081]
+      winner: [tt0312081]
+    favorite television new dramatic series:
+      nominee: [tt0313043]
+      winner: [tt0313043]
+'2002': # https://www.imdb.com/event/ev0000530/2002/1/
+  people's choice award:
+    favorite daytime dramatic television series:
+      nominee: [tt0058796]
+      winner: [tt0058796]
+    favorite female performer in a new television series:
+      nominee: [tt0284722]
+      winner: [tt0284722]
+    favorite female television performer:
+      nominee: [tt0108778]
+      winner: [tt0108778]
+    favorite male performer in a new television series:
+      nominee: [tt0273855]
+      winner: [tt0273855]
+    favorite motion picture:
+      nominee: [tt0126029]
+      winner: [tt0126029]
+    favorite reality based television program:
+      nominee: [tt0239195]
+      winner: [tt0239195]
+    favorite television comedy series:
+      nominee: [tt0108778]
+      winner: [tt0108778]
+    favorite television dramatic series:
+      nominee: [tt0108757]
+      winner: [tt0108757]
+    favorite television new comedy series:
+      nominee: [tt0273855]
+      winner: [tt0273855]
+    favorite television new dramatic series:
+      nominee: [tt0285333]
+      winner: [tt0285333]
+'2001': # https://www.imdb.com/event/ev0000530/2001/1/
+  people's choice award:
+    favorite comedy motion picture:
+      nominee: [tt0212338]
+      winner: [tt0212338]
+    favorite dramatic motion picture:
+      nominee: [tt0120689]
+      winner: [tt0120689]
+    favorite female performer in a new television series:
+      nominee: [tt0247079]
+      winner: [tt0247079]
+    favorite female television performer:
+      nominee: [tt0108778]
+      winner: [tt0108778]
+    favorite male performer in a new television series:
+      nominee: [tt0247090]
+      winner: [tt0247090]
+    favorite motion picture:
+      nominee: [tt0120689]
+      winner: [tt0120689]
+    favorite motion picture actress:
+      nominee: [tt0209958]
+      winner: []
+    favorite reality based television program:
+      nominee: [tt0239195]
+      winner: [tt0239195]
+    favorite television comedy series:
+      nominee: [tt0108778]
+      winner: [tt0108778]
+    favorite television dramatic series:
+      nominee: [tt0108757]
+      winner: [tt0108757]
+    favorite television new comedy series:
+      nominee: [tt0247091]
+      winner: [tt0247091]
+    favorite television new dramatic series:
+      nominee: [tt0204993]
+      winner: [tt0204993]
+'2000': # https://www.imdb.com/event/ev0000530/2000/1/
+  people's choice award:
+    favorite comedy motion picture:
+      nominee: [tt0142342]
+      winner: [tt0142342]
+    favorite dramatic motion picture:
+      nominee: [tt0167404]
+      winner: [tt0167404]
+    favorite female performer in a new television series:
+      nominee: [tt0178165]
+      winner: [tt0178165]
+    favorite male performer in a new television series:
+      nominee: [tt0202198]
+      winner: [tt0202198]
+    favorite motion picture:
+      nominee: [tt0167404]
+      winner: [tt0167404]
+    favorite television comedy series:
+      nominee: [tt0108778]
+      winner: [tt0108778]
+    favorite television dramatic series:
+      nominee: [tt0108757]
+      winner: [tt0108757]
+    favorite television new comedy series:
+      nominee: [tt0210455]
+      winner: [tt0210455]
+    favorite television new dramatic series:
+      nominee: [tt0177991]
+      winner: [tt0177991]
+'1999': # https://www.imdb.com/event/ev0000530/1999/1/
+  people's choice award:
+    favorite comedy motion picture:
+      nominee: [tt0129387]
+      winner: [tt0129387]
+    favorite dramatic motion picture:
+      nominee: [tt0120338]
+      winner: [tt0120338]
+    favorite motion picture:
+      nominee: [tt0120338]
+      winner: [tt0120338]
+    favorite television comedy series:
+      nominee: [tt0098904, tt0106004]
+      winner: [tt0098904, tt0106004]
+    favorite television dramatic series:
+      nominee: [tt0108757]
+      winner: [tt0108757]
+    favorite television new comedy series:
+      nominee: [tt0156196, tt0157246]
+      winner: [tt0156196, tt0157246]
+    favorite television new dramatic series:
+      nominee: [tt0161160]
+      winner: [tt0161160]
+'1998': # https://www.imdb.com/event/ev0000530/1998/1/
+  people's choice award:
+    favorite comedy motion picture:
+      nominee: [tt0119528]
+      winner: [tt0119528]
+    favorite daytime series:
+      nominee: [tt0058796]
+      winner: [tt0058796]
+    favorite dramatic motion picture:
+      nominee: [tt0116695]
+      winner: [tt0116695]
+    favorite new tv comedy:
+      nominee: [tt0118506]
+      winner: [tt0118506]
+    favorite television comedy series:
+      nominee: [tt0098904]
+      winner: [tt0098904]
+    favorite television dramatic series:
+      nominee: [tt0108757]
+      winner: [tt0108757]
+    favorite television new comedy series:
+      nominee: [tt0118303, tt0118506]
+      winner: [tt0118303, tt0118506]
+    favorite television new dramatic series:
+      nominee: [tt0118275]
+      winner: [tt0118275]
+'1997': # https://www.imdb.com/event/ev0000530/1997/1/
+  people's choice award:
+    favorite comedy motion picture:
+      nominee: [tt0117218]
+      winner: [tt0117218]
+    favorite daytime series:
+      nominee: [tt0058796]
+      winner: [tt0058796]
+    favorite dramatic motion picture:
+      nominee: [tt0116629]
+      winner: [tt0116629]
+    favorite television comedy series:
+      nominee: [tt0098904]
+      winner: [tt0098904]
+    favorite television dramatic series:
+      nominee: [tt0108757]
+      winner: [tt0108757]
+    favorite television new comedy series:
+      nominee: [tt0115144]
+      winner: [tt0115144]
+    favorite television new dramatic series:
+      nominee: [tt0115270]
+      winner: [tt0115270]
+'1996': # https://www.imdb.com/event/ev0000530/1996/1/
+  people's choice award:
+    favorite comedy motion picture:
+      nominee: [tt0113228]
+      winner: [tt0113228]
+    favorite dramatic motion picture:
+      nominee: [tt0112384]
+      winner: [tt0112384]
+    favorite motion picture:
+      nominee: [tt0112384]
+      winner: [tt0112384]
+    favorite new tv comedy series:
+      nominee: [tt0111910]
+      winner: [tt0111910]
+    favorite new tv dramatic series:
+      nominee: [tt0112086]
+      winner: [tt0112086]
+    favorite tv comedy series:
+      nominee: [tt0098904]
+      winner: [tt0098904]
+    favorite tv dramatic series:
+      nominee: [tt0108757]
+      winner: [tt0108757]
+'1995': # https://www.imdb.com/event/ev0000530/1995/1/
+  people's choice award:
+    favorite comedy motion picture:
+      nominee: [tt0111070]
+      winner: [tt0111070]
+    favorite dramatic motion picture:
+      nominee: [tt0109830]
+      winner: [tt0109830]
+    favorite motion picture:
+      nominee: [tt0109830]
+      winner: [tt0109830]
+    favorite new tv comedy series:
+      nominee: [tt0108778]
+      winner: [tt0108778]
+    favorite new tv dramatic series:
+      nominee: [tt0108757]
+      winner: [tt0108757]
+    favorite performer in a new tv program:
+      nominee: [tt0108778]
+      winner: [tt0108778]
+    favorite tv comedy series:
+      nominee: [tt0101120]
+      winner: [tt0101120]
+    favorite tv dramatic series:
+      nominee: [tt0098896, tt0108757]
+      winner: [tt0098896, tt0108757]
+'1994': # https://www.imdb.com/event/ev0000530/1994/1/
+  people's choice award:
+    favorite comedy motion picture:
+      nominee: [tt0107614]
+      winner: [tt0107614]
+    favorite dramatic motion picture:
+      nominee: [tt0106918]
+      winner: [tt0106918]
+    favorite motion picture:
+      nominee: [tt0107290]
+      winner: [tt0107290]
+    favorite new tv comedy series:
+      nominee: [tt0106004, tt0106017]
+      winner: [tt0106004, tt0106017]
+    favorite new tv dramatic series:
+      nominee: [tt0106079]
+      winner: [tt0106079]
+    favorite tv comedy series:
+      nominee: [tt0101120]
+      winner: [tt0101120]
+    favorite tv dramatic series:
+      nominee: [tt0106079]
+      winner: [tt0106079]
+    favorite tv movie/miniseries:
+      nominee: [tt0110858]
+      winner: [tt0110858]
+'1993': # https://www.imdb.com/event/ev0000530/1993/1/
+  people's choice award:
+    favorite comedy motion picture:
+      nominee: [tt0104431, tt0105417]
+      winner: [tt0104431, tt0105417]
+    favorite dramatic motion picture:
+      nominee: [tt0104257]
+      winner: [tt0104257]
+    favorite motion picture:
+      nominee: [tt0104257]
+      winner: [tt0104257]
+    favorite new tv dramatic series:
+      nominee: [tt0103491]
+      winner: [tt0103491]
+    favorite tv comedy series:
+      nominee: [tt0101120]
+      winner: [tt0101120]
+    favorite tv daytime serial:
+      nominee: [tt0065272, tt0069658]
+      winner: [tt0065272, tt0069658]
+    favorite tv dramatic series:
+      nominee: [tt0090466, tt0098896]
+      winner: [tt0090466, tt0098896]
+    favorite tv new comedy series:
+      nominee: [tt0103488]
+      winner: [tt0103488]
+'1992': # https://www.imdb.com/event/ev0000530/1992/1/
+  people's choice award:
+    favorite comedy motion picture:
+      nominee: [tt0101587]
+      winner: [tt0101587]
+    favorite dramatic motion picture:
+      nominee: [tt0102926]
+      winner: [tt0102926]
+    favorite motion picture:
+      nominee: [tt0103064]
+      winner: [tt0103064]
+    favorite new tv comedy series:
+      nominee: [tt0101120]
+      winner: [tt0101120]
+    favorite new tv dramatic series:
+      nominee: [tt0101121]
+      winner: [tt0101121]
+    favorite tv comedy series:
+      nominee: [tt0086687]
+      winner: [tt0086687]
+    favorite tv dramatic series:
+      nominee: [tt0090466]
+      winner: [tt0090466]
+    favorite tv series among young people:
+      nominee: [tt0092359, tt0094582, tt0096694, tt0098749]
+      winner: [tt0098749]
+'1991': # https://www.imdb.com/event/ev0000530/1991/1/
+  people's choice award:
+    favorite comedy motion picture:
+      nominee: [tt0100405]
+      winner: [tt0100405]
+    favorite dramatic motion picture:
+      nominee: [tt0099653]
+      winner: [tt0099653]
+    favorite new tv comedy series:
+      nominee: [tt0096697, tt0098830]
+      winner: [tt0096697, tt0098830]
+    favorite new tv dramatic series:
+      nominee: [tt0098789]
+      winner: [tt0098789]
+    favorite news-oriented information series:
+      nominee: [tt0123338]
+      winner: [tt0123338]
+    favorite tv comedy series:
+      nominee: [tt0083399]
+      winner: [tt0083399]
+    favorite tv dramatic series:
+      nominee: [tt0090466]
+      winner: [tt0090466]
+    favorite tv mini-series:
+      nominee: [tt0098769]
+      winner: [tt0098769]
+'1990': # https://www.imdb.com/event/ev0000530/1990/1/
+  people's choice award:
+    favorite comedy motion picture:
+      nominee: [tt0097778]
+      winner: [tt0097778]
+    favorite dramatic motion picture:
+      nominee: [tt0096895, tt0098384]
+      winner: [tt0096895, tt0098384]
+    favorite motion picture:
+      nominee: [tt0096895]
+      winner: [tt0096895]
+    favorite new tv comedy series:
+      nominee: [tt0096569]
+      winner: [tt0096569]
+    favorite new tv dramatic series:
+      nominee: [tt0096688]
+      winner: [tt0096688]
+    favorite tv comedy series:
+      nominee: [tt0086687]
+      winner: [tt0086687]
+    favorite tv dramatic series:
+      nominee: [tt0090466]
+      winner: [tt0090466]
+'1989': # https://www.imdb.com/event/ev0000530/1989/1/
+  people's choice award:
+    all-time favorite tv program:
+      nominee: [tt0086687]
+      winner: [tt0086687]
+    favorite all-time motion picture:
+      nominee: [tt0031381]
+      winner: [tt0031381]
+    favorite comedy motion picture:
+      nominee: [tt0094737, tt0096320]
+      winner: [tt0094737, tt0096320]
+    favorite dramatic motion picture:
+      nominee: [tt0095953]
+      winner: [tt0095953]
+    favorite new tv comedy program:
+      nominee: [tt0094540]
+      winner: [tt0094540]
+    favorite new tv dramatic program:
+      nominee: [tt0094433]
+      winner: [tt0094433]
+    favorite tv comedy program:
+      nominee: [tt0086687]
+      winner: [tt0086687]
+    favorite tv dramatic program:
+      nominee: [tt0090466]
+      winner: [tt0090466]
+    favorite tv mini-series:
+      nominee: [tt0096725]
+      winner: [tt0096725]
+'1988': # https://www.imdb.com/event/ev0000530/1988/1/
+  people's choice award:
+    favorite all-time motion picture song:
+      nominee: [tt0059113]
+      winner: [tt0059113]
+    favorite comedy motion picture:
+      nominee: [tt0094137]
+      winner: [tt0094137]
+    favorite dramatic motion picture:
+      nominee: [tt0093010]
+      winner: [tt0093010]
+    favorite new tv comedy program:
+      nominee: [tt0092339, tt0092410]
+      winner: [tt0092339, tt0092410]
+    favorite new tv dramatic program:
+      nominee: [tt0092492]
+      winner: [tt0092492]
+    favorite tv comedy program:
+      nominee: [tt0086687]
+      winner: [tt0086687]
+    favorite tv dramatic program:
+      nominee: [tt0090466]
+      winner: [tt0090466]
+'1987': # https://www.imdb.com/event/ev0000530/1987/1/
+  people's choice award:
+    favorite motion picture:
+      nominee: [tt0092099]
+      winner: [tt0092099]
+    favorite new tv comedy:
+      nominee: [tt0090525]
+      winner: []
+    favorite new tv comedy program:
+      nominee: [tt0090390]
+      winner: [tt0090390]
+    favorite new tv dramatic program:
+      nominee: [tt0090466]
+      winner: [tt0090466]
+    favorite nighttime dramatic serial:
+      nominee: [tt0077000, tt0081856]
+      winner: [tt0077000, tt0081856]
+    favorite tv comedy program:
+      nominee: [tt0086687]
+      winner: [tt0086687]
+    favorite tv dramatic program:
+      nominee: [tt0081873]
+      winner: [tt0081873]
+'1986': # https://www.imdb.com/event/ev0000530/1986/1/
+  people's choice award:
+    favorite motion picture:
+      nominee: [tt0088763]
+      winner: [tt0088763]
+    favorite new tv comedy program:
+      nominee: [tt0088526]
+      winner: [tt0088526]
+    favorite new tv dramatic program:
+      nominee: [tt0088496]
+      winner: [tt0088496]
+    favorite tv comedy program:
+      nominee: [tt0086687]
+      winner: [tt0086687]
+    favorite tv dramatic program:
+      nominee: [tt0081856, tt0086759]
+      winner: [tt0081856, tt0086759]
+'1985': # https://www.imdb.com/event/ev0000530/1985/1/
+  people's choice award:
+    favorite children's tv program:
+      nominee: [tt0063951]
+      winner: [tt0063951]
+    favorite motion picture:
+      nominee: [tt0086960]
+      winner: [tt0086960]
+    favorite new tv comedy program:
+      nominee: [tt0086687]
+      winner: [tt0086687]
+    favorite new tv dramatic program:
+      nominee: [tt0086759]
+      winner: [tt0086759]
+    favorite tv comedy program:
+      nominee: [tt0086687]
+      winner: [tt0086687]
+    favorite tv dramatic program:
+      nominee: [tt0081856]
+      winner: [tt0081856]
+'1984': # https://www.imdb.com/event/ev0000530/1984/1/
+  people's choice award:
+    favorite children's tv program:
+      nominee: [tt0063951]
+      winner: [tt0063951]
+    favorite motion picture:
+      nominee: [tt0086190]
+      winner: [tt0086190]
+    favorite music video:
+      nominee: [tt0088263]
+      winner: [tt0088263]
+    favorite new tv comedy program:
+      nominee: [tt0085109]
+      winner: [tt0085109]
+    favorite new tv dramatic program:
+      nominee: [tt0085032]
+      winner: [tt0085032]
+    favorite overall new tv program:
+      nominee: [tt0084967]
+      winner: [tt0084967]
+    favorite theme/song from a motion picture:
+      nominee: [tt0085549]
+      winner: [tt0085549]
+    favorite tv comedy program:
+      nominee: [tt0075596]
+      winner: [tt0075596]
+    favorite tv dramatic program:
+      nominee: [tt0081856, tt0081873]
+      winner: [tt0081856, tt0081873]
+    favorite tv mini-series:
+      nominee: [tt0085101]
+      winner: [tt0085101]
+'1983': # https://www.imdb.com/event/ev0000530/1983/1/
+  people's choice award:
+    favorite motion picture:
+      nominee: [tt0083866]
+      winner: [tt0083866]
+    favorite new tv comedy program:
+      nominee: [tt0083399]
+      winner: [tt0083399]
+    favorite new tv dramatic program:
+      nominee: [tt0083483]
+      winner: [tt0083483]
+    favorite tv comedy program:
+      nominee: [tt0068098]
+      winner: [tt0068098]
+    favorite tv dramatic program:
+      nominee: [tt0081873]
+      winner: [tt0081873]
+    favorite tv mini-series:
+      nominee: [tt0083387]
+      winner: [tt0083387]
+'1982': # https://www.imdb.com/event/ev0000530/1982/1/
+  people's choice award:
+    favorite motion picture:
+      nominee: [tt0082971]
+      winner: [tt0082971]
+    favorite new tv comedy program:
+      nominee: [tt0081918]
+      winner: [tt0081918]
+    favorite new tv dramatic program:
+      nominee: [tt0081873]
+      winner: [tt0081873]
+    favorite overall new tv program:
+      nominee: [tt0081873]
+      winner: [tt0081873]
+    favorite tv comedy program:
+      nominee: [tt0068098]
+      winner: [tt0068098]
+    favorite tv dramatic program:
+      nominee: [tt0077000]
+      winner: [tt0077000]
+'1981': # https://www.imdb.com/event/ev0000530/1981/1/
+  people's choice award:
+    favorite male performer in a new tv program:
+      nominee: [tt0080213]
+      winner: []
+    favorite motion picture:
+      nominee: [tt0080684]
+      winner: [tt0080684]
+    favorite new tv comedy program:
+      nominee: [tt0080299]
+      winner: [tt0080299]
+    favorite new tv dramatic program:
+      nominee: [tt0080240]
+      winner: [tt0080240]
+    favorite theme/song from a motion picture:
+      nominee: [tt0080319]
+      winner: [tt0080319]
+    favorite tv comedy program:
+      nominee: [tt0068098, tt0080213]
+      winner: [tt0068098]
+    favorite tv dramatic program:
+      nominee: [tt0077000]
+      winner: [tt0077000]
+    favorite tv mini-series:
+      nominee: [tt0080274]
+      winner: [tt0080274]
+'1980': # https://www.imdb.com/event/ev0000530/1980/1/
+  people's choice award:
+    favorite female performer in a new tv program:
+      nominee: [tt0078561]
+      winner: []
+    favorite motion picture:
+      nominee: [tt0079817]
+      winner: [tt0079817]
+    favorite new tv dramatic program:
+      nominee: [tt0078622]
+      winner: [tt0078622]
+    favorite theme/song from a motion picture:
+      nominee: [tt0079510]
+      winner: [tt0079510]
+    favorite tv comedy program:
+      nominee: [tt0068098]
+      winner: [tt0068098]
+    favorite tv dramatic program:
+      nominee: [tt0077000]
+      winner: [tt0077000]
+'1979': # https://www.imdb.com/event/ev0000530/1979/1/
+  people's choice award:
+    favorite musical motion picture:
+      nominee: [tt0077631]
+      winner: [tt0077631]
+    favorite new tv comedy program:
+      nominee: [tt0077053]
+      winner: [tt0077053]
+    favorite new tv dramatic program:
+      nominee: [tt0076984]
+      winner: [tt0076984]
+    favorite non-musical motion picture:
+      nominee: [tt0077975]
+      winner: [tt0077975]
+    favorite overall motion picture:
+      nominee: [tt0077631]
+      winner: [tt0077631]
+    favorite overall new tv program:
+      nominee: [tt0077053]
+      winner: [tt0077053]
+    favorite tv comedy program:
+      nominee: [tt0068098]
+      winner: [tt0068098]
+    favorite tv dramatic program:
+      nominee: [tt0071007]
+      winner: [tt0071007]
+    favorite tv variety program:
+      nominee: [tt0073985]
+      winner: [tt0073985]
+'1978': # https://www.imdb.com/event/ev0000530/1978/1/
+  people's choice award:
+    favorite motion picture:
+      nominee: [tt0076759]
+      winner: [tt0076759]
+    favorite new tv comedy program:
+      nominee: [tt0075529, tt0075596]
+      winner: [tt0075529, tt0075596]
+    favorite new tv dramatic program:
+      nominee: [tt0075500]
+      winner: [tt0075500]
+    favorite overall new tv program:
+      nominee: [tt0075500]
+      winner: [tt0075500]
+    favorite tv comedy program:
+      nominee: [tt0068098]
+      winner: [tt0068098]
+    favorite tv dramatic program:
+      nominee: [tt0071007]
+      winner: [tt0071007]
+    favorite tv variety program:
+      nominee: [tt0061240]
+      winner: [tt0061240]
+'1977': # https://www.imdb.com/event/ev0000530/1977/1/
+  people's choice award:
+    favorite motion picture:
+      nominee: [tt0073486]
+      winner: [tt0073486]
+    favorite overall new tv program:
+      nominee: [tt0073972]
+      winner: [tt0073972]
+    favorite tv comedy program:
+      nominee: [tt0070992]
+      winner: [tt0070992]
+    favorite tv dramatic program:
+      nominee: [tt0072567]
+      winner: [tt0072567]
+    favorite tv variety program:
+      nominee: [tt0061240]
+      winner: [tt0061240]
+'1976': # https://www.imdb.com/event/ev0000530/1976/1/
+  people's choice award:
+    favorite motion picture:
+      nominee: [tt0073195]
+      winner: [tt0073195]
+    favorite overall new tv program:
+      nominee: [tt0072567, tt0072582]
+      winner: [tt0072567, tt0072582]
+    favorite tv comedy program:
+      nominee: [tt0066626]
+      winner: [tt0066626]
+    favorite tv dramatic program:
+      nominee: [tt0068149]
+      winner: [tt0068149]
+'1975': # https://www.imdb.com/event/ev0000530/1975/1/
+  people's choice award:
+    favorite motion picture:
+      nominee: [tt0070735]
+      winner: [tt0070735]
+    favorite tv comedy program:
+      nominee: [tt0066626]
+      winner: [tt0066626]
+    favorite tv dramatic program:
+      nominee: [tt0068149, tt0069599]
+      winner: [tt0068149, tt0069599]
+    favorite tv variety program:
+      nominee: [tt0061240]
+      winner: [tt0061240]

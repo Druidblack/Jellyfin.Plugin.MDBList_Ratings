@@ -1,0 +1,3168 @@
+# César Awards, France
+'2026':  # https://www.imdb.com/event/ev0000157/2026/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt32398150, tt32759477, tt33030403, tt35453969, tt36243564]
+      winner: [tt32759477]
+    best actress (meilleure actrice):
+      nominee: [tt26656750, tt29927144, tt32759477, tt33030403, tt34794183]
+      winner: [tt34794183]
+    best adapted screenplay (meilleure adaptation):
+      nominee: [tt28326501, tt32398150, tt33030403]
+      winner: [tt33030403]
+    best animated film (meilleur film d'animation):
+      nominee: [tt14883538, tt29313285, tt37436610]
+      winner: [tt14883538]
+    best animated short film (meilleur court métrage d'animation):
+      nominee: [tt32205725, tt36724193, tt37675860]
+      winner: [tt36724193]
+    best cinematography (meilleure photo):
+      nominee: [tt31287262, tt31688586, tt33030403, tt34794183, tt36243564]
+      winner: [tt31688586]
+    best costume design (meilleurs costumes):
+      nominee: [tt31411349, tt31434030, tt31688586, tt32759477, tt35465655]
+      winner: [tt31688586]
+    best director (meilleure réalisation):
+      nominee: [tt28326501, tt31688586, tt32398150, tt33030403, tt34794183]
+      winner: [tt31688586]
+    best documentary film (meilleur film documentaire):
+      nominee: [tt32134829, tt32368068, tt33298226, tt34726237, tt36598711]
+      winner: [tt32368068]
+    best documentary short film (meilleur film de court métrage documentaire):
+      nominee: [tt35720261, tt37749776, tt38715634]
+      winner: [tt38715634]
+    best editing (meilleur montage):
+      nominee: [tt28291010, tt28326501, tt31688586, tt33030403, tt34794183]
+      winner: [tt31688586]
+    best female hope (meilleur espoir féminin):
+      nominee: [tt28326501, tt31112509, tt31411349, tt33400055, tt37051267]
+      winner: [tt28326501]
+    best film (meilleur film):
+      nominee: [tt28326501, tt31688586, tt33030403, tt34794183, tt36491653]
+      winner: [tt33030403]
+    best first film (meilleur premier film):
+      nominee: [tt14883538, tt32119317, tt35453969, tt35519445, tt37051267]
+      winner: [tt35519445]
+    best foreign film (meilleur film étranger):
+      nominee: [tt27714581, tt27847051, tt28131427, tt30144839, tt32298285]
+      winner: [tt30144839]
+    best male hope (meilleur espoir masculin):
+      nominee: [tt31688586, tt32119317, tt33772384, tt35519445, tt37051267]
+      winner: [tt35519445]
+    best original music (meilleure musique originale):
+      nominee: [tt14883538, tt28326501, tt32759477, tt34794183, tt36243564]
+      winner: [tt14883538]
+    best original screenplay (meilleur scénario original):
+      nominee: [tt31688586, tt33984333, tt34794183, tt35519445, tt36491653]
+      winner: [tt33984333]
+    best production design (meilleurs décors):
+      nominee: [tt29927144, tt31411349, tt31688586, tt32398150, tt33255286]
+      winner: [tt32398150]
+    best short fiction film (meilleur film de court métrage de fiction):
+      nominee: [tt33365259, tt35329512, tt35397068, tt38057919]
+      winner: [tt35329512]
+    best sound (meilleur son):
+      nominee: [tt14883538, tt31688586, tt32368068, tt34794183, tt35453969]
+      winner: [tt32368068]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt32398150, tt32759477, tt36243564]
+      winner: [tt36243564]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt28326501, tt32759477, tt33030403, tt35453969, tt35519445]
+      winner: [tt33030403]
+    best visual effects (meilleurs effets visuels):
+      nominee: [tt31688586, tt32398150, tt32642156, tt33255286]
+      winner: [tt32398150]
+'2025': # https://www.imdb.com/event/ev0000157/2025/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt26446278, tt26743414, tt27490099, tt27811096, tt30327451]
+      winner: [tt27811096]
+    best actress (meilleure actrice):
+      nominee: [tt19121072, tt20221436, tt27490099, tt29482291]
+      winner: [tt19121072]
+    best adapted screenplay (meilleure adaptation):
+      nominee: [tt10462154, tt20221436, tt26446278]
+      winner: [tt20221436]
+    best animated film (meilleur film d'animation):
+      nominee: [tt10462154, tt10695672, tt4772188]
+      winner: [tt4772188]
+    best animated short film (meilleur court métrage d'animation):
+      nominee: [tt28356173, tt30970587, tt31579612]
+      winner: [tt28356173]
+    best cinematography (meilleure photographie):
+      nominee: [tt20221436, tt26446278, tt27490099, tt32085997, tt32086046]
+      winner: [tt20221436]
+    best costume design (meilleurs costumes):
+      nominee: [tt20221436, tt26446278, tt26743414, tt27490099, tt33298403]
+      winner: [tt26446278]
+    best director (meilleure réalisation):
+      nominee: [tt20221436, tt26446278, tt27490099, tt32085997, tt32086046]
+      winner: [tt20221436]
+    best documentary film (meilleur film documentaire):
+      nominee: [tt22857256, tt27760132, tt28359245, tt31015216, tt31551124, tt32019423]
+      winner: [tt28359245]
+    best documentary short film (meilleur film de court métrage documentaire):
+      nominee: [tt27158671, tt29432480, tt32146402]
+      winner: [tt32146402]
+    best editing (meilleur montage):
+      nominee: [tt20221436, tt26446278, tt27490099, tt30327451, tt32086046]
+      winner: [tt32086046]
+    best female revelation (meilleure révélation féminine):
+      nominee: [tt27490099, tt28319139, tt28636876, tt32086034, tt33298252]
+      winner: [tt32086034]
+    best film (meilleur film):
+      nominee: [tt20221436, tt26446278, tt30327451, tt32085997, tt32086046]
+      winner: [tt20221436]
+    best first film (meilleur premier film):
+      nominee: [tt28319139, tt30135174, tt30795948, tt32086032, tt32086034]
+      winner: [tt32086034]
+    best foreign film (meilleur film étranger):
+      nominee: [tt17526714, tt28607951, tt32178949, tt7160372, tt8368368]
+      winner: [tt7160372]
+    best male revelation (meilleure révélation masculine):
+      nominee: [tt27490099, tt30135174, tt30327451, tt32085997, tt32086046]
+      winner: [tt32086046]
+    best original music (meilleure musique originale):
+      nominee: [tt10462154, tt20221436, tt26446278, tt27490099, tt32086034]
+      winner: [tt20221436]
+    best original screenplay (meilleur scénario original):
+      nominee: [tt19121072, tt30327451, tt32085997, tt32086034, tt32086046]
+      winner: [tt32086046]
+    best production design (meilleurs décors):
+      nominee: [tt20221436, tt26446278, tt26743414, tt27490099, tt33298403]
+      winner: [tt26446278]
+    best short fiction film (meilleur film de court métrage de fiction):
+      nominee: [tt20519854, tt29432470, tt32623852, tt34382199]
+      winner: [tt20519854]
+    best sound (meilleur son):
+      nominee: [tt20221436, tt26446278, tt27490099, tt30327451, tt32086046]
+      winner: [tt20221436]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt26446278, tt27490099, tt32085997]
+      winner: [tt27490099]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt26446278, tt27490099, tt30327451, tt32085997, tt32086046]
+      winner: [tt32086046]
+    best visual effects (meilleurs effets visuels):
+      nominee: [tt14407336, tt20221436, tt26446278, tt26743414]
+      winner: [tt20221436]
+'2024': # https://www.imdb.com/event/ev0000157/2024/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt15789074, tt16160622, tt16606592, tt23049206, tt28236368]
+      winner: [tt16160622]
+    best actress (meilleure actrice):
+      nominee: [tt14550346, tt17009710, tt23049206, tt26714897, tt27531109]
+      winner: [tt17009710]
+    best adapted screenplay (meilleure adaptation):
+      nominee: [tt14550346, tt23049206, tt26255020]
+      winner: [tt23049206]
+    best animated film (meilleur film d'animation):
+      nominee: [tt12826598, tt21042126, tt26915336]
+      winner: [tt21042126]
+    best animated short film (meilleur court métrage d'animation):
+      nominee: [tt27688625, tt28106821, tt31033834]
+      winner: [tt31033834]
+    best cinematography (meilleure photographie):
+      nominee: [tt12672536, tt12672620, tt16160622, tt16606592, tt17009710, tt19760052]
+      winner: [tt16606592]
+    best costume design (meilleurs costumes):
+      nominee: [tt12672536, tt12672620, tt16606592, tt17277414, tt19760052, tt20330434]
+      winner: [tt16606592]
+    best director (meilleure réalisation):
+      nominee: [tt14550346, tt16160622, tt16606592, tt17009710, tt24070754]
+      winner: [tt17009710]
+    best documentary film (meilleur film documentaire):
+      nominee: [tt20226766, tt26347358, tt26448811, tt26714897, tt27502426]
+      winner: [tt27502426]
+    best documentary short film (meilleur film de court métrage documentaire):
+      nominee: [tt29432865, tt30807319, tt30971581]
+      winner: [tt29432865]
+    best editing (meilleur montage):
+      nominee: [tt16160622, tt16606592, tt17009710, tt24070754, tt26714897]
+      winner: [tt17009710]
+    best film (meilleur film):
+      nominee: [tt16160622, tt16606592, tt17009710, tt18550220, tt24070754]
+      winner: [tt17009710]
+    best first film (meilleur premier film):
+      nominee: [tt18550220, tt19858184, tt23790924, tt26744289, tt27531109]
+      winner: [tt18550220]
+    best foreign film (meilleur film étranger):
+      nominee: [tt14137416, tt15398776, tt21027780, tt22487338, tt27503384]
+      winner: [tt22487338]
+    best original music (meilleure musique originale):
+      nominee: [tt12672536, tt12672620, tt16606592, tt18550220, tt22180518, tt23049206]
+      winner: [tt16606592]
+    best original screenplay (meilleur scénario original):
+      nominee: [tt16160622, tt16606592, tt17009710, tt18550220, tt24070754]
+      winner: [tt17009710]
+    best production design (meilleurs décors):
+      nominee: [tt12672536, tt12672620, tt16606592, tt17009710, tt17277414, tt19760052]
+      winner: [tt12672536, tt12672620]
+    best short film (meilleur film de court métrage de fiction):
+      nominee: [tt19783692, tt22023962, tt22054360, tt27549515]
+      winner: [tt19783692]
+    best sound (meilleur son):
+      nominee: [tt12672536, tt12672620, tt16160622, tt16606592, tt17009710, tt24070754]
+      winner: [tt16606592]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt16160622, tt17009710, tt18550220, tt28236368]
+      winner: [tt17009710]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt18550220, tt24070754]
+      winner: [tt24070754]
+    best visual effects (meilleurs effets visuels):
+      nominee: [tt12672536, tt12672620, tt16606592, tt16909478, tt17569526, tt26744289]
+      winner: [tt16606592]
+    most promising actor (meilleur espoir masculin):
+      nominee: [tt14550346, tt16606592, tt17009710, tt18550220, tt26699529]
+      winner: [tt18550220]
+    most promising actress (meilleur espoir féminin):
+      nominee: [tt23647880, tt26255020, tt26256216, tt26699529, tt27372066]
+      winner: [tt26699529]
+'2023': # https://www.imdb.com/event/ev0000157/2023/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt13702796, tt14336174, tt14542254, tt14831708, tt19841734]
+      winner: [tt13702796]
+    best actress (meilleure actrice):
+      nominee: [tt10088984, tt13269580, tt13462472, tt13482806, tt15329224]
+      winner: [tt15329224]
+    best adapted screenplay (meilleure adaptation):
+      nominee: [tt14317880, tt16953666, tt8415986]
+      winner: [tt16953666]
+    best animated film (meilleur film d'animation):
+      nominee: [tt10290244, tt14749948, tt22352776]
+      winner: [tt14749948]
+    best animated short film (meilleur court métrage d'animation):
+      nominee: [tt14643434, tt14812818, tt21978444]
+      winner: [tt14643434]
+    best cinematography (meilleure photographie):
+      nominee: [tt13531468, tt13702796, tt14976386, tt15376894, tt16953666]
+      winner: [tt13702796]
+    best costume design (meilleurs costumes):
+      nominee: [tt11310608, tt13217988, tt13389730, tt13702796, tt14976386, tt19841734]
+      winner: [tt13389730]
+    best director (meilleur réalisation):
+      nominee: [tt13531468, tt13702796, tt14542254, tt16953666, tt19841734]
+      winner: [tt16953666]
+    best documentary film (meilleur film documentaire):
+      nominee: [tt10368758, tt14812786, tt14851374, tt17157266, tt19758084]
+      winner: [tt14812786]
+    best documentary short film (meilleur film de court métrage documentaire):
+      nominee: [tt14558656, tt19889104, tt21221326]
+      winner: [tt19889104]
+    best editing (meilleur montage):
+      nominee: [tt13269580, tt13531468, tt14542254, tt16953666, tt19841734]
+      winner: [tt13269580]
+    best film (meilleur film):
+      nominee: [tt13531468, tt13702796, tt14976386, tt16953666, tt19841734]
+      winner: [tt16953666]
+    best first film (meilleur premier film):
+      nominee: [tt10965850, tt11448830, tt15376894, tt19719862, tt21028846]
+      winner: [tt15376894]
+    best foreign film (meilleur film étranger):
+      nominee: [tt15006566, tt15452062, tt19652910, tt7322224, tt9660502]
+      winner: [tt15006566]
+    best original music (meilleure musique originale):
+      nominee: [tt13269580, tt13702796, tt13846402, tt14317880, tt16953666, tt19841734]
+      winner: [tt13269580]
+    best original screenplay (meilleur scénario original):
+      nominee: [tt13269580, tt13531468, tt14976386, tt15376894, tt19841734]
+      winner: [tt19841734]
+    best production design (meilleurs décors):
+      nominee: [tt13217988, tt13389730, tt13702796, tt14976386, tt16953666]
+      winner: [tt13389730]
+    best short film (meilleur film de court métrage de fiction):
+      nominee: [tt14639404, tt15669398, tt15788214, tt16290934]
+      winner: [tt16290934]
+    best sound (meilleur son):
+      nominee: [tt13531468, tt13702796, tt14542254, tt16953666, tt19841734]
+      winner: [tt16953666]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt13531468, tt14976386, tt16953666, tt19841734]
+      winner: [tt16953666]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt14542254, tt19841734, tt21028846]
+      winner: [tt19841734]
+    best visual effects (meilleurs effets visuels):
+      nominee: [tt12264966, tt13391708, tt13702796, tt14542254, tt15471560]
+      winner: [tt12264966]
+    most promising actor (meilleur espoir masculin):
+      nominee: [tt10965850, tt12322986, tt14336174, tt16953666, tt17009856]
+      winner: [tt16953666]
+    most promising actress (meilleur espoir féminin):
+      nominee: [tt13328732, tt13531468, tt14976386, tt15376894, tt19719862]
+      winner: [tt14976386]
+'2022': # https://www.imdb.com/event/ev0000157/2022/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt10341034, tt10404944, tt11093266, tt11611486, tt11967116, tt13321730, tt6217926]
+      winner: [tt11093266]
+    best actress (meilleure actrice):
+      nominee: [tt11611486, tt13137576, tt13321730, tt14429000, tt6823148, tt9714030, tt9735462]
+      winner: [tt9735462]
+    best adapted screenplay (meilleure adaptation):
+      nominee: [tt10505316, tt12708658, tt13137576, tt13285394, tt13880104]
+      winner: [tt10505316]
+    best animated film (meilleur film d'animation):
+      nominee: [tt3804810, tt7014378, tt8567862]
+      winner: [tt7014378]
+    best animated short film (meilleur film de court métrage d'animation):
+      nominee: [tt12532464, tt13376454, tt13376466, tt14339880]
+      winner: [tt14339880]
+    best cinematography (meilleure photographie):
+      nominee: [tt10505316, tt10944760, tt12708658, tt6217926, tt9844938]
+      winner: [tt10505316]
+    best costume design (meilleurs costumes):
+      nominee: [tt10366514, tt10505316, tt10738536, tt6217926, tt9735462]
+      winner: [tt10505316]
+    best director (meilleure réalisation):
+      nominee: [tt10404944, tt10505316, tt10944760, tt13880104, tt6217926, tt9735462, tt9844938]
+      winner: [tt6217926]
+    best documentary film (meilleur film documentaire):
+      nominee: [tt10150684, tt11348980, tt11937680, tt13150590, tt15170082]
+      winner: [tt11937680]
+    best documentary short film (meilleur film de court métrage documentaire):
+      nominee: [tt12973992, tt13332920, tt13869426, tt17446516]
+      winner: [tt13332920]
+    best editing (meilleur montage):
+      nominee: [tt10341034, tt10404944, tt10505316, tt13321730, tt6217926]
+      winner: [tt6217926]
+    best fiction short film (meilleur film de court métrage de fiction):
+      nominee: [tt11412510, tt11964154, tt12871404, tt13156256, tt13582590]
+      winner: [tt13156256]
+    best film (meilleur film):
+      nominee: [tt10404944, tt10505316, tt13321730, tt13880104, tt6217926, tt9735462, tt9844938]
+      winner: [tt10505316]
+    best first film (meilleur premier film):
+      nominee: [tt10675724, tt11937680, tt12444424, tt14068864, tt9697780]
+      winner: [tt14068864]
+    best foreign film (meilleur film étranger):
+      nominee: [tt10262648, tt10272386, tt10370710, tt12618926, tt14039582, tt9231040, tt9817070]
+      winner: [tt10272386]
+    best original music (meilleure musique originale):
+      nominee: [tt10341034, tt10404944, tt11937680, tt12708658, tt6217926]
+      winner: [tt6217926]
+    best original screenplay (meilleur scénario original):
+      nominee: [tt10341034, tt13321730, tt6217926, tt9735462, tt9844938]
+      winner: [tt9844938]
+    best production design (meilleurs décors):
+      nominee: [tt10366514, tt10505316, tt10738536, tt6217926, tt9735462]
+      winner: [tt10505316]
+    best sound (meilleur son):
+      nominee: [tt10341034, tt10505316, tt14068864, tt6217926, tt9735462]
+      winner: [tt6217926]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt10404944, tt10505316, tt9735462]
+      winner: [tt10505316]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt10375106, tt10505316, tt13321730, tt9735462]
+      winner: [tt13321730]
+    best visual effects (meilleurs effets visuels):
+      nominee: [tt10366514, tt10505316, tt10944760, tt6217926, tt9735462]
+      winner: [tt6217926]
+    most promising actor (meilleur espoir masculin):
+      nominee: [tt10505316, tt12077970, tt12708658, tt14068864, tt15010786]
+      winner: [tt10505316]
+    most promising actress (meilleur espoir féminin):
+      nominee: [tt10505316, tt10944760, tt12708658, tt13880104, tt9697780]
+      winner: [tt13880104]
+'2021': # https://www.imdb.com/event/ev0000157/2021/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt10196398, tt10749760, tt10880402, tt12443930, tt8076110]
+      winner: [tt10749760]
+    best actress (meilleure actrice):
+      nominee: [tt10196398, tt11013434, tt12443930, tt9845110]
+      winner: [tt11013434]
+    best adapted screenplay (meilleure adaptation):
+      nominee: [tt10457128, tt6760876, tt7766886, tt9288726, tt9665968]
+      winner: [tt7766886]
+    best animated film (meilleur film d'animation):
+      nominee: [tt10534996, tt7534136, tt9719864]
+      winner: [tt10534996]
+    best animated short film (meilleur court métrage d'animation):
+      nominee: [tt10224888, tt10732026, tt11454948, tt14032280]
+      winner: [tt10224888]
+    best cinematography (meilleure photographie):
+      nominee: [tt10196398, tt10457128, tt10785618, tt11013434, tt12443930]
+      winner: [tt10196398]
+    best costume design (meilleurs costumes):
+      nominee: [tt10196398, tt10441958, tt10457128, tt10880402, tt12443930]
+      winner: [tt10441958]
+    best director (meilleur réalisateur):
+      nominee: [tt10196398, tt10457128, tt10785618, tt12443930, tt7600716]
+      winner: [tt10196398]
+    best documentary film (meilleur film documentaire):
+      nominee: [tt10785618, tt11050964, tt11669702, tt11804388, tt12313458]
+      winner: [tt10785618]
+    best editing (meilleur montage):
+      nominee: [tt10196398, tt10457128, tt10785618, tt11013434, tt12443930]
+      winner: [tt10785618]
+    best film (meilleur film):
+      nominee: [tt10196398, tt10457128, tt10785618, tt11013434, tt12443930]
+      winner: [tt10196398]
+    best first film (meilleur premier film):
+      nominee: [tt10426916, tt11093134, tt9196192, tt9648886, tt9845110]
+      winner: [tt9845110]
+    best foreign film (meilleur film étranger):
+      nominee: [tt10288566, tt8343886, tt8579674, tt8649186, tt9071322]
+      winner: [tt10288566]
+    best original music (meilleure musique originale):
+      nominee: [tt10196398, tt10457128, tt11013434, tt7600716, tt9262952]
+      winner: [tt9262952]
+    best original screenplay (meilleur scénario original):
+      nominee: [tt10196398, tt10627352, tt11013434, tt12443930, tt9845110]
+      winner: [tt10196398]
+    best production design (meilleurs décors):
+      nominee: [tt10196398, tt10441958, tt10457128, tt10880402, tt12443930]
+      winner: [tt10196398]
+    best short film (meilleur film de court métrage):
+      nominee: [tt10243654, tt10747292, tt11007670, tt11753694, tt11794060]
+      winner: [tt11753694]
+    best sound (meilleur son):
+      nominee: [tt10196398, tt10457128, tt10785618, tt11013434, tt12443930]
+      winner: [tt10785618]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt10196398, tt10441958, tt11013434, tt12443930, tt7600716]
+      winner: [tt10196398]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt10441958, tt10457128, tt12443930, tt7600716]
+      winner: [tt12443930]
+    most promising actor (meilleur espoir masculin):
+      nominee: [tt10123698, tt10426916, tt10457128, tt9262952]
+      winner: [tt10426916]
+    most promising actress (meilleur espoir féminin):
+      nominee: [tt12443930, tt7766886, tt9164788, tt9196192, tt9894450]
+      winner: [tt9196192]
+'2020': # https://www.imdb.com/event/ev0000157/2020/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt10199590, tt2398149, tt8095860, tt8359840, tt8655470, tt9172422]
+      winner: [tt8359840]
+    best actress (meilleure actrice):
+      nominee: [tt10115562, tt7374926, tt7600706, tt8613070, tt8903840, tt9172422]
+      winner: [tt8903840]
+    best adapted screenplay (meilleure adaptation):
+      nominee: [tt10409498, tt2398149, tt7493370, tt8359840, tt9806192]
+      winner: [tt2398149]
+    best animated film (meilleur film d'animation):
+      nominee: [tt6284064, tt7534102, tt9806192]
+      winner: [tt9806192]
+    best cinematography (meilleure photographie):
+      nominee: [tt10199590, tt2398149, tt8359840, tt8613070, tt9172422]
+      winner: [tt8613070]
+    best costume design (meilleurs costumes):
+      nominee: [tt2398149, tt7201846, tt8613070, tt8669356, tt9172422]
+      winner: [tt2398149]
+    best director (meilleur réalisateur):
+      nominee: [tt10199590, tt2398149, tt8095860, tt8359840, tt8613070, tt8655470, tt9172422]
+      winner: [tt2398149]
+    best documentary film (meilleur film documentaire):
+      nominee: [tt10231478, tt8828434, tt8941056, tt9176600, tt9567718]
+      winner: [tt8828434]
+    best editing (meilleur montage):
+      nominee: [tt10199590, tt2398149, tt8095860, tt8655470, tt9172422]
+      winner: [tt10199590]
+    best film (meilleur film):
+      nominee: [tt10199590, tt2398149, tt8095860, tt8359840, tt8613070, tt8655470, tt9172422]
+      winner: [tt10199590]
+    best first film (meilleur premier film):
+      nominee: [tt10199586, tt10199590, tt10545470, tt7458762, tt9522080]
+      winner: [tt9522080]
+    best foreign film (meilleur film étranger):
+      nominee: [tt6751668, tt7131622, tt7286456, tt7736478, tt8291806, tt8356178, tt8359822]
+      winner: [tt6751668]
+    best music (meilleure musique):
+      nominee: [tt10199586, tt10199590, tt2398149, tt8359840, tt9806192]
+      winner: [tt9806192]
+    best original screenplay (meilleur scénario original):
+      nominee: [tt10199590, tt8095860, tt8613070, tt8655470, tt9172422]
+      winner: [tt9172422]
+    best production design (meilleurs décors):
+      nominee: [tt2398149, tt7201846, tt7458762, tt8613070, tt9172422]
+      winner: [tt9172422]
+    best short film (meilleur court-métrage):
+      nominee: [tt8410574, tt8551848, tt9018836, tt9094882, tt9643086]
+      winner: [tt9643086]
+    best short film - animation (meilleur court-métrage d'animation):
+      nominee: [tt6216826, tt7925798, tt8362894, tt8822398]
+      winner: [tt8362894]
+    best sound (meilleur son):
+      nominee: [tt10199590, tt2398149, tt7458762, tt8613070, tt9172422]
+      winner: [tt7458762]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt2398149, tt8095860, tt8265928]
+      winner: [tt8095860]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt10409498, tt8095860, tt8359840, tt8655470, tt9172422]
+      winner: [tt9172422]
+    most promising actor (meilleur jeune espoir masculin):
+      nominee: [tt10199590, tt10545470, tt8655470, tt8783532]
+      winner: [tt10199590]
+    most promising actress (meilleur jeune espoir féminin):
+      nominee: [tt10199586, tt8613070, tt9170086, tt9522080, tt9678892]
+      winner: [tt9522080]
+  césar du public:
+    césar du public:
+      nominee: [tt10199590, tt10545470, tt6556670, tt8201404, tt8655470]
+      winner: [tt10199590]
+'2019': # https://www.imdb.com/event/ev0000157/2019/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt6002232, tt7253216, tt7491144, tt7530986, tt7534068, tt7543930, tt7773210]
+      winner: [tt7253216]
+    best actress (meilleure actrice):
+      nominee: [tt6002232, tt6313378, tt7530986, tt7534068, tt7543930, tt8260226]
+      winner: [tt6002232]
+    best adapted screenplay (meilleure adaptation):
+      nominee: [tt4971344, tt6313378, tt7502234, tt7530986, tt8260226]
+      winner: [tt7502234]
+    best animated film (meilleur film d'animation):
+      nominee: [tt5541002, tt7169514, tt8001346]
+      winner: [tt7169514]
+    best cinematography (meilleure photographie):
+      nominee: [tt4971344, tt6002232, tt6313378, tt7476116, tt7530986]
+      winner: [tt4971344]
+    best costume design (meilleurs costumes):
+      nominee: [tt4971344, tt6313378, tt7025976, tt7073522, tt7530986]
+      winner: [tt7530986]
+    best director (meilleur réalisateur):
+      nominee: [tt4971344, tt6002232, tt6313378, tt7253216, tt7476116, tt7534068, tt7543930]
+      winner: [tt4971344]
+    best documentary film (meilleur film documentaire):
+      nominee: [tt5501158, tt7639574, tt8269490, tt8296602, tt8595622]
+      winner: [tt5501158]
+    best editing (meilleur montage):
+      nominee: [tt4971344, tt6002232, tt7476116, tt7502234, tt7534068]
+      winner: [tt6002232]
+    best film (meilleur film):
+      nominee: [tt4971344, tt6002232, tt6313378, tt7253216, tt7476116, tt7534068, tt7543930]
+      winner: [tt6002232]
+    best first film (meilleur premier film):
+      nominee: [tt6002232, tt7502234, tt8307082, tt8459250, tt8792898]
+      winner: [tt8459250]
+    best foreign film (meilleur film étranger):
+      nominee: [tt4432006, tt5027774, tt6543652, tt7773210, tt8075192, tt8254556, tt8267604]
+      winner: [tt8075192]
+    best original music (meilleure musique originale):
+      nominee: [tt4971344, tt7253216, tt7491144, tt7534068, tt7543930, tt8260226]
+      winner: [tt7253216]
+    best original screenplay (meilleur scénario original):
+      nominee: [tt6002232, tt7253216, tt7476116, tt7534068, tt7543930]
+      winner: [tt6002232]
+    best production design (meilleurs décors):
+      nominee: [tt4971344, tt6313378, tt7025976, tt7073522, tt7530986]
+      winner: [tt4971344]
+    best short film (meilleur court-métrage):
+      nominee: [tt6852116, tt6961422, tt7290768, tt8000866, tt8117190]
+      winner: [tt6961422]
+    best short film - animation (meilleur court-métrage d'animation):
+      nominee: [tt6335544, tt7036616, tt7900170, tt8321616]
+      winner: [tt6335544]
+    best sound (meilleur son):
+      nominee: [tt4971344, tt6002232, tt6313378, tt7253216, tt7476116]
+      winner: [tt4971344]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt7476116, tt7502234, tt7534054, tt7534068]
+      winner: [tt7476116]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt6892462, tt7476116, tt7502234, tt7534068]
+      winner: [tt7502234]
+    most promising actor (meilleur espoir masculin):
+      nominee: [tt6002232, tt6690004, tt6892462, tt7839456, tt8459250]
+      winner: [tt8459250]
+    most promising actress (meilleur espoir féminin):
+      nominee: [tt6121444, tt6559390, tt8075202, tt8260226, tt8459250]
+      winner: [tt8459250]
+  césar du public:
+    césar du public:
+      nominee: [tt7066382]
+      winner: [tt7066382]
+'2018': # https://www.imdb.com/event/ev0000157/2018/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt5258850, tt5351818, tt5687334, tt5699154, tt6247936, tt6462462, tt6805302]
+      winner: [tt6805302]
+    best actress (meilleure actrice):
+      nominee: [tt5061360, tt6095616, tt6411984, tt6423776, tt6444838, tt6741568, tt7156144]
+      winner: [tt6411984]
+    best adapted screenplay (meilleure adaptation):
+      nominee: [tt5061360, tt5258850, tt5598100, tt5687334, tt6213362]
+      winner: [tt5258850]
+    best animated film (meilleur film d'animation):
+      nominee: [tt4466894, tt5313906, tt5851904]
+      winner: [tt5851904]
+    best cinematography (meilleure photographie):
+      nominee: [tt5258850, tt5687334, tt6135348, tt6213362, tt6411984]
+      winner: [tt5258850]
+    best costume design (meilleurs costumes):
+      nominee: [tt5061360, tt5258850, tt6135348, tt6213362, tt6411984]
+      winner: [tt5258850]
+    best director (meilleur réalisateur):
+      nominee: [tt4954522, tt5258850, tt5687334, tt5699154, tt6135348, tt6411984, tt6805302]
+      winner: [tt5258850]
+    best documentary film (meilleur film documentaire):
+      nominee: [tt5598102, tt5804038, tt6481262, tt6777114, tt6832776]
+      winner: [tt5804038]
+    best editing (meilleur montage):
+      nominee: [tt5258850, tt5699154, tt6135348, tt6411984, tt6805302]
+      winner: [tt6135348]
+    best film (meilleur film):
+      nominee: [tt5258850, tt5598100, tt5699154, tt6135348, tt6411984, tt6462462, tt6805302]
+      winner: [tt6135348]
+    best first film (meilleur premier film):
+      nominee: [tt4954522, tt5598100, tt5598160, tt6095616, tt6805302]
+      winner: [tt6805302]
+    best foreign film (meilleur film étranger):
+      nominee: [tt3783958, tt4995790, tt5013056, tt5540188, tt5771640, tt6304162, tt6350304]
+      winner: [tt6304162]
+    best original music (meilleure musique originale):
+      nominee: [tt4954522, tt5258850, tt5598102, tt6135348, tt6805302]
+      winner: [tt6135348]
+    best original screenplay (meilleur scénario original):
+      nominee: [tt4954522, tt5699154, tt6135348, tt6411984, tt6805302]
+      winner: [tt6135348]
+    best production design (meilleurs décors):
+      nominee: [tt5061360, tt5258850, tt5687334, tt6135348, tt6411984]
+      winner: [tt5258850]
+    best short film (meilleur court-métrage):
+      nominee: [tt5715420, tt5787566, tt6586892, tt6622272, tt6826112]
+      winner: [tt6826112]
+    best short film - animation (meilleur court-métrage d'animation):
+      nominee: [tt6114164, tt7057890, tt7096552, tt7103306]
+      winner: [tt7057890]
+    best sound (meilleur son):
+      nominee: [tt4954522, tt5258850, tt5699154, tt6135348, tt6411984]
+      winner: [tt6411984]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt5258850, tt5699154, tt6135348]
+      winner: [tt6135348]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt5258850, tt6135348, tt6194530, tt6805302, tt7219324]
+      winner: [tt6805302]
+    most promising actor (meilleur jeune espoir masculin):
+      nominee: [tt5598100, tt5699154, tt5989394, tt6135348]
+      winner: [tt6135348]
+    most promising actress (meilleur jeune espoir féminin):
+      nominee: [tt4954522, tt5598160, tt5699154, tt6213362, tt6462462]
+      winner: [tt6462462]
+  césar du public:
+    césar du public:
+      nominee: [tt5736696]
+      winner: [tt5736696]
+'2017': # https://www.imdb.com/event/ev0000157/2017/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt4084060, tt4400038, tt4645368, tt4726636, tt4741708, tt5029608, tt5078326]
+      winner: [tt4645368]
+    best actress (meilleure actrice):
+      nominee: [tt3716530, tt3794028, tt4632440, tt4776964, tt5078134, tt5078214, tt5247544]
+      winner: [tt3716530]
+    best adapted screenplay (meilleure adaptation):
+      nominee: [tt2321405, tt3716530, tt3794028, tt5029608, tt5096536, tt5247544]
+      winner: [tt2321405]
+    best animated film (meilleur film d'animation):
+      nominee: [tt2321405, tt3666024, tt5698496]
+      winner: [tt2321405]
+    best animated short film (meilleur court métrage d'animation):
+      nominee: [tt5029198, tt5467804, tt5805116, tt5983248]
+      winner: [tt5983248]
+    best cinematography (meilleure photo):
+      nominee: [tt3716530, tt3794028, tt4370784, tt4726636, tt5029608]
+      winner: [tt5029608]
+    best costume design (meilleurs costumes):
+      nominee: [tt3794028, tt4632440, tt4726636, tt5029608, tt5078134]
+      winner: [tt4632440]
+    best director (meilleur réalisateur):
+      nominee: [tt3716530, tt3794028, tt4370784, tt4645368, tt4726636, tt4730986, tt5029608]
+      winner: [tt4645368]
+    best documentary film (meilleur film documentaire):
+      nominee: [tt3652526, tt5326448, tt5535406, tt5652594, tt5786040]
+      winner: [tt5326448]
+    best editing (meilleur montage):
+      nominee: [tt3716530, tt3794028, tt4645368, tt4730986, tt5029608]
+      winner: [tt4645368]
+    best film (meilleur film):
+      nominee: [tt3716530, tt3794028, tt4370784, tt4726636, tt4730986, tt5029608, tt5078214]
+      winner: [tt3716530]
+    best first film (meilleur premier film):
+      nominee: [tt3759370, tt4447076, tt4632440, tt4730986, tt5137222]
+      winner: [tt4730986]
+    best foreign film (meilleur film étranger):
+      nominee: [tt4034228, tt4048272, tt4630550, tt4645368, tt4936450, tt5168192, tt5221584]
+      winner: [tt5168192]
+    best original music (meilleure musique originale):
+      nominee: [tt2321405, tt3716530, tt4400038, tt4643432, tt5029608]
+      winner: [tt4643432]
+    best original screenplay (meilleur scénario original):
+      nominee: [tt4161564, tt4370784, tt4726636, tt4730986, tt5078214]
+      winner: [tt4161564]
+    best production design (meilleurs décors):
+      nominee: [tt4400038, tt4632440, tt4680196, tt4726636, tt5029608]
+      winner: [tt4400038]
+    best short film (meilleur court métrage):
+      nominee: [tt5811176]
+      winner: []
+    best short film (meilleur court-métrage):
+      nominee: [tt5882428]
+      winner: []
+    best short film (meilleur film de court métrage):
+      nominee: [tt4775726, tt5189374, tt5464342, tt5590350, tt5636324]
+      winner: [tt4775726, tt5189374]
+    best sound (meilleur son):
+      nominee: [tt1659619, tt3716530, tt3794028, tt4400038, tt5029608]
+      winner: [tt1659619]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt3716530, tt4400038, tt4645368, tt4741708, tt5078214]
+      winner: [tt4400038]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt3716530, tt4632440, tt4645368, tt4726636, tt4730986]
+      winner: [tt4730986]
+    most promising actor (meilleur espoir masculin):
+      nominee: [tt3716530, tt3759370, tt4331970, tt5231812]
+      winner: [tt3759370]
+    most promising actress (meilleur espoir féminin):
+      nominee: [tt4632440, tt4726636, tt4730986, tt5029608, tt5766118]
+      winner: [tt4730986]
+'2016': # https://www.imdb.com/event/ev0000157/2016/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt3478962, tt4082068, tt4120210, tt4216908, tt4228294, tt4313614, tt4428814]
+      winner: [tt4428814]
+    best actress (meilleure actrice):
+      nominee: [tt3478962, tt3791302, tt4080768, tt4120210, tt4428788, tt4466544, tt4685750]
+      winner: [tt4428788]
+    best adapted screenplay (meilleure adaptation):
+      nominee: [tt2711898, tt3037028, tt3433632, tt4357368, tt4466544]
+      winner: [tt4466544]
+    best animated film (meilleur film d'animation):
+      nominee: [tt1754656, tt3011816, tt3422078]
+      winner: [tt1754656]
+    best animated short film (meilleur court métrage d'animation):
+      nominee: [tt3031684, tt4636108, tt4834724, tt4985124]
+      winner: [tt4636108]
+    best cinematography (meilleure photo):
+      nominee: [tt3966404, tt4048050, tt4082068, tt4120210, tt4428788]
+      winner: [tt4120210]
+    best costume design (meilleurs costumes):
+      nominee: [tt2711898, tt3966404, tt4048050, tt4302562, tt4428788]
+      winner: [tt4428788]
+    best director (meilleur réalisateur):
+      nominee: [tt3478962, tt3791302, tt3966404, tt4048050, tt4082068, tt4428788, tt4428814]
+      winner: [tt4048050]
+    best documentary film (meilleur film documentaire):
+      nominee: [tt2852470, tt3431798, tt4377864, tt4449576, tt4741508]
+      winner: [tt4449576]
+    best editing (meilleur montage):
+      nominee: [tt3478962, tt3966404, tt4048050, tt4082068, tt4428788]
+      winner: [tt3966404]
+    best film (meilleur film):
+      nominee: [tt3478962, tt3791302, tt3966404, tt4048050, tt4082068, tt4428788, tt4428814, tt4466544]
+      winner: [tt4466544]
+    best first film (meilleur premier film):
+      nominee: [tt3433632, tt3966404, tt4057632, tt4228294, tt4426656]
+      winner: [tt3966404]
+    best foreign film (meilleur film étranger):
+      nominee: [tt2562232, tt3013610, tt3312830, tt3792960, tt3808342, tt4075488, tt4359416]
+      winner: [tt2562232]
+    best original music (meilleure musique originale):
+      nominee: [tt2296747, tt3478962, tt3966404, tt4048050, tt4228294]
+      winner: [tt3966404]
+    best original screenplay (meilleur scénario original):
+      nominee: [tt3791302, tt3966404, tt4048050, tt4082068, tt4428788]
+      winner: [tt3966404]
+    best production design (meilleurs décors):
+      nominee: [tt2711898, tt4048050, tt4082068, tt4302562, tt4428788]
+      winner: [tt4428788]
+    best short film (meilleur film de court métrage):
+      nominee: [tt3686716, tt3775232, tt4225216, tt4243054, tt4418214]
+      winner: [tt3686716]
+    best sound (meilleur son):
+      nominee: [tt3478962, tt3966404, tt4048050, tt4082068, tt4428788]
+      winner: [tt4428788]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt3478962, tt3791302, tt4082068, tt4428788]
+      winner: [tt3791302]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt3791302, tt4022440, tt4080768, tt4163644, tt4216908]
+      winner: [tt4216908]
+    most promising actor (meilleur espoir masculin):
+      nominee: [tt3791302, tt3817962, tt4048050, tt4228294, tt4466336]
+      winner: [tt3791302]
+    most promising actress (meilleur espoir féminin):
+      nominee: [tt3791302, tt3854802, tt4048050, tt4466362, tt4466544]
+      winner: [tt4466544]
+'2015': # https://www.imdb.com/event/ev0000157/2015/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt2707848, tt2707858, tt2891070, tt3129564, tt3184934, tt3324494, tt3547740]
+      winner: [tt2707858]
+    best actress (meilleure actrice):
+      nominee: [tt2452254, tt2593224, tt2737050, tt3204144, tt3433358, tt3489470, tt3547740]
+      winner: [tt3204144]
+    best adapted screenplay (meilleure adaptation):
+      nominee: [tt2593230, tt3129564, tt3230082, tt3324494, tt3489470]
+      winner: [tt3129564]
+    best animated film (meilleur film d'animation):
+      nominee: [tt1181840, tt1865505, tt2368672, tt3455506, tt3614440, tt3669490, tt3701644]
+      winner: [tt2368672]
+    best cinematography (meilleure photo):
+      nominee: [tt2316801, tt2452254, tt2707848, tt2707858, tt3409392]
+      winner: [tt3409392]
+    best costume design (meilleurs costumes):
+      nominee: [tt2316801, tt2707848, tt2707858, tt2935564, tt3184934]
+      winner: [tt2707848]
+    best director (meilleur réalisateur):
+      nominee: [tt2452254, tt2707848, tt2891070, tt2991092, tt3204144, tt3409392, tt3655522]
+      winner: [tt3409392]
+    best documentary film (meilleur film documentaire):
+      nominee: [tt3552254, tt3582506, tt3672028, tt3674140, tt3720794]
+      winner: [tt3674140]
+    best editing (meilleur montage):
+      nominee: [tt2707848, tt2891070, tt3204144, tt3409392, tt3660370]
+      winner: [tt3409392]
+    best film (meilleur film):
+      nominee: [tt2452254, tt2707848, tt2891070, tt2991092, tt3204144, tt3409392, tt3547740]
+      winner: [tt3409392]
+    best first film (meilleur premier film):
+      nominee: [tt3146294, tt3204144, tt3433358, tt3660370, tt3800010]
+      winner: [tt3204144]
+    best foreign film (meilleur film étranger):
+      nominee: [tt1065073, tt2024544, tt2278388, tt2718492, tt2737050, tt2758880, tt3612616]
+      winner: [tt3612616]
+    best original music (meilleure musique originale):
+      nominee: [tt2368635, tt2707858, tt3204144, tt3409392, tt3655522]
+      winner: [tt3409392]
+    best original screenplay (meilleur scénario original):
+      nominee: [tt2452254, tt2891070, tt3204144, tt3409392, tt3547740]
+      winner: [tt3409392]
+    best production design (meilleurs décors):
+      nominee: [tt2316801, tt2707848, tt2707858, tt2935564, tt3409392]
+      winner: [tt2316801]
+    best short film (meilleur film de court-métrage):
+      nominee: [tt2918338, tt3101752, tt3103468, tt3151064, tt3483878, tt3672622]
+      winner: [tt3101752]
+    best sound (meilleur son):
+      nominee: [tt2368635, tt2707848, tt3204144, tt3409392, tt3655522]
+      winner: [tt3409392]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt2707848, tt2707858, tt2891070, tt3547740]
+      winner: [tt2891070]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt2452254, tt2593230, tt2707858, tt2891070, tt3399024]
+      winner: [tt2452254]
+    most promising actor (meilleur espoir masculin):
+      nominee: [tt2289526, tt2991092, tt3146294, tt3204144, tt3289126]
+      winner: [tt3204144]
+    most promising actress (meilleur espoir féminin):
+      nominee: [tt3365778, tt3547740, tt3655522, tt3800010]
+      winner: [tt3547740]
+'2014': # https://www.imdb.com/event/ev0000157/2014/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt2054790, tt2150332, tt2207050, tt2315200, tt2406252, tt2853614, tt3062242]
+      winner: [tt2315200]
+    best actress (meilleure actrice):
+      nominee: [tt2278871, tt2289538, tt2298416, tt2379318, tt2404461, tt2406252, tt2853614]
+      winner: [tt2853614]
+    best adapted screenplay (meilleure adaptation):
+      nominee: [tt2210834, tt2278871, tt2315200, tt2406252, tt2609222]
+      winner: [tt2315200]
+    best animated film (meilleur film d'animation):
+      nominee: [tt2077703, tt2768474, tt3400214]
+      winner: [tt3400214]
+    best animated short film (meilleur court métrage d'animation):
+      nominee: [tt2850814, tt2968314]
+      winner: [tt2850814]
+    best cinematography (meilleure photo):
+      nominee: [tt1981107, tt2054790, tt2150332, tt2278871, tt2852458]
+      winner: [tt1981107]
+    best costume design (meilleurs costumes):
+      nominee: [tt1981107, tt2027140, tt2054790, tt2150332, tt2315200]
+      winner: [tt2150332]
+    best director (meilleur réalisateur):
+      nominee: [tt2210834, tt2278871, tt2315200, tt2404461, tt2406252, tt2852458, tt2853614]
+      winner: [tt2406252]
+    best documentary film (meilleur film documentaire):
+      nominee: [tt2340784, tt2650054, tt2873250, tt3013258, tt3066954]
+      winner: [tt3013258]
+    best editing (meilleur montage):
+      nominee: [tt2278871, tt2315200, tt2404461, tt2852458, tt2853614]
+      winner: [tt2315200]
+    best film (meilleur film):
+      nominee: [tt2210834, tt2278871, tt2315200, tt2404461, tt2406252, tt2852458, tt2853614]
+      winner: [tt2315200]
+    best first film (meilleur premier film):
+      nominee: [tt2165236, tt2261749, tt2315200, tt2846972, tt2846996]
+      winner: [tt2315200]
+    best foreign film (meilleur film étranger):
+      nominee: [tt1454468, tt1853728, tt1854513, tt2024519, tt2334873, tt2358891, tt2435076]
+      winner: [tt2024519]
+    best original music (meilleure musique originale):
+      nominee: [tt1937118, tt2027140, tt2054790, tt2207050, tt2406252]
+      winner: [tt2054790]
+    best original screenplay (meilleur scénario original):
+      nominee: [tt2207050, tt2298416, tt2404461, tt2852458, tt2853614]
+      winner: [tt2853614]
+    best production design (meilleurs décors):
+      nominee: [tt1981107, tt2027140, tt2054790, tt2150332, tt2315200]
+      winner: [tt2027140]
+    best short film (meilleur film de court métrage):
+      nominee: [tt2630808, tt2668120, tt2689992, tt2715408, tt2728314]
+      winner: [tt2689992]
+    best sound (meilleur son):
+      nominee: [tt2054790, tt2278871, tt2315200, tt2406252, tt2852458]
+      winner: [tt2054790]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt2298416, tt2379318, tt2609222, tt2835548, tt2852458]
+      winner: [tt2609222]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt2234543, tt2298416, tt2315200, tt2609222, tt2752200]
+      winner: [tt2298416]
+    most promising actor (meilleur espoir masculin):
+      nominee: [tt2197088, tt2289538, tt2298416, tt2846972, tt2852458]
+      winner: [tt2852458]
+    most promising actress (meilleur espoir féminin):
+      nominee: [tt1638353, tt2018079, tt2215221, tt2278871, tt2752200]
+      winner: [tt2278871]
+'2013': # https://www.imdb.com/event/ev0000157/2013/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt1602620, tt1899270, tt1906347, tt1964624, tt2076176, tt2076220, tt2179121]
+      winner: [tt1602620]
+    best actress (meilleure actrice):
+      nominee: [tt1602620, tt1753813, tt1899270, tt2050561, tt2053425, tt2094877, tt2253939]
+      winner: [tt1602620]
+    best adapted screenplay (meilleure adaptation):
+      nominee: [tt1753813, tt1817286, tt1964624, tt2053425, tt2179121]
+      winner: [tt2053425]
+    best animated film (meilleur film d'animation):
+      nominee: [tt1816518, tt2077908, tt2159990, tt2372335, tt2425618]
+      winner: [tt1816518]
+    best cinematography (meilleure photographie):
+      nominee: [tt1602620, tt1753813, tt2053425, tt2070776, tt2076220]
+      winner: [tt1753813]
+    best costume design (meilleurs costumes):
+      nominee: [tt1753813, tt2070776, tt2076176, tt2098628, tt2253939]
+      winner: [tt1753813]
+    best director (meilleur réalisateur):
+      nominee: [tt1602620, tt1753813, tt1899270, tt1964624, tt2053425, tt2076220, tt2253939]
+      winner: [tt1602620]
+    best documentary film (meilleur film documentaire):
+      nominee: [tt1922589, tt1961210, tt1988699, tt2399523, tt2399533]
+      winner: [tt2399533]
+    best editing (meilleur montage):
+      nominee: [tt1602620, tt1753813, tt2053425, tt2076220, tt2253939]
+      winner: [tt2053425]
+    best film (meilleur film):
+      nominee: [tt1602620, tt1753813, tt1964624, tt2053425, tt2076220, tt2179121, tt2253939]
+      winner: [tt1602620]
+    best first film (meilleur premier film):
+      nominee: [tt2050561, tt2070776, tt2098628, tt2112129, tt2173668]
+      winner: [tt2050561]
+    best foreign film (meilleur film étranger):
+      nominee: [tt1024648, tt1276419, tt1650048, tt1660302, tt1736633, tt1821593, tt1924394]
+      winner: [tt1024648]
+    best original music (meilleure musique originale):
+      nominee: [tt1753813, tt1964624, tt2053425, tt2070776, tt2253939]
+      winner: [tt2053425]
+    best original screenplay (meilleur scénario original):
+      nominee: [tt1602620, tt1899270, tt2076220, tt2253939, tt2399495]
+      winner: [tt1602620]
+    best production design (meilleurs décors):
+      nominee: [tt1602620, tt1753813, tt2070776, tt2076176, tt2076220]
+      winner: [tt1753813]
+    best short film (meilleur film de court métrage):
+      nominee: [tt2150716, tt2271243, tt2278889, tt2371369, tt2372303]
+      winner: [tt2150716]
+    best sound (meilleur son):
+      nominee: [tt1602620, tt1753813, tt2053425, tt2076176, tt2076220]
+      winner: [tt2076176]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt1906347, tt2076176, tt2179121, tt2253939]
+      winner: [tt2179121]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt1602620, tt2076220, tt2179121, tt2253939]
+      winner: [tt2179121]
+    most promising actor (meilleur espoir masculin):
+      nominee: [tt1964624, tt2053425, tt2062969, tt2112129, tt2144176]
+      winner: [tt2053425]
+    most promising actress (meilleur espoir féminin):
+      nominee: [tt2210823, tt2253939, tt2359668, tt2399501]
+      winner: [tt2359668]
+'2012': # https://www.imdb.com/event/ev0000157/2012/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt1582244, tt1655442, tt1675434, tt1710590, tt1711484, tt1781843]
+      winner: [tt1675434]
+    best actress (meilleure actrice):
+      nominee: [tt1655442, tt1661420, tt1686067, tt1852006, tt1931470, tt1942120]
+      winner: [tt1655442]
+    best adapted screenplay (meilleure adaptation):
+      nominee: [tt1242521, tt1582244, tt1692486, tt1710590, tt1828995]
+      winner: [tt1692486]
+    best animated film (meilleur film d'animation):
+      nominee: [tt0961097, tt1355638, tt1765880, tt1891769, tt2071502]
+      winner: [tt1355638]
+    best cinematography (meilleure photographie):
+      nominee: [tt1655442, tt1660379, tt1661420, tt1675434, tt1781843]
+      winner: [tt1655442]
+    best costume design (meilleurs costumes):
+      nominee: [tt1655442, tt1660379, tt1686067, tt1805297, tt1896788]
+      winner: [tt1660379]
+    best director (meilleur réalisateur):
+      nominee: [tt1508675, tt1655442, tt1661420, tt1675434, tt1781843, tt1906446, tt1931470]
+      winner: [tt1655442]
+    best documentary film (meilleur film documentaire):
+      nominee: [tt1417086, tt1855249, tt1922767, tt2043814, tt2079514]
+      winner: [tt1922767]
+    best editing (meilleur montage):
+      nominee: [tt1655442, tt1661420, tt1675434, tt1781843, tt1931470]
+      winner: [tt1661420]
+    best film (meilleur film):
+      nominee: [tt1508675, tt1655442, tt1661420, tt1675434, tt1781843, tt1906446, tt1931470]
+      winner: [tt1655442]
+    best first film (meilleur premier film):
+      nominee: [tt1538221, tt1735200, tt1828995, tt1860152, tt1896788]
+      winner: [tt1735200]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0780504, tt0947798, tt1255953, tt1504320, tt1527186, tt1827512, tt1832382]
+      winner: [tt1832382]
+    best original music (meilleure musique originale):
+      nominee: [tt0961097, tt1655442, tt1660379, tt1781843, tt1815799]
+      winner: [tt1655442]
+    best original screenplay (meilleur scénario original):
+      nominee: [tt1655442, tt1661420, tt1675434, tt1781843, tt1931470]
+      winner: [tt1781843]
+    best production design (meilleurs décors):
+      nominee: [tt1508675, tt1655442, tt1660379, tt1781843, tt1805297]
+      winner: [tt1655442]
+    best short film (meilleur film de court métrage):
+      nominee: [tt1764402, tt1815764, tt1858582, tt1907704, tt2027143]
+      winner: [tt1907704]
+    best sound (meilleur son):
+      nominee: [tt1660379, tt1661420, tt1675434, tt1781843, tt1931470]
+      winner: [tt1781843]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt1661420, tt1711484, tt1781843]
+      winner: [tt1781843]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt1660379, tt1661420, tt1675434, tt1781843, tt1805297]
+      winner: [tt1805297]
+    most promising actor (meilleur espoir masculin):
+      nominee: [tt1455106, tt1538221, tt1741542, tt1754795, tt1946269]
+      winner: [tt1538221]
+    most promising actress (meilleur espoir féminin):
+      nominee: [tt1538221, tt1660379, tt1661420, tt1821493]
+      winner: [tt1538221, tt1661420]
+'2011': # https://www.imdb.com/event/ev0000157/2011/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt1329457, tt1465487, tt1473074, tt1588337, tt1646974]
+      winner: [tt1329457]
+    best actress (meilleure actrice):
+      nominee: [tt1496005, tt1521848, tt1565958, tt1646974, tt1668200]
+      winner: [tt1646974]
+    best adapted screenplay (meilleure adaptation):
+      nominee: [tt1139328, tt1496005, tt1521848, tt1533818, tt1599975]
+      winner: [tt1139328]
+    best animated film (meilleur film d'animation):
+      nominee: [tt0775489, tt0940656, tt1563725, tt1600415, tt1673702]
+      winner: [tt0775489]
+    best cinematography (meilleure photographie):
+      nominee: [tt1139328, tt1329457, tt1451762, tt1588337, tt1599975]
+      winner: [tt1588337]
+    best costume design (meilleurs costumes):
+      nominee: [tt1179025, tt1451762, tt1521848, tt1588337, tt1599975]
+      winner: [tt1599975]
+    best director (meilleur réalisateur):
+      nominee: [tt1139328, tt1321865, tt1451762, tt1517214, tt1588337]
+      winner: [tt1139328]
+    best documentary film (meilleur film documentaire):
+      nominee: [tt0765128, tt1606382, tt1625857, tt1646963, tt1653853]
+      winner: [tt0765128]
+    best editing (meilleur montage):
+      nominee: [tt1139328, tt1321865, tt1329457, tt1451762, tt1588337]
+      winner: [tt1139328]
+    best film (meilleur film):
+      nominee: [tt1139328, tt1329457, tt1451762, tt1465487, tt1473074, tt1588337, tt1646974]
+      winner: [tt1588337]
+    best first film (meilleur premier film):
+      nominee: [tt1329457, tt1391143, tt1465487, tt1587877, tt1646127]
+      winner: [tt1329457]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0810784, tt1057500, tt1285016, tt1305806, tt1375666, tt1503777, tt1600524]
+      winner: [tt1285016]
+    best music written for a film (meilleure musique écrite pour un film):
+      nominee: [tt0765128, tt1139328, tt1415255, tt1495823, tt1496005, tt1599975]
+      winner: [tt1139328]
+    best original screenplay (meilleur scénario original):
+      nominee: [tt1451762, tt1473074, tt1517214, tt1588337, tt1646974]
+      winner: [tt1646974]
+    best production design (meilleurs décors):
+      nominee: [tt1139328, tt1179025, tt1329457, tt1588337, tt1599975]
+      winner: [tt1179025]
+    best short film (meilleur film de court métrage):
+      nominee: [tt1483813, tt1563725, tt1620896, tt1653921, tt2305023]
+      winner: [tt1563725]
+    best sound (meilleur son):
+      nominee: [tt0765128, tt1139328, tt1329457, tt1451762, tt1588337]
+      winner: [tt1329457]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt1440232, tt1465487, tt1533818, tt1588337]
+      winner: [tt1588337]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt1329457, tt1440232, tt1465487, tt1517214, tt1521848]
+      winner: [tt1517214]
+    most promising actor (meilleur espoir masculin):
+      nominee: [tt1321865, tt1415255, tt1509797, tt1599975]
+      winner: [tt1321865]
+    most promising actress (meilleur espoir féminin):
+      nominee: [tt1401643, tt1509797, tt1587119, tt1587877]
+      winner: [tt1587877]
+'2010': # https://www.imdb.com/event/ev0000157/2010/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt1198385, tt1235166, tt1245771, tt1314280, tt1430110]
+      winner: [tt1235166]
+    best actress (meilleure actrice):
+      nominee: [tt1035736, tt1171704, tt1285246, tt1286809, tt1315962]
+      winner: [tt1286809]
+    best adapted screenplay (meilleure adaptation):
+      nominee: [tt1035736, tt1156143, tt1245771, tt1264904, tt1285246]
+      winner: [tt1285246]
+    best cinematography (meilleure photographie):
+      nominee: [tt1035736, tt1156143, tt1198385, tt1235166, tt1314280]
+      winner: [tt1235166]
+    best costume design (meilleurs costumes):
+      nominee: [tt1023441, tt1035736, tt1149361, tt1167660, tt1235166]
+      winner: [tt1035736]
+    best director (meilleur réalisateur):
+      nominee: [tt1198385, tt1235166, tt1314280, tt1320082, tt1430110]
+      winner: [tt1235166]
+    best documentary film (meilleur film documentaire):
+      nominee: [tt1014762, tt1326787, tt1381090, tt1433528, tt1500496]
+      winner: [tt1433528]
+    best editing (meilleur montage):
+      nominee: [tt1156143, tt1198385, tt1235166, tt1314280, tt1320082]
+      winner: [tt1235166]
+    best film (meilleur film):
+      nominee: [tt1156143, tt1198385, tt1235166, tt1286809, tt1314280, tt1320082, tt1430110]
+      winner: [tt1235166]
+    best first film (meilleur premier film):
+      nominee: [tt1149592, tt1245771, tt1314237, tt1350940, tt1486815]
+      winner: [tt1314237]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0499549, tt1010048, tt1013753, tt1149362, tt1205489, tt1424797, tt1433540]
+      winner: [tt1205489]
+    best music written for a film (meilleure musique écrite pour un film):
+      nominee: [tt1198385, tt1235166, tt1314280, tt1320082, tt1485762]
+      winner: [tt1320082]
+    best original screenplay (meilleur scénario original):
+      nominee: [tt1198385, tt1235166, tt1286809, tt1314280, tt1320082]
+      winner: [tt1235166]
+    best production design (meilleurs décors):
+      nominee: [tt1035736, tt1149361, tt1167660, tt1198385, tt1235166]
+      winner: [tt1235166]
+    best short film (meilleur court métrage):
+      nominee: [tt1315987, tt1453240, tt1591024, tt1593715, tt1593821]
+      winner: [tt1453240]
+    best sound (meilleur son):
+      nominee: [tt1149361, tt1198385, tt1235166, tt1314280, tt1320082]
+      winner: [tt1320082]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt1035729, tt1035736, tt1235166, tt1245771, tt1303230]
+      winner: [tt1235166]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt1198385, tt1285246, tt1314237, tt1314280, tt1430110]
+      winner: [tt1198385]
+    most promising actor (meilleur espoir masculin):
+      nominee: [tt1235166, tt1314237, tt1314280, tt1406161]
+      winner: [tt1235166]
+    most promising actress (meilleur espoir féminin):
+      nominee: [tt1194616, tt1198385, tt1245771, tt1258141, tt1486815]
+      winner: [tt1245771]
+'2009': # https://www.imdb.com/event/ev0000157/2009/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0411272, tt0926759, tt0996930, tt1132607, tt1174034, tt1259014]
+      winner: [tt0411272, tt1259014]
+    best actress (meilleure actrice):
+      nominee: [tt0903627, tt1048171, tt1052353, tt1068649, tt1206478]
+      winner: [tt1048171]
+    best adapted screenplay (meilleure adaptation):
+      nominee: [tt0411272, tt0996930, tt1068646, tt1206478, tt1259014, tt1263778]
+      winner: [tt1068646]
+    best cinematography (meilleure photographie):
+      nominee: [tt0411272, tt0948535, tt0993789, tt1048171, tt1259014, tt1319569]
+      winner: [tt1048171]
+    best costume design (meilleurs costumes):
+      nominee: [tt0411272, tt0824330, tt0948535, tt1048171, tt1052353, tt1259014]
+      winner: [tt1048171]
+    best director (meilleur réalisateur):
+      nominee: [tt0411272, tt0926759, tt0993789, tt1048171, tt1068646, tt1259014]
+      winner: [tt0411272, tt1259014]
+    best documentary film (meilleur film documentaire):
+      nominee: [tt0881310, tt1031928, tt1033595, tt1129435, tt1305080]
+      winner: [tt1129435]
+    best editing (meilleur montage):
+      nominee: [tt0411272, tt0869994, tt0926759, tt0993789, tt1068646, tt1259014]
+      winner: [tt0926759]
+    best film (meilleur film):
+      nominee: [tt0411272, tt0869994, tt0926759, tt0993789, tt1048171, tt1068646, tt1068649, tt1259014]
+      winner: [tt1048171]
+    best first film (meilleur premier film):
+      nominee: [tt1068649, tt1132607, tt1217637, tt1310654, tt1319569]
+      winner: [tt1068649]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0469494, tt0758758, tt0929425, tt1103275, tt1176954, tt1185616, tt1186369]
+      winner: [tt1185616]
+    best music written for a film (meilleure musique écrite pour un film):
+      nominee: [tt0411272, tt0926759, tt0948535, tt1048171, tt1068649, tt1259014]
+      winner: [tt1048171]
+    best original screenplay (meilleur scénario original):
+      nominee: [tt0926759, tt0993789, tt1048171, tt1064932, tt1068649]
+      winner: [tt1048171]
+    best production design (meilleurs décors):
+      nominee: [tt0411272, tt0948535, tt0953382, tt1048171, tt1259014, tt1319569]
+      winner: [tt1048171]
+    best short film (meilleur court-métrage):
+      nominee: [tt1193135, tt1235926, tt1256636, tt1269390, tt1414837]
+      winner: [tt1414837]
+    best sound (meilleur son):
+      nominee: [tt0411272, tt0948535, tt0993789, tt1048171, tt1068646, tt1259014]
+      winner: [tt0411272, tt1259014]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0993789, tt0996930, tt1087829, tt1139800, tt1174047]
+      winner: [tt0993789]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0836700, tt0869994, tt0993789, tt1052353, tt1068649]
+      winner: [tt1068649]
+    most promising actor (meilleur espoir masculin):
+      nominee: [tt0926759, tt0993789, tt1087829, tt1263778]
+      winner: [tt0926759]
+    most promising actress (meilleur espoir féminin):
+      nominee: [tt0926759, tt1087851, tt1132608, tt1139800, tt1263778]
+      winner: [tt0926759]
+'2008': # https://www.imdb.com/event/ev0000157/2008/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0401383, tt0487273, tt0825244, tt0864691, tt0969701]
+      winner: [tt0401383]
+    best actress (meilleure actrice):
+      nominee: [tt0450188, tt0486636, tt0490234, tt0814659, tt0881233]
+      winner: [tt0450188]
+    best adapted screenplay (meilleure adaptation):
+      nominee: [tt0401383, tt0490234, tt0792965, tt0808417, tt0881233]
+      winner: [tt0808417]
+    best cinematography (meilleure photographie):
+      nominee: [tt0401383, tt0450188, tt0490234, tt0795370, tt0825248]
+      winner: [tt0450188]
+    best costume design (meilleurs costumes):
+      nominee: [tt0418758, tt0450188, tt0490234, tt0795370, tt0796335]
+      winner: [tt0450188]
+    best director (meilleur réalisateur):
+      nominee: [tt0401383, tt0450188, tt0487273, tt0487419, tt0490234]
+      winner: [tt0487419]
+    best documentary film (meilleur film documentaire):
+      nominee: [tt0487485, tt0498091, tt0881303, tt0881317, tt1032854]
+      winner: [tt1032854]
+    best editing (meilleur montage):
+      nominee: [tt0401383, tt0450188, tt0487419, tt0490234, tt0808417]
+      winner: [tt0401383]
+    best film (meilleur film):
+      nominee: [tt0401383, tt0450188, tt0487419, tt0490234, tt0808417]
+      winner: [tt0487419]
+    best first film (meilleur premier film):
+      nominee: [tt0808417, tt0830545, tt0869977, tt0935086, tt0969701]
+      winner: [tt0808417]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0405094, tt0498399, tt0765443, tt0880502, tt1032846]
+      winner: [tt0405094]
+    best music written for a film (meilleure musique écrite pour un film):
+      nominee: [tt0490234, tt0808417, tt0825248, tt0864691, tt0996605]
+      winner: [tt0996605]
+    best original screenplay (meilleur scénario original):
+      nominee: [tt0450188, tt0487419, tt0796335, tt0841044, tt0969701]
+      winner: [tt0487419]
+    best production design (meilleurs décors):
+      nominee: [tt0418758, tt0450188, tt0490234, tt0795370, tt0796335]
+      winner: [tt0450188]
+    best short film (meilleur court-métrage):
+      nominee: [tt0819793, tt0820971, tt0984099, tt1064897, tt1114691]
+      winner: [tt0820971]
+    best sound (meilleur son):
+      nominee: [tt0401383, tt0450188, tt0808417, tt0825248, tt0996605]
+      winner: [tt0450188]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0450188, tt0487273, tt0765141, tt0792965, tt0796335]
+      winner: [tt0487273]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0450188, tt0490234, tt0815092, tt0864691]
+      winner: [tt0490234]
+    most promising actor (meilleur espoir masculin):
+      nominee: [tt0487273, tt0792965, tt0864770, tt0875113, tt0996605]
+      winner: [tt0792965]
+    most promising actress (meilleur espoir féminin):
+      nominee: [tt0487419, tt0869977, tt0889652, tt0996605]
+      winner: [tt0487419]
+'2007': # https://www.imdb.com/event/ev0000157/2007/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0362225, tt0450664, tt0464828, tt0464913, tt0478724]
+      winner: [tt0362225]
+    best actress (meilleure actrice):
+      nominee: [tt0444112, tt0459880, tt0464828, tt0478724, tt0487503]
+      winner: [tt0459880]
+    best adapted screenplay (meilleure adaptation):
+      nominee: [tt0362225, tt0459880, tt0464913, tt0485241, tt0498120]
+      winner: [tt0459880]
+    best cinematography (meilleure photographie):
+      nominee: [tt0362225, tt0444182, tt0459880, tt0464913, tt0498120]
+      winner: [tt0459880]
+    best costume design (meilleurs costumes):
+      nominee: [tt0444182, tt0459880, tt0462667, tt0464913, tt0498120]
+      winner: [tt0459880]
+    best director (meilleur réalisateur):
+      nominee: [tt0362225, tt0444182, tt0459880, tt0485241, tt0498120]
+      winner: [tt0362225]
+    best documentary film (meilleur film documentaire):
+      nominee: [tt0478337, tt0486356, tt0798417, tt0798820, tt0855869]
+      winner: [tt0798417]
+    best editing (meilleur montage):
+      nominee: [tt0362225, tt0444112, tt0444182, tt0464828, tt0498120]
+      winner: [tt0362225]
+    best film (meilleur film):
+      nominee: [tt0362225, tt0444182, tt0459880, tt0464828, tt0485241]
+      winner: [tt0459880]
+    best first film (meilleur premier film):
+      nominee: [tt0450664, tt0452780, tt0475169, tt0498118, tt0498125]
+      winner: [tt0450664]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0388795, tt0436697, tt0441909, tt0449059, tt0449467]
+      winner: [tt0449059]
+    best music written for a film (meilleure musique écrite pour un film):
+      nominee: [tt0362225, tt0439123, tt0444182, tt0487503, tt0498120]
+      winner: [tt0362225]
+    best original screenplay (meilleur scénario original):
+      nominee: [tt0444112, tt0444182, tt0450664, tt0464828, tt0477988]
+      winner: [tt0444182]
+    best production design (meilleurs décors):
+      nominee: [tt0444182, tt0459880, tt0462667, tt0464913, tt0498120]
+      winner: [tt0464913]
+    best short film (meilleur court-métrage):
+      nominee: [tt0460416, tt0497102, tt0759606, tt0765106, tt0792995]
+      winner: [tt0497102]
+    best sound (meilleur son):
+      nominee: [tt0362225, tt0444182, tt0459880, tt0464828, tt0498120]
+      winner: [tt0464828]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0362225, tt0448245, tt0449851, tt0485241, tt0769508]
+      winner: [tt0485241]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0444112, tt0464828, tt0465160, tt0478724]
+      winner: [tt0444112]
+    most promising actor (meilleur espoir masculin):
+      nominee: [tt0442399, tt0465160, tt0474476, tt0475169, tt0774756, tt0814656]
+      winner: [tt0814656]
+    most promising actress (meilleur espoir féminin):
+      nominee: [tt0459880, tt0485241, tt0487503, tt0498125, tt0814666]
+      winner: [tt0485241]
+'2006': # https://www.imdb.com/event/ev0000157/2006/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0364301, tt0411270, tt0422015, tt0436445, tt0443072]
+      winner: [tt0364301]
+    best actress (meilleure actrice):
+      nominee: [tt0424338, tt0431979, tt0435479, tt0436445, tt0443072]
+      winner: [tt0431979]
+    best adapted screenplay (meilleure adaptation):
+      nominee: [tt0364301, tt0411270, tt0422015, tt0435479, tt0443072]
+      winner: [tt0411270]
+    best cinematography (meilleure photographie):
+      nominee: [tt0411270, tt0435479, tt0443844]
+      winner: [tt0411270]
+    best costume design (meilleurs costumes):
+      nominee: [tt0424205, tt0431493, tt0435479]
+      winner: [tt0435479]
+    best director (meilleur réalisateur):
+      nominee: [tt0387898, tt0388505, tt0411270, tt0431979, tt0456396]
+      winner: [tt0411270]
+    best editing (meilleur montage):
+      nominee: [tt0409184, tt0411270, tt0428803]
+      winner: [tt0411270]
+    best film (meilleur film):
+      nominee: [tt0388505, tt0411270, tt0424205, tt0431979, tt0456396]
+      winner: [tt0411270]
+    best first film (meilleur premier film):
+      nominee: [tt0411118, tt0422133, tt0424024, tt0428803, tt0428965]
+      winner: [tt0424024]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0352994, tt0369702, tt0399146, tt0405159, tt0416320]
+      winner: [tt0405159]
+    best music written for a film (meilleure musique écrite pour un film):
+      nominee: [tt0388505, tt0411270, tt0424205, tt0428803]
+      winner: [tt0411270]
+    best original screenplay (meilleur scénario original):
+      nominee: [tt0387898, tt0388505, tt0424205, tt0431979, tt0456396]
+      winner: [tt0388505]
+    best production design (meilleurs décors):
+      nominee: [tt0424205, tt0431493, tt0435479]
+      winner: [tt0435479]
+    best short film (meilleur court-métrage):
+      nominee: [tt0420808, tt0422948, tt0432083, tt0446892]
+      winner: [tt0446892]
+    best sound (meilleur son):
+      nominee: [tt0411270, tt0428803, tt0435479]
+      winner: [tt0428803]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0387898, tt0411270, tt0424205, tt0431979, tt0436445]
+      winner: [tt0411270]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0409184, tt0415932, tt0424338, tt0436091]
+      winner: [tt0409184]
+    most promising actor (meilleur espoir masculin):
+      nominee: [tt0387898, tt0423914, tt0429052, tt0436546, tt0443844]
+      winner: [tt0443844]
+    most promising actress (meilleur espoir féminin):
+      nominee: [tt0411270, tt0428965, tt0431493, tt0431827, tt0456396]
+      winner: [tt0411270]
+'2005': # https://www.imdb.com/event/ev0000157/2005/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0344273, tt0354836, tt0372824, tt0388562, tt0390808]
+      winner: [tt0344273]
+    best actress (meilleure actrice):
+      nominee: [tt0344273, tt0344510, tt0348867, tt0388838, tt0410549]
+      winner: [tt0410549]
+    best cinematography (meilleure photographie):
+      nominee: [tt0338512, tt0344510, tt0388838]
+      winner: [tt0344510]
+    best costume design (meilleurs costumes):
+      nominee: [tt0344510, tt0354836, tt0373690]
+      winner: [tt0344510]
+    best director (meilleur réalisateur):
+      nominee: [tt0338977, tt0344273, tt0344510, tt0372824, tt0390808]
+      winner: [tt0338977]
+    best editing (meilleur montage):
+      nominee: [tt0338512, tt0344510, tt0390808]
+      winner: [tt0338512]
+    best european union film (meilleur film de l'union européenne):
+      nominee: [tt0275491, tt0299478, tt0322420, tt0380366, tt0411674]
+      winner: [tt0322420, tt0380366]
+    best film (meilleur film):
+      nominee: [tt0338977, tt0344273, tt0344510, tt0372824, tt0390808]
+      winner: [tt0338977]
+    best first film (meilleur premier film):
+      nominee: [tt0354836, tt0372824, tt0376961, tt0387892, tt0410549]
+      winner: [tt0410549]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0315733, tt0318462, tt0335266, tt0338013, tt0361596]
+      winner: [tt0335266]
+    best music written for a film (meilleure musique écrite pour un film):
+      nominee: [tt0344510, tt0372824, tt0388562, tt0400420]
+      winner: [tt0372824]
+    best production design (meilleurs décors):
+      nominee: [tt0314063, tt0344510, tt0372824]
+      winner: [tt0344510]
+    best screenplay, original or adaptation (meilleur scénario, original ou adaptation):
+      nominee: [tt0338977, tt0344273, tt0344510, tt0374583, tt0390808]
+      winner: [tt0338977]
+    best short film (meilleur court-métrage):
+      nominee: [tt0389020, tt0402389, tt0422016, tt0424342]
+      winner: [tt0422016]
+    best sound (meilleur son):
+      nominee: [tt0344510, tt0372824, tt0390808]
+      winner: [tt0372824]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0344273, tt0354836, tt0372824, tt0383025, tt0390808]
+      winner: [tt0383025]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0344510, tt0354836, tt0387892, tt0388562, tt0390808]
+      winner: [tt0344510]
+    most promising actor (meilleur jeune espoir masculin):
+      nominee: [tt0338977, tt0344510, tt0376961, tt0381292, tt0399738]
+      winner: [tt0344510]
+    most promising actress (meilleur jeune espoir féminin):
+      nominee: [tt0338977, tt0344273, tt0374583, tt0387892]
+      winner: [tt0338977]
+'2004': # https://www.imdb.com/event/ev0000157/2004/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0328955, tt0329388, tt0329584, tt0344604, tt0351770]
+      winner: [tt0329388]
+    best actress (meilleure actrice):
+      nominee: [tt0318725, tt0324133, tt0329584, tt0354448]
+      winner: [tt0318725]
+    best cinematography (meilleure photographie):
+      nominee: [tt0308595, tt0310778, tt0329111]
+      winner: [tt0310778]
+    best costume design (meilleurs costumes):
+      nominee: [tt0308595, tt0310778, tt0356999]
+      winner: [tt0356999]
+    best director (meilleur réalisateur):
+      nominee: [tt0233230, tt0233418, tt0234940, tt0310778, tt0335351, tt0338135, tt0356999]
+      winner: [tt0338135]
+    best editing (meilleur montage):
+      nominee: [tt0233230, tt0233418, tt0234940, tt0310778, tt0356999]
+      winner: [tt0233230, tt0233418, tt0234940]
+    best european union film (meilleur film de l'union européenne):
+      nominee: [tt0276919, tt0286516, tt0301357, tt0318411, tt0346336]
+      winner: [tt0301357]
+    best film (meilleur film):
+      nominee: [tt0286244, tt0310778, tt0329584, tt0338135, tt0356999]
+      winner: [tt0338135]
+    best first work of fiction (meilleure première oeuvre de fiction):
+      nominee: [tt0286244, tt0325030, tt0326036, tt0336264, tt0354855]
+      winner: [tt0336264]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0217505, tt0274558, tt0327056, tt0363589, tt0376968]
+      winner: [tt0327056]
+    best music written for a film (meilleure musique écrite pour un film):
+      nominee: [tt0286244, tt0308595, tt0310778, tt0356999]
+      winner: [tt0286244]
+    best production design (meilleurs décors):
+      nominee: [tt0308595, tt0310778, tt0356999]
+      winner: [tt0310778]
+    best screenplay, original or adaptation (meilleur scénario, original ou adaptation):
+      nominee: [tt0233230, tt0233418, tt0234940, tt0310778, tt0318725, tt0336264, tt0338135]
+      winner: [tt0338135]
+    best short film (meilleur court-métrage):
+      nominee: [tt0325638, tt0350703, tt0358625, tt0363263]
+      winner: [tt0363263]
+    best sound (meilleur son):
+      nominee: [tt0310778, tt0329111, tt0356999]
+      winner: [tt0356999]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0310778, tt0327259, tt0335351, tt0349225, tt0356999]
+      winner: [tt0356999]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0324133, tt0335351, tt0339028, tt0348572, tt0356999]
+      winner: [tt0335351]
+    most promising actor (meilleur jeune espoir masculin):
+      nominee: [tt0310778, tt0329111, tt0354855, tt0361474]
+      winner: [tt0310778]
+    most promising actress (meilleur jeune espoir féminin):
+      nominee: [tt0326036, tt0335351, tt0336264, tt0338135, tt0361474]
+      winner: [tt0335351]
+'2003': # https://www.imdb.com/event/ev0000157/2003/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0253474, tt0259440, tt0273069, tt0280653, tt0309872]
+      winner: [tt0253474]
+    best actress (meilleure actrice):
+      nominee: [tt0259440, tt0283832, tt0293116, tt0293401]
+      winner: [tt0259440]
+    best cinematography (meilleure photographie):
+      nominee: [tt0253474, tt0280653, tt0283832]
+      winner: [tt0253474]
+    best costume design (meilleurs costumes):
+      nominee: [tt0250223, tt0253474, tt0283832]
+      winner: [tt0250223]
+    best director (meilleur réalisateur):
+      nominee: [tt0253474, tt0280653, tt0283832, tt0283900, tt0318202]
+      winner: [tt0253474]
+    best editing (meilleur montage):
+      nominee: [tt0253474, tt0283900, tt0318202]
+      winner: [tt0318202]
+    best european union film (meilleur film de l'union européenne):
+      nominee: [tt0280707, tt0287467, tt0311519, tt0313670, tt0328802]
+      winner: [tt0287467]
+    best film (meilleur film):
+      nominee: [tt0253474, tt0280653, tt0283832, tt0283900, tt0318202]
+      winner: [tt0253474]
+    best first work of fiction (meilleure première oeuvre de fiction):
+      nominee: [tt0259440, tt0280523, tt0293155, tt0296686, tt0309872]
+      winner: [tt0259440]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0181689, tt0240772, tt0245429, tt0310793, tt0317234]
+      winner: [tt0310793]
+    best music written for a film (meilleure musique écrite pour un film):
+      nominee: [tt0253474, tt0269461, tt0280653, tt0283832]
+      winner: [tt0253474]
+    best production design (meilleurs décors):
+      nominee: [tt0250223, tt0253474, tt0269461, tt0283832]
+      winner: [tt0253474]
+    best screenplay, original or adaptation (meilleur scénario, original ou adaptation):
+      nominee: [tt0253474, tt0280653, tt0283832, tt0283900, tt0290916]
+      winner: [tt0280653]
+    best short film (meilleur court-métrage):
+      nominee: [tt0256666, tt0291063, tt0296135, tt0341588]
+      winner: [tt0296135]
+    best sound (meilleur son):
+      nominee: [tt0253474, tt0280653, tt0283832]
+      winner: [tt0253474]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0250223, tt0259440, tt0273069, tt0290916]
+      winner: [tt0259440]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0273069, tt0283832, tt0283900, tt0290916, tt0302382]
+      winner: [tt0290916]
+    most promising actor (meilleur jeune espoir masculin):
+      nominee: [tt0274181, tt0290916, tt0291172, tt0291400, tt0295736]
+      winner: [tt0291400]
+    most promising actress (meilleur jeune espoir féminin):
+      nominee: [tt0283832, tt0283900, tt0287448, tt0291538, tt0293155]
+      winner: [tt0283900]
+'2002': # https://www.imdb.com/event/ev0000157/2002/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0260198, tt0268219, tt0273148, tt0274117, tt0274155]
+      winner: [tt0268219]
+    best actress (meilleure actrice):
+      nominee: [tt0211915, tt0240913, tt0254686, tt0265116, tt0274117]
+      winner: [tt0274117]
+    best cinematography (meilleure photographie):
+      nominee: [tt0211915, tt0273148, tt0274117]
+      winner: [tt0273148]
+    best costume design (meilleurs costumes):
+      nominee: [tt0211915, tt0237534, tt0239234, tt0273148]
+      winner: [tt0237534]
+    best director (meilleur réalisateur):
+      nominee: [tt0211915, tt0240913, tt0256103, tt0273148, tt0274117]
+      winner: [tt0211915]
+    best editing (meilleur montage):
+      nominee: [tt0211915, tt0274117, tt0301727]
+      winner: [tt0301727]
+    best film (meilleur film):
+      nominee: [tt0211915, tt0240913, tt0265116, tt0273148, tt0274117]
+      winner: [tt0211915]
+    best first work of fiction (meilleure première oeuvre de fiction):
+      nominee: [tt0240149, tt0259340, tt0269499, tt0283509, tt0301727]
+      winner: [tt0283509]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0166924, tt0181865, tt0203009, tt0208990, tt0243133]
+      winner: [tt0166924]
+    best music written for a film (meilleure musique écrite pour un film):
+      nominee: [tt0211915, tt0237534, tt0274117, tt0301727]
+      winner: [tt0211915]
+    best production design (meilleurs décors):
+      nominee: [tt0211915, tt0237534, tt0239234]
+      winner: [tt0211915]
+    best screenplay, original or adaptation (meilleur scénario, original ou adaptation):
+      nominee: [tt0211915, tt0265116, tt0273148, tt0274117, tt0283509]
+      winner: [tt0274117]
+    best short film (meilleur court-métrage):
+      nominee: [tt0245862, tt0269229, tt0275518, tt0276414, tt0292940]
+      winner: [tt0292940]
+    best sound (meilleur son):
+      nominee: [tt0211915, tt0237534, tt0274117]
+      winner: [tt0274117]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0211915, tt0240149, tt0269329, tt0273148]
+      winner: [tt0273148]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0211915, tt0254686, tt0265116, tt0269329, tt0269499]
+      winner: [tt0254686]
+    most promising actor (meilleur jeune espoir masculin):
+      nominee: [tt0234041, tt0273148, tt0274155, tt0284573]
+      winner: [tt0284573]
+    most promising actress (meilleur jeune espoir féminin):
+      nominee: [tt0234041, tt0242994, tt0263496, tt0265116, tt0269771]
+      winner: [tt0265116]
+'2001': # https://www.imdb.com/event/ev0000157/2001/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0216689, tt0216787, tt0216800, tt0217119, tt0230098]
+      winner: [tt0216800]
+    best actress (meilleure actrice):
+      nominee: [tt0187474, tt0191636, tt0216689, tt0216904, tt0245834]
+      winner: [tt0245834]
+    best cinematography (meilleure photographie):
+      nominee: [tt0209933, tt0216689, tt0228786]
+      winner: [tt0209933]
+    best costume design (meilleurs costumes):
+      nominee: [tt0187474, tt0190861, tt0244173]
+      winner: [tt0187474]
+    best director (meilleur réalisateur):
+      nominee: [tt0187474, tt0216578, tt0216787, tt0216800, tt0228786]
+      winner: [tt0216800]
+    best editing (meilleur montage):
+      nominee: [tt0216787, tt0216800, tt0228786]
+      winner: [tt0216800]
+    best film (meilleur film):
+      nominee: [tt0187474, tt0216578, tt0216787, tt0216800, tt0217119]
+      winner: [tt0216787]
+    best first work (meilleure première oeuvre):
+      nominee: [tt0220726, tt0230745, tt0239695, tt0245834, tt0250744]
+      winner: [tt0220726]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0118694, tt0168629, tt0169547, tt0244316, tt0249462]
+      winner: [tt0118694]
+    best music (meilleure musique):
+      nominee: [tt0187474, tt0211718, tt0216800, tt0228786]
+      winner: [tt0211718]
+    best production design (meilleurs décors):
+      nominee: [tt0187474, tt0190861, tt0216689]
+      winner: [tt0190861]
+    best screenplay, original or adaptation (meilleur scénario, original ou adaptation):
+      nominee: [tt0187474, tt0216787, tt0216800, tt0217119, tt0220726]
+      winner: [tt0216787]
+    best short film (meilleur court-métrage):
+      nominee: [tt0222743, tt0245528, tt0249898, tt0257083]
+      winner: [tt0245528, tt0257083]
+    best sound (meilleur son):
+      nominee: [tt0216800, tt0228786, tt0244173]
+      winner: [tt0216800]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0187474, tt0191636, tt0216787, tt0216841]
+      winner: [tt0216787]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0216787, tt0216800, tt0217119, tt0217168]
+      winner: [tt0216787]
+    most promising actor (meilleur jeune espoir masculin):
+      nominee: [tt0211387, tt0217119, tt0220726, tt0230098, tt0244173]
+      winner: [tt0220726]
+    most promising actress (meilleur jeune espoir féminin):
+      nominee: [tt0216578, tt0216800, tt0216911, tt0217019]
+      winner: [tt0216578]
+'2000': # https://www.imdb.com/event/ev0000157/2000/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0144201, tt0186730, tt0202433, tt0210163, tt0210167]
+      winner: [tt0144201]
+    best actress (meilleure actrice):
+      nominee: [tt0144201, tt0174330, tt0181530, tt0205011, tt0211401]
+      winner: [tt0211401]
+    best cinematography (meilleure photographie):
+      nominee: [tt0144201, tt0151137, tt0210727]
+      winner: [tt0210727]
+    best costume design (meilleurs costumes):
+      nominee: [tt0151137, tt0163180, tt0189142]
+      winner: [tt0151137]
+    best director (meilleur réalisateur):
+      nominee: [tt0144201, tt0151137, tt0167926, tt0174330, tt0181530, tt0210167]
+      winner: [tt0174330]
+    best editing (meilleur montage):
+      nominee: [tt0144201, tt0151137, tt0202077]
+      winner: [tt0202077]
+    best film (meilleur film):
+      nominee: [tt0144201, tt0151137, tt0167926, tt0174330, tt0181530]
+      winner: [tt0174330]
+    best first work (meilleure première oeuvre):
+      nominee: [tt0187200, tt0201538, tt0202077, tt0211286, tt0211401]
+      winner: [tt0202077]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0120601, tt0120663, tt0120863, tt0165798, tt0185125]
+      winner: [tt0185125]
+    best music (meilleure musique):
+      nominee: [tt0151137, tt0167926, tt0181530, tt0210727]
+      winner: [tt0210727]
+    best production design (meilleurs décors):
+      nominee: [tt0133385, tt0151137, tt0163180, tt0189916]
+      winner: [tt0163180]
+    best screenplay, original or adaptation (meilleur scénario, original ou adaptation):
+      nominee: [tt0144201, tt0174330, tt0210163, tt0210167, tt0211286]
+      winner: [tt0174330]
+    best short film (meilleur court-métrage):
+      nominee: [tt0231083, tt0231316, tt0232548, tt0232553, tt0232574]
+      winner: [tt0232574]
+    best sound (meilleur son):
+      nominee: [tt0144201, tt0151137, tt0167926]
+      winner: [tt0151137]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0167926, tt0202283, tt0210163, tt0211286]
+      winner: [tt0210163]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0174330, tt0181310, tt0210163, tt0211286]
+      winner: [tt0211286]
+    most promising actor (meilleur jeune espoir masculin):
+      nominee: [tt0187200, tt0189916, tt0202283, tt0211401, tt0211504]
+      winner: [tt0202283]
+    most promising actress (meilleur jeune espoir féminin):
+      nominee: [tt0174330, tt0187200, tt0187457, tt0200071, tt0205011]
+      winner: [tt0174330]
+'1999': # https://www.imdb.com/event/ev0000157/1999/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0118834, tt0119038, tt0119307, tt0162555, tt0168740]
+      winner: [tt0119038]
+    best actress (meilleure actrice):
+      nominee: [tt0119901, tt0120449, tt0120639, tt0126735, tt0157208]
+      winner: [tt0120449]
+    best cinematography (meilleure photographie):
+      nominee: [tt0118834, tt0119901, tt0120449]
+      winner: [tt0118834]
+    best costume design (meilleurs costumes):
+      nominee: [tt0119901, tt0123808, tt0123952]
+      winner: [tt0123952]
+    best director (meilleur réalisateur):
+      nominee: [tt0118834, tt0119038, tt0119901, tt0120449, tt0152930]
+      winner: [tt0118834]
+    best editing (meilleur montage):
+      nominee: [tt0118834, tt0119901, tt0152930]
+      winner: [tt0152930]
+    best film (meilleur film):
+      nominee: [tt0118834, tt0119038, tt0119901, tt0120449, tt0152930]
+      winner: [tt0120449]
+    best first work (meilleure première oeuvre):
+      nominee: [tt0118978, tt0120449, tt0123923, tt0139249, tt0156300]
+      winner: [tt0118978]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0118799, tt0120338, tt0120815, tt0140888, tt0154420]
+      winner: [tt0118799]
+    best music (meilleure musique):
+      nominee: [tt0120588, tt0122082, tt0123923, tt0152930]
+      winner: [tt0122082]
+    best production design (meilleurs décors):
+      nominee: [tt0118834, tt0119901, tt0123952]
+      winner: [tt0123952]
+    best screenplay, original or adaptation (meilleur scénario, original ou adaptation):
+      nominee: [tt0118834, tt0119038, tt0119901, tt0120449, tt0170705]
+      winner: [tt0119038]
+    best short film (meilleur court-métrage):
+      nominee: [tt0157828, tt0176616, tt0176886, tt0192736, tt0192747]
+      winner: [tt0157828]
+    best sound (meilleur son):
+      nominee: [tt0118834, tt0119901, tt0152930]
+      winner: [tt0152930]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0118834, tt0119038, tt0119901]
+      winner: [tt0119038]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0118834, tt0119038, tt0119901, tt0123952, tt0168740]
+      winner: [tt0118834]
+    most promising actor (meilleur jeune espoir masculin):
+      nominee: [tt0122082, tt0134027, tt0150464, tt0152930, tt0170705]
+      winner: [tt0134027]
+    most promising actress (meilleur jeune espoir féminin):
+      nominee: [tt0120449, tt0120799, tt0122082, tt0152930, tt0168740]
+      winner: [tt0120449]
+'1998': # https://www.imdb.com/event/ev0000157/1998/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0118756, tt0118895, tt0118976, tt0119773, tt0119828]
+      winner: [tt0119828]
+    best actress (meilleure actrice):
+      nominee: [tt0118756, tt0119620, tt0119773, tt0119828, tt0124115]
+      winner: [tt0119620]
+    best cinematography (meilleure photographie):
+      nominee: [tt0118756, tt0119116, tt0123385]
+      winner: [tt0119116]
+    best costume design (meilleurs costumes):
+      nominee: [tt0118756, tt0119116, tt0123385]
+      winner: [tt0118756]
+    best director (meilleur réalisateur):
+      nominee: [tt0118895, tt0119116, tt0119620, tt0119828, tt0120494]
+      winner: [tt0119116]
+    best editing (meilleur montage):
+      nominee: [tt0118756, tt0119116, tt0119828]
+      winner: [tt0119828]
+    best film (meilleur film):
+      nominee: [tt0118756, tt0119116, tt0119620, tt0119828, tt0120494]
+      winner: [tt0119828]
+    best first work (meilleure première oeuvre):
+      nominee: [tt0118659, tt0118976, tt0119034, tt0119590, tt0120448]
+      winner: [tt0118976]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0115744, tt0116209, tt0116242, tt0119164, tt0119250]
+      winner: [tt0115744]
+    best music (meilleure musique):
+      nominee: [tt0118756, tt0119116, tt0119623, tt0119828, tt0120494]
+      winner: [tt0120494]
+    best production design (meilleurs décors):
+      nominee: [tt0118756, tt0119116, tt0119828]
+      winner: [tt0119116]
+    best screenplay, original or adaptation (meilleur scénario, original ou adaptation):
+      nominee: [tt0118895, tt0119620, tt0119773, tt0119828, tt0120494]
+      winner: [tt0119828]
+    best short film (meilleur court-métrage):
+      nominee: [tt0127505, tt0127710, tt0169900, tt0170562, tt0206355]
+      winner: [tt0127505]
+    best sound (meilleur son):
+      nominee: [tt0118895, tt0119116, tt0119828]
+      winner: [tt0119828]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0118756, tt0119620, tt0119625, tt0119828]
+      winner: [tt0119828]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0118895, tt0119620, tt0119773, tt0119828, tt0119981]
+      winner: [tt0119828]
+    most promising actor (meilleur jeune espoir masculin):
+      nominee: [tt0119773, tt0119981, tt0120471, tt0120494]
+      winner: [tt0119773]
+    most promising actress (meilleur jeune espoir féminin):
+      nominee: [tt0119113, tt0119391, tt0119620, tt0120405, tt0120471]
+      winner: [tt0120405]
+'1997': # https://www.imdb.com/event/ev0000157/1997/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0115638, tt0115822, tt0116581, tt0117412, tt0117477]
+      winner: [tt0115822]
+    best actress (meilleure actrice):
+      nominee: [tt0115973, tt0116932, tt0117073, tt0117412, tt0118100]
+      winner: [tt0117412]
+    best cinematography (meilleure photographie):
+      nominee: [tt0115823, tt0117040, tt0117477]
+      winner: [tt0117040]
+    best costume design (meilleurs costumes):
+      nominee: [tt0115638, tt0115822, tt0117477]
+      winner: [tt0117477]
+    best director (meilleur réalisateur):
+      nominee: [tt0115822, tt0117477, tt0118015, tt0118020, tt0118100]
+      winner: [tt0115822, tt0117477]
+    best editing (meilleur montage):
+      nominee: [tt0117040, tt0117477, tt0118020]
+      winner: [tt0117040]
+    best film (meilleur film):
+      nominee: [tt0115822, tt0117040, tt0117412, tt0117477, tt0118015, tt0118100]
+      winner: [tt0117477]
+    best first work (meilleure première oeuvre):
+      nominee: [tt0115561, tt0115658, tt0116198, tt0117040, tt0118201]
+      winner: [tt0118201]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0115751, tt0116282, tt0117398, tt0117589]
+      winner: [tt0115751]
+    best music (meilleure musique):
+      nominee: [tt0115823, tt0117040, tt0117477, tt0118020]
+      winner: [tt0117040]
+    best producer (meilleur producteur):
+      nominee: [tt0117040]
+      winner: [tt0117040]
+    best production design (meilleurs décors):
+      nominee: [tt0115638, tt0115822, tt0117477]
+      winner: [tt0117477]
+    best screenplay, original or adaptation (meilleur scénario, original ou adaptation):
+      nominee: [tt0115822, tt0117412, tt0117477, tt0118015, tt0118020]
+      winner: [tt0118015]
+    best short film (meilleur court-métrage):
+      nominee: [tt0111544, tt0116096, tt0117065, tt0118036, tt0118037]
+      winner: [tt0117065]
+    best sound (meilleur son):
+      nominee: [tt0115822, tt0117040, tt0117477]
+      winner: [tt0117040]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0117412, tt0117477, tt0118015, tt0118020]
+      winner: [tt0118015]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0117073, tt0117412, tt0118015, tt0118020]
+      winner: [tt0118015]
+    most promising actor (meilleur jeune espoir masculin):
+      nominee: [tt0115598, tt0115822, tt0115928, tt0118100]
+      winner: [tt0115928]
+    most promising actress (meilleur jeune espoir féminin):
+      nominee: [tt0115561, tt0115856, tt0115928, tt0118100]
+      winner: [tt0118100]
+'1996': # https://www.imdb.com/event/ev0000157/1996/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0112386, tt0113054, tt0113149, tt0113247, tt0113947]
+      winner: [tt0113947]
+    best actress (meilleure actrice):
+      nominee: [tt0112556, tt0112769, tt0113362, tt0113947]
+      winner: [tt0112769]
+    best cinematography (meilleure photographie):
+      nominee: [tt0112682, tt0113247, tt0113362]
+      winner: [tt0113362]
+    best costume design (meilleurs costumes):
+      nominee: [tt0112682, tt0113362, tt0113731]
+      winner: [tt0113731]
+    best director (meilleur réalisateur):
+      nominee: [tt0112556, tt0112769, tt0113149, tt0113247, tt0113362, tt0113947]
+      winner: [tt0113947]
+    best editing (meilleur montage):
+      nominee: [tt0113247, tt0113362, tt0113947]
+      winner: [tt0113247]
+    best film (meilleur film):
+      nominee: [tt0112556, tt0112769, tt0113149, tt0113247, tt0113362, tt0113947]
+      winner: [tt0113247]
+    best first work (meilleure première oeuvre):
+      nominee: [tt0110834, tt0112951, tt0114300, tt0114732, tt0115079]
+      winner: [tt0114732]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0112579, tt0114478, tt0114671, tt0114787, tt0114814]
+      winner: [tt0114671]
+    best music (meilleure musique):
+      nominee: [tt0112682, tt0112945, tt0113362, tt0113947]
+      winner: [tt0112945]
+    best producer (meilleur producteur):
+      nominee: [tt0113247]
+      winner: [tt0113247]
+    best production design (meilleurs décors):
+      nominee: [tt0112682, tt0113362, tt0113731]
+      winner: [tt0112682]
+    best screenplay, original or adaptation (meilleur scénario, original ou adaptation):
+      nominee: [tt0112556, tt0112769, tt0113149, tt0113247, tt0113947]
+      winner: [tt0113149]
+    best short film (meilleur court-métrage):
+      nominee: [tt0109482, tt0110547, tt0112601, tt0114291]
+      winner: [tt0110547]
+    best sound (meilleur son):
+      nominee: [tt0113247, tt0113362, tt0113947]
+      winner: [tt0113362]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0112556, tt0112769, tt0113149, tt0113947]
+      winner: [tt0112556]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0112556, tt0112769, tt0112945, tt0113828, tt0113947]
+      winner: [tt0113828]
+    most promising actor (meilleur jeune espoir masculin):
+      nominee: [tt0112386, tt0112387, tt0113247]
+      winner: [tt0112386]
+    most promising actress (meilleur jeune espoir féminin):
+      nominee: [tt0112387, tt0112945, tt0112951, tt0113057, tt0113362]
+      winner: [tt0112951]
+'1995': # https://www.imdb.com/event/ev0000157/1995/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0109454, tt0109800, tt0110413, tt0111342, tt0111495]
+      winner: [tt0109800]
+    best actress (meilleure actrice):
+      nominee: [tt0107260, tt0110784, tt0110963, tt0111342, tt0111495]
+      winner: [tt0110963]
+    best cinematography (meilleure photographie):
+      nominee: [tt0109454, tt0110413, tt0110963]
+      winner: [tt0110963]
+    best costume design (meilleurs costumes):
+      nominee: [tt0109454, tt0109771, tt0110963]
+      winner: [tt0110963]
+    best director (meilleur réalisateur):
+      nominee: [tt0109800, tt0110413, tt0110963, tt0111019, tt0111495]
+      winner: [tt0111019]
+    best documentary film (meilleur film à caractère documentaire):
+      nominee: [tt0109319, tt0109697, tt0110560, tt0111510, tt0111526, tt0111598, tt0111650]
+      winner: [tt0109697]
+    best editing (meilleur montage):
+      nominee: [tt0110413, tt0110958, tt0110963]
+      winner: [tt0110958]
+    best film (meilleur film):
+      nominee: [tt0109800, tt0110413, tt0110963, tt0111019, tt0111495]
+      winner: [tt0111019]
+    best first work (meilleure première oeuvre):
+      nominee: [tt0109454, tt0110521, tt0110816, tt0110819, tt0110958]
+      winner: [tt0110958]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0108052, tt0108122, tt0109382, tt0109831, tt0110912]
+      winner: [tt0109831]
+    best music (meilleure musique):
+      nominee: [tt0109798, tt0110413, tt0110963, tt0111495]
+      winner: [tt0111495]
+    best production design (meilleurs décors):
+      nominee: [tt0109454, tt0109771, tt0110963]
+      winner: [tt0109771]
+    best screenplay, original or adaptation (meilleur scénario, original ou adaptation):
+      nominee: [tt0109942, tt0110958, tt0110963, tt0111019, tt0111495]
+      winner: [tt0111019]
+    best short film (meilleur court-métrage):
+      nominee: [tt0106711, tt0108498, tt0179167, tt0280631]
+      winner: [tt0108498]
+    best sound (meilleur son):
+      nominee: [tt0109771, tt0110413, tt0111495]
+      winner: [tt0109771]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0109454, tt0109798, tt0109800, tt0110646, tt0110963]
+      winner: [tt0110963]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0110171, tt0110646, tt0110963, tt0111019]
+      winner: [tt0110963]
+    most promising actor (meilleur jeune espoir masculin):
+      nominee: [tt0110819, tt0110958, tt0111019]
+      winner: [tt0110958]
+    most promising actress (meilleur jeune espoir féminin):
+      nominee: [tt0106618, tt0109702, tt0110521, tt0110796, tt0111019]
+      winner: [tt0111019]
+  césar des césars:
+    césar des césars:
+      nominee: [tt0099334]
+      winner: [tt0099334]
+'1994': # https://www.imdb.com/event/ev0000157/1994/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0107471, tt0107700, tt0108167, tt0108500]
+      winner: [tt0108167]
+    best actress (meilleure actrice):
+      nominee: [tt0107002, tt0107471, tt0108167, tt0108369, tt0108394, tt0108435]
+      winner: [tt0108394]
+    best cinematography (meilleure photographie):
+      nominee: [tt0107002, tt0108167, tt0108394]
+      winner: [tt0107002]
+    best costume design (meilleurs costumes):
+      nominee: [tt0107002, tt0107446, tt0108500]
+      winner: [tt0107002]
+    best director (meilleur réalisateur):
+      nominee: [tt0107002, tt0107471, tt0108167, tt0108394, tt0108435, tt0108500]
+      winner: [tt0108167]
+    best editing (meilleur montage):
+      nominee: [tt0107002, tt0108167, tt0108394, tt0108500]
+      winner: [tt0108394]
+    best film (meilleur film):
+      nominee: [tt0107002, tt0107471, tt0108167, tt0108394, tt0108500]
+      winner: [tt0108167]
+    best first work (meilleure première oeuvre):
+      nominee: [tt0106573, tt0106904, tt0106999, tt0107617, tt0107642]
+      winner: [tt0107617]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0106332, tt0107507, tt0107822, tt0107920, tt0108170]
+      winner: [tt0107822]
+    best music (meilleure musique):
+      nominee: [tt0107002, tt0108394, tt0108435, tt0108500]
+      winner: [tt0108435]
+    best production design (meilleurs décors):
+      nominee: [tt0107002, tt0107295, tt0108167]
+      winner: [tt0108167]
+    best screenplay, original or adaptation (meilleur scénario, original ou adaptation):
+      nominee: [tt0107002, tt0107471, tt0108167, tt0108394, tt0108500]
+      winner: [tt0108167]
+    best short film (meilleur court-métrage):
+      nominee: [tt0103992, tt0107055, tt0280635, tt0280651]
+      winner: [tt0107055]
+    best sound (meilleur son):
+      nominee: [tt0107002, tt0108167, tt0108394]
+      winner: [tt0108394]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0106632, tt0107002, tt0107700, tt0108370, tt0110900]
+      winner: [tt0108370]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0107002, tt0107471, tt0107520, tt0108435, tt0108500]
+      winner: [tt0108500]
+    most promising actor (meilleur jeune espoir masculin):
+      nominee: [tt0106573, tt0106999, tt0107520, tt0107642, tt0108435]
+      winner: [tt0108435]
+    most promising actress (meilleur jeune espoir féminin):
+      nominee: [tt0106999, tt0107471, tt0107520, tt0107651, tt0108394]
+      winner: [tt0106999]
+'1993': # https://www.imdb.com/event/ev0000157/1993/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0104025, tt0105131, tt0105448, tt0105682]
+      winner: [tt0105448]
+    best actress (meilleure actrice):
+      nominee: [tt0104237, tt0104507, tt0105131, tt0105682, tt0105911]
+      winner: [tt0104507]
+    best cinematography (meilleure photographie):
+      nominee: [tt0101316, tt0103616, tt0104507, tt0105682]
+      winner: [tt0104507]
+    best costume design (meilleurs costumes):
+      nominee: [tt0101316, tt0104507, tt0105448]
+      winner: [tt0105448]
+    best director (meilleur réalisateur):
+      nominee: [tt0104507, tt0104658, tt0105032, tt0105131, tt0105682]
+      winner: [tt0105682]
+    best editing (meilleur montage):
+      nominee: [tt0101316, tt0104507, tt0105032]
+      winner: [tt0105032]
+    best film (meilleur film):
+      nominee: [tt0104025, tt0104507, tt0104658, tt0105032, tt0105131, tt0105682]
+      winner: [tt0105032]
+    best first work (meilleure première oeuvre):
+      nominee: [tt0102552, tt0105032, tt0105260, tt0105356, tt0105911]
+      winner: [tt0105032]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0101316, tt0103030, tt0104454, tt0104466, tt0105151]
+      winner: [tt0103030]
+    best music (meilleure musique):
+      nominee: [tt0101316, tt0104105, tt0104507, tt0105032]
+      winner: [tt0101316]
+    best production design (meilleurs décors):
+      nominee: [tt0101316, tt0104507, tt0105448]
+      winner: [tt0104507]
+    best screenplay, original or adaptation (meilleur scénario, original ou adaptation):
+      nominee: [tt0104025, tt0104658, tt0105032, tt0105356, tt0105682]
+      winner: [tt0104025]
+    best short film (meilleur court-métrage):
+      nominee: [tt0105051, tt0105738, tt0262257, tt0280722]
+      winner: [tt0105738]
+    best sound (meilleur son):
+      nominee: [tt0103616, tt0104507, tt0105682]
+      winner: [tt0104507]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0104025, tt0104507, tt0104830, tt0105243, tt0105682]
+      winner: [tt0105682]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0104025, tt0104507, tt0105682]
+      winner: [tt0104507]
+    most promising actor (meilleur jeune espoir masculin):
+      nominee: [tt0102552, tt0102583, tt0103616, tt0104473, tt0105356]
+      winner: [tt0105356]
+    most promising actress (meilleur jeune espoir féminin):
+      nominee: [tt0103782, tt0104507, tt0104658, tt0105032]
+      winner: [tt0105032]
+'1992': # https://www.imdb.com/event/ev0000157/1992/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0101428, tt0102058, tt0103110, tt0103168, tt0103190]
+      winner: [tt0103190]
+    best actress (meilleure actrice):
+      nominee: [tt0101318, tt0101428, tt0101765, tt0102436, tt0103207]
+      winner: [tt0103207]
+    best cinematography (meilleure photographie):
+      nominee: [tt0101700, tt0103110, tt0103190]
+      winner: [tt0103110]
+    best costume design (meilleurs costumes):
+      nominee: [tt0101700, tt0103110, tt0103190]
+      winner: [tt0103110]
+    best director (meilleur réalisateur):
+      nominee: [tt0101428, tt0102136, tt0102436, tt0103110, tt0103190]
+      winner: [tt0103110]
+    best editing (meilleur montage):
+      nominee: [tt0101700, tt0102436, tt0103110]
+      winner: [tt0101700]
+    best film (meilleur film):
+      nominee: [tt0101428, tt0102436, tt0103110, tt0103190]
+      winner: [tt0103110]
+    best first work (meilleure première oeuvre):
+      nominee: [tt0099071, tt0099604, tt0101364, tt0101700, tt0102358]
+      winner: [tt0101700]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0099012, tt0099348, tt0102926, tt0103074, tt0103105, tt0103176]
+      winner: [tt0103105]
+    best music (meilleure musique):
+      nominee: [tt0101700, tt0101765, tt0102421, tt0103110]
+      winner: [tt0103110]
+    best production design (meilleurs décors):
+      nominee: [tt0101318, tt0101700, tt0103190]
+      winner: [tt0101700]
+    best screenplay, original or adaptation (meilleur scénario, original ou adaptation):
+      nominee: [tt0101700, tt0102436, tt0103110, tt0103190]
+      winner: [tt0101700]
+    best short film (meilleur court-métrage):
+      nominee: [tt0102137, tt0176403, tt0280735, tt0281156]
+      winner: [tt0176403]
+    best sound (meilleur son):
+      nominee: [tt0101700, tt0103110, tt0103190]
+      winner: [tt0103110]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0101700, tt0102436, tt0103168, tt0103190]
+      winner: [tt0102436]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0100303, tt0101428, tt0102136, tt0102436, tt0103110]
+      winner: [tt0103110]
+    most promising actor (meilleur jeune espoir masculin):
+      nominee: [tt0101354, tt0102136, tt0102639, tt0103110, tt0103168]
+      winner: [tt0102136]
+    most promising actress (meilleur jeune espoir féminin):
+      nominee: [tt0101700, tt0102465, tt0102520, tt0103190]
+      winner: [tt0102520]
+'1991': # https://www.imdb.com/event/ev0000157/1991/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0097884, tt0099334, tt0099436, tt0099446, tt0099965, tt0100112]
+      winner: [tt0099334]
+    best actress (meilleure actrice):
+      nominee: [tt0097884, tt0099334, tt0100263, tt0100747, tt0100840]
+      winner: [tt0100263]
+    best cinematography (meilleure photographie):
+      nominee: [tt0099334, tt0100112, tt0100263]
+      winner: [tt0099334]
+    best costume design (meilleurs costumes):
+      nominee: [tt0099266, tt0099334, tt0099669, tt0099965]
+      winner: [tt0099334]
+    best director (meilleur réalisateur):
+      nominee: [tt0099334, tt0100112, tt0100263, tt0100357, tt0100851]
+      winner: [tt0099334]
+    best editing (meilleur montage):
+      nominee: [tt0099334, tt0100112, tt0100263]
+      winner: [tt0099334]
+    best film (meilleur film):
+      nominee: [tt0099334, tt0100112, tt0100263, tt0100357, tt0100851]
+      winner: [tt0099334]
+    best first work (meilleure première oeuvre):
+      nominee: [tt0090665, tt0097802, tt0099436, tt0100315, tt0100840]
+      winner: [tt0099436]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0097165, tt0099685, tt0100405, tt0100757, tt0101026]
+      winner: [tt0097165]
+    best music (meilleure musique):
+      nominee: [tt0099266, tt0099334, tt0099669, tt0100263]
+      winner: [tt0099334]
+    best production design (meilleurs décors):
+      nominee: [tt0099334, tt0100112, tt0100263]
+      winner: [tt0099334]
+    best screenplay, original or adaptation (meilleur scénario, original ou adaptation):
+      nominee: [tt0099334, tt0099436, tt0100112, tt0100357]
+      winner: [tt0099436]
+    best short film - documentary (meilleur court-métrage documentaire):
+      nominee: [tt0177328, tt0286193]
+      winner: [tt0177328]
+    best short film - fiction (meilleur court-métrage de fiction):
+      nominee: [tt0080755, tt0097193, tt0216317, tt0285096]
+      winner: [tt0080755]
+    best sound (meilleur son):
+      nominee: [tt0099334, tt0100263, tt0100274]
+      winner: [tt0099334]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0097884, tt0099334, tt0099436, tt0100851]
+      winner: [tt0099334]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0097884, tt0099266, tt0099341, tt0099669, tt0100747, tt0100851]
+      winner: [tt0097884]
+    most promising actor (meilleur jeune espoir masculin):
+      nominee: [tt0099266, tt0099334, tt0099669, tt0100263, tt0100357, tt0100536]
+      winner: [tt0100357]
+    most promising actress (meilleur jeune espoir féminin):
+      nominee: [tt0099406, tt0099436, tt0100357, tt0100747, tt0100851]
+      winner: [tt0099436]
+'1990': # https://www.imdb.com/event/ev0000157/1990/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0097515, tt0097904, tt0098000, tt0098520, tt0098552, tt0098596]
+      winner: [tt0098596]
+    best actress (meilleure actrice):
+      nominee: [tt0097279, tt0097904, tt0098520, tt0098596]
+      winner: [tt0098520]
+    best cinematography (meilleure photographie):
+      nominee: [tt0098000, tt0098520, tt0098596]
+      winner: [tt0098000]
+    best costume design (meilleurs costumes):
+      nominee: [tt0098238, tt0098575, tt0098596]
+      winner: [tt0098575]
+    best director (meilleur réalisateur):
+      nominee: [tt0097904, tt0098000, tt0098520, tt0098575, tt0098596]
+      winner: [tt0098520]
+    best editing (meilleur montage):
+      nominee: [tt0097904, tt0098520, tt0098596]
+      winner: [tt0098520]
+    best film (meilleur film):
+      nominee: [tt0097904, tt0098000, tt0098520, tt0098552, tt0098596]
+      winner: [tt0098520]
+    best first work (meilleure première oeuvre):
+      nominee: [tt0095842, tt0098245, tt0098365, tt0098409, tt0098487, tt0098552]
+      winner: [tt0098552]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0094947, tt0095765, tt0095953, tt0097223, tt0098724]
+      winner: [tt0094947]
+    best music (meilleure musique):
+      nominee: [tt0097904, tt0098552, tt0098596]
+      winner: [tt0098596]
+    best poster (meilleure affiche):
+      nominee: [tt0095765, tt0097904, tt0097995, tt0098520, tt0098575]
+      winner: [tt0095765]
+    best production design (meilleurs décors):
+      nominee: [tt0096994, tt0098520, tt0098575]
+      winner: [tt0098575]
+    best screenplay, original or adaptation (meilleur scénario, original ou adaptation):
+      nominee: [tt0097376, tt0098520, tt0098552, tt0098596]
+      winner: [tt0098520]
+    best short film - animation (meilleur court-métrage d'animation):
+      nominee: [tt0177126, tt0286053]
+      winner: [tt0177126]
+    best short film - documentary (meilleur court-métrage documentaire):
+      nominee: [tt0176599, tt0285088]
+      winner: [tt0176599]
+    best short film - fiction (meilleur court-métrage de fiction):
+      nominee: [tt0276847, tt0286277, tt0466384]
+      winner: [tt0466384]
+    best sound (meilleur son):
+      nominee: [tt0096994, tt0097904, tt0098596]
+      winner: [tt0097904]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0094711, tt0097376, tt0097515, tt0098520, tt0098596]
+      winner: [tt0097515]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0097376, tt0097555, tt0097995, tt0098000, tt0098609]
+      winner: [tt0098609]
+    most promising actor (meilleur jeune espoir masculin):
+      nominee: [tt0094711, tt0096965, tt0097102, tt0097353, tt0098552]
+      winner: [tt0098552]
+    most promising actress (meilleur jeune espoir féminin):
+      nominee: [tt0094711, tt0097614, tt0097995, tt0098409, tt0098552]
+      winner: [tt0097995]
+'1989': # https://www.imdb.com/event/ev0000157/1989/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0094828, tt0095250, tt0095386, tt0095943]
+      winner: [tt0095386]
+    best actress (meilleure actrice):
+      nominee: [tt0092931, tt0094828, tt0095511, tt0096336, tt0098087]
+      winner: [tt0094828]
+    best cinematography (meilleure photographie):
+      nominee: [tt0094828, tt0095250, tt0095800]
+      winner: [tt0094828]
+    best costume design (meilleurs costumes):
+      nominee: [tt0094828, tt0094872, tt0096386]
+      winner: [tt0094828]
+    best director (meilleur réalisateur):
+      nominee: [tt0095250, tt0095511, tt0095800, tt0096336, tt0098087]
+      winner: [tt0095800]
+    best editing (meilleur montage):
+      nominee: [tt0094828, tt0095511, tt0095800]
+      winner: [tt0095800]
+    best film (meilleur film):
+      nominee: [tt0094828, tt0095250, tt0095511, tt0095800, tt0096386]
+      winner: [tt0094828]
+    best film of the european community (meilleur film de l'europe communautaire):
+      nominee: [tt0092603, tt0093713, tt0095037, tt0095801]
+      winner: [tt0095801]
+    best first work (meilleure première oeuvre):
+      nominee: [tt0092931, tt0094828, tt0094868, tt0096386]
+      winner: [tt0096386]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0094747, tt0095801, tt0096028, tt0096438]
+      winner: [tt0095801]
+    best music (meilleure musique):
+      nominee: [tt0094828, tt0095250, tt0095386]
+      winner: [tt0095250]
+    best poster (meilleure affiche):
+      nominee: [tt0095250, tt0095511, tt0095800, tt0096026, tt0098087]
+      winner: [tt0098087]
+    best production design (meilleurs décors):
+      nominee: [tt0094828, tt0095511, tt0096309]
+      winner: [tt0094828]
+    best screenplay, original or adaptation (meilleur scénario, original ou adaptation):
+      nominee: [tt0092931, tt0095511, tt0096386, tt0098087]
+      winner: [tt0096386]
+    best short film - animation (meilleur court-métrage d'animation):
+      nominee: [tt0176698, tt0285943, tt0286241]
+      winner: [tt0176698]
+    best short film - documentary (meilleur court-métrage documentaire):
+      nominee: [tt0176603, tt0176612, tt0285013]
+      winner: [tt0176603]
+    best short film - fiction (meilleur court-métrage de fiction):
+      nominee: [tt0176913, tt0242983, tt0284904, tt0285785]
+      winner: [tt0176913]
+    best sound (meilleur son):
+      nominee: [tt0094828, tt0095250, tt0095800]
+      winner: [tt0095250]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0094828, tt0095250, tt0095511, tt0095943, tt0096386]
+      winner: [tt0095511]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0095511, tt0095943, tt0096309, tt0096336, tt0096386]
+      winner: [tt0096386]
+    most promising actor (meilleur jeune espoir masculin):
+      nominee: [tt0094662, tt0094828, tt0094872, tt0094959]
+      winner: [tt0094872]
+    most promising actress (meilleur jeune espoir féminin):
+      nominee: [tt0092931, tt0095099, tt0095567, tt0096386]
+      winner: [tt0096386]
+'1988': # https://www.imdb.com/event/ev0000157/1988/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0091529, tt0092837, tt0093111, tt0094011, tt0094105]
+      winner: [tt0093111]
+    best actress (meilleure actrice):
+      nominee: [tt0091525, tt0092521, tt0093111, tt0093481, tt0094011]
+      winner: [tt0093111]
+    best cinematography (meilleure photographie):
+      nominee: [tt0091529, tt0092593, tt0094011]
+      winner: [tt0092593]
+    best costume design (meilleurs costumes):
+      nominee: [tt0092593, tt0092837, tt0093709]
+      winner: [tt0093709]
+    best director (meilleur réalisateur):
+      nominee: [tt0092593, tt0093111, tt0093261, tt0094011, tt0094105]
+      winner: [tt0092593]
+    best editing (meilleur montage):
+      nominee: [tt0092593, tt0093111, tt0094011]
+      winner: [tt0092593]
+    best film (meilleur film):
+      nominee: [tt0092593, tt0093111, tt0093261, tt0094011, tt0094105]
+      winner: [tt0092593]
+    best first work (meilleure première oeuvre):
+      nominee: [tt0092598, tt0093030, tt0093323, tt0093556, tt0093667]
+      winner: [tt0093667]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0093191, tt0093267, tt0093389, tt0093664, tt0094226]
+      winner: [tt0093389]
+    best music (meilleure musique):
+      nominee: [tt0092521, tt0092739, tt0093261]
+      winner: [tt0092739]
+    best poster (meilleure affiche):
+      nominee: [tt0093389, tt0094011, tt0094105, tt0094208]
+      winner: [tt0094105]
+    best production design (meilleurs décors):
+      nominee: [tt0092593, tt0092971, tt0093709]
+      winner: [tt0092593]
+    best screenplay, original or adaptation (meilleur scénario, original ou adaptation):
+      nominee: [tt0092550, tt0092593, tt0093111, tt0093709, tt0094105]
+      winner: [tt0092593]
+    best short film - animation (meilleur court-métrage d'animation):
+      nominee: [tt0177108, tt0242965]
+      winner: [tt0177108]
+    best short film - documentary (meilleur court-métrage documentaire):
+      nominee: [tt0177425, tt0285929]
+      winner: [tt0177425]
+    best short film - fiction (meilleur court-métrage de fiction):
+      nominee: [tt0152096, tt0215689, tt0285959]
+      winner: [tt0152096]
+    best sound (meilleur son):
+      nominee: [tt0092593, tt0093261, tt0094208]
+      winner: [tt0092593]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0092521, tt0092797, tt0093261, tt0093340, tt0093655]
+      winner: [tt0093261]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0091525, tt0092521, tt0092736, tt0093057, tt0093505]
+      winner: [tt0092521]
+    most promising actor (meilleur jeune espoir masculin):
+      nominee: [tt0092593, tt0092739, tt0093667, tt0094178]
+      winner: [tt0094178]
+    most promising actress (meilleur jeune espoir féminin):
+      nominee: [tt0092550, tt0092797, tt0093505, tt0093709]
+      winner: [tt0092797]
+'1987': # https://www.imdb.com/event/ev0000157/1987/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0090563, tt0091038, tt0091288, tt0091507, tt0092068]
+      winner: [tt0091288]
+    best actress (meilleure actrice):
+      nominee: [tt0090563, tt0091038, tt0091497, tt0091507, tt0092068]
+      winner: [tt0091507]
+    best cinematography (meilleure photographie):
+      nominee: [tt0091288, tt0091497, tt0091507, tt0092090]
+      winner: [tt0092090]
+    best costume design (meilleurs costumes):
+      nominee: [tt0091507, tt0091757, tt0092090]
+      winner: [tt0091757]
+    best director (meilleur réalisateur):
+      nominee: [tt0090563, tt0091288, tt0091507, tt0092068, tt0092090]
+      winner: [tt0092090]
+    best editing (meilleur montage):
+      nominee: [tt0090557, tt0090563, tt0092068, tt0092090]
+      winner: [tt0092090]
+    best film (meilleur film):
+      nominee: [tt0090563, tt0091288, tt0091507, tt0092068, tt0092090]
+      winner: [tt0092090]
+    best first work (meilleure première oeuvre):
+      nominee: [tt0090734, tt0091038, tt0091287, tt0091646]
+      winner: [tt0091038]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0088680, tt0089755, tt0091167, tt0091530, tt0091605]
+      winner: [tt0091605]
+    best music (meilleure musique):
+      nominee: [tt0090557, tt0090563, tt0091288, tt0092068]
+      winner: [tt0090557]
+    best poster (meilleure affiche):
+      nominee: [tt0090563, tt0091287, tt0091288, tt0091480, tt0091498, tt0092090]
+      winner: [tt0090563]
+    best production design (meilleurs décors):
+      nominee: [tt0090557, tt0091507, tt0091757, tt0092090]
+      winner: [tt0091757]
+    best screenplay, original or adaptation (meilleur scénario, original ou adaptation):
+      nominee: [tt0091093, tt0091288, tt0092068, tt0092090]
+      winner: [tt0092090]
+    best short film - fiction (meilleur court-métrage de fiction):
+      nominee: [tt0092280, tt0121825, tt0176785, tt0242320, tt0260766, tt0268132, tt0268177, tt0268726, tt0288836, tt0298191, tt0307143, tt0357435, tt0424346, tt0436678, tt0443251, tt2306479, tt2306517, tt2306591]
+      winner: [tt0176785]
+    best sound (meilleur son):
+      nominee: [tt0090557, tt0091288, tt0092068, tt0092090]
+      winner: [tt0090557]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0090563, tt0091038, tt0091093, tt0091507, tt0091715]
+      winner: [tt0091507]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0090563, tt0090933, tt0091410, tt0091480, tt0091715]
+      winner: [tt0091480]
+    most promising actor (meilleur jeune espoir masculin):
+      nominee: [tt0090734, tt0090874, tt0091099, tt0091757]
+      winner: [tt0090734]
+    most promising actress (meilleur jeune espoir féminin):
+      nominee: [tt0089935, tt0091038, tt0091497, tt0092090]
+      winner: [tt0092090]
+'1986': # https://www.imdb.com/event/ev0000157/1986/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0089103, tt0089726, tt0089821, tt0089902, tt0090095]
+      winner: [tt0090095]
+    best actress (meilleure actrice):
+      nominee: [tt0089726, tt0089860, tt0089902, tt0089960, tt0090095]
+      winner: [tt0089960]
+    best cinematography (meilleure photographie):
+      nominee: [tt0089256, tt0089726, tt0089902, tt0090095]
+      winner: [tt0089726]
+    best costume design (meilleurs costumes):
+      nominee: [tt0088844, tt0089072, tt0089256, tt0089902]
+      winner: [tt0089256]
+    best director (meilleur réalisateur):
+      nominee: [tt0089072, tt0089860, tt0089960, tt0090095, tt0090206]
+      winner: [tt0089860]
+    best editing (meilleur montage):
+      nominee: [tt0089726, tt0089821, tt0089860, tt0090095]
+      winner: [tt0089860]
+    best film (meilleur film):
+      nominee: [tt0089072, tt0089860, tt0089960, tt0090095, tt0090206]
+      winner: [tt0090206]
+    best first work (meilleure première oeuvre):
+      nominee: [tt0089256, tt0089710, tt0090090, tt0090171]
+      winner: [tt0090171]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0087553, tt0089017, tt0089853, tt0089881, tt0090350]
+      winner: [tt0089853]
+    best french language film (meilleur film francophone):
+      nominee: [tt0088985, tt0089014, tt0089061, tt0089366, tt0090267, tt0259095]
+      winner: [tt0089014]
+    best music (meilleure musique):
+      nominee: [tt0088844, tt0089726, tt0090095, tt0090125]
+      winner: [tt0090125]
+    best poster (meilleure affiche):
+      nominee: [tt0089087, tt0089256, tt0089860, tt0089881, tt0090095]
+      winner: [tt0089256]
+    best production design (meilleurs décors):
+      nominee: [tt0088844, tt0089726, tt0089860, tt0090095]
+      winner: [tt0090095]
+    best screenplay, original or adaptation (meilleur scénario, original ou adaptation):
+      nominee: [tt0089072, tt0089726, tt0089860, tt0089902, tt0090206]
+      winner: [tt0090206]
+    best short film - animation (meilleur court-métrage d'animation):
+      nominee: [tt0176695, tt0289884, tt0289905]
+      winner: [tt0176695]
+    best short film - documentary (meilleur court-métrage documentaire):
+      nominee: [tt0145120, tt0289872, tt0289881]
+      winner: [tt0145120]
+    best short film - fiction (meilleur court-métrage de fiction):
+      nominee: [tt0176790, tt0226976, tt0276875, tt0289918, tt0289986]
+      winner: [tt0176790]
+    best sound (meilleur son):
+      nominee: [tt0089072, tt0089256, tt0089902, tt0090095]
+      winner: [tt0090095]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0089726, tt0090095, tt0090206]
+      winner: [tt0090206]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0089072, tt0089103, tt0089860, tt0089960, tt0090206]
+      winner: [tt0089072]
+    most promising actor (meilleur jeune espoir masculin):
+      nominee: [tt0089072, tt0089832, tt0089902, tt0090146, tt0090171]
+      winner: [tt0089902]
+    most promising actress (meilleur jeune espoir féminin):
+      nominee: [tt0088715, tt0088768, tt0088806, tt0089072, tt0090206]
+      winner: [tt0089072]
+  honorary césar:
+    honorary césar:
+      nominee: [tt0090015]
+      winner: [tt0090015]
+'1985': # https://www.imdb.com/event/ev0000157/1985/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0087144, tt0087284, tt0087818, tt0088002, tt0088318]
+      winner: [tt0087818]
+    best actress (meilleure actrice):
+      nominee: [tt0087034, tt0087250, tt0087821, tt0087918, tt0088318]
+      winner: [tt0088318]
+    best adapted screenplay (meilleure adaptation):
+      nominee: [tt0086988, tt0087250, tt0088318]
+      winner: [tt0088318]
+    best cinematography (meilleure photographie):
+      nominee: [tt0086890, tt0087034, tt0087284, tt0088318]
+      winner: [tt0088318]
+    best costume design (meilleurs costumes):
+      nominee: [tt0087034, tt0087284, tt0088315]
+      winner: [tt0088315]
+    best director (meilleur réalisateur):
+      nominee: [tt0086890, tt0087034, tt0087821, tt0088002, tt0088318]
+      winner: [tt0088002]
+    best editing (meilleur montage):
+      nominee: [tt0087818, tt0088002, tt0088156, tt0088318]
+      winner: [tt0088002]
+    best film (meilleur film):
+      nominee: [tt0086890, tt0087034, tt0087821, tt0088002, tt0088318]
+      winner: [tt0088002]
+    best first work (meilleure première oeuvre):
+      nominee: [tt0086994, tt0087144, tt0087681, tt0088156]
+      winner: [tt0087144]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0086879, tt0087365, tt0087682, tt0087884]
+      winner: [tt0086879]
+    best french language film (meilleur film francophone):
+      nominee: [tt0084898]
+      winner: [tt0084898]
+    best music (meilleure musique):
+      nominee: [tt0085312, tt0086212, tt0086890, tt0087885]
+      winner: [tt0085312]
+    best original screenplay (meilleur scénario original et dialogues):
+      nominee: [tt0087818, tt0087821, tt0088002]
+      winner: [tt0087818]
+    best production design (meilleurs décors):
+      nominee: [tt0085312, tt0087034, tt0087818, tt0088315]
+      winner: [tt0088315]
+    best short film (meilleur court-métrage):
+      nominee: [tt0177141]
+      winner: [tt0177141]
+    best short film - animation (meilleur court-métrage d'animation):
+      nominee: [tt0176566, tt0327961, tt0328304]
+      winner: [tt0176566]
+    best short film - documentary (meilleur court-métrage documentaire):
+      nominee: [tt0177056, tt0329201, tt0329798]
+      winner: [tt0177056]
+    best short film - fiction (meilleur court-métrage de fiction):
+      nominee: [tt0177141, tt0315976, tt0327589, tt0328276, tt0329449]
+      winner: [tt0177141]
+    best sound (meilleur son):
+      nominee: [tt0086890, tt0087034, tt0087284, tt0088156]
+      winner: [tt0087034]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0086212, tt0086852, tt0087250, tt0087821, tt0088318]
+      winner: [tt0086852]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0086282, tt0086852, tt0086902, tt0087918, tt0088004]
+      winner: [tt0086902]
+    most promising actor (meilleur jeune espoir masculin):
+      nominee: [tt0086988, tt0087144, tt0088156, tt0088297]
+      winner: [tt0088156]
+    most promising actress (meilleur jeune espoir féminin):
+      nominee: [tt0087681, tt0087917, tt0087918, tt0088182]
+      winner: [tt0087918]
+'1984': # https://www.imdb.com/event/ev0000157/1984/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0084358, tt0085354, tt0085576, tt0086420, tt0086655]
+      winner: [tt0086420]
+    best actress (meilleure actrice):
+      nominee: [tt0084158, tt0085370, tt0085967, tt0086551, tt0086655]
+      winner: [tt0086655]
+    best adapted screenplay (meilleure adaptation):
+      nominee: [tt0085190, tt0086420, tt0086655]
+      winner: [tt0086655]
+    best cinematography (meilleure photographie):
+      nominee: [tt0084358, tt0085213, tt0085878, tt0086420]
+      winner: [tt0086420]
+    best director (meilleur réalisateur):
+      nominee: [tt0085213, tt0086420, tt0086551, tt0086650, tt0086655]
+      winner: [tt0085213]
+    best editing (meilleur montage):
+      nominee: [tt0084085, tt0085520, tt0085642, tt0085967, tt0086655]
+      winner: [tt0086655]
+    best film (meilleur film):
+      nominee: [tt0085213, tt0085370, tt0086420, tt0086650, tt0086655]
+      winner: [tt0085213, tt0086650]
+    best first work (meilleure première oeuvre):
+      nominee: [tt0085426, tt0085432, tt0086213, tt0086463]
+      winner: [tt0086213]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0080801, tt0083922, tt0084805, tt0085297]
+      winner: [tt0083922]
+    best french language film (meilleur film francophone):
+      nominee: [tt0085229, tt0085265, tt0085400, tt0086196, tt0095529, tt0197224]
+      winner: [tt0085400]
+    best music (meilleure musique):
+      nominee: [tt0085213, tt0086420, tt0086654, tt0086655]
+      winner: [tt0085213]
+    best original screenplay (meilleur scénario original et dialogues):
+      nominee: [tt0084085, tt0085354, tt0085370]
+      winner: [tt0084085]
+    best production design (meilleurs décors):
+      nominee: [tt0084358, tt0085878, tt0086420, tt0086542]
+      winner: [tt0085878]
+    best short film - animation (meilleur court-métrage d'animation):
+      nominee: [tt0177343, tt0241917, tt0328858]
+      winner: [tt0177343]
+    best short film - documentary (meilleur court-métrage documentaire):
+      nominee: [tt0161034, tt0245178, tt0329738]
+      winner: [tt0161034]
+    best short film - fiction (meilleur court-métrage de fiction):
+      nominee: [tt0177253, tt0276881, tt0309979, tt0316784]
+      winner: [tt0177253]
+    best sound (meilleur son):
+      nominee: [tt0084358, tt0085180, tt0085576, tt0086420]
+      winner: [tt0086420]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0085370, tt0085576, tt0086420, tt0086655]
+      winner: [tt0086420]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0084358, tt0085878, tt0086420, tt0086542, tt0086655]
+      winner: [tt0086655]
+    most promising actor (meilleur jeune espoir masculin):
+      nominee: [tt0084085, tt0085190, tt0086420, tt0086550]
+      winner: [tt0086420]
+    most promising actress (meilleur jeune espoir féminin):
+      nominee: [tt0085432, tt0086420, tt0086550, tt0086650]
+      winner: [tt0086650]
+'1983': # https://www.imdb.com/event/ev0000157/1983/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0083611, tt0083789, tt0084340, tt0084797]
+      winner: [tt0083611]
+    best actress (meilleure actrice):
+      nominee: [tt0083611, tt0084176, tt0084479, tt0084962]
+      winner: [tt0083611]
+    best adapted screenplay (meilleure adaptation et dialogues):
+      nominee: [tt0082510, tt0083789, tt0084340, tt0084962]
+      winner: [tt0084962]
+    best cinematography (meilleure photographie):
+      nominee: [tt0084340, tt0084481, tt0084829, tt0084843]
+      winner: [tt0084829]
+    best director (meilleur réalisateur):
+      nominee: [tt0083611, tt0083789, tt0084481, tt0084843]
+      winner: [tt0083789]
+    best editing (meilleur montage):
+      nominee: [tt0082963, tt0083611, tt0084797, tt0084962, tt0086707]
+      winner: [tt0082963]
+    best film (meilleur film):
+      nominee: [tt0083611, tt0083789, tt0084481, tt0084843]
+      winner: [tt0083611]
+    best first work (meilleure première oeuvre):
+      nominee: [tt0082650, tt0084176, tt0084361, tt0084797]
+      winner: [tt0084361]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0082416, tt0083866, tt0084865, tt0084934]
+      winner: [tt0084865]
+    best music (meilleure musique):
+      nominee: [tt0083686, tt0084479, tt0084589, tt0084843]
+      winner: [tt0084589]
+    best original screenplay (meilleur scénario original et dialogues):
+      nominee: [tt0082053, tt0082963, tt0083611, tt0084589]
+      winner: [tt0084589]
+    best production design (meilleurs décors):
+      nominee: [tt0084340, tt0084589, tt0084829, tt0084843]
+      winner: [tt0084589]
+    best short film - animation (meilleur court-métrage d'animation):
+      nominee: [tt0176958, tt0263967, tt0327571]
+      winner: [tt0176958]
+    best short film - documentary (meilleur court-métrage documentaire):
+      nominee: [tt0082591, tt0327423, tt0329391, tt0329574]
+      winner: [tt0082591]
+    best short film - fiction (meilleur court-métrage de fiction):
+      nominee: [tt0083759, tt0176561, tt0243417, tt0328350]
+      winner: [tt0176561]
+    best sound (meilleur son):
+      nominee: [tt0083789, tt0084479, tt0084843, tt0086707]
+      winner: [tt0084479]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0082963, tt0084340, tt0084479, tt0084843]
+      winner: [tt0084340]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0083686, tt0084468, tt0084843, tt0084962]
+      winner: [tt0084962]
+    most promising actor (meilleur jeune espoir masculin):
+      nominee: [tt0083611, tt0083920, tt0084589]
+      winner: [tt0083920]
+    most promising actress (meilleur jeune espoir féminin):
+      nominee: [tt0083686, tt0084019, tt0084843, tt0084962]
+      winner: [tt0083686]
+'1982': # https://www.imdb.com/event/ev0000157/1982/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0082054, tt0082206, tt0082436, tt0083257]
+      winner: [tt0082436]
+    best actress (meilleure actrice):
+      nominee: [tt0082206, tt0082370, tt0082539, tt0082933]
+      winner: [tt0082933]
+    best cinematography (meilleure photographie):
+      nominee: [tt0082269, tt0082436, tt0082484, tt0082701]
+      winner: [tt0082269]
+    best director (meilleur réalisateur):
+      nominee: [tt0082206, tt0082436, tt0082484, tt0083257]
+      winner: [tt0082484]
+    best editing (meilleur montage):
+      nominee: [tt0082206, tt0082436, tt0082701, tt0083260]
+      winner: [tt0082436]
+    best film (meilleur film):
+      nominee: [tt0082206, tt0082436, tt0082484, tt0083260]
+      winner: [tt0082484]
+    best first work (meilleure première oeuvre):
+      nominee: [tt0080946, tt0082269, tt0082800, tt0083255]
+      winner: [tt0082269]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0080678, tt0082222, tt0082429, tt0082971]
+      winner: [tt0080678]
+    best music (meilleure musique):
+      nominee: [tt0082269, tt0082484, tt0082949, tt0083260]
+      winner: [tt0082269]
+    best production design (meilleurs décors):
+      nominee: [tt0082206, tt0082269, tt0082484, tt0082701]
+      winner: [tt0082701]
+    best screenplay, original or adaptation (meilleur scénario, dialogue ou adaptation):
+      nominee: [tt0082206, tt0082436, tt0082484, tt0083257]
+      winner: [tt0082436]
+    best short film - animation (meilleur court-métrage d'animation):
+      nominee: [tt0177288, tt0290900, tt0328716]
+      winner: [tt0177288]
+    best short film - documentary (meilleur court-métrage documentaire):
+      nominee: [tt0082986, tt0327573, tt0328451]
+      winner: [tt0082986]
+    best short film - fiction (meilleur court-métrage de fiction):
+      nominee: [tt0081336, tt0328311, tt0328486, tt0328947]
+      winner: [tt0081336]
+    best sound (meilleur son):
+      nominee: [tt0082269, tt0082436, tt0082701, tt0083260]
+      winner: [tt0082269]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0082206, tt0082436, tt0083257]
+      winner: [tt0082436]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0082206, tt0082370, tt0082539, tt0083257]
+      winner: [tt0083257]
+'1981': # https://www.imdb.com/event/ev0000157/1981/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0080489, tt0080610, tt0081339, tt0081678]
+      winner: [tt0080610]
+    best actress (meilleure actrice):
+      nominee: [tt0080610, tt0081076, tt0081176, tt0081686]
+      winner: [tt0080610]
+    best cinematography (meilleure photographie):
+      nominee: [tt0080415, tt0080610, tt0081176, tt0081182]
+      winner: [tt0080610]
+    best director (meilleur réalisateur):
+      nominee: [tt0079854, tt0080610, tt0081176, tt0081678]
+      winner: [tt0080610]
+    best editing (meilleur montage):
+      nominee: [tt0080415, tt0080565, tt0080610, tt0081182]
+      winner: [tt0080610]
+    best film (meilleur film):
+      nominee: [tt0079854, tt0080610, tt0081076, tt0081176]
+      winner: [tt0080610]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0079417, tt0079826, tt0080716, tt0080979]
+      winner: [tt0080979]
+    best music (meilleure musique):
+      nominee: [tt0080388, tt0080610, tt0080951, tt0081182]
+      winner: [tt0080610]
+    best production design (meilleurs décors):
+      nominee: [tt0080415, tt0080610, tt0081176, tt0081678]
+      winner: [tt0080610]
+    best screenplay, original or adaptation (meilleur scénario, dialogue ou adaptation):
+      nominee: [tt0080388, tt0080610, tt0081176, tt0081182]
+      winner: [tt0080610]
+    best short film - animation (meilleur court-métrage d'animation):
+      nominee: [tt0081122, tt0216283, tt0308826]
+      winner: [tt0081122]
+    best short film - documentary (meilleur court-métrage documentaire):
+      nominee: [tt0077461, tt0176997, tt0307912]
+      winner: [tt0176997]
+    best short film - fiction (meilleur court-métrage de fiction):
+      nominee: [tt0177297, tt0295677, tt0308072, tt0308197]
+      winner: [tt0177297]
+    best sound (meilleur son):
+      nominee: [tt0080415, tt0080610, tt0081182, tt0081678]
+      winner: [tt0080610]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0080610, tt0080951, tt0081076, tt0081678]
+      winner: [tt0081678]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0079854, tt0080610, tt0081678, tt0082182]
+      winner: [tt0079854]
+'1980': # https://www.imdb.com/event/ev0000157/1980/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0079003, tt0079250, tt0079322, tt0079980]
+      winner: [tt0079250]
+    best actress (meilleure actrice):
+      nominee: [tt0077542, tt0078978, tt0079091, tt0080009]
+      winner: [tt0079091]
+    best cinematography (meilleure photographie):
+      nominee: [tt0078073, tt0078913, tt0079920, tt0080009]
+      winner: [tt0080009]
+    best director (meilleur réalisateur):
+      nominee: [tt0078978, tt0079063, tt0079086, tt0080009]
+      winner: [tt0080009]
+    best editing (meilleur montage):
+      nominee: [tt0077308, tt0078913, tt0079063, tt0079920, tt0079980]
+      winner: [tt0079063]
+    best film (meilleur film):
+      nominee: [tt0078978, tt0079063, tt0079322, tt0080009]
+      winner: [tt0080009]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0078788, tt0078875, tt0079261, tt0079522]
+      winner: [tt0079522]
+    best music (meilleure musique):
+      nominee: [tt0078771, tt0079091, tt0079322, tt0080009]
+      winner: [tt0078771]
+    best production design (meilleurs décors):
+      nominee: [tt0078913, tt0079063, tt0079322, tt0080009]
+      winner: [tt0079063]
+    best screenplay, original or adaptation (meilleur scénario, dialogue ou adaptation):
+      nominee: [tt0078913, tt0079086, tt0079322, tt0079980]
+      winner: [tt0078913]
+    best short film - animation (meilleur court-métrage d'animation):
+      nominee: [tt0176651, tt0263105, tt0309003]
+      winner: [tt0176651]
+    best short film - documentary (meilleur court-métrage documentaire):
+      nominee: [tt0177107, tt0308307, tt0308698, tt0308858]
+      winner: [tt0177107]
+    best short film - fiction (meilleur court-métrage de fiction):
+      nominee: [tt0075863, tt0198855, tt0308891]
+      winner: [tt0075863]
+    best sound (meilleur son):
+      nominee: [tt0077915, tt0078073, tt0078978, tt0079797]
+      winner: [tt0078978]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0079002, tt0079003, tt0079980, tt0080038]
+      winner: [tt0079002]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0077308, tt0079003, tt0079091, tt0079980]
+      winner: [tt0077308]
+'1979': # https://www.imdb.com/event/ev0000157/1979/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0075975, tt0077288, tt0078338]
+      winner: [tt0077288]
+    best actress (meilleure actrice):
+      nominee: [tt0075975, tt0077348, tt0077943, tt0078467]
+      winner: [tt0075975]
+    best cinematography (meilleure photographie):
+      nominee: [tt0075975, tt0077315, tt0077779, tt0077941]
+      winner: [tt0077941]
+    best director (meilleur réalisateur):
+      nominee: [tt0075975, tt0077175, tt0077941, tt0176666]
+      winner: [tt0077175]
+    best editing (meilleur montage):
+      nominee: [tt0077175, tt0078439, tt0078550, tt0176666]
+      winner: [tt0176666]
+    best film (meilleur film):
+      nominee: [tt0075975, tt0077175, tt0077941, tt0176666]
+      winner: [tt0077175]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0076245, tt0077138, tt0077711, tt0078481]
+      winner: [tt0077138]
+    best music (meilleure musique):
+      nominee: [tt0075975, tt0077317, tt0078122, tt0078467]
+      winner: [tt0078122]
+    best production design (meilleurs décors):
+      nominee: [tt0077941, tt0078197, tt0078467, tt0250630]
+      winner: [tt0077941]
+    best screenplay, original or adaptation (meilleur scénario, dialogue ou adaptation):
+      nominee: [tt0075975, tt0077175, tt0078338, tt0176666]
+      winner: [tt0176666]
+    best short film - animation (meilleur court-métrage d'animation):
+      nominee: [tt0177302, tt0296986, tt0297338]
+      winner: [tt0177302]
+    best short film - documentary (meilleur court-métrage documentaire):
+      nominee: [tt0176235, tt0176458, tt0297049]
+      winner: [tt0176458]
+    best short film - fiction (meilleur court-métrage de fiction):
+      nominee: [tt0176684, tt0292474, tt0297199, tt0297322]
+      winner: [tt0176684]
+    best sound (meilleur son):
+      nominee: [tt0075975, tt0077779, tt0077941, tt0078550]
+      winner: [tt0078550]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0075975, tt0077175, tt0078171, tt0078338]
+      winner: [tt0078171]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0075975, tt0078338, tt0078467]
+      winner: [tt0078467]
+'1978': # https://www.imdb.com/event/ev0000157/1978/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0075885, tt0075946, tt0076155, tt0076242, tt0076410]
+      winner: [tt0075885]
+    best actress (meilleure actrice):
+      nominee: [tt0075932, tt0075946, tt0076348, tt0076617, tt0230186]
+      winner: [tt0076348]
+    best cinematography (meilleure photographie):
+      nominee: [tt0075885, tt0075946, tt0076179, tt0076574]
+      winner: [tt0075885]
+    best director (meilleur réalisateur):
+      nominee: [tt0075824, tt0075885, tt0075946, tt0076574]
+      winner: [tt0076574]
+    best editing (meilleur montage):
+      nominee: [tt0076042, tt0076384, tt0076574, tt0258011]
+      winner: [tt0076574]
+    best film (meilleur film):
+      nominee: [tt0075885, tt0075932, tt0076470, tt0076574]
+      winner: [tt0076574]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0070506, tt0075675, tt0075686, tt0076085]
+      winner: [tt0076085]
+    best music (meilleure musique):
+      nominee: [tt0075683, tt0075753, tt0075885, tt0076574]
+      winner: [tt0076574]
+    best production design (meilleurs décors):
+      nominee: [tt0075946, tt0076348, tt0076470, tt0076574]
+      winner: [tt0076574]
+    best short film - animation (meilleur court-métrage d'animation):
+      nominee: [tt0177187, tt0262648, tt0297124, tt0297239, tt0297293]
+      winner: [tt0177187]
+    best short film - documentary (meilleur court-métrage documentaire):
+      nominee: [tt0176974, tt0297020, tt0297263, tt0297304, tt0297374]
+      winner: [tt0176974]
+    best short film - fiction (meilleur court-métrage de fiction):
+      nominee: [tt0176408, tt0297028, tt0297198, tt0297381, tt0297423]
+      winner: [tt0176408]
+    best sound (meilleur son):
+      nominee: [tt0075939, tt0075946, tt0076348, tt0076574, tt0162911]
+      winner: [tt0076574]
+    best sreenplay, original or adaptation (meilleur scénario, dialogue ou adaptation):
+      nominee: [tt0075824, tt0076410, tt0076470, tt0076574]
+      winner: [tt0076574]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0075885, tt0075933, tt0076242, tt0076384]
+      winner: [tt0075885]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0075932, tt0076155, tt0076384, tt0076617]
+      winner: [tt0076384]
+'1977': # https://www.imdb.com/event/ev0000157/1977/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0073219, tt0074888, tt0074916, tt0075364]
+      winner: [tt0073219]
+    best actress (meilleure actrice):
+      nominee: [tt0072887, tt0074184, tt0074508, tt0075370]
+      winner: [tt0072887]
+    best cinematography (meilleure photographie):
+      nominee: [tt0072887, tt0074184, tt0074720, tt0074888, tt0074916, tt0075369]
+      winner: [tt0074184, tt0074888]
+    best director (meilleur réalisateur):
+      nominee: [tt0073219, tt0074184, tt0074888, tt0074916]
+      winner: [tt0074916]
+    best editing (meilleur montage):
+      nominee: [tt0074184, tt0074916, tt0075082, tt0075370]
+      winner: [tt0075082]
+    best film (meilleur film):
+      nominee: [tt0073219, tt0074184, tt0074888, tt0074916]
+      winner: [tt0074916]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0072684, tt0073486, tt0074360, tt0075793]
+      winner: [tt0075793]
+    best music (meilleure musique):
+      nominee: [tt0073196, tt0073219, tt0073945, tt0074184, tt0074584, tt0075082]
+      winner: [tt0073219, tt0074184]
+    best production design (meilleurs décors):
+      nominee: [tt0074184, tt0074720, tt0074811, tt0074840, tt0074916]
+      winner: [tt0074916]
+    best screenplay, original or adaptation (meilleur scénario, dialogue ou adaptation):
+      nominee: [tt0073219, tt0074720, tt0074888, tt0076852]
+      winner: [tt0073219]
+    best short film - animation (meilleur court-métrage d'animation):
+      nominee: [tt0177318, tt0260879, tt0263951, tt0287328, tt0287420, tt0287606]
+      winner: [tt0177318]
+    best short film - documentary (meilleur court-métrage documentaire):
+      nominee: [tt0073619, tt0177321, tt0287318, tt0287431, tt0287486, tt0287577]
+      winner: [tt0177321]
+    best short film - fiction (meilleur court-métrage de fiction):
+      nominee: [tt0176622, tt0287362, tt0287409, tt0287426, tt0287483, tt0287598]
+      winner: [tt0176622]
+    best sound (meilleur son):
+      nominee: [tt0073196, tt0074184, tt0074840, tt0074888, tt0074916]
+      winner: [tt0074840]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0073219, tt0074584, tt0074840, tt0075215, tt0076852]
+      winner: [tt0074584, tt0076852]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0074184, tt0074231, tt0074826, tt0076852]
+      winner: [tt0074184]
+'1976': # https://www.imdb.com/event/ev0000157/1976/1/
+  césar:
+    best actor (meilleur acteur):
+      nominee: [tt0072826, tt0073685, tt0073864, tt0187044]
+      winner: [tt0073864]
+    best actress (meilleure actrice):
+      nominee: [tt0073114, tt0073155, tt0073166, tt0073663]
+      winner: [tt0073155]
+    best cinematography (meilleure photographie):
+      nominee: [tt0071297, tt0072709, tt0073663, tt0073864]
+      winner: [tt0072709]
+    best director (meilleur réalisateur):
+      nominee: [tt0072053, tt0073114, tt0073663, tt0073864]
+      winner: [tt0072053]
+    best editing (meilleur montage):
+      nominee: [tt0072603, tt0073155, tt0073663, tt0073685, tt0073864]
+      winner: [tt0073685]
+    best film (meilleur film):
+      nominee: [tt0072053, tt0072826, tt0073685, tt0073864]
+      winner: [tt0073864]
+    best foreign film (meilleur film étranger):
+      nominee: [tt0068182, tt0072037, tt0073440, tt0073822]
+      winner: [tt0072037]
+    best music (meilleure musique):
+      nominee: [tt0072053, tt0072337, tt0073166, tt0073864]
+      winner: [tt0073864]
+    best production design (meilleurs décors):
+      nominee: [tt0071297, tt0072053, tt0073114, tt0073155]
+      winner: [tt0072053]
+    best screenplay, original or adaptation (meilleur scénario, dialogue ou adaptation):
+      nominee: [tt0072053, tt0072826, tt0073685, tt0073864]
+      winner: [tt0072053]
+    best sound (meilleur son):
+      nominee: [tt0072709, tt0073166, tt0073864, tt0139371]
+      winner: [tt0072709]
+    best supporting actor (meilleur acteur dans un second rôle):
+      nominee: [tt0072053, tt0072603, tt0073864]
+      winner: [tt0072053]
+    best supporting actress (meilleure actrice dans un second rôle):
+      nominee: [tt0071125, tt0072053, tt0072194, tt0072826, tt0187044]
+      winner: [tt0072194, tt0072826]

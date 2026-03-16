@@ -1,0 +1,1463 @@
+# Actor Awards
+'2026':  # https://www.imdb.com/event/ev0000598/2026/1/
+  actor:
+    outstanding action performance by a stunt ensemble in a motion picture:
+      nominee: [tt1312221, tt16311594, tt30144839, tt31193180, tt9603208]
+      winner: [tt9603208]
+    outstanding action performance by a stunt ensemble in a television series:
+      nominee: [tt10919420, tt14186672, tt3581920, tt4574334, tt9253284]
+      winner: [tt3581920]
+    outstanding performance by a cast in a motion picture:
+      nominee: [tt1312221, tt14905854, tt30144839, tt31193180, tt32916440]
+      winner: [tt31193180]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt11815682, tt13443470, tt23649128, tt8888540]
+      winner: [tt23649128]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt11280740, tt13406094, tt17491088, tt22202452]
+      winner: [tt17491088]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt12300742, tt14905854, tt18382850, tt30144839, tt30343021]
+      winner: [tt14905854]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt19847976, tt26581740, tt30144839, tt31193180, tt32916440]
+      winner: [tt26581740]
+    outstanding performance by a female actor in a television movie or limited series:
+      nominee: [tt30252752, tt31314751, tt31806037, tt31974367]
+      winner: [tt30252752]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt11691774, tt23649128, tt26670955, tt26933824]
+      winner: [tt23649128]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt13406094, tt27444205, tt31938062, tt5875444, tt7203552]
+      winner: [tt31938062]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt12300742, tt30144839, tt31193180, tt32536315, tt32916440]
+      winner: [tt31193180]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt1312221, tt14905854, tt30144839, tt31193180]
+      winner: [tt30144839]
+    outstanding performance by a male actor in a television movie or limited series:
+      nominee: [tt13207736, tt23055142, tt31806037, tt31974367]
+      winner: [tt31806037]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt11691774, tt11815682, tt14218830, tt14452776, tt23649128]
+      winner: [tt23649128]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt11280740, tt13406094, tt14186672, tt17491088, tt31938062]
+      winner: [tt31938062]
+'2025': # https://www.imdb.com/event/ev0000598/2025/1/
+  actor:
+    outstanding action performance by a stunt ensemble in a motion picture:
+      nominee: [tt1262426, tt15239678, tt1684562, tt6263850, tt9218128]
+      winner: [tt1684562]
+    outstanding action performance by a stunt ensemble in a television series:
+      nominee: [tt11198330, tt1190634, tt12637874, tt15435876, tt2788316]
+      winner: [tt2788316]
+    outstanding performance by a cast in a motion picture:
+      nominee: [tt11563598, tt1262426, tt20215234, tt20221436, tt28607951]
+      winner: [tt20215234]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt11815682, tt14218830, tt14452776, tt26933824]
+      winner: [tt11815682]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt17491088, tt26591147, tt2788316, tt8740790]
+      winner: [tt2788316]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt1262426, tt17526714, tt20221436, tt28607951, tt31193791]
+      winner: [tt17526714]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt11563598, tt1262426, tt15507512, tt20221436, tt31193791]
+      winner: [tt20221436]
+    outstanding performance by a female actor in a television movie or limited series:
+      nominee: [tt13649112, tt14260566, tt15435876, tt16294384, tt1640719, tt2356777]
+      winner: [tt13649112]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt11691774, tt14452776, tt15677150, tt26670955, tt26933824]
+      winner: [tt11691774]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt24053860, tt2788316, tt5645432, tt5875444]
+      winner: [tt2788316]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt11563598, tt20215234, tt24176060, tt28479262, tt8999762]
+      winner: [tt11563598]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt11563598, tt1262426, tt21823606, tt28607951, tt8368368]
+      winner: [tt21823606]
+    outstanding performance by a male actor in a television movie or limited series:
+      nominee: [tt11016042, tt13207736, tt13649112, tt15435876, tt16294384]
+      winner: [tt15435876]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt11691774, tt11815682, tt14218830, tt14452776, tt15677150]
+      winner: [tt11691774]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt17491088, tt24053860, tt2788316, tt5875444, tt8740790]
+      winner: [tt2788316]
+'2024': # https://www.imdb.com/event/ev0000598/2024/1/
+  actor:
+    outstanding action performance by a stunt ensemble in a motion picture:
+      nominee: [tt10366206, tt1462764, tt1517268, tt6791350, tt9603212]
+      winner: [tt9603212]
+    outstanding action performance by a stunt ensemble in a television series:
+      nominee: [tt13622776, tt14403178, tt3581920, tt5348176, tt8111088]
+      winner: [tt3581920]
+    outstanding performance by a cast in a motion picture:
+      nominee: [tt1200263, tt1517268, tt15398776, tt23561236, tt5537002]
+      winner: [tt15398776]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt10986410, tt14218830, tt14452776, tt5788792]
+      winner: [tt14452776]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt17491088, tt3581920, tt4786824, tt7203552, tt7660850]
+      winner: [tt4786824]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt14230458, tt1517268, tt5302918, tt5535276, tt5537002]
+      winner: [tt5537002]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt1200263, tt14849194, tt15398776, tt3758542, tt5302918]
+      winner: [tt14849194]
+    outstanding performance by a female actor in a television movie or limited series:
+      nominee: [tt11816814, tt13911628, tt14403178, tt17921714, tt20869432]
+      winner: [tt14403178]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt10986410, tt14452776, tt5348176]
+      winner: [tt14452776]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt3581920, tt7203552, tt7660850]
+      winner: [tt3581920]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt14160834, tt14849194, tt15398776, tt23561236, tt5535276]
+      winner: [tt15398776]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt14230458, tt1517268, tt15398776, tt23561236, tt5537002]
+      winner: [tt15398776]
+    outstanding performance by a male actor in a television movie or limited series:
+      nominee: [tt14403178, tt15384586, tt15399640, tt27145269, tt2802850]
+      winner: [tt14403178]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt10986410, tt11691774, tt14218830, tt14452776, tt5348176]
+      winner: [tt14452776]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt3581920, tt4406178, tt4786824, tt7203552, tt7660850]
+      winner: [tt7660850]
+'2023': # https://www.imdb.com/event/ev0000598/2023/1/
+  actor:
+    outstanding action performance by a stunt ensemble in a motion picture:
+      nominee: [tt1630029, tt1745960, tt1877830, tt8093700, tt9114286]
+      winner: [tt1745960]
+    outstanding action performance by a stunt ensemble in a television series:
+      nominee: [tt11198330, tt1190634, tt4574334, tt7631058, tt9253284]
+      winner: [tt4574334]
+    outstanding performance by a cast in a motion picture:
+      nominee: [tt10640346, tt11813216, tt13669038, tt14208870, tt6710474]
+      winner: [tt6710474]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt11815682, tt13443470, tt14218830, tt5788792, tt8064302]
+      winner: [tt11815682]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt13406094, tt4786824, tt5071412, tt8772296]
+      winner: [tt13406094]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt14444726, tt1655389, tt4960748, tt6710474, tt8093700]
+      winner: [tt6710474]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt11813216, tt13833688, tt6710474, tt9114286]
+      winner: [tt6710474]
+    outstanding performance by a female actor in a television movie or limited series:
+      nominee: [tt10166622, tt11771270, tt13207736, tt5545398, tt8740976]
+      winner: [tt5545398]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt11691774, tt14452776, tt5348176]
+      winner: [tt14452776]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt11280740, tt3032476, tt5071412, tt5645432]
+      winner: [tt5071412]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt11813216, tt13833688, tt3704428, tt8009428, tt9051908]
+      winner: [tt13833688]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt11813216, tt14208870, tt4273800, tt6710474]
+      winner: [tt6710474]
+    outstanding performance by a male actor in a television movie or limited series:
+      nominee: [tt13207736, tt13991232, tt15574312, tt4301160]
+      winner: [tt13991232]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt11691774, tt11815682, tt14218830, tt14452776, tt5348176]
+      winner: [tt14218830]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt11280740, tt13406094, tt3032476, tt4786824, tt5071412]
+      winner: [tt13406094]
+'2022': # https://www.imdb.com/event/ev0000598/2022/1/
+  actor:
+    outstanding action performance by a stunt ensemble in a comedy or drama series:
+      nominee: [tt10155688, tt10919420, tt7221388, tt9140554, tt9208876]
+      winner: [tt10919420]
+    outstanding action performance by a stunt ensemble in a motion picture:
+      nominee: [tt10838180, tt1160419, tt2382320, tt3480822, tt9376612]
+      winner: [tt2382320]
+    outstanding performance by a cast in a motion picture:
+      nominee: [tt10366460, tt11214590, tt11286314, tt12789558, tt9620288]
+      winner: [tt10366460]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt10986410, tt11815682, tt11834150, tt2235759]
+      winner: [tt11815682]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt10919420, tt5834204, tt7203552, tt7660850]
+      winner: [tt10919420]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt11214590, tt2452150, tt4995540, tt9100054, tt9115530]
+      winner: [tt9115530]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt10293406, tt12789558, tt3581652, tt7740496, tt8893974]
+      winner: [tt3581652]
+    outstanding performance by a female actor in a television movie or limited series:
+      nominee: [tt10155688, tt11337908, tt13406094, tt5673782]
+      winner: [tt10155688]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt10986410, tt11691774, tt7255502]
+      winner: [tt10986410]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt10919420, tt7203552, tt7660850]
+      winner: [tt10919420]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt10095582, tt10293406, tt4995540, tt8721424, tt9620288]
+      winner: [tt9620288]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt10293406, tt10366460, tt11214590, tt11271038, tt3108894]
+      winner: [tt10366460]
+    outstanding performance by a male actor in a television movie or limited series:
+      nominee: [tt10155688, tt12682218, tt13406094, tt9174558, tt9569546]
+      winner: [tt9174558]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt10986410, tt11691774, tt11815682, tt2235759, tt7255502]
+      winner: [tt10986410]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt10919420, tt4236770, tt5834204, tt7203552, tt7660850]
+      winner: [tt7660850]
+'2021': # https://www.imdb.com/event/ev0000598/2021/1/
+  actor:
+    outstanding action performance by a stunt ensemble in a comedy or drama series:
+      nominee: [tt0475784, tt1190634, tt6905686, tt7221388, tt8111088]
+      winner: [tt8111088]
+    outstanding action performance by a stunt ensemble in a motion picture:
+      nominee: [tt1070874, tt4566758, tt6878306, tt7126948, tt9777644]
+      winner: [tt7126948]
+    outstanding performance by a cast in a motion picture:
+      nominee: [tt10514222, tt10612922, tt10633456, tt1070874, tt9777644]
+      winner: [tt1070874]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt3526078, tt7569576, tt8064302]
+      winner: [tt3526078]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt4786824, tt5071412]
+      winner: [tt4786824]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt10514222, tt11161474, tt6772802, tt9620292, tt9770150]
+      winner: [tt10514222]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt10272386, tt10633456, tt13143964, tt6772802, tt6878306]
+      winner: [tt10633456]
+    outstanding performance by a female actor in a television movie or limited series:
+      nominee: [tt10048342, tt11204260, tt8089592, tt8134470, tt9244556]
+      winner: [tt10048342]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt10986410, tt2235759, tt3526078, tt7649694]
+      winner: [tt10986410]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt3032476, tt4786824, tt5071412, tt5555260, tt8740790]
+      winner: [tt5071412]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt10272386, tt10514222, tt10618286, tt10633456, tt5363618]
+      winner: [tt10514222]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt10016180, tt10612922, tt1070874, tt9777644, tt9784798]
+      winner: [tt9784798]
+    outstanding performance by a male actor in a television movie or limited series:
+      nominee: [tt0425118, tt10048342, tt3673480, tt8134470, tt8503618]
+      winner: [tt0425118]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt10986410, tt2235759, tt3526078, tt7569576, tt8064302]
+      winner: [tt3526078]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt3032476, tt4786824, tt5071412, tt6905686, tt8740790]
+      winner: [tt4786824]
+'2020': # https://www.imdb.com/event/ev0000598/2020/1/
+  actor:
+    outstanding action performance by a stunt ensemble in a comedy or drama series:
+      nominee: [tt0944947, tt1520211, tt4574334, tt5770786, tt7049682]
+      winner: [tt0944947]
+    outstanding action performance by a stunt ensemble in a motion picture:
+      nominee: [tt1302006, tt1950186, tt4154796, tt7131622, tt7286456]
+      winner: [tt4154796]
+    outstanding performance by a cast in a motion picture:
+      nominee: [tt1302006, tt2584384, tt6394270, tt6751668, tt7131622]
+      winner: [tt6751668]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt3526078, tt5687612, tt5788792, tt8064302]
+      winner: [tt5687612]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt4786824, tt5834204, tt7016936, tt7203552]
+      winner: [tt7203552]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt4648786, tt6394270, tt6857112, tt7549996, tt7653254]
+      winner: [tt7549996]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt2584384, tt5503686, tt6394270, tt7653254]
+      winner: [tt7653254]
+    outstanding performance by a female actor in a television movie or limited series:
+      nominee: [tt7366338, tt7909970, tt8682948, tt8746478]
+      winner: [tt8746478]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt5348176, tt5687612, tt5788792, tt7255502]
+      winner: [tt5788792]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt0944947, tt4574334, tt5555260, tt7203552]
+      winner: [tt0944947]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt1950186, tt2066051, tt7131622, tt7286456, tt7653254]
+      winner: [tt7286456]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt1302006, tt3224458, tt4916630, tt7131622]
+      winner: [tt7131622]
+    outstanding performance by a male actor in a television movie or limited series:
+      nominee: [tt2356777, tt6821044, tt7137906, tt7366338, tt8746478]
+      winner: [tt8746478]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt3526078, tt5348176, tt5687612, tt5788792, tt7255502]
+      winner: [tt5788792]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt0944947, tt3920596, tt4574334, tt4786824, tt5834204]
+      winner: [tt4786824]
+'2019': # https://www.imdb.com/event/ev0000598/2019/1/
+  actor:
+    outstanding action performance by a stunt ensemble in a comedy or drama series:
+      nominee: [tt0475784, tt1520211, tt3322312, tt5057054, tt5770786]
+      winner: [tt5770786]
+    outstanding action performance by a stunt ensemble in a motion picture:
+      nominee: [tt1825683, tt4154756, tt4912910, tt5095030, tt6412452]
+      winner: [tt1825683]
+    outstanding performance by a cast in a motion picture:
+      nominee: [tt1517451, tt1727824, tt1825683, tt3104988, tt7349662]
+      winner: [tt1825683]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt3609352, tt5770786, tt5788792]
+      winner: [tt5788792]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt1856010, tt5071412, tt5834204, tt7016936]
+      winner: [tt7016936]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt1517451, tt3750872, tt4595882, tt5028340, tt5083738]
+      winner: [tt3750872]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt2328900, tt5083738, tt6266538, tt6644200]
+      winner: [tt6644200]
+    outstanding performance by a female actor in a television movie or limited series:
+      nominee: [tt2649356, tt2788432, tt5580146, tt6866266]
+      winner: [tt6866266]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt5348176, tt5788792, tt7255502]
+      winner: [tt5788792]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt3032476, tt5057054, tt5071412, tt5555260, tt5834204]
+      winner: [tt5071412]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt1517451, tt1727824, tt6266538, tt6966692, tt7349662]
+      winner: [tt1727824]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt1226837, tt1517451, tt4595882, tt6966692, tt7349662]
+      winner: [tt6966692]
+    outstanding performance by a male actor in a television movie or limited series:
+      nominee: [tt2788432, tt5673782, tt6048596, tt6938856, tt7473890]
+      winner: [tt2788432]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt4288182, tt5348176, tt5770786, tt5788792, tt7255502]
+      winner: [tt5788792]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt2149175, tt3032476, tt5071412, tt5555260, tt5834204]
+      winner: [tt5555260]
+'2018': # https://www.imdb.com/event/ev0000598/2018/1/
+  actor:
+    outstanding action performance by a stunt ensemble in a comedy or drama series:
+      nominee: [tt0944947, tt1520211, tt1796960, tt4574334, tt5770786]
+      winner: [tt0944947]
+    outstanding action performance by a stunt ensemble in a motion picture:
+      nominee: [tt0451279, tt3315342, tt3450958, tt3890160, tt5013056]
+      winner: [tt0451279]
+    outstanding performance by a cast in a motion picture:
+      nominee: [tt2396589, tt4925292, tt5027774, tt5052448, tt5462602]
+      winner: [tt5027774]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt1759761, tt2372162, tt3609352, tt5770786]
+      winner: [tt1759761]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt1856010, tt4574334, tt4786824, tt5071412, tt5834204]
+      winner: [tt4786824]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt4925292, tt5027774, tt5580036, tt5580390, tt5816682]
+      winner: [tt5027774]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt1389072, tt2396589, tt4925292, tt5462602, tt5580036]
+      winner: [tt5580036]
+    outstanding performance by a female actor in a television movie or limited series:
+      nominee: [tt1984119, tt3920596]
+      winner: [tt3920596]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt0157246, tt0264235, tt1586680, tt3487356, tt4635276, tt5770786]
+      winner: [tt1586680]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt0944947, tt3032476, tt4574334, tt5071412, tt5555260]
+      winner: [tt5555260]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt3521126, tt4555426, tt5052448, tt5726616, tt6000478]
+      winner: [tt4555426]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt4622512, tt5027774, tt5580390, tt5649144]
+      winner: [tt5027774]
+    outstanding performance by a male actor in a television movie or limited series:
+      nominee: [tt1475582, tt1933667, tt3920596, tt5516154, tt5673782]
+      winner: [tt3920596]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt0264235, tt1759761, tt2372162, tt3487356, tt5770786]
+      winner: [tt1759761]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt0944947, tt4574334, tt4786824, tt5555260, tt5834204]
+      winner: [tt5555260]
+'2017': # https://www.imdb.com/event/ev0000598/2017/1/
+  actor:
+    outstanding action performance by a stunt ensemble in a comedy or drama series:
+      nominee: [tt0475784, tt0944947, tt1520211, tt3322312, tt3322314]
+      winner: [tt0944947]
+    outstanding action performance by a stunt ensemble in a motion picture:
+      nominee: [tt1211837, tt2119532, tt3498820, tt4196776, tt4550098]
+      winner: [tt2119532]
+    outstanding performance by a cast in a motion picture:
+      nominee: [tt2671706, tt3553976, tt4034228, tt4846340, tt4975722]
+      winner: [tt4846340]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt1759761, tt2372162, tt3339966, tt3609352]
+      winner: [tt1759761]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt0475784, tt1856010, tt4574334, tt4786824]
+      winner: [tt4786824]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt1619029, tt2543164, tt3631112, tt3783958, tt4136084]
+      winner: [tt3783958]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt2671706, tt3741834, tt4034228, tt4846340, tt4975722]
+      winner: [tt2671706]
+    outstanding performance by a female actor in a television movie or limited series:
+      nominee: [tt2085059, tt2788432, tt3488298, tt4305154, tt4608402]
+      winner: [tt2788432]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt1442437, tt1586680, tt3339966, tt3487356, tt3502262]
+      winner: [tt1586680]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt0944947, tt1856010, tt4158110, tt4786824, tt5555260]
+      winner: [tt4786824]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt2119532, tt2671706, tt3553976, tt3783958, tt4034228]
+      winner: [tt2671706]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt2582782, tt3741834, tt4034228, tt4136084, tt4975722]
+      winner: [tt4975722]
+    outstanding performance by a male actor in a television movie or limited series:
+      nominee: [tt2401256, tt2788432, tt3791216]
+      winner: [tt3791216]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt0898266, tt1442437, tt1759761, tt2372162, tt3487356]
+      winner: [tt2372162]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt0475784, tt0944947, tt1606375, tt4574334, tt4786824]
+      winner: [tt4574334]
+'2016': # https://www.imdb.com/event/ev0000598/2016/1/
+  actor:
+    outstanding action performance by a stunt ensemble in a motion picture:
+      nominee: [tt0369610, tt1392190, tt2381249, tt2719848, tt2820852]
+      winner: [tt1392190]
+    outstanding action performance by a stunt ensemble in a television series:
+      nominee: [tt0944947, tt1520211, tt1796960, tt2741602, tt3322312]
+      winner: [tt0944947]
+    outstanding performance by a cast in a motion picture:
+      nominee: [tt1365050, tt1398426, tt1596363, tt1895587, tt3203606]
+      winner: [tt1895587]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt1190689, tt1266020, tt1759761, tt2372162, tt3339966]
+      winner: [tt2372162]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt1442462, tt1606375, tt1796960, tt1856010, tt3205802]
+      winner: [tt3205802]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt2381111, tt2402927, tt2404425, tt3170832, tt3640682]
+      winner: [tt3170832]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt0810819, tt1895587, tt2080374, tt2402927, tt3203606]
+      winner: [tt0810819]
+    outstanding performance by a female actor in a television movie or miniseries:
+      nominee: [tt2095649, tt3704352, tt3864034, tt4067076, tt4145760]
+      winner: [tt3704352]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt0898266, tt1442437, tt1492966, tt1586680, tt3502262]
+      winner: [tt3502262]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt0804503, tt0944947, tt1856010, tt3032476, tt4158110]
+      winner: [tt1856010]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt0810819, tt1355683, tt1663202, tt2080374, tt3203606]
+      winner: [tt1663202]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt1365050, tt1596363, tt2891174, tt3170832, tt3682448]
+      winner: [tt1365050]
+    outstanding performance by a male actor in a television movie or miniseries:
+      nominee: [tt1474684, tt3214310, tt3556920, tt3598496, tt4537842]
+      winner: [tt1474684]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt0898266, tt1442437, tt1759761, tt1981558, tt2372162, tt3502262]
+      winner: [tt2372162]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt0804503, tt0944947, tt1606375, tt1796960, tt1856010]
+      winner: [tt1606375]
+'2015': # https://www.imdb.com/event/ev0000598/2015/1/
+  actor:
+    outstanding action performance by a stunt ensemble in a motion picture:
+      nominee: [tt1809398, tt1877832, tt2310332, tt2473602, tt2713180]
+      winner: [tt1809398]
+    outstanding action performance by a stunt ensemble in a television series:
+      nominee: [tt0944947, tt0979432, tt1124373, tt1520211, tt1598754, tt1796960]
+      winner: [tt0944947]
+    outstanding performance by a cast in a motion picture:
+      nominee: [tt1065073, tt2084970, tt2278388, tt2562232, tt2980516]
+      winner: [tt2562232]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt1190689, tt1266020, tt1442437, tt1759761, tt2372162]
+      winner: [tt2372162]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt1442462, tt1606375, tt1796960, tt1856010, tt2234222, tt3205802]
+      winner: [tt3205802]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt2267998, tt2305051, tt2980516, tt3316960, tt3442006]
+      winner: [tt3316960]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt1065073, tt2084970, tt2170593, tt2180411, tt2562232]
+      winner: [tt1065073]
+    outstanding performance by a female actor in a television movie or miniseries:
+      nominee: [tt1684226, tt3012698, tt3021686, tt3074694, tt3317326]
+      winner: [tt3012698]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt0898266, tt1442437, tt1492966, tt1586680]
+      winner: [tt1586680]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt0944947, tt0979432, tt1856010, tt2356777]
+      winner: [tt1856010]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt1100089, tt2084970, tt2562232, tt2872718, tt2980516]
+      winner: [tt2980516]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt1065073, tt1100089, tt1872194, tt2562232, tt2582802]
+      winner: [tt2582802]
+    outstanding performance by a male actor in a television movie or miniseries:
+      nominee: [tt1475582, tt1684226, tt2802850, tt3012698, tt3132738]
+      winner: [tt1684226]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt0898266, tt1442437, tt1759761, tt2372162, tt2467372]
+      winner: [tt2372162]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt0944947, tt0979432, tt1606375, tt1796960, tt1856010]
+      winner: [tt1606375]
+'2014': # https://www.imdb.com/event/ev0000598/2014/1/
+  actor:
+    outstanding action performance by a stunt ensemble in a motion picture:
+      nominee: [tt1091191, tt1430132, tt1905041, tt1979320, tt2017038]
+      winner: [tt1091191]
+    outstanding action performance by a stunt ensemble in a television series:
+      nominee: [tt0903747, tt0944947, tt0979432, tt1520211, tt1796960]
+      winner: [tt0944947]
+    outstanding performance by a cast in a motion picture:
+      nominee: [tt0790636, tt1322269, tt1327773, tt1800241, tt2024544]
+      winner: [tt1800241]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt0496424, tt0898266, tt1190689, tt1442437, tt1759761]
+      winner: [tt1759761]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt0903747, tt1606375, tt1796960, tt1837576, tt1844624]
+      winner: [tt1606375]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt1322269, tt1454468, tt2140373, tt2334873, tt2431286]
+      winner: [tt2334873]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt1322269, tt1327773, tt1800241, tt1821549, tt2024544]
+      winner: [tt2024544]
+    outstanding performance by a female actor in a television movie or miniseries:
+      nominee: [tt1745862, tt2103085, tt2375664, tt2709784]
+      winner: [tt1745862]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt0367279, tt0496424, tt0898266, tt1442437, tt1797404]
+      winner: [tt1442437]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt0903747, tt0944947, tt0979432, tt1856010, tt1870479]
+      winner: [tt0903747]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt0790636, tt1327773, tt1535109, tt1821549, tt2024544]
+      winner: [tt0790636]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt0790636, tt1535109, tt1979320, tt2024544, tt2390361]
+      winner: [tt0790636]
+    outstanding performance by a male actor in a television movie or miniseries:
+      nominee: [tt1291580, tt1745862, tt2262456, tt2815030]
+      winner: [tt1291580]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt0367279, tt0496424, tt0898266, tt1442437, tt1759761]
+      winner: [tt1442437]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt0903747, tt0944947, tt0979432, tt1606375, tt1796960]
+      winner: [tt0903747]
+'2013': # https://www.imdb.com/event/ev0000598/2013/1/
+  actor:
+    outstanding action performance by a stunt ensemble in a motion picture:
+      nominee: [tt0948470, tt1074638, tt1194173, tt1345836, tt1707386]
+      winner: [tt1074638]
+    outstanding action performance by a stunt ensemble in a television series:
+      nominee: [tt0903747, tt0944947, tt0979432, tt1124373, tt1520211]
+      winner: [tt0944947]
+    outstanding performance by a cast in a motion picture:
+      nominee: [tt0443272, tt1024648, tt1045658, tt1412386, tt1707386]
+      winner: [tt1024648]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt0496424, tt1190689, tt1266020, tt1442437, tt1583607]
+      winner: [tt0496424]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt1442462, tt1606375, tt1796960, tt1844624]
+      winner: [tt1796960]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt0975645, tt1045658, tt1649419, tt1790885, tt2053425]
+      winner: [tt1045658]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt0443272, tt1412386, tt1496422, tt1707386, tt1866249]
+      winner: [tt1707386]
+    outstanding performance by a female actor in a television movie or miniseries:
+      nominee: [tt0423455, tt1848902, tt2239947, tt2241676, tt2328749]
+      winner: [tt1848902]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt0496424, tt0898266, tt1442437, tt1492966]
+      winner: [tt0496424]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt0804503, tt0903747, tt0979432, tt1796960, tt1870479]
+      winner: [tt0903747]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt0443272, tt1045658, tt1707386, tt1866249, tt1907668]
+      winner: [tt0443272]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt0443272, tt1024648, tt1045658, tt1074638, tt1560747]
+      winner: [tt0443272]
+    outstanding performance by a male actor in a television movie or miniseries:
+      nominee: [tt0423455, tt1848902, tt1985443]
+      winner: [tt1985443]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt0386676, tt0496424, tt0898266, tt1190689, tt1327801, tt1442437]
+      winner: [tt1442437]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt0804503, tt0903747, tt0979432, tt1606375, tt1796960]
+      winner: [tt1606375]
+'2012': # https://www.imdb.com/event/ev0000598/2012/1/
+  actor:
+    outstanding action performance by a stunt ensemble in a television series:
+      nominee: [tt0944947]
+      winner: []
+    outstanding performance by a cast in a motion picture:
+      nominee: [tt1033575, tt1454029, tt1478338, tt1605783, tt1655442]
+      winner: [tt1454029]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt0496424, tt1190689, tt1442437, tt1583607]
+      winner: [tt1583607]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt0458253, tt0914387, tt1442462, tt1582453, tt1844624]
+      winner: [tt1844624]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt1007029, tt1242460, tt1454029, tt1602098, tt1655420]
+      winner: [tt1454029]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt1454029, tt1478338, tt1602098, tt1655442]
+      winner: [tt1454029]
+    outstanding performance by a female actor in a television movie or miniseries:
+      nominee: [tt1492030, tt1606375, tt1623742, tt1709157, tt1831575]
+      winner: [tt1492030]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt0369179, tt0386676, tt0496424, tt1442437]
+      winner: [tt0496424]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt0758745, tt0773262, tt0903747, tt0979432, tt1632701]
+      winner: [tt0979432]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt1033575, tt1210166, tt1554091, tt1616195, tt1655442]
+      winner: [tt1655442]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt1210166, tt1291584, tt1532503, tt1616195, tt1655420]
+      winner: [tt1532503]
+    outstanding performance by a male actor in a television movie or miniseries:
+      nominee: [tt1492030, tt1567215, tt1742683, tt1844811]
+      winner: [tt1742683]
+    outstanding performance by a stunt ensemble in a motion picture:
+      nominee: [tt0409847, tt1201607, tt1270798, tt1385826, tt1399103]
+      winner: [tt1201607]
+    outstanding performance by a stunt ensemble in a television series:
+      nominee: [tt0773262, tt0844441, tt0944947, tt1299368, tt39020004]
+      winner: [tt0944947]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt0386676, tt0496424, tt0898266, tt1327801, tt1442437]
+      winner: [tt1442437]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt0773262, tt0903747, tt0944947, tt0979432, tt1442462]
+      winner: [tt0979432]
+'2011': # https://www.imdb.com/event/ev0000598/2011/1/
+  actor:
+    outstanding performance by a cast in a motion picture:
+      nominee: [tt0842926, tt0947798, tt0964517, tt1285016, tt1504320]
+      winner: [tt1504320]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt0496424, tt1190689, tt1327801, tt1442437, tt1583607]
+      winner: [tt1583607]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt0203259, tt0458253, tt0804503, tt0914387, tt1442462]
+      winner: [tt1442462]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt0842926, tt0935075, tt0947798, tt1244754, tt1399683]
+      winner: [tt0947798]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt0947798, tt0964517, tt1403865, tt1504320]
+      winner: [tt0964517]
+    outstanding performance by a female actor in a television movie or miniseries:
+      nominee: [tt1132623, tt1278469, tt1547035]
+      winner: [tt1278469]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt0386676, tt0496424, tt1327801, tt1442437]
+      winner: [tt0496424]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt0412142, tt0773262, tt0804503, tt0903747, tt0979432]
+      winner: [tt0979432]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt1194263, tt1285016, tt1403865, tt1504320, tt1542344]
+      winner: [tt1504320]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt0840361, tt0842926, tt0964517, tt1399683, tt1504320]
+      winner: [tt0964517]
+    outstanding performance by a male actor in a television movie or miniseries:
+      nominee: [tt1117646, tt1132623, tt1321865, tt1570337]
+      winner: [tt1132623]
+    outstanding performance by a stunt ensemble in a motion picture:
+      nominee: [tt0947810, tt0955308, tt1375666]
+      winner: [tt1375666]
+    outstanding performance by a stunt ensemble in a television series:
+      nominee: [tt0395843, tt0773262, tt0810788, tt0844441, tt1299368]
+      winner: [tt0844441]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt0386676, tt0496424, tt1327801, tt1442437, tt1583607]
+      winner: [tt1442437]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt0458253, tt0773262, tt0804503, tt0979432, tt1442462]
+      winner: [tt0979432]
+'2010': # https://www.imdb.com/event/ev0000598/2010/1/
+  actor:
+    outstanding performance by a cast in a motion picture:
+      nominee: [tt0361748, tt0875034, tt0887912, tt0929632, tt1174732]
+      winner: [tt0361748]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt0462128, tt0496424, tt0898332, tt1001482, tt1190689]
+      winner: [tt0496424]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt0203259, tt0412175, tt0458253, tt0830900, tt0914387, tt1442462]
+      winner: [tt1442462]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt0824758, tt0878804, tt0929632, tt1135503, tt1174732]
+      winner: [tt0878804]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt0361748, tt0875034, tt0929632, tt1193138]
+      winner: [tt0929632]
+    outstanding performance by a female actor in a television movie or miniseries:
+      nominee: [tt0758751, tt1073510, tt1320286, tt1347508]
+      winner: [tt0758751]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt0264235, tt0312172, tt0369179, tt0386676, tt0496424]
+      winner: [tt0496424]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt0412142, tt0773262, tt0804503, tt0903747, tt1196946]
+      winner: [tt0773262]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt0887912, tt1057500, tt1193138, tt1263670, tt1315981]
+      winner: [tt1263670]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt0361748, tt0380510, tt0790712, tt0824758, tt1057500]
+      winner: [tt0361748]
+    outstanding performance by a male actor in a television movie or miniseries:
+      nominee: [tt0159876, tt1010035, tt1019454, tt1295085, tt1320286]
+      winner: [tt1019454]
+    outstanding performance by a stunt ensemble in a motion picture:
+      nominee: [tt0796366, tt1055369, tt1152836]
+      winner: [tt0796366]
+    outstanding performance by a stunt ensemble in a television series:
+      nominee: [tt0285331, tt0458253, tt0460690, tt0773262, tt0813715]
+      winner: [tt0285331]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt0264235, tt0386676, tt0496424, tt1327801, tt1442437]
+      winner: [tt1327801]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt0458253, tt0773262, tt0804503, tt0844441, tt1442462]
+      winner: [tt0804503]
+'2009': # https://www.imdb.com/event/ev0000598/2009/1/
+  actor:
+    outstanding performance by a cast in a motion picture:
+      nominee: [tt0421715, tt0870111, tt0918927, tt1010048, tt1013753]
+      winner: [tt1010048]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt0439100, tt0496424, tt0805669, tt0898332, tt1014741]
+      winner: [tt0496424]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt0203259, tt0458253, tt0758737, tt0804503, tt0830900]
+      winner: [tt0758737]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt0824747, tt0918927, tt0959337, tt0978759, tt1084950]
+      winner: [tt0918927]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt0421715, tt0497465, tt0918927, tt0976051]
+      winner: [tt0976051]
+    outstanding performance by a female actor in a television movie or miniseries:
+      nominee: [tt0470732, tt0472027, tt0808435, tt1000771, tt1094661]
+      winner: [tt0472027]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt0312172, tt0386676, tt0387199, tt0496424, tt0904208]
+      winner: [tt0496424]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt0402711, tt0412142, tt0773262, tt0804503]
+      winner: [tt0412142]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt0421715, tt0857191, tt0870111, tt1013753, tt1125849]
+      winner: [tt1013753]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt0468569, tt0918927, tt0942385, tt1010048, tt1013753]
+      winner: [tt0468569]
+    outstanding performance by a male actor in a television movie or miniseries:
+      nominee: [tt0470732, tt0472027, tt0813980, tt1000771]
+      winner: [tt0472027]
+    outstanding performance by a stunt ensemble in a motion picture:
+      nominee: [tt0367882, tt0371746, tt0411477, tt0468569, tt0493464]
+      winner: [tt0468569]
+    outstanding performance by a stunt ensemble in a television series:
+      nominee: [tt0455275, tt0458253, tt0460690, tt0758745, tt0813715]
+      winner: [tt0813715]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt0386676, tt0387199, tt0410975, tt0439100, tt0496424]
+      winner: [tt0496424]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt0402711, tt0412142, tt0458253, tt0773262, tt0804503]
+      winner: [tt0804503]
+'2008': # https://www.imdb.com/event/ev0000598/2008/1/
+  actor:
+    outstanding performance by a cast in a motion picture:
+      nominee: [tt0381849, tt0427327, tt0477348, tt0758758, tt0765429]
+      winner: [tt0477348]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt0439100, tt0496424, tt0805669, tt0898332]
+      winner: [tt0496424]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt0141842, tt0458253, tt0758737, tt0830900, tt0914387]
+      winner: [tt0141842]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt0414055, tt0450188, tt0467406, tt0491747, tt0829459]
+      winner: [tt0491747]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt0368794, tt0452623, tt0465538, tt0758758, tt0765429]
+      winner: [tt0765429]
+    outstanding performance by a female actor in a television movie or miniseries:
+      nominee: [tt0368725, tt0808348, tt0810726, tt0821638, tt0953915, tt1023504]
+      winner: [tt0808348]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt0312172, tt0386676, tt0387199, tt0445114, tt0496424]
+      winner: [tt0496424]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt0141842, tt0402711, tt0412142, tt0773262, tt0804503]
+      winner: [tt0141842]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt0465538, tt0469494, tt0758758, tt0765443, tt0805564]
+      winner: [tt0469494]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt0443680, tt0465538, tt0477348, tt0758758]
+      winner: [tt0477348]
+    outstanding performance by a male actor in a television movie or miniseries:
+      nominee: [tt0450972, tt0488352, tt0499558, tt0790477]
+      winner: [tt0450972]
+    outstanding performance by a stunt ensemble in a motion picture:
+      nominee: [tt0416449, tt0431197, tt0440963, tt0449088, tt0480249]
+      winner: [tt0440963]
+    outstanding performance by a stunt ensemble in a television series:
+      nominee: [tt0285331, tt0384766, tt0411008, tt0460690, tt0813715]
+      winner: [tt0285331]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt0386676, tt0387199, tt0410975, tt0496424, tt0805669]
+      winner: [tt0386676]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt0141842, tt0402711, tt0413573, tt0458253, tt0804503]
+      winner: [tt0141842]
+'2007': # https://www.imdb.com/event/ev0000598/2007/1/
+  actor:
+    outstanding performance by a cast in a motion picture:
+      nominee: [tt0308055, tt0407887, tt0443489, tt0449059, tt0449467]
+      winner: [tt0449059]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt0157246, tt0410975, tt0439100, tt0460091, tt0462128, tt0805669]
+      winner: [tt0805669]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt0141842, tt0203259, tt0412175, tt0413573, tt0458253]
+      winner: [tt0413573]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt0404203, tt0436697, tt0441909, tt0458352, tt0465551]
+      winner: [tt0436697]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt0443489, tt0449059, tt0449467, tt0465551]
+      winner: [tt0443489]
+    outstanding performance by a female actor in a television movie or miniseries:
+      nominee: [tt0391353, tt0465326, tt0466831, tt0482857]
+      winner: [tt0465326]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt0312172, tt0386676, tt0387199, tt0460091, tt0496424]
+      winner: [tt0496424]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt0141842, tt0285331, tt0402711, tt0412142, tt0773262]
+      winner: [tt0412142]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt0450259, tt0454921, tt0455590, tt0468489, tt0489327]
+      winner: [tt0455590]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt0404203, tt0407887, tt0443489, tt0449059, tt0450259]
+      winner: [tt0443489]
+    outstanding performance by a male actor in a television movie or miniseries:
+      nominee: [tt0465326, tt0473389, tt0481452, tt0482857]
+      winner: [tt0465326]
+    outstanding performance by a stunt ensemble in a motion picture:
+      nominee: [tt0431197]
+      winner: []
+    outstanding performance by a stunt ensemble in a television series:
+      nominee: [tt0460690]
+      winner: []
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt0386676, tt0387199, tt0410975, tt0439100, tt0805669]
+      winner: [tt0386676]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt0141842, tt0285331, tt0348914, tt0402711, tt0413573]
+      winner: [tt0413573]
+'2006': # https://www.imdb.com/event/ev0000598/2006/1/
+  actor:
+    outstanding performance by a cast in a motion picture:
+      nominee: [tt0375679, tt0379725, tt0388795, tt0410097, tt0433383]
+      winner: [tt0375679]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt0115167, tt0157246, tt0402711, tt0410975, tt0439100]
+      winner: [tt0410975]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt0203259, tt0412175, tt0413573, tt0429455, tt0458253]
+      winner: [tt0413573]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt0358273, tt0395972, tt0397535, tt0407265, tt0413015]
+      winner: [tt0358273]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt0379725, tt0387131, tt0388795, tt0395972, tt0418773]
+      winner: [tt0387131]
+    outstanding performance by a female actor in a television movie or miniseries:
+      nominee: [tt0376591, tt0407936, tt0409572, tt0423510]
+      winner: [tt0407936]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt0157246, tt0264235, tt0402711, tt0460091]
+      winner: [tt0157246]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt0200276, tt0285331, tt0348914, tt0412142, tt0413573]
+      winner: [tt0285331]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt0352248, tt0358273, tt0379725, tt0388795, tt0433383]
+      winner: [tt0379725]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt0352248, tt0365737, tt0375679, tt0388795]
+      winner: [tt0352248]
+    outstanding performance by a male actor in a television movie or miniseries:
+      nominee: [tt0376591, tt0421108, tt0423510, tt0471768]
+      winner: [tt0376591]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt0115167, tt0264235, tt0367279, tt0402711, tt0410975, tt0460091]
+      winner: [tt0410975]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt0200276, tt0248654, tt0411008, tt0413573, tt0458253]
+      winner: [tt0411008]
+'2005': # https://www.imdb.com/event/ev0000598/2005/1/
+  actor:
+    outstanding performance by a cast in a motion picture:
+      nominee: [tt0308644, tt0338751, tt0350258, tt0375063, tt0395169, tt0405159]
+      winner: [tt0375063]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt0115167, tt0157246, tt0159206, tt0410975]
+      winner: [tt0410975]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt0141842, tt0200276, tt0285333, tt0410997]
+      winner: [tt0285333]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt0338013, tt0340012, tt0383694, tt0390221, tt0405159]
+      winner: [tt0405159]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt0338751, tt0362269, tt0371246, tt0375063, tt0395169]
+      winner: [tt0338751]
+    outstanding performance by a female actor in a television movie or miniseries:
+      nominee: [tt0319754, tt0338139, tt0352520, tt0377972, tt0377990]
+      winner: [tt0319754]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt0115167, tt0157246, tt0312172, tt0367279, tt0369179]
+      winner: [tt0312172]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt0098844, tt0141842, tt0285331, tt0321021, tt0409570]
+      winner: [tt0098844]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt0308644, tt0338751, tt0350258, tt0375063, tt0395169]
+      winner: [tt0350258]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt0308644, tt0332280, tt0369339, tt0375063, tt0405159]
+      winner: [tt0405159]
+    outstanding performance by a male actor in a television movie or miniseries:
+      nominee: [tt0352520, tt0377972, tt0388367, tt0400435, tt0401088]
+      winner: [tt0352520]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt0115167, tt0157246, tt0159206, tt0367279, tt0410975]
+      winner: [tt0410975]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt0141842, tt0200276, tt0247082, tt0248654, tt0285331]
+      winner: [tt0247082]
+'2004': # https://www.imdb.com/event/ev0000598/2004/1/
+  actor:
+    outstanding performance by a cast in a motion picture:
+      nominee: [tt0167260, tt0298845, tt0327056, tt0329575, tt0340377]
+      winner: [tt0167260]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt0108778, tt0115167, tt0157246]
+      winner: [tt0157246]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt0200276, tt0203259, tt0209069, tt0248654, tt0285333]
+      winner: [tt0248654]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt0315733, tt0328538, tt0337741, tt0340377, tt0340855]
+      winner: [tt0340855]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt0159365, tt0298228, tt0311648, tt0318374, tt0328538]
+      winner: [tt0159365]
+    outstanding performance by a female actor in a television movie or miniseries:
+      nominee: [tt0311730, tt0318997]
+      winner: [tt0318997]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt0115167, tt0157246, tt0312172]
+      winner: [tt0312172]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt0200276, tt0248654, tt0285331, tt0318883, tt0321021]
+      winner: [tt0285331]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt0315983, tt0325980, tt0327056, tt0335266, tt0340377]
+      winner: [tt0325980]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt0315733, tt0318374, tt0325710, tt0327056, tt0329575]
+      winner: [tt0327056]
+    outstanding performance by a male actor in a television movie or miniseries:
+      nominee: [tt0318997, tt0335034, tt0353849]
+      winner: [tt0318997]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt0106004, tt0108778, tt0115167, tt0157246, tt0159206]
+      winner: [tt0159206]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt0098844, tt0200276, tt0247082, tt0248654, tt0321021]
+      winner: [tt0248654]
+'2003': # https://www.imdb.com/event/ev0000598/2003/1/
+  actor:
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt0108778, tt0115167, tt0157246, tt0159206, tt0212671]
+      winner: [tt0157246]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt0141842, tt0200276, tt0209069]
+      winner: [tt0141842]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt0120679, tt0250797, tt0274558, tt0297884, tt0299658]
+      winner: [tt0299658]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt0257360, tt0274558, tt0283139, tt0299658]
+      winner: [tt0299658]
+    outstanding performance by a female actor in a television movie or miniseries:
+      nominee: [tt0267736, tt0274468, tt0290664, tt0298454, tt0314097]
+      winner: [tt0267736]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt0108778, tt0115167, tt0157246, tt0285341, tt0312172]
+      winner: [tt0157246]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt0141842, tt0200276, tt0285331, tt0286486, tt0318883]
+      winner: [tt0141842]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt0217505, tt0253474, tt0257360, tt0268126, tt0299658]
+      winner: [tt0217505]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt0120679, tt0264464, tt0268126, tt0274558, tt0297884]
+      winner: [tt0264464]
+    outstanding performance by a male actor in a television movie or miniseries:
+      nominee: [tt0268466, tt0274468, tt0314097, tt0318908, tt0322422]
+      winner: [tt0274468]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt0106004, tt0108778, tt0115167, tt0157246, tt0159206]
+      winner: [tt0115167]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt0141842, tt0200276, tt0247082, tt0248654, tt0285331]
+      winner: [tt0248654]
+    outstanding performance by the cast of a theatrical motion picture:
+      nominee: [tt0167261, tt0259446, tt0268126, tt0274558, tt0299658]
+      winner: [tt0299658]
+'2002': # https://www.imdb.com/event/ev0000598/2002/1/
+  actor:
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt0108778, tt0115167, tt0157246, tt0159206]
+      winner: [tt0157246]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt0141842, tt0200276, tt0209069, tt0238784]
+      winner: [tt0200276]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt0243155, tt0247425, tt0268978, tt0280778, tt0285742]
+      winner: [tt0285742]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt0120824, tt0219965, tt0259711, tt0277027, tt0280707]
+      winner: [tt0280707]
+    outstanding performance by a female actor in a television movie or miniseries:
+      nominee: [tt0243664, tt0244353, tt0250581, tt0261264, tt0265320]
+      winner: [tt0250581]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt0106004, tt0115167, tt0157246]
+      winner: [tt0157246]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt0106079, tt0141842, tt0200276, tt0248654, tt0285356]
+      winner: [tt0200276]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt0139654, tt0247425, tt0264796, tt0268978, tt0277027]
+      winner: [tt0268978]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt0120737, tt0139654, tt0203119, tt0264796, tt0280778]
+      winner: [tt0120737]
+    outstanding performance by a male actor in a television movie or miniseries:
+      nominee: [tt0240628, tt0246430, tt0252287, tt0257493, tt0271454]
+      winner: [tt0246430]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt0106004, tt0108778, tt0115167, tt0157246, tt0159206]
+      winner: [tt0159206]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt0098844, tt0141842, tt0200276, tt0247082, tt0248654]
+      winner: [tt0200276]
+    outstanding performance by the cast of a theatrical motion picture:
+      nominee: [tt0120737, tt0203009, tt0247425, tt0268978, tt0280707]
+      winner: [tt0280707]
+'2001': # https://www.imdb.com/event/ev0000598/2001/1/
+  actor:
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt0118254, tt0157246, tt0159206, tt0212671]
+      winner: [tt0159206]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt0106179, tt0108757, tt0141842, tt0200276, tt0202198, tt0238784]
+      winner: [tt0200276]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt0180093, tt0195685, tt0203230, tt0208874, tt0241303]
+      winner: [tt0195685]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt0180073, tt0181875, tt0241303, tt0249462]
+      winner: [tt0241303]
+    outstanding performance by a female actor in a television movie or miniseries:
+      nominee: [tt0206036, tt0220608, tt0229328, tt0238768, tt0256459]
+      winner: [tt0206036]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt0106004, tt0118254, tt0157246]
+      winner: [tt0118254]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt0106079, tt0108757, tt0141842, tt0200276, tt0247097]
+      winner: [tt0200276]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt0162222, tt0172495, tt0180073, tt0181865, tt0249462]
+      winner: [tt0181865]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt0172495, tt0189998, tt0195685, tt0208874]
+      winner: [tt0195685]
+    outstanding performance by a male actor in a television movie or miniseries:
+      nominee: [tt0181212, tt0208629, tt0213668, tt0217363, tt0229328]
+      winner: [tt0229328]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt0106004, tt0108778, tt0118254, tt0157246, tt0159206]
+      winner: [tt0157246]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt0098844, tt0108757, tt0118437, tt0141842, tt0200276]
+      winner: [tt0200276]
+    outstanding performance by the cast of a theatrical motion picture:
+      nominee: [tt0172495, tt0181865, tt0181875, tt0241303, tt0249462]
+      winner: [tt0181865]
+'2000': # https://www.imdb.com/event/ev0000598/2000/1/
+  actor:
+    outstanding performance by a cast in a theatrical motion picture:
+      nominee: [tt0120601, tt0120689, tt0124315, tt0169547, tt0175880]
+      winner: [tt0169547]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt0108778, tt0115396, tt0118254, tt0159206]
+      winner: [tt0108778]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt0106179, tt0141842, tt0161233]
+      winner: [tt0141842]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt0161023, tt0166943, tt0169547, tt0171804, tt0172396]
+      winner: [tt0169547]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt0120601, tt0171804, tt0172493, tt0175880]
+      winner: [tt0172493]
+    outstanding performance by a female actor in a television movie or miniseries:
+      nominee: [tt0140447, tt0172348, tt0207972, tt0208875]
+      winner: [tt0172348]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt0106004, tt0115167, tt0115369, tt0118254]
+      winner: [tt0115369]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt0106079, tt0106179, tt0141842, tt0200276]
+      winner: [tt0141842]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt0125664, tt0140352, tt0155711, tt0169547, tt0174856]
+      winner: [tt0169547]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt0120689, tt0124315, tt0167404, tt0169547, tt0175880]
+      winner: [tt0124315]
+    outstanding performance by a male actor in a television movie or miniseries:
+      nominee: [tt0140447, tt0196632, tt0207805, tt0216621]
+      winner: [tt0207805]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt0106004, tt0108778, tt0115167, tt0118254, tt0165961]
+      winner: [tt0106004]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt0098844, tt0106079, tt0108757, tt0118437, tt0141842]
+      winner: [tt0141842]
+'1999': # https://www.imdb.com/event/ev0000598/1999/1/
+  actor:
+    outstanding performance by a cast:
+      nominee: [tt0118799, tt0120815, tt0138097, tt0147004, tt0166396]
+      winner: [tt0138097]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt0098904, tt0108778, tt0111910, tt0115396, tt0118254]
+      winner: [tt0115396]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt0106079, tt0106179, tt0108724, tt0108757, tt0161233]
+      winner: [tt0108757]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt0120776, tt0127536, tt0138097, tt0147004, tt0150915]
+      winner: [tt0138097]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt0119942, tt0120684, tt0138097, tt0147004, tt0150915]
+      winner: [tt0119942]
+    outstanding performance by a female actor in a tv movie or miniseries:
+      nominee: [tt0120574, tt0123865, tt0126802, tt0140785, tt0160468]
+      winner: [tt0123865]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt0098904, tt0106004, tt0115369, tt0118254]
+      winner: [tt0115369]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt0098844, tt0106079, tt0106179, tt0108757]
+      winner: [tt0098844]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt0118564, tt0118799, tt0120684, tt0120815, tt0138097]
+      winner: [tt0118799]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt0118564, tt0120324, tt0120633, tt0138097, tt0166396]
+      winner: [tt0120633]
+    outstanding performance by a male actor in a tv movie or miniseries:
+      nominee: [tt0135166, tt0146165, tt0147582, tt0149380, tt0155833, tt0166322]
+      winner: [tt0166322]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt0106004, tt0108778, tt0115082, tt0115167, tt0118254]
+      winner: [tt0118254]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt0098844, tt0106079, tt0106179, tt0108757, tt0118437]
+      winner: [tt0108757]
+'1998': # https://www.imdb.com/event/ev0000598/1998/1/
+  actor:
+    outstanding performance by a cast:
+      nominee: [tt0118749, tt0119164, tt0119217, tt0119488, tt0120338]
+      winner: [tt0119164]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt0098904, tt0103484, tt0108761, tt0118254, tt0118506]
+      winner: [tt0098904]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt0106079, tt0106179, tt0108724, tt0108757, tt0108968]
+      winner: [tt0108757]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt0119280, tt0119396, tt0119822, tt0120112, tt0120338, tt0120520]
+      winner: [tt0119822]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt0118749, tt0119217, tt0119488, tt0120338, tt0120520]
+      winner: [tt0119488, tt0120338]
+    outstanding performance by a female actor in a tv movie or miniseries:
+      nominee: [tt0119189, tt0119227, tt0119362, tt0119679, tt0120392]
+      winner: [tt0119679]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt0098904, tt0106004, tt0115082]
+      winner: [tt0115082]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt0098844, tt0106079, tt0106179, tt0108757]
+      winner: [tt0108757]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt0118632, tt0119217, tt0119822, tt0120402, tt0120885]
+      winner: [tt0119822]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt0118607, tt0118749, tt0119217, tt0119280, tt0119822]
+      winner: [tt0119217]
+    outstanding performance by a male actor in a tv movie or miniseries:
+      nominee: [tt0118528, tt0119189, tt0119607, tt0119838]
+      winner: [tt0119189]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt0098904, tt0103484, tt0106004, tt0115082, tt0118254]
+      winner: [tt0098904]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt0098844, tt0106079, tt0106179, tt0108724, tt0108757]
+      winner: [tt0108757]
+'1997': # https://www.imdb.com/event/ev0000598/1997/1/
+  actor:
+    outstanding performance by a cast:
+      nominee: [tt0115685, tt0116209, tt0116999, tt0117631, tt0117666]
+      winner: [tt0115685]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt0098904, tt0103484, tt0108761, tt0111932, tt0115082]
+      winner: [tt0098904]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt0103405, tt0106079, tt0106179, tt0108724, tt0108968]
+      winner: [tt0106179]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt0116209, tt0116282, tt0116999, tt0117589, tt0118044]
+      winner: [tt0116282]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt0116209, tt0116695, tt0116999, tt0117057, tt0118044]
+      winner: [tt0117057]
+    outstanding performance by a female actor in a tv movie or miniseries:
+      nominee: [tt0115633, tt0116550, tt0116835, tt0117492, tt0118038]
+      winner: [tt0116835]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt0098904, tt0106004, tt0115082]
+      winner: [tt0115082]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt0106079, tt0106179, tt0108757]
+      winner: [tt0106079]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt0116209, tt0116695, tt0117318, tt0117631, tt0117666]
+      winner: [tt0117631]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt0115685, tt0116282, tt0116695, tt0117631]
+      winner: [tt0116695]
+    outstanding performance by a male actor in a tv movie or miniseries:
+      nominee: [tt0116441, tt0116527, tt0116975, tt0117442, tt0117476]
+      winner: [tt0117442]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt0098904, tt0103484, tt0106004, tt0115082, tt0115333]
+      winner: [tt0098904]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt0098844, tt0106079, tt0106179, tt0108724, tt0108757]
+      winner: [tt0108757]
+'1996': # https://www.imdb.com/event/ev0000598/1996/1/
+  actor:
+    outstanding performance by a cast:
+      nominee: [tt0112384, tt0113161, tt0113347, tt0113987, tt0114388]
+      winner: [tt0112384]
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt0094514, tt0098904, tt0103484, tt0108778, tt0111932]
+      winner: [tt0111932]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt0101199, tt0106079, tt0106179, tt0108724, tt0108757]
+      winner: [tt0106179]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt0112579, tt0112818, tt0113627, tt0113987, tt0114388]
+      winner: [tt0112818]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt0112744, tt0113158, tt0113819, tt0114388, tt0114478]
+      winner: [tt0114388]
+    outstanding performance by a female actor in a tv movie or miniseries:
+      nominee: [tt0111903, tt0112226, tt0112327, tt0114127, tt0114395]
+      winner: [tt0114127]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt0098904, tt0103484, tt0106004]
+      winner: [tt0106004]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt0106079, tt0106179, tt0108757]
+      winner: [tt0108757]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt0110877, tt0112749, tt0112818, tt0113627, tt0113987]
+      winner: [tt0113627]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt0112384, tt0112857, tt0113870, tt0114057, tt0114814]
+      winner: [tt0112384]
+    outstanding performance by a male actor in a tv movie or miniseries:
+      nominee: [tt0113196, tt0114289, tt0114565, tt0114738, tt0114745]
+      winner: [tt0114738]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt0098904, tt0103484, tt0106004, tt0108778, tt0111932]
+      winner: [tt0108778]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt0098844, tt0103512, tt0106079, tt0108724, tt0108757]
+      winner: [tt0108757]
+'1995': # https://www.imdb.com/event/ev0000598/1995/1/
+  actor:
+    outstanding performance by a female actor in a comedy series:
+      nominee: [tt0094514, tt0094540, tt0098904, tt0103484, tt0108761]
+      winner: [tt0103484]
+    outstanding performance by a female actor in a drama series:
+      nominee: [tt0086765, tt0101199, tt0103405, tt0103512, tt0108948]
+      winner: [tt0103512]
+    outstanding performance by a female actor in a leading role:
+      nominee: [tt0109306, tt0109446, tt0110638, tt0110997, tt0111693]
+      winner: [tt0110638]
+    outstanding performance by a female actor in a supporting role:
+      nominee: [tt0109348, tt0109830, tt0110912, tt0111503]
+      winner: [tt0109348]
+    outstanding performance by a female actor in a tv movie or miniseries:
+      nominee: [tt0109096, tt0109335, tt0110721, tt0110732, tt0110841]
+      winner: [tt0109335]
+    outstanding performance by a male actor in a comedy series:
+      nominee: [tt0094540, tt0098904, tt0103484, tt0106004]
+      winner: [tt0098904]
+    outstanding performance by a male actor in a drama series:
+      nominee: [tt0092455, tt0103512, tt0106079, tt0108724]
+      winner: [tt0106079]
+    outstanding performance by a male actor in a leading role:
+      nominee: [tt0109830, tt0110684, tt0110912, tt0111161]
+      winner: [tt0109830]
+    outstanding performance by a male actor in a supporting role:
+      nominee: [tt0109348, tt0109707, tt0109830, tt0110912, tt0110932]
+      winner: [tt0109707]
+    outstanding performance by a male actor in a tv movie or miniseries:
+      nominee: [tt0108941, tt0109351, tt0109730, tt0110002, tt0111008]
+      winner: [tt0109351]
+    outstanding performance by an ensemble in a comedy series:
+      nominee: [tt0094514, tt0098878, tt0098904, tt0103484, tt0106004]
+      winner: [tt0098904]
+    outstanding performance by an ensemble in a drama series:
+      nominee: [tt0098844, tt0103512, tt0106079, tt0108724, tt0108757]
+      winner: [tt0106079]
+'1994': {} # https://www.imdb.com/event/ev0000598/1994/1/
+'1993': {} # https://www.imdb.com/event/ev0000598/1993/1/
+'1992': {} # https://www.imdb.com/event/ev0000598/1992/1/
+'1991': {} # https://www.imdb.com/event/ev0000598/1991/1/
+'1990': {} # https://www.imdb.com/event/ev0000598/1990/1/
+'1989': {} # https://www.imdb.com/event/ev0000598/1989/1/
+'1988': {} # https://www.imdb.com/event/ev0000598/1988/1/
+'1987': {} # https://www.imdb.com/event/ev0000598/1987/1/
+'1986': {} # https://www.imdb.com/event/ev0000598/1986/1/
+'1985': {} # https://www.imdb.com/event/ev0000598/1985/1/
+'1984': {} # https://www.imdb.com/event/ev0000598/1984/1/
+'1983': {} # https://www.imdb.com/event/ev0000598/1983/1/
+'1981': {} # https://www.imdb.com/event/ev0000598/1981/1/
+'1980': {} # https://www.imdb.com/event/ev0000598/1980/1/
+'1979': {} # https://www.imdb.com/event/ev0000598/1979/1/
+'1978': {} # https://www.imdb.com/event/ev0000598/1978/1/
+'1977': {} # https://www.imdb.com/event/ev0000598/1977/1/
+'1976': {} # https://www.imdb.com/event/ev0000598/1976/1/
+'1975': {} # https://www.imdb.com/event/ev0000598/1975/1/
+'1974': {} # https://www.imdb.com/event/ev0000598/1974/1/
+'1973': {} # https://www.imdb.com/event/ev0000598/1973/1/
+'1972': {} # https://www.imdb.com/event/ev0000598/1972/1/
+'1971': {} # https://www.imdb.com/event/ev0000598/1971/1/
+'1970': {} # https://www.imdb.com/event/ev0000598/1970/1/
+'1969': {} # https://www.imdb.com/event/ev0000598/1969/1/
+'1968': {} # https://www.imdb.com/event/ev0000598/1968/1/
+'1967': {} # https://www.imdb.com/event/ev0000598/1967/1/
+'1966': {} # https://www.imdb.com/event/ev0000598/1966/1/
+'1964': {} # https://www.imdb.com/event/ev0000598/1964/1/
+'1963': {} # https://www.imdb.com/event/ev0000598/1963/1/

@@ -1,0 +1,547 @@
+# Iconic Gold Awards
+'2026':  # https://www.imdb.com/event/ev0057191/2026/1/
+  iconic:
+    best actor - popular:
+      nominee: [tt15911108]
+      winner: [tt15911108]
+    best actor - web series:
+      nominee: [tt9544034]
+      winner: [tt9544034]
+    best actor of the year - critics choice:
+      nominee: [tt13451410]
+      winner: [tt13451410]
+    best actor of the year - jury's choice:
+      nominee: [tt26733325]
+      winner: [tt26733325]
+    best actress - critics:
+      nominee: [tt30007502]
+      winner: [tt30007502]
+    best actress - web series:
+      nominee: [tt9398466]
+      winner: [tt9398466]
+    best actress of the year:
+      nominee: [tt28802657]
+      winner: [tt28802657]
+    best actress pan india movie:
+      nominee: [tt26439764]
+      winner: [tt26439764]
+    best casting director:
+      nominee: [tt33014583]
+      winner: [tt33014583]
+    best choreographer:
+      nominee: [tt33014583]
+      winner: [tt33014583]
+    best comeback in ott:
+      nominee: [tt34683290]
+      winner: [tt34683290]
+    best debut actress:
+      nominee: [tt30818815]
+      winner: [tt30818815]
+    best debut director:
+      nominee: [tt3562110]
+      winner: [tt3562110]
+    best debut director web series:
+      nominee: [tt34683290]
+      winner: [tt34683290]
+    best debut popular:
+      nominee: [tt33014583]
+      winner: [tt33014583]
+    best director:
+      nominee: [tt33014583]
+      winner: [tt33014583]
+    best director - critic ott:
+      nominee: [tt27032419]
+      winner: [tt27032419]
+    best director - ott:
+      nominee: [tt31897917]
+      winner: [tt31897917]
+    best director - web series (popular):
+      nominee: [tt12004706]
+      winner: [tt12004706]
+    best film:
+      nominee: [tt33014583]
+      winner: [tt33014583]
+    best film - ott:
+      nominee: [tt27032419]
+      winner: [tt27032419]
+    best film - popular:
+      nominee: [tt36642456]
+      winner: [tt36642456]
+    best music:
+      nominee: [tt28037987]
+      winner: [tt28037987]
+    best negative actress - web series:
+      nominee: [tt9398466]
+      winner: [tt9398466]
+    best negative actress - web series (critics):
+      nominee: [tt15471900]
+      winner: [tt15471900]
+    best negative actress - web series (popular):
+      nominee: [tt9544034]
+      winner: [tt9544034]
+    best popular film:
+      nominee: [tt36642456]
+      winner: [tt36642456]
+    best supporting actor:
+      nominee: [tt27922706]
+      winner: [tt27922706]
+    best supporting actor - comedy web series:
+      nominee: [tt12004706]
+      winner: [tt12004706]
+    best supporting actress:
+      nominee: [tt29429860]
+      winner: [tt29429860]
+    best supporting actress - comedy web series:
+      nominee: [tt12004706]
+      winner: [tt12004706]
+    best supporting actress - web series:
+      nominee: [tt9398466]
+      winner: [tt9398466]
+    best web series:
+      nominee: [tt9544034]
+      winner: [tt9544034]
+    best web series - comedy:
+      nominee: [tt12004706]
+      winner: [tt12004706]
+    best web series - popular:
+      nominee: [tt34683290]
+      winner: [tt34683290]
+    best writer:
+      nominee: [tt34683290]
+      winner: [tt34683290]
+    breakthrough performance of the year:
+      nominee: [tt15416342]
+      winner: [tt15416342]
+    emerging of of the year:
+      nominee: [tt36642456]
+      winner: [tt36642456]
+    game changer movie of the year:
+      nominee: [tt33014583]
+      winner: [tt33014583]
+    game changer of the year:
+      nominee: [tt33014583]
+      winner: [tt33014583]
+    most promising actress web series:
+      nominee: [tt34683290]
+      winner: [tt34683290]
+    outstanding performer:
+      nominee: [tt34683290]
+      winner: [tt34683290]
+    powerpack performance of the year - male:
+      nominee: [tt26733325]
+      winner: [tt26733325]
+    rising star popular:
+      nominee: [tt34683290]
+      winner: [tt34683290]
+    special jury award for outstanding performance:
+      nominee: [tt28812582]
+      winner: [tt28812582]
+    voice of the year:
+      nominee: [tt33014583]
+      winner: [tt33014583]
+'2025': # https://www.imdb.com/event/ev0057191/2025/1/
+  iconic:
+    best actor - critics:
+      nominee: [tt27470893]
+      winner: [tt27470893]
+    best actor - ott:
+      nominee: [tt28435822]
+      winner: [tt28435822]
+    best actor - popular:
+      nominee: [tt26932223]
+      winner: [tt26932223]
+    best actor critics - ott:
+      nominee: [tt31522415]
+      winner: [tt31522415]
+    best actor critics choice - web:
+      nominee: [tt28106741]
+      winner: [tt28106741]
+    best actor popular - web:
+      nominee: [tt22297290]
+      winner: [tt22297290]
+    best actress:
+      nominee: [tt27459160]
+      winner: [tt27459160]
+    best actress - critics:
+      nominee: [tt28221135, tt32308617]
+      winner: [tt28221135, tt32308617]
+    best actress - ott:
+      nominee: [tt28075881]
+      winner: [tt28075881]
+    best actress - web series:
+      nominee: [tt27111295]
+      winner: [tt27111295]
+    best actress in a negative role:
+      nominee: [tt17494264]
+      winner: [tt17494264]
+    best actress popular - ott:
+      nominee: [tt4501268]
+      winner: [tt4501268]
+    best actress popular - web:
+      nominee: [tt9814458]
+      winner: [tt9814458]
+    best choreographer:
+      nominee: [tt27510174]
+      winner: [tt27510174]
+    best comedy web series:
+      nominee: [tt12004706]
+      winner: [tt12004706]
+    best debut actor:
+      nominee: [tt13818368]
+      winner: [tt13818368]
+    best debut actor - ott:
+      nominee: [tt28075881]
+      winner: [tt28075881]
+    best debut actress:
+      nominee: [tt20854856]
+      winner: [tt20854856]
+    best director:
+      nominee: [tt27470893]
+      winner: [tt27470893]
+    best director - comedy:
+      nominee: [tt29330913]
+      winner: [tt29330913]
+    best director - popular:
+      nominee: [tt26932223]
+      winner: [tt26932223]
+    best director comedy - web:
+      nominee: [tt21908964]
+      winner: [tt21908964]
+    best film:
+      nominee: [tt26932223]
+      winner: [tt26932223]
+    best film - critics:
+      nominee: [tt27470893]
+      winner: [tt27470893]
+    best film of the year - ott:
+      nominee: [tt28075881]
+      winner: [tt28075881]
+    best lyricist:
+      nominee: [tt21626284]
+      winner: [tt21626284]
+    best performance by an actor in a negative role:
+      nominee: [tt26225118]
+      winner: [tt26225118]
+    best performance by an actress in a negative role - web:
+      nominee: [tt17494264]
+      winner: [tt17494264]
+    best singer - female:
+      nominee: [tt29330913]
+      winner: [tt29330913]
+    best singer - male:
+      nominee: [tt26932223]
+      winner: [tt26932223]
+    best song - non filmy:
+      nominee: [tt31827879]
+      winner: [tt31827879]
+    best supporting actor:
+      nominee: [tt23790740]
+      winner: [tt23790740]
+    best supporting actor - comedy:
+      nominee: [tt27056012]
+      winner: [tt27056012]
+    best supporting actor - comedy web series:
+      nominee: [tt12004706]
+      winner: [tt12004706]
+    best supporting actor - web:
+      nominee: [tt12392496, tt24364990, tt28106741]
+      winner: [tt12392496, tt24364990, tt28106741]
+    best supporting actress:
+      nominee: [tt30889755]
+      winner: [tt30889755]
+    best supporting actress - comedy web series:
+      nominee: [tt12004706]
+      winner: [tt12004706]
+    best supporting actress - web:
+      nominee: [tt32832648]
+      winner: [tt32832648]
+    best web series:
+      nominee: [tt27111295]
+      winner: [tt27111295]
+    best web series - critics:
+      nominee: [tt28106741]
+      winner: [tt28106741]
+    best writer:
+      nominee: [tt26225118]
+      winner: [tt26225118]
+    breakout star of the year - female:
+      nominee: [tt21626284]
+      winner: [tt21626284]
+    breakout star of the year - male:
+      nominee: [tt27995594]
+      winner: [tt27995594]
+    fresh face in bollywood:
+      nominee: [tt27056012]
+      winner: [tt27056012]
+    most influential personality television - female:
+      nominee: [tt11867666]
+      winner: [tt11867666]
+    most influential personality television - male:
+      nominee: [tt1281973]
+      winner: [tt1281973]
+    most popular comedy tv show:
+      nominee: [tt32766495]
+      winner: [tt32766495]
+    most popular tv actor of the year:
+      nominee: [tt23846868]
+      winner: [tt23846868]
+    most popular tv actress of the year:
+      nominee: [tt33310372]
+      winner: [tt33310372]
+    outstanding bollywood - south industry singer:
+      nominee: [tt16539454]
+      winner: [tt16539454]
+    powerpack perfomance of the year:
+      nominee: [tt27510174, tt28153480]
+      winner: [tt27510174, tt28153480]
+    powerpack performance female - web:
+      nominee: [tt28106741]
+      winner: [tt28106741]
+    powerpack performance of the year - female:
+      nominee: [tt28106741]
+      winner: [tt28106741]
+    rising star - female:
+      nominee: [tt29120307]
+      winner: [tt29120307]
+    rising star - male:
+      nominee: [tt26659814]
+      winner: [tt26659814]
+'2024': # https://www.imdb.com/event/ev0057191/2024/1/
+  iconic:
+    best actor of the year:
+      nominee: [tt15944428]
+      winner: [tt15944428]
+    best actor of the year - critics choice:
+      nominee: [tt14914988]
+      winner: [tt14914988]
+    best actor of the year - jury's choice:
+      nominee: [tt23864864]
+      winner: [tt23864864]
+    best actor of the year - ott:
+      nominee: [tt24485052]
+      winner: [tt24485052]
+    best actor of the year - popular choice:
+      nominee: [tt15732324]
+      winner: [tt15732324]
+    best actor of the year - web series:
+      nominee: [tt19868466]
+      winner: [tt19868466]
+    best actress of the year:
+      nominee: [tt8672856]
+      winner: [tt8672856]
+    best actress of the year - critics choice:
+      nominee: [tt18413766, tt24268454]
+      winner: [tt18413766, tt24268454]
+    best actress of the year - ott:
+      nominee: [tt15516226]
+      winner: [tt15516226]
+    best actress of the year - popular choice:
+      nominee: [tt22531848]
+      winner: [tt22531848]
+    best actress of the year - web series:
+      nominee: [tt27442834]
+      winner: [tt27442834]
+    best debut actor of the year - web series:
+      nominee: [tt27862209]
+      winner: [tt27862209]
+    best debut actress of the year:
+      nominee: [tt9688874]
+      winner: [tt9688874]
+    best debut director of the year:
+      nominee: [tt14914988]
+      winner: [tt14914988]
+    best director - comedy:
+      nominee: [tt22086334]
+      winner: [tt22086334]
+    best director - critics choice:
+      nominee: [tt15732324]
+      winner: [tt15732324]
+    best director of the year:
+      nominee: [tt15944428]
+      winner: [tt15944428]
+    best director of the year - ott:
+      nominee: [tt19755170]
+      winner: [tt19755170]
+    best film of the year:
+      nominee: [tt14914988]
+      winner: [tt14914988]
+    best film of the year - ott:
+      nominee: [tt19755170]
+      winner: [tt19755170]
+    best film of the year - people's choice:
+      nominee: [tt10786774]
+      winner: [tt10786774]
+    best supporting actor of the year:
+      nominee: [tt13751694]
+      winner: [tt13751694]
+    best supporting actor of the year - web series:
+      nominee: [tt13847564]
+      winner: [tt13847564]
+    best supporting actress of the year:
+      nominee: [tt13751694]
+      winner: [tt13751694]
+    best supporting actress of the year - web series:
+      nominee: [tt19868466]
+      winner: [tt19868466]
+    best tv actor of the year:
+      nominee: [tt29493227]
+      winner: [tt29493227]
+    best tv actress of the year:
+      nominee: [tt11867666]
+      winner: [tt11867666]
+    blockbuster movie of the year:
+      nominee: [tt13751694]
+      winner: [tt13751694]
+    game changer movie of the year:
+      nominee: [tt15441054]
+      winner: [tt15441054]
+    powerpack performance of the year - female:
+      nominee: [tt15944428]
+      winner: [tt15944428]
+    powerpack performance of the year - ott:
+      nominee: [tt12701270]
+      winner: [tt12701270]
+    singer of the year:
+      nominee: [tt15441054]
+      winner: [tt15441054]
+'2023': # https://www.imdb.com/event/ev0057191/2023/1/
+  iconic:
+    best actor in a negative role:
+      nominee: [tt10644708]
+      winner: [tt10644708]
+    best actor of the year:
+      nominee: [tt10811166]
+      winner: [tt10811166]
+    best actress in a negative role:
+      nominee: [tt15121860]
+      winner: [tt15121860]
+    best actress of the year:
+      nominee: [tt14420552]
+      winner: [tt14420552]
+    best debut actor:
+      nominee: [tt15614274]
+      winner: [tt15614274]
+    best debut actress:
+      nominee: [tt10644708]
+      winner: [tt10644708]
+    best film - people choice:
+      nominee: [tt13664684]
+      winner: [tt13664684]
+    best film of the year:
+      nominee: [tt10811166]
+      winner: [tt10811166]
+    best supporting actor of the year:
+      nominee: [tt12004706]
+      winner: [tt12004706]
+    best supporting actress - comedy web series:
+      nominee: [tt12004706]
+      winner: [tt12004706]
+    best supporting actress of the year:
+      nominee: [tt23037654]
+      winner: [tt23037654]
+    best tv actor of the year:
+      nominee: [tt7112704]
+      winner: [tt7112704]
+    best tv actress of the year:
+      nominee: [tt11867666]
+      winner: [tt11867666]
+    best web series of the year:
+      nominee: [tt10530900]
+      winner: [tt10530900]
+    millennial star on rise:
+      nominee: [tt9115574]
+      winner: [tt9115574]
+    most impactful actress:
+      nominee: [tt21328654]
+      winner: [tt21328654]
+    most liked web series of the year:
+      nominee: [tt16729514]
+      winner: [tt16729514]
+    most popular contestant of the year:
+      nominee: [tt1281973]
+      winner: [tt1281973]
+    outstanding achievement in indian cinema:
+      nominee: [tt8178634]
+      winner: [tt8178634]
+    powerpack performance comedy:
+      nominee: [tt10530900]
+      winner: [tt10530900]
+    powerpack performance of the year - female:
+      nominee: [tt16729514]
+      winner: [tt16729514]
+    powerpack performance of the year - male:
+      nominee: [tt23037654]
+      winner: [tt23037654]
+'2022': # https://www.imdb.com/event/ev0057191/2022/1/
+  iconic:
+    best actor of the year:
+      nominee: [tt10295212]
+      winner: [tt10295212]
+    best actor of the year - critics choice:
+      nominee: [tt13510660]
+      winner: [tt13510660]
+    best actress of the year:
+      nominee: [tt10895576]
+      winner: [tt10895576]
+    best actress of the year - critics choice:
+      nominee: [tt12861212]
+      winner: [tt12861212]
+    best director of the year:
+      nominee: [tt10295212]
+      winner: [tt10295212]
+    best film of the year:
+      nominee: [tt10295212]
+      winner: [tt10295212]
+    best supporting actor of the year:
+      nominee: [tt9544034]
+      winner: [tt9544034]
+    best supporting actress of the year:
+      nominee: [tt9094442]
+      winner: [tt9094442]
+    casting director of the year:
+      nominee: [tt7518786]
+      winner: [tt7518786]
+    debut actor of the year:
+      nominee: [tt10761694]
+      winner: [tt10761694]
+    debut actress of the year:
+      nominee: [tt13491110]
+      winner: [tt13491110]
+    debut tv actor of the year:
+      nominee: [tt13937912]
+      winner: [tt13937912]
+    debut tv actress of the year:
+      nominee: [tt13937912]
+      winner: [tt13937912]
+    fearless perfomance of the year:
+      nominee: [tt6742294]
+      winner: [tt6742294]
+    most liked tv actress of the year:
+      nominee: [tt13562400]
+      winner: [tt13562400]
+    powerpack perfomance of the year:
+      nominee: [tt12861850]
+      winner: [tt12861850]
+    powerpack perfomance of the year - critics choice:
+      nominee: [tt10739666]
+      winner: [tt10739666]
+    rising star of the year:
+      nominee: [tt12347286]
+      winner: [tt12347286]
+'2021': # https://www.imdb.com/event/ev0057191/2021/1/
+  iconic:
+    best actress in a negative role:
+      nominee: [tt13085534]
+      winner: [tt13085534]
+    best actress in a web film:
+      nominee: [tt9603216]
+      winner: [tt9603216]
+    best tv actress of the year:
+      nominee: [tt7112704]
+      winner: [tt7112704]
+    comedy serial of the year:
+      nominee: [tt5154982]
+      winner: [tt5154982]
+    most promising tv actor of the year:
+      nominee: [tt13562400]
+      winner: [tt13562400]

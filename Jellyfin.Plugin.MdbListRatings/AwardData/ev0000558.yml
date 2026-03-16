@@ -1,0 +1,1493 @@
+# Razzie Awards
+'2026':  # https://www.imdb.com/event/ev0000558/2026/1/
+  razzie award:
+    worst actor:
+      nominee: [tt13186306, tt26927452, tt31456973, tt4419684, tt6604188]
+      winner: []
+    worst actress:
+      nominee: [tt21317634, tt27075958, tt30788842, tt4419684, tt9603060]
+      winner: []
+    worst director:
+      nominee: [tt13186306, tt26927452, tt6208148, tt7766378, tt9603060]
+      winner: []
+    worst picture:
+      nominee: [tt13186306, tt26927452, tt6208148, tt7766378, tt9603060]
+      winner: []
+    worst remake, rip-off or sequel:
+      nominee: [tt13186306, tt18069420, tt30274401, tt4045450, tt6208148]
+      winner: []
+    worst screen combo:
+      nominee: [tt13186306, tt18069420, tt21815562, tt26927452, tt6208148]
+      winner: []
+    worst screenplay:
+      nominee: [tt13186306, tt26927452, tt6208148, tt7766378, tt9603060]
+      winner: []
+    worst supporting actor:
+      nominee: [tt21317634, tt24850708, tt27424511, tt31456973, tt6208148]
+      winner: []
+    worst supporting actress:
+      nominee: [tt21317634, tt24850708, tt28671344, tt31456973, tt9603060]
+      winner: []
+'2025': # https://www.imdb.com/event/ev0000558/2025/1/
+  razzie award:
+    worst actor:
+      nominee: [tt11315808, tt14914430, tt1609486, tt1723808, tt2396431]
+      winner: [tt14914430]
+    worst actress:
+      nominee: [tt11057302, tt11315808, tt14856980, tt15009428, tt21235248, tt4978420]
+      winner: [tt11057302, tt21235248]
+    worst director:
+      nominee: [tt10128846, tt11057302, tt11315808, tt14914430, tt4978420]
+      winner: [tt10128846]
+    worst picture:
+      nominee: [tt10128846, tt11057302, tt11315808, tt1723808, tt4978420]
+      winner: [tt11057302]
+    worst remake, rip-off or sequel:
+      nominee: [tt11315808, tt13186482, tt1340094, tt23137904, tt8790086]
+      winner: [tt11315808]
+    worst screen combo:
+      nominee: [tt10128846, tt11315808, tt14914430, tt1723808, tt4978420]
+      winner: [tt11315808]
+    worst screenplay:
+      nominee: [tt10128846, tt11057302, tt11315808, tt1723808, tt8790086]
+      winner: [tt11057302]
+    worst supporting actor:
+      nominee: [tt10128846, tt11057302, tt1723808, tt31956123, tt32001482, tt4978420]
+      winner: [tt10128846, tt1723808, tt31956123, tt32001482]
+    worst supporting actress:
+      nominee: [tt11057302, tt1340094, tt14914430, tt15009428, tt1723808, tt8790086]
+      winner: [tt14914430]
+  redeemer award:
+    redeemer award:
+      nominee: [tt17526714, tt24871974, tt31193791]
+      winner: [tt31193791]
+'2024': # https://www.imdb.com/event/ev0000558/2024/1/
+  razzie award:
+    worst actor:
+      nominee: [tt13375076, tt15326988, tt26439204, tt5433140, tt9224104]
+      winner: [tt26439204]
+    worst actress:
+      nominee: [tt10151854, tt14875820, tt15326988, tt16280138, tt6968614]
+      winner: [tt14875820]
+    worst director:
+      nominee: [tt10954600, tt12921446, tt19623240, tt3291150, tt9224104]
+      winner: [tt19623240]
+    worst picture:
+      nominee: [tt10151854, tt12921446, tt19623240, tt3291150, tt9224104]
+      winner: [tt19623240]
+    worst prequel, remake, rip-off or sequel:
+      nominee: [tt10954600, tt12921446, tt1462764, tt19623240, tt3291150]
+      winner: [tt19623240]
+    worst screen couple:
+      nominee: [tt12921446, tt15326988, tt16280138, tt19623240, tt3291150]
+      winner: [tt19623240]
+    worst screenplay:
+      nominee: [tt10151854, tt12921446, tt1462764, tt19623240, tt3291150]
+      winner: [tt19623240]
+    worst supporting actor:
+      nominee: [tt10954600, tt13375076, tt21391242, tt3291150]
+      winner: [tt3291150]
+    worst supporting actress:
+      nominee: [tt10151854, tt14875820, tt3291150, tt4589218, tt8373206]
+      winner: [tt3291150]
+'2023': # https://www.imdb.com/event/ev0000558/2023/1/
+  razzie award:
+    worst actor:
+      nominee: [tt15331186, tt4593060, tt5108870, tt5500218, tt8746404]
+      winner: [tt5108870]
+    worst actress:
+      nominee: [tt11348232, tt14330236, tt1798632, tt2328678, tt8041270]
+      winner: []
+    worst director:
+      nominee: [tt13610562, tt15331186, tt1655389, tt4593060, tt5108870]
+      winner: [tt15331186]
+    worst picture:
+      nominee: [tt15331186, tt1655389, tt2328678, tt4593060, tt5108870]
+      winner: [tt1655389]
+    worst remake, rip-off or sequel:
+      nominee: [tt1655389, tt1798632, tt21106646, tt4593060, tt8041270]
+      winner: [tt4593060]
+    worst screen combo:
+      nominee: [tt12996154, tt15331186, tt1655389, tt21106646, tt3704428]
+      winner: [tt3704428]
+    worst screenplay:
+      nominee: [tt15331186, tt1655389, tt4593060, tt5108870, tt8041270]
+      winner: [tt1655389]
+    worst supporting actor:
+      nominee: [tt15331186, tt1655389, tt3704428]
+      winner: [tt3704428]
+    worst supporting actress:
+      nominee: [tt2328678, tt4593060, tt5108870, tt5533370, tt8356942]
+      winner: [tt5108870]
+  redeemer award:
+    redeemer award:
+      nominee: [tt11813216, tt14439896, tt14731254]
+      winner: [tt11813216]
+'2022': # https://www.imdb.com/event/ev0000558/2022/1/
+  razzie award:
+    worst actor:
+      nominee: [tt12885272, tt3554046, tt3876910, tt6654210, tt9357050]
+      winner: [tt3554046]
+    worst actress:
+      nominee: [tt11656220, tt12636872, tt12885272, tt4513678, tt5932368, tt6111574]
+      winner: [tt12885272, tt4513678]
+    worst director:
+      nominee: [tt12636872, tt12885272, tt4876134, tt6111574, tt9357050]
+      winner: [tt12885272]
+    worst performance by bruce willis in a 2021 movie:
+      nominee: [tt10957044, tt11656220, tt11762434, tt12528166, tt12861508, tt13265876, tt13496236, tt14577300]
+      winner: []
+    worst picture:
+      nominee: [tt12636872, tt12885272, tt3554046, tt6111574, tt6654210]
+      winner: [tt12885272]
+    worst remake, rip-off or sequel:
+      nominee: [tt10077034, tt12636872, tt1361336, tt3554046, tt6111574]
+      winner: [tt3554046]
+    worst screen couple:
+      nominee: [tt11214590, tt12885272, tt1361336, tt3554046, tt9357050]
+      winner: [tt3554046]
+    worst screenplay:
+      nominee: [tt10077034, tt12636872, tt12885272, tt4876134, tt6111574]
+      winner: [tt12885272]
+    worst supporting actor:
+      nominee: [tt11214590, tt12885272, tt3876910, tt4244994, tt4876134]
+      winner: [tt11214590]
+    worst supporting actress:
+      nominee: [tt12885272, tt13454228, tt6654210, tt9357050]
+      winner: [tt12885272]
+  redeemer award:
+    redeemer award:
+      nominee: [tt11003218, tt12789558, tt9620288]
+      winner: [tt9620288]
+'2021': # https://www.imdb.com/event/ev0000558/2021/1/
+  razzie award:
+    worst actor:
+      nominee: [tt10682266, tt10886166, tt13989524, tt6673612, tt9619798]
+      winner: [tt13989524]
+    worst actress:
+      nominee: [tt0805647, tt10886166, tt4411584, tt7456312, tt7541720, tt9173418, tt9619798]
+      winner: [tt7541720]
+    worst director:
+      nominee: [tt10886166, tt12098392, tt12338128, tt13361756, tt6673612, tt6772802, tt7541720]
+      winner: [tt7541720]
+    worst picture:
+      nominee: [tt0983946, tt10886166, tt13989524, tt6673612, tt7541720]
+      winner: [tt13989524]
+    worst remake, rip-off or sequel:
+      nominee: [tt0983946, tt10682266, tt10886166, tt6673612, tt7126948]
+      winner: [tt6673612]
+    worst screen combo:
+      nominee: [tt10682266, tt13143964, tt6673612, tt7504726, tt9619798]
+      winner: [tt13143964]
+    worst screenplay:
+      nominee: [tt0983946, tt10886166, tt12098392, tt12338128, tt13361756, tt6673612, tt6772802]
+      winner: [tt10886166]
+    worst supporting actor:
+      nominee: [tt10303324, tt11656172, tt13143964, tt6218010, tt8461224, tt8560172, tt9820556]
+      winner: [tt13143964]
+    worst supporting actress:
+      nominee: [tt0983946, tt6772802, tt7126948, tt7541720]
+      winner: [tt7541720]
+'2020': # https://www.imdb.com/event/ev0000558/2020/1/
+  razzie award:
+    worst actor:
+      nominee: [tt1206885, tt1881109, tt2274648, tt6476140, tt7052494, tt7869070]
+      winner: [tt7052494, tt7869070]
+    worst actress:
+      nominee: [tt1298644, tt5697572, tt6476140, tt7054636, tt7976208]
+      winner: [tt7976208]
+    worst director:
+      nominee: [tt1206885, tt1881109, tt2274648, tt5697572, tt7869070]
+      winner: [tt5697572]
+    worst picture:
+      nominee: [tt1206885, tt5697572, tt7054636, tt7869070, tt7976208]
+      winner: [tt5697572]
+    worst prequel, remake, rip-off or sequel:
+      nominee: [tt1206885, tt2274648, tt3741700, tt6565702, tt7054636]
+      winner: [tt1206885]
+    worst reckless disregard for human life and public property:
+      nominee: [tt1206885, tt2274648, tt6491178, tt7286456, tt7976208]
+      winner: [tt1206885]
+    worst screen combo:
+      nominee: [tt1206885, tt5697572, tt7054636]
+      winner: [tt5697572]
+    worst screenplay:
+      nominee: [tt1206885, tt2274648, tt5697572, tt7054636, tt7976208]
+      winner: [tt5697572]
+    worst supporting actor:
+      nominee: [tt1881109, tt5697572, tt6823368, tt7054636]
+      winner: [tt5697572]
+    worst supporting actress:
+      nominee: [tt1206885, tt5697572, tt6565702, tt7054636]
+      winner: [tt5697572]
+  redeemer award:
+    redeemer award:
+      nominee: [tt1979376, tt5503686, tt5727208, tt6139732, tt6146586, tt8526872]
+      winner: [tt8526872]
+'2019': # https://www.imdb.com/event/ev0000558/2019/1/
+  razzie award:
+    worst actor:
+      nominee: [tt1137450, tt1255919, tt1801552, tt2296777, tt8564902, tt8632862]
+      winner: [tt8564902, tt8632862]
+    worst actress:
+      nominee: [tt1072748, tt1273221, tt1308728, tt1365519, tt5461956, tt5619332, tt6850820]
+      winner: [tt1308728, tt1365519, tt5619332]
+    worst director:
+      nominee: [tt1072748, tt1255919, tt1308728, tt1365519, tt1801552, tt4477536]
+      winner: [tt1255919, tt1365519]
+    worst picture:
+      nominee: [tt1072748, tt1255919, tt1308728, tt1365519, tt1801552, tt4532826]
+      winner: [tt1255919, tt1365519]
+    worst prequel, remake, rip-off or sequel:
+      nominee: [tt1365519]
+      winner: [tt1365519]
+    worst remake, rip-off or sequel:
+      nominee: [tt1137450, tt1255919, tt4532826, tt4779682, tt8564902]
+      winner: [tt1255919]
+    worst screen combo:
+      nominee: [tt1255919, tt1308728, tt1801552, tt2296777, tt8564902, tt8632862]
+      winner: [tt8564902, tt8632862]
+    worst screenplay:
+      nominee: [tt1072748, tt1308728, tt1801552, tt4477536, tt8564902]
+      winner: [tt4477536]
+    worst supporting actor:
+      nominee: [tt1255919, tt1308728, tt4532826, tt4881806, tt5691024]
+      winner: [tt1255919]
+    worst supporting actress:
+      nominee: [tt1801552, tt4477536, tt5690360, tt8632862]
+      winner: [tt8632862]
+  redeemer award:
+    redeemer award:
+      nominee: [tt4595882, tt4633694, tt4701182, tt6266538, tt6966692]
+      winner: [tt4595882]
+  barry l. bumstead award:
+    barry l. bumstead award:
+      nominee: [tt5179598]
+      winner: [tt5179598]
+'2018': # https://www.imdb.com/event/ev0000558/2018/1/
+  razzie award:
+    so rotten you loved it:
+      nominee: [tt1469304, tt2345759, tt3371366, tt4465564, tt4877122]
+      winner: [tt1469304]
+    worst actor:
+      nominee: [tt1469304, tt1790809, tt2345759, tt3371366, tt4465564, tt5657846]
+      winner: [tt2345759]
+    worst actress:
+      nominee: [tt2771200, tt3462710, tt4287320, tt4465564, tt5109784, tt6217804]
+      winner: [tt2771200, tt6217804]
+    worst director:
+      nominee: [tt2345759, tt3371366, tt4465564, tt4877122, tt5109784]
+      winner: [tt4877122]
+    worst picture:
+      nominee: [tt1469304, tt2345759, tt3371366, tt4465564, tt4877122]
+      winner: [tt4877122]
+    worst remake, rip-off or sequel:
+      nominee: [tt1469304, tt2345759, tt3371366, tt4465564, tt6217804]
+      winner: [tt4465564]
+    worst screen combo:
+      nominee: [tt1790809, tt3371366, tt4465564, tt4877122, tt6217804]
+      winner: [tt4877122]
+    worst screenplay:
+      nominee: [tt1469304, tt2345759, tt3371366, tt4465564, tt4877122]
+      winner: [tt4877122]
+    worst supporting actor:
+      nominee: [tt1790809, tt2126235, tt2345759, tt3371366, tt5109784, tt5657846]
+      winner: [tt5657846]
+    worst supporting actress:
+      nominee: [tt2334871, tt2345759, tt3371366, tt4465564, tt6359956]
+      winner: [tt4465564]
+  barry l. bumstead award:
+    barry l. bumstead award:
+      nominee: [tt0493405]
+      winner: [tt0493405]
+'2017': # https://www.imdb.com/event/ev0000558/2017/1/
+  razzie award:
+    worst actor:
+      nominee: [tt1608290, tt1860213, tt2404233, tt2975590, tt3300542, tt5646136]
+      winner: [tt5646136]
+    worst actress:
+      nominee: [tt2582500, tt3410834, tt3949660, tt4824302, tt5325452, tt5646136]
+      winner: [tt5646136]
+    worst director:
+      nominee: [tt1608290, tt1628841, tt2404233, tt2975590, tt5325452, tt5646136]
+      winner: [tt5646136]
+    worst picture:
+      nominee: [tt1608290, tt1628841, tt1860213, tt2404233, tt2975590, tt5646136]
+      winner: [tt5646136]
+    worst prequel, remake, rip-off or sequel:
+      nominee: [tt1608290, tt1628841, tt2567026, tt2975590, tt3949660, tt4667094]
+      winner: [tt2975590]
+    worst screen combo:
+      nominee: [tt1608290, tt2404233, tt2567026, tt2975590, tt4682786, tt5325452]
+      winner: [tt2975590]
+    worst screenplay:
+      nominee: [tt1386697, tt1628841, tt1860213, tt2404233, tt2975590, tt5646136]
+      winner: [tt2975590]
+    worst supporting actor:
+      nominee: [tt1386697, tt1608290, tt2567026, tt2975590, tt3774114]
+      winner: [tt2975590]
+    worst supporting actress:
+      nominee: [tt1608290, tt1628841, tt1860213, tt4667094, tt4824302]
+      winner: [tt1608290]
+  redeemer award:
+    redeemer award:
+      nominee: [tt2119532]
+      winner: [tt2119532]
+  barry l. bumstead award:
+    barry l. bumstead award:
+      nominee: [tt3658772]
+      winner: [tt3658772]
+'2016': # https://www.imdb.com/event/ev0000558/2016/1/
+  razzie award:
+    worst actor:
+      nominee: [tt1617661, tt2120120, tt2322441, tt3045616, tt3203616, tt3450650]
+      winner: [tt2322441]
+    worst actress:
+      nominee: [tt1617661, tt2322441, tt2802136, tt3045616, tt3181822]
+      winner: [tt2322441]
+    worst director:
+      nominee: [tt1502712, tt1617661, tt1883367, tt2322441, tt3450650]
+      winner: [tt1502712]
+    worst picture:
+      nominee: [tt1502712, tt1617661, tt2120120, tt2322441, tt3450650]
+      winner: [tt1502712, tt2322441]
+    worst remake, rip-off or sequel:
+      nominee: [tt1502712, tt1883367, tt2637294, tt2974918, tt3450650]
+      winner: [tt1502712]
+    worst screen combo:
+      nominee: [tt1502712, tt2322441, tt3045616, tt3203616, tt3450650]
+      winner: [tt2322441]
+    worst screenplay:
+      nominee: [tt1502712, tt1617661, tt2120120, tt2322441, tt3450650]
+      winner: [tt2322441]
+    worst supporting actor:
+      nominee: [tt0884732, tt1524930, tt1617661, tt2120120, tt2637294, tt2974918]
+      winner: [tt1617661]
+    worst supporting actress:
+      nominee: [tt0884732, tt1121096, tt2120120, tt2279339, tt2974918, tt3332064]
+      winner: [tt0884732, tt2974918]
+  barry l. bumstead award:
+    barry l. bumstead award:
+      nominee: [tt2814362]
+      winner: [tt2814362]
+'2015': # https://www.imdb.com/event/ev0000558/2015/1/
+  razzie award:
+    worst actor:
+      nominee: [tt1043726, tt1086772, tt2467046, tt2557490, tt4009460]
+      winner: [tt4009460]
+    worst actress:
+      nominee: [tt1043726, tt1086772, tt1956620, tt2103254, tt2203939, tt2557490]
+      winner: [tt1956620, tt2203939]
+    worst director:
+      nominee: [tt1043726, tt1291150, tt2109248, tt2557490, tt4009460]
+      winner: [tt2109248]
+    worst picture:
+      nominee: [tt1043726, tt1291150, tt2109248, tt2467046, tt4009460]
+      winner: [tt4009460]
+    worst remake, rip-off or sequel:
+      nominee: [tt1043726, tt1291150, tt1823664, tt2109248, tt2800038]
+      winner: [tt1823664]
+    worst screen combo:
+      nominee: [tt1043726, tt1956620, tt2109248, tt2557490, tt4009460]
+      winner: [tt4009460]
+    worst screenplay:
+      nominee: [tt1291150, tt1956620, tt2109248, tt2467046, tt4009460]
+      winner: [tt4009460]
+    worst supporting actor:
+      nominee: [tt0884726, tt1086772, tt1921064, tt2109248, tt2239832, tt2333784]
+      winner: [tt0884726, tt2109248, tt2239832, tt2333784]
+    worst supporting actress:
+      nominee: [tt1291150, tt1823664, tt2103254, tt2109248, tt4009460]
+      winner: [tt1291150]
+'2014': # https://www.imdb.com/event/ev0000558/2014/1/
+  razzie award:
+    worst actor:
+      nominee: [tt1210819, tt1211956, tt1308729, tt1661382, tt1815862, tt2191701, tt2357129]
+      winner: [tt1815862]
+    worst actress:
+      nominee: [tt1333125, tt1758595, tt1911644, tt2167202, tt2292959, tt2609758]
+      winner: [tt2609758]
+    worst director:
+      nominee: [tt1210819, tt1333125, tt1815862, tt2070862, tt2191701, tt2609758]
+      winner: [tt1333125]
+    worst picture:
+      nominee: [tt1210819, tt1333125, tt1815862, tt2191701, tt2609758]
+      winner: [tt1333125]
+    worst remake, rip-off or sequel:
+      nominee: [tt0795461, tt1210819, tt1951261, tt2017020, tt2191701]
+      winner: [tt1210819]
+    worst screen combo:
+      nominee: [tt0795461, tt1333125, tt1815862, tt2191701, tt2609758]
+      winner: [tt1815862]
+    worst screenplay:
+      nominee: [tt1210819, tt1333125, tt1815862, tt2191701, tt2609758]
+      winner: [tt1333125]
+    worst supporting actor:
+      nominee: [tt1532958, tt1815862, tt2191701, tt2243537, tt2609758]
+      winner: [tt1815862]
+    worst supporting actress:
+      nominee: [tt0795461, tt1754811, tt1931435, tt2002718, tt2070862, tt2191701]
+      winner: [tt2070862]
+'2013': # https://www.imdb.com/event/ev0000558/2013/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0763831, tt1071875, tt1214962, tt1232200, tt1673434, tt1712170, tt1885265]
+      winner: [tt1232200]
+    worst actress:
+      nominee: [tt1598828, tt1673434, tt1694020, tt1735898, tt1855325, tt2215285]
+      winner: [tt1673434, tt1735898]
+    worst director:
+      nominee: [tt1232200, tt1440129, tt1673434, tt1885265, tt1985017, tt2215285]
+      winner: [tt1673434]
+    worst picture:
+      nominee: [tt0763831, tt1232200, tt1440129, tt1520498, tt1673434]
+      winner: [tt1673434]
+    worst prequel, remake, rip-off or sequel:
+      nominee: [tt1071875, tt1234719, tt1673434, tt1714203, tt2215285]
+      winner: [tt1673434]
+    worst screen couple:
+      nominee: [tt0383010, tt1232200, tt1673434, tt2215285]
+      winner: [tt1673434]
+    worst screen ensemble:
+      nominee: [tt1232200, tt1440129, tt1520498, tt1673434, tt2215285]
+      winner: [tt1673434]
+    worst screenplay:
+      nominee: [tt0763831, tt1232200, tt1440129, tt1673434, tt1985017]
+      winner: [tt1232200]
+    worst supporting actor:
+      nominee: [tt1232200, tt1440129, tt1646987, tt1673434, tt1714203]
+      winner: [tt1673434]
+    worst supporting actress:
+      nominee: [tt1386703, tt1440129, tt1540128, tt1586265, tt1673434]
+      winner: [tt1440129]
+'2012': # https://www.imdb.com/event/ev0000558/2012/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0479997, tt0810913, tt1324999, tt1334512, tt1411664, tt1502404, tt1564367, tt1600195, tt1674784]
+      winner: [tt0810913, tt1564367]
+    worst actress:
+      nominee: [tt0810913, tt1324999, tt1464174, tt1598822, tt1742650, tt1961604]
+      winner: [tt0810913]
+    worst director:
+      nominee: [tt0810913, tt1324999, tt1399103, tt1411664, tt1564367, tt1598822]
+      winner: [tt0810913, tt1564367]
+    worst ensemble:
+      nominee: [tt0810913, tt1324999, tt1399103, tt1411664, tt1598822]
+      winner: [tt0810913]
+    worst picture:
+      nominee: [tt0810913, tt1324999, tt1399103, tt1411664, tt1598822]
+      winner: [tt0810913]
+    worst prequel, remake, rip-off or sequel:
+      nominee: [tt0810913, tt1324999, tt1334512, tt1411664, tt1411697]
+      winner: [tt0810913]
+    worst screen couple:
+      nominee: [tt0479997, tt0810913, tt1324999, tt1399103, tt1502404, tt1564367, tt1674784]
+      winner: [tt0810913]
+    worst screenplay:
+      nominee: [tt0810913, tt1324999, tt1399103, tt1411664, tt1598822]
+      winner: [tt0810913]
+    worst supporting actor:
+      nominee: [tt0810913, tt1222817, tt1240982, tt1399103, tt1411697, tt1464174, tt1564367]
+      winner: [tt0810913]
+    worst supporting actress:
+      nominee: [tt0810913, tt1399103, tt1464174, tt1564367]
+      winner: [tt0810913]
+'2011': # https://www.imdb.com/event/ev0000558/2011/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0817230, tt1038919, tt1103153, tt1320261, tt1325004, tt1403981]
+      winner: [tt0817230, tt1103153]
+    worst actress:
+      nominee: [tt0889573, tt1038919, tt1075747, tt1261945, tt1294226, tt1325004]
+      winner: [tt1261945]
+    worst director:
+      nominee: [tt0938283, tt1261945, tt1320253, tt1325004, tt1666186]
+      winner: [tt0938283]
+    worst eye-gouging mis-use of 3-d:
+      nominee: [tt0800320, tt0938283, tt1041804, tt1287468, tt1477076]
+      winner: [tt0938283]
+    worst picture:
+      nominee: [tt0938283, tt1038919, tt1261945, tt1325004, tt1666186]
+      winner: [tt0938283]
+    worst prequel, remake, rip-off or sequel:
+      nominee: [tt0800320, tt0938283, tt1261945, tt1325004, tt1666186]
+      winner: [tt1261945]
+    worst screen couple/worst screen ensemble:
+      nominee: [tt0938283, tt1038919, tt1075747, tt1261945, tt1325004]
+      winner: [tt1261945]
+    worst screenplay:
+      nominee: [tt0938283, tt0970866, tt1261945, tt1325004, tt1666186]
+      winner: [tt0938283]
+    worst supporting actor:
+      nominee: [tt0817230, tt0938283, tt1273678, tt1325004, tt1375670, tt1392197]
+      winner: [tt0938283, tt1325004]
+    worst supporting actress:
+      nominee: [tt0817230, tt0938283, tt0954947, tt0970866, tt0985694, tt1126591, tt1261945, tt1646926]
+      winner: [tt0817230, tt0954947, tt0970866, tt0985694, tt1646926]
+'2010': # https://www.imdb.com/event/ev0000558/2010/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0457400, tt0780567, tt0838232, tt0976238, tt1229827]
+      winner: [tt1229827]
+    worst actor of the decade:
+      nominee: [tt0180052, tt0185183, tt0185431, tt0213149, tt0219952, tt0244244, tt0249478, tt0252028, tt0255798, tt0284490, tt0287978, tt0297181, tt0299930, tt0300051, tt0302640, tt0312528, tt0338337, tt0367652, tt0430304, tt0437863, tt0456554, tt0477051, tt0762107, tt0765476, tt0780567, tt0811138, tt0976238]
+      winner: [tt0180052, tt0284490, tt0297181, tt0477051, tt0765476, tt0780567]
+    worst actress:
+      nominee: [tt0881891, tt1114677, tt1131734, tt1198138, tt1314228]
+      winner: [tt0881891]
+    worst actress of the decade:
+      nominee: [tt0118589, tt0156841, tt0209475, tt0225071, tt0246460, tt0252076, tt0278435, tt0291502, tt0299930, tt0300051, tt0369735, tt0397065, tt0397078, tt0400497, tt0804492, tt0897361, tt0963194]
+      winner: [tt0397065, tt0804492, tt0963194]
+    worst director:
+      nominee: [tt0457400, tt0881891, tt0976238, tt1046173, tt1055369]
+      winner: [tt1055369]
+    worst picture:
+      nominee: [tt0457400, tt0881891, tt0976238, tt1046173, tt1055369]
+      winner: [tt1055369]
+    worst picture of the decade:
+      nominee: [tt0185183, tt0240515, tt0291502, tt0299930, tt0897361]
+      winner: [tt0185183]
+    worst remake, rip-off or sequel:
+      nominee: [tt0457400, tt0838232, tt1046173, tt1055369, tt1259571]
+      winner: [tt0457400]
+    worst screen couple:
+      nominee: [tt0457400, tt0881891, tt1055369, tt1229827, tt1259571]
+      winner: [tt0881891]
+    worst screenplay:
+      nominee: [tt0457400, tt0881891, tt1046173, tt1055369, tt1259571]
+      winner: [tt1055369]
+    worst supporting actor:
+      nominee: [tt0457400, tt1046173, tt1114677, tt1151922, tt1259571]
+      winner: [tt1114677]
+    worst supporting actress:
+      nominee: [tt0901476, tt0976238, tt1046173, tt1055369, tt1198138]
+      winner: [tt1046173]
+'2009': # https://www.imdb.com/event/ev0000558/2009/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0411061, tt0467197, tt0765476, tt0811138, tt0949731, tt1001562, tt1034331]
+      winner: [tt0811138]
+    worst actress:
+      nominee: [tt0406759, tt0430770, tt0770752, tt0804492, tt0811138, tt1033643, tt1046163]
+      winner: [tt0804492]
+    worst director:
+      nominee: [tt0460780, tt0486640, tt0804492, tt0811138, tt0949731, tt0970462, tt1073498, tt1213644]
+      winner: [tt0460780, tt0486640, tt0970462]
+    worst picture:
+      nominee: [tt0460780, tt0804492, tt0811138, tt0949731, tt1073498, tt1213644]
+      winner: [tt0811138]
+    worst prequel, remake, rip-off or sequel:
+      nominee: [tt0367882, tt0811080, tt0970416, tt1073498, tt1185834, tt1213644]
+      winner: [tt0367882]
+    worst screen couple:
+      nominee: [tt0765476, tt0804492, tt1001562, tt1033643]
+      winner: [tt0804492]
+    worst screenplay:
+      nominee: [tt0460780, tt0804492, tt0811138, tt0949731, tt1073498, tt1213644]
+      winner: [tt0811138]
+    worst supporting actor:
+      nominee: [tt0446676, tt0460780, tt0486640, tt0795421, tt0811138, tt0884224, tt1082886]
+      winner: [tt0795421]
+    worst supporting actress:
+      nominee: [tt0411061, tt0460780, tt0963194, tt1001562, tt1073498, tt1107365, tt1213644]
+      winner: [tt0963194, tt1107365]
+'2008': # https://www.imdb.com/event/ev0000558/2008/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0259324, tt0435705, tt0462244, tt0465234, tt0477051, tt0481369, tt0762107]
+      winner: [tt0477051]
+    worst actress:
+      nominee: [tt0211933, tt0374563, tt0452625, tt0486576, tt0490084, tt0804452, tt0897361]
+      winner: [tt0897361]
+    worst director:
+      nominee: [tt0374563, tt0462244, tt0477051, tt0762107, tt0897361]
+      winner: [tt0897361]
+    worst excuse for a horror movie:
+      nominee: [tt0367959, tt0374563, tt0498353, tt0758730, tt0897361]
+      winner: [tt0897361]
+    worst picture:
+      nominee: [tt0462244, tt0477051, tt0762107, tt0804452, tt0897361]
+      winner: [tt0897361]
+    worst prequel or sequel:
+      nominee: [tt0367959, tt0413099, tt0462244, tt0498353, tt0758730]
+      winner: [tt0462244]
+    worst remake or rip-off:
+      nominee: [tt0422774, tt0785077, tt0799949, tt0804452, tt0897361]
+      winner: [tt0897361]
+    worst screen couple:
+      nominee: [tt0211933, tt0452625, tt0477051, tt0486576, tt0762107, tt0804452, tt0897361]
+      winner: [tt0897361]
+    worst screenplay:
+      nominee: [tt0462244, tt0477051, tt0762107, tt0799949, tt0897361]
+      winner: [tt0897361]
+    worst supporting actor:
+      nominee: [tt0418279, tt0449088, tt0465234, tt0473700, tt0477051, tt0762107, tt0804452]
+      winner: [tt0477051]
+    worst supporting actress:
+      nominee: [tt0435705, tt0462229, tt0477051, tt0762107, tt0799949, tt0897361]
+      winner: [tt0477051]
+'2007': # https://www.imdb.com/event/ev0000558/2007/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0383060, tt0393735, tt0430304, tt0437863, tt0450345, tt0452681, tt0462395]
+      winner: [tt0430304]
+    worst actress:
+      nominee: [tt0383222, tt0397078, tt0424993, tt0430912, tt0433412]
+      winner: [tt0430912]
+    worst director:
+      nominee: [tt0382625, tt0383222, tt0430304, tt0430912, tt0452637]
+      winner: [tt0452637]
+    worst excuse for family entertainment:
+      nominee: [tt0393735, tt0449089, tt0452681, tt0455499, tt0790604]
+      winner: [tt0449089]
+    worst picture:
+      nominee: [tt0383222, tt0430304, tt0430912, tt0450345, tt0452637]
+      winner: [tt0430912]
+    worst prequel or sequel:
+      nominee: [tt0420294, tt0421729, tt0430912, tt0452681, tt0455499]
+      winner: [tt0430912]
+    worst remake or rip-off:
+      nominee: [tt0383216, tt0393735, tt0409182, tt0430304, tt0450345]
+      winner: [tt0430304]
+    worst screen couple:
+      nominee: [tt0430304, tt0430912, tt0433412, tt0450345, tt0452681]
+      winner: [tt0430304]
+    worst screenplay:
+      nominee: [tt0383222, tt0430304, tt0430912, tt0450345, tt0452637]
+      winner: [tt0430912]
+    worst supporting actor:
+      nominee: [tt0383222, tt0430912, tt0452637, tt0452681, tt0466909, tt0790604]
+      winner: [tt0452637]
+    worst supporting actress:
+      nominee: [tt0348150, tt0362120, tt0383216, tt0383222, tt0400717, tt0449089, tt0455967, tt0466342, tt0790604]
+      winner: [tt0362120, tt0400717, tt0466342]
+'2006': # https://www.imdb.com/event/ev0000558/2006/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0362165, tt0367652, tt0374536, tt0384642, tt0407304, tt0419706]
+      winner: [tt0367652]
+    worst actress:
+      nominee: [tt0120667, tt0327643, tt0369226, tt0369735, tt0378109, tt0380623, tt0452598]
+      winner: [tt0327643]
+    worst director:
+      nominee: [tt0327643, tt0362165, tt0369226, tt0374536, tt0377818]
+      winner: [tt0327643]
+    worst picture:
+      nominee: [tt0327643, tt0362165, tt0367652, tt0377818, tt0397065]
+      winner: [tt0327643]
+    worst remake or sequel:
+      nominee: [tt0362165, tt0367652, tt0374536, tt0377818, tt0397065]
+      winner: [tt0362165]
+    worst screen couple:
+      nominee: [tt0327643, tt0362165, tt0367652, tt0374536, tt0377818]
+      winner: [tt0374536]
+    worst screenplay:
+      nominee: [tt0327643, tt0362165, tt0367652, tt0374536, tt0377818]
+      winner: [tt0327643]
+    worst supporting actor:
+      nominee: [tt0121766, tt0362165, tt0377818, tt0398165, tt0399327, tt0452598]
+      winner: [tt0121766]
+    worst supporting actress:
+      nominee: [tt0327643, tt0372784, tt0377818, tt0397065, tt0434424]
+      winner: [tt0397065]
+'2005': # https://www.imdb.com/event/ev0000558/2005/1/
+  razzie award:
+    worst 'comedy' of our first 25 years:
+      nominee: [tt0093405, tt0180052, tt0240515, tt0299930, tt0312528]
+      winner: [tt0299930]
+    worst 'drama' of our first 25 years:
+      nominee: [tt0082766, tt0085863, tt0114436, tt0185183, tt0291502]
+      winner: [tt0185183]
+    worst 'musical' of our first 25 years:
+      nominee: [tt0080492, tt0081777, tt0088001, tt0118589, tt0120185, tt0339034]
+      winner: [tt0339034]
+    worst actor:
+      nominee: [tt0252028, tt0296572, tt0300051, tt0326856, tt0335438, tt0343135, tt0346491, tt0357413, tt0361596, tt0364725]
+      winner: [tt0361596]
+    worst actress:
+      nominee: [tt0327554, tt0346491, tt0356470, tt0361696, tt0363282, tt0364045, tt0381707]
+      winner: [tt0327554]
+    worst director:
+      nominee: [tt0204313, tt0270846, tt0327554, tt0346491, tt0381707]
+      winner: [tt0327554]
+    worst picture:
+      nominee: [tt0252028, tt0270846, tt0327554, tt0346491, tt0381707]
+      winner: [tt0327554]
+    worst remake or sequel:
+      nominee: [tt0204313, tt0327437, tt0331632, tt0366174, tt0370263]
+      winner: [tt0331632]
+    worst screen couple:
+      nominee: [tt0300051, tt0327554, tt0361596, tt0363282, tt0381707]
+      winner: [tt0361596]
+    worst screenplay:
+      nominee: [tt0252028, tt0270846, tt0327554, tt0346491, tt0381707]
+      winner: [tt0327554]
+    worst supporting actor:
+      nominee: [tt0270846, tt0327437, tt0327554, tt0346491, tt0361596]
+      winner: [tt0361596]
+    worst supporting actress:
+      nominee: [tt0300051, tt0327554, tt0335438, tt0361596]
+      winner: [tt0361596]
+'2004': # https://www.imdb.com/event/ev0000558/2004/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0191133, tt0270980, tt0285462, tt0287978, tt0299930, tt0305711, tt0312528, tt0316465, tt0338337, tt0339034, tt0349205]
+      winner: [tt0287978, tt0299930, tt0338337]
+    worst actress:
+      nominee: [tt0266489, tt0294357, tt0299930, tt0305357, tt0325703, tt0339034]
+      winner: [tt0299930]
+    worst director:
+      nominee: [tt0234215, tt0242653, tt0285462, tt0299930, tt0312528, tt0339034]
+      winner: [tt0299930]
+    worst excuse for an actual movie (all concept/no content!):
+      nominee: [tt0305357, tt0312528, tt0322259, tt0339034, tt0360916]
+      winner: [tt0312528]
+    worst picture:
+      nominee: [tt0299930, tt0305357, tt0312528, tt0339034, tt0360916]
+      winner: [tt0299930]
+    worst remake or sequel:
+      nominee: [tt0305357, tt0322259, tt0324216, tt0329028, tt0339034]
+      winner: [tt0305357]
+    worst screen couple:
+      nominee: [tt0270980, tt0299930, tt0305711, tt0312528, tt0329028, tt0339034]
+      winner: [tt0299930]
+    worst screenplay:
+      nominee: [tt0299930, tt0305357, tt0312528, tt0329028, tt0339034]
+      winner: [tt0299930]
+    worst supporting actor:
+      nominee: [tt0257568, tt0299930, tt0312528, tt0338459]
+      winner: [tt0338459]
+    worst supporting actress:
+      nominee: [tt0270980, tt0299930, tt0305357, tt0305711, tt0312528]
+      winner: [tt0305357]
+  governor's award:
+    governor's award:
+      nominee: [tt0339034]
+      winner: [tt0339034]
+'2003': # https://www.imdb.com/event/ev0000558/2003/1/
+  razzie award:
+    most flatulent teen-targeted movie:
+      nominee: [tt0267913, tt0271263, tt0275022, tt0295701, tt0322802]
+      winner: [tt0322802]
+    worst actor:
+      nominee: [tt0180052, tt0255477, tt0271263, tt0280590, tt0284490, tt0291502, tt0297162, tt0297181]
+      winner: [tt0255477]
+    worst actress:
+      nominee: [tt0252076, tt0275022, tt0278435, tt0280590, tt0282687, tt0291502]
+      winner: [tt0275022, tt0291502]
+    worst director:
+      nominee: [tt0121765, tt0180052, tt0255477, tt0275022, tt0291502]
+      winner: [tt0291502]
+    worst original song:
+      nominee: [tt0246460, tt0275022]
+      winner: [tt0275022]
+    worst picture:
+      nominee: [tt0121765, tt0180052, tt0255477, tt0275022, tt0291502]
+      winner: [tt0291502]
+    worst remake or sequel:
+      nominee: [tt0121765, tt0255477, tt0280590, tt0291502, tt0297181]
+      winner: [tt0291502]
+    worst screen couple:
+      nominee: [tt0121765, tt0180052, tt0255477, tt0275022, tt0284490, tt0291502, tt0297181]
+      winner: [tt0291502]
+    worst screenplay:
+      nominee: [tt0121765, tt0180052, tt0255477, tt0275022, tt0291502]
+      winner: [tt0121765]
+    worst supporting actor:
+      nominee: [tt0121765, tt0265808, tt0266452, tt0267913, tt0276033]
+      winner: [tt0121765]
+    worst supporting actress:
+      nominee: [tt0120912, tt0121765, tt0246460, tt0246894, tt0295427]
+      winner: [tt0246460]
+'2002': # https://www.imdb.com/event/ev0000558/2002/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0180734, tt0213149, tt0230838, tt0233142, tt0240515, tt0244244, tt0249478]
+      winner: [tt0240515]
+    worst actress:
+      nominee: [tt0118589, tt0146316, tt0209475, tt0218922, tt0221027, tt0225071, tt0230838, tt0238112, tt0259711]
+      winner: [tt0118589]
+    worst director:
+      nominee: [tt0118589, tt0132245, tt0141907, tt0213149, tt0240515]
+      winner: [tt0240515]
+    worst picture:
+      nominee: [tt0118589, tt0132245, tt0213149, tt0233142, tt0240515]
+      winner: [tt0240515]
+    worst remake or sequel:
+      nominee: [tt0133152, tt0163025, tt0213149, tt0230838, tt0231402]
+      winner: [tt0133152]
+    worst screen couple:
+      nominee: [tt0118589, tt0132245, tt0213149, tt0233142, tt0240515]
+      winner: [tt0240515]
+    worst screenplay:
+      nominee: [tt0118589, tt0132245, tt0213149, tt0233142, tt0240515]
+      winner: [tt0240515]
+    worst supporting actor:
+      nominee: [tt0118589, tt0132245, tt0133152, tt0141907, tt0239395, tt0240515]
+      winner: [tt0133152, tt0141907, tt0239395]
+    worst supporting actress:
+      nominee: [tt0132245, tt0133152, tt0141907, tt0233142, tt0240515]
+      winner: [tt0132245, tt0133152]
+'2001': # https://www.imdb.com/event/ev0000558/2001/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0163978, tt0185183, tt0185431, tt0208988, tt0216216, tt0219952]
+      winner: [tt0185183, tt0219952]
+    worst actress:
+      nominee: [tt0141399, tt0156841, tt0160644, tt0163983, tt0167203, tt0173716]
+      winner: [tt0156841]
+    worst director:
+      nominee: [tt0156841, tt0183523, tt0185183, tt0185431, tt0229260]
+      winner: [tt0185183]
+    worst picture:
+      nominee: [tt0156841, tt0158622, tt0185183, tt0185431, tt0229260]
+      winner: [tt0185183]
+    worst remake or sequel:
+      nominee: [tt0120755, tt0158622, tt0170016, tt0208988, tt0229260]
+      winner: [tt0229260]
+    worst screen couple:
+      nominee: [tt0156841, tt0174480, tt0185183, tt0216216, tt0229260]
+      winner: [tt0185183]
+    worst screenplay:
+      nominee: [tt0156841, tt0170016, tt0185183, tt0185431, tt0229260]
+      winner: [tt0185183]
+    worst supporting actor:
+      nominee: [tt0158622, tt0185183, tt0204626, tt0216216]
+      winner: [tt0185183]
+    worst supporting actress:
+      nominee: [tt0120755, tt0131704, tt0158622, tt0185183, tt0185431]
+      winner: [tt0185183]
+'2000': # https://www.imdb.com/event/ev0000558/2000/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0120716, tt0120891, tt0126916, tt0139462, tt0142342, tt0146675, tt0182789]
+      winner: [tt0142342]
+    worst actress:
+      nominee: [tt0120683, tt0137494, tt0142201, tt0151137, tt0171363, tt0185937, tt0205461]
+      winner: [tt0185937, tt0205461]
+    worst director:
+      nominee: [tt0120891, tt0120915, tt0142342, tt0146675, tt0171363]
+      winner: [tt0120891]
+    worst original song:
+      nominee: [tt0120891]
+      winner: [tt0120891]
+    worst picture:
+      nominee: [tt0120891, tt0120915, tt0142342, tt0171363, tt0185937]
+      winner: [tt0120891]
+    worst picture of the decade:
+      nominee: [tt0102070, tt0114436, tt0117765, tt0118577, tt0119925]
+      winner: [tt0114436]
+    worst screen couple:
+      nominee: [tt0120891, tt0120915, tt0137494, tt0143145, tt0171363]
+      winner: [tt0120891]
+    worst screenplay:
+      nominee: [tt0120757, tt0120891, tt0120915, tt0142342, tt0171363]
+      winner: [tt0120891]
+    worst supporting actor:
+      nominee: [tt0120891, tt0120915, tt0142342, tt0145531, tt0146675]
+      winner: [tt0120915]
+    worst supporting actress:
+      nominee: [tt0120655, tt0120891, tt0120915, tt0123209, tt0143145]
+      winner: [tt0143145]
+'1999': # https://www.imdb.com/event/ev0000558/1999/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0118577, tt0118661, tt0120484, tt0120577, tt0120591, tt0120749, tt0133952]
+      winner: [tt0120591, tt0120749, tt0133952]
+    worst actress:
+      nominee: [tt0118661, tt0118744, tt0120185, tt0131857, tt0155975]
+      winner: [tt0120185]
+    worst director:
+      nominee: [tt0118577, tt0118661, tt0120591, tt0120685, tt0155975]
+      winner: [tt0155975]
+    worst new star:
+      nominee: [tt0118577, tt0118836, tt0120185, tt0120598, tt0165494]
+      winner: [tt0118577, tt0165494]
+    worst original song:
+      nominee: [tt0118577, tt0118661, tt0120185, tt0120591, tt0120598]
+      winner: [tt0118577]
+    worst picture:
+      nominee: [tt0118577, tt0118661, tt0120185, tt0120591, tt0120685]
+      winner: [tt0118577]
+    worst remake or sequel:
+      nominee: [tt0118661, tt0119643, tt0120685, tt0120738, tt0155975]
+      winner: [tt0118661, tt0120685, tt0155975]
+    worst screen couple:
+      nominee: [tt0118577, tt0118661, tt0120185, tt0120591, tt0120744]
+      winner: [tt0120744]
+    worst screenplay:
+      nominee: [tt0118577, tt0118661, tt0120185, tt0120591, tt0120685]
+      winner: [tt0118577]
+    worst supporting actor:
+      nominee: [tt0118577, tt0118661, tt0120185, tt0122151]
+      winner: [tt0118577]
+    worst supporting actress:
+      nominee: [tt0118836, tt0120577, tt0120591, tt0120685, tt0120738, tt0131857]
+      winner: [tt0120685, tt0120738]
+'1998': # https://www.imdb.com/event/ev0000558/1998/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0118615, tt0119123, tt0119925, tt0120053, tt0120207]
+      winner: [tt0119925]
+    worst actress:
+      nominee: [tt0118691, tt0119086, tt0119173, tt0120151, tt0120179, tt0120390]
+      winner: [tt0119173]
+    worst director:
+      nominee: [tt0118615, tt0118688, tt0119925, tt0120179, tt0120399]
+      winner: [tt0119925]
+    worst new star:
+      nominee: [tt0118615, tt0119013, tt0119116, tt0119324, tt0119695, tt0119951, tt0120082]
+      winner: [tt0119013]
+    worst original song:
+      nominee: [tt0118688, tt0118880, tt0119123, tt0119925, tt0120179]
+      winner: [tt0119925]
+    worst picture:
+      nominee: [tt0118615, tt0118688, tt0119123, tt0119925, tt0120179]
+      winner: [tt0119925]
+    worst reckless disregard for human life and public property:
+      nominee: [tt0118688, tt0118880, tt0119567, tt0120390, tt0120461]
+      winner: [tt0118880]
+    worst remake or sequel:
+      nominee: [tt0118688, tt0119303, tt0119567, tt0119640, tt0120179]
+      winner: [tt0120179]
+    worst screen couple:
+      nominee: [tt0118615, tt0118688, tt0119013, tt0119123, tt0120179]
+      winner: [tt0119013]
+    worst screenplay:
+      nominee: [tt0118615, tt0118688, tt0119567, tt0119925, tt0120179]
+      winner: [tt0119925]
+    worst supporting actor:
+      nominee: [tt0118688, tt0119013, tt0119709, tt0120179, tt0120399]
+      winner: [tt0119013]
+    worst supporting actress:
+      nominee: [tt0115495, tt0118688, tt0119109, tt0119116]
+      winner: [tt0118688]
+'1997': # https://www.imdb.com/event/ev0000558/1997/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0115676, tt0115683, tt0115783, tt0115836, tt0115857, tt0116040, tt0116483, tt0117768]
+      winner: [tt0115676, tt0115683, tt0115836, tt0117768]
+    worst actress:
+      nominee: [tt0114658, tt0115624, tt0115725, tt0116168, tt0116731, tt0117002, tt0117765, tt0118001]
+      winner: [tt0116731, tt0117765]
+    worst director:
+      nominee: [tt0116654, tt0116705, tt0117002, tt0117765, tt0117768]
+      winner: [tt0117765]
+    worst new star:
+      nominee: [tt0115624, tt0115641, tt0116095, tt0116165, tt0116827, tt0117091, tt0117102, tt0117283, tt0117628]
+      winner: [tt0115624]
+    worst original song:
+      nominee: [tt0115624, tt0116040, tt0117765]
+      winner: [tt0117765]
+    worst picture:
+      nominee: [tt0115624, tt0116165, tt0116654, tt0117765, tt0117768]
+      winner: [tt0117765]
+    worst screen couple:
+      nominee: [tt0115624, tt0115641, tt0116165, tt0116654, tt0117765]
+      winner: [tt0117765]
+    worst screenplay:
+      nominee: [tt0115624, tt0116165, tt0116654, tt0117765, tt0117768]
+      winner: [tt0117765]
+    worst supporting actor:
+      nominee: [tt0116253, tt0116367, tt0116654, tt0117765]
+      winner: [tt0116654]
+    worst supporting actress:
+      nominee: [tt0115438, tt0115862, tt0116151, tt0116508, tt0117107, tt0117998, tt0118001]
+      winner: [tt0117107]
+    worst written film grossing over $100 million:
+      nominee: [tt0116583, tt0116629, tt0117060, tt0117913, tt0117998]
+      winner: [tt0117998]
+'1996': # https://www.imdb.com/event/ev0000558/1996/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0112401, tt0113481, tt0113492, tt0113500, tt0114436, tt0114887, tt0114898]
+      winner: [tt0113500]
+    worst actress:
+      nominee: [tt0110169, tt0112895, tt0113010, tt0114345, tt0114436]
+      winner: [tt0114436]
+    worst director:
+      nominee: [tt0112715, tt0112760, tt0114345, tt0114436, tt0114898]
+      winner: [tt0114436]
+    worst new star:
+      nominee: [tt0110169, tt0112715, tt0113010, tt0113451, tt0113552, tt0114436, tt0114571]
+      winner: [tt0114436]
+    worst original song:
+      nominee: [tt0112462, tt0112715, tt0114436]
+      winner: [tt0114436]
+    worst picture:
+      nominee: [tt0110169, tt0112715, tt0114345, tt0114436, tt0114898]
+      winner: [tt0114436]
+    worst remake or sequel:
+      nominee: [tt0112281, tt0112895, tt0114345, tt0114436, tt0114852]
+      winner: [tt0114345]
+    worst screen couple:
+      nominee: [tt0110169, tt0112895, tt0113010, tt0114345, tt0114436]
+      winner: [tt0114436]
+    worst screenplay:
+      nominee: [tt0110169, tt0112715, tt0113451, tt0114345, tt0114436]
+      winner: [tt0114436]
+    worst supporting actor:
+      nominee: [tt0112715, tt0114345, tt0114436, tt0114898]
+      winner: [tt0114898]
+    worst supporting actress:
+      nominee: [tt0112715, tt0113101, tt0114436, tt0114694]
+      winner: [tt0113101]
+'1995': # https://www.imdb.com/event/ev0000558/1995/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0109456, tt0109891, tt0110687, tt0110725, tt0110763, tt0110989, tt0111255, tt0111756]
+      winner: [tt0111756]
+    worst actress:
+      nominee: [tt0106834, tt0109456, tt0109890, tt0110146, tt0110725, tt0111255]
+      winner: [tt0110146, tt0111255]
+    worst director:
+      nominee: [tt0109254, tt0109456, tt0110687, tt0110725, tt0111756]
+      winner: [tt0110725]
+    worst new star:
+      nominee: [tt0107426, tt0109040, tt0109305, tt0109361, tt0109686, tt0110475, tt0110622]
+      winner: [tt0110622]
+    worst original song:
+      nominee: [tt0109456, tt0110725, tt0111419]
+      winner: [tt0111419]
+    worst picture:
+      nominee: [tt0109456, tt0110687, tt0110725, tt0111255, tt0111756]
+      winner: [tt0109456]
+    worst remake or sequel:
+      nominee: [tt0109254, tt0109439, tt0109813, tt0110391, tt0111756]
+      winner: [tt0111756]
+    worst screen couple:
+      nominee: [tt0109456, tt0109758, tt0110148, tt0111255, tt0111756]
+      winner: [tt0110148, tt0111255]
+    worst screenplay:
+      nominee: [tt0109456, tt0109813, tt0110516, tt0110687, tt0110725]
+      winner: [tt0109813]
+    worst supporting actor:
+      nominee: [tt0109456, tt0109758, tt0110622, tt0110687, tt0111255, tt0111280]
+      winner: [tt0110622]
+    worst supporting actress:
+      nominee: [tt0106834, tt0109376, tt0109456, tt0109758, tt0109813, tt0110687]
+      winner: [tt0109376, tt0109758, tt0109813]
+'1994': # https://www.imdb.com/event/ev0000558/1994/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0106453, tt0106613, tt0107211, tt0107362, tt0108162]
+      winner: [tt0106613]
+    worst actress:
+      nominee: [tt0106453, tt0106466, tt0107211, tt0107840, tt0108162]
+      winner: [tt0106453]
+    worst director:
+      nominee: [tt0106453, tt0106471, tt0107211, tt0107362, tt0108162]
+      winner: [tt0106471]
+    worst new star:
+      nominee: [tt0106613, tt0106701, tt0107362, tt0107840, tt0108187]
+      winner: [tt0107840]
+    worst original song:
+      nominee: [tt0106220, tt0107211, tt0107362]
+      winner: [tt0106220]
+    worst picture:
+      nominee: [tt0106453, tt0106582, tt0107211, tt0107362, tt0108162]
+      winner: [tt0107211]
+    worst screenplay:
+      nominee: [tt0106453, tt0106582, tt0107211, tt0107362, tt0108162]
+      winner: [tt0107211]
+    worst supporting actor:
+      nominee: [tt0106582, tt0107211, tt0107616, tt0108162, tt0108333]
+      winner: [tt0107211]
+    worst supporting actress:
+      nominee: [tt0106453, tt0106582, tt0106697, tt0108162, tt0108311]
+      winner: [tt0108311]
+'1993': # https://www.imdb.com/event/ev0000558/1993/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0103772, tt0103855, tt0104283, tt0104427, tt0104804, tt0105391, tt0105477]
+      winner: [tt0105477]
+    worst actress:
+      nominee: [tt0102340, tt0103855, tt0104009, tt0104265, tt0104839, tt0105391, tt0105483, tt0105631]
+      winner: [tt0105391, tt0105483]
+    worst director:
+      nominee: [tt0103962, tt0104427, tt0104990, tt0105391, tt0105629]
+      winner: [tt0105391]
+    worst new star:
+      nominee: [tt0103772, tt0103855, tt0103962, tt0104187]
+      winner: [tt0104187]
+    worst original song:
+      nominee: [tt0103855, tt0104231, tt0104990]
+      winner: [tt0104990]
+    worst picture:
+      nominee: [tt0103855, tt0103962, tt0104265, tt0104990, tt0105391]
+      winner: [tt0105391]
+    worst screenplay:
+      nominee: [tt0103855, tt0103962, tt0104265, tt0105391, tt0105477]
+      winner: [tt0105477]
+    worst supporting actor:
+      nominee: [tt0103776, tt0103962, tt0104990, tt0105811]
+      winner: [tt0103962]
+    worst supporting actress:
+      nominee: [tt0101625, tt0103772, tt0104990, tt0105477, tt0105483]
+      winner: [tt0105477]
+'1992': # https://www.imdb.com/event/ev0000558/1992/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0101615, tt0101726, tt0102070, tt0102603, tt0102798]
+      winner: [tt0102798]
+    worst actress:
+      nominee: [tt0101523, tt0102220, tt0102370, tt0102411, tt0102555, tt0102558]
+      winner: [tt0102220]
+    worst director:
+      nominee: [tt0101615, tt0102070, tt0102558, tt0102603, tt0102782]
+      winner: [tt0102070]
+    worst new star:
+      nominee: [tt0101615, tt0102782, tt0102984]
+      winner: [tt0101615]
+    worst original song:
+      nominee: [tt0101272, tt0101615, tt0101917]
+      winner: [tt0101272]
+    worst picture:
+      nominee: [tt0101615, tt0101726, tt0102070, tt0102558, tt0102782]
+      winner: [tt0102070]
+    worst screenplay:
+      nominee: [tt0101615, tt0101726, tt0102070, tt0102558, tt0102782]
+      winner: [tt0102070]
+    worst supporting actor:
+      nominee: [tt0102070, tt0102460, tt0102558, tt0102798, tt0102913]
+      winner: [tt0102558]
+    worst supporting actress:
+      nominee: [tt0102057, tt0102070, tt0102220, tt0102558, tt0102603]
+      winner: [tt0102220]
+'1991': # https://www.imdb.com/event/ev0000558/1991/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0098987, tt0099409, tt0099528, tt0099691, tt0100507, tt0100934]
+      winner: [tt0098987]
+    worst actress:
+      nominee: [tt0099128, tt0099165, tt0099656, tt0100507, tt0100691]
+      winner: [tt0099656]
+    worst director:
+      nominee: [tt0098987, tt0099165, tt0099656, tt0099691, tt0100507]
+      winner: [tt0099656]
+    worst new star:
+      nominee: [tt0099656, tt0099674, tt0099691, tt0100934]
+      winner: [tt0099674]
+    worst original song:
+      nominee: [tt0100475, tt0100507, tt0100691]
+      winner: [tt0100475]
+    worst picture:
+      nominee: [tt0098987, tt0099165, tt0099656, tt0099691, tt0100507]
+      winner: [tt0098987, tt0099656]
+    worst screenplay:
+      nominee: [tt0098987, tt0099165, tt0099656, tt0099691, tt0100507]
+      winner: [tt0098987]
+    worst supporting actor:
+      nominee: [tt0098987, tt0099656, tt0100050, tt0100419, tt0100507]
+      winner: [tt0099656]
+    worst supporting actress:
+      nominee: [tt0099128, tt0099165, tt0099656, tt0099674, tt0100050]
+      winner: [tt0099674]
+'1990': # https://www.imdb.com/event/ev0000558/1990/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0097647, tt0097770, tt0097967, tt0098206, tt0098308, tt0098382, tt0098439]
+      winner: [tt0098382]
+    worst actress:
+      nominee: [tt0094820, tt0097490, tt0097500, tt0098022, tt0098193]
+      winner: [tt0098193]
+    worst director:
+      nominee: [tt0097481, tt0097647, tt0098206, tt0098369, tt0098382]
+      winner: [tt0098382]
+    worst original song:
+      nominee: [tt0097981, tt0098084]
+      winner: [tt0097981]
+    worst picture:
+      nominee: [tt0097647, tt0097770, tt0098206, tt0098369, tt0098382]
+      winner: [tt0098382]
+    worst picture of the decade:
+      nominee: [tt0082766, tt0085863, tt0086987, tt0091225, tt0098382]
+      winner: [tt0082766]
+    worst screenplay:
+      nominee: [tt0097481, tt0097647, tt0098206, tt0098382, tt0098439]
+      winner: [tt0097481]
+    worst supporting actor:
+      nominee: [tt0097647, tt0097756, tt0097770, tt0098206, tt0098382]
+      winner: [tt0097756]
+    worst supporting actress:
+      nominee: [tt0096911, tt0096953, tt0097257, tt0098369, tt0098439]
+      winner: [tt0098369]
+'1989': # https://www.imdb.com/event/ev0000558/1989/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0094824, tt0094889, tt0095326, tt0095956, tt0095977, tt0096203]
+      winner: [tt0095956]
+    worst actress:
+      nominee: [tt0092559, tt0094612, tt0094678, tt0095088, tt0095977, tt0096241]
+      winner: [tt0094678, tt0095977]
+    worst director:
+      nominee: [tt0094889, tt0095326, tt0095560, tt0095956, tt0096193]
+      winner: [tt0095560, tt0096193]
+    worst new star:
+      nominee: [tt0092675, tt0093744, tt0095326, tt0095560, tt0096030]
+      winner: [tt0095560]
+    worst original song:
+      nominee: [tt0094824, tt0095409, tt0095742]
+      winner: [tt0094824]
+    worst picture:
+      nominee: [tt0094824, tt0094889, tt0095326, tt0095560, tt0095956]
+      winner: [tt0094889]
+    worst screenplay:
+      nominee: [tt0094889, tt0095326, tt0095560, tt0095956, tt0096446]
+      winner: [tt0094889]
+    worst supporting actor:
+      nominee: [tt0094824, tt0095497, tt0095956, tt0096203, tt0096446]
+      winner: [tt0094824]
+    worst supporting actress:
+      nominee: [tt0093744, tt0095304, tt0095889, tt0096193, tt0096324]
+      winner: [tt0096324]
+'1988': # https://www.imdb.com/event/ev0000558/1988/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0093051, tt0093300, tt0093405, tt0093692, tt0094169]
+      winner: [tt0093405]
+    worst actress:
+      nominee: [tt0091827, tt0092534, tt0093300, tt0094169, tt0094321]
+      winner: [tt0094321]
+    worst director:
+      nominee: [tt0093278, tt0093300, tt0093405, tt0094169, tt0094321]
+      winner: [tt0093278, tt0094169]
+    worst new star:
+      nominee: [tt0092615, tt0092974, tt0093072, tt0093692, tt0094169]
+      winner: [tt0093692]
+    worst original song:
+      nominee: [tt0092644, tt0093072, tt0093539, tt0093756, tt0094321]
+      winner: [tt0092644]
+    worst picture:
+      nominee: [tt0093278, tt0093300, tt0093405, tt0094169, tt0094321]
+      winner: [tt0093405]
+    worst screenplay:
+      nominee: [tt0093278, tt0093300, tt0093405, tt0094169, tt0094321]
+      winner: [tt0093405]
+    worst supporting actor:
+      nominee: [tt0093300, tt0093507, tt0093539, tt0093692]
+      winner: [tt0093692]
+    worst supporting actress:
+      nominee: [tt0093405, tt0093969, tt0094074, tt0094169, tt0094291]
+      winner: [tt0094291]
+    worst visual effects:
+      nominee: [tt0093072, tt0093300, tt0094074]
+      winner: [tt0093300]
+'1987': # https://www.imdb.com/event/ev0000558/1987/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0090753, tt0090859, tt0091499, tt0091934, tt0092133]
+      winner: [tt0092133]
+    worst actress:
+      nominee: [tt0090753, tt0090859, tt0091635, tt0091934, tt0092042]
+      winner: [tt0091934]
+    worst director:
+      nominee: [tt0090753, tt0091225, tt0091499, tt0091934, tt0092133]
+      winner: [tt0092133]
+    worst new star:
+      nominee: [tt0090631, tt0090859, tt0091225, tt0092042, tt0092133]
+      winner: [tt0091225]
+    worst original song:
+      nominee: [tt0091225, tt0091635, tt0091934, tt0092079, tt0092133]
+      winner: [tt0092133]
+    worst picture:
+      nominee: [tt0090753, tt0090859, tt0091225, tt0091934, tt0092133]
+      winner: [tt0091225, tt0092133]
+    worst screenplay:
+      nominee: [tt0090859, tt0091225, tt0091635, tt0091934, tt0092133]
+      winner: [tt0091225]
+    worst supporting actor:
+      nominee: [tt0090753, tt0090856, tt0090859, tt0091225, tt0092133]
+      winner: [tt0092133]
+    worst supporting actress:
+      nominee: [tt0091178, tt0091276, tt0091778, tt0091786, tt0092133]
+      winner: [tt0091178]
+    worst visual effects:
+      nominee: [tt0091225, tt0091276, tt0091344]
+      winner: [tt0091225]
+'1986': # https://www.imdb.com/event/ev0000558/1986/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0089420, tt0089523, tt0089798, tt0089880, tt0089913, tt0089927]
+      winner: [tt0089880, tt0089927]
+    worst actress:
+      nominee: [tt0087795, tt0088851, tt0089893, tt0089964, tt0090264, tt0090350]
+      winner: [tt0087795, tt0089964]
+    worst director:
+      nominee: [tt0089139, tt0089880, tt0089913, tt0089927, tt0090350]
+      winner: [tt0089927]
+    worst musical score:
+      nominee: [tt0089139, tt0089421, tt0089913, tt0089927, tt0090217]
+      winner: [tt0089927]
+    worst new star:
+      nominee: [tt0087344, tt0089243, tt0089880, tt0089893, tt0089927, tt0090350]
+      winner: [tt0089893, tt0089927]
+    worst original song:
+      nominee: [tt0089444, tt0089461, tt0089880, tt0090036]
+      winner: [tt0089880]
+    worst picture:
+      nominee: [tt0089139, tt0089880, tt0089913, tt0089927, tt0090350]
+      winner: [tt0089880]
+    worst screenplay:
+      nominee: [tt0089139, tt0089798, tt0089880, tt0089927, tt0090350]
+      winner: [tt0089880]
+    worst supporting actor:
+      nominee: [tt0087344, tt0089421, tt0089927, tt0090060, tt0090217]
+      winner: [tt0090060]
+    worst supporting actress:
+      nominee: [tt0089798, tt0089880, tt0089893, tt0089927, tt0089945]
+      winner: [tt0089927]
+'1985': # https://www.imdb.com/event/ev0000558/1985/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0086985, tt0087032, tt0087062, tt0088001, tt0088134, tt0088206]
+      winner: [tt0088001]
+    worst actress:
+      nominee: [tt0086232, tt0086987, tt0087032, tt0088103, tt0088206]
+      winner: [tt0086987]
+    worst director:
+      nominee: [tt0086984, tt0086987, tt0087032, tt0088001, tt0088103]
+      winner: [tt0086987]
+    worst musical score:
+      nominee: [tt0017136, tt0086987, tt0088001, tt0088103, tt0088256, tt0088395]
+      winner: [tt0086987]
+    worst new star:
+      nominee: [tt0086973, tt0086987, tt0087078, tt0087957, tt0088395]
+      winner: [tt0086987, tt0087078]
+    worst original song:
+      nominee: [tt0017136, tt0086985, tt0087957, tt0088001]
+      winner: [tt0088001]
+    worst picture:
+      nominee: [tt0086987, tt0087032, tt0088001, tt0088103, tt0088395]
+      winner: [tt0086987]
+    worst screenplay:
+      nominee: [tt0086987, tt0087032, tt0088001, tt0088103, tt0088395]
+      winner: [tt0086987]
+    worst supporting actor:
+      nominee: [tt0086232, tt0086987, tt0087032, tt0087386, tt0088001]
+      winner: [tt0086232]
+    worst supporting actress:
+      nominee: [tt0086987, tt0087032, tt0087078, tt0087089, tt0088194, tt0088395]
+      winner: [tt0088395]
+'1984': # https://www.imdb.com/event/ev0000558/1984/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0085672, tt0085863, tt0086011, tt0086361, tt0086494, tt0086619]
+      winner: [tt0086011]
+    worst actress:
+      nominee: [tt0085318, tt0085863, tt0086379, tt0086494, tt0086582]
+      winner: [tt0085863]
+    worst director:
+      nominee: [tt0085750, tt0085863, tt0086250, tt0086379, tt0086494]
+      winner: [tt0085863]
+    worst musical score:
+      nominee: [tt0084565, tt0084935, tt0085863, tt0086393, tt0086619]
+      winner: [tt0085863]
+    worst new star:
+      nominee: [tt0084935, tt0085672, tt0085750, tt0086361, tt0086379]
+      winner: [tt0085672]
+    worst original song:
+      nominee: [tt0084565, tt0084935, tt0085863]
+      winner: [tt0085863]
+    worst picture:
+      nominee: [tt0085672, tt0085750, tt0085863, tt0086379, tt0086494]
+      winner: [tt0085863]
+    worst screenplay:
+      nominee: [tt0085549, tt0085672, tt0085750, tt0085863, tt0086494]
+      winner: [tt0085863]
+    worst supporting actor:
+      nominee: [tt0085750, tt0085863, tt0086379, tt0086393]
+      winner: [tt0086379]
+    worst supporting actress:
+      nominee: [tt0085318, tt0085672, tt0085863, tt0086361, tt0086374, tt0086619]
+      winner: [tt0085318, tt0085672]
+'1983': # https://www.imdb.com/event/ev0000558/1983/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0082198, tt0084132, tt0084469, tt0084504, tt0084931, tt0084945]
+      winner: [tt0084132]
+    worst actress:
+      nominee: [tt0082122, tt0084329, tt0084504, tt0084652, tt0084691]
+      winner: [tt0082122]
+    worst director:
+      nominee: [tt0082122, tt0083564, tt0084132, tt0084316, tt0084504]
+      winner: [tt0084132, tt0084504]
+    worst musical score:
+      nominee: [tt0082122, tt0082250, tt0084351, tt0084504, tt0084787]
+      winner: [tt0084504]
+    worst new star:
+      nominee: [tt0082122, tt0083564, tt0084602, tt0084652, tt0084931]
+      winner: [tt0082122]
+    worst original song:
+      nominee: [tt0082122, tt0083598, tt0084088, tt0084504]
+      winner: [tt0084504]
+    worst picture:
+      nominee: [tt0082122, tt0083564, tt0084132, tt0084316, tt0084504]
+      winner: [tt0084132]
+    worst screenplay:
+      nominee: [tt0082122, tt0083564, tt0084132, tt0084504, tt0084931]
+      winner: [tt0084132]
+    worst supporting actor:
+      nominee: [tt0082122, tt0084132, tt0084316, tt0084504]
+      winner: [tt0082122]
+    worst supporting actress:
+      nominee: [tt0082122, tt0083550, tt0083564, tt0083806, tt0084652]
+      winner: [tt0083564]
+'1982': # https://www.imdb.com/event/ev0000558/1982/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0080855, tt0082648, tt0082849, tt0083006, tt0083170, tt0083178]
+      winner: [tt0082648]
+    worst actress:
+      nominee: [tt0082001, tt0082329, tt0082511, tt0082766, tt0083170]
+      winner: [tt0082766, tt0083170]
+    worst director:
+      nominee: [tt0080855, tt0082329, tt0082766, tt0083015, tt0083170]
+      winner: [tt0080855]
+    worst musical score:
+      nominee: [tt0080855, tt0082648, tt0083190, tt0083254, tt0083366]
+      winner: [tt0082648]
+    worst new star:
+      nominee: [tt0082329, tt0082648, tt0082766, tt0082849, tt0083170]
+      winner: [tt0082648]
+    worst original song:
+      nominee: [tt0082362, tt0082525, tt0082648, tt0082853, tt0082886]
+      winner: [tt0082886]
+    worst picture:
+      nominee: [tt0080855, tt0082329, tt0082648, tt0082766, tt0083170]
+      winner: [tt0082766]
+    worst screenplay:
+      nominee: [tt0080855, tt0082329, tt0082766, tt0083015, tt0083170]
+      winner: [tt0082766]
+    worst supporting actor:
+      nominee: [tt0082245, tt0082457, tt0082766, tt0082853, tt0083254]
+      winner: [tt0082766]
+    worst supporting actress:
+      nominee: [tt0082136, tt0082329, tt0082766]
+      winner: [tt0082766]
+'1981': # https://www.imdb.com/event/ev0000558/1981/1/
+  razzie award:
+    worst actor:
+      nominee: [tt0079285, tt0080492, tt0080515, tt0080550, tt0080556, tt0080661, tt0080745, tt0080934, tt0080948, tt0081777]
+      winner: [tt0080948]
+    worst actress:
+      nominee: [tt0079285, tt0080453, tt0080472, tt0080492, tt0080661, tt0080738, tt0081505, tt0081646, tt0081759, tt0081777]
+      winner: [tt0080453]
+    worst director:
+      nominee: [tt0080492, tt0080569, tt0080661, tt0080754, tt0080934, tt0080948, tt0081157, tt0081505, tt0081759, tt0081777]
+      winner: [tt0081777]
+    worst original song:
+      nominee: [tt0080492, tt0080515, tt0080948, tt0081110, tt0081777]
+      winner: [tt0081110]
+    worst picture:
+      nominee: [tt0079285, tt0080492, tt0080569, tt0080754, tt0080761, tt0080948, tt0081249, tt0081400, tt0081759, tt0081777]
+      winner: [tt0080492]
+    worst screenplay:
+      nominee: [tt0080492, tt0080515, tt0080569, tt0080754, tt0080936, tt0081157, tt0081400, tt0081646, tt0081759, tt0081777]
+      winner: [tt0080492]
+    worst supporting actor:
+      nominee: [tt0080754, tt0080798, tt0080948, tt0081400, tt0081480]
+      winner: [tt0080798, tt0080948]
+    worst supporting actress:
+      nominee: [tt0080492, tt0080761, tt0080888, tt0081562, tt0081759]
+      winner: [tt0080888]

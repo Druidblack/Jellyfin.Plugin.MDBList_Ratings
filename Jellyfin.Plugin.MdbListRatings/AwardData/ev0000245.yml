@@ -1,0 +1,4824 @@
+# Filmfare Awards
+'2025':  # https://www.imdb.com/event/ev0000245/2025/1/
+  filmfare award:
+    best actor:
+      nominee: [tt10869778, tt13818368, tt23475174, tt27470893, tt27510174, tt27866861]
+      winner: [tt27470893, tt27866861]
+    best actor - critics:
+      nominee: [tt14753612, tt21626284, tt23790740, tt26745657, tt27866861]
+      winner: [tt23790740]
+    best actress:
+      nominee: [tt21383812, tt26733317, tt27459160, tt27510174, tt30970235]
+      winner: [tt26733317]
+    best actress - critics:
+      nominee: [tt15245240, tt15576290, tt21626284, tt26733317]
+      winner: [tt21626284]
+    best debut actor:
+      nominee: [tt14398312, tt20854856, tt21626284, tt22543124, tt28153480, tt28259207]
+      winner: [tt28259207]
+    best debut actress:
+      nominee: [tt20452454, tt20854856, tt21626284, tt27866861, tt33245905]
+      winner: [tt21626284]
+    best debut director:
+      nominee: [tt14753612, tt15576290, tt24973142, tt26745657, tt27459160, tt30970235]
+      winner: [tt26745657, tt30970235]
+    best director:
+      nominee: [tt21626284, tt26932223, tt27510174, tt28259207, tt30970235]
+      winner: [tt21626284]
+    best film:
+      nominee: [tt21626284, tt26932223, tt27510174, tt28259207, tt30970235]
+      winner: [tt21626284]
+    best film - critics:
+      nominee: [tt10869778, tt15245240, tt15392282, tt21626284, tt27866861]
+      winner: [tt27866861]
+    best lyrics:
+      nominee: [tt15392282, tt21626284, tt27470893, tt28259207]
+      winner: [tt21626284]
+    best music album:
+      nominee: [tt10869778, tt21626284, tt24517830, tt26932223, tt27459160, tt27510174]
+      winner: [tt21626284]
+    best playback singer - female:
+      nominee: [tt13818368, tt21626284, tt26733317, tt27510174, tt28259207]
+      winner: [tt27510174]
+    best playback singer - male:
+      nominee: [tt10869778, tt21626284, tt24517830, tt26932223, tt27510174]
+      winner: [tt21626284]
+    best screenplay:
+      nominee: [tt21626284, tt26745657, tt27510174, tt28259207, tt30970235]
+      winner: [tt21626284]
+    best screenplay (adapted):
+      nominee: [tt10869778, tt15392282, tt23790740, tt27744786, tt27866861]
+      winner: [tt27866861]
+    best story:
+      nominee: [tt14398312, tt26932223, tt27510174, tt28259207, tt30970235]
+      winner: [tt30970235]
+    best supporting actor:
+      nominee: [tt21626284, tt23475174, tt27510174, tt27744786, tt28259207]
+      winner: [tt21626284]
+    best supporting actress:
+      nominee: [tt21626284, tt26932223, tt27744786, tt27866861, tt30970235]
+      winner: [tt21626284]
+  r.d. burman award:
+    upcoming music talent:
+      nominee: [tt16227342, tt26733317]
+      winner: [tt16227342, tt26733317]
+  technical award:
+    best action:
+      nominee: [tt10869778, tt13818368, tt18072316, tt26733317, tt28259207]
+      winner: [tt28259207]
+    best background score:
+      nominee: [tt10869778, tt15245240, tt15392282, tt21626284, tt28259207]
+      winner: [tt21626284]
+    best choreography:
+      nominee: [tt13818368, tt24517830, tt26932223, tt27459160, tt27510174]
+      winner: [tt24517830]
+    best cinematography:
+      nominee: [tt10869778, tt15245240, tt21626284, tt27866861, tt28259207]
+      winner: [tt28259207]
+    best costume design:
+      nominee: [tt10869778, tt21383812, tt21626284, tt27470893, tt30970235]
+      winner: [tt21626284]
+    best dialogue:
+      nominee: [tt10869778, tt21626284, tt26745657, tt27510174, tt27866861]
+      winner: [tt21626284]
+    best editing:
+      nominee: [tt10869778, tt14398312, tt21626284, tt27510174, tt28259207]
+      winner: [tt28259207]
+    best production design:
+      nominee: [tt14398312, tt15392282, tt21626284, tt27470893, tt28259207]
+      winner: [tt28259207]
+    best sound design:
+      nominee: [tt10869778, tt14398312, tt15245240, tt21626284, tt28259207]
+      winner: [tt28259207]
+    best vfx:
+      nominee: [tt10869778, tt27459160, tt27510174, tt27995594, tt28259207]
+      winner: [tt27995594]
+'2024': # https://www.imdb.com/event/ev0000245/2024/1/
+  filmfare award:
+    best actor:
+      nominee: [tt10786774, tt13751694, tt14993250, tt15354916, tt15428134, tt15441054]
+      winner: [tt13751694]
+    best actress:
+      nominee: [tt12844910, tt14295590, tt14914988, tt14993250, tt15428134, tt23036080]
+      winner: [tt14993250]
+    best debut actor:
+      nominee: [tt15175188]
+      winner: [tt15175188]
+    best debut actress:
+      nominee: [tt29301456]
+      winner: [tt29301456]
+    best debut director:
+      nominee: [tt27330026]
+      winner: [tt27330026]
+    best dialogue:
+      nominee: [tt12844910, tt14993250, tt15354916, tt15732324, tt23804378, tt23849204]
+      winner: [tt14993250]
+    best director:
+      nominee: [tt12844910, tt13751694, tt14993250, tt15354916, tt15732324, tt23849204]
+      winner: [tt23849204]
+    best film:
+      nominee: [tt12844910, tt13751694, tt14993250, tt15354916, tt15732324, tt23849204]
+      winner: [tt23849204]
+    best lyrics:
+      nominee: [tt10786774, tt13751694, tt14993250, tt15354916, tt15428134, tt15576460]
+      winner: [tt15576460]
+    best music album:
+      nominee: [tt12844910, tt13751694, tt14993250, tt15354916, tt15428134, tt15576460, tt8672856]
+      winner: [tt13751694]
+    best playback singer - female:
+      nominee: [tt12844910, tt14993250, tt15354916, tt27511275]
+      winner: [tt12844910]
+    best playback singer - male:
+      nominee: [tt13751694, tt14993250, tt15428134, tt15576460]
+      winner: [tt13751694]
+    best screenplay:
+      nominee: [tt12844910, tt13751694, tt14993250, tt15732324, tt23804378, tt23849204]
+      winner: [tt23849204]
+    best sound design:
+      nominee: [tt13751694]
+      winner: [tt13751694]
+    best story:
+      nominee: [tt12844910, tt14914988, tt14993250, tt15354916, tt15680228, tt15732324, tt23864864, tt27330026]
+      winner: [tt15732324, tt23864864]
+    best supporting actor:
+      nominee: [tt13751694, tt14993250, tt15175188, tt15428134, tt18411490]
+      winner: [tt15428134]
+    best supporting actress:
+      nominee: [tt13751694, tt14993250, tt15732324, tt15944428, tt27330026]
+      winner: [tt14993250]
+  r.d. burman award:
+    upcoming music talent:
+      nominee: [tt13751694]
+      winner: [tt13751694]
+  critics' awards:
+    best actor:
+      nominee: [tt10786774, tt15680228, tt15732324, tt15944428, tt23804378, tt23849204, tt23864864]
+      winner: [tt23849204]
+    best actress:
+      nominee: [tt13449254, tt14295590, tt15944428, tt21998526, tt23804378, tt27330026]
+      winner: [tt14295590, tt23804378]
+    best film:
+      nominee: [tt10786774, tt15175188, tt15680228, tt21998526, tt23804378, tt23849204, tt23864864]
+      winner: [tt23864864]
+  technical award:
+    best action:
+      nominee: [tt10786774, tt12844910, tt13334578, tt13751694, tt15354916, tt15441054, tt18411490]
+      winner: [tt15354916]
+    best background score:
+      nominee: [tt10786774, tt12844910, tt13449254, tt13751694, tt15832148, tt23804378, tt23849204]
+      winner: [tt13751694]
+    best choreography:
+      nominee: [tt12844910, tt14993250, tt15354916, tt15428134, tt15576460]
+      winner: [tt14993250]
+    best cinematography:
+      nominee: [tt12844910, tt13751694, tt14993250, tt15175188, tt15354916, tt23804378, tt23849204]
+      winner: [tt23804378]
+    best costume design:
+      nominee: [tt10786774, tt12844910, tt13751694, tt14993250, tt15354916, tt23849204]
+      winner: [tt10786774]
+    best editing:
+      nominee: [tt12844910, tt13751694, tt15354916, tt15732324, tt15832148, tt23849204]
+      winner: [tt23849204]
+    best production design:
+      nominee: [tt10786774, tt13751694, tt14993250, tt15354916, tt15732324, tt21998526, tt23849204]
+      winner: [tt10786774]
+    best sound design:
+      nominee: [tt10786774, tt12844910, tt13751694, tt15175188, tt15680228, tt23804378, tt23849204]
+      winner: [tt10786774, tt13751694]
+    best vfx:
+      nominee: [tt12844910, tt13751694, tt15354916, tt15441054]
+      winner: [tt15354916]
+'2023': # https://www.imdb.com/event/ev0000245/2023/1/
+  filmfare award:
+    best actor:
+      nominee: [tt10811166, tt11934846, tt13131350, tt15309708, tt15501640, tt6455162]
+      winner: [tt11934846]
+    best actress:
+      nominee: [tt10028196, tt10083340, tt11934846, tt15257644, tt6455162]
+      winner: [tt10083340]
+    best debut actor:
+      nominee: [tt10083340, tt14099334, tt8983228, tt9054970]
+      winner: [tt8983228]
+    best debut actress:
+      nominee: [tt10644708, tt13449624, tt13919802, tt9637132]
+      winner: [tt13919802]
+    best debut director:
+      nominee: [tt10233718, tt13534808, tt15600222, tt9054970, tt9263550]
+      winner: [tt10233718]
+    best director:
+      nominee: [tt10083340, tt10811166, tt11934846, tt15309708, tt6277462, tt6455162]
+      winner: [tt10083340]
+    best film:
+      nominee: [tt10083340, tt10811166, tt11934846, tt15309708, tt6277462, tt6455162]
+      winner: [tt10083340]
+    best lyrics:
+      nominee: [tt10028196, tt10083340, tt14099334, tt5301942, tt6277462]
+      winner: [tt6277462]
+    best music album:
+      nominee: [tt10028196, tt10083340, tt14099334, tt15309708, tt6277462]
+      winner: [tt6277462]
+    best playback singer - female:
+      nominee: [tt10028196, tt10083340, tt13449624, tt6277462]
+      winner: [tt13449624]
+    best playback singer - male:
+      nominee: [tt10028196, tt11934846, tt14099334, tt6277462]
+      winner: [tt6277462]
+    best supporting actor:
+      nominee: [tt10811166, tt11934846, tt13449624, tt15309708, tt15600222]
+      winner: [tt13449624]
+    best supporting actress:
+      nominee: [tt11934846, tt13449624, tt6277462, tt9054970, tt9263550]
+      winner: [tt11934846]
+  r.d. burman award:
+    upcoming music talent:
+      nominee: [tt10083340]
+      winner: [tt10083340]
+  critics' awards:
+    best actor:
+      nominee: [tt10233718, tt11934846, tt14099334, tt5301942, tt8983228, tt9263550]
+      winner: [tt10233718]
+    best actress:
+      nominee: [tt10233718, tt11934846, tt15567704, tt6265050, tt6455162]
+      winner: [tt11934846, tt6455162]
+    best film:
+      nominee: [tt10233718, tt11934846, tt14099334, tt8983228, tt9263550]
+      winner: [tt11934846]
+  technical award:
+    best action:
+      nominee: [tt10598156, tt11873440, tt13022984, tt13131350, tt15501640, tt6277462]
+      winner: [tt13131350]
+    best background score:
+      nominee: [tt10083340, tt13131350, tt13919802, tt14099334, tt6277462]
+      winner: [tt10083340]
+    best choreography:
+      nominee: [tt10083340, tt13131350, tt13449624, tt14099334, tt6277462, tt6455162]
+      winner: [tt10083340]
+    best cinematography:
+      nominee: [tt10028196, tt10083340, tt13131350, tt13919802, tt15600222]
+      winner: [tt10083340]
+    best costume design:
+      nominee: [tt10028196, tt10083340, tt11934846, tt8983228, tt9637132]
+      winner: [tt10083340]
+    best dialogue:
+      nominee: [tt10083340, tt11934846, tt13131350, tt15309708, tt15600222, tt9054970]
+      winner: [tt10083340]
+    best editing:
+      nominee: [tt10811166, tt14099334, tt15501640, tt15600222, tt6455162]
+      winner: [tt15600222]
+    best production design:
+      nominee: [tt10028196, tt10083340, tt13131350, tt14099334, tt6277462, tt6455162]
+      winner: [tt10083340]
+    best screenplay:
+      nominee: [tt10083340, tt10233718, tt10811166, tt11934846, tt15600222, tt6455162]
+      winner: [tt11934846]
+    best sound design:
+      nominee: [tt10028196, tt10083340, tt13131350, tt13919802, tt14099334, tt6277462]
+      winner: [tt6277462]
+    best story:
+      nominee: [tt10233718, tt11934846, tt14099334, tt15309708, tt15600222]
+      winner: [tt11934846]
+    best vfx:
+      nominee: [tt10028196, tt14099334, tt6277462, tt6455162, tt9263550]
+      winner: [tt6277462]
+'2022': # https://www.imdb.com/event/ev0000245/2022/1/
+  filmfare award:
+    best actor:
+      nominee: [tt10280296, tt10295212, tt7518786, tt9766332]
+      winner: [tt7518786]
+    best actress:
+      nominee: [tt10295212, tt10741542, tt10895556, tt10895576, tt7094488]
+      winner: [tt10895576]
+    best debut actor:
+      nominee: [tt7559180]
+      winner: [tt7559180]
+    best debut actress:
+      nominee: [tt10569922]
+      winner: [tt10569922]
+    best debut director:
+      nominee: [tt10196464]
+      winner: [tt10196464]
+    best director:
+      nominee: [tt10196464, tt10280296, tt10295212, tt10895556, tt7518786]
+      winner: [tt10295212]
+    best film:
+      nominee: [tt10196464, tt10280296, tt10295212, tt10895556]
+      winner: [tt10295212]
+    best lyrics:
+      nominee: [tt10295212, tt11027830, tt7518786, tt9176086, tt9766332]
+      winner: [tt7518786]
+    best music album:
+      nominee: [tt10295212, tt10895576, tt11027830, tt12861850, tt9176086, tt9766332]
+      winner: [tt10295212]
+    best playback singer - female:
+      nominee: [tt10295212, tt10895576, tt11027830, tt12861850, tt8907992, tt9766332]
+      winner: [tt10295212]
+    best playback singer - male:
+      nominee: [tt10295212, tt11027830, tt7518786, tt9766332]
+      winner: [tt10295212]
+    best supporting actor:
+      nominee: [tt10152736, tt10895556, tt10895576, tt7518786, tt8984572, tt9176086]
+      winner: [tt10895576]
+    best supporting actress:
+      nominee: [tt10196464, tt10895576, tt7094488, tt8907992, tt9176086]
+      winner: [tt10895576]
+  critics' awards:
+    best actor:
+      nominee: [tt10280296, tt11027830, tt7518786, tt8591792, tt8984572]
+      winner: [tt10280296]
+    best actress:
+      nominee: [tt10196464, tt10741542, tt11027830, tt7094488]
+      winner: [tt10741542]
+    best film:
+      nominee: [tt10196464, tt10280296, tt10741542, tt7094488]
+      winner: [tt10280296]
+  technical award:
+    best action:
+      nominee: [tt10295212, tt11045422, tt13491110, tt7518786, tt9531772]
+      winner: [tt10295212]
+    best background score:
+      nominee: [tt10280296, tt10295212, tt11027830, tt7518786, tt7559180, tt8984572]
+      winner: [tt10280296]
+    best choreography:
+      nominee: [tt10098288, tt10895576, tt9531772, tt9766332]
+      winner: [tt9766332]
+    best cinematography:
+      nominee: [tt10280296, tt10295212, tt10741542, tt10895556, tt7094488, tt7518786]
+      winner: [tt10280296]
+    best costume design:
+      nominee: [tt10152736, tt10280296, tt10295212, tt10895556, tt7094488]
+      winner: [tt10280296]
+    best dialogue:
+      nominee: [tt10280296, tt10295212, tt10741542, tt10895556, tt7094488, tt7518786]
+      winner: [tt7094488]
+    best editing:
+      nominee: [tt10280296, tt10295212, tt10741542, tt10895556, tt7094488, tt7518786]
+      winner: [tt10295212]
+    best production design:
+      nominee: [tt10280296, tt10295212, tt10741542, tt10895556, tt7094488, tt7518786]
+      winner: [tt10280296]
+    best screenplay:
+      nominee: [tt10280296, tt10295212, tt10741542, tt10895556, tt7094488, tt7518786]
+      winner: [tt10280296]
+    best sound design:
+      nominee: [tt10280296, tt10741542, tt12861850, tt7518786]
+      winner: [tt10280296]
+    best story:
+      nominee: [tt10196464, tt10895556, tt11027830, tt12861850, tt7094488]
+      winner: [tt12861850]
+    best vfx:
+      nominee: [tt10152736, tt10280296, tt10295212, tt7518786, tt9531772]
+      winner: [tt10280296]
+  short film award:
+    best actor in a short film:
+      nominee: [tt14872706, tt15422716, tt8481316]
+      winner: [tt8481316]
+    best short film - fiction:
+      nominee: [tt15422716, tt16429936]
+      winner: [tt16429936]
+'2021': # https://www.imdb.com/event/ev0000245/2021/1/
+  filmfare award:
+    best actor:
+      nominee: [tt10309906, tt10333912, tt7212754, tt8108274, tt8110330, tt8907986]
+      winner: [tt8907986]
+    best actress:
+      nominee: [tt10350626, tt10964430, tt10964468, tt8983166, tt9614460]
+      winner: [tt10964430]
+    best debut actress:
+      nominee: [tt9248952]
+      winner: [tt9248952]
+    best debut director:
+      nominee: [tt10515526]
+      winner: [tt10515526]
+    best director:
+      nominee: [tt10333912, tt10350626, tt10964430, tt7212754, tt8108274]
+      winner: [tt8108274]
+    best film:
+      nominee: [tt10333912, tt10350626, tt10964430, tt7212754, tt8108274]
+      winner: [tt10964430]
+    best lyrics:
+      nominee: [tt10023024, tt10309906, tt10964430, tt7212754, tt9614460]
+      winner: [tt9614460]
+    best music album:
+      nominee: [tt10023024, tt7212754, tt8110330, tt9614460, tt9877170]
+      winner: [tt7212754]
+    best playback singer - female:
+      nominee: [tt10023024, tt10350626, tt10930586, tt10964468, tt9877170]
+      winner: [tt9877170]
+    best playback singer - male:
+      nominee: [tt10023024, tt10309906, tt10964430, tt7212754, tt9877170]
+      winner: [tt10964430]
+    best screenplay:
+      nominee: [tt10515526, tt10964430, tt7142506, tt7212754, tt8108274]
+      winner: [tt7142506]
+    best story:
+      nominee: [tt10333912, tt10515526, tt10964430, tt7142506, tt7881550]
+      winner: [tt10964430]
+    best supporting actor:
+      nominee: [tt10309906, tt10350626, tt10964430, tt7212754, tt8108274, tt8907986]
+      winner: [tt8108274]
+    best supporting actress:
+      nominee: [tt10309906, tt10333912, tt10964430, tt8983166]
+      winner: [tt10333912]
+  critics' awards:
+    best actor:
+      nominee: [tt10333912, tt7212754, tt7881550, tt8907986, tt9343754]
+      winner: [tt10333912]
+    best actress:
+      nominee: [tt10964430, tt10964468, tt7142506, tt7212754, tt9176296]
+      winner: [tt7142506]
+    best film:
+      nominee: [tt10333912, tt10515526, tt10964430, tt7142506, tt7881550, tt9343754]
+      winner: [tt9343754]
+  technical award:
+    best action:
+      nominee: [tt10515526, tt7363104, tt8108274, tt8366590, tt8983164]
+      winner: [tt8108274]
+    best background score:
+      nominee: [tt10515526, tt10964430, tt7212754, tt8108274, tt8110330]
+      winner: [tt10964430]
+    best choreography:
+      nominee: [tt8108274, tt8110330, tt8366590, tt9648672]
+      winner: [tt8110330]
+    best cinematography:
+      nominee: [tt10333912, tt10964430, tt8108274, tt8983166, tt9343754]
+      winner: [tt10333912]
+    best costume design:
+      nominee: [tt10333912, tt10964468, tt8108274, tt9614460]
+      winner: [tt10333912]
+    best dialogue:
+      nominee: [tt10333912, tt10515526, tt7212754, tt8108274, tt8907986]
+      winner: [tt10333912]
+    best editing:
+      nominee: [tt10333912, tt10515526, tt10964430, tt7142506, tt7212754]
+      winner: [tt10964430]
+    best production design:
+      nominee: [tt10333912, tt10350626, tt7212754, tt8108274, tt8983166]
+      winner: [tt10333912]
+    best sound design:
+      nominee: [tt10333912, tt10350626, tt10515526, tt10964430, tt7212754]
+      winner: [tt10964430]
+    best vfx:
+      nominee: [tt10350626, tt8108274, tt8366590]
+      winner: [tt8108274]
+  short film award:
+    best actor in a short film:
+      nominee: [tt15235726]
+      winner: [tt15235726]
+    best actress in a short film:
+      nominee: [tt14351802]
+      winner: [tt14351802]
+    best short film (people's choice):
+      nominee: [tt11268020]
+      winner: [tt11268020]
+    best short film - fiction:
+      nominee: [tt10157592, tt15235726]
+      winner: [tt15235726]
+'2020': # https://www.imdb.com/event/ev0000245/2020/1/
+  filmfare award:
+    best actor:
+      nominee: [tt2395469, tt6264938, tt7485048, tt8291224, tt8983202, tt9420648]
+      winner: [tt2395469]
+    best actress:
+      nominee: [tt2395469, tt5668770, tt6903440, tt8504014, tt8902990, tt9248972]
+      winner: [tt2395469]
+    best debut actor:
+      nominee: [tt10305616, tt10443846, tt2395469, tt5668770, tt5784778, tt8055888, tt9105014]
+      winner: [tt8055888]
+    best debut actress:
+      nominee: [tt10305616, tt10443846, tt7059844, tt7255568, tt9105014]
+      winner: [tt7255568]
+    best debut director:
+      nominee: [tt5668770, tt8108206, tt8291224, tt8504014, tt9248940, tt9248972]
+      winner: [tt8291224]
+    best director:
+      nominee: [tt2395469, tt7430722, tt8291224, tt9052870, tt9248972]
+      winner: [tt2395469]
+    best film:
+      nominee: [tt10645878, tt2395469, tt7430722, tt8291224, tt9052870, tt9248972]
+      winner: [tt2395469]
+    best lyrics:
+      nominee: [tt2395469, tt6264938, tt6988116, tt8983202]
+      winner: [tt2395469]
+    best music album:
+      nominee: [tt2395469, tt6264938, tt6988116, tt7721800, tt8983202]
+      winner: [tt2395469, tt8983202]
+    best original story:
+      nominee: [tt10324144, tt2395469, tt8055888, tt8108200, tt9052870, tt9248972]
+      winner: [tt10324144]
+    best playback singer - female:
+      nominee: [tt6988116, tt7430722, tt7721800, tt8108206, tt8983202]
+      winner: [tt7430722]
+    best playback singer - male:
+      nominee: [tt6264938, tt6988116, tt7721800, tt8983202]
+      winner: [tt6988116]
+    best production design:
+      nominee: [tt8108196]
+      winner: []
+    best screenplay:
+      nominee: [tt10324144, tt2395469, tt8108200, tt8108206, tt8144834, tt9248972]
+      winner: [tt2395469]
+    best supporting actor:
+      nominee: [tt10324144, tt2395469, tt8055888, tt8108200, tt8504014]
+      winner: [tt2395469]
+    best supporting actress:
+      nominee: [tt2395469, tt6988116, tt8130968, tt8902990, tt8983202, tt9420648]
+      winner: [tt2395469]
+  r.d. burman award:
+    new music talent:
+      nominee: [tt8291224]
+      winner: [tt8291224]
+  critics' awards:
+    best actor:
+      nominee: [tt10324144, tt7778680, tt8108196, tt8144834]
+      winner: [tt10324144]
+    best actress:
+      nominee: [tt7778680, tt8055888, tt8108196, tt8108200, tt8108206]
+      winner: [tt8108206]
+    best film:
+      nominee: [tt10324144, tt7778680, tt8055888, tt8108200, tt8902990]
+      winner: [tt10324144, tt8108200]
+  technical award:
+    best action:
+      nominee: [tt6264938, tt7430722, tt8055888, tt8108200, tt8176040, tt8291224, tt8983168]
+      winner: [tt7430722]
+    best background score:
+      nominee: [tt10324144, tt2395469, tt8055888, tt8108196, tt8130968, tt8291224]
+      winner: [tt2395469]
+    best choreography:
+      nominee: [tt6988116, tt7430722, tt7485048]
+      winner: [tt6988116]
+    best cinematography:
+      nominee: [tt10324144, tt2395469, tt8055888, tt8108196, tt8108200, tt8291224]
+      winner: [tt2395469]
+    best costume design:
+      nominee: [tt2395469, tt6903440, tt7778680, tt8108196, tt8108200, tt9052960]
+      winner: [tt8108200]
+    best dialogue:
+      nominee: [tt10324144, tt2395469, tt7485048, tt8108200, tt9052870, tt9420648]
+      winner: [tt2395469]
+    best editing:
+      nominee: [tt10324144, tt2395469, tt8130968, tt8291224, tt9052870]
+      winner: [tt8291224]
+    best production design:
+      nominee: [tt2395469, tt6264938, tt8108200]
+      winner: [tt2395469]
+    best sound design:
+      nominee: [tt10324144, tt2395469, tt8108200, tt8108206, tt8130968, tt8291224]
+      winner: [tt8291224]
+    best vfx:
+      nominee: [tt7430722, tt8055888, tt8176040, tt8291224]
+      winner: [tt7430722]
+  short film award:
+    best actor in a short film:
+      nominee: [tt6303094]
+      winner: [tt6303094]
+    best actress in a short film:
+      nominee: [tt8991706]
+      winner: [tt8991706]
+    best short film (fiction):
+      nominee: [tt12226336, tt8991706]
+      winner: [tt8991706]
+'2019': # https://www.imdb.com/event/ev0000245/2019/1/
+  special award:
+    r d burman award:
+      nominee: [tt8011276]
+      winner: [tt8011276]
+  critics' awards:
+    best actor:
+      nominee: [tt5935704, tt6452574, tt6923462, tt7180544, tt7700730, tt8108198]
+      winner: [tt5935704, tt8108198]
+    best actress:
+      nominee: [tt7098658, tt7147540, tt7618184, tt7725596, tt8108198, tt8396128]
+      winner: [tt7725596]
+    best film:
+      nominee: [tt6923462, tt7098658, tt7725596, tt8108198, tt8239946, tt8396128]
+      winner: [tt8108198]
+  technical award:
+    best action:
+      nominee: [tt5935704, tt6129302, tt6843812, tt7180544, tt7212726]
+      winner: [tt7180544]
+    best background score:
+      nominee: [tt5474036, tt7098658, tt7700730, tt8108198, tt8239946]
+      winner: [tt8108198]
+    best choreography:
+      nominee: [tt5935704, tt6452574, tt6527426, tt8396128]
+      winner: [tt5935704]
+    best cinematography:
+      nominee: [tt5935704, tt6129302, tt6923462, tt7700730, tt8239946, tt8396128]
+      winner: [tt8239946]
+    best costume design:
+      nominee: [tt5935704, tt6173990, tt6923462, tt8239946, tt8396128]
+      winner: [tt6923462]
+    best dialogue:
+      nominee: [tt6923462, tt7147540, tt7618184, tt7725596, tt8108202, tt8396128]
+      winner: [tt7725596]
+    best editing:
+      nominee: [tt7098658, tt7618184, tt8108198, tt8108202, tt8239946]
+      winner: [tt8108198]
+    best production design:
+      nominee: [tt5935704, tt6923462, tt6978268, tt7725596, tt8108202, tt8239946]
+      winner: [tt8239946]
+    best screenplay:
+      nominee: [tt6923462, tt7098658, tt7618184, tt7725596, tt8108198, tt8108202]
+      winner: [tt8108198]
+    best sound design:
+      nominee: [tt2302416, tt5935704, tt7329858, tt7700730, tt8108198, tt8239946]
+      winner: [tt8239946]
+    best special effects:
+      nominee: [tt5935704, tt6527426, tt7329858, tt8239946]
+      winner: [tt6527426]
+    best story:
+      nominee: [tt7147540, tt7180544, tt7618184, tt7725596, tt8108202]
+      winner: [tt7618184]
+  main award:
+    best actor:
+      nominee: [tt5935704, tt6452574, tt6527426, tt7218518, tt8108198, tt8108202]
+      winner: [tt6452574]
+    best actress:
+      nominee: [tt5935704, tt6588966, tt7098658, tt7725596, tt8108198]
+      winner: [tt7098658]
+    best debut actor:
+      nominee: [tt3224288]
+      winner: [tt3224288]
+    best debut actress:
+      nominee: [tt6173990, tt7027278, tt7638344, tt7700730, tt8396128]
+      winner: [tt7027278]
+    best debut director:
+      nominee: [tt8108202]
+      winner: [tt8108202]
+    best director:
+      nominee: [tt5935704, tt6452574, tt7098658, tt7725596, tt8108198, tt8108202]
+      winner: [tt7098658]
+    best film:
+      nominee: [tt5935704, tt6452574, tt7098658, tt7725596, tt8108198, tt8108202]
+      winner: [tt7098658]
+    best lyricist:
+      nominee: [tt5935704, tt6452574, tt6527426, tt7098658, tt7581902]
+      winner: [tt7098658]
+    best music director:
+      nominee: [tt5474036, tt5935704, tt6527426, tt7098658, tt7581902, tt7638344]
+      winner: [tt5935704]
+    best playback singer - female:
+      nominee: [tt5935704, tt7098658, tt7147540, tt7700730, tt8011276]
+      winner: [tt5935704]
+    best playback singer - male:
+      nominee: [tt5842616, tt5935704, tt6527426, tt7098658, tt7581902]
+      winner: [tt7098658]
+    best supporting actor:
+      nominee: [tt5935704, tt6452574, tt7618184, tt7725596, tt8108202]
+      winner: [tt6452574, tt7725596]
+    best supporting actress:
+      nominee: [tt5842616, tt6527426, tt7147540, tt7700730, tt7725596]
+      winner: [tt7725596]
+  short film award:
+    best actor in a short film:
+      nominee: [tt6985880]
+      winner: [tt6985880]
+    best actress in a short film:
+      nominee: [tt8655716]
+      winner: [tt8655716]
+    best short film (people's choice):
+      nominee: [tt8959858]
+      winner: [tt8959858]
+    best short film - fiction:
+      nominee: [tt10704340, tt10927604, tt8133516, tt8952648]
+      winner: [tt8133516]
+'2018': # https://www.imdb.com/event/ev0000245/2018/1/
+  filmfare award:
+    best actor:
+      nominee: [tt3405236, tt5460276, tt5764096, tt5785170, tt6277440, tt6971752]
+      winner: [tt5764096]
+    best actress:
+      nominee: [tt5690142, tt5764096, tt6108090, tt6277440, tt6791730, tt6971752]
+      winner: [tt6791730]
+    best director:
+      nominee: [tt5764096, tt5785170, tt6108090, tt6277440, tt6967980]
+      winner: [tt6967980]
+    best film:
+      nominee: [tt5764096, tt5785170, tt6108090, tt6277440, tt6967980]
+      winner: [tt5764096]
+    best lyricist:
+      nominee: [tt4129428, tt5472374, tt6108090, tt6791730, tt6967980]
+      winner: [tt4129428]
+    best music album:
+      nominee: [tt4129428, tt5474042, tt5997666, tt6108090, tt6277440, tt6967980]
+      winner: [tt4129428]
+    best playback singer - female:
+      nominee: [tt5472374, tt5474042, tt5997666, tt6108090, tt6791730, tt6971752]
+      winner: [tt6108090]
+    best playback singer - male:
+      nominee: [tt3405236, tt5474042, tt6265988, tt6277440, tt6967980]
+      winner: [tt6277440]
+    best supporting actor:
+      nominee: [tt5690142, tt5764096, tt6108090, tt6484982, tt6791730, tt6967980]
+      winner: [tt6967980]
+    best supporting actress:
+      nominee: [tt4807830, tt5918074, tt6108090, tt6967980, tt6971752]
+      winner: [tt6108090]
+  special award:
+    best debut director:
+      nominee: [tt5918074]
+      winner: [tt5918074]
+  critics' awards:
+    best actor:
+      nominee: [tt4129428, tt5764096, tt5918074, tt6206564, tt6484982]
+      winner: [tt6206564]
+    best actress:
+      nominee: [tt4909752, tt5690142, tt6058394, tt6108090, tt6791730]
+      winner: [tt6108090]
+    best film:
+      nominee: [tt4807830, tt5918074, tt5997928, tt6206564, tt6484982]
+      winner: [tt6484982]
+  technical award:
+    best action:
+      nominee: [tt3405236, tt4129428, tt4909752, tt5954088, tt5956100]
+      winner: [tt5956100]
+    best background score:
+      nominee: [tt4129428, tt5690142, tt5918074, tt5997928, tt6206564, tt6926486]
+      winner: [tt4129428]
+    best choreography:
+      nominee: [tt4129428, tt4909752, tt6277440, tt6791730]
+      winner: [tt4129428]
+    best cinematography:
+      nominee: [tt4129428, tt4909752, tt5918074, tt6484982, tt6926486]
+      winner: [tt5918074]
+    best costume design:
+      nominee: [tt4909752, tt5918074, tt6926486]
+      winner: [tt5918074]
+    best dialogue:
+      nominee: [tt5982852, tt6484982, tt6791730, tt6967980, tt6971752]
+      winner: [tt6971752]
+    best editing:
+      nominee: [tt5690142, tt5918074, tt6206564, tt6484982]
+      winner: [tt6206564]
+    best production design:
+      nominee: [tt3405236, tt4909752, tt5918074, tt6926486]
+      winner: [tt6926486]
+    best screenplay:
+      nominee: [tt5982852, tt5997928, tt6108090, tt6206564, tt6484982]
+      winner: [tt5997928]
+    best sound design:
+      nominee: [tt3405236, tt5690142, tt6206564, tt6791730, tt6926486]
+      winner: [tt6206564]
+    best story:
+      nominee: [tt4307132, tt4699202, tt5997928, tt6206564, tt6484982, tt6791730]
+      winner: [tt6484982]
+  short film award:
+    best actor in a short film:
+      nominee: [tt6861286]
+      winner: [tt6861286]
+    best actress in a short film:
+      nominee: [tt7695134]
+      winner: [tt7695134]
+    best short film (fiction):
+      nominee: [tt7695134]
+      winner: [tt7695134]
+    best short film (people's choice):
+      nominee: [tt7963880]
+      winner: [tt7963880]
+'2017': # https://www.imdb.com/event/ev0000245/2017/1/
+  filmfare award:
+    best actor:
+      nominee: [tt3495026, tt4169250, tt4434004, tt4559006, tt4832640, tt5074352, tt5571734]
+      winner: [tt5074352]
+    best actress:
+      nominee: [tt4434004, tt4559006, tt5120640, tt5286444, tt5477608, tt5946128]
+      winner: [tt4434004]
+    best debut actor:
+      nominee: [tt4434004]
+      winner: [tt4434004]
+    best debut actress:
+      nominee: [tt5310090]
+      winner: [tt5310090]
+    best debut director:
+      nominee: [tt5005684]
+      winner: [tt5005684]
+    best director:
+      nominee: [tt4434004, tt4559006, tt4832640, tt4900716, tt5074352, tt5286444]
+      winner: [tt5074352]
+    best film:
+      nominee: [tt4434004, tt4832640, tt4900716, tt5074352, tt5286444, tt5571734]
+      winner: [tt5074352]
+    best music director:
+      nominee: [tt4434004, tt4559006, tt4832640, tt4864932, tt4900716, tt4940456]
+      winner: [tt4559006]
+    best playback singer - female:
+      nominee: [tt4169250, tt4434004, tt4559006, tt4832640, tt5197544, tt5571734]
+      winner: [tt4832640]
+    best playback singer - male:
+      nominee: [tt4559006, tt4832640, tt5165344]
+      winner: [tt4559006]
+    best sound design:
+      nominee: [tt5477608]
+      winner: []
+    best supporting actor:
+      nominee: [tt4434004, tt4900716, tt5121000, tt5286444]
+      winner: [tt4900716]
+    best supporting actress:
+      nominee: [tt4434004, tt4900716, tt5120640, tt5286444, tt5571734]
+      winner: [tt5286444]
+  r.d. burman award:
+    new music talent:
+      nominee: [tt4559006]
+      winner: [tt4559006]
+  critics' awards:
+    best actor:
+      nominee: [tt4434004, tt5121000]
+      winner: [tt4434004, tt5121000]
+    best actress:
+      nominee: [tt5286444]
+      winner: [tt5286444]
+    best film:
+      nominee: [tt5286444]
+      winner: [tt5286444]
+  technical award:
+    best action:
+      nominee: [tt5074352]
+      winner: [tt5074352]
+    best background score:
+      nominee: [tt4434004, tt4900716]
+      winner: [tt4900716]
+    best choreography:
+      nominee: [tt4900716]
+      winner: [tt4900716]
+    best cinematography:
+      nominee: [tt5286444]
+      winner: [tt5286444]
+    best costume design:
+      nominee: [tt4434004, tt5477608]
+      winner: [tt4434004]
+    best dialogue:
+      nominee: [tt5571734]
+      winner: [tt5571734]
+    best editing:
+      nominee: [tt5286444]
+      winner: [tt5286444]
+    best production design:
+      nominee: [tt5286444]
+      winner: [tt5286444]
+    best screenplay:
+      nominee: [tt4900716]
+      winner: [tt4900716]
+    best sound design:
+      nominee: [tt5286444, tt5743656]
+      winner: [tt5743656]
+    best special effects:
+      nominee: [tt3495026]
+      winner: [tt3495026]
+    best story:
+      nominee: [tt4900716]
+      winner: [tt4900716]
+  short film award:
+    best actor in a short film:
+      nominee: [tt5537512]
+      winner: [tt5537512]
+    best actress in a short film:
+      nominee: [tt6289266]
+      winner: [tt6289266]
+    best director in a short film:
+      nominee: [tt6289266]
+      winner: [tt6289266]
+    best short film (fiction):
+      nominee: [tt6289266]
+      winner: [tt6289266]
+    best short film (people's choice):
+      nominee: [tt7125080]
+      winner: []
+'2016': # https://www.imdb.com/event/ev0000245/2016/1/
+  filmfare award:
+    best actor:
+      nominee: [tt3148502, tt3678782, tt3735246, tt3767372, tt3863552, tt4535650]
+      winner: [tt3735246]
+    best actress:
+      nominee: [tt2140465, tt3735246, tt3742284, tt3767372, tt4332114, tt4535650]
+      winner: [tt3767372]
+    best debut actor:
+      nominee: [tt3019620, tt4467202]
+      winner: [tt4467202]
+    best debut actress:
+      nominee: [tt3495030]
+      winner: [tt3495030]
+    best debut director:
+      nominee: [tt4635372]
+      winner: [tt4635372]
+    best director:
+      nominee: [tt2140465, tt3678782, tt3735246, tt3767372, tt3863552, tt4934950]
+      winner: [tt3735246]
+    best film:
+      nominee: [tt2140465, tt3678782, tt3735246, tt3767372, tt3863552, tt4934950]
+      winner: [tt3735246]
+    best lyrics:
+      nominee: [tt2976182, tt3148502, tt3495030, tt4007558, tt4535650, tt4934950]
+      winner: [tt3148502]
+    best music direction:
+      nominee: [tt2976182, tt3148502, tt3735246, tt3767372, tt4110568, tt4535650]
+      winner: [tt2976182]
+    best playback singer - female:
+      nominee: [tt3148502, tt3495030, tt3595298, tt3679000, tt3735246, tt4007558]
+      winner: [tt3735246]
+    best playback singer - male:
+      nominee: [tt2976182, tt3495030, tt3678782, tt4007558, tt4535650]
+      winner: [tt2976182]
+    best supporting actor:
+      nominee: [tt2140465, tt3678782, tt4110568, tt4635372]
+      winner: [tt4110568]
+    best supporting actress:
+      nominee: [tt3678782, tt3735246, tt4110568, tt4430212]
+      winner: [tt3735246]
+  critics' awards:
+    best actor:
+      nominee: [tt3767372]
+      winner: [tt3767372]
+    best actress:
+      nominee: [tt2140465]
+      winner: [tt2140465]
+    best film:
+      nominee: [tt3767372]
+      winner: [tt3767372]
+  technical award:
+    best action:
+      nominee: [tt3735246]
+      winner: [tt3735246]
+    best background score:
+      nominee: [tt3767372]
+      winner: [tt3767372]
+    best choreography:
+      nominee: [tt3735246]
+      winner: [tt3735246]
+    best cinematography:
+      nominee: [tt3495030]
+      winner: [tt3495030]
+    best costume design:
+      nominee: [tt3735246]
+      winner: [tt3735246]
+    best dialogue:
+      nominee: [tt2140465]
+      winner: [tt2140465]
+    best editing:
+      nominee: [tt4635372, tt4934950]
+      winner: [tt4934950]
+    best production design:
+      nominee: [tt3735246]
+      winner: [tt3735246]
+    best screenplay:
+      nominee: [tt3767372]
+      winner: [tt3767372]
+    best sound:
+      nominee: [tt3019620]
+      winner: []
+    best sound design:
+      nominee: [tt3742284, tt4934950]
+      winner: [tt4934950]
+    best special effects:
+      nominee: [tt2979920]
+      winner: [tt2979920]
+    best story:
+      nominee: [tt3863552]
+      winner: [tt3863552]
+'2015': # https://www.imdb.com/event/ev0000245/2015/1/
+  filmfare award:
+    best actor:
+      nominee: [tt1239276, tt2338151, tt2556308, tt2905838, tt3390572]
+      winner: [tt3390572]
+    best actress:
+      nominee: [tt2675978, tt2980794, tt3001638, tt3322420, tt3495000, tt3554418]
+      winner: [tt3322420]
+    best debut actor:
+      nominee: [tt3554418, tt3678938]
+      winner: [tt3554418]
+    best debut actress:
+      nominee: [tt3142232]
+      winner: [tt3142232]
+    best debut director:
+      nominee: [tt2372678]
+      winner: [tt2372678]
+    best director:
+      nominee: [tt2338151, tt2372678, tt2882328, tt3390572, tt3588218]
+      winner: [tt3588218]
+    best film:
+      nominee: [tt2338151, tt2372678, tt3001638, tt3322420, tt3390572]
+      winner: [tt3322420]
+    best supporting actor:
+      nominee: [tt2372678, tt2461132, tt3175038, tt3390572, tt3495000]
+      winner: [tt3390572]
+    best supporting actress:
+      nominee: [tt2372678, tt2573750, tt3142688, tt3322420, tt3390572]
+      winner: [tt3390572]
+  critics' awards:
+    best actor:
+      nominee: [tt3614516]
+      winner: [tt3614516]
+    best actress:
+      nominee: [tt2980794]
+      winner: [tt2980794]
+    best film:
+      nominee: [tt3614516]
+      winner: [tt3614516]
+  technical award:
+    best action:
+      nominee: [tt2372222, tt2574698, tt2905838, tt3142232, tt3495000]
+      winner: [tt2574698]
+    best background score:
+      nominee: [tt2980794, tt3001638, tt3142688, tt3322420, tt3495000]
+      winner: [tt3322420]
+    best choreography:
+      nominee: [tt2372222, tt2574698, tt2905838, tt3142232, tt3322420]
+      winner: [tt2372222]
+    best cinematography:
+      nominee: [tt1629715, tt2980794, tt3142688, tt3322420, tt3495000]
+      winner: [tt3322420]
+    best costume design:
+      nominee: [tt2338151, tt2675978, tt3142688, tt3322420, tt3390572]
+      winner: [tt3390572]
+    best dialogue:
+      nominee: [tt2338151, tt2675978, tt3173910, tt3322420, tt3531852]
+      winner: [tt2338151]
+    best editing:
+      nominee: [tt2338151, tt2882328, tt2980794, tt3322420, tt3495000]
+      winner: [tt3322420]
+    best production design:
+      nominee: [tt1629715, tt2675978, tt3142688, tt3390572, tt3614516]
+      winner: [tt3390572]
+    best screenplay:
+      nominee: [tt2338151, tt2882328, tt3322420, tt3495000, tt3614516]
+      winner: [tt2338151]
+    best sound design:
+      nominee: [tt2882328, tt2980794, tt3322420, tt3390572, tt3495000]
+      winner: [tt3495000]
+    best story:
+      nominee: [tt2338151, tt2417560, tt2882328, tt2980794, tt3614516]
+      winner: [tt3614516]
+  main award:
+    best lyricist:
+      nominee: [tt2980794, tt3173910, tt3390572, tt3514330, tt3709344]
+      winner: [tt3709344]
+    best playback singer - female:
+      nominee: [tt2461132, tt2609218, tt2675978, tt2980794, tt3554418]
+      winner: [tt2609218]
+    best playback singer - male:
+      nominee: [tt2372678, tt3173910, tt3175038, tt3514330]
+      winner: [tt3175038]
+'2014': # https://www.imdb.com/event/ev0000245/2014/1/
+  filmfare award:
+    best actor:
+      nominee: [tt1029231, tt2112124, tt2178470, tt2215477, tt2356180, tt2359810]
+      winner: [tt2356180]
+    best actress:
+      nominee: [tt2112124, tt2203308, tt2215477, tt2224317, tt2359810, tt2988272]
+      winner: [tt2215477]
+    best debut actor:
+      nominee: [tt2359810]
+      winner: [tt2359810]
+    best debut actress:
+      nominee: [tt2988272]
+      winner: [tt2988272]
+    best debut director:
+      nominee: [tt2350496]
+      winner: [tt2350496]
+    best director:
+      nominee: [tt2112124, tt2178470, tt2213054, tt2215477, tt2356180, tt3668162]
+      winner: [tt2356180, tt3668162]
+    best film:
+      nominee: [tt2112124, tt2178470, tt2215477, tt2356180, tt2359810]
+      winner: [tt2356180]
+    best lyricist:
+      nominee: [tt2178470, tt2203308, tt2213054, tt2224317, tt2356180]
+      winner: [tt2356180]
+    best music:
+      nominee: [tt2112124, tt2178470, tt2203308, tt2215477, tt2224317, tt2359810]
+      winner: [tt2203308]
+    best playback singer - female:
+      nominee: [tt2112124, tt2178470, tt2203308, tt2215477, tt2224317]
+      winner: [tt2224317]
+    best playback singer - male:
+      nominee: [tt2178470, tt2203308, tt2213054, tt2356180]
+      winner: [tt2203308]
+    best special effects:
+      nominee: [tt1833673]
+      winner: [tt1833673]
+    best supporting actor:
+      nominee: [tt1029231, tt2106537, tt2178470, tt2213054, tt2350496, tt2377938]
+      winner: [tt2350496]
+    best supporting actress:
+      nominee: [tt2178470, tt2215477, tt2356180, tt2359810, tt2406676]
+      winner: [tt2215477]
+  special award:
+    best trendsetter of the year:
+      nominee: [tt2112124]
+      winner: [tt2112124]
+  critics' awards:
+    best actor:
+      nominee: [tt2181831]
+      winner: [tt2181831]
+    best actress:
+      nominee: [tt2408040]
+      winner: [tt2408040]
+    best film:
+      nominee: [tt2350496]
+      winner: [tt2350496]
+  technical award:
+    best action:
+      nominee: [tt1029231, tt1833673, tt2112124, tt2385104, tt2658126]
+      winner: [tt2385104]
+    best background score:
+      nominee: [tt2213054, tt2215477, tt2356180, tt2377938, tt2385104]
+      winner: [tt2213054]
+    best choreography:
+      nominee: [tt2112124, tt2178470, tt2215477, tt2321163]
+      winner: [tt2215477]
+    best cinematography:
+      nominee: [tt2213054, tt2215477, tt2377938, tt2385104, tt2855648]
+      winner: [tt2855648]
+    best costume design:
+      nominee: [tt2213054, tt2215477, tt2224317, tt2356180, tt2988272]
+      winner: [tt2356180]
+    best dialogue:
+      nominee: [tt2112124, tt2181831, tt2377938, tt2621000, tt2988272]
+      winner: [tt2621000]
+    best editing:
+      nominee: [tt2213054, tt2350496, tt2377938, tt2385104, tt2855648]
+      winner: [tt2385104]
+    best production design:
+      nominee: [tt2215477, tt2224317, tt2356180, tt2385104, tt2855648]
+      winner: [tt2356180]
+    best screenplay:
+      nominee: [tt2213054, tt2377938, tt2385104, tt2621000, tt2855648]
+      winner: [tt2213054]
+    best sound design:
+      nominee: [tt1833673, tt2215477, tt2350496, tt2359810, tt2855648]
+      winner: [tt2855648]
+    best special effects:
+      nominee: [tt1029231, tt1833673, tt2213054, tt2356180, tt2855648]
+      winner: [tt1833673]
+    best story:
+      nominee: [tt1773764, tt2350496, tt2408040, tt2621000, tt2988272]
+      winner: [tt2621000]
+'2013': # https://www.imdb.com/event/ev0000245/2013/1/
+  filmfare award:
+    best actor:
+      nominee: [tt1787988, tt1849718, tt1954470, tt2082197, tt2112131, tt2176013]
+      winner: [tt2082197]
+    best actress:
+      nominee: [tt1821480, tt1949548, tt2082197, tt2168910, tt2181931, tt2308773]
+      winner: [tt1821480]
+    best debut actor:
+      nominee: [tt2172071, tt2308773, tt2317337]
+      winner: [tt2317337]
+    best debut actress:
+      nominee: [tt1954470, tt2082197, tt2168910, tt2172071, tt2317337, tt2319889]
+      winner: [tt2082197]
+    best debut director:
+      nominee: [tt2181931]
+      winner: [tt2181931]
+    best dialogue:
+      nominee: [tt1954470]
+      winner: [tt1954470]
+    best director:
+      nominee: [tt1821480, tt1954470, tt2082197, tt2181931, tt2317337]
+      winner: [tt1821480]
+    best film:
+      nominee: [tt1821480, tt1954470, tt2082197, tt2181931, tt2317337]
+      winner: [tt2082197]
+    best lyricist:
+      nominee: [tt1787988, tt1849718, tt2082197, tt2176013]
+      winner: [tt2176013]
+    best music director:
+      nominee: [tt1954470, tt2082197, tt2168910, tt2172071, tt2308773]
+      winner: [tt2082197]
+    best playback singer - female:
+      nominee: [tt1849718, tt2168910, tt2176013, tt2308773]
+      winner: [tt2308773]
+    best playback singer - male:
+      nominee: [tt1849718, tt2082197, tt2176013, tt2317337]
+      winner: [tt2317337]
+    best screenplay:
+      nominee: [tt1620933]
+      winner: [tt1620933]
+    best story:
+      nominee: [tt2317337]
+      winner: [tt2317337]
+    best supporting actor:
+      nominee: [tt1787988, tt1849718, tt2072227, tt2283748, tt2317337]
+      winner: [tt2317337]
+    best supporting actress:
+      nominee: [tt1787988, tt1954470, tt2082197, tt2176013]
+      winner: [tt2176013]
+    special award:
+      nominee: [tt0091601, tt0093578]
+      winner: [tt0091601, tt0093578]
+  special award:
+    best trendsetter of the year:
+      nominee: [tt2082197]
+      winner: [tt2082197]
+  critics' awards:
+    best actor:
+      nominee: [tt1620933]
+      winner: [tt1620933]
+    best actress:
+      nominee: [tt1954470]
+      winner: [tt1954470]
+    best film:
+      nominee: [tt1954470]
+      winner: [tt1954470]
+  technical award:
+    best action:
+      nominee: [tt1954470]
+      winner: [tt1954470]
+    best background score:
+      nominee: [tt2082197]
+      winner: [tt2082197]
+    best choreography:
+      nominee: [tt1703958]
+      winner: [tt1703958]
+    best cinematography:
+      nominee: [tt1821480]
+      winner: [tt1821480]
+    best costume design:
+      nominee: [tt2072227]
+      winner: [tt2072227]
+    best editing:
+      nominee: [tt1821480]
+      winner: [tt1821480]
+    best production design:
+      nominee: [tt2082197]
+      winner: [tt2082197]
+    best sound design:
+      nominee: [tt1821480]
+      winner: [tt1821480]
+'2012': # https://www.imdb.com/event/ev0000245/2012/1/
+  filmfare award:
+    best action:
+      nominee: [tt1285241]
+      winner: [tt1285241]
+    best actor:
+      nominee: [tt1285241, tt1562872, tt1729637, tt1839596, tt1848771, tt1948150]
+      winner: [tt1839596]
+    best actor - critics:
+      nominee: [tt1839596]
+      winner: [tt1839596]
+    best actress:
+      nominee: [tt1629376, tt1734110, tt1740710, tt1954206, tt2073070]
+      winner: [tt1954206]
+    best actress - critics:
+      nominee: [tt1629376]
+      winner: [tt1629376]
+    best background score:
+      nominee: [tt1836912]
+      winner: [tt1836912]
+    best choreographer:
+      nominee: [tt1625856]
+      winner: [tt1625856]
+    best cinematography:
+      nominee: [tt1562872]
+      winner: [tt1562872]
+    best costume design:
+      nominee: [tt1954206]
+      winner: [tt1954206]
+    best debut actor:
+      nominee: [tt1580704, tt1618430, tt1836912, tt1992138]
+      winner: [tt1992138]
+    best debut actress:
+      nominee: [tt1433810, tt1734110, tt1839596, tt1948150, tt1954598]
+      winner: [tt1954598]
+    best debut director:
+      nominee: [tt1772872, tt1934231]
+      winner: [tt1772872, tt1934231]
+    best dialogue:
+      nominee: [tt1562872]
+      winner: [tt1562872]
+    best director:
+      nominee: [tt1285241, tt1562872, tt1734110, tt1839596, tt1934231, tt1954206]
+      winner: [tt1562872]
+    best editing:
+      nominee: [tt1934231]
+      winner: [tt1934231]
+    best film:
+      nominee: [tt1285241, tt1562872, tt1734110, tt1839596, tt1934231, tt1954206]
+      winner: [tt1562872]
+    best film - critics:
+      nominee: [tt1562872]
+      winner: [tt1562872]
+    best lyricist:
+      nominee: [tt1562871, tt1562872, tt1629376, tt1839596]
+      winner: [tt1839596]
+    best music director:
+      nominee: [tt1562871, tt1562872, tt1740710, tt1839596, tt1934231]
+      winner: [tt1839596]
+    best playback singer - female:
+      nominee: [tt1562872, tt1629376, tt1729637, tt1839596, tt1916728]
+      winner: [tt1629376]
+    best playback singer - male:
+      nominee: [tt1562871, tt1729637, tt1839596]
+      winner: [tt1839596]
+    best production design:
+      nominee: [tt1934231]
+      winner: [tt1934231]
+    best screenplay:
+      nominee: [tt1934231]
+      winner: [tt1934231]
+    best sound design:
+      nominee: [tt1285241]
+      winner: [tt1285241]
+    best special effects:
+      nominee: [tt1562871]
+      winner: [tt1562871]
+    best story:
+      nominee: [tt1805263]
+      winner: [tt1805263]
+    best supporting actor:
+      nominee: [tt1562872, tt1916728, tt1934231, tt1954206]
+      winner: [tt1562872]
+    best supporting actress:
+      nominee: [tt1562872, tt1629295, tt1694542, tt1734110, tt1954598]
+      winner: [tt1734110]
+  r.d. burman award:
+    r.d. burman award:
+      nominee: [tt1694542]
+      winner: [tt1694542]
+  special award:
+    best scene:
+      nominee: [tt1954206]
+      winner: [tt1954206]
+'2011': # https://www.imdb.com/event/ev0000245/2011/1/
+  filmfare award:
+    best actor:
+      nominee: [tt1188996, tt1291465, tt1395054, tt1438298, tt1620719]
+      winner: [tt1188996]
+    best actress:
+      nominee: [tt1188996, tt1345777, tt1438298, tt1562859, tt1610452]
+      winner: [tt1188996]
+    best actress - critics:
+      nominee: [tt1345777]
+      winner: [tt1345777]
+    best background score:
+      nominee: [tt1639426]
+      winner: [tt1639426]
+    best choreography:
+      nominee: [tt1572311]
+      winner: [tt1572311]
+    best cinematography:
+      nominee: [tt1639426]
+      winner: [tt1639426]
+    best debut actor:
+      nominee: [tt1610452]
+      winner: [tt1610452]
+    best debut actress:
+      nominee: [tt1183917, tt1509732, tt1620719]
+      winner: [tt1620719]
+    best debut director:
+      nominee: [tt1610452]
+      winner: [tt1610452]
+    best dialogue:
+      nominee: [tt1714832]
+      winner: [tt1714832]
+    best director:
+      nominee: [tt1188996, tt1395054, tt1438298, tt1610452, tt1620719, tt1639426]
+      winner: [tt1188996]
+    best editing:
+      nominee: [tt1608777]
+      winner: [tt1608777]
+    best film:
+      nominee: [tt1188996, tt1447508, tt1610452, tt1620719, tt1639426]
+      winner: [tt1620719]
+    best lyricist:
+      nominee: [tt1188996, tt1345777, tt1620719, tt1667838]
+      winner: [tt1345777]
+    best music director:
+      nominee: [tt1188996, tt1345777, tt1395054, tt1499201, tt1620719, tt1667838]
+      winner: [tt1620719]
+    best playback singer (female):
+      nominee: [tt1572311]
+      winner: [tt1572311]
+    best playback singer - female:
+      nominee: [tt1188996, tt1438298, tt1572311, tt1620719, tt1667838]
+      winner: [tt1572311, tt1620719]
+    best playback singer - male:
+      nominee: [tt1188996, tt1345777, tt1395054, tt1667838]
+      winner: [tt1345777]
+    best production design:
+      nominee: [tt1714832]
+      winner: [tt1714832]
+    best screenplay:
+      nominee: [tt1639426]
+      winner: [tt1639426]
+    best sound design:
+      nominee: [tt1608777, tt1639426]
+      winner: [tt1608777, tt1639426]
+    best story:
+      nominee: [tt1639426]
+      winner: [tt1639426]
+    best supporting actor:
+      nominee: [tt1291465, tt1345777, tt1395054, tt1639426]
+      winner: [tt1639426]
+    best supporting actress:
+      nominee: [tt1395054, tt1428459, tt1509732, tt1562859, tt1738293]
+      winner: [tt1428459]
+  r.d. burman award:
+    r.d. burman award:
+      nominee: [tt1608777]
+      winner: [tt1608777]
+  special award:
+    best scene:
+      nominee: [tt1562859]
+      winner: [tt1562859]
+  critics' awards:
+    best actor:
+      nominee: [tt1714832]
+      winner: [tt1714832]
+    best actress:
+      nominee: [tt1345777]
+      winner: [tt1345777]
+    best film:
+      nominee: [tt1639426]
+      winner: [tt1639426]
+  technical award:
+    best action:
+      nominee: [tt1620719]
+      winner: [tt1620719]
+    best costume design:
+      nominee: [tt1714832]
+      winner: [tt1714832]
+    best sound design:
+      nominee: [tt1395054]
+      winner: []
+'2010': # https://www.imdb.com/event/ev0000245/2010/1/
+  filmfare award:
+    best actor:
+      nominee: [tt1187043, tt1252596, tt1274295, tt1275863, tt1324059, tt1532957]
+      winner: [tt1532957]
+    best actor - critics:
+      nominee: [tt1252596, tt1324059]
+      winner: [tt1252596, tt1324059]
+    best actress:
+      nominee: [tt1185442, tt1187043, tt1274295, tt1275863, tt1328634, tt1532957]
+      winner: [tt1532957]
+    best actress - critics:
+      nominee: [tt1327035]
+      winner: [tt1327035]
+    best debut director:
+      nominee: [tt0886539]
+      winner: [tt0886539]
+    best director:
+      nominee: [tt1187043, tt1274295, tt1275863, tt1324059, tt1327035, tt1532957]
+      winner: [tt1187043]
+    best film:
+      nominee: [tt1187043, tt1274295, tt1275863, tt1324059, tt1327035, tt1532957]
+      winner: [tt1187043]
+    best film - critics:
+      nominee: [tt1263679]
+      winner: [tt1263679]
+    best lyricist:
+      nominee: [tt1043451, tt1274295, tt1275863, tt1324059]
+      winner: [tt1275863]
+    best music director:
+      nominee: [tt1043451, tt1252596, tt1274295, tt1275863, tt1324059, tt1327035]
+      winner: [tt1043451]
+    best playback singer - female:
+      nominee: [tt1043451, tt1187043, tt1252596, tt1275863, tt1324059, tt1532957]
+      winner: [tt1043451, tt1324059]
+    best playback singer - male:
+      nominee: [tt1043451, tt1185442, tt1252596, tt1274295, tt1275863]
+      winner: [tt1043451]
+    best sound design:
+      nominee: [tt0886539]
+      winner: []
+    best supporting actor:
+      nominee: [tt0886539, tt1187043, tt1274295, tt1328634]
+      winner: [tt1187043]
+    best supporting actress:
+      nominee: [tt0886539, tt1043451, tt1263679, tt1324059, tt1327035, tt1532957]
+      winner: [tt1327035]
+  r.d. burman award:
+    r.d. burman award:
+      nominee: [tt1327035]
+      winner: [tt1327035]
+  technical award:
+    best action:
+      nominee: [tt1084972]
+      winner: [tt1084972]
+    best background score:
+      nominee: [tt1327035]
+      winner: [tt1327035]
+    best choreography:
+      nominee: [tt1275863]
+      winner: [tt1275863]
+    best cinematography:
+      nominee: [tt1327035]
+      winner: [tt1327035]
+    best costume design:
+      nominee: [tt1263679]
+      winner: [tt1263679]
+    best dialogue:
+      nominee: [tt1187043]
+      winner: [tt1187043]
+    best editing:
+      nominee: [tt1263679]
+      winner: [tt1263679]
+    best production design:
+      nominee: [tt1327035]
+      winner: [tt1327035]
+    best screenplay:
+      nominee: [tt1187043]
+      winner: [tt1187043]
+    best sound design:
+      nominee: [tt1263679, tt1274295]
+      winner: [tt1263679]
+    best special effects:
+      nominee: [tt1274295]
+      winner: [tt1274295]
+    best story:
+      nominee: [tt1187043]
+      winner: [tt1187043]
+'2009': # https://www.imdb.com/event/ev0000245/2009/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0449994, tt1146325, tt1166100, tt1182937, tt1185420, tt1280558]
+      winner: [tt0449994]
+    best actor - critics:
+      nominee: [tt1292703]
+      winner: [tt1292703]
+    best actress:
+      nominee: [tt0449994, tt0964516, tt1039995, tt1166100, tt1182937]
+      winner: [tt0964516]
+    best actress - critics:
+      nominee: [tt1230165]
+      winner: [tt1230165]
+    best debut actor:
+      nominee: [tt0473367, tt0490170, tt1043876, tt1230165, tt1241195]
+      winner: [tt0473367, tt1230165]
+    best debut actress:
+      nominee: [tt0964516, tt1166100, tt1182937, tt1216300, tt1230165, tt1301698]
+      winner: [tt1166100]
+    best dialogue:
+      nominee: [tt1292703]
+      winner: [tt1292703]
+    best director:
+      nominee: [tt0449994, tt0964516, tt1166100, tt1182937, tt1230165, tt1280558]
+      winner: [tt0449994]
+    best film:
+      nominee: [tt0449994, tt0473367, tt1166100, tt1182937, tt1185420, tt1230165]
+      winner: [tt0449994]
+    best film - critics:
+      nominee: [tt1266583]
+      winner: [tt1266583]
+    best lyrics:
+      nominee: [tt0473367]
+      winner: []
+    best music director:
+      nominee: [tt0449994, tt0473367, tt1017456, tt1166100, tt1185420]
+      winner: [tt0473367]
+    best playback singer - female:
+      nominee: [tt0964516, tt1105747, tt1146325, tt1182937, tt1182972]
+      winner: [tt1146325]
+    best playback singer - male:
+      nominee: [tt0449994, tt0473367, tt1182937, tt1182972, tt1216300, tt1230165]
+      winner: [tt1182937]
+    best scene of the year:
+      nominee: [tt1182937]
+      winner: [tt1182937]
+    best supporting actor:
+      nominee: [tt0449994, tt0473367, tt0490210, tt1092005, tt1182937, tt1230165]
+      winner: [tt1230165]
+    best supporting actress:
+      nominee: [tt0473367, tt0964516, tt1182972, tt1185420, tt1230165]
+      winner: [tt0964516]
+  special mention:
+    special mention:
+      nominee: [tt1230165]
+      winner: [tt1230165]
+  r.d. burman award:
+    r.d. burman award:
+      nominee: [tt0473367, tt1105747, tt1166100]
+      winner: [tt0473367, tt1105747, tt1166100]
+  technical award:
+    best action:
+      nominee: [tt1166100]
+      winner: [tt1166100]
+    best art direction:
+      nominee: [tt1292703]
+      winner: [tt1292703]
+    best background score:
+      nominee: [tt0449994]
+      winner: [tt0449994]
+    best choreography:
+      nominee: [tt0473367]
+      winner: [tt0473367]
+    best cinematographer:
+      nominee: [tt1230165]
+      winner: [tt1230165]
+    best costume design:
+      nominee: [tt1292703]
+      winner: [tt1292703]
+    best dialogue:
+      nominee: [tt1292703]
+      winner: [tt1292703]
+    best editing:
+      nominee: [tt1266583]
+      winner: [tt1266583]
+    best screenplay:
+      nominee: [tt0473367, tt0964516, tt1017456, tt1230165, tt1266583]
+      winner: [tt1266583]
+    best sound design:
+      nominee: [tt1230165]
+      winner: [tt1230165]
+    best special effects:
+      nominee: [tt0490170]
+      winner: [tt0490170]
+    best story:
+      nominee: [tt1114725, tt1213928, tt1230165, tt1280558, tt1292703]
+      winner: [tt1230165]
+'2008': # https://www.imdb.com/event/ev0000245/2008/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0499375, tt0795434, tt0871510, tt0986264, tt1024943, tt1093370]
+      winner: [tt0871510]
+    best actor - critics:
+      nominee: [tt0986264]
+      winner: [tt0986264]
+    best actress:
+      nominee: [tt0499375, tt0985636, tt0986213, tt0995031, tt1024943, tt1093370]
+      winner: [tt1093370]
+    best actress - critics:
+      nominee: [tt0976026]
+      winner: [tt0976026]
+    best art director:
+      nominee: [tt0995740]
+      winner: []
+    best cinematography:
+      nominee: [tt0995740]
+      winner: []
+    best debut actor:
+      nominee: [tt0758053]
+      winner: [tt0758053]
+    best debut actress:
+      nominee: [tt0758053, tt0824375, tt0995840, tt1020978, tt1024943]
+      winner: [tt1024943]
+    best director:
+      nominee: [tt0499375, tt0800956, tt0871510, tt0986264, tt1024943, tt1093370]
+      winner: [tt0986264]
+    best film:
+      nominee: [tt0499375, tt0871510, tt0986264, tt1024943, tt1093370]
+      winner: [tt0986264]
+    best film - critics:
+      nominee: [tt0871510]
+      winner: [tt0871510]
+    best lyrics:
+      nominee: [tt0499375, tt0758053, tt1024943]
+      winner: []
+    best music director:
+      nominee: [tt0499375, tt0758053, tt0800956, tt1024943, tt1093370]
+      winner: [tt0499375]
+    best playback singer - female:
+      nominee: [tt0499375, tt0808306, tt0887753, tt0986213, tt1093370]
+      winner: [tt0499375]
+    best playback singer - male:
+      nominee: [tt0499375, tt0758053, tt0871510, tt1024943]
+      winner: [tt0758053]
+    best sound design:
+      nominee: [tt0811066]
+      winner: []
+    best supporting actor:
+      nominee: [tt0488798, tt0499375, tt0800956, tt0986264, tt1024943]
+      winner: [tt0800956]
+    best supporting actress:
+      nominee: [tt0758053, tt0800956, tt0871510, tt0985636, tt0986264]
+      winner: [tt0800956]
+  technical award:
+    best action:
+      nominee: [tt0871510]
+      winner: [tt0871510]
+    best background score:
+      nominee: [tt0499375]
+      winner: [tt0499375]
+    best choreography:
+      nominee: [tt0499375]
+      winner: [tt0499375]
+    best cinematography:
+      nominee: [tt0871510]
+      winner: [tt0871510]
+    best costume design:
+      nominee: [tt0459293, tt0499375]
+      winner: [tt0459293]
+    best dialogue:
+      nominee: [tt0800956, tt0871510, tt0986264, tt1024943, tt1093370]
+      winner: [tt1093370]
+    best editing:
+      nominee: [tt0871510]
+      winner: [tt0871510]
+    best production design:
+      nominee: [tt0499375]
+      winner: [tt0499375]
+    best screenplay:
+      nominee: [tt0433425, tt0800956, tt0871510, tt0986264, tt1077248]
+      winner: [tt0800956]
+    best sound design:
+      nominee: [tt1077248]
+      winner: [tt1077248]
+    best special effects:
+      nominee: [tt1024943]
+      winner: [tt1024943]
+    best story:
+      nominee: [tt0986264]
+      winner: [tt0986264]
+'2007': # https://www.imdb.com/event/ev0000245/2007/1/
+  filmfare award:
+    best action:
+      nominee: [tt0461936]
+      winner: []
+    best actor:
+      nominee: [tt0405508, tt0432637, tt0441048, tt0449999, tt0456144, tt0461936]
+      winner: [tt0441048]
+    best actor - critics:
+      nominee: [tt0405508]
+      winner: [tt0405508]
+    best actress:
+      nominee: [tt0439662, tt0441048, tt0449999, tt0488381, tt0488414]
+      winner: [tt0439662]
+    best actress - critics:
+      nominee: [tt0488414]
+      winner: [tt0488414]
+    best comic actor:
+      nominee: [tt0419058, tt0456144, tt0493437, tt0495034]
+      winner: [tt0456144]
+    best debut actress:
+      nominee: [tt0495032]
+      winner: [tt0495032]
+    best director:
+      nominee: [tt0405508, tt0432637, tt0441048, tt0449999, tt0456144, tt0488414]
+      winner: [tt0405508]
+    best film:
+      nominee: [tt0405508, tt0432637, tt0441048, tt0449999, tt0456144, tt0461936]
+      winner: [tt0405508]
+    best film - critics:
+      nominee: [tt0456144]
+      winner: [tt0456144]
+    best lyrics:
+      nominee: [tt0405508, tt0439662, tt0449999, tt0488414]
+      winner: [tt0439662]
+    best music director:
+      nominee: [tt0405508, tt0439662, tt0441048, tt0449999, tt0461936, tt0476729]
+      winner: [tt0405508]
+    best performance by an actor in a negative role:
+      nominee: [tt0432637, tt0456144, tt0488414, tt0488906, tt0495032]
+      winner: [tt0488414]
+    best playback singer (female):
+      nominee: [tt0449999, tt0476729, tt0477252, tt0488414]
+      winner: [tt0488414]
+    best playback singer (male):
+      nominee: [tt0439662, tt0449999, tt0476729, tt0495032, tt0808164]
+      winner: [tt0439662]
+    best sound design:
+      nominee: [tt0432637, tt0488414]
+      winner: [tt0488414]
+    best supporting actor:
+      nominee: [tt0405508, tt0419468, tt0449999]
+      winner: [tt0449999]
+    best supporting actress:
+      nominee: [tt0405508, tt0432637, tt0449999, tt0488414]
+      winner: [tt0488414]
+  technical award:
+    best action:
+      nominee: [tt0432637]
+      winner: [tt0432637]
+    best background score:
+      nominee: [tt0405508, tt0432637, tt0441048, tt0488414, tt0770214]
+      winner: [tt0432637]
+    best choreography:
+      nominee: [tt0405508, tt0456144, tt0456481, tt0461936, tt0488414, tt0495032]
+      winner: [tt0488414]
+    best cinematography:
+      nominee: [tt0405508, tt0412308, tt0461936, tt0488414]
+      winner: [tt0405508]
+    best costume design:
+      nominee: [tt0405508, tt0412308, tt0461936, tt0488414, tt0824316]
+      winner: [tt0488414]
+    best dialogue:
+      nominee: [tt0405508, tt0456144, tt0488414, tt0495032, tt0495034]
+      winner: [tt0456144]
+    best story:
+      nominee: [tt0405508, tt0412308, tt0456144, tt0466460, tt0495032]
+      winner: [tt0456144]
+'2006': # https://www.imdb.com/event/ev0000245/2006/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0346457, tt0375611, tt0432047, tt0437407, tt0448206]
+      winner: [tt0375611]
+    best actor - critics:
+      nominee: [tt0375611]
+      winner: [tt0375611]
+    best actress:
+      nominee: [tt0375611, tt0420304, tt0437407, tt0448206, tt0456165]
+      winner: [tt0375611]
+    best actress - critics:
+      nominee: [tt0375611]
+      winner: [tt0375611]
+    best comic actor:
+      nominee: [tt0390614, tt0451833, tt0453671, tt0456165]
+      winner: [tt0453671]
+    best debut actor:
+      nominee: [tt0411469]
+      winner: [tt0411469]
+    best debut actress:
+      nominee: [tt0437407]
+      winner: [tt0437407]
+    best director:
+      nominee: [tt0375611, tt0432047, tt0437407, tt0443708, tt0453729]
+      winner: [tt0375611]
+    best film:
+      nominee: [tt0375611, tt0437407, tt0443708, tt0448206, tt0451833]
+      winner: [tt0375611]
+    best film - critics:
+      nominee: [tt0375611]
+      winner: [tt0375611]
+    best lyrics:
+      nominee: [tt0437407, tt0448206, tt0451850, tt0477253]
+      winner: [tt0448206]
+    best music:
+      nominee: [tt0415768, tt0437407, tt0448206, tt0449306, tt0477253]
+      winner: [tt0448206]
+    best performance by an actor in a negative role:
+      nominee: [tt0415768, tt0415908, tt0432047, tt0451631, tt0499041]
+      winner: [tt0451631]
+    best playback singer (female):
+      nominee: [tt0415768, tt0437407, tt0448206, tt0451983]
+      winner: [tt0448206]
+    best playback singer (male):
+      nominee: [tt0415768, tt0437407, tt0451850, tt0451983, tt0477253]
+      winner: [tt0477253]
+    best supporting actor:
+      nominee: [tt0432047, tt0437407, tt0448206, tt0453729, tt0456165]
+      winner: [tt0432047]
+    best supporting actress:
+      nominee: [tt0375611, tt0390614, tt0443708, tt0451833, tt0453729]
+      winner: [tt0375611]
+  technical award:
+    best action:
+      nominee: [tt0415768]
+      winner: [tt0415768]
+    best art direction:
+      nominee: [tt0437407]
+      winner: [tt0437407]
+    best background score:
+      nominee: [tt0375611]
+      winner: [tt0375611]
+    best cinematography:
+      nominee: [tt0375611]
+      winner: [tt0375611]
+    best dialogue:
+      nominee: [tt0451631]
+      winner: [tt0451631]
+    best editing:
+      nominee: [tt0375611]
+      winner: [tt0375611]
+    best screenplay:
+      nominee: [tt0443708]
+      winner: [tt0443708]
+    best sound design:
+      nominee: [tt0437407]
+      winner: [tt0437407]
+    best story:
+      nominee: [tt0411469]
+      winner: [tt0411469]
+'2005': # https://www.imdb.com/event/ev0000245/2005/1/
+  filmfare award:
+    best action:
+      nominee: [tt0382383]
+      winner: [tt0382383]
+    best actor:
+      nominee: [tt0323013, tt0347332, tt0347473, tt0367110, tt0420332]
+      winner: [tt0367110]
+    best actor - critics:
+      nominee: [tt0379370]
+      winner: [tt0379370]
+    best actor in a villainous role:
+      nominee: [tt0347332]
+      winner: []
+    best actress:
+      nominee: [tt0352314, tt0378072, tt0405266, tt0420332, tt0422950]
+      winner: [tt0378072]
+    best actress - critics:
+      nominee: [tt0364303]
+      winner: [tt0364303]
+    best art direction:
+      nominee: [tt0382383]
+      winner: [tt0382383]
+    best background score:
+      nominee: [tt0367110]
+      winner: [tt0367110]
+    best choreography:
+      nominee: [tt0323013]
+      winner: [tt0323013]
+    best cinematographer:
+      nominee: [tt0323013]
+      winner: [tt0323013]
+    best cinematography:
+      nominee: [tt0451850]
+      winner: []
+    best comic actor:
+      nominee: [tt0347473, tt0378072, tt0418362, tt0437238]
+      winner: [tt0378072]
+    best debut actor (male/female):
+      nominee: [tt0435437]
+      winner: [tt0435437]
+    best dialogue:
+      nominee: [tt0420332]
+      winner: [tt0420332]
+    best director:
+      nominee: [tt0323013, tt0347332, tt0347473, tt0367110, tt0378072, tt0420332]
+      winner: [tt0378072]
+    best editing:
+      nominee: [tt0422091]
+      winner: [tt0422091]
+    best film:
+      nominee: [tt0347473, tt0367110, tt0378072, tt0420332, tt0422091]
+      winner: [tt0420332]
+    best film - critics:
+      nominee: [tt0364303]
+      winner: [tt0364303]
+    best lyricist:
+      nominee: [tt0347473, tt0367110, tt0420332]
+      winner: [tt0420332]
+    best music director:
+      nominee: [tt0347473, tt0367110, tt0405507, tt0420332, tt0422091]
+      winner: [tt0347473]
+    best performance by an actor in a villainous role:
+      nominee: [tt0347332, tt0347473, tt0382383, tt0418460, tt0422091]
+      winner: [tt0418460]
+    best playback singer - female:
+      nominee: [tt0349703, tt0367110, tt0378072, tt0418362, tt0422091]
+      winner: [tt0378072]
+    best playback singer - male:
+      nominee: [tt0347473, tt0367110, tt0405507, tt0420332]
+      winner: [tt0405507]
+    best scene of the year:
+      nominee: [tt0378072]
+      winner: [tt0378072]
+    best screenplay:
+      nominee: [tt0382383]
+      winner: [tt0382383]
+    best sound:
+      nominee: [tt0422091]
+      winner: [tt0422091]
+    best story:
+      nominee: [tt0420332]
+      winner: [tt0420332]
+    best supporting actor:
+      nominee: [tt0347332, tt0347473, tt0382383, tt0418362, tt0420332]
+      winner: [tt0382383]
+    best supporting actress:
+      nominee: [tt0347473, tt0382383, tt0418460, tt0420332]
+      winner: [tt0382383]
+  r.d. burman award:
+    r.d. burman award:
+      nominee: [tt0405507]
+      winner: [tt0405507]
+  special award:
+    special award:
+      nominee: [tt0073707]
+      winner: [tt0073707]
+'2004': # https://www.imdb.com/event/ev0000245/2004/1/
+  filmfare award:
+    best action:
+      nominee: [tt0364621]
+      winner: [tt0364621]
+    best actor:
+      nominee: [tt0254481, tt0337578, tt0347304, tt0373856, tt0374271]
+      winner: [tt0254481]
+    best actor - critics:
+      nominee: [tt0254481]
+      winner: [tt0254481]
+    best actress:
+      nominee: [tt0254481, tt0337578, tt0341266, tt0346723, tt0347304, tt0374271]
+      winner: [tt0347304]
+    best actress - critics:
+      nominee: [tt0341266]
+      winner: [tt0341266]
+    best art direction:
+      nominee: [tt0347779]
+      winner: [tt0347779]
+    best background score:
+      nominee: [tt0373856]
+      winner: [tt0373856]
+    best choreography:
+      nominee: [tt0254481]
+      winner: [tt0254481]
+    best cinematographer:
+      nominee: [tt0383975]
+      winner: [tt0383975]
+    best comic actor:
+      nominee: [tt0254481, tt0371735, tt0374887, tt0391165]
+      winner: [tt0374887]
+    best debut actor:
+      nominee: [tt0362771]
+      winner: [tt0362771]
+    best debut actress:
+      nominee: [tt0346507, tt0364621, tt0371735, tt0374271]
+      winner: [tt0346507]
+    best dialogue:
+      nominee: [tt0374887]
+      winner: [tt0374887]
+    best director:
+      nominee: [tt0254481, tt0341266, tt0347304, tt0347416, tt0374271, tt0374887]
+      winner: [tt0254481]
+    best editing:
+      nominee: [tt0341266]
+      winner: [tt0341266]
+    best film:
+      nominee: [tt0254481, tt0337578, tt0347304, tt0374271, tt0374887]
+      winner: [tt0254481]
+    best film - critics:
+      nominee: [tt0374887]
+      winner: [tt0374887]
+    best lyrics:
+      nominee: [tt0346507, tt0346723, tt0347304, tt0347416, tt0374271]
+      winner: [tt0347304]
+    best music director:
+      nominee: [tt0254481, tt0346723, tt0347304, tt0347416, tt0374271]
+      winner: [tt0347304]
+    best performance by an actor in a villainous role:
+      nominee: [tt0331851, tt0348843, tt0362696, tt0366630, tt0373856]
+      winner: [tt0362696]
+    best playback (female):
+      nominee: [tt0254481, tt0346723, tt0348843, tt0362771, tt0374271]
+      winner: [tt0348843]
+    best playback (male):
+      nominee: [tt0254481, tt0346507, tt0346723, tt0347304, tt0374271]
+      winner: [tt0347304]
+    best screenplay:
+      nominee: [tt0374887]
+      winner: [tt0374887]
+    best sound:
+      nominee: [tt0341266]
+      winner: [tt0341266]
+    best story:
+      nominee: [tt0338490]
+      winner: [tt0338490]
+    best supporting actor:
+      nominee: [tt0265148, tt0337578, tt0347304, tt0347416, tt0374887]
+      winner: [tt0347304]
+    best supporting actress:
+      nominee: [tt0254481, tt0346507, tt0347304, tt0348172, tt0362771]
+      winner: [tt0347304]
+    motolook of the year:
+      nominee: [tt0347304]
+      winner: [tt0347304]
+  r.d. burman award:
+    r.d. burman award:
+      nominee: [tt0347278]
+      winner: [tt0347278]
+  special award:
+    special award:
+      nominee: [tt0383975]
+      winner: [tt0383975]
+'2003': # https://www.imdb.com/event/ev0000245/2003/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0238936, tt0294662, tt0296574, tt0326576, tt0330843]
+      winner: [tt0238936]
+    best actor - critics:
+      nominee: [tt0319736]
+      winner: [tt0319736]
+    best actress:
+      nominee: [tt0238936, tt0307873, tt0326576, tt0330843, tt0331639]
+      winner: [tt0238936]
+    best actress - critics:
+      nominee: [tt0296574, tt0330843]
+      winner: [tt0296574, tt0330843]
+    best comic actor:
+      nominee: [tt0294662, tt0306434, tt0319020, tt0326576, tt0331421]
+      winner: [tt0319020]
+    best debut actor:
+      nominee: [tt0296574]
+      winner: [tt0296574]
+    best debut actress:
+      nominee: [tt0306840, tt0321067]
+      winner: [tt0306840]
+    best director:
+      nominee: [tt0238936, tt0294662, tt0296574, tt0307873, tt0326576]
+      winner: [tt0238936]
+    best film:
+      nominee: [tt0238936, tt0294662, tt0296574, tt0307873, tt0326576]
+      winner: [tt0238936]
+    best film - critics:
+      nominee: [tt0319736]
+      winner: [tt0319736]
+    best lyricist:
+      nominee: [tt0238936, tt0307873, tt0326576, tt0330843]
+      winner: [tt0330843]
+    best music director:
+      nominee: [tt0238936, tt0294662, tt0307873, tt0326576, tt0330843]
+      winner: [tt0330843]
+    best performance by an actor in a villainous role:
+      nominee: [tt0315632, tt0326576, tt0331639, tt0337971, tt0341455]
+      winner: [tt0337971]
+    best performance in a villainous role:
+      nominee: [tt0337971]
+      winner: [tt0337971]
+    best playback singer - female:
+      nominee: [tt0238936, tt0307873, tt0326576]
+      winner: [tt0238936]
+    best playback singer - male:
+      nominee: [tt0326576, tt0327005, tt0330843, tt0332766]
+      winner: [tt0330843]
+    best supporting actor:
+      nominee: [tt0238936, tt0294662, tt0296574, tt0306434]
+      winner: [tt0296574]
+    best supporting actress:
+      nominee: [tt0238936, tt0296574, tt0307866, tt0341549]
+      winner: [tt0238936]
+  r.d. burman award:
+    r.d. burman award:
+      nominee: [tt0238936]
+      winner: [tt0238936]
+  special award:
+    best scene:
+      nominee: [tt0238936]
+      winner: [tt0238936]
+  technical award:
+    best action:
+      nominee: [tt0319020]
+      winner: [tt0319020]
+    best art direction:
+      nominee: [tt0238936]
+      winner: [tt0238936]
+    best background score:
+      nominee: [tt0319736]
+      winner: [tt0319736]
+    best choreography:
+      nominee: [tt0238936]
+      winner: [tt0238936]
+    best cinematography:
+      nominee: [tt0238936]
+      winner: [tt0238936]
+    best dialogue:
+      nominee: [tt0296574, tt0330843]
+      winner: [tt0296574, tt0330843]
+    best editing:
+      nominee: [tt0296574]
+      winner: [tt0296574]
+    best screenplay:
+      nominee: [tt0330843]
+      winner: [tt0330843]
+    best story:
+      nominee: [tt0238936]
+      winner: [tt0238936]
+'2002': # https://www.imdb.com/event/ev0000245/2002/1/
+  filmfare award:
+    best action:
+      nominee: [tt0284137]
+      winner: [tt0284137]
+    best actor:
+      nominee: [tt0169102, tt0248126, tt0284137, tt0289845, tt0292490]
+      winner: [tt0169102]
+    best actor in a comic role:
+      nominee: [tt0278291, tt0278522, tt0292490, tt0297241, tt0298606]
+      winner: [tt0292490]
+    best actor in a negative role:
+      nominee: [tt0272688, tt0278291, tt0281102, tt0284137, tt0289845]
+      winner: [tt0278291]
+    best actress:
+      nominee: [tt0248126, tt0249371, tt0255713, tt0267363, tt0284137]
+      winner: [tt0248126]
+    best art direction:
+      nominee: [tt0248126]
+      winner: [tt0248126]
+    best background score:
+      nominee: [tt0289845]
+      winner: [tt0289845]
+    best choreography:
+      nominee: [tt0292490]
+      winner: [tt0292490]
+    best cinematography:
+      nominee: [tt0249371, tt0292490]
+      winner: [tt0249371]
+    best debut actor:
+      nominee: [tt0284328]
+      winner: [tt0284328]
+    best debut actress:
+      nominee: [tt0169102, tt0278291, tt0299108]
+      winner: [tt0278291]
+    best dialogue:
+      nominee: [tt0248126]
+      winner: [tt0248126]
+    best director:
+      nominee: [tt0169102, tt0248126, tt0249371, tt0284137, tt0292490]
+      winner: [tt0169102]
+    best editing:
+      nominee: [tt0292490]
+      winner: [tt0292490]
+    best film:
+      nominee: [tt0169102, tt0248126, tt0249371, tt0284137, tt0292490]
+      winner: [tt0169102]
+    best lyricist:
+      nominee: [tt0169102, tt0248126, tt0284137]
+      winner: [tt0169102]
+    best music director:
+      nominee: [tt0169102, tt0248126, tt0284137, tt0284328, tt0292490]
+      winner: [tt0169102]
+    best playback singer - female:
+      nominee: [tt0169102, tt0249371, tt0255713, tt0289845, tt0292490]
+      winner: [tt0169102]
+    best playback singer - male:
+      nominee: [tt0169102, tt0248126, tt0278291, tt0284137, tt0292490]
+      winner: [tt0169102]
+    best scene of the year:
+      nominee: [tt0248126]
+      winner: [tt0248126]
+    best screenplay:
+      nominee: [tt0292490]
+      winner: [tt0292490]
+    best sound recording:
+      nominee: [tt0289845]
+      winner: [tt0289845]
+    best story:
+      nominee: [tt0169102]
+      winner: [tt0169102]
+    best supporting actor:
+      nominee: [tt0248126, tt0248617, tt0292490, tt0293342]
+      winner: [tt0292490]
+    best supporting actress:
+      nominee: [tt0248126, tt0256692, tt0293342]
+      winner: [tt0248126]
+  r.d. burman award:
+    r.d. burman award:
+      nominee: [tt0292490]
+      winner: [tt0292490]
+  special award:
+    special award:
+      nominee: [tt0284137, tt0289845]
+      winner: [tt0284137, tt0289845]
+  critics' awards:
+    best actor:
+      nominee: [tt0289845]
+      winner: [tt0289845]
+    best actress:
+      nominee: [tt0255713]
+      winner: [tt0255713]
+    best film:
+      nominee: [tt0292490]
+      winner: [tt0292490]
+'2001': # https://www.imdb.com/event/ev0000245/2001/1/
+  filmfare award:
+    best action:
+      nominee: [tt0248185]
+      winner: [tt0248185]
+    best actor:
+      nominee: [tt0213890, tt0218533, tt0234000, tt0248012, tt0248185]
+      winner: [tt0234000]
+    best actor - critics:
+      nominee: [tt0213890]
+      winner: [tt0213890]
+    best actress:
+      nominee: [tt0218533, tt0248012, tt0250483, tt0255212, tt0261545]
+      winner: [tt0248012]
+    best actress - critics:
+      nominee: [tt0261545]
+      winner: [tt0261545]
+    best background score:
+      nominee: [tt0251756]
+      winner: [tt0251756]
+    best choreography:
+      nominee: [tt0213890, tt0234000, tt0248012, tt0248185, tt0255111]
+      winner: [tt0234000]
+    best cinematography:
+      nominee: [tt0250690]
+      winner: [tt0250690]
+    best comic actor:
+      nominee: [tt0222270, tt0242519, tt0247992, tt0253194]
+      winner: [tt0242519]
+    best debut actor:
+      nominee: [tt0234000]
+      winner: [tt0234000]
+    best debut actress:
+      nominee: [tt0213890, tt0234000, tt0250690, tt0250774]
+      winner: [tt0250690]
+    best dialogue:
+      nominee: [tt0250690]
+      winner: [tt0250690]
+    best director:
+      nominee: [tt0151150, tt0213890, tt0234000, tt0248185, tt0255111]
+      winner: [tt0234000]
+    best editing:
+      nominee: [tt0234000]
+      winner: [tt0234000]
+    best film:
+      nominee: [tt0151150, tt0213890, tt0234000, tt0248185, tt0255111]
+      winner: [tt0234000]
+    best film - critics:
+      nominee: [tt0295294]
+      winner: [tt0295294]
+    best lyricist:
+      nominee: [tt0213890, tt0234000, tt0248012, tt0250690, tt0255111]
+      winner: [tt0250690]
+    best music director:
+      nominee: [tt0151150, tt0213890, tt0234000, tt0248012, tt0255111]
+      winner: [tt0234000]
+    best performance by an actor in a negative role:
+      nominee: [tt0120117, tt0248185, tt0255111, tt0270880]
+      winner: [tt0255111]
+    best playback singer - female:
+      nominee: [tt0248012, tt0250415, tt0250690, tt0255111]
+      winner: [tt0255111]
+    best playback singer - male:
+      nominee: [tt0234000, tt0248012, tt0250690, tt0255111]
+      winner: [tt0234000]
+    best screenplay:
+      nominee: [tt0234000]
+      winner: [tt0234000]
+    best sound recording:
+      nominee: [tt0213890]
+      winner: [tt0213890]
+    best story:
+      nominee: [tt0250483]
+      winner: [tt0250483]
+    best supporting actor:
+      nominee: [tt0213890, tt0222012, tt0250483, tt0250690, tt0255309]
+      winner: [tt0213890]
+    best supporting actress:
+      nominee: [tt0213890, tt0248012, tt0248185, tt0250415, tt0255111]
+      winner: [tt0248012]
+    best villain/villainess:
+      nominee: [tt0151150]
+      winner: []
+    performance by an actor in a negative role:
+      nominee: [tt0151150]
+      winner: []
+  technical award:
+    best sound:
+      nominee: [tt0301240]
+      winner: []
+'2000': # https://www.imdb.com/event/ev0000245/2000/1/
+  filmfare award:
+    best action:
+      nominee: [tt0278315]
+      winner: [tt0278315]
+    best actor:
+      nominee: [tt0150992, tt0200087, tt0220757, tt0220832]
+      winner: [tt0220832]
+    best actor - critics:
+      nominee: [tt0220757]
+      winner: [tt0220757]
+    best actress:
+      nominee: [tt0150992, tt0152836, tt0189592, tt0207341, tt0246687]
+      winner: [tt0150992]
+    best actress - critics:
+      nominee: [tt0246687]
+      winner: [tt0246687]
+    best background score:
+      nominee: [tt0150992]
+      winner: [tt0150992]
+    best cinematography:
+      nominee: [tt0152836]
+      winner: [tt0152836]
+    best comic actor:
+      nominee: [tt0200435, tt0207341, tt0211934, tt0267548]
+      winner: [tt0267548]
+    best debut actor:
+      nominee: [tt0150433]
+      winner: [tt0150433]
+    best debut actress:
+      nominee: [tt0150433]
+      winner: [tt0150433]
+    best dialogue:
+      nominee: [tt0200087]
+      winner: [tt0200087]
+    best director:
+      nominee: [tt0150992, tt0152836, tt0200087, tt0207341, tt0220832]
+      winner: [tt0150992]
+    best editing:
+      nominee: [tt0200087]
+      winner: [tt0200087]
+    best film:
+      nominee: [tt0150992, tt0152836, tt0200087, tt0207341, tt0220832]
+      winner: [tt0150992]
+    best film - critics:
+      nominee: [tt0200087]
+      winner: [tt0200087]
+    best lyricist:
+      nominee: [tt0152836]
+      winner: [tt0152836]
+    best music director:
+      nominee: [tt0150992, tt0152836, tt0200087, tt0207341, tt0267548]
+      winner: [tt0152836]
+    best performance by an actor in a negative role:
+      nominee: [tt0111068, tt0200087, tt0211934, tt0215245, tt0220757]
+      winner: [tt0111068]
+    best playback singer - female:
+      nominee: [tt0152836]
+      winner: [tt0152836]
+    best playback singer - male:
+      nominee: [tt0150992]
+      winner: [tt0150992]
+    best screenplay:
+      nominee: [tt0200087]
+      winner: [tt0200087]
+    best sound recording:
+      nominee: [tt0152836]
+      winner: [tt0152836]
+    best story:
+      nominee: [tt0233808]
+      winner: [tt0233808]
+    best supporting actor:
+      nominee: [tt0152836, tt0200087, tt0206067, tt0216817, tt0220832]
+      winner: [tt0152836]
+    best supporting actress:
+      nominee: [tt0207341, tt0216707, tt0220832, tt0244794, tt0246687]
+      winner: [tt0207341]
+'1999': # https://www.imdb.com/event/ev0000245/1999/1/
+  filmfare award:
+    best action:
+      nominee: [tt0211634]
+      winner: [tt0211634]
+    best actor:
+      nominee: [tt0118673, tt0172684, tt0173080, tt0190419, tt0211126]
+      winner: [tt0172684]
+    best actor - critics:
+      nominee: [tt0195231]
+      winner: [tt0195231]
+    best actress:
+      nominee: [tt0164538, tt0172684, tt0173081, tt0189492, tt0195231]
+      winner: [tt0172684]
+    best actress - critics:
+      nominee: [tt0195231]
+      winner: [tt0195231]
+    best art direction:
+      nominee: [tt0172684]
+      winner: [tt0172684]
+    best background score:
+      nominee: [tt0195231]
+      winner: [tt0195231]
+    best choreography:
+      nominee: [tt0164538]
+      winner: [tt0164538]
+    best cinematography:
+      nominee: [tt0164538]
+      winner: [tt0164538]
+    best comic actor:
+      nominee: [tt0172684, tt0210659]
+      winner: [tt0210659]
+    best debut actor:
+      nominee: [tt0210920]
+      winner: [tt0210920]
+    best debut actress:
+      nominee: [tt0164538, tt0211634]
+      winner: [tt0164538, tt0211634]
+    best dialogue:
+      nominee: [tt0210609]
+      winner: [tt0210609]
+    best director:
+      nominee: [tt0172684, tt0173080, tt0190419, tt0195231, tt0211634]
+      winner: [tt0172684]
+    best editing:
+      nominee: [tt0195231]
+      winner: [tt0195231]
+    best film:
+      nominee: [tt0172684, tt0173080, tt0173081, tt0190419, tt0195231]
+      winner: [tt0172684]
+    best film - critics:
+      nominee: [tt0195231]
+      winner: [tt0195231]
+    best lyricist:
+      nominee: [tt0164538]
+      winner: [tt0164538]
+    best music director:
+      nominee: [tt0164538]
+      winner: [tt0164538]
+    best performance by an actor in a negative role:
+      nominee: [tt0164550, tt0189492, tt0190419, tt0195231, tt0210609]
+      winner: [tt0189492]
+    best playback singer - female:
+      nominee: [tt0173081]
+      winner: [tt0173081]
+    best playback singer - male:
+      nominee: [tt0164538]
+      winner: [tt0164538]
+    best scene of the year:
+      nominee: [tt0190419]
+      winner: [tt0190419]
+    best screenplay:
+      nominee: [tt0172684]
+      winner: [tt0172684]
+    best sound recording:
+      nominee: [tt0195231]
+      winner: [tt0195231]
+    best story:
+      nominee: [tt0211126]
+      winner: [tt0211126]
+    best supporting actor:
+      nominee: [tt0172684, tt0173080, tt0173081, tt0195231, tt0210609]
+      winner: [tt0172684]
+    best supporting actress:
+      nominee: [tt0164538, tt0172684, tt0189492, tt0195231, tt0211634]
+      winner: [tt0172684]
+  r.d. burman award:
+    r.d. burman award:
+      nominee: [tt0173080]
+      winner: [tt0173080]
+'1998': # https://www.imdb.com/event/ev0000245/1998/1/
+  filmfare award:
+    best action:
+      nominee: [tt0118751]
+      winner: [tt0118751]
+    best actor:
+      nominee: [tt0118751, tt0118957, tt0118983, tt0120456, tt0120540, tt0233422]
+      winner: [tt0118983]
+    best actor - critics:
+      nominee: [tt0120456]
+      winner: [tt0120456]
+    best actress:
+      nominee: [tt0118983, tt0119427, tt0119861, tt0120456, tt0120540]
+      winner: [tt0118983]
+    best actress - critics:
+      nominee: [tt0120456]
+      winner: [tt0120456]
+    best art direction:
+      nominee: [tt0118983]
+      winner: [tt0118983]
+    best background score:
+      nominee: [tt0119239]
+      winner: [tt0119239]
+    best choreography:
+      nominee: [tt0120456]
+      winner: [tt0120456]
+    best cinematography:
+      nominee: [tt0120456]
+      winner: [tt0120456]
+    best comic actor:
+      nominee: [tt0118957, tt0119427, tt0119428, tt0233422]
+      winner: [tt0118957]
+    best debut actor:
+      nominee: [tt0118751]
+      winner: [tt0118751]
+    best debut actress:
+      nominee: [tt0118525, tt0119861, tt0120456]
+      winner: [tt0119861]
+    best dialogue:
+      nominee: [tt0118983]
+      winner: [tt0118983]
+    best director:
+      nominee: [tt0118751, tt0118983, tt0119239, tt0119861]
+      winner: [tt0118751]
+    best editing:
+      nominee: [tt0119239]
+      winner: [tt0119239]
+    best film:
+      nominee: [tt0118751, tt0118983, tt0119239, tt0119861, tt0120456]
+      winner: [tt0118983]
+    best film - critics:
+      nominee: [tt0120456]
+      winner: [tt0120456]
+    best lyricist:
+      nominee: [tt0118751, tt0120540]
+      winner: [tt0118751]
+    best music director:
+      nominee: [tt0118983, tt0119239]
+      winner: [tt0118983]
+    best performance by an actor in a negative role:
+      nominee: [tt0119239, tt0120456, tt0120540, tt0133024, tt0136352]
+      winner: [tt0119239]
+    best playback singer - female:
+      nominee: [tt0119239, tt0119861, tt0120456]
+      winner: [tt0119861]
+    best playback singer - male:
+      nominee: [tt0118751, tt0118983, tt0119861, tt0120540]
+      winner: [tt0120540]
+    best screenplay:
+      nominee: [tt0119861]
+      winner: [tt0119861]
+    best sound recording:
+      nominee: [tt0118751]
+      winner: [tt0118751]
+    best story:
+      nominee: [tt0120456]
+      winner: [tt0120456]
+    best supporting actor:
+      nominee: [tt0118751, tt0118983, tt0119239, tt0120456]
+      winner: [tt0120456]
+    best supporting actress:
+      nominee: [tt0118751, tt0118983, tt0119427, tt0120456, tt0185335]
+      winner: [tt0118983]
+'1997': # https://www.imdb.com/event/ev0000245/1997/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0115484, tt0116407, tt0116763, tt0117437, tt0246905]
+      winner: [tt0117437]
+    best actress:
+      nominee: [tt0109206, tt0116024, tt0116763, tt0116950, tt0117437]
+      winner: [tt0117437]
+    best comic actor:
+      nominee: [tt0116898, tt0117437, tt0246905]
+      winner: [tt0246905]
+    best debut actor:
+      nominee: [tt0116950]
+      winner: [tt0116950]
+    best debut actress:
+      nominee: [tt0109206]
+      winner: []
+    best director:
+      nominee: [tt0109206, tt0115484, tt0116407, tt0116950, tt0117437]
+      winner: [tt0109206]
+    best documentary - critics:
+      nominee: [tt0369273]
+      winner: [tt0369273]
+    best film:
+      nominee: [tt0117437]
+      winner: [tt0117437]
+    best film - critics:
+      nominee: [tt0116763]
+      winner: [tt0116763]
+    best lyricist:
+      nominee: [tt0246839]
+      winner: [tt0246839]
+    best music director:
+      nominee: [tt0117437]
+      winner: [tt0117437]
+    best performance by an actor in a negative role:
+      nominee: [tt0116024]
+      winner: [tt0116024]
+    best playback singer - female:
+      nominee: [tt0116763]
+      winner: [tt0116763]
+    best playback singer - male:
+      nominee: [tt0117437]
+      winner: [tt0117437]
+    best screenplay:
+      nominee: [tt0115484]
+      winner: []
+    best story writer:
+      nominee: [tt0115484]
+      winner: []
+    best supporting actor:
+      nominee: [tt0115484, tt0116407, tt0116690, tt0116950, tt0172234]
+      winner: [tt0116407]
+    best supporting actress:
+      nominee: [tt0116690, tt0116763, tt0117437, tt0246729]
+      winner: [tt0246729]
+    critics award for best performer:
+      nominee: [tt0116763]
+      winner: [tt0116763]
+'1996': # https://www.imdb.com/event/ev0000245/1996/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0101616, tt0112870, tt0113526, tt0113913, tt0114234]
+      winner: [tt0112870]
+    best actress:
+      nominee: [tt0112313, tt0112870, tt0114230, tt0114234, tt0115009]
+      winner: [tt0112870]
+    best comic actor:
+      nominee: [tt0101616, tt0112870, tt0113526]
+      winner: [tt0112870]
+    best debut actor:
+      nominee: [tt0112459]
+      winner: [tt0112459]
+    best debut actress:
+      nominee: [tt0112459]
+      winner: [tt0112459]
+    best director:
+      nominee: [tt0112313, tt0112870, tt0113526, tt0114230, tt0114234]
+      winner: [tt0112870]
+    best documentary:
+      nominee: [tt0251891]
+      winner: [tt0251891]
+    best film:
+      nominee: [tt0112313, tt0112870, tt0113526, tt0114230, tt0114234]
+      winner: [tt0112870]
+    best film - critics:
+      nominee: [tt0112553]
+      winner: [tt0112553]
+    best lyricist:
+      nominee: [tt0112313, tt0112870, tt0114234]
+      winner: [tt0112870]
+    best music director:
+      nominee: [tt0112313, tt0114234]
+      winner: [tt0114234]
+    best performance by an actor in a negative role:
+      nominee: [tt0112459, tt0113455, tt0113526, tt0114726, tt0178392]
+      winner: [tt0113455]
+    best performer - critics:
+      nominee: [tt0112553]
+      winner: [tt0112553]
+    best playback singer - female:
+      nominee: [tt0115009]
+      winner: [tt0115009]
+    best playback singer - male:
+      nominee: [tt0112313, tt0112870]
+      winner: [tt0112870]
+    best supporting actor:
+      nominee: [tt0112870, tt0113913, tt0114230, tt0114234, tt0114726]
+      winner: [tt0114234]
+    best supporting actress:
+      nominee: [tt0112313, tt0112870, tt0113526, tt0113528, tt0114230]
+      winner: [tt0112870]
+  technical award:
+    best action:
+      nominee: [tt0113526]
+      winner: [tt0113526]
+    best choreography:
+      nominee: [tt0114234]
+      winner: [tt0114234]
+    best costume design:
+      nominee: [tt0114234]
+      winner: [tt0114234]
+    best dialogue:
+      nominee: [tt0112870]
+      winner: [tt0112870]
+    best editing:
+      nominee: [tt0113526]
+      winner: [tt0113526]
+    best screenplay:
+      nominee: [tt0112870]
+      winner: [tt0112870]
+    best story:
+      nominee: [tt0114234]
+      winner: [tt0114234]
+'1995': # https://www.imdb.com/event/ev0000245/1995/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0109010, tt0109117, tt0110076, tt0110280, tt0111793]
+      winner: [tt0110280]
+    best actress:
+      nominee: [tt0109010, tt0109134, tt0110076, tt0111793, tt0187227]
+      winner: [tt0110076]
+    best comic actor:
+      nominee: [tt0109117, tt0110076, tt0110438, tt0110546, tt0110942]
+      winner: [tt0110942]
+    best debut actor (male/female):
+      nominee: [tt0111625]
+      winner: [tt0111625]
+    best director:
+      nominee: [tt0109010, tt0109117, tt0110076, tt0110280, tt0110546]
+      winner: [tt0110076]
+    best film:
+      nominee: [tt0109010, tt0109117, tt0110076, tt0110280, tt0110546]
+      winner: [tt0110076]
+    best film - critics:
+      nominee: [tt0109206]
+      winner: [tt0109206]
+    best lyricist:
+      nominee: [tt0109010, tt0110076, tt0110546, tt0111793]
+      winner: [tt0109010]
+    best music director:
+      nominee: [tt0109010, tt0110076, tt0110438, tt0110546, tt0111793]
+      winner: [tt0109010]
+    best performance by an actor in a negative role:
+      nominee: [tt0109134, tt0110280, tt0110546, tt0111625]
+      winner: [tt0109134]
+    best playback singer - female:
+      nominee: [tt0109010, tt0110438, tt0110546, tt0111625]
+      winner: [tt0109010]
+    best playback singer - male:
+      nominee: [tt0109010, tt0110076, tt0110546, tt0111793]
+      winner: [tt0109010]
+    best supporting actor:
+      nominee: [tt0109010, tt0110076, tt0110438, tt0337611]
+      winner: [tt0109010]
+    best supporting actress:
+      nominee: [tt0110076, tt0110280, tt0111308, tt0187227]
+      winner: [tt0110280]
+    critics award for best performance:
+      nominee: [tt0110449]
+      winner: [tt0110449]
+  technical award:
+    best action:
+      nominee: [tt0135140]
+      winner: [tt0135140]
+    best art direction:
+      nominee: [tt0109010]
+      winner: [tt0109010]
+    best choreography:
+      nominee: [tt0110546]
+      winner: [tt0110546]
+    best cinematography:
+      nominee: [tt0109010]
+      winner: [tt0109010]
+    best dialogue:
+      nominee: [tt0110280]
+      winner: [tt0110280]
+    best editing:
+      nominee: [tt0109010]
+      winner: [tt0109010]
+    best screenplay:
+      nominee: [tt0110076]
+      winner: [tt0110076]
+    best sound design:
+      nominee: [tt0109010]
+      winner: [tt0109010]
+'1994': # https://www.imdb.com/event/ev0000245/1994/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0106204, tt0106333, tt0106986, tt0107166, tt0107311, tt0109555]
+      winner: [tt0106333]
+    best actress:
+      nominee: [tt0106655, tt0107060, tt0107166, tt0107311, tt0108001, tt0109555]
+      winner: [tt0107166]
+    best comic actor:
+      nominee: [tt0106204, tt0106333, tt0109555, tt0227496]
+      winner: [tt0109555]
+    best debut actor (male/female):
+      nominee: [tt0106206]
+      winner: [tt0106206]
+    best debut actress:
+      nominee: [tt0106206, tt0106333]
+      winner: [tt0106206]
+    best director:
+      nominee: [tt0106204, tt0106655, tt0107166, tt0107311, tt0109555]
+      winner: [tt0106655]
+    best film:
+      nominee: [tt0106204, tt0106333, tt0106655, tt0107166, tt0107311]
+      winner: [tt0107166]
+    best film - critics:
+      nominee: [tt0110222]
+      winner: [tt0110222]
+    best lyricist:
+      nominee: [tt0106333, tt0107166]
+      winner: [tt0107166]
+    best music director:
+      nominee: [tt0106333, tt0107166, tt0107311, tt0108001, tt0109555]
+      winner: [tt0106333]
+    best performance by an actor in a negative role:
+      nominee: [tt0106653, tt0106655, tt0108144, tt0109555]
+      winner: [tt0108144]
+    best playback singer - female:
+      nominee: [tt0106333, tt0107166, tt0107311]
+      winner: [tt0107311]
+    best playback singer - male:
+      nominee: [tt0106270, tt0106333, tt0107311, tt0109555]
+      winner: [tt0106333]
+    best supporting actor:
+      nominee: [tt0105599, tt0106655, tt0106986, tt0107311, tt0108144]
+      winner: [tt0106655]
+    best supporting actress:
+      nominee: [tt0106203, tt0106270, tt0106333, tt0106986]
+      winner: [tt0106203]
+    critics award for best performer:
+      nominee: [tt0110222]
+      winner: [tt0110222]
+  technical award:
+    best action:
+      nominee: [tt0106986]
+      winner: [tt0106986]
+    best art direction:
+      nominee: [tt0106986]
+      winner: [tt0106986]
+    best choreography:
+      nominee: [tt0107311]
+      winner: [tt0107311]
+    best cinematography:
+      nominee: [tt0109555]
+      winner: [tt0109555]
+    best dialogue:
+      nominee: [tt0108144]
+      winner: [tt0108144]
+    best screenplay:
+      nominee: [tt0106333, tt0108144]
+      winner: [tt0106333, tt0108144]
+    best sound design:
+      nominee: [tt0106655]
+      winner: [tt0106655]
+    best story:
+      nominee: [tt0106655]
+      winner: [tt0106655]
+'1993': # https://www.imdb.com/event/ev0000245/1993/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0101437, tt0104561, tt0104607, tt0156658]
+      winner: [tt0101437]
+    best actress:
+      nominee: [tt0101437, tt0104607, tt0172188]
+      winner: [tt0101437]
+    best comic actor:
+      nominee: [tt0101437, tt0102200, tt0105394]
+      winner: [tt0102200]
+    best debut actor:
+      nominee: [tt0126871]
+      winner: [tt0126871]
+    best debut actress:
+      nominee: [tt0104605, tt0105315, tt0126871, tt0172170]
+      winner: [tt0126871]
+    best director:
+      nominee: [tt0101437, tt0104561, tt0104607]
+      winner: [tt0104607]
+    best film:
+      nominee: [tt0101437, tt0104561, tt0104607]
+      winner: [tt0104561]
+    best film - critics:
+      nominee: [tt0104478]
+      winner: [tt0104478]
+    best lyricist:
+      nominee: [tt0126871]
+      winner: [tt0126871]
+    best music direction:
+      nominee: [tt0101437, tt0104561, tt0126871]
+      winner: [tt0126871]
+    best performance by an actor in a negative role:
+      nominee: [tt0103689, tt0104607, tt0423313]
+      winner: [tt0103689]
+    best performer - critics:
+      nominee: [tt0108001]
+      winner: [tt0108001]
+    best playback singer - female:
+      nominee: [tt0101437, tt0104607, tt0126871]
+      winner: [tt0101437]
+    best playback singer - male:
+      nominee: [tt0104561, tt0126871]
+      winner: [tt0126871]
+    best supporting actor:
+      nominee: [tt0104607, tt0173102, tt0255401]
+      winner: [tt0104607]
+    best supporting actress:
+      nominee: [tt0101437, tt0104561, tt0104607]
+      winner: [tt0101437]
+  technical award:
+    best action:
+      nominee: [tt0104607]
+      winner: [tt0104607]
+    best choreography:
+      nominee: [tt0101437]
+      winner: [tt0101437]
+    best dialogue:
+      nominee: [tt0103689]
+      winner: [tt0103689]
+    best editing:
+      nominee: [tt0104561]
+      winner: [tt0104561]
+    best screenplay:
+      nominee: [tt0173102]
+      winner: [tt0173102]
+    best sound design:
+      nominee: [tt0104607]
+      winner: [tt0104607]
+'1992': # https://www.imdb.com/event/ev0000245/1992/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0101733, tt0102071, tt0102258, tt0102825, tt0102844]
+      winner: [tt0102071]
+    best actress:
+      nominee: [tt0100002, tt0102258, tt0102825, tt0121352, tt0363887]
+      winner: [tt0102258]
+    best art direction:
+      nominee: [tt0102071]
+      winner: [tt0102071]
+    best choreographer:
+      nominee: [tt0102071]
+      winner: [tt0102071]
+    best comic actor:
+      nominee: [tt0101244, tt0101733, tt0102071, tt0102258]
+      winner: [tt0102258]
+    best debut actor (male/female):
+      nominee: [tt0254683]
+      winner: [tt0254683]
+    best debut actress:
+      nominee: [tt0102645, tt0102844, tt0121352, tt0254683]
+      winner: [tt0102645]
+    best dialogue writer:
+      nominee: [tt0102258]
+      winner: [tt0102258]
+    best director:
+      nominee: [tt0101733, tt0102258, tt0102825, tt0102844, tt0121352]
+      winner: [tt0102844]
+    best documentary:
+      nominee: [tt0105208]
+      winner: [tt0105208]
+    best editor:
+      nominee: [tt0102844]
+      winner: [tt0102844]
+    best film:
+      nominee: [tt0101733, tt0102258, tt0102825, tt0102844, tt0121352]
+      winner: [tt0102258]
+    best film - critics:
+      nominee: [tt0246567]
+      winner: [tt0246567]
+    best lyricist:
+      nominee: [tt0100002]
+      winner: [tt0100002]
+    best music:
+      nominee: [tt0100002, tt0102825, tt0102844, tt0254683]
+      winner: [tt0102825]
+    best performance by an actor in a negative role:
+      nominee: [tt0102071, tt0102513, tt0102844, tt0156985]
+      winner: [tt0156985]
+    best playback singer - female:
+      nominee: [tt0101733]
+      winner: [tt0101733]
+    best playback singer - male:
+      nominee: [tt0102825]
+      winner: [tt0102825]
+    best screenplay:
+      nominee: [tt0246567]
+      winner: [tt0246567]
+    best story:
+      nominee: [tt0102258, tt0102701]
+      winner: [tt0102258]
+    best supporting actor:
+      nominee: [tt0102835, tt0102844, tt0121352, tt0254683]
+      winner: [tt0102835]
+    best supporting actress:
+      nominee: [tt0102071, tt0102258, tt0102706, tt0121352]
+      winner: [tt0121352]
+  special award:
+    outstanding performance in a non-commercial film:
+      nominee: [tt0099467]
+      winner: [tt0099467]
+'1991': # https://www.imdb.com/event/ev0000245/1991/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0098999, tt0099429, tt0099652, tt0100401]
+      winner: [tt0099652]
+    best actress:
+      nominee: [tt0099429, tt0100401, tt0156659, tt0259541]
+      winner: [tt0099429]
+    best art direction:
+      nominee: [tt0099652]
+      winner: [tt0099652]
+    best choreographer:
+      nominee: [tt0100539]
+      winner: [tt0100539]
+    best cinematographer:
+      nominee: [tt0099652]
+      winner: [tt0099652]
+    best comic actor:
+      nominee: [tt0099081]
+      winner: [tt0099081]
+    best dialogue writer:
+      nominee: [tt0097143]
+      winner: [tt0097143]
+    best director:
+      nominee: [tt0098999, tt0099652, tt0100401, tt0149573]
+      winner: [tt0099652]
+    best editor:
+      nominee: [tt0099652]
+      winner: [tt0099652]
+    best film:
+      nominee: [tt0098999, tt0099429, tt0099652, tt0100401]
+      winner: [tt0099652]
+    best film - critics:
+      nominee: [tt0102191]
+      winner: [tt0102191]
+    best lyricist:
+      nominee: [tt0149573]
+      winner: [tt0149573]
+    best music:
+      nominee: [tt0098976, tt0099080, tt0099429, tt0149573]
+      winner: [tt0149573]
+    best playback singer - female:
+      nominee: [tt0099080, tt0099429, tt0149573]
+      winner: [tt0149573]
+    best playback singer - male:
+      nominee: [tt0099080, tt0099429, tt0149573]
+      winner: [tt0149573]
+    best screenplay:
+      nominee: [tt0157882]
+      winner: [tt0157882]
+    best story writer:
+      nominee: [tt0099652]
+      winner: [tt0099652]
+    best supporting actor:
+      nominee: [tt0098999, tt0099429, tt0099652, tt0100401]
+      winner: [tt0098999]
+    best supporting actress:
+      nominee: [tt0098976, tt0098999, tt0149573, tt0156659]
+      winner: [tt0098999]
+    critics award for best performer:
+      nominee: [tt0097143]
+      winner: [tt0097143]
+'1990': # https://www.imdb.com/event/ev0000245/1990/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0097045, tt0097264, tt0098168, tt0100095, tt0102636, tt0290820]
+      winner: [tt0102636]
+    best actress:
+      nominee: [tt0097045, tt0097264, tt0100095, tt0102705, tt0122427]
+      winner: [tt0122427]
+    best choreography:
+      nominee: [tt0122427]
+      winner: [tt0122427]
+    best cinematographer:
+      nominee: [tt0097045]
+      winner: [tt0097045]
+    best comic actor:
+      nominee: [tt0098168, tt0100095, tt0155175]
+      winner: [tt0098168]
+    best debut actor:
+      nominee: [tt0100095]
+      winner: [tt0100095]
+    best debut actress:
+      nominee: [tt0100095]
+      winner: [tt0100095]
+    best debut director:
+      nominee: [tt0100095]
+      winner: [tt0100095]
+    best dialogue writer:
+      nominee: [tt0097812]
+      winner: [tt0097812]
+    best director:
+      nominee: [tt0096028, tt0097045, tt0098168, tt0100095, tt0102636]
+      winner: [tt0102636]
+    best editor:
+      nominee: [tt0102636]
+      winner: [tt0102636]
+    best film:
+      nominee: [tt0096028, tt0097045, tt0098168, tt0100095, tt0102636]
+      winner: [tt0100095]
+    best film - critics:
+      nominee: [tt0246727]
+      winner: [tt0246727]
+    best lyricist:
+      nominee: [tt0100095]
+      winner: [tt0100095]
+    best music director:
+      nominee: [tt0097045, tt0098168, tt0100095, tt0100816]
+      winner: [tt0100095]
+    best playback singer - female:
+      nominee: [tt0100816]
+      winner: [tt0100816]
+    best playback singer - male:
+      nominee: [tt0100095]
+      winner: [tt0100095]
+    best screenplay:
+      nominee: [tt0102636]
+      winner: [tt0102636]
+    best sound recordist:
+      nominee: [tt0100816]
+      winner: [tt0100816]
+    best story:
+      nominee: [tt0097264, tt0172509]
+      winner: [tt0097264]
+    best supporting actor:
+      nominee: [tt0096896, tt0100816, tt0102636, tt0290820]
+      winner: [tt0102636]
+    best supporting actress:
+      nominee: [tt0096028, tt0096477, tt0097045, tt0098168, tt0100095]
+      winner: [tt0098168]
+'1989': # https://www.imdb.com/event/ev0000245/1989/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0093949, tt0095936, tt0096252]
+      winner: [tt0096252]
+    best actress:
+      nominee: [tt0095936, tt0096252, tt0151206]
+      winner: [tt0151206]
+    best choreographer:
+      nominee: [tt0096252]
+      winner: [tt0096252]
+    best cinematographer:
+      nominee: [tt0095936]
+      winner: [tt0095936]
+    best debut actor (male/female):
+      nominee: [tt0095936]
+      winner: [tt0095936]
+    best dialogue writer:
+      nominee: [tt0096252]
+      winner: [tt0096252]
+    best director:
+      nominee: [tt0095936]
+      winner: [tt0095936]
+    best editor:
+      nominee: [tt0151206]
+      winner: [tt0151206]
+    best film:
+      nominee: [tt0095936]
+      winner: [tt0095936]
+    best film - critics:
+      nominee: [tt0246825]
+      winner: [tt0246825]
+    best lyricist:
+      nominee: [tt0091256]
+      winner: [tt0091256]
+    best music:
+      nominee: [tt0095936]
+      winner: [tt0095936]
+    best playback singer - female:
+      nominee: [tt0096252]
+      winner: [tt0096252]
+    best playback singer - male:
+      nominee: [tt0095936]
+      winner: [tt0095936]
+    best screenplay:
+      nominee: [tt0095936]
+      winner: [tt0095936]
+    best story writer:
+      nominee: [tt0091256]
+      winner: [tt0091256]
+    best supporting actor:
+      nominee: [tt0096252, tt0096390, tt0383875]
+      winner: [tt0096390]
+    best supporting actress:
+      nominee: [tt0091256, tt0151206, tt0383875]
+      winner: [tt0151206]
+    lux new face of the year:
+      nominee: [tt0095936]
+      winner: [tt0095936]
+'1986': # https://www.imdb.com/event/ev0000245/1986/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0084324, tt0089552, tt0090138, tt0152256, tt0156632]
+      winner: [tt0152256]
+    best actress:
+      nominee: [tt0069218, tt0087958, tt0090138, tt0152139, tt0152256]
+      winner: [tt0152256]
+    best art director:
+      nominee: [tt0152139]
+      winner: [tt0152139]
+    best cinematographer:
+      nominee: [tt0152256]
+      winner: [tt0152256]
+    best comic actor:
+      nominee: [tt0088335, tt0089952, tt0243395]
+      winner: [tt0243395]
+    best dialogue writer:
+      nominee: [tt0090138]
+      winner: [tt0090138]
+    best director:
+      nominee: [tt0152139, tt0152256, tt0266260]
+      winner: [tt0152139]
+    best documentary:
+      nominee: [tt0088837]
+      winner: [tt0088837]
+    best editor:
+      nominee: [tt0152139]
+      winner: [tt0152139]
+    best film:
+      nominee: [tt0084324, tt0152139, tt0152256, tt0266260]
+      winner: [tt0152139]
+    best film - critics:
+      nominee: [tt0177490]
+      winner: [tt0177490]
+    best lyricist:
+      nominee: [tt0084324, tt0088335, tt0152256]
+      winner: [tt0088335]
+    best music director:
+      nominee: [tt0084324, tt0152139, tt0152256]
+      winner: [tt0152139]
+    best playback singer - female:
+      nominee: [tt0088335]
+      winner: [tt0088335]
+    best playback singer - male:
+      nominee: [tt0152256]
+      winner: [tt0152256]
+    best screenplay:
+      nominee: [tt0087868]
+      winner: [tt0087868]
+    best story:
+      nominee: [tt0090138, tt0266260]
+      winner: [tt0090138]
+    best story writer:
+      nominee: [tt0090138]
+      winner: [tt0090138]
+    best supporting actor:
+      nominee: [tt0084324, tt0089201, tt0089952, tt0152139, tt0152256, tt0156632]
+      winner: [tt0084324]
+    best supporting actress:
+      nominee: [tt0084324, tt0089952, tt0090138, tt0152256, tt0155985, tt0156632]
+      winner: [tt0084324]
+  critics' awards:
+    best director:
+      nominee: [tt0087868]
+      winner: [tt0087868]
+'1985': # https://www.imdb.com/event/ev0000245/1985/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0079938, tt0085912, tt0088031, tt0088099, tt0158451]
+      winner: [tt0088031]
+    best actress:
+      nominee: [tt0079938, tt0088031, tt0088099, tt0149857, tt0158451]
+      winner: [tt0149857]
+    best art director:
+      nominee: [tt0088031]
+      winner: [tt0088031]
+    best cinematographer:
+      nominee: [tt0087492]
+      winner: [tt0087492]
+    best comic actor:
+      nominee: [tt0085743, tt0125556, tt0232783]
+      winner: [tt0085743]
+    best dialogue:
+      nominee: [tt0079938]
+      winner: [tt0079938]
+    best director:
+      nominee: [tt0079938, tt0085743, tt0088031, tt0088099, tt0158451]
+      winner: [tt0079938]
+    best editor:
+      nominee: [tt0152509]
+      winner: [tt0152509]
+    best film:
+      nominee: [tt0079938, tt0085743, tt0088031, tt0088099, tt0158451]
+      winner: [tt0079938]
+    best film - critics:
+      nominee: [tt0088986]
+      winner: [tt0088986]
+    best lyricist:
+      nominee: [tt0158451]
+      winner: [tt0158451]
+    best music director:
+      nominee: [tt0088099]
+      winner: [tt0088099]
+    best playback singer - female:
+      nominee: [tt0152509]
+      winner: [tt0152509]
+    best playback singer - male:
+      nominee: [tt0088099]
+      winner: [tt0088099]
+    best screenplay:
+      nominee: [tt0085785]
+      winner: [tt0085785]
+    best sound recordist:
+      nominee: [tt0152509]
+      winner: [tt0152509]
+    best story:
+      nominee: [tt0088031]
+      winner: [tt0088031]
+    best supporting actor:
+      nominee: [tt0085912, tt0087536, tt0091267, tt0154531, tt0230294]
+      winner: [tt0085912]
+    best supporting actress:
+      nominee: [tt0087908, tt0088031, tt0149857, tt0232734, tt0277024]
+      winner: [tt0087908]
+'1984': # https://www.imdb.com/event/ev0000245/1984/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0085178, tt0085913, tt0086230, tt0233264, tt0254179]
+      winner: [tt0085913]
+    best actress:
+      nominee: [tt0083578, tt0085896, tt0085913, tt0086230, tt0233264]
+      winner: [tt0083578]
+    best director:
+      nominee: [tt0085178]
+      winner: [tt0085178]
+    best film:
+      nominee: [tt0083578, tt0085178, tt0085913, tt0233264, tt0254179]
+      winner: [tt0085178]
+    best film - critics:
+      nominee: [tt0085913]
+      winner: [tt0085913]
+    best lyricist:
+      nominee: [tt0085913]
+      winner: [tt0085913]
+    best music director:
+      nominee: [tt0085913]
+      winner: [tt0085913]
+    best playback singer - female:
+      nominee: [tt0085913]
+      winner: [tt0085913]
+    best playback singer - male:
+      nominee: [tt0246413]
+      winner: [tt0246413]
+    best supporting actor:
+      nominee: [tt0085165, tt0085178, tt0085776, tt0085896, tt0246413]
+      winner: [tt0085178]
+    best supporting actress:
+      nominee: [tt0083578, tt0085896, tt0260207, tt0348078]
+      winner: [tt0083578]
+  technical award:
+    best art direction:
+      nominee: [tt0152148]
+      winner: [tt0152148]
+    best cinematography:
+      nominee: [tt0153545]
+      winner: [tt0153545]
+    best dialogue:
+      nominee: [tt0083578]
+      winner: [tt0083578]
+    best editing:
+      nominee: [tt0153545]
+      winner: [tt0153545]
+    best screenplay:
+      nominee: [tt0085178]
+      winner: [tt0085178]
+    best sound design:
+      nominee: [tt0153545]
+      winner: [tt0153545]
+    best story:
+      nominee: [tt0085178]
+      winner: [tt0085178]
+'1983': # https://www.imdb.com/event/ev0000245/1983/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0083636, tt0084385, tt0084667, tt0215517]
+      winner: [tt0084667]
+    best actress:
+      nominee: [tt0084532, tt0246456, tt0260107]
+      winner: [tt0084532]
+    best cinematography:
+      nominee: [tt0083636]
+      winner: [tt0083636]
+    best comedian/comedienne:
+      nominee: [tt0215517]
+      winner: [tt0215517]
+    best director:
+      nominee: [tt0084532]
+      winner: [tt0084532]
+    best editor:
+      nominee: [tt0084532]
+      winner: [tt0084532]
+    best film:
+      nominee: [tt0084667]
+      winner: [tt0084667]
+    best lyricist:
+      nominee: [tt0084532]
+      winner: [tt0084532]
+    best music director:
+      nominee: [tt0084385, tt0084532, tt0156043, tt0158827, tt0246456]
+      winner: [tt0156043]
+    best playback singer - female:
+      nominee: [tt0158827]
+      winner: [tt0158827]
+    best playback singer - male:
+      nominee: [tt0084385]
+      winner: [tt0084385]
+    best screenplay:
+      nominee: [tt0084667]
+      winner: [tt0084667]
+    best sound recordist:
+      nominee: [tt0084667]
+      winner: [tt0084667]
+    best supporting actor:
+      nominee: [tt0084866]
+      winner: [tt0084866]
+    best supporting actress:
+      nominee: [tt0216019, tt0246456]
+      winner: [tt0246456]
+'1982': # https://www.imdb.com/event/ev0000245/1982/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0080514, tt0082314, tt0082644, tt0083081, tt0315462]
+      winner: [tt0080514]
+    best actress:
+      nominee: [tt0080514, tt0082314, tt0082797, tt0083081, tt0083248, tt0300980]
+      winner: [tt0080514]
+    best art direction:
+      nominee: [tt0080514]
+      winner: [tt0080514]
+    best cinematography:
+      nominee: [tt0154749]
+      winner: [tt0154749]
+    best comic actor:
+      nominee: [tt0082162, tt0082314, tt0082796, tt0233426]
+      winner: [tt0082796]
+    best director:
+      nominee: [tt0080514, tt0080982, tt0082162, tt0082314, tt0083248]
+      winner: [tt0083248]
+    best editing:
+      nominee: [tt0082314]
+      winner: [tt0082314]
+    best editor:
+      nominee: [tt0082314]
+      winner: [tt0082314]
+    best film:
+      nominee: [tt0080514, tt0080982, tt0082162, tt0082314, tt0300980]
+      winner: [tt0080982]
+    best film - critics:
+      nominee: [tt0177480]
+      winner: [tt0177480]
+    best lyricist:
+      nominee: [tt0082314]
+      winner: [tt0082314]
+    best music director:
+      nominee: [tt0082314, tt0083081, tt0083248, tt0234141, tt0361313]
+      winner: [tt0083248]
+    best playback singer - female:
+      nominee: [tt0082644, tt0154749, tt0237587, tt0361313]
+      winner: [tt0154749]
+    best playback singer - male:
+      nominee: [tt0082314, tt0083349, tt0154749, tt0234141, tt0313495]
+      winner: [tt0234141]
+    best screenplay:
+      nominee: [tt0082314]
+      winner: [tt0082314]
+    best sound recordist:
+      nominee: [tt0080982]
+      winner: [tt0080982]
+    best story:
+      nominee: [tt0080514, tt0080982, tt0082314, tt0154749, tt0300980]
+      winner: [tt0154749]
+    best supporting actor:
+      nominee: [tt0082162, tt0082644, tt0083349, tt0234141, tt0373790]
+      winner: [tt0083349]
+    best supporting actress:
+      nominee: [tt0080982, tt0082314, tt0083063, tt0215132, tt0381864]
+      winner: [tt0080982]
+  special award:
+    outstanding performance:
+      nominee: [tt0381864]
+      winner: [tt0381864]
+'1981': # https://www.imdb.com/event/ev0000245/1981/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0080322, tt0080653, tt0080926, tt0081624, tt0178204, tt0246879]
+      winner: [tt0080322]
+    best actress:
+      nominee: [tt0080926, tt0081624, tt0244585, tt0260112]
+      winner: [tt0244585]
+    best art director:
+      nominee: [tt0080322]
+      winner: [tt0080322]
+    best cinematography:
+      nominee: [tt0081491]
+      winner: [tt0081491]
+    best dialogue writer:
+      nominee: [tt0080926]
+      winner: [tt0080926]
+    best director:
+      nominee: [tt0080322, tt0080926, tt0081624, tt0178204, tt0244585]
+      winner: [tt0080322]
+    best editor:
+      nominee: [tt0080926]
+      winner: [tt0080926]
+    best film:
+      nominee: [tt0244585]
+      winner: [tt0244585]
+    best film - critics:
+      nominee: [tt0080343]
+      winner: [tt0080343]
+    best lyricist:
+      nominee: [tt0081624]
+      winner: [tt0081624]
+    best music director:
+      nominee: [tt0081491, tt0081624, tt0178204, tt0214841, tt0246879]
+      winner: [tt0214841]
+    best playback singer - female:
+      nominee: [tt0156581, tt0178198, tt0246879, tt0362057]
+      winner: [tt0246879]
+    best playback singer - male:
+      nominee: [tt0080653, tt0081624, tt0214841, tt0246914]
+      winner: [tt0081624]
+    best screenplay:
+      nominee: [tt0080322]
+      winner: [tt0080322]
+    best story:
+      nominee: [tt0080322, tt0080926, tt0081624, tt0178204, tt0244585]
+      winner: [tt0080322]
+    best supporting actor:
+      nominee: [tt0080322, tt0080926, tt0178204, tt0259170, tt6710718]
+      winner: [tt0080322]
+    best supporting actress:
+      nominee: [tt0080926, tt0157320, tt0178204, tt0214841, tt0244585]
+      winner: [tt0080926]
+'1980': # https://www.imdb.com/event/ev0000245/1980/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0078761, tt0079221, tt0079386, tt0079584, tt0246914]
+      winner: [tt0079221]
+    best actress:
+      nominee: [tt0079614, tt0081147, tt0246914, tt0309926]
+      winner: [tt0079614]
+    best art director:
+      nominee: [tt0151285]
+      winner: [tt0151285]
+    best cinematography:
+      nominee: [tt0077783]
+      winner: [tt0077783]
+    best comedian/comedienne:
+      nominee: [tt0079221, tt0246914]
+      winner: [tt0079221]
+    best dialogue:
+      nominee: [tt0077783]
+      winner: [tt0077783]
+    best director:
+      nominee: [tt0077783]
+      winner: [tt0077783]
+    best editor:
+      nominee: [tt0077783]
+      winner: [tt0077783]
+    best film:
+      nominee: [tt0077783, tt0246914]
+      winner: [tt0077783]
+    best film - critics:
+      nominee: [tt0079364]
+      winner: [tt0079364]
+    best lyricist:
+      nominee: [tt0079221, tt0246914]
+      winner: [tt0079221]
+    best music director:
+      nominee: [tt0246914]
+      winner: [tt0246914]
+    best playback singer - female:
+      nominee: [tt0081147]
+      winner: [tt0081147]
+    best playback singer - male:
+      nominee: [tt0231416]
+      winner: [tt0231416]
+    best screenplay:
+      nominee: [tt0076089]
+      winner: [tt0076089]
+    best sound recordist:
+      nominee: [tt0077783]
+      winner: [tt0077783]
+    best supporting actor:
+      nominee: [tt0231416]
+      winner: [tt0231416]
+    best supporting actress:
+      nominee: [tt0077783, tt0079221, tt0079382, tt0079386, tt0151285]
+      winner: [tt0151285]
+'1979': # https://www.imdb.com/event/ev0000245/1979/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0077451, tt0078418, tt0079590, tt0158845, tt0363563]
+      winner: [tt0077451]
+    best actress:
+      nominee: [tt0077609, tt0078204, tt0151466, tt0165625, tt0778877]
+      winner: [tt0151466]
+    best comic actor:
+      nominee: [tt0077797, tt0079590, tt0157337, tt0158845, tt0246492]
+      winner: [tt0246492]
+    best director:
+      nominee: [tt0076696, tt0078204, tt0078418, tt0079590, tt0151466]
+      winner: [tt0076696]
+    best film:
+      nominee: [tt0076696, tt0078418, tt0079590, tt0151466, tt0165625]
+      winner: [tt0151466]
+    best film - critics:
+      nominee: [tt0077179]
+      winner: [tt0077179]
+    best lyricist:
+      nominee: [tt0077451, tt0078204, tt0151466, tt0165625, tt0246433]
+      winner: [tt0246433]
+    best music direction:
+      nominee: [tt0077451, tt0078204, tt0078241, tt0154390, tt0165625]
+      winner: [tt0078204]
+    best playback singer - female:
+      nominee: [tt0077451]
+      winner: [tt0077451]
+    best playback singer - male:
+      nominee: [tt0077451]
+      winner: [tt0077451]
+    best supporting actor:
+      nominee: [tt0076696, tt0077792, tt0078418, tt0079590, tt0363563]
+      winner: [tt0076696]
+    best supporting actress:
+      nominee: [tt0079590, tt0151466, tt0158845, tt0246433]
+      winner: [tt0246433]
+  technical award:
+    best cinematography:
+      nominee: [tt0078204]
+      winner: [tt0078204]
+    best dialogue:
+      nominee: [tt0151466]
+      winner: [tt0151466]
+    best editing:
+      nominee: [tt0077200]
+      winner: [tt0077200]
+    best screenplay:
+      nominee: [tt0158845]
+      winner: [tt0158845]
+    best story:
+      nominee: [tt0077609, tt0078418, tt0079590, tt0151466, tt0215907]
+      winner: [tt0077609]
+'1978': # https://www.imdb.com/event/ev0000245/1978/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0075632, tt0075669, tt0259571, tt0276628]
+      winner: [tt0075669]
+    best actress:
+      nominee: [tt0075747, tt0150718, tt0152720, tt0215902, tt0301215]
+      winner: [tt0152720]
+    best art director:
+      nominee: [tt0076167]
+      winner: [tt0076167]
+    best cinematography:
+      nominee: [tt0076167]
+      winner: [tt0076167]
+    best dialogue:
+      nominee: [tt0150417]
+      winner: [tt0150417]
+    best director:
+      nominee: [tt0152720]
+      winner: [tt0152720]
+    best editor:
+      nominee: [tt0075669]
+      winner: [tt0075669]
+    best film:
+      nominee: [tt0075747]
+      winner: [tt0075747]
+    best film - critics:
+      nominee: [tt0076696]
+      winner: [tt0076696]
+    best lyricist:
+      nominee: [tt0150718]
+      winner: [tt0150718]
+    best music director:
+      nominee: [tt0075669]
+      winner: [tt0075669]
+    best playback singer - female:
+      nominee: [tt0074858]
+      winner: [tt0074858]
+    best playback singer - male:
+      nominee: [tt0076167]
+      winner: [tt0076167]
+    best screenplay:
+      nominee: [tt0150417]
+      winner: [tt0150417]
+    best story:
+      nominee: [tt0152720]
+      winner: [tt0152720]
+    best supporting actor:
+      nominee: [tt0150718]
+      winner: [tt0150718]
+    best supporting actress:
+      nominee: [tt0152080]
+      winner: [tt0152080]
+'1977': # https://www.imdb.com/event/ev0000245/1977/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0072777, tt0074730, tt0149708, tt0151511, tt0371558]
+      winner: [tt0149708]
+    best actress:
+      nominee: [tt0074730, tt0074949, tt0151511, tt0165972, tt0268449]
+      winner: [tt0165972]
+    best art direction:
+      nominee: [tt0298327]
+      winner: [tt0298327]
+    best cinematography:
+      nominee: [tt0298327]
+      winner: [tt0298327]
+    best comedian/comedienne:
+      nominee: [tt0237022]
+      winner: [tt0237022]
+    best director:
+      nominee: [tt0151511]
+      winner: [tt0151511]
+    best film:
+      nominee: [tt0151511]
+      winner: [tt0151511]
+    best film - critics:
+      nominee: [tt0074926]
+      winner: [tt0074926]
+    best lyricist:
+      nominee: [tt0074730]
+      winner: [tt0074730]
+    best music director:
+      nominee: [tt0074730]
+      winner: [tt0074730]
+    best playback singer - female:
+      nominee: [tt0157460, tt0298327]
+      winner: [tt0157460]
+    best playback singer - male:
+      nominee: [tt0074730, tt0298327]
+      winner: [tt0074730]
+    best screenplay:
+      nominee: [tt0074730]
+      winner: [tt0074730]
+    best story:
+      nominee: [tt0149708]
+      winner: [tt0149708]
+    best supporting actor:
+      nominee: [tt0072777, tt0073104, tt0074417, tt0074730, tt0268449]
+      winner: [tt0074417]
+    best supporting actress:
+      nominee: [tt0074730, tt0149708, tt0151511, tt0237022, tt0298582]
+      winner: [tt0237022]
+'1976': # https://www.imdb.com/event/ev0000245/1976/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0072860, tt0073657, tt0073707, tt0178186, tt0246420]
+      winner: [tt0178186]
+    best actress:
+      nominee: [tt0073391, tt0073657, tt0178186, tt0187192, tt0215900]
+      winner: [tt0187192]
+    best comedian/comedienne:
+      nominee: [tt0246493]
+      winner: [tt0246493]
+    best dialogue writer:
+      nominee: [tt0072860]
+      winner: [tt0072860]
+    best director:
+      nominee: [tt0072860, tt0073657, tt0073707, tt0178186, tt0246420]
+      winner: [tt0072860]
+    best editor:
+      nominee: [tt0073707]
+      winner: [tt0073707]
+    best film:
+      nominee: [tt0072860, tt0073657, tt0073707, tt0178186, tt0246420]
+      winner: [tt0072860]
+    best film - critics:
+      nominee: [tt0178186]
+      winner: [tt0178186]
+    best lyricist:
+      nominee: [tt0246420]
+      winner: [tt0246420]
+    best music director:
+      nominee: [tt0187192]
+      winner: [tt0187192]
+    best playback singer - female:
+      nominee: [tt0246910]
+      winner: [tt0246910]
+    best playback singer - male:
+      nominee: [tt0246420]
+      winner: [tt0246420]
+    best screenplay:
+      nominee: [tt0072860]
+      winner: [tt0072860]
+    best sound recordist:
+      nominee: [tt0072860]
+      winner: [tt0072860]
+    best story:
+      nominee: [tt0072860, tt0073458, tt0073707, tt0178186]
+      winner: [tt0072860]
+    best supporting actor:
+      nominee: [tt0071800, tt0072860, tt0073707, tt0246420, tt0370468]
+      winner: [tt0072860]
+    best supporting actress:
+      nominee: [tt0071800, tt0072860, tt0187192, tt0246420, tt0370468]
+      winner: [tt0187192]
+'1975': # https://www.imdb.com/event/ev0000245/1975/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0072026, tt0072100, tt0072109, tt0155106, tt0156258]
+      winner: [tt0156258]
+    best actress:
+      nominee: [tt0071145, tt0072026, tt0072109, tt0233202, tt0246740]
+      winner: [tt0246740]
+    best art director:
+      nominee: [tt0072109]
+      winner: [tt0072109]
+    best cinematography:
+      nominee: [tt0072026]
+      winner: [tt0072026]
+    best comic actor:
+      nominee: [tt0071730, tt0175530, tt0233620, tt0246462, tt0247015]
+      winner: [tt0247015]
+    best dialogue writer:
+      nominee: [tt0073034]
+      winner: [tt0073034]
+    best director:
+      nominee: [tt0071145, tt0072100, tt0073034, tt0156258, tt0246740]
+      winner: [tt0072100]
+    best film:
+      nominee: [tt0071145, tt0072064, tt0072100, tt0073034, tt0246740]
+      winner: [tt0072064]
+    best film - critics:
+      nominee: [tt0072064]
+      winner: [tt0072064]
+    best lyricist:
+      nominee: [tt0072100]
+      winner: [tt0072100]
+    best music director:
+      nominee: [tt0072026, tt0072100, tt0155106, tt0175423, tt0246740]
+      winner: [tt0246740]
+    best playback singer - female:
+      nominee: [tt0070558, tt0071811, tt0155106, tt0246462, tt0304147]
+      winner: [tt0070558]
+    best playback singer - male:
+      nominee: [tt0071436, tt0072100, tt0246740, tt1035476, tt5581434]
+      winner: [tt0072100]
+    best screenplay:
+      nominee: [tt0073034]
+      winner: [tt0073034]
+    best story:
+      nominee: [tt0073034]
+      winner: [tt0073034]
+    best supporting actor:
+      nominee: [tt0071436, tt0072100, tt0233202, tt0239448, tt0430232]
+      winner: [tt0239448]
+    best supporting actress:
+      nominee: [tt0072100, tt0155106, tt0246462, tt0304147, tt0357782]
+      winner: [tt0246462]
+'1974': # https://www.imdb.com/event/ev0000245/1974/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0069810, tt0070935, tt0070947, tt0150251, tt0215911]
+      winner: [tt0069810]
+    best actress:
+      nominee: [tt0068217, tt0069671, tt0069810, tt0070637, tt0215911]
+      winner: [tt0069671, tt0069810]
+    best art director:
+      nominee: [tt0069810]
+      winner: [tt0069810]
+    best cinematography:
+      nominee: [tt0070241]
+      winner: [tt0070241]
+    best comic actor:
+      nominee: [tt0070434, tt0158331, tt0177502, tt0327648]
+      winner: [tt0177502]
+    best dialogue writer:
+      nominee: [tt0070434]
+      winner: [tt0070434]
+    best director:
+      nominee: [tt0069810, tt0150251, tt0177502, tt0215466, tt0215911]
+      winner: [tt0150251]
+    best editor:
+      nominee: [tt0070947]
+      winner: [tt0070947]
+    best film:
+      nominee: [tt0068217, tt0069810, tt0070947, tt0177502, tt0215911]
+      winner: [tt0068217]
+    best film - critics:
+      nominee: [tt0070009]
+      winner: [tt0070009]
+    best lyricist:
+      nominee: [tt0069810, tt0070947, tt0276467]
+      winner: [tt0070947]
+    best music director:
+      nominee: [tt0069671, tt0069810, tt0070935, tt0070947, tt0150251]
+      winner: [tt0069671]
+    best playback singer - female:
+      nominee: [tt0177473, tt0206240, tt0246800, tt0297731, tt0379445]
+      winner: [tt0246800]
+    best playback singer - male:
+      nominee: [tt0069810, tt0070947, tt0150251, tt0246800]
+      winner: [tt0069810]
+    best screenplay:
+      nominee: [tt0070947]
+      winner: [tt0070947]
+    best sound recordist:
+      nominee: [tt0069810]
+      winner: [tt0069810]
+    best story writer:
+      nominee: [tt0068217, tt0070947, tt0177502, tt0215466, tt0215911]
+      winner: [tt0070947]
+    best supporting actor:
+      nominee: [tt0069671, tt0069810, tt0070434, tt0070947, tt0158331]
+      winner: [tt0070434]
+    best supporting actress:
+      nominee: [tt0068217, tt0069671, tt0069810, tt0070637, tt0150251]
+      winner: [tt0150251]
+'1973': # https://www.imdb.com/event/ev0000245/1973/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0066758, tt0138411, tt0149814]
+      winner: [tt0149814]
+    best actress:
+      nominee: [tt0067546, tt0078222, tt0229949]
+      winner: [tt0078222]
+    best art director:
+      nominee: [tt0067546]
+      winner: [tt0067546]
+    best comic actor:
+      nominee: [tt0068257, tt0068305, tt0213500]
+      winner: [tt0068257]
+    best dialogue writer:
+      nominee: [tt0066758]
+      winner: [tt0066758]
+    best director:
+      nominee: [tt0067546, tt0149814, tt0234724]
+      winner: [tt0149814]
+    best film:
+      nominee: [tt0067546, tt0149814, tt0156290]
+      winner: [tt0149814]
+    best film - critics:
+      nominee: [tt0068929]
+      winner: [tt0068929]
+    best lyricist:
+      nominee: [tt0066758, tt0149814, tt0234724]
+      winner: [tt0149814]
+    best music director:
+      nominee: [tt0066758, tt0067546, tt0149814, tt0234724]
+      winner: [tt0149814]
+    best playback singer - female:
+      nominee: [tt0067183]
+      winner: [tt0067183]
+    best playback singer - male:
+      nominee: [tt0149814]
+      winner: [tt0149814]
+    best screenplay:
+      nominee: [tt0066758]
+      winner: [tt0066758]
+    best sound recordist:
+      nominee: [tt0066758]
+      winner: [tt0066758]
+    best supporting actor:
+      nominee: [tt0149814, tt0234724]
+      winner: [tt0149814]
+    best supporting actress:
+      nominee: [tt0067183, tt0149814, tt0158579]
+      winner: [tt0067183]
+'1972': # https://www.imdb.com/event/ev0000245/1972/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0065936, tt0066763, tt0148375, tt0232081]
+      winner: [tt0066763]
+    best actress:
+      nominee: [tt0065936, tt0067164, tt0166008]
+      winner: [tt0065936]
+    best cinematography - black and white:
+      nominee: [tt0137455]
+      winner: [tt0137455]
+    best cinematography - color:
+      nominee: [tt0066070]
+      winner: [tt0066070]
+    best comic actor:
+      nominee: [tt0175590, tt0234174, tt0246842]
+      winner: [tt0246842]
+    best dialogue:
+      nominee: [tt0066763]
+      winner: [tt0066763]
+    best director:
+      nominee: [tt0065936, tt0066070, tt0066763]
+      winner: [tt0066070]
+    best editor:
+      nominee: [tt0066763]
+      winner: [tt0066763]
+    best film:
+      nominee: [tt0066763]
+      winner: [tt0066763]
+    best film - critics:
+      nominee: [tt0066787]
+      winner: [tt0066787]
+    best lyricist:
+      nominee: [tt0066766]
+      winner: [tt0066766]
+    best music director:
+      nominee: [tt0066070]
+      winner: [tt0066070]
+    best playback singer - female:
+      nominee: [tt0066888]
+      winner: [tt0066888]
+    best playback singer - male:
+      nominee: [tt0066070]
+      winner: [tt0066070]
+    best screenplay:
+      nominee: [tt0064935]
+      winner: [tt0064935]
+    best sound recordist:
+      nominee: [tt0066070]
+      winner: [tt0066070]
+    best story:
+      nominee: [tt0066763]
+      winner: [tt0066763]
+    best supporting actor:
+      nominee: [tt0066763, tt0246842, tt0283844]
+      winner: [tt0066763]
+    best supporting actress:
+      nominee: [tt0066888, tt0246842, tt0367695]
+      winner: [tt0246842]
+'1971': # https://www.imdb.com/event/ev0000245/1971/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0148691]
+      winner: [tt0148691]
+    best actress:
+      nominee: [tt0142431, tt0148375, tt0148692]
+      winner: [tt0148375]
+    best art director:
+      nominee: [tt0065064]
+      winner: [tt0065064]
+    best cinematography - black and white:
+      nominee: [tt0142431]
+      winner: [tt0142431]
+    best cinematography - color:
+      nominee: [tt0148266]
+      winner: [tt0148266]
+    best comedian/comedienne:
+      nominee: [tt0154685]
+      winner: [tt0154685]
+    best director:
+      nominee: [tt0148692]
+      winner: [tt0148692]
+    best film:
+      nominee: [tt0148375]
+      winner: [tt0148375]
+    best film - critics:
+      nominee: [tt0066514]
+      winner: [tt0066514]
+    best lyricist:
+      nominee: [tt0246848]
+      winner: [tt0246848]
+    best music director:
+      nominee: [tt0246848]
+      winner: [tt0246848]
+    best playback singer - female:
+      nominee: [tt0246713]
+      winner: [tt0246713]
+    best playback singer - male:
+      nominee: [tt0246848]
+      winner: [tt0246848]
+    best sound recordist:
+      nominee: [tt0065064]
+      winner: [tt0065064]
+    best story:
+      nominee: [tt0064241]
+      winner: [tt0064241]
+    best supporting actor:
+      nominee: [tt0158449]
+      winner: [tt0158449]
+    best supporting actress:
+      nominee: [tt0246848]
+      winner: [tt0246848]
+'1970': # https://www.imdb.com/event/ev0000245/1970/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0064506, tt0065416, tt0147855]
+      winner: [tt0147855]
+    best actress:
+      nominee: [tt0064164, tt0064506, tt0065416]
+      winner: [tt0065416]
+    best art director - black and white:
+      nominee: [tt0147843]
+      winner: [tt0147843]
+    best art director - color:
+      nominee: [tt0149233]
+      winner: [tt0149233]
+    best cinematography - black and white:
+      nominee: [tt0147843]
+      winner: [tt0147843]
+    best cinematography - color:
+      nominee: [tt0062918]
+      winner: [tt0062918]
+    best comic actor:
+      nominee: [tt0064658, tt0149345, tt0239452]
+      winner: [tt0149345]
+    best dialogue writer:
+      nominee: [tt0147843]
+      winner: [tt0147843]
+    best director:
+      nominee: [tt0064506]
+      winner: [tt0064506]
+    best editor:
+      nominee: [tt0148519]
+      winner: [tt0148519]
+    best film:
+      nominee: [tt0065416]
+      winner: [tt0065416]
+    best lyricist:
+      nominee: [tt0147973]
+      winner: [tt0147973]
+    best music director:
+      nominee: [tt0148353]
+      winner: [tt0148353]
+    best playback singer - female:
+      nominee: [tt0148353]
+      winner: [tt0148353]
+    best playback singer - male:
+      nominee: [tt0065416]
+      winner: [tt0065416]
+    best screenplay:
+      nominee: [tt0147843]
+      winner: [tt0147843]
+    best sound recordist:
+      nominee: [tt0064506]
+      winner: [tt0064506]
+    best story:
+      nominee: [tt0147812]
+      winner: [tt0147812]
+    best supporting actor:
+      nominee: [tt0147812, tt0147855, tt0214665]
+      winner: [tt0147812]
+    best supporting actress:
+      nominee: [tt0064506, tt0065416, tt0148575]
+      winner: [tt0148575]
+  technical award:
+    best sound design:
+      nominee: [tt0064506]
+      winner: [tt0064506]
+'1969': # https://www.imdb.com/event/ev0000245/1969/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0062640, tt0063540, tt0147925]
+      winner: [tt0147925]
+    best actress:
+      nominee: [tt0062897, tt0148523, tt0156923]
+      winner: [tt0148523]
+    best art director - black and white:
+      nominee: [tt0139447]
+      winner: [tt0139447]
+    best art director - color:
+      nominee: [tt0139502]
+      winner: [tt0139502]
+    best cinematographer - color:
+      nominee: [tt0147811]
+      winner: [tt0147811]
+    best cinematography - black and white:
+      nominee: [tt0148706]
+      winner: [tt0148706]
+    best comic actor:
+      nominee: [tt0148841]
+      winner: [tt0148841]
+    best dialogue writer:
+      nominee: [tt0148706]
+      winner: [tt0148706]
+    best director:
+      nominee: [tt0147811]
+      winner: [tt0147811]
+    best editor:
+      nominee: [tt0063532]
+      winner: [tt0063532]
+    best film:
+      nominee: [tt0147925]
+      winner: [tt0147925]
+    best lyricist:
+      nominee: [tt0147925]
+      winner: [tt0147925]
+    best music director:
+      nominee: [tt0147925]
+      winner: [tt0147925]
+    best playback singer - female:
+      nominee: [tt0148841]
+      winner: [tt0148841]
+    best playback singer - male:
+      nominee: [tt0147925]
+      winner: [tt0147925]
+    best screenplay:
+      nominee: [tt0139447]
+      winner: [tt0139447]
+    best sound recordist:
+      nominee: [tt0148841]
+      winner: [tt0148841]
+    best story:
+      nominee: [tt0147925]
+      winner: [tt0147925]
+    best supporting actor:
+      nominee: [tt0148523, tt0148841, tt1407129]
+      winner: [tt0148841]
+    best supporting actress:
+      nominee: [tt0063532, tt0148523, tt0148841]
+      winner: [tt0063532]
+'1968': # https://www.imdb.com/event/ev0000245/1968/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0061974, tt0062177, tt0146335]
+      winner: [tt0062177]
+    best actress:
+      nominee: [tt0061974, tt0062177, tt0306065]
+      winner: [tt0061974]
+    best art director - color:
+      nominee: [tt0139107]
+      winner: [tt0139107]
+    best cinematography - black and white:
+      nominee: [tt0061378]
+      winner: [tt0061378]
+    best cinematography - color:
+      nominee: [tt0061744]
+      winner: [tt0061744]
+    best comedian/comedienne:
+      nominee: [tt0214653]
+      winner: [tt0214653]
+    best director:
+      nominee: [tt0061963, tt0061974, tt0146335]
+      winner: [tt0146335]
+    best film:
+      nominee: [tt0061963, tt0061974, tt0146335]
+      winner: [tt0146335]
+    best lyricist:
+      nominee: [tt0146335]
+      winner: [tt0146335]
+    best music director:
+      nominee: [tt0061744, tt0061974, tt0146335]
+      winner: [tt0061974]
+    best playback singer - female:
+      nominee: [tt0061974, tt0140784, tt0214653]
+      winner: [tt0214653]
+    best playback singer - male:
+      nominee: [tt0061744, tt0061974, tt0146335]
+      winner: [tt0061744]
+    best sound recordist:
+      nominee: [tt0061842]
+      winner: [tt0061842]
+    best supporting actor:
+      nominee: [tt0061963, tt0146335, tt0214653]
+      winner: [tt0146335]
+    best supporting actress:
+      nominee: [tt0061842, tt0061974, tt0062177]
+      winner: [tt0061974]
+'1967': # https://www.imdb.com/event/ev0000245/1967/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0059246, tt0060310, tt0139525]
+      winner: [tt0059246]
+    best actress:
+      nominee: [tt0059246, tt0060659, tt0139525]
+      winner: [tt0059246]
+    best art director - black and white:
+      nominee: [tt0061206]
+      winner: [tt0061206]
+    best art director - color:
+      nominee: [tt0139525]
+      winner: [tt0139525]
+    best cinematographer - black and white:
+      nominee: [tt0137361]
+      winner: [tt0137361]
+    best cinematography - color:
+      nominee: [tt0059246]
+      winner: [tt0059246]
+    best comedian/comedienne:
+      nominee: [tt0157944, tt0176075]
+      winner: [tt0176075]
+    best dialogue:
+      nominee: [tt0059246]
+      winner: [tt0059246]
+    best director:
+      nominee: [tt0059246, tt0060659, tt0137361]
+      winner: [tt0059246]
+    best editor:
+      nominee: [tt0139525]
+      winner: [tt0139525]
+    best film:
+      nominee: [tt0059246, tt0060659, tt0137361]
+      winner: [tt0059246]
+    best lyricist:
+      nominee: [tt0061046, tt0061072, tt0231469]
+      winner: [tt0061046]
+    best music director:
+      nominee: [tt0059246, tt0061046, tt0231469]
+      winner: [tt0061046]
+    best playback singer:
+      nominee: [tt0059246, tt0061046, tt0231469]
+      winner: [tt0061046]
+    best sound recordist:
+      nominee: [tt0060689]
+      winner: [tt0060689]
+    best story:
+      nominee: [tt0059246, tt0060659, tt0137361]
+      winner: [tt0059246]
+    best supporting actor:
+      nominee: [tt0060310, tt0157296, tt0371636]
+      winner: [tt0157296]
+    best supporting actress:
+      nominee: [tt0137361, tt0139525, tt0231469]
+      winner: [tt0231469]
+'1966': # https://www.imdb.com/event/ev0000245/1966/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0058921, tt0059354, tt0139398]
+      winner: [tt0059354]
+    best actress:
+      nominee: [tt0059893, tt0139398, tt0156606]
+      winner: [tt0139398]
+    best art director - color:
+      nominee: [tt0247394]
+      winner: [tt0247394]
+    best cinematographer:
+      nominee: [tt0059893]
+      winner: [tt0059893]
+    best cinematography - black and white:
+      nominee: [tt0058759]
+      winner: [tt0058759]
+    best dialogue writer:
+      nominee: [tt0059893]
+      winner: [tt0059893]
+    best director:
+      nominee: [tt0058921, tt0059893, tt0154565]
+      winner: [tt0059893]
+    best film:
+      nominee: [tt0059893, tt0154565, tt0156606]
+      winner: [tt0156606]
+    best lyricist:
+      nominee: [tt0058921, tt0059354, tt0156606]
+      winner: [tt0059354]
+    best music director:
+      nominee: [tt0058921, tt0059354, tt0156606]
+      winner: [tt0059354]
+    best playback singer:
+      nominee: [tt0059354, tt0139398, tt0156606]
+      winner: [tt0059354]
+    best sound recordist:
+      nominee: [tt0058759]
+      winner: [tt0058759]
+    best story:
+      nominee: [tt0058921, tt0059893, tt0139398]
+      winner: [tt0059893]
+    best supporting actor:
+      nominee: [tt0059893, tt0139398, tt0247394]
+      winner: [tt0059893]
+    best supporting actress:
+      nominee: [tt0139398, tt0156606, tt0247394]
+      winner: [tt0139398]
+'1965': # https://www.imdb.com/event/ev0000245/1965/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0058287, tt0058547, tt0233147]
+      winner: [tt0058287]
+    best actress:
+      nominee: [tt0058547, tt0137847, tt0232960]
+      winner: [tt0058547]
+    best art director - black and white:
+      nominee: [tt0058270]
+      winner: [tt0058270]
+    best cinematographer - black and white:
+      nominee: [tt0232960]
+      winner: [tt0232960]
+    best dialogue writer:
+      nominee: [tt0146645]
+      winner: [tt0146645]
+    best director:
+      nominee: [tt0058547, tt0146645, tt0152400]
+      winner: [tt0058547]
+    best editor:
+      nominee: [tt0058547]
+      winner: [tt0058547]
+    best film:
+      nominee: [tt0058547, tt0146645, tt0152400]
+      winner: [tt0146645]
+    best lyricist:
+      nominee: [tt0058547, tt0146645, tt0358102]
+      winner: [tt0146645]
+    best music director:
+      nominee: [tt0058547, tt0146645, tt0232960]
+      winner: [tt0146645]
+    best playback singer:
+      nominee: [tt0058547, tt0146645, tt0358102]
+      winner: [tt0146645]
+    best sound recordist:
+      nominee: [tt0058547]
+      winner: [tt0058547]
+    best story:
+      nominee: [tt0058547, tt0146645, tt0152400]
+      winner: [tt0146645]
+    best supporting actor:
+      nominee: [tt0058547, tt0152400, tt0233147]
+      winner: [tt0152400]
+    best supporting actress:
+      nominee: [tt0058270, tt0233147, tt0246923]
+      winner: [tt0246923]
+'1964': # https://www.imdb.com/event/ev0000245/1964/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0057120, tt0057332, tt0139157]
+      winner: [tt0057332]
+    best actress:
+      nominee: [tt0056850, tt0139157, tt0254164]
+      winner: [tt0056850]
+    best cinematographer - black and white:
+      nominee: [tt0056850]
+      winner: [tt0056850]
+    best dialogue writer:
+      nominee: [tt0139157]
+      winner: [tt0139157]
+    best director:
+      nominee: [tt0056850, tt0057120, tt0139157]
+      winner: [tt0056850]
+    best editor:
+      nominee: [tt0057120]
+      winner: [tt0057120]
+    best film:
+      nominee: [tt0056850, tt0057120, tt0139157]
+      winner: [tt0056850]
+    best lyricist:
+      nominee: [tt0057120, tt0057555, tt0266765]
+      winner: [tt0057555]
+    best music director:
+      nominee: [tt0057555, tt0139157, tt0266765]
+      winner: [tt0057555]
+    best playback singer:
+      nominee: [tt0057120, tt0057555, tt0266765]
+      winner: [tt0057120]
+    best sound recordist:
+      nominee: [tt0056850]
+      winner: [tt0056850]
+    best story:
+      nominee: [tt0056850, tt0057120, tt0139157]
+      winner: [tt0056850]
+    best supporting actor:
+      nominee: [tt0139157, tt0266765, tt0268331]
+      winner: [tt0139157]
+    best supporting actress:
+      nominee: [tt0057120, tt0266765]
+      winner: [tt0057120]
+'1963': # https://www.imdb.com/event/ev0000245/1963/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0056379, tt0056436, tt0156922]
+      winner: [tt0156922]
+    best actress:
+      nominee: [tt0056213, tt0056436, tt0056806]
+      winner: [tt0056436]
+    best cinematography - black and white:
+      nominee: [tt0056436]
+      winner: [tt0056436]
+    best director:
+      nominee: [tt0055783, tt0056436, tt0232674]
+      winner: [tt0056436]
+    best editor:
+      nominee: [tt0055783]
+      winner: [tt0055783]
+    best film:
+      nominee: [tt0055783, tt0056436, tt0156922]
+      winner: [tt0056436]
+    best lyricist:
+      nominee: [tt0055783, tt0056379, tt0206554]
+      winner: [tt0055783]
+    best music director:
+      nominee: [tt0055783, tt0056379, tt0206554]
+      winner: [tt0056379]
+    best playback singer:
+      nominee: [tt0055783, tt0056379, tt0206554]
+      winner: [tt0055783]
+    best sound recordist:
+      nominee: [tt0055783]
+      winner: [tt0055783]
+    best story:
+      nominee: [tt0056213, tt0056436, tt0156922]
+      winner: [tt0156922]
+    best supporting actor:
+      nominee: [tt0056436, tt0156922, tt0250339]
+      winner: [tt0250339]
+    best supporting actress:
+      nominee: [tt0056379, tt0056436, tt0056806]
+      winner: [tt0056806]
+'1962': # https://www.imdb.com/event/ev0000245/1962/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0053965, tt0054910, tt0225961]
+      winner: [tt0053965]
+    best actress:
+      nominee: [tt0053965, tt0054910, tt0055035]
+      winner: [tt0054910]
+    best art director:
+      nominee: [tt0053965]
+      winner: [tt0053965]
+    best cinematographer:
+      nominee: [tt0054910]
+      winner: [tt0054910]
+    best dialogue:
+      nominee: [tt0054910]
+      winner: [tt0054910]
+    best director:
+      nominee: [tt0053965, tt0053985, tt0054910]
+      winner: [tt0053985]
+    best editor:
+      nominee: [tt0053965]
+      winner: [tt0053965]
+    best film:
+      nominee: [tt0053965, tt0053985, tt0054910]
+      winner: [tt0053965]
+    best lyricist:
+      nominee: [tt0053965, tt0146791, tt0246916]
+      winner: [tt0146791]
+    best music director:
+      nominee: [tt0053965, tt0054910, tt0146791]
+      winner: [tt0146791]
+    best playback singer:
+      nominee: [tt0053767, tt0053965, tt0146791, tt0246916]
+      winner: [tt0246916]
+    best sound recordist:
+      nominee: [tt0055035]
+      winner: [tt0055035]
+    best story:
+      nominee: [tt0053566, tt0053985, tt0055220]
+      winner: [tt0055220]
+    best supporting actor:
+      nominee: [tt0053965, tt0053985, tt0246916]
+      winner: [tt0053985]
+    best supporting actress:
+      nominee: [tt0054737, tt0146791, tt0246916]
+      winner: [tt0054737]
+'1961': # https://www.imdb.com/event/ev0000245/1961/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0053708, tt0053980, tt0053999]
+      winner: [tt0053999]
+    best actress:
+      nominee: [tt0053708, tt0054098, tt0146794]
+      winner: [tt0146794]
+    best director:
+      nominee: [tt0053767, tt0054098, tt0055276]
+      winner: [tt0055276]
+    best film:
+      nominee: [tt0054098]
+      winner: [tt0054098]
+    best playback singer:
+      nominee: [tt0053706]
+      winner: [tt0053706]
+'1960': # https://www.imdb.com/event/ev0000245/1960/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0052560]
+      winner: [tt0052560]
+    best actress:
+      nominee: [tt0052736, tt0053319]
+      winner: [tt0053319]
+    best art director - black and white:
+      nominee: [tt0052954]
+      winner: [tt0052954]
+    best cinematographer:
+      nominee: [tt0052954]
+      winner: [tt0052954]
+    best dialogue writer:
+      nominee: [tt0053152]
+      winner: [tt0053152]
+    best director:
+      nominee: [tt0053319]
+      winner: [tt0053319]
+    best film:
+      nominee: [tt0053319]
+      winner: [tt0053319]
+    best lyricist:
+      nominee: [tt0052560]
+      winner: [tt0052560]
+    best music director:
+      nominee: [tt0052560]
+      winner: [tt0052560]
+    best playback singer:
+      nominee: [tt0052560, tt0053319, tt0053767, tt0054098, tt0255050]
+      winner: [tt0052560]
+    best story writer:
+      nominee: [tt0052736, tt0053319]
+      winner: [tt0053319]
+    best supporting actor:
+      nominee: [tt0052736]
+      winner: [tt0052736]
+    best supporting actress:
+      nominee: [tt0052560]
+      winner: [tt0052560]
+'1959': # https://www.imdb.com/event/ev0000245/1959/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0050665, tt0051806, tt0268533]
+      winner: [tt0051806]
+    best actress:
+      nominee: [tt0050665, tt0052154, tt0139581]
+      winner: [tt0052154]
+    best art director:
+      nominee: [tt0050665]
+      winner: [tt0050665]
+    best cinematographer:
+      nominee: [tt0050665]
+      winner: [tt0050665]
+    best dialogue:
+      nominee: [tt0050665]
+      winner: [tt0050665]
+    best director:
+      nominee: [tt0050665, tt0052154, tt0232759]
+      winner: [tt0050665]
+    best editor:
+      nominee: [tt0050665]
+      winner: [tt0050665]
+    best film:
+      nominee: [tt0050665, tt0052154, tt0232759]
+      winner: [tt0050665]
+    best lyricist:
+      nominee: [tt0052154, tt0052411]
+      winner: [tt0052411]
+    best music director:
+      nominee: [tt0050665, tt0052065, tt0052411]
+      winner: [tt0050665]
+    best playback singer:
+      nominee: [tt0050665]
+      winner: [tt0050665]
+    best sound design:
+      nominee: [tt0259244]
+      winner: [tt0259244]
+    best story:
+      nominee: [tt0050665, tt0052154]
+      winner: [tt0052154]
+    best story writer:
+      nominee: [tt0232759]
+      winner: []
+    best supporting actor:
+      nominee: [tt0050665, tt0052411, tt0268533]
+      winner: [tt0050665]
+    best supporting actress:
+      nominee: [tt0051806, tt0052051, tt0052154]
+      winner: [tt0051806]
+'1958': # https://www.imdb.com/event/ev0000245/1958/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0050758]
+      winner: [tt0050758]
+    best actress:
+      nominee: [tt0050188]
+      winner: [tt0050188]
+    best art director:
+      nominee: [tt0050820]
+      winner: [tt0050820]
+    best cinematographer:
+      nominee: [tt0050188]
+      winner: [tt0050188]
+    best director:
+      nominee: [tt0050188]
+      winner: [tt0050188]
+    best editor:
+      nominee: [tt0050956]
+      winner: [tt0050956]
+    best film:
+      nominee: [tt0050188]
+      winner: [tt0050188]
+    best music director:
+      nominee: [tt0050758]
+      winner: [tt0050758]
+    best sound recordist:
+      nominee: [tt0050188]
+      winner: [tt0050188]
+    best story:
+      nominee: [tt0050758]
+      winner: [tt0050758]
+    best supporting actor:
+      nominee: [tt0050956]
+      winner: [tt0050956]
+    best supporting actress:
+      nominee: [tt0050956]
+      winner: [tt0050956]
+'1957': # https://www.imdb.com/event/ev0000245/1957/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0047990, tt0049378]
+      winner: [tt0047990]
+    best actress:
+      nominee: [tt0146266]
+      winner: [tt0146266]
+    best art director:
+      nominee: [tt0145856]
+      winner: [tt0145856]
+    best cinematographer:
+      nominee: [tt0048613]
+      winner: [tt0048613]
+    best director:
+      nominee: [tt0145856]
+      winner: [tt0145856]
+    best editor:
+      nominee: [tt0048613]
+      winner: [tt0048613]
+    best film:
+      nominee: [tt0145856]
+      winner: [tt0145856]
+    best music director:
+      nominee: [tt0049041, tt0049072]
+      winner: [tt0049072]
+    best sound design:
+      nominee: [tt0145856]
+      winner: [tt0145856]
+    best story:
+      nominee: [tt0146266]
+      winner: [tt0146266]
+    best supporting actor:
+      nominee: [tt0047990, tt0049041]
+      winner: [tt0047990]
+    best supporting actress:
+      nominee: [tt0047990]
+      winner: [tt0047990]
+'1956': # https://www.imdb.com/event/ev0000245/1956/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0131852]
+      winner: [tt0131852]
+    best actress:
+      nominee: [tt0046780]
+      winner: [tt0046780]
+    best art director - black and white:
+      nominee: [tt0137958]
+      winner: [tt0137958]
+    best cinematographer - black and white:
+      nominee: [tt0048816]
+      winner: [tt0048816]
+    best director:
+      nominee: [tt0046780]
+      winner: [tt0046780]
+    best editor:
+      nominee: [tt0047271]
+      winner: [tt0047271]
+    best film:
+      nominee: [tt0145851]
+      winner: [tt0145851]
+    best music director:
+      nominee: [tt0048410]
+      winner: [tt0048410]
+    best sound recordist:
+      nominee: [tt0046703]
+      winner: [tt0046703]
+    best story:
+      nominee: [tt1262150]
+      winner: []
+    best supporting actor:
+      nominee: [tt0048271, tt0145851]
+      winner: [tt0145851]
+    best supporting actress:
+      nominee: [tt0048395]
+      winner: [tt0048395]
+'1955': # https://www.imdb.com/event/ev0000245/1955/1/
+  filmfare award:
+    best actor:
+      nominee: [tt0157037]
+      winner: [tt0157037]
+    best actress:
+      nominee: [tt0046164]
+      winner: [tt0046164]
+    best director:
+      nominee: [tt0046164]
+      winner: [tt0046164]
+    best film:
+      nominee: [tt0046799]
+      winner: [tt0046799]
+    best music director:
+      nominee: [tt0047561]
+      winner: [tt0047561]
+    best supporting actor:
+      nominee: [tt0046799]
+      winner: [tt0046799]
+    best supporting actress:
+      nominee: [tt0139039]
+      winner: [tt0139039]
+  technical award:
+    best cinematographer:
+      nominee: [tt0046799]
+      winner: [tt0046799]
+    best sound design:
+      nominee: [tt0231817]
+      winner: [tt0231817]
+    best story:
+      nominee: [tt0372152]
+      winner: [tt0372152]
+'1954': # https://www.imdb.com/event/ev0000245/1954/1/
+  main award:
+    best actor:
+      nominee: [tt0044527]
+      winner: [tt0044527]
+    best actress:
+      nominee: [tt0044392]
+      winner: [tt0044392]
+    best director:
+      nominee: [tt0045693]
+      winner: [tt0045693]
+    best film:
+      nominee: [tt0045693]
+      winner: [tt0045693]
+    best music director:
+      nominee: [tt0044392]
+      winner: [tt0044392]

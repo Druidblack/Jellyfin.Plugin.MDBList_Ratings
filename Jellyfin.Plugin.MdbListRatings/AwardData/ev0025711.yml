@@ -1,0 +1,631 @@
+# Crunchyroll Anime Awards
+
+'2025': # https://www.imdb.com/event/ev0025711/2025/1/
+  'anime award':
+    '"must protect at all costs" character':
+      nominee: [tt13706018, tt22248376, tt30217403, tt21621494, tt27187054, tt30024091]
+      winner: [tt13706018]
+    'anime of the year':
+      nominee: [tt21209876, tt30217403, tt21621494, tt22248376, tt21975436, tt26743760]
+      winner: [tt21209876]
+    'best action':
+      nominee: [tt21209876, tt14986406, tt30217403, tt9335498, tt21975436, tt29605391]
+      winner: [tt21209876]
+    'best animation':
+      nominee: [tt9335498, tt30217403, tt21621494, tt22248376, tt21975436, tt21209876]
+      winner: [tt9335498]
+    'best anime song':
+      nominee: [tt30217403, tt21975436, tt21209876, tt21209804, tt31031809, tt22248376]
+      winner: [tt30217403]
+    'best background art':
+      nominee: [tt22248376, tt30217403, tt21621494, tt9335498, tt26737616, tt26743760]
+      winner: [tt22248376]
+    'best character design':
+      nominee: [tt30217403, tt21621494, tt9335498, tt22248376, tt21975436, tt26743760]
+      winner: [tt30217403]
+    'best comedy':
+      nominee: [tt21209804, tt21621494, tt5370118, tt32332970, tt32766897, tt13706018]
+      winner: [tt21209804]
+    'best continuing series':
+      nominee: [tt9335498, tt14986406, tt5626028, tt0388629, tt21030032, tt13706018]
+      winner: [tt9335498]
+    'best director':
+      nominee: [tt22248376, tt30217403, tt9335498, tt33998607, tt26743760, tt21621494]
+      winner: [tt22248376]
+    'best drama':
+      nominee: [tt22248376, tt30024091, tt32420174, tt21030032, tt26737616, tt26743760]
+      winner: [tt22248376]
+    'best ending sequence':
+      nominee: [tt21209876, tt32766897, tt21030032, tt27187054, tt21975436, tt30217403]
+      winner: [tt21209876]
+    'best isekai anime':
+      nominee: [tt5607616, tt5370118, tt13293588, tt28776190, tt28279848, tt9054364]
+      winner: [tt5607616]
+    'best main character':
+      nominee: [tt21209876, tt22248376, tt21975436, tt30217403, tt26743760]
+      winner: [tt21209876]
+    'best new series':
+      nominee: [tt21209876, tt30217403, tt21621494, tt22248376, tt21975436, tt26743760]
+      winner: [tt21209876]
+    'best opening sequence':
+      nominee: [tt30217403, tt21975436, tt21209804, tt21030032, tt21209876, tt0388629]
+      winner: [tt30217403]
+    'best original anime':
+      nominee: [tt28480255, tt28454318, tt31250134, tt27237459, tt29510641, tt31975747]
+      winner: [tt28480255]
+    'best romance':
+      nominee: [tt32639706, tt30024091, tt32332831, tt32766897, tt16969708, tt21423786]
+      winner: [tt32639706]
+    'best score':
+      nominee: [tt21209876, tt14986406, tt30217403, tt9335498, tt22248376, tt31711040]
+      winner: [tt21209876]
+    'best slice of life':
+      nominee: [tt32332831, tt7742120, tt29467317, tt32332970, tt4384306, tt21423786]
+      winner: [tt32332831]
+    'best supporting character':
+      nominee: [tt22248376, tt26743760, tt30217403, tt21621494]
+      winner: [tt22248376]
+    'best voice artist performance (arabic)':
+      nominee: [tt13706018, tt15222080, tt21621494]
+      winner: [tt13706018]
+    'best voice artist performance (brazilian portuguese)':
+      nominee: [tt21209876, tt21621494, tt28776190, tt26743760, tt21975436, tt21209804]
+      winner: [tt21209876]
+    'best voice artist performance (castilian spanish)':
+      nominee: [tt21209876, tt19869172, tt32766897, tt21621494, tt21975436, tt22248376]
+      winner: [tt21209876]
+    'best voice artist performance (english)':
+      nominee: [tt21209876, tt30217403, tt2560140, tt22248376, tt31131295, tt21621494]
+      winner: [tt21209876]
+    'best voice artist performance (french)':
+      nominee: [tt21975436, tt29510641, tt30217403, tt26743760, tt22248376, tt32766897]
+      winner: [tt21975436]
+    'best voice artist performance (german)':
+      nominee: [tt0388629, tt21975436, tt30217403, tt27521477, tt21621494, tt32766897]
+      winner: [tt0388629]
+    'best voice artist performance (hindi)':
+      nominee: [tt12343534, tt10233448, tt22248376, tt21209876, tt15222080, tt21975436]
+      winner: [tt12343534]
+    'best voice artist performance (italian)':
+      nominee: [tt31711040, tt30476486, tt26743760, tt14603848, tt22248376, tt21975436]
+      winner: [tt31711040]
+    'best voice artist performance (japanese)':
+      nominee: [tt26743760, tt22248376, tt30975941, tt30217403, tt21621494]
+      winner: [tt26743760]
+    'best voice artist performance (latin spanish)':
+      nominee: [tt2560140, tt30217403, tt26743760, tt22248376, tt9335498, tt21975436]
+      winner: [tt2560140]
+    'film of the year':
+      nominee: [tt31711040, tt30476486, tt32574149, tt32176689, tt26684398, tt23951384]
+      winner: [tt31711040]
+    'global impact award':
+      nominee: [tt2560140]
+      winner: [tt2560140]
+
+'2024': # https://www.imdb.com/event/ev0025711/2024/1/
+  'anime award':
+    '"must protect at all costs" character':
+      nominee: [tt13706018, tt27504251, tt17158756, tt22986710, tt13616990, tt15433166]
+      winner: [tt13706018]
+    'anime of the year':
+      nominee: [tt12343534, tt17158756, tt21030032, tt13616990, tt9335498, tt10233448]
+      winner: [tt12343534]
+    'best action':
+      nominee: [tt12343534, tt2560140, tt14986406, tt13616990, tt9335498, tt0388629]
+      winner: [tt12343534]
+    'best animation':
+      nominee: [tt9335498, tt2560140, tt13616990, tt12343534, tt5897304, tt21216104]
+      winner: [tt9335498]
+    'best anime song':
+      nominee: [tt21030032, tt13616990, tt17158756, tt16428256, tt12343534, tt13911284]
+      winner: [tt21030032]
+    'best art direction':
+      nominee: [tt9335498, tt13616990, tt13911284, tt12343534, tt21030032, tt25811262]
+      winner: [tt9335498]
+    'best character design':
+      nominee: [tt12343534, tt21030032, tt13616990, tt9335498, tt21216104, tt13911284]
+      winner: [tt12343534]
+    'best cinematography':
+      nominee: [tt12343534, tt2560140, tt13616990, tt9335498, tt22817632, tt10233448]
+      winner: [tt12343534]
+    'best comedy':
+      nominee: [tt13706018, tt17158756, tt22986710, tt21209804, tt16764368, tt25811262]
+      winner: [tt13706018]
+    'best continuing series':
+      nominee: [tt0388629, tt2560140, tt9335498, tt12343534, tt13706018, tt10233448]
+      winner: [tt0388629]
+    'best director':
+      nominee: [tt12343534, tt21030032, tt17158756, tt22817632, tt13616990, tt2560140]
+      winner: [tt12343534]
+    'best drama':
+      nominee: [tt2560140, tt21030032, tt22817632, tt12063450, tt19869172, tt10233448]
+      winner: [tt2560140]
+    'best ending sequence':
+      nominee: [tt12343534, tt25811262, tt9335498, tt13706018, tt13616990, tt21030032]
+      winner: [tt12343534]
+    'best fantasy':
+      nominee: [tt9335498, tt13911284, tt21209804, tt27504251, tt13293588, tt7326322]
+      winner: [tt9335498]
+    'best film':
+      nominee: [tt16428256, tt22868844, tt23770418, tt15737898, tt26224944, tt15242330]
+      winner: [tt16428256]
+    'best main character':
+      nominee: [tt0388629, tt13616990, tt17158756, tt5897304, tt2560140, tt10233448]
+      winner: [tt0388629]
+    'best new series':
+      nominee: [tt13616990, tt21030032, tt13911284, tt17158756, tt22817632, tt25811262]
+      winner: [tt13616990]
+    'best opening sequence':
+      nominee: [tt12343534, tt21030032, tt13616990, tt22817632, tt25811262, tt13911284]
+      winner: [tt12343534]
+    'best original anime':
+      nominee: [tt22986710, tt21929358, tt15789088, tt14323890, tt15433166, tt27497540]
+      winner: [tt22986710]
+    'best romance':
+      nominee: [tt28261206, tt26450257, tt19869172, tt22297712, tt16156718, tt21210326]
+      winner: [tt28261206]
+    'best score':
+      nominee: [tt2560140, tt21030032, tt17158756, tt13616990, tt9335498, tt16428256]
+      winner: [tt2560140]
+    'best slice of life':
+      nominee: [tt17158756, tt14323890, tt28261206, tt26450257, tt22297712, tt16156718]
+      winner: [tt17158756]
+    'best supporting character':
+      nominee: [tt12343534, tt5897304, tt2560140, tt21030032, tt13616990]
+      winner: [tt12343534]
+    'best va performance (arabic)':
+      nominee: [tt9679542, tt4644488, tt13706018, tt5897304, tt9054364]
+      winner: [tt9679542]
+    'best va performance (castillan)':
+      nominee: [tt13616990, tt9679542, tt21209804, tt13706018, tt16183464]
+      winner: [tt13616990]
+    'best va performance (english)':
+      nominee: [tt13616990, tt9335498, tt21216104, tt14986406, tt21210326, tt13911284]
+      winner: [tt13616990]
+    'best va performance (french)':
+      nominee: [tt12343534, tt16428256, tt21030032, tt13616990, tt5370118, tt13911284]
+      winner: [tt12343534]
+    'best va performance (german)':
+      nominee: [tt13616990, tt16428256, tt7326322, tt5897304, tt9679542, tt25811262]
+      winner: [tt13616990]
+    'best va performance (italian)':
+      nominee: [tt13616990, tt15830702, tt15242330, tt16183464, tt28100731]
+      winner: [tt13616990]
+    'best va performance (japanese)':
+      nominee: [tt12343534, tt13706018, tt13616990, tt0388629, tt17158756, tt2560140]
+      winner: [tt12343534]
+    'best va performance (portuguese)':
+      nominee: [tt12343534, tt21210326, tt9239552, tt0388629, tt13616990, tt5897304]
+      winner: [tt12343534]
+    'best va performance (spanish)':
+      nominee: [tt13616990, tt9335498, tt21209804, tt12343534, tt5897304, tt16428256]
+      winner: [tt13616990]
+
+'2023': # https://www.imdb.com/event/ev0025711/2023/1/
+  'anime award':
+    '"must protect at all costs" character':
+      nominee: [tt13706018, tt13409432, tt15490038, tt15765670, tt14626352]
+      winner: [tt13706018]
+    'anime of the year':
+      nominee: [tt12590266, tt2560140, tt9335498, tt16755706, tt13409432, tt13706018]
+      winner: [tt12590266]
+    'best action':
+      nominee: [tt9335498, tt2560140, tt12590266, tt2359704, tt16755706, tt13706018]
+      winner: [tt9335498]
+    'best animation':
+      nominee: [tt9335498, tt15533674, tt2560140, tt12590266, tt13706018, tt13409432]
+      winner: [tt9335498]
+    'best anime song':
+      nominee: [tt2560140, tt15978212, tt13706018, tt9522300, tt13362302, tt16183464]
+      winner: [tt2560140]
+    'best character design':
+      nominee: [tt9335498, tt13409432, tt13706018, tt15765670, tt2359704, tt12590266]
+      winner: [tt9335498]
+    'best comedy':
+      nominee: [tt13706018, tt9522300, tt15490038, tt15765670, tt15219320, tt15978212]
+      winner: [tt13706018]
+    'best continuing series':
+      nominee: [tt0388629, tt2560140, tt9335498, tt2359704, tt7222086, tt9522300]
+      winner: [tt0388629]
+    'best director':
+      nominee: [tt9335498, tt12590266, tt13706018, tt16755706, tt13409432, tt2560140]
+      winner: [tt9335498]
+    'best drama':
+      nominee: [tt2560140, tt13718450, tt12590266, tt15391190, tt15490038, tt7222086, tt19869172, tt12063450, tt10233448]
+      winner: [tt2560140]
+    'best ending sequence':
+      nominee: [tt13706018, tt2560140, tt15765670, tt14626352, tt9522300, tt15975122]
+      winner: [tt13706018]
+    'best fantasy':
+      nominee: [tt9335498, tt7222086, tt13293588, tt4869896, tt13409432, tt14641098]
+      winner: [tt9335498]
+    'best film':
+      nominee: [tt14331144, tt14614892, tt10540510, tt16183464, tt11417856, tt16360006]
+      winner: [tt14331144]
+    'best main character':
+      nominee: [tt2560140, tt13409432, tt16755706, tt12590266, tt13706018, tt15765670]
+      winner: [tt2560140]
+    'best new series':
+      nominee: [tt13706018, tt15975122, tt12590266, tt16755706, tt15765670, tt15978212]
+      winner: [tt13706018]
+    'best opening sequence':
+      nominee: [tt2560140, tt15978212, tt13706018, tt13409432, tt12590266, tt9335498]
+      winner: [tt2560140]
+    'best original anime':
+      nominee: [tt16755706, tt15789088, tt19409404, tt13351614, tt10011314, tt18573684]
+      winner: [tt16755706]
+    'best romance':
+      nominee: [tt9522300, tt15975122, tt15765670, tt14626352, tt14396202, tt15529074]
+      winner: [tt9522300]
+    'best score':
+      nominee: [tt2560140, tt13706018, tt12590266, tt15978212, tt7222086, tt9335498]
+      winner: [tt2560140]
+    'best supporting character':
+      nominee: [tt13706018, tt9522300, tt13409432, tt12590266, tt9335498]
+      winner: [tt13706018]
+    'best va performance (english)':
+      nominee: [tt12590266, tt15765670, tt15490038, tt13706018, tt13409432, tt14614892]
+      winner: [tt12590266]
+    'best va performance (japanese)':
+      nominee: [tt2560140, tt13706018, tt16755706, tt2359704, tt7222086, tt9335498]
+      winner: [tt2560140]
+
+'2022': # https://www.imdb.com/event/ev0025711/2022/1/
+  'anime award':
+    'anime of the year':
+      nominee: [tt2560140, tt13718450, tt12343534, tt14134550, tt13409432, tt14642342]
+      winner: [tt2560140]
+    'best action':
+      nominee: [tt12343534, tt2560140, tt11443824, tt13851958, tt13248076, tt9335498]
+      winner: [tt12343534]
+    'best animation':
+      nominee: [tt9335498, tt12343534, tt6185782, tt13293588, tt13851958, tt13248076]
+      winner: [tt9335498]
+    'best antagonist':
+      nominee: [tt2560140, tt5626028, tt14134550, tt5607616, tt13129190, tt13196080]
+      winner: [tt2560140]
+    'best boy':
+      nominee: [tt13409432, tt9679542, tt13103134, tt14134550, tt13196080]
+      winner: [tt13409432]
+    'best character design':
+      nominee: [tt12343534, tt14134550, tt13409432, tt13129190, tt13851958, tt13248076]
+      winner: [tt12343534]
+    'best comedy':
+      nominee: [tt14626352, tt12635162, tt12745218, tt11192890, tt6185782, tt14134550]
+      winner: [tt14626352]
+    'best director':
+      nominee: [tt14134550, tt12343534, tt2560140, tt7965802, tt14642342, tt13248076]
+      winner: [tt14134550]
+    'best drama':
+      nominee: [tt12063450, tt13718450, tt9304350, tt13351056, tt14134550, tt13248076]
+      winner: [tt12063450]
+    'best ending':
+      nominee: [tt9335498, tt2560140, tt11043632, tt13362302, tt13129190, tt12598008]
+      winner: [tt9335498]
+    'best fantasy':
+      nominee: [tt9054364, tt13293588, tt13409432, tt14641098, tt13248076, tt12063450]
+      winner: [tt9054364]
+    'best fight scene':
+      nominee: [tt12343534, tt2560140, tt6342474, tt6185782, tt13851958]
+      winner: [tt12343534]
+    'best film':
+      nominee: [tt11032374, tt13651628, tt2458948, tt12879624, tt8346438, tt12735338]
+      winner: [tt11032374]
+    'best girl':
+      nominee: [tt12343534, tt13718450, tt9304350, tt13351056, tt14626352, tt13248076]
+      winner: [tt12343534]
+    'best opening':
+      nominee: [tt2560140, tt11043632, tt12343534, tt6185782, tt14134550, tt13196080]
+      winner: [tt2560140]
+    'best protagonist':
+      nominee: [tt14134550, tt2560140, tt12343534, tt13409432, tt13248076, tt7965802]
+      winner: [tt14134550]
+    'best romance':
+      nominee: [tt13103134, tt11043632, tt9304350, tt12635162, tt14626352, tt13971512]
+      winner: [tt13103134]
+    'best score':
+      nominee: [tt9335498, tt13718450, tt14134550, tt7965802, tt13851958, tt13248076]
+      winner: [tt9335498]
+    'best va performance (english)':
+      nominee: [tt13129190, tt12779780, tt9304350, tt12343534, tt13248076]
+      winner: [tt13129190]
+    'best va performance (japanese)':
+      nominee: [tt2560140, tt14725340, tt14134550, tt12598008, tt13248076]
+      winner: [tt2560140]
+
+'2021': # https://www.imdb.com/event/ev0025711/2021/1/
+  'anime award':
+    'anime of the year':
+      nominee: [tt12343534, tt10320398, tt11680468, tt11714178, tt11147852, tt11043632]
+      winner: [tt12343534]
+    'best animation':
+      nominee: [tt10320398, tt11043632, tt11680468, tt12343534, tt11886236, tt12227418]
+      winner: [tt10320398]
+    'best antagonist':
+      nominee: [tt12343534, tt9304350, tt5607616, tt11147852, tt5626028, tt12057106]
+      winner: [tt12343534]
+    'best boy':
+      nominee: [tt3398540, tt12432936, tt11147852, tt12057106, tt11043632, tt12343534]
+      winner: [tt3398540]
+    'best character design':
+      nominee: [tt10777610, tt12013558, tt12057106, tt10320398, tt12287748, tt11680468]
+      winner: [tt10777610]
+    'best comedy':
+      nominee: [tt9522300, tt11299538, tt10320398, tt11821792, tt12402550, tt12432936]
+      winner: [tt9522300]
+    'best couple':
+      nominee: [tt12311976, tt11821792, tt11448214, tt9522300, tt11328872, tt11043632]
+      winner: [tt12311976]
+    'best director':
+      nominee: [tt10320398, tt12443322, tt11680468, tt9522300, tt12343534, tt12057106]
+      winner: [tt10320398]
+    'best drama':
+      nominee: [tt9304350, tt11043632, tt11680468, tt12031040, tt10204658, tt11428586]
+      winner: [tt9304350]
+    'best ending':
+      nominee: [tt12343534, tt11147852, tt11328872, tt12013558, tt11680468, tt12117218]
+      winner: [tt12343534]
+    'best fantasy':
+      nominee: [tt5607616, tt10885406, tt12443322, tt11147852, tt11858104, tt12057106]
+      winner: [tt5607616]
+    'best fight scene':
+      nominee: [tt5626028, tt2250192, tt12331342, tt12227418, tt12343534]
+      winner: [tt5626028]
+    'best girl':
+      nominee: [tt9522300, tt11680468, tt11821792, tt11448214, tt11147852, tt10320398]
+      winner: [tt9522300]
+    'best opening':
+      nominee: [tt11043632, tt9522300, tt10320398, tt11680468, tt12343534, tt3398540]
+      winner: [tt11043632]
+    'best protagonist':
+      nominee: [tt11821792, tt12432936, tt10320398, tt12443322, tt3398540, tt12343534]
+      winner: [tt11821792]
+    'best score':
+      nominee: [tt12057106, tt12227418, tt12031040, tt10320398, tt11043632, tt11680468]
+      winner: [tt12057106]
+    'best va performance (english)':
+      nominee: [tt5626028, tt11680468, tt5607616, tt9525238, tt12057106, tt11043632]
+      winner: [tt5626028]
+    'best va performance (japanese)':
+      nominee: [tt5607616, tt10777610, tt10320398, tt11785582, tt12343534, tt12117218]
+      winner: [tt5607616]
+
+'2020': # https://www.imdb.com/event/ev0025711/2020/1/
+  'anime award':
+    'anime of the year':
+      nominee: [tt9335498, tt8107988, tt5897304, tt10417586, tt8788458, tt10233448]
+      winner: [tt9335498]
+    'best animation':
+      nominee: [tt5897304, tt2560140, tt9335498, tt9525238, tt8096510, tt10233448]
+      winner: [tt5897304]
+    'best antagonist':
+      nominee: [tt8788458, tt10937632, tt8107988, tt10233448, tt4508902, tt5626028]
+      winner: [tt8788458]
+    'best boy':
+      nominee: [tt9335498, tt2359704, tt9458304, tt10483250, tt10362632, tt5897304]
+      winner: [tt9335498]
+    'best character design':
+      nominee: [tt9458304, tt8107988, tt9679542, tt9522300, tt8096510, tt10233448]
+      winner: [tt9458304]
+    'best comedy':
+      nominee: [tt9522300, tt8019444, tt10362632, tt9193770, tt9522316, tt8096510]
+      winner: [tt9522300]
+    'best couple':
+      nominee: [tt9522300, tt6357658, tt10479420, tt8096510, tt10417586, tt2560140]
+      winner: [tt9522300]
+    'best director':
+      nominee: [tt2560140, tt10937632, tt8107988, tt5897304, tt8096510, tt10233448]
+      winner: [tt2560140]
+    'best drama':
+      nominee: [tt10233448, tt10937632, tt8107988, tt9304350, tt11008522, tt8788458]
+      winner: [tt10233448]
+    'best ending':
+      nominee: [tt9522300, tt8107988, tt9458304, tt9307686, tt8096510, tt10233448]
+      winner: [tt9522300]
+    'best fantasy':
+      nominee: [tt8788458, tt10885406, tt10483250, tt8096510, tt2560140, tt9335498]
+      winner: [tt8788458]
+    'best fight scene':
+      nominee: [tt9335498, tt2359704, tt2560140, tt5897304, tt10233448, tt9525238]
+      winner: [tt9335498]
+    'best girl':
+      nominee: [tt9529546, tt8107988, tt9522300, tt8788458, tt9679542, tt9335498]
+      winner: [tt9529546]
+    'best opening':
+      nominee: [tt5897304, tt8107988, tt9307686, tt8788458, tt10233448, tt9817980]
+      winner: [tt5897304]
+    'best protagonist':
+      nominee: [tt9679542, tt8788458, tt9458304, tt4508902, tt9335498, tt9304350]
+      winner: [tt9679542]
+    'best score':
+      nominee: [tt8107988, tt2560140, tt9335498, tt9679542, tt2359704, tt9529546]
+      winner: [tt8107988]
+    'best va performance (english)':
+      nominee: [tt9529546, tt5897304, tt9304350, tt8019444, tt5370118, tt0112159]
+      winner: [tt9529546]
+    'best va performance (japanese)':
+      nominee: [tt2359704, tt8096510, tt9335498, tt10937632, tt8788458, tt9679542]
+      winner: [tt2359704]
+
+'2019': # https://www.imdb.com/event/ev0025711/2019/1/
+  'anime award':
+    'anime of the year':
+      nominee: [tt6660498, tt7836688, tt7965802, tt7078180, tt8253044, tt9054354]
+      winner: [tt6660498]
+    'best animation':
+      nominee: [tt7078180, tt6660498, tt7965802, tt7836688, tt8993464, tt5626028]
+      winner: [tt7078180]
+    'best antagonist':
+      nominee: [tt5626028, tt6660498, tt8747928, tt7965802, tt8225204, tt4869896]
+      winner: [tt5626028]
+    'best boy':
+      nominee: [tt5626028, tt9054354, tt9100954, tt8993398, tt8019444, tt7965802]
+      winner: [tt5626028]
+    'best character design':
+      nominee: [tt2359704, tt7078180, tt6660498, tt9054354, tt7965802, tt8019444]
+      winner: [tt2359704]
+    'best continuing series':
+      nominee: [tt4644488, tt7326322, tt7441658, tt6074794, tt0388629, tt6342474]
+      winner: [tt4644488]
+    'best director':
+      nominee: [tt6660498, tt7836688, tt7965802, tt8774888, tt7078180, tt8515016]
+      winner: [tt6660498]
+    'best ending':
+      nominee: [tt2560140, tt7965802, tt6591406, tt7112162, tt8400680, tt7112160]
+      winner: [tt2560140]
+    'best fight scene':
+      nominee: [tt5626028, tt8253044, tt6342474, tt4644488, tt7441658, tt6660498]
+      winner: [tt5626028]
+    'best film':
+      nominee: [tt7745068, tt6335734, tt6900448, tt7089878, tt6470762, tt6317962]
+      winner: [tt7745068]
+    'best girl':
+      nominee: [tt8993398, tt8253044, tt7836688, tt9054354, tt8225204, tt7742120]
+      winner: [tt8993398]
+    'best opening':
+      nominee: [tt7865090, tt8254880, tt7808370, tt8019444, tt7131720, tt2359704]
+      winner: [tt7865090]
+    'best protagonist':
+      nominee: [tt9054364, tt8019444, tt7965802, tt7078180, tt8993398, tt7131720]
+      winner: [tt9054364]
+    'best va performance (english)':
+      nominee: [tt5626028, tt7112160, tt8019444, tt8113938, tt7865090, tt7078180]
+      winner: [tt5626028]
+    'best va performance (japanese)':
+      nominee: [tt9054354, tt9100954, tt6660498, tt7742120, tt8019444, tt8747928]
+      winner: [tt9054354]
+
+'2018': # https://www.imdb.com/event/ev0025711/2018/1/
+  'anime award':
+    'anime of the year':
+      nominee: [tt7222086, tt6427166, tt7790776, tt6352180, tt6074794, tt5626028]
+      winner: [tt7222086]
+    'best action':
+      nominee: [tt5626028, tt2560140, tt4379632, tt6424454, tt7790776, tt5344382]
+      winner: [tt5626028]
+    'best animation':
+      nominee: [tt5626028, tt5323662, tt7790776, tt6352180, tt6074794, tt6185782]
+      winner: [tt5626028]
+    'best boy':
+      nominee: [tt5626028, tt6185782, tt5370118, tt6074794, tt6427166]
+      winner: [tt5626028]
+    'best cgi':
+      nominee: [tt7790776, tt2560140, tt6340502, tt7001136, tt7124066, tt6755926]
+      winner: [tt7790776]
+    'best comedy':
+      nominee: [tt6185782, tt7163698, tt5370118, tt6352180, tt4838372, tt7155052]
+      winner: [tt6185782]
+    'best continuing series':
+      nominee: [tt6074794, tt6738600, tt0131179, tt4644488, tt5344382, tt0988824]
+      winner: [tt6074794]
+    'best drama':
+      nominee: [tt7326322, tt6401396, tt6427166, tt7222086, tt6074794, tt6197170]
+      winner: [tt7326322]
+    'best ending':
+      nominee: [tt6185782, tt7513452, tt7662364, tt6074794, tt7790776, tt4379632]
+      winner: [tt6185782]
+    'best film':
+      nominee: [tt5311514, tt5323662, tt4054952, tt5284414, tt5084198, tt4769824]
+      winner: [tt5311514]
+    'best girl':
+      nominee: [tt5626028, tt6352180, tt7326322, tt7662364, tt6562940]
+      winner: [tt5626028]
+    'best hero':
+      nominee: [tt5626028, tt6352180, tt7326322, tt3981902, tt7839458, tt7222086]
+      winner: [tt5626028]
+    'best opening':
+      nominee: [tt5626028, tt7326322, tt6427166, tt6401396, tt2560140, tt6692956]
+      winner: [tt5626028]
+    'best score':
+      nominee: [tt7222086, tt6401396, tt7790776, tt6352180, tt6755926, tt7326322]
+      winner: [tt7222086]
+    'best slice of life':
+      nominee: [tt7474942, tt6435350, tt6562940, tt7662364, tt6740188, tt6472710]
+      winner: [tt7474942]
+    'best villain':
+      nominee: [tt5626028, tt7222086, tt7326322, tt6340502, tt6455986, tt7694276]
+      winner: [tt5626028]
+
+'2017': # https://www.imdb.com/event/ev0025711/2017/1/
+  'anime award':
+    'anime of the year':
+      nominee: [tt6112556, tt5897304, tt5249462, tt5626028, tt5556656, tt5607616, tt5225712, tt5614180, tt5419278]
+      winner: [tt6112556]
+    'best action':
+      nominee: [tt5897304, tt5626028, tt5225764, tt5556656]
+      winner: [tt5897304]
+    'best animation':
+      nominee: [tt6112556, tt5897304, tt5556656, tt6139566]
+      winner: [tt6112556]
+    'best boy':
+      nominee: [tt6112556, tt5897304, tt5626028, tt5419278]
+      winner: [tt6112556]
+    'best comedy':
+      nominee: [tt5701624, tt5370118, tt6220550, tt5446578]
+      winner: [tt5701624]
+    'best couple':
+      nominee: [tt6112556, tt5249462, tt5225712, tt5446578]
+      winner: [tt6112556]
+    'best drama':
+      nominee: [tt5249462, tt5225712, tt5419278, tt5614180]
+      winner: [tt5249462]
+    'best ending':
+      nominee: [tt6112556, tt5897304, tt5556656, tt5446578]
+      winner: [tt6112556]
+    'best fight scene':
+      nominee: [tt5897304, tt5626028, tt5556656, tt5344382]
+      winner: [tt5897304]
+    'best girl':
+      nominee: [tt5607616, tt5626028, tt5225712, tt5556656]
+      winner: [tt5607616]
+    'best opening':
+      nominee: [tt6112556, tt5897304, tt5556656, tt5419278]
+      winner: [tt6112556]
+    'hero of the year':
+      nominee: [tt5626028, tt5249462, tt5897304, tt5556656]
+      winner: [tt5626028]
+    'most heartwarming scene':
+      nominee: [tt6112556, tt5249462, tt5839732, tt5621006]
+      winner: [tt6112556]
+    'villain of the year':
+      nominee: [tt5249462, tt2359704, tt5626028, tt5556656]
+      winner: [tt5249462]
+    'best action (most popular "other")':
+      nominee: [tt2359704]
+      winner: [tt2359704]
+    'best animation (most popular "other")':
+      nominee: [tt5607616]
+      winner: [tt5607616]
+    'best boy (most popular "other")':
+      nominee: [tt2359704]
+      winner: [tt2359704]
+    'best comedy (most popular "other")':
+      nominee: [tt7382936]
+      winner: [tt7382936]
+    'best couple (most popular "other")':
+      nominee: [tt5607616]
+      winner: [tt5607616]
+    'best drama (most popular "other")':
+      nominee: [tt5839732]
+      winner: [tt5839732]
+    'best ending (most popular "other")':
+      nominee: [tt5607616]
+      winner: [tt5607616]
+    'best fight scene (most popular "other")':
+      nominee: [tt0988824]
+      winner: [tt0988824]
+    'best girl (most popular "other")':
+      nominee: [tt5370118]
+      winner: [tt5370118]
+    'best opening (most popular "other")':
+      nominee: [tt5249462]
+      winner: [tt5249462]
+    'hero of the year (most popular "other")':
+      nominee: [tt2359704]
+      winner: [tt2359704]
+    'most heartwarming scene (most popular "other")':
+      nominee: [tt5607616]
+      winner: [tt5607616]
+    'villain of the year (most popular "other")':
+      nominee: [tt5607616]
+      winner: [tt5607616]

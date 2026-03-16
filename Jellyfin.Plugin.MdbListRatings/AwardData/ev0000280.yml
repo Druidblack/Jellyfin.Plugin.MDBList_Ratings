@@ -1,0 +1,3558 @@
+# German Film Awards
+'2025':  # https://www.imdb.com/event/ev0000280/2025/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt26252716, tt28082769, tt33294838]
+      winner: [tt28082769]
+    best costume design (bestes kostümbild):
+      nominee: [tt20420646, tt33294838, tt6176336]
+      winner: [tt33294838]
+    best direction (beste regie):
+      nominee: [tt20420646, tt28082769, tt32178949]
+      winner: [tt28082769]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt28494712, tt32249940, tt32844188]
+      winner: [tt32844188]
+    best editing (bester schnitt):
+      nominee: [tt20414360, tt28082769, tt32178949]
+      winner: [tt28082769]
+    best film score (beste filmmusik):
+      nominee: [tt27796126, tt28082769, tt30195482]
+      winner: [tt27796126]
+    best makeup (bestes maskenbild):
+      nominee: [tt20420646, tt28082769, tt6176336]
+      winner: [tt28082769]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt27796126, tt32178949, tt33294838]
+      winner: [tt32178949]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt20414360, tt20420646, tt31036505]
+      winner: [tt31036505]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt20414360, tt20420646, tt26252716]
+      winner: [tt20420646]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt21243734, tt28082769, tt32178949]
+      winner: [tt28082769]
+    best production design (bestes szenenbild):
+      nominee: [tt28082769, tt33294838, tt6176336]
+      winner: [tt28082769]
+    best screenplay (bestes drehbuch):
+      nominee: [tt20420646, tt28082769, tt32178949]
+      winner: [tt28082769]
+    best sound (beste tongestaltung):
+      nominee: [tt27796126, tt28082769, tt31116299]
+      winner: [tt28082769]
+    best visual effects (beste visuelle effekte):
+      nominee: [tt30398905, tt31116299, tt6176336]
+      winner: [tt6176336]
+    outstanding children or youth film (bester kinder- und jugendfilm):
+      nominee: [tt22529620, tt30398905]
+      winner: [tt22529620]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt20414360, tt20420646, tt26252716, tt27796126, tt28082769, tt32178949]
+      winner: [tt28082769]
+  audience award:
+    highest grossing film of the year:
+      nominee: [tt32241578]
+      winner: [tt32241578]
+'2024': # https://www.imdb.com/event/ev0000280/2024/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt14439178, tt18453866, tt2822034]
+      winner: [tt18453866]
+    best costume design (bestes kostümbild):
+      nominee: [tt13506526, tt21927594, tt27775137]
+      winner: [tt21927594]
+    best direction (beste regie):
+      nominee: [tt18453866, tt26448958, tt27165281]
+      winner: [tt26448958]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt26188684, tt26215446, tt27502250]
+      winner: [tt26188684]
+    best editing (bester schnitt):
+      nominee: [tt10334160, tt26188684, tt27165281]
+      winner: [tt26188684]
+    best film score (beste filmmusik):
+      nominee: [tt18453866, tt23143494, tt27165281]
+      winner: [tt27165281]
+    best makeup (bestes maskenbild):
+      nominee: [tt13506526, tt19287686, tt21927594]
+      winner: [tt21927594]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt14439178, tt22490348, tt27165281]
+      winner: [tt14439178]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt27165281, tt27720660]
+      winner: [tt27165281]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt25366350, tt27165281, tt27720660]
+      winner: [tt27165281]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt20867012, tt23143392, tt27720660]
+      winner: [tt27720660]
+    best production design (bestes szenenbild):
+      nominee: [tt13506526, tt18453866, tt19287686, tt21927594]
+      winner: [tt18453866]
+    best screenplay (bestes drehbuch):
+      nominee: [tt14439178, tt26448958, tt27165281]
+      winner: [tt26448958]
+    best sound (beste tongestaltung):
+      nominee: [tt13566172, tt19287686, tt23143494]
+      winner: [tt13566172]
+    best visual effects (beste visuelle effekte):
+      nominee: [tt13506526, tt14439178, tt18453866, tt21927594]
+      winner: [tt18453866]
+    outstanding children or youth film (bester kinder- und jugendfilm):
+      nominee: [tt28228462, tt28531433]
+      winner: [tt28228462]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt18453866, tt19287686, tt25366350, tt27165281]
+      winner: [tt27165281]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt14439178]
+      winner: [tt14439178]
+  film award in bronze:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt26448958]
+      winner: [tt26448958]
+  audience award:
+    highest grossing film of the year:
+      nominee: [tt15512578]
+      winner: [tt15512578]
+'2023': # https://www.imdb.com/event/ev0000280/2023/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt1016150, tt14040054, tt26612950]
+      winner: [tt1016150]
+    best costume design (bestes kostümbild):
+      nominee: [tt1016150, tt11864074, tt14040054]
+      winner: [tt14040054]
+    best direction (beste regie):
+      nominee: [tt1016150, tt18550140, tt22694068, tt26612950]
+      winner: [tt26612950]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt12163858, tt13588944, tt17080124]
+      winner: [tt12163858]
+    best editing (bester schnitt):
+      nominee: [tt1016150, tt12163858, tt13273800, tt26612950]
+      winner: [tt26612950]
+    best film score (beste filmmusik):
+      nominee: [tt1016150, tt11080824, tt13387268, tt26612950]
+      winner: [tt1016150]
+    best makeup (bestes maskenbild):
+      nominee: [tt10155748, tt1016150, tt11864074]
+      winner: [tt1016150]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt1016150, tt18550140, tt21148858]
+      winner: [tt1016150]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt1016150, tt12888672, tt15742904]
+      winner: [tt1016150]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt14040054, tt18550140, tt26612950]
+      winner: [tt26612950]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt11864074, tt21148858, tt21335690]
+      winner: [tt11864074]
+    best production design (bestes szenenbild):
+      nominee: [tt1016150, tt13986278, tt15420964]
+      winner: [tt1016150]
+    best screenplay (bestes drehbuch):
+      nominee: [tt10603396, tt13273800, tt26612950]
+      winner: [tt26612950]
+    best sound (beste tongestaltung):
+      nominee: [tt1016150, tt13273800, tt14040054]
+      winner: [tt1016150]
+    best visual effects (beste visuelle effekte):
+      nominee: [tt1016150, tt13818742, tt13986278]
+      winner: [tt1016150]
+    outstanding children or youth film (bester kinder- und jugendfilm):
+      nominee: [tt11545370, tt13937908]
+      winner: [tt11545370]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt13273800, tt15536668, tt22694068, tt26612950]
+      winner: [tt26612950]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt1016150]
+      winner: [tt1016150]
+  film award in bronze:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt18550140]
+      winner: [tt18550140]
+  audience award:
+    highest grossing film of the year:
+      nominee: [tt13818742]
+      winner: [tt13818742]
+'2022': # https://www.imdb.com/event/ev0000280/2022/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt12536294, tt14775784, tt14873088]
+      winner: [tt14873088]
+    best costume design (bestes kostümbild):
+      nominee: [tt11891698, tt13471738, tt14775784, tt14873088]
+      winner: [tt14873088]
+    best direction (beste regie):
+      nominee: [tt13471738, tt14775784, tt14873088]
+      winner: [tt14873088]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt13882316, tt14599510, tt9301896]
+      winner: [tt14599510]
+    best editing (bester schnitt):
+      nominee: [tt14775784, tt14873088, tt17154094]
+      winner: [tt14873088]
+    best film score (beste filmmusik):
+      nominee: [tt12194006, tt13471738, tt14534992]
+      winner: [tt12194006]
+    best makeup (bestes maskenbild):
+      nominee: [tt13471738, tt14775784, tt14873088]
+      winner: [tt14775784]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt14775784, tt14873088, tt9233428]
+      winner: [tt14873088]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt11891698, tt13471738, tt13864444, tt14873088]
+      winner: [tt13471738]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt10603372, tt13471738, tt13793134, tt13864444]
+      winner: [tt13471738]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt11938416, tt14873088]
+      winner: [tt14873088]
+    best production design (bestes szenenbild):
+      nominee: [tt11891698, tt13471738, tt14873088]
+      winner: [tt14873088]
+    best screenplay (bestes drehbuch):
+      nominee: [tt13471738, tt14775784, tt14873088]
+      winner: [tt14873088]
+    best sound (beste tongestaltung):
+      nominee: [tt11155784, tt13864444, tt14581084, tt15583714]
+      winner: [tt13864444]
+    best visual effects (beste visuelle effekte):
+      nominee: [tt11455260, tt11891698, tt13471738]
+      winner: [tt11455260]
+    outstanding children or youth film (bester kinder- und jugendfilm):
+      nominee: [tt11455260, tt13453138]
+      winner: [tt13453138]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt10628092, tt12194006, tt12536294, tt14873088]
+      winner: [tt14873088]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt13471738]
+      winner: [tt13471738]
+  film award in bronze:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt14775784]
+      winner: [tt14775784]
+  audience award:
+    highest grossing film of the year:
+      nominee: [tt11455260]
+      winner: [tt11455260]
+'2021': # https://www.imdb.com/event/ev0000280/2021/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt10353704, tt13846414, tt8415728]
+      winner: [tt13846414]
+    best costume design (bestes kostümbild):
+      nominee: [tt12058584, tt13846414, tt6506264, tt9839038]
+      winner: [tt12058584]
+    best direction (beste regie):
+      nominee: [tt13087796, tt13846414, tt14035048]
+      winner: [tt13087796]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt10655714, tt11496264, tt14035048]
+      winner: [tt14035048]
+    best editing (bester schnitt):
+      nominee: [tt11496264, tt13846414, tt15266870]
+      winner: [tt13846414]
+    best film score (beste filmmusik):
+      nominee: [tt10855798, tt6506264, tt9839038]
+      winner: [tt6506264]
+    best makeup (bestes maskenbild):
+      nominee: [tt12058584, tt13846414, tt6506264]
+      winner: [tt6506264]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt10855798, tt13087796, tt9205538]
+      winner: [tt10855798]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt10051088, tt10855798, tt9205538]
+      winner: [tt10051088]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt13087796, tt13846414, tt9205538]
+      winner: [tt13087796]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt11006636, tt12058584, tt13846414]
+      winner: [tt11006636]
+    best production design (bestes szenenbild):
+      nominee: [tt12058584, tt13846414, tt6506264]
+      winner: [tt6506264]
+    best screenplay (bestes drehbuch):
+      nominee: [tt10051088, tt13087796, tt13846414]
+      winner: [tt13087796]
+    best sound (beste tongestaltung):
+      nominee: [tt10655714, tt10855798, tt11080676, tt12058584, tt15266870, tt6506264]
+      winner: [tt15266870]
+    best visual effects (beste visuelle effekte):
+      nominee: [tt12058584, tt6506264, tt9839038]
+      winner: [tt6506264]
+    outstanding children or youth film (bester kinder- und jugendfilm):
+      nominee: [tt9077352, tt9839038]
+      winner: [tt9077352]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt12058584, tt13087796, tt7716120, tt9205538]
+      winner: [tt13087796]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt13846414]
+      winner: [tt13846414]
+  film award in bronze:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt10051088]
+      winner: [tt10051088]
+  audience award:
+    highest grossing film of the year:
+      nominee: [tt10358022]
+      winner: [tt10358022]
+'2020': # https://www.imdb.com/event/ev0000280/2020/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt6470924, tt7603636, tt7785866]
+      winner: [tt6470924]
+    best costume design (bestes kostümbild):
+      nominee: [tt8437226, tt9181732, tt9407490]
+      winner: [tt9181732]
+    best direction (beste regie):
+      nominee: [tt6470924, tt8535968, tt9233612]
+      winner: [tt8535968]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt11790902, tt5838526, tt9749570]
+      winner: [tt5838526]
+    best editing (bester schnitt):
+      nominee: [tt11790902, tt6586090, tt8074340, tt8535968]
+      winner: [tt8535968]
+    best film score (beste filmmusik):
+      nominee: [tt6470924, tt7785866, tt8535968]
+      winner: [tt6470924]
+    best makeup (bestes maskenbild):
+      nominee: [tt8437226, tt9014656, tt9181732]
+      winner: [tt9181732]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt6470924, tt8535968, tt9181732]
+      winner: [tt8535968]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt6470924, tt8437226, tt9233612]
+      winner: [tt6470924]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt6593706, tt8535968, tt9233612]
+      winner: [tt8535968]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt6470924, tt8535968]
+      winner: [tt8535968]
+    best production design (bestes szenenbild):
+      nominee: [tt6470924, tt8437226, tt9014656, tt9407490]
+      winner: [tt6470924]
+    best screenplay (bestes drehbuch):
+      nominee: [tt6470924, tt8535968, tt9233612]
+      winner: [tt8535968]
+    best sound (beste tongestaltung):
+      nominee: [tt11617052, tt6470924, tt8535968]
+      winner: [tt8535968]
+    best visual effects and animation (beste visuelle effekte und animation):
+      nominee: [tt6470924, tt7749142, tt8437226]
+      winner: [tt7749142]
+    outstanding children or youth film (programmfüllende kinder- und jugendfilm):
+      nominee: [tt9106672, tt9805160]
+      winner: [tt9106672]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt11617052, tt7275830, tt8535968, tt9181732]
+      winner: [tt8535968]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt6470924]
+      winner: [tt6470924]
+  film award in bronze:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt9233612]
+      winner: [tt9233612]
+  audience award:
+    highest grossing film of the year:
+      nominee: [tt10145122]
+      winner: [tt10145122]
+'2019': # https://www.imdb.com/event/ev0000280/2019/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt5581284, tt5942864, tt7205942, tt7791188, tt9248340]
+      winner: [tt5942864]
+    best costume design (bestes kostümbild):
+      nominee: [tt4642192, tt7205942, tt7670212]
+      winner: [tt7205942]
+    best direction (beste regie):
+      nominee: [tt5581284, tt5942864, tt7205942]
+      winner: [tt7205942]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt7519174, tt9081788, tt9129428]
+      winner: [tt7519174]
+    best editing (bester schnitt):
+      nominee: [tt5942864, tt7205942, tt7519174, tt7776838]
+      winner: [tt7519174]
+    best film score (beste filmmusik):
+      nominee: [tt4642192, tt7125774, tt7271882]
+      winner: [tt7271882]
+    best makeup (bestes maskenbild):
+      nominee: [tt4459156, tt7205942, tt7670212]
+      winner: [tt7670212]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt5545880, tt7205942, tt7670212]
+      winner: [tt7205942]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt5311542, tt6836462, tt7478522]
+      winner: [tt6836462]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt5942864, tt6824598, tt7776430]
+      winner: [tt5942864]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt5581284, tt7205942, tt7670212]
+      winner: [tt5581284]
+    best production design (bestes szenenbild):
+      nominee: [tt3072732, tt7205942, tt7670212]
+      winner: [tt7205942]
+    best screenplay (bestes drehbuch):
+      nominee: [tt5545880, tt5581284, tt7205942, tt7776838]
+      winner: [tt7205942]
+    best sound (beste tongestaltung):
+      nominee: [tt5942864, tt6675244, tt7125774]
+      winner: [tt5942864]
+    outstanding children or youth film (bester kinder- und jugendfilm):
+      nominee: [tt3072732, tt8773020]
+      winner: [tt8773020]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt6675244, tt7205942, tt7225386, tt7776838]
+      winner: [tt7205942]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt5942864]
+      winner: [tt5942864]
+  film award in bronze:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt5581284]
+      winner: [tt5581284]
+  audience award:
+    highest grossing film of the year:
+      nominee: [tt5581284]
+      winner: [tt5581284]
+'2018': # https://www.imdb.com/event/ev0000280/2018/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt4511200, tt5723272, tt6263618, tt6463494, tt6576556]
+      winner: [tt6463494]
+    best costume design (bestes kostümbild):
+      nominee: [tt2404639, tt4511200, tt6576556]
+      winner: [tt4511200]
+    best direction (beste regie):
+      nominee: [tt5157326, tt5723272, tt6463494]
+      winner: [tt6463494]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt6340090, tt7085762, tt7106414]
+      winner: [tt6340090]
+    best editing (bester schnitt):
+      nominee: [tt5584140, tt6340090, tt6763252]
+      winner: [tt6340090]
+    best film score (beste filmmusik):
+      nominee: [tt5584796, tt6340090, tt6463494, tt6763252]
+      winner: [tt6463494]
+    best makeup (bestes maskenbild):
+      nominee: [tt4511200, tt5907748, tt6463494]
+      winner: [tt4511200]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt6038168, tt6263618, tt7028470]
+      winner: [tt6263618]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt6463494, tt6763252]
+      winner: [tt6463494]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt5339226, tt5723272, tt6463494]
+      winner: [tt6463494]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt6038168, tt6263618, tt6463494]
+      winner: [tt6463494]
+    best production design (bestes szenenbild):
+      nominee: [tt3397096, tt4511200, tt5651338]
+      winner: [tt4511200]
+    best screenplay (bestes drehbuch):
+      nominee: [tt5723272, tt6038168, tt6576556]
+      winner: [tt5723272]
+    best short film (bester kurzfilm):
+      nominee: [tt11383806]
+      winner: [tt11383806]
+    best sound (beste tongestaltung):
+      nominee: [tt5907748, tt6463494, tt6763252]
+      winner: [tt6763252]
+    outstanding children or youth film (bester kinder- und jugendfilm):
+      nominee: [tt5712474, tt6153538]
+      winner: [tt5712474]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt5157326, tt5723272, tt6263618, tt6463494, tt6576556, tt6763252]
+      winner: [tt6463494]
+  audience award:
+    highest grossing film of the year:
+      nominee: [tt6471264]
+      winner: [tt6471264]
+'2017': # https://www.imdb.com/event/ev0000280/2017/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt3756046, tt4071086, tt4911940, tt5029668]
+      winner: [tt4071086]
+    best costume design (bestes kostümbild):
+      nominee: [tt3756046, tt5029668, tt5705058]
+      winner: [tt5029668]
+    best direction (beste regie):
+      nominee: [tt3756046, tt4048272, tt4071086, tt5369484]
+      winner: [tt4048272]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt3614356, tt5863950, tt5945282]
+      winner: [tt5945282]
+    best editing (bester schnitt):
+      nominee: [tt4048272, tt4071086, tt4911940]
+      winner: [tt4048272]
+    best film score (beste filmmusik):
+      nominee: [tt3044650, tt4578050, tt5705058]
+      winner: [tt3044650]
+    best makeup (bestes maskenbild):
+      nominee: [tt3044650, tt5029668, tt5705058]
+      winner: [tt3044650]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt3756046, tt4048272, tt6020104]
+      winner: [tt4048272]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt4071086, tt4217878, tt5245048]
+      winner: [tt4071086]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt4048272, tt4071086, tt5369484]
+      winner: [tt4048272]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt3756046, tt4217878, tt4250566, tt5245048]
+      winner: [tt4250566]
+    best production design (bestes szenenbild):
+      nominee: [tt3756046, tt4250566, tt5029668]
+      winner: [tt5029668]
+    best screenplay (bestes drehbuch):
+      nominee: [tt3756046, tt4048272, tt4217878, tt5369484]
+      winner: [tt4048272]
+    best sound (beste tongestaltung):
+      nominee: [tt3044650, tt4071086, tt4578050, tt4911940]
+      winner: [tt4071086]
+    outstanding children or youth film (bester kinder- und jugendfilm):
+      nominee: [tt4578050, tt4955338]
+      winner: [tt4955338]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt3756046, tt4048272, tt4911940, tt5500148]
+      winner: [tt4048272]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt5369484]
+      winner: [tt5369484]
+  film award in bronze:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt4071086]
+      winner: [tt4071086]
+'2016': # https://www.imdb.com/event/ev0000280/2016/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt1369667, tt3249414, tt3296980]
+      winner: [tt3249414]
+    best costume design (bestes kostümbild):
+      nominee: [tt3700392, tt4005402, tt4193400]
+      winner: [tt4193400]
+    best direction (beste regie):
+      nominee: [tt3397160, tt4176826, tt4193400]
+      winner: [tt4193400]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt3249414, tt4382666, tt5053042]
+      winner: [tt3249414]
+    best editing (bester schnitt):
+      nominee: [tt1369667, tt2980210, tt4005402]
+      winner: [tt2980210]
+    best film score (beste filmmusik):
+      nominee: [tt1369667, tt1707380, tt4193400]
+      winner: [tt1707380]
+    best makeup (bestes maskenbild):
+      nominee: [tt1369667, tt3296980, tt4193400]
+      winner: [tt3296980]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt3296980, tt4176826, tt4193400]
+      winner: [tt3296980]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt4005402, tt4176826, tt4193400]
+      winner: [tt4193400]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt3707396, tt4073166, tt4667788]
+      winner: [tt3707396]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt3296980, tt3397160, tt4321804, tt5033342]
+      winner: [tt4321804]
+    best production design (bestes szenenbild):
+      nominee: [tt1369667, tt4005402, tt4193400, tt5277952]
+      winner: [tt4193400]
+    best screenplay (bestes drehbuch):
+      nominee: [tt3707396, tt4193400, tt5033342]
+      winner: [tt4193400]
+    best sound (beste tongestaltung):
+      nominee: [tt2980210, tt4005402, tt4176826]
+      winner: [tt2980210]
+    outstanding children or youth film (bester kinder- und jugendfilm):
+      nominee: [tt3700392, tt4280056]
+      winner: [tt3700392]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt2980210, tt4176826, tt4193400, tt4667788]
+      winner: [tt4193400]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt3296980]
+      winner: [tt3296980]
+  film award in bronze:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt5033342]
+      winner: [tt5033342]
+  audience award:
+    highest grossing film of the year:
+      nominee: [tt3702996]
+      winner: [tt3702996]
+'2015': # https://www.imdb.com/event/ev0000280/2015/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt1708135, tt3042408, tt4076058, tt4226388]
+      winner: [tt4226388]
+    best costume design (bestes kostümbild):
+      nominee: [tt1708135, tt2245171, tt2790236]
+      winner: [tt2790236]
+    best direction (beste regie):
+      nominee: [tt2723240, tt2790236, tt3469918, tt4226388]
+      winner: [tt4226388]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt3626804, tt3985616, tt4044364]
+      winner: [tt4044364]
+    best editing (bester schnitt):
+      nominee: [tt1708135, tt3042408, tt3306858, tt3348102, tt4044364]
+      winner: [tt3042408]
+    best film score (beste filmmusik):
+      nominee: [tt2245171, tt3825638, tt4226388]
+      winner: [tt4226388]
+    best makeup (bestes maskenbild):
+      nominee: [tt1708135, tt2245171, tt2790236]
+      winner: [tt2790236]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt1708135, tt4226388, tt4363672]
+      winner: [tt4226388]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt1708135, tt3825638, tt4076058]
+      winner: [tt4076058]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt2764784, tt3983072, tt4226388]
+      winner: [tt4226388]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt2618500, tt2764784, tt2790236]
+      winner: [tt2764784]
+    best production design (bestes szenenbild):
+      nominee: [tt1708135, tt2790236, tt3042408]
+      winner: [tt3042408]
+    best screenplay (bestes drehbuch):
+      nominee: [tt2723240, tt3042408, tt3469918, tt3777462, tt3825638]
+      winner: [tt2723240]
+    best sound (beste tongestaltung):
+      nominee: [tt3042408, tt4044364, tt4226388]
+      winner: [tt3042408]
+    outstanding children or youth film (bester kinder- und jugendfilm):
+      nominee: [tt1679276, tt4045488]
+      winner: [tt1679276]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt3042408, tt3825638, tt4076058, tt4226388]
+      winner: [tt4226388]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt3469918]
+      winner: [tt3469918]
+  film award in bronze:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt2723240]
+      winner: [tt2723240]
+  audience award:
+    highest grossing film of the year:
+      nominee: [tt3488462]
+      winner: [tt3488462]
+'2014': # https://www.imdb.com/event/ev0000280/2014/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt1608516, tt1838603, tt1998204, tt2101473, tt2650978]
+      winner: [tt2650978]
+    best costume design (bestes kostümbild):
+      nominee: [tt1998204, tt2101473, tt2650978]
+      winner: [tt2650978]
+    best direction (beste regie):
+      nominee: [tt1998204, tt2650978, tt2822400]
+      winner: [tt1998204]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt3129484, tt3212568, tt3215346]
+      winner: [tt3212568]
+    best editing (bester schnitt):
+      nominee: [tt1783422, tt2181961, tt2524674]
+      winner: [tt1783422]
+    best film score (beste filmmusik):
+      nominee: [tt2338864, tt2356464, tt2650978, tt2822400]
+      winner: [tt2650978]
+    best makeup (bestes maskenbild):
+      nominee: [tt1608516, tt2101473, tt2650978]
+      winner: [tt2650978]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt2071466, tt2320968, tt2617828]
+      winner: [tt2320968]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt2338864, tt2650978, tt2664258]
+      winner: [tt2650978]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt1783422, tt2476552, tt2524674]
+      winner: [tt2476552]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt2338864, tt2987732]
+      winner: [tt2338864]
+    best production design (bestes szenenbild):
+      nominee: [tt1608516, tt1998204, tt2101473, tt2650978]
+      winner: [tt2650978]
+    best screenplay (bestes drehbuch):
+      nominee: [tt1998204, tt2338864, tt2987732]
+      winner: [tt1998204]
+    best sound (beste tongestaltung):
+      nominee: [tt1667355, tt2101473, tt2650978]
+      winner: [tt2650978]
+    outstanding children or youth film (bester kinder- und jugendfilm):
+      nominee: [tt2270802, tt2356464, tt3202200]
+      winner: [tt2356464]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt1998204, tt2338864, tt2960270, tt2987732]
+      winner: [tt1998204]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt2650978]
+      winner: [tt2650978]
+  film award in bronze:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt1783422]
+      winner: [tt1783422]
+  audience award:
+    highest grossing film of the year:
+      nominee: [tt2987732]
+      winner: [tt2987732]
+'2013': # https://www.imdb.com/event/ev0000280/2013/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt1371111, tt1996310, tt2179055]
+      winner: [tt1371111]
+    best costume design (bestes kostümbild):
+      nominee: [tt1371111, tt1571401, tt1674773, tt1996310]
+      winner: [tt1371111]
+    best direction (beste regie):
+      nominee: [tt1371111, tt1674773, tt1954701]
+      winner: [tt1954701]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt2071620, tt2263058, tt2389530]
+      winner: [tt2263058]
+    best editing (bester schnitt):
+      nominee: [tt1371111, tt1954701, tt2263058]
+      winner: [tt1371111]
+    best film score (beste filmmusik):
+      nominee: [tt1371111, tt1954701, tt1996310]
+      winner: [tt1954701]
+    best makeup (bestes maskenbild):
+      nominee: [tt1371111, tt1674773, tt2112136]
+      winner: [tt1371111]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt1954701, tt2069985, tt2180463]
+      winner: [tt1954701]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt1836202, tt1954701, tt2180587]
+      winner: [tt1954701]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt1674773, tt1745686, tt2179055]
+      winner: [tt1674773]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt1954701, tt2112136, tt2147550]
+      winner: [tt2147550]
+    best production design (bestes szenenbild):
+      nominee: [tt1371111, tt1571401, tt2081266]
+      winner: [tt1371111]
+    best screenplay (bestes drehbuch):
+      nominee: [tt1674773, tt1954701, tt2069985]
+      winner: [tt1954701]
+    best screenplay - unproduced (bestes drehbuch - unverfilmt):
+      nominee: [tt2518294, tt3127698]
+      winner: [tt3127698]
+    best sound (beste tongestaltung):
+      nominee: [tt1371111, tt1745686, tt2179055, tt2278988]
+      winner: [tt1745686]
+    outstanding children or youth film (bester kinder- und jugendfilm):
+      nominee: [tt1722440, tt2113644]
+      winner: [tt1722440]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt1371111, tt1745686, tt1954701, tt2112136]
+      winner: [tt1954701]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt1674773]
+      winner: [tt1674773]
+  film award in bronze:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt1996310]
+      winner: [tt1996310]
+  audience award:
+    german film of the year:
+      nominee: [tt1371111, tt1571401, tt1639093, tt1650536, tt1920976, tt1978524, tt2036408, tt2107814, tt2177575, tt2186562, tt2194599, tt2324730]
+      winner: [tt1978524]
+'2012': # https://www.imdb.com/event/ev0000280/2012/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt1521197, tt1579944, tt1709122, tt2178941]
+      winner: [tt1521197]
+    best costume design (bestes kostümbild):
+      nominee: [tt1521197, tt1529559, tt1643222, tt2178941]
+      winner: [tt1521197]
+    best direction (beste regie):
+      nominee: [tt1780856, tt1976558, tt2178941]
+      winner: [tt1780856]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt1634898, tt1922751, tt1982113]
+      winner: [tt1982113]
+    best editing (bester schnitt):
+      nominee: [tt1521197, tt1780856, tt2178941]
+      winner: [tt1521197]
+    best film score (beste filmmusik):
+      nominee: [tt1579944, tt1643222, tt1670630]
+      winner: [tt1643222]
+    best makeup (bestes maskenbild):
+      nominee: [tt1521197, tt1529559, tt1643222]
+      winner: [tt1521197]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt1780856, tt1976558, tt2178941]
+      winner: [tt1780856]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt1631697, tt1780856, tt1801842]
+      winner: [tt1780856]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt1780856, tt1813774, tt1890373]
+      winner: [tt1890373]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt1579944, tt1717152]
+      winner: [tt1717152]
+    best production design (bestes szenenbild):
+      nominee: [tt1521197, tt1529559, tt1643222]
+      winner: [tt1521197]
+    best screenplay (bestes drehbuch):
+      nominee: [tt1780856, tt1890373, tt2178941]
+      winner: [tt1890373]
+    best screenplay - unproduced (bestes drehbuch - unverfilmt):
+      nominee: [tt2476552]
+      winner: []
+    best sound (beste tongestaltung):
+      nominee: [tt1521197, tt1643222, tt2178941]
+      winner: [tt1521197]
+    outstanding children or youth film (bester kinder- und jugendfilm):
+      nominee: [tt1266038, tt1722484]
+      winner: [tt1266038]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt1521197, tt1643222, tt1747994, tt1780856]
+      winner: [tt1780856]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt2178941]
+      winner: [tt2178941]
+  film award in bronze:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt1890373]
+      winner: [tt1890373]
+'2011': # https://www.imdb.com/event/ev0000280/2011/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt1398029, tt1452297, tt1686768]
+      winner: [tt1452297]
+    best costume design (bestes kostümbild):
+      nominee: [tt1399655, tt1452297, tt1686768]
+      winner: [tt1452297]
+    best direction (beste regie):
+      nominee: [tt1398029, tt1440266, tt1517177]
+      winner: [tt1517177]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt1440266, tt1592744]
+      winner: [tt1440266]
+    best editing (bester schnitt):
+      nominee: [tt1517177, tt1671496, tt1692504]
+      winner: [tt1517177]
+    best film score (beste filmmusik):
+      nominee: [tt1398029, tt1517177, tt1692504]
+      winner: [tt1398029]
+    best makeup (bestes maskenbild):
+      nominee: [tt1399655, tt1440180, tt1452297]
+      winner: [tt1440180]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt1440180, tt1611211, tt1671496]
+      winner: [tt1611211]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt1452297, tt1584729, tt1611211]
+      winner: [tt1452297]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt1517177, tt1545985, tt1671496]
+      winner: [tt1517177]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt1266025, tt1398029, tt1611211]
+      winner: [tt1398029]
+    best production design (bestes szenenbild):
+      nominee: [tt1440180, tt1452297, tt1671496]
+      winner: [tt1452297]
+    best screenplay (bestes drehbuch):
+      nominee: [tt1410272, tt1611211, tt1630027]
+      winner: [tt1630027]
+    best sound (beste tongestaltung):
+      nominee: [tt1080019, tt1331115, tt1517177]
+      winner: [tt1331115]
+    outstanding children or youth film (bester kinder- und jugendfilm):
+      nominee: [tt1612264, tt1620449]
+      winner: [tt1612264]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt1440180, tt1517177, tt1611211, tt1686768]
+      winner: [tt1611211]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt1630027]
+      winner: [tt1630027]
+  film award in bronze:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt1671496]
+      winner: [tt1671496]
+'2010': # https://www.imdb.com/event/ev0000280/2010/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0809432, tt1149362, tt1217620, tt1339161]
+      winner: [tt1149362]
+    best costume design (bestes kostümbild):
+      nominee: [tt0458455, tt0809432, tt0995850, tt1149362]
+      winner: [tt1149362]
+    best direction (beste regie):
+      nominee: [tt0768239, tt1149362, tt1204773, tt1288376]
+      winner: [tt1149362]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt1286802, tt1510726]
+      winner: [tt1286802]
+    best editing (bester schnitt):
+      nominee: [tt0768239, tt1149362, tt1223934, tt1244668, tt1288376]
+      winner: [tt0768239]
+    best film score (beste filmmusik):
+      nominee: [tt0768239, tt1167599, tt1223934, tt1245528]
+      winner: [tt0768239]
+    best makeup (bestes maskenbild):
+      nominee: [tt0809432, tt1149362, tt1167599, tt1270766]
+      winner: [tt1149362]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt1037227, tt1149362, tt1298604, tt1442580]
+      winner: [tt1149362]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt1149362, tt1255955, tt1270766, tt1288376]
+      winner: [tt1255955]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt1149362, tt1204773, tt1267502, tt1288376]
+      winner: [tt1288376]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0458455, tt0995850, tt1149362, tt1255955]
+      winner: [tt1149362]
+    best production design (bestes szenenbild):
+      nominee: [tt0458455, tt0809432, tt1149362, tt1167599]
+      winner: [tt1149362]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0768239, tt1037227, tt1149362, tt1288376]
+      winner: [tt1149362]
+    best sound (beste tongestaltung):
+      nominee: [tt0458455, tt1149362, tt1167599, tt1223934]
+      winner: [tt1149362]
+    outstanding children or youth film (bester kinder- und jugendfilm):
+      nominee: [tt0803100, tt1217620]
+      winner: [tt0803100]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt1054580, tt1149362, tt1204773, tt1244668]
+      winner: [tt1149362]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0768239]
+      winner: [tt0768239]
+  film award in bronze:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt1288376]
+      winner: [tt1288376]
+'2009': # https://www.imdb.com/event/ev0000280/2009/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0763844, tt0844457, tt1124377]
+      winner: [tt0844457]
+    best costume design (bestes kostümbild):
+      nominee: [tt0765432, tt0962709, tt1035732, tt1124377]
+      winner: [tt1124377]
+    best direction (beste regie):
+      nominee: [tt0765432, tt1037228, tt1124377, tt1224153]
+      winner: [tt1037228]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt1229790, tt1266093]
+      winner: [tt1266093]
+    best editing (bester schnitt):
+      nominee: [tt0211946, tt0452580, tt1008017, tt1132474]
+      winner: [tt1132474]
+    best film score (beste filmmusik):
+      nominee: [tt0452580, tt0772181, tt1242452]
+      winner: [tt0452580]
+    best music:
+      nominee: [tt0962709]
+      winner: []
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0452580, tt1124377, tt1132474]
+      winner: [tt1124377]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt1035732, tt1112828, tt1124377]
+      winner: [tt1112828]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0765432, tt1037228, tt1176699]
+      winner: [tt1037228]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt1035730, tt1112828, tt1223930]
+      winner: [tt1223930]
+    best production design (bestes szenenbild):
+      nominee: [tt0772181, tt0844457, tt1124377]
+      winner: [tt1124377]
+    best screenplay (bestes drehbuch):
+      nominee: [tt1132474, tt1135943, tt1176699]
+      winner: [tt1132474]
+    best sound (beste tongestaltung):
+      nominee: [tt0772181, tt0844457, tt1035730]
+      winner: [tt0844457]
+    outstanding children or youth film (bester kinder- und jugendfilm):
+      nominee: [tt0935113, tt1176731]
+      winner: [tt0935113]
+    outstanding feature film (programmfüllende spielfilme):
+      nominee: [tt0765432, tt1124377, tt1132474, tt1224153]
+      winner: [tt1124377]
+  film award in silver:
+    outstanding feature film (programmfüllende spielfilme):
+      nominee: [tt0452580]
+      winner: [tt0452580]
+  film award in bronze:
+    outstanding feature film (programmfüllende spielfilme):
+      nominee: [tt1037228]
+      winner: [tt1037228]
+'2008': # https://www.imdb.com/event/ev0000280/2008/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0399095, tt0443570, tt0806686]
+      winner: [tt0443570]
+    best costume design (bestes kostümbild):
+      nominee: [tt0389557, tt0764639, tt0910559]
+      winner: [tt0910559]
+    best direction (beste regie):
+      nominee: [tt0806686, tt0880502, tt0910559]
+      winner: [tt0880502]
+    best editing (bester schnitt):
+      nominee: [tt0399095, tt0880502, tt1063669]
+      winner: [tt0880502]
+    best film score (beste filmmusik):
+      nominee: [tt0498525, tt0898323, tt0954933]
+      winner: [tt0898323]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0910559, tt0954933, tt1031932]
+      winner: [tt0910559]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0818108, tt1034388, tt1063669]
+      winner: [tt1063669]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0389557, tt0806686, tt0825682, tt1031932]
+      winner: [tt0806686]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0880502, tt0910559, tt1037061]
+      winner: [tt1037061]
+    best production design (bestes szenenbild):
+      nominee: [tt0443570, tt0764639, tt1027658]
+      winner: [tt1027658]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0805613, tt0880502, tt0910559]
+      winner: [tt0880502]
+    best sound (beste tongestaltung):
+      nominee: [tt0399095, tt0448150, tt0959282]
+      winner: [tt0399095]
+    outstanding children or youth film (programmfüllende kinder- und jugendfilm):
+      nominee: [tt0466100, tt0898323]
+      winner: [tt0898323]
+    outstanding documentary (programmfüllende dokumentarfilme):
+      nominee: [tt0949502, tt0959282]
+      winner: [tt0949502]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0775417, tt0805613, tt0806686, tt0880502]
+      winner: [tt0880502]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0910559]
+      winner: [tt0910559]
+  film award in bronze:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt1063669]
+      winner: [tt1063669]
+'2007': # https://www.imdb.com/event/ev0000280/2007/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0396171, tt0461694, tt0813547]
+      winner: [tt0396171]
+    best costume design (bestes kostümbild):
+      nominee: [tt0396171, tt0780134, tt0813547]
+      winner: [tt0396171]
+    best direction (beste regie):
+      nominee: [tt0396171, tt0461694, tt0499101, tt0780180]
+      winner: [tt0780180]
+    best editing (bester schnitt):
+      nominee: [tt0353667, tt0396171, tt0461694, tt0780180]
+      winner: [tt0396171]
+    best film score (beste filmmusik):
+      nominee: [tt0396171, tt0484434, tt0780180]
+      winner: [tt0780180]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0480057, tt0499101, tt0813547]
+      winner: [tt0480057]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0424992, tt0780568, tt0813547]
+      winner: [tt0813547]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0424992, tt0461694]
+      winner: [tt0461694]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0353667, tt0441762, tt0476965]
+      winner: [tt0476965]
+    best production design (bestes szenenbild):
+      nominee: [tt0396171, tt0813547, tt0943232]
+      winner: [tt0396171]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0461694, tt0780180, tt0813547]
+      winner: [tt0780180]
+    best sound (beste tongestaltung):
+      nominee: [tt0396171, tt0424992, tt0461694]
+      winner: [tt0396171]
+    outstanding children or youth film (programmfüllende kinder- und jugendfilm):
+      nominee: [tt0480083, tt0943232]
+      winner: [tt0943232]
+    outstanding documentary (programmfüllende dokumentarfilme):
+      nominee: [tt0478331, tt0492484]
+      winner: [tt0478331]
+    outstanding feature film (programmfüllende spielfilme):
+      nominee: [tt0424992, tt0461694, tt0480057, tt0813547]
+      winner: [tt0461694]
+  film award in silver:
+    outstanding feature film (programmfüllende spielfilme):
+      nominee: [tt0396171, tt0780180]
+      winner: [tt0396171, tt0780180]
+'2006': # https://www.imdb.com/event/ev0000280/2006/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0360960, tt0396273, tt0405094]
+      winner: [tt0405094]
+    best costume design (bestes kostümbild):
+      nominee: [tt0360960, tt0405094, tt0454931]
+      winner: [tt0454931]
+    best direction (beste regie):
+      nominee: [tt0405094, tt0454931, tt0477877]
+      winner: [tt0405094]
+    best editing (bester schnitt):
+      nominee: [tt0405094, tt0454931, tt0475317]
+      winner: [tt0475317]
+    best film score (beste filmmusik):
+      nominee: [tt0377800, tt0405094, tt0475317]
+      winner: [tt0475317]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0405094, tt0430051, tt0443139]
+      winner: [tt0405094]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0405094, tt0454931, tt0477877]
+      winner: [tt0405094]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0428672, tt0454931, tt0477877]
+      winner: [tt0454931]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0430051, tt0452633, tt0454931]
+      winner: [tt0454931]
+    best production design (bestes szenenbild):
+      nominee: [tt0377800, tt0405094, tt0454931]
+      winner: [tt0405094]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0405094, tt0445620, tt0454931, tt0477877]
+      winner: [tt0405094]
+    best screenplay - unproduced (bestes drehbuch - unverfilmt):
+      nominee: [tt1249429]
+      winner: [tt1249429]
+    best sound (beste tongestaltung):
+      nominee: [tt0405094, tt0405743, tt0454931, tt0498203]
+      winner: [tt0454931]
+    outstanding children or youth film (bester kinder- und jugendfilm):
+      nominee: [tt0431380, tt0432325]
+      winner: [tt0432325]
+    outstanding documentary (bester dokumentarfilm):
+      nominee: [tt0451101, tt0478160]
+      winner: [tt0451101]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0405094, tt0445620, tt0452633, tt0477877]
+      winner: [tt0405094]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0454931, tt0475317]
+      winner: [tt0454931, tt0475317]
+'2005': # https://www.imdb.com/event/ev0000280/2005/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0378715, tt0382357, tt0426578]
+      winner: [tt0378715]
+    best costume design (bestes kostümbild):
+      nominee: [tt0378715, tt0416331, tt0429614]
+      winner: [tt0416331]
+    best direction (beste regie):
+      nominee: [tt0408777, tt0411702, tt0416331]
+      winner: [tt0416331]
+    best editing (bester schnitt):
+      nominee: [tt0410520, tt0411702, tt0416331]
+      winner: [tt0410520]
+    best film score (beste filmmusik):
+      nominee: [tt0411498, tt0416331, tt0429614]
+      winner: [tt0416331]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0363163, tt0411702, tt0416331]
+      winner: [tt0416331]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0383041, tt0408777, tt0416331]
+      winner: [tt0408777]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0412888, tt0416331, tt0426578]
+      winner: [tt0426578]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0363163, tt0389738, tt0412888]
+      winner: [tt0389738]
+    best production design (bestes szenenbild):
+      nominee: [tt0378715, tt0411702, tt0416331]
+      winner: [tt0411702]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0411702, tt0416331, tt0426578]
+      winner: [tt0416331]
+    best sound (beste tongestaltung):
+      nominee: [tt0349047, tt0378715, tt0411702, tt0424509]
+      winner: [tt0424509]
+    outstanding children or youth film (bester kinder- und jugendfilm):
+      nominee: [tt0416908, tt0418325]
+      winner: [tt0416908]
+    outstanding documentary (bester dokumentarfilm):
+      nominee: [tt0410520, tt0424509]
+      winner: [tt0410520]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0386862, tt0389738, tt0411702, tt0416331]
+      winner: [tt0416331]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0408777, tt0426578]
+      winner: [tt0408777, tt0426578]
+  audience award:
+    german film of the year:
+      nominee: [tt0426578]
+      winner: [tt0426578]
+'2004': # https://www.imdb.com/event/ev0000280/2004/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0347048]
+      winner: [tt0347048]
+    best direction (beste regie):
+      nominee: [tt0326429, tt0347048, tt0355029]
+      winner: [tt0347048]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt0373861, tt0400579]
+      winner: [tt0400579]
+    best editing (bester schnitt):
+      nominee: [tt0396746]
+      winner: [tt0396746]
+    best film score (beste filmmusik):
+      nominee: [tt0366416]
+      winner: [tt0366416]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0347048, tt0371710, tt0388395]
+      winner: [tt0347048]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0322545, tt0396746, tt0404183]
+      winner: [tt0322545]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0347048, tt0355029, tt0371710]
+      winner: [tt0347048]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0322545, tt0325734, tt0326429]
+      winner: [tt0325734]
+    best production design (bestes szenenbild):
+      nominee: [tt0388395]
+      winner: [tt0388395]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0322545]
+      winner: [tt0322545]
+    outstanding children or youth film (bester kinder- und jugendfilm):
+      nominee: [tt0376990, tt0402065]
+      winner: [tt0402065]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0322545, tt0326429, tt0347048, tt0355029, tt0396746, tt0404183]
+      winner: [tt0347048]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0326429, tt0404183]
+      winner: [tt0326429, tt0404183]
+  best foreign film:
+    best foreign film:
+      nominee: [tt0335266]
+      winner: [tt0335266]
+  audience award:
+    german film of the year:
+      nominee: [tt0326429]
+      winner: [tt0326429]
+'2003': # https://www.imdb.com/event/ev0000280/2003/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0307385]
+      winner: [tt0307385]
+    best direction (beste regie):
+      nominee: [tt0301357, tt0311141, tt0351238]
+      winner: [tt0301357]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt0307385, tt0328452]
+      winner: [tt0307385]
+    best editing (bester schnitt):
+      nominee: [tt0301357]
+      winner: [tt0301357]
+    best film score (beste filmmusik):
+      nominee: [tt0301357]
+      winner: [tt0301357]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0301357, tt0304550, tt0308214, tt0329572]
+      winner: [tt0301357, tt0308214]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0301357, tt0308214, tt0351238]
+      winner: [tt0301357]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0291905, tt0301357, tt0344053]
+      winner: [tt0344053]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0301357, tt0304550, tt0309320, tt0321436, tt0351238]
+      winner: [tt0321436]
+    best production design (bestes szenenbild):
+      nominee: [tt0301357]
+      winner: [tt0301357]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0291905]
+      winner: [tt0291905]
+    best screenplay - unproduced (bestes drehbuch - unverfilmt):
+      nominee: [tt0384369]
+      winner: [tt0384369]
+    outstanding children or youth film (bester kinder- und jugendfilm):
+      nominee: [tt0311141, tt0321436]
+      winner: [tt0311141]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0292242, tt0300237, tt0301357, tt0304550, tt0308214]
+      winner: [tt0301357]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0300237, tt0351238]
+      winner: [tt0300237, tt0351238]
+  best foreign film:
+    best foreign film:
+      nominee: [tt0274558]
+      winner: [tt0274558]
+  audience award:
+    german film of the year:
+      nominee: [tt0301357]
+      winner: [tt0301357]
+'2002': # https://www.imdb.com/event/ev0000280/2002/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0161860]
+      winner: [tt0161860]
+    best direction (beste regie):
+      nominee: [tt0161860, tt0265188, tt0304126]
+      winner: [tt0161860]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt0283941, tt0309076]
+      winner: [tt0283941]
+    best editing (bester schnitt):
+      nominee: [tt0265188]
+      winner: [tt0265188]
+    best film score (beste filmmusik):
+      nominee: [tt0161860]
+      winner: [tt0161860]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0246853, tt0265188, tt0265691, tt0276617, tt0290015, tt0295001]
+      winner: [tt0276617, tt0290015, tt0295001]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0161860, tt0207198, tt0246677]
+      winner: [tt0161860]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0161860, tt0246772, tt0265188]
+      winner: [tt0246772]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0265691, tt0276617, tt0290015, tt0295003, tt0300186]
+      winner: [tt0265691]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0301357]
+      winner: [tt0301357]
+    best screenplay - unproduced (bestes drehbuch - unverfilmt):
+      nominee: [tt0430406]
+      winner: [tt0430406]
+    outstanding children or youth film (bester kinder- und jugendfilm):
+      nominee: [tt0168856, tt0265691]
+      winner: [tt0265691]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0161860, tt0246677, tt0246772, tt0246853, tt0276617, tt0304126]
+      winner: [tt0161860]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0246677, tt0304126]
+      winner: [tt0246677, tt0304126]
+  special award:
+    special award:
+      nominee: [tt0248408]
+      winner: [tt0248408]
+  best foreign film:
+    best foreign film:
+      nominee: [tt0254686]
+      winner: [tt0254686]
+  audience award:
+    german film of the year:
+      nominee: [tt0248408]
+      winner: [tt0248408]
+'2001': # https://www.imdb.com/event/ev0000280/2001/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0215777]
+      winner: [tt0215777]
+    best direction (beste regie):
+      nominee: [tt0203632, tt0248103, tt0248628]
+      winner: [tt0248628]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt0245147, tt0277148]
+      winner: [tt0245147]
+    best editing (bester schnitt):
+      nominee: [tt0248628]
+      winner: [tt0248628]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0177858, tt0215681, tt0248601, tt0250258]
+      winner: [tt0177858, tt0250258]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0203632, tt0239441, tt0250258]
+      winner: [tt0250258]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0203632, tt0248103, tt0280733]
+      winner: [tt0280733]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0239441, tt0248103, tt0280733]
+      winner: [tt0239441]
+    best production design (bestes szenenbild):
+      nominee: [tt0250258]
+      winner: [tt0250258]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0246853]
+      winner: [tt0246853]
+    outstanding children or youth film (bester kinder- und jugendfilm):
+      nominee: [tt0192255]
+      winner: [tt0192255]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0203632, tt0215681, tt0239441, tt0248103, tt0248628, tt0250258]
+      winner: [tt0248103]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0203632, tt0215681]
+      winner: [tt0203632, tt0215681]
+  best foreign film:
+    best foreign film:
+      nominee: [tt0118694]
+      winner: [tt0118694]
+  audience award:
+    german film of the year:
+      nominee: [tt0250258]
+      winner: [tt0250258]
+'2000': # https://www.imdb.com/event/ev0000280/2000/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0204736]
+      winner: [tt0204736]
+    best direction (beste regie):
+      nominee: [tt0120753, tt0162023, tt0231710]
+      winner: [tt0231710]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt0186508, tt0231710]
+      winner: [tt0186508]
+    best editing (bester schnitt):
+      nominee: [tt0215828]
+      winner: [tt0215828]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0155722, tt0192576, tt0225824, tt0228239]
+      winner: [tt0225824]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0225824, tt0228239, tt0235841]
+      winner: [tt0228239]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0192576, tt0204736, tt0235841]
+      winner: [tt0235841]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0204736, tt0225824, tt0234805]
+      winner: [tt0204736]
+    best production design (bestes szenenbild):
+      nominee: [tt0177242]
+      winner: [tt0177242]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0155722]
+      winner: [tt0155722]
+    outstanding children or youth film (bester kinder- und jugendfilm):
+      nominee: [tt0215919]
+      winner: [tt0215919]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0120753, tt0155722, tt0177242, tt0177507, tt0204736, tt0235841]
+      winner: [tt0235841]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0177242, tt0177507]
+      winner: [tt0177242, tt0177507]
+  best foreign film:
+    best foreign film:
+      nominee: [tt0185125]
+      winner: [tt0185125]
+  audience award:
+    german film of the year:
+      nominee: [tt0187696]
+      winner: [tt0187696]
+'1999': # https://www.imdb.com/event/ev0000280/1999/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0130827]
+      winner: [tt0130827]
+    best direction (beste regie):
+      nominee: [tt0130827, tt0136423, tt0162426]
+      winner: [tt0130827]
+    best editing (bester schnitt):
+      nominee: [tt0130827]
+      winner: [tt0130827]
+    best film score (beste filmmusik):
+      nominee: [tt0154870, tt0161935]
+      winner: [tt0154870, tt0161935]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0126765, tt0136423, tt0198006]
+      winner: [tt0126765]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0130827, tt0136193, tt0136423]
+      winner: [tt0130827]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0130444, tt0154870, tt0198006]
+      winner: [tt0130444, tt0154870]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0130827, tt0136423, tt0144106, tt0188027]
+      winner: [tt0130827, tt0144106]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0130444, tt0130827, tt0144106, tt0162426, tt0202390, tt0235058]
+      winner: [tt0130827]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0126765, tt0136423]
+      winner: [tt0126765, tt0136423]
+  best foreign film:
+    best foreign film:
+      nominee: [tt0118799]
+      winner: [tt0118799]
+  audience award:
+    german film of the year:
+      nominee: [tt0130827]
+      winner: [tt0130827]
+'1998': # https://www.imdb.com/event/ev0000280/1998/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0120522, tt0129659]
+      winner: [tt0120522, tt0129659]
+    best direction (beste regie):
+      nominee: [tt0119062, tt0120522, tt0128133]
+      winner: [tt0119062]
+    best editing (bester schnitt):
+      nominee: [tt0128133]
+      winner: [tt0128133]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0120489, tt0128133, tt0130887]
+      winner: [tt0128133]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0120522, tt0120717, tt0129659]
+      winner: [tt0129659]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0118633, tt0118653, tt0118682, tt0118700]
+      winner: [tt0118633, tt0118682]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0118633, tt0118682, tt0128133]
+      winner: [tt0128133]
+    best production design (bestes szenenbild):
+      nominee: [tt0128133]
+      winner: [tt0128133]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0177242]
+      winner: [tt0177242]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0118633, tt0118653, tt0118700, tt0128133, tt0132984, tt0146962]
+      winner: [tt0128133]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0120522, tt0129659]
+      winner: [tt0120522, tt0129659]
+  best foreign film:
+    best foreign film:
+      nominee: [tt0115744, tt0119164]
+      winner: [tt0115744, tt0119164]
+'1997': # https://www.imdb.com/event/ev0000280/1997/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0118529]
+      winner: [tt0118529]
+    best direction (beste regie):
+      nominee: [tt0116692, tt0118529, tt0120037]
+      winner: [tt0120037]
+    best editing (bester schnitt):
+      nominee: [tt0116164, tt0120037]
+      winner: [tt0116164, tt0120037]
+    best film score (beste filmmusik):
+      nominee: [tt0116692]
+      winner: [tt0116692]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0118529, tt0119510, tt0120037]
+      winner: [tt0119510]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0116164, tt0118529, tt0119472]
+      winner: [tt0119472]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0116208, tt0116692, tt0120037]
+      winner: [tt0116692]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0116692, tt0119510, tt0120037]
+      winner: [tt0119510, tt0120037]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0143900]
+      winner: [tt0143900]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0116208, tt0116844, tt0118529, tt0119472, tt0119750, tt0120037]
+      winner: [tt0120037]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0116692, tt0119510]
+      winner: [tt0116692, tt0119510]
+  best foreign film:
+    best foreign film:
+      nominee: [tt0114388]
+      winner: [tt0114388]
+'1996': # https://www.imdb.com/event/ev0000280/1996/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0113519]
+      winner: [tt0113519]
+    best direction (beste regie):
+      nominee: [tt0114523, tt0114704, tt0117745]
+      winner: [tt0114704]
+    best editing (bester schnitt):
+      nominee: [tt0114354, tt0409481]
+      winner: [tt0114354, tt0409481]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0112474, tt0114704]
+      winner: [tt0114704]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0113944, tt0114019, tt0114523, tt0117745]
+      winner: [tt0114019, tt0114523]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0112474, tt0120037]
+      winner: [tt0112474, tt0120037]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0110361, tt0110670, tt0114523, tt0114704, tt0117135, tt0118246]
+      winner: [tt0114704]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0114354, tt0117117]
+      winner: [tt0114354, tt0117117]
+  best foreign film:
+    best foreign film:
+      nominee: [tt0114478]
+      winner: [tt0114478]
+'1995': # https://www.imdb.com/event/ev0000280/1995/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0110470]
+      winner: [tt0110470]
+    best direction (beste regie):
+      nominee: [tt0109255, tt0110251, tt0111183]
+      winner: [tt0109255]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0109255, tt0111183, tt0113850]
+      winner: [tt0109255]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0106498, tt0109712, tt0110251, tt0111183, tt0111613]
+      winner: [tt0106498, tt0109712, tt0110251]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0106498, tt0109255, tt0109994, tt0110470, tt0111183, tt0128263]
+      winner: [tt0109255]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0110251, tt0111607]
+      winner: [tt0110251, tt0111607]
+'1994': # https://www.imdb.com/event/ev0000280/1994/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0107209, tt0109037]
+      winner: [tt0107209, tt0109037]
+    best direction (beste regie):
+      nominee: [tt0107209, tt0109172, tt0110246]
+      winner: [tt0110246]
+    best editing (bester schnitt):
+      nominee: [tt0108279]
+      winner: [tt0108279]
+    best new direction (beste nachwuchsregie):
+      nominee: [tt0106209]
+      winner: [tt0106209]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0107209, tt0109037, tt0110246]
+      winner: [tt0110246]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0106209, tt0108279, tt0109083]
+      winner: [tt0108279, tt0109083]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0106209, tt0106347, tt0107209, tt0107462, tt0109037, tt0109172, tt0110246, tt0110705]
+      winner: [tt0110246]
+    'outstanding individual achievement: over all concept':
+      nominee: [tt0107151]
+      winner: [tt0107151]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0106347, tt0109172]
+      winner: [tt0106347, tt0109172]
+'1993': # https://www.imdb.com/event/ev0000280/1993/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0104846, tt0107330, tt0110285]
+      winner: [tt0104846, tt0107330, tt0110285]
+    best direction (beste regie):
+      nominee: [tt0107701]
+      winner: [tt0107701]
+    best editing (bester schnitt):
+      nominee: [tt0107701]
+      winner: [tt0107701]
+    best film score (beste filmmusik):
+      nominee: [tt0108574]
+      winner: [tt0108574]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0108574, tt0110285]
+      winner: [tt0108574, tt0110285]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0104846, tt0107701]
+      winner: [tt0104846, tt0107701]
+    best production design (bestes szenenbild):
+      nominee: [tt0110285]
+      winner: [tt0110285]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0108574]
+      winner: [tt0108574]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0104846, tt0104988, tt0107330, tt0107360, tt0107701, tt0110285, tt0162987, tt0163860]
+      winner: [tt0107330]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0107743, tt0108574]
+      winner: [tt0107743, tt0108574]
+'1992': # https://www.imdb.com/event/ev0000280/1992/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0103265]
+      winner: [tt0103265]
+    best direction (beste regie):
+      nominee: [tt0105328]
+      winner: [tt0105328]
+    best film score (beste filmmusik):
+      nominee: [tt0102284, tt0103265]
+      winner: [tt0102284, tt0103265]
+    best new direction (beste nachwuchsregie):
+      nominee: [tt0102098]
+      winner: [tt0102098]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0100115, tt0102000, tt0102675, tt0105328]
+      winner: [tt0102675, tt0105328]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0100115, tt0102098, tt0102284, tt0172552]
+      winner: [tt0102284]
+    best production design (bestes szenenbild):
+      nominee: [tt0099194]
+      winner: [tt0099194]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0102675]
+      winner: [tt0102675]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0099194, tt0101558, tt0102000, tt0102419, tt0102675, tt0103265, tt0105328, tt0108055]
+      winner: [tt0105328]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0102284, tt0128301]
+      winner: [tt0102284, tt0128301]
+'1991': # https://www.imdb.com/event/ev0000280/1991/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0099949]
+      winner: [tt0099949]
+    best direction (beste regie):
+      nominee: [tt0098657, tt0102383, tt0102880]
+      winner: [tt0098657, tt0102383]
+    best editing (bester schnitt):
+      nominee: [tt0102383]
+      winner: [tt0102383]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0100237, tt0100742, tt0101960]
+      winner: [tt0100742]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0098657, tt0100457, tt0102383]
+      winner: [tt0102383]
+    best performance by an ensemble (beste darstellerische leistung - ensemble):
+      nominee: [tt0101994]
+      winner: [tt0101994]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0100237]
+      winner: [tt0100237]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0098657, tt0100244, tt0100692, tt0101960, tt0102019, tt0102383, tt0102880]
+      winner: [tt0102383]
+  film award in silver:
+    best documentary (bester dokumentarfilm):
+      nominee: [tt0100862]
+      winner: [tt0100862]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0100742, tt0102050]
+      winner: [tt0100742, tt0102050]
+'1990': # https://www.imdb.com/event/ev0000280/1990/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0162852]
+      winner: [tt0162852]
+    best direction (beste regie):
+      nominee: [tt0097714, tt0098370]
+      winner: [tt0097714, tt0098370]
+    best editing (bester schnitt):
+      nominee: [tt0097417]
+      winner: [tt0097417]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0097417, tt0098370, tt0249982]
+      winner: [tt0097417]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0098225, tt0100557, tt0249982]
+      winner: [tt0100557]
+    best production design (bestes szenenbild):
+      nominee: [tt0098370]
+      winner: [tt0098370]
+    best short film (bester kurzfilm):
+      nominee: [tt0402575]
+      winner: [tt0402575]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0097417, tt0097714, tt0098225, tt0098370, tt0098589, tt0098721, tt0100557, tt0162852, tt0163018, tt0163305]
+      winner: [tt0097714]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0097417, tt0098370]
+      winner: [tt0097417, tt0098370]
+'1989': # https://www.imdb.com/event/ev0000280/1989/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0096411]
+      winner: [tt0096411]
+    best direction (beste regie):
+      nominee: [tt0093594, tt0095137, tt0095295, tt0095594, tt0096476]
+      winner: [tt0093594]
+    best performance by a young actress (beste darstellerische leistung - nachwuchsschauspielerin):
+      nominee: [tt0095295, tt0096476]
+      winner: [tt0095295, tt0096476]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0095276, tt0096411, tt0097565]
+      winner: [tt0097565]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0094646, tt0095137, tt0095594]
+      winner: [tt0095137, tt0095594]
+    best performance in a comedy (beste darstellerische leistung - komödie):
+      nominee: [tt0094407]
+      winner: [tt0094407]
+    best visual design (beste visuelle gestaltung):
+      nominee: [tt0095406]
+      winner: [tt0095406]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0094646, tt0095137, tt0095295, tt0095490, tt0095594, tt0095839, tt0096411, tt0096476, tt0097565, tt0163264]
+      winner: [tt0096476]
+  film award in silver:
+    best short film (bester kurzfilm):
+      nominee: [tt0096880, tt0338259, tt0379826]
+      winner: [tt0096880, tt0338259, tt0379826]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0095295, tt0096411]
+      winner: [tt0095295, tt0096411]
+  special film award '40th anniversary of the federal republic of germany':
+    special film award '40th anniversary of the federal republic of germany':
+      nominee: [tt0052654, tt0053227, tt0060063, tt0064536, tt0077924, tt0079095, tt0082081, tt0084897, tt0087744, tt0093191]
+      winner: [tt0052654, tt0060063, tt0079095, tt0082081]
+'1988': # https://www.imdb.com/event/ev0000280/1988/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0093191]
+      winner: [tt0093191]
+    best direction (beste regie):
+      nominee: [tt0093191, tt0093336, tt0095801]
+      winner: [tt0093336]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0093191, tt0093336, tt0094305]
+      winner: [tt0094305]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0093191, tt0094182, tt0163231]
+      winner: []
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0093336, tt0094254, tt0095801]
+      winner: [tt0095801]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0092279, tt0094305, tt0123089]
+      winner: []
+    best performance by an ensemble (beste darstellerische leistung - ensemble):
+      nominee: [tt0095637]
+      winner: [tt0095637]
+    best production design (bestes szenenbild):
+      nominee: [tt0094305]
+      winner: [tt0094305]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0091348, tt0128293]
+      winner: [tt0128293]
+    best short film (bester kurzfilm):
+      nominee: [tt0338287]
+      winner: [tt0338287]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0091348, tt0092924, tt0093191, tt0094182, tt0094305, tt0095369, tt0095801, tt0123089, tt0163090, tt0163231]
+      winner: [tt0093191]
+  film award in silver:
+    best short film (bester kurzfilm):
+      nominee: [tt0267069, tt0338359]
+      winner: [tt0267069, tt0338359]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0095369, tt0095801]
+      winner: [tt0095369, tt0095801]
+'1987': # https://www.imdb.com/event/ev0000280/1987/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0090806]
+      winner: [tt0090806]
+    best direction (beste regie):
+      nominee: [tt0090806, tt0091742, tt0093930]
+      winner: [tt0093930]
+    best film score (beste filmmusik):
+      nominee: [tt0090566, tt0091719, tt0093930]
+      winner: [tt0090566, tt0091719, tt0093930]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0091605, tt0091719, tt0093034]
+      winner: [tt0091605]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0090566, tt0090806, tt0091073]
+      winner: []
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0090566, tt0090806, tt0091719]
+      winner: [tt0090566, tt0091719]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0091719, tt0091742]
+      winner: [tt0091742]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0090566, tt0091073, tt0093930]
+      winner: [tt0091073]
+    best short film (bester kurzfilm):
+      nominee: [tt0282950, tt0832500]
+      winner: [tt0282950]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0090566, tt0090619, tt0090806, tt0091073, tt0091605, tt0091742, tt0093034, tt0093930]
+      winner: []
+    'outstanding individual achievement: single artistic achievement':
+      nominee: [tt0091073]
+      winner: [tt0091073]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0091073, tt0091605, tt0093930]
+      winner: [tt0091073, tt0091605, tt0093930]
+'1986': # https://www.imdb.com/event/ev0000280/1986/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0089266]
+      winner: [tt0089266]
+    best direction (beste regie):
+      nominee: [tt0089656, tt0089659, tt0091869]
+      winner: [tt0089659]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0088811, tt0089656, tt0162978]
+      winner: [tt0089656]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0089266, tt0090377, tt0091869]
+      winner: []
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0088811, tt0089659, tt0090377, tt0091869]
+      winner: [tt0089659, tt0091869]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0088724, tt0089656, tt0091654, tt0091869]
+      winner: [tt0091654]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0089656]
+      winner: [tt0089656]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0087115, tt0088724, tt0089161, tt0089266, tt0089656, tt0090377, tt0091869, tt0162978]
+      winner: [tt0091869]
+  film award in silver:
+    best short film (bester kurzfilm):
+      nominee: [tt0327580]
+      winner: [tt0327580]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0088724, tt0089656]
+      winner: [tt0088724, tt0089656]
+'1985': # https://www.imdb.com/event/ev0000280/1985/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0086846]
+      winner: [tt0086846]
+    best direction (beste regie):
+      nominee: [tt0086846, tt0089234, tt0089485]
+      winner: [tt0089234, tt0089485]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0089210, tt0089234, tt0089716]
+      winner: [tt0089716]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0086846]
+      winner: [tt0086846]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0087884, tt0088240, tt0089076]
+      winner: [tt0089076]
+    best production design (bestes szenenbild):
+      nominee: [tt0088323]
+      winner: [tt0088323]
+    best short film (bester kurzfilm):
+      nominee: [tt4668144]
+      winner: [tt4668144]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0089716]
+      winner: [tt0089716]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0086922, tt0087884, tt0088056]
+      winner: [tt0086922, tt0087884, tt0088056]
+'1984': # https://www.imdb.com/event/ev0000280/1984/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0088412]
+      winner: [tt0088412]
+    best direction (beste regie):
+      nominee: [tt0087529, tt0087533, tt0087744]
+      winner: [tt0087529, tt0087533]
+    best editing (bester schnitt):
+      nominee: [tt0090996]
+      winner: [tt0090996]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0087744, tt0088388, tt0090996]
+      winner: [tt0087744, tt0088388]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0085781, tt0087232, tt0087744, tt0088388]
+      winner: []
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0085553, tt0087232, tt0090996]
+      winner: [tt0085553, tt0087232]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0085781, tt0087529]
+      winner: []
+    best screenplay (bestes drehbuch):
+      nominee: [tt0085781, tt0087232, tt0088412]
+      winner: [tt0085781]
+    best short film (bester kurzfilm):
+      nominee: [tt0351866]
+      winner: [tt0351866]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0088412]
+      winner: [tt0088412]
+  film award in silver:
+    best short film (bester kurzfilm):
+      nominee: [tt0454562]
+      winner: [tt0454562]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0085781, tt0086578, tt0087744]
+      winner: [tt0085781, tt0086578, tt0087744]
+    outstanding non-feature film:
+      nominee: [tt0085905, tt0295745]
+      winner: [tt0085905, tt0295745]
+'1983': # https://www.imdb.com/event/ev0000280/1983/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0083832, tt0084725, tt0085800]
+      winner: [tt0083832, tt0084725, tt0085800]
+    best direction (beste regie):
+      nominee: [tt0083593, tt0083804, tt0084725]
+      winner: [tt0083593, tt0083804]
+    best performance by a young actress (beste darstellerische leistung - nachwuchsschauspielerin):
+      nominee: [tt0083874]
+      winner: [tt0083874]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0082736, tt0083874, tt0084654]
+      winner: [tt0083874]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0082736, tt0084897, tt0085660]
+      winner: []
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0083984, tt0084654, tt0084897, tt0085568]
+      winner: [tt0083984, tt0084897, tt0085568]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0083984, tt0084654]
+      winner: [tt0083984]
+  film award in silver:
+    best short film (bester kurzfilm):
+      nominee: [tt0086401, tt0279438, tt0280936, tt0291455]
+      winner: [tt0086401, tt0279438, tt0280936, tt0291455]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0083984, tt0084725, tt0084897, tt0085660]
+      winner: [tt0083984, tt0084725, tt0084897, tt0085660]
+    outstanding non-feature film:
+      nominee: [tt0085949]
+      winner: [tt0085949]
+'1982': # https://www.imdb.com/event/ev0000280/1982/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0083320]
+      winner: [tt0083320]
+    best direction (beste regie):
+      nominee: [tt0082081, tt0083160]
+      winner: [tt0083160]
+    best new direction (beste nachwuchsregie):
+      nominee: [tt0084403]
+      winner: [tt0084403]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0082087, tt0082429, tt0082671, tt0083946]
+      winner: [tt0082087, tt0082671]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0082081, tt0082429, tt0082933]
+      winner: [tt0082429]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0082081, tt0082429, tt0082671, tt0082933]
+      winner: [tt0082081, tt0082671]
+    best production design (bestes szenenbild):
+      nominee: [tt0084946]
+      winner: [tt0084946]
+    best short film (bester kurzfilm):
+      nominee: [tt1498778]
+      winner: [tt1498778]
+    best sound (beste tongestaltung):
+      nominee: [tt0082096]
+      winner: [tt0082096]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0082081]
+      winner: [tt0082081]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0082096, tt0082651, tt0082671, tt0083946, tt0084946, tt0295468]
+      winner: [tt0082096, tt0082651, tt0082671, tt0083946, tt0084946, tt0295468]
+    outstanding non-feature film:
+      nominee: [tt0295188, tt0295749]
+      winner: [tt0295188, tt0295749]
+'1981': # https://www.imdb.com/event/ev0000280/1981/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0082582]
+      winner: [tt0082582]
+    best direction (beste regie):
+      nominee: [tt0082330, tt0082582, tt0082680]
+      winner: [tt0082680]
+    best new direction (beste nachwuchsregie):
+      nominee: [tt0402485]
+      winner: [tt0402485]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0082582, tt0082680, tt0251852]
+      winner: [tt0251852]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0080686, tt0081299, tt0083036]
+      winner: [tt0080686, tt0083036]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0082330, tt0082661, tt0082680]
+      winner: [tt0082680]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0080823, tt0082330, tt0082661]
+      winner: [tt0082330]
+    best production design (bestes szenenbild):
+      nominee: [tt0082680, tt0083036]
+      winner: [tt0082680, tt0083036]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0082582]
+      winner: [tt0082582]
+  film award in silver:
+    best short film (bester kurzfilm):
+      nominee: [tt0192556, tt0313613]
+      winner: [tt0192556, tt0313613]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0081055, tt0082680, tt0251852]
+      winner: [tt0081055, tt0082680, tt0251852]
+    outstanding non-feature film:
+      nominee: [tt0082442, tt0206817, tt0295596]
+      winner: [tt0082442, tt0206817, tt0295596]
+'1980': # https://www.imdb.com/event/ev0000280/1980/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0079405, tt0079678, tt0081408, tt0163054]
+      winner: [tt0079405, tt0079678, tt0081408, tt0163054]
+    best direction (beste regie):
+      nominee: [tt0078720, tt0079203, tt0163054]
+      winner: [tt0078720]
+    best editing (bester schnitt):
+      nominee: [tt0079346]
+      winner: [tt0079346]
+    best new direction (beste nachwuchsregie):
+      nominee: [tt0079405]
+      winner: [tt0079405]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0079107, tt0080709]
+      winner: [tt0079107]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0079203, tt0163051, tt0163054]
+      winner: [tt0163051]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0078720, tt0079203, tt0079866, tt0163051]
+      winner: [tt0078720, tt0079866, tt0163051]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0079203]
+      winner: []
+    best production design (bestes szenenbild):
+      nominee: [tt0080709]
+      winner: [tt0080709]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0078720]
+      winner: [tt0078720]
+  film award in silver:
+    best short film (bester kurzfilm):
+      nominee: [tt0162953, tt0163091, tt0163165, tt0163370]
+      winner: [tt0162953, tt0163091, tt0163165, tt0163370]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0078720, tt0079107, tt0079203, tt0079346, tt0079678, tt0163051, tt0163054]
+      winner: [tt0078720, tt0079107, tt0079203, tt0079346, tt0079678, tt0163051, tt0163054]
+    outstanding non-feature film:
+      nominee: [tt0163106]
+      winner: [tt0163106]
+    outstanding short film:
+      nominee: [tt0162847]
+      winner: [tt0162847]
+'1979': # https://www.imdb.com/event/ev0000280/1979/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0077924, tt0078147, tt0079641]
+      winner: [tt0077924, tt0078147]
+    best direction (beste regie):
+      nominee: [tt0075140, tt0078147, tt0078875, tt0079095, tt0079641]
+      winner: [tt0078147, tt0079095]
+    best editing (bester schnitt):
+      nominee: [tt0075140]
+      winner: [tt0075140]
+    best new direction (beste nachwuchsregie):
+      nominee: [tt0077139, tt0080104]
+      winner: [tt0077139, tt0080104]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0075140, tt0078875, tt0079095, tt0079641]
+      winner: [tt0079641]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0077924, tt0079028]
+      winner: [tt0079028]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0078875, tt0079095, tt0079641]
+      winner: [tt0079095]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0078875, tt0079095, tt0080149]
+      winner: [tt0079095]
+    best production design (bestes szenenbild):
+      nominee: [tt0079095, tt0079641]
+      winner: [tt0079095]
+  challenge award 'golden bowl':
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0078875]
+      winner: [tt0078875]
+  film award in silver:
+    best short film (bester kurzfilm):
+      nominee: [tt0162841, tt0162850, tt0162949, tt0163156, tt0163162, tt0163201, tt0163387]
+      winner: [tt0162841, tt0162850, tt0162949, tt0163156, tt0163162, tt0163201, tt0163387]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0075140, tt0077117, tt0077924, tt0078617, tt0079028, tt0079095]
+      winner: [tt0075140, tt0077117, tt0077924, tt0078617, tt0079028, tt0079095]
+    outstanding non-feature film:
+      nominee: [tt0079703, tt0162929, tt0163324]
+      winner: [tt0079703, tt0162929, tt0163324]
+'1978': # https://www.imdb.com/event/ev0000280/1978/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0077421, tt0078164]
+      winner: [tt0077421, tt0078164]
+    best direction (beste regie):
+      nominee: [tt0075675, tt0077421, tt0077615]
+      winner: [tt0075675, tt0077421]
+    best editing (bester schnitt):
+      nominee: [tt0075675, tt0076316, tt0077615]
+      winner: [tt0075675, tt0076316, tt0077615]
+    best performance by a young actor (beste darstellerische leistung - nachwuchsschauspieler):
+      nominee: [tt0076232]
+      winner: [tt0076232]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0075708, tt0076147, tt0077560, tt0077615]
+      winner: [tt0076147, tt0077560]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0075276, tt0076316, tt0078536]
+      winner: [tt0078536]
+    best production design (bestes szenenbild):
+      nominee: [tt0077421]
+      winner: [tt0077421]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0077615]
+      winner: [tt0077615]
+    'outstanding individual achievement: film conception':
+      nominee: [tt0077427]
+      winner: [tt0077427]
+  film award in silver:
+    best short film (bester kurzfilm):
+      nominee: [tt0076741, tt0162840, tt0162948, tt0162982, tt0163168, tt0163410]
+      winner: [tt0076741, tt0162840, tt0162948, tt0162982, tt0163168, tt0163410]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0075675, tt0075708, tt0077560, tt0078164, tt0078367, tt0078536]
+      winner: [tt0075675, tt0075708, tt0077560, tt0078164, tt0078367, tt0078536]
+    outstanding non-feature film:
+      nominee: [tt0162971, tt0163001]
+      winner: [tt0162971, tt0163001]
+'1977': # https://www.imdb.com/event/ev0000280/1977/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0074515, tt0074626, tt0162950]
+      winner: [tt0074515, tt0074626, tt0162950]
+    best direction (beste regie):
+      nominee: [tt0074515, tt0076133, tt0076430]
+      winner: [tt0074515]
+    best performance by a young actor (beste darstellerische leistung - nachwuchsschauspieler):
+      nominee: [tt0074245]
+      winner: [tt0074245]
+    best performance by a young actress (beste darstellerische leistung - nachwuchsschauspielerin):
+      nominee: [tt0076430]
+      winner: [tt0076430]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0074245, tt0076133, tt0162950]
+      winner: []
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0074515, tt0076133]
+      winner: []
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0072648, tt0076113, tt0080816]
+      winner: [tt0076113]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0074515]
+      winner: []
+    best production design (bestes szenenbild):
+      nominee: [tt0076430]
+      winner: [tt0076430]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0076133]
+      winner: [tt0076133]
+    best short film (bester kurzfilm):
+      nominee: [tt0163128]
+      winner: [tt0163128]
+    'outstanding individual achievement: direction, screenplay and musical dramaturgy':
+      nominee: [tt0162896]
+      winner: [tt0162896]
+  challenge award 'golden bowl':
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0076133]
+      winner: [tt0076133]
+  film award in silver:
+    best short film (bester kurzfilm):
+      nominee: [tt0162848, tt0162944, tt0163150]
+      winner: [tt0162848, tt0162944, tt0163150]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0074245, tt0075279, tt0076113, tt0076430, tt0080816, tt0162950]
+      winner: [tt0074245, tt0075279, tt0076113, tt0076430, tt0080816, tt0162950]
+    outstanding non-feature film:
+      nominee: [tt0162896, tt0163400]
+      winner: [tt0162896, tt0163400]
+'1976': # https://www.imdb.com/event/ev0000280/1976/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0073291, tt0073858]
+      winner: [tt0073291, tt0073858]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0073859, tt0074870, tt0075269, tt0192311]
+      winner: [tt0073859, tt0074870]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0071865, tt0073858, tt0075269]
+      winner: [tt0071865]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0073200, tt0073424, tt0073858, tt0074870, tt0075269]
+      winner: [tt0073858, tt0074870]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0074870, tt0075269]
+      winner: [tt0075269]
+    best production design (bestes szenenbild):
+      nominee: [tt0074870]
+      winner: [tt0074870]
+  challenge award 'golden bowl':
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0074491]
+      winner: [tt0074491]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0075269]
+      winner: [tt0075269]
+    outstanding non-feature film:
+      nominee: [tt0071865]
+      winner: [tt0071865]
+'1975': # https://www.imdb.com/event/ev0000280/1975/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0071483]
+      winner: [tt0071483]
+    best direction (beste regie):
+      nominee: [tt0071483]
+      winner: [tt0071483]
+    best editing (bester schnitt):
+      nominee: [tt0071483, tt0071655, tt0071691]
+      winner: [tt0071483, tt0071655, tt0071691]
+    best film score (beste filmmusik):
+      nominee: [tt0071483]
+      winner: [tt0071483]
+    best musical dramaturgy (beste musikdramaturgie):
+      nominee: [tt0071655]
+      winner: [tt0071655]
+    best new direction (beste nachwuchsregie):
+      nominee: [tt0163023]
+      winner: [tt0163023]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0071713, tt0073844, tt0163023]
+      winner: [tt0071713, tt0073844, tt0163023]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0071758, tt0073844]
+      winner: [tt0071758, tt0073844]
+    best performance by an ensemble (beste darstellerische leistung - ensemble):
+      nominee: [tt0071483]
+      winner: [tt0071483]
+    best production design (bestes szenenbild):
+      nominee: [tt0071691, tt0071713]
+      winner: [tt0071691, tt0071713]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0071483]
+      winner: [tt0071483]
+  film award in silver:
+    best short film (bester kurzfilm):
+      nominee: [tt0162998]
+      winner: [tt0162998]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0071691, tt0071758]
+      winner: [tt0071758]
+    outstanding non-feature film:
+      nominee: [tt0163003]
+      winner: [tt0163003]
+'1974': # https://www.imdb.com/event/ev0000280/1974/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0070127, tt0071459]
+      winner: [tt0070127, tt0071459]
+    best direction (beste regie):
+      nominee: [tt0070086, tt0070336, tt0070755]
+      winner: [tt0070755]
+    best film score (beste filmmusik):
+      nominee: [tt0070336]
+      winner: [tt0070336]
+    best new direction (beste nachwuchsregie):
+      nominee: [tt0071459]
+      winner: [tt0071459]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0070086, tt0070336, tt0070600, tt0071459]
+      winner: [tt0070086]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0070755]
+      winner: [tt0070755]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0070374, tt0070600, tt0071141]
+      winner: [tt0071141]
+    best short film (bester kurzfilm):
+      nominee: [tt0163377]
+      winner: [tt0163377]
+  challenge award 'golden bowl':
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0070086]
+      winner: [tt0070086]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0070336]
+      winner: [tt0070336]
+    outstanding non-feature film:
+      nominee: [tt0073263]
+      winner: [tt0073263]
+'1973': # https://www.imdb.com/event/ev0000280/1973/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0068182, tt0068278]
+      winner: [tt0068182, tt0068278]
+    best film score (beste filmmusik):
+      nominee: [tt0068678]
+      winner: [tt0068678]
+    best performance by a young actor (beste darstellerische leistung - nachwuchsschauspieler):
+      nominee: [tt0069314]
+      winner: [tt0069314]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0068182, tt0068678, tt0068883, tt0070792]
+      winner: [tt0070792]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0068195, tt0069502, tt0163188]
+      winner: [tt0068195]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0067473, tt0068278, tt0068883, tt0069325]
+      winner: [tt0068278]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0068278, tt0069314, tt0069502]
+      winner: [tt0068278, tt0069502]
+    best short film (bester kurzfilm):
+      nominee: [tt0163031]
+      winner: [tt0163031]
+  challenge award 'golden bowl':
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0068182, tt0068278, tt0163188]
+      winner: [tt0163188]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0068678]
+      winner: [tt0068678]
+    outstanding non-feature film:
+      nominee: [tt0070792]
+      winner: [tt0070792]
+'1972': # https://www.imdb.com/event/ev0000280/1972/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0067083, tt0162943]
+      winner: [tt0067083, tt0162943]
+    best direction (beste regie):
+      nominee: [tt0067083, tt0067884, tt0068884]
+      winner: [tt0067083, tt0067884]
+    best editing (bester schnitt):
+      nominee: [tt0067884]
+      winner: [tt0067884]
+    best performance by a young actor (beste darstellerische leistung - nachwuchsschauspieler):
+      nominee: [tt0067343, tt0068017]
+      winner: [tt0067343, tt0068017]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0067083, tt0067227, tt0162883]
+      winner: [tt0067083, tt0067227, tt0162883]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0067083, tt0067227, tt0067884, tt0067979]
+      winner: [tt0067083, tt0067884]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0067083, tt0067227, tt0067343, tt0067902]
+      winner: [tt0067227]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0067227, tt0067884, tt0068884]
+      winner: [tt0067884]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0068884]
+      winner: [tt0068884]
+    best short film (bester kurzfilm):
+      nominee: [tt0067222]
+      winner: [tt0067222]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0067227, tt0067884, tt0068884]
+      winner: [tt0067227, tt0067884, tt0068884]
+  film award in silver:
+    best short film (bester kurzfilm):
+      nominee: [tt0163124]
+      winner: [tt0163124]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0162943]
+      winner: [tt0162943]
+'1971': # https://www.imdb.com/event/ev0000280/1971/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0066325, tt0163052]
+      winner: [tt0066325, tt0163052]
+    best direction (beste regie):
+      nominee: [tt0066546, tt0067593]
+      winner: [tt0066546, tt0067593]
+    best film score (beste filmmusik):
+      nominee: [tt0066325]
+      winner: [tt0066325]
+    best new direction (beste nachwuchsregie):
+      nominee: [tt0163426]
+      winner: [tt0163426]
+    best performance by a young actress (beste darstellerische leistung - nachwuchsschauspielerin):
+      nominee: [tt0066171, tt0067407]
+      winner: [tt0066171, tt0067407]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0066546, tt0067407, tt0163052]
+      winner: [tt0163052]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0066171, tt0067117, tt0067593]
+      winner: []
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0065703, tt0067407, tt0067979, tt0276410]
+      winner: [tt0067407, tt0067979]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0067117, tt0067407, tt0067593]
+      winner: [tt0067117]
+    best production design (bestes szenenbild):
+      nominee: [tt0067979]
+      winner: [tt0067979]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0066171]
+      winner: [tt0066171]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0065620, tt0065703, tt0163052]
+      winner: [tt0065703, tt0163052]
+  film award in silver:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0065907]
+      winner: [tt0065907]
+'1970': # https://www.imdb.com/event/ev0000280/1970/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0064536, tt0064588, tt0065808, tt0066044, tt0067163]
+      winner: [tt0064536, tt0064588, tt0065808, tt0066044, tt0067163]
+    best new direction (beste nachwuchsregie):
+      nominee: [tt0065917, tt0067163]
+      winner: [tt0065917, tt0067163]
+    best performance by a young actress (beste darstellerische leistung - nachwuchsschauspielerin):
+      nominee: [tt0163008]
+      winner: [tt0163008]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0066116, tt0066137]
+      winner: [tt0066116]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0066044]
+      winner: [tt0066044]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0066137]
+      winner: []
+    best performance by an ensemble (beste darstellerische leistung - ensemble):
+      nominee: [tt0064536, tt0064588, tt0065808]
+      winner: [tt0064536, tt0064588, tt0065808]
+    best production design (bestes szenenbild):
+      nominee: [tt0066044]
+      winner: [tt0066044]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0064536, tt0066137]
+      winner: [tt0064536]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0064536, tt0066044]
+      winner: [tt0064536, tt0066044]
+    shaping of feature film (bester spielfilm - gestaltung):
+      nominee: [tt0064536]
+      winner: [tt0064536]
+  film award in silver:
+    best short film (bester kurzfilm):
+      nominee: [tt0163008, tt0163028]
+      winner: [tt0163008, tt0163028]
+    outstanding non-feature film:
+      nominee: [tt0064967]
+      winner: [tt0064967]
+    shaping of feature film (bester spielfilm - gestaltung):
+      nominee: [tt0066044]
+      winner: [tt0066044]
+'1969': # https://www.imdb.com/event/ev0000280/1969/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0063558]
+      winner: [tt0063558]
+    best direction (beste regie):
+      nominee: [tt0062679, tt0063122, tt0063558]
+      winner: [tt0063122]
+    best performance by a young actor (beste darstellerische leistung - nachwuchsschauspieler):
+      nominee: [tt0063122]
+      winner: [tt0063122]
+    best performance by a young actress (beste darstellerische leistung - nachwuchsschauspielerin):
+      nominee: [tt0062771]
+      winner: [tt0062771]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0063558, tt0064507, tt0064662]
+      winner: [tt0063558]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0062679, tt0063122, tt0064507]
+      winner: [tt0064507]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0062679, tt0063558, tt0064507]
+      winner: []
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0064507]
+      winner: []
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0062679, tt0063122, tt0063558]
+      winner: [tt0062679]
+  film award in silver:
+    best animation film (bester animationsfilm):
+      nominee: [tt0163514]
+      winner: [tt0163514]
+    best short film (bester kurzfilm):
+      nominee: [tt0163744, tt0163892]
+      winner: [tt0163744, tt0163892]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0064507]
+      winner: [tt0064507]
+'1968': # https://www.imdb.com/event/ev0000280/1968/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0063563]
+      winner: [tt0063563]
+    best direction (beste regie):
+      nominee: [tt0062091, tt0062408, tt0063218]
+      winner: [tt0062408]
+    best new direction (beste nachwuchsregie):
+      nominee: [tt0163848]
+      winner: [tt0163848]
+    best performance by a young actress (beste darstellerische leistung - nachwuchsschauspielerin):
+      nominee: [tt0061625]
+      winner: [tt0061625]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0062091, tt0062527, tt0063563]
+      winner: [tt0062527]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0062091, tt0062408, tt0062527]
+      winner: [tt0062408]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0062091, tt0062197, tt0062527, tt0163848]
+      winner: [tt0163848]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0062091, tt0062408, tt0063563]
+      winner: [tt0062091]
+    best production design (bestes szenenbild):
+      nominee: [tt0063563]
+      winner: [tt0063563]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0062527]
+      winner: [tt0062527]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0062408]
+      winner: [tt0062408]
+  film award in silver:
+    best short film (bester kurzfilm):
+      nominee: [tt0163656, tt0163899, tt0163918]
+      winner: [tt0163656, tt0163899, tt0163918]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0063218]
+      winner: [tt0063218]
+'1967': # https://www.imdb.com/event/ev0000280/1967/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0061992]
+      winner: [tt0061992]
+    best direction (beste regie):
+      nominee: [tt0060063]
+      winner: [tt0060063]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt0163911]
+      winner: [tt0163911]
+    best film score (beste filmmusik):
+      nominee: [tt0061186, tt0163845]
+      winner: [tt0061186, tt0163845]
+    best performance by a young actress (beste darstellerische leistung - nachwuchsschauspielerin):
+      nominee: [tt0163759]
+      winner: [tt0163759]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0061325, tt0061346, tt0061992]
+      winner: [tt0061346]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0060063, tt0061762, tt0062105]
+      winner: [tt0060063]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0060063, tt0061346, tt0061992]
+      winner: [tt0060063]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0061186, tt0061346, tt0061930]
+      winner: [tt0061346]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0060063]
+      winner: [tt0060063]
+  film award in silver:
+    best cultural short (bester kulturkurzfilm):
+      nominee: [tt0163660, tt0163907]
+      winner: [tt0163660, tt0163907]
+    best documentary short (bester dokumenatkurzfilm):
+      nominee: [tt0163698, tt0163920]
+      winner: [tt0163698, tt0163920]
+    best short film (bester kurzfilm):
+      nominee: [tt0163845]
+      winner: [tt0163845]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0061346, tt0061992]
+      winner: [tt0061346, tt0061992]
+'1966': # https://www.imdb.com/event/ev0000280/1966/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0059153]
+      winner: [tt0059153]
+    best direction (beste regie):
+      nominee: [tt0059153]
+      winner: [tt0059153]
+    best film score (beste filmmusik):
+      nominee: [tt0060946]
+      winner: [tt0060946]
+    best new direction (beste nachwuchsregie):
+      nominee: [tt0060574]
+      winner: [tt0060574]
+    best performance by a young actor (beste darstellerische leistung - nachwuchsschauspieler):
+      nominee: [tt0059153]
+      winner: [tt0059153]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0059276, tt0060946, tt0061009]
+      winner: []
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0059153, tt0059305]
+      winner: []
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0056129, tt0059153, tt0059276, tt0060631]
+      winner: [tt0059153]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0059305, tt0060946, tt0061009]
+      winner: [tt0060946]
+    best production design (bestes szenenbild):
+      nominee: [tt0059276]
+      winner: [tt0059276]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0060574, tt0163737]
+      winner: [tt0060574, tt0163737]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0060574]
+      winner: [tt0060574]
+  film award in silver:
+    best cultural short (bester kulturkurzfilm):
+      nominee: [tt0163575, tt0163643]
+      winner: [tt0163575, tt0163643]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt0163900]
+      winner: [tt0163900]
+    best documentary short (bester dokumenatkurzfilm):
+      nominee: [tt0060433, tt0163535]
+      winner: [tt0060433, tt0163535]
+    best short film (bester kurzfilm):
+      nominee: [tt0163668]
+      winner: [tt0163668]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0059153]
+      winner: [tt0059153]
+'1965': # https://www.imdb.com/event/ev0000280/1965/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0059545]
+      winner: [tt0059545]
+    best cultural short (bester kulturkurzfilm):
+      nominee: [tt0058040]
+      winner: [tt0058040]
+    best direction (beste regie):
+      nominee: [tt0057131]
+      winner: [tt0057131]
+    best film score (beste filmmusik):
+      nominee: [tt0057131]
+      winner: [tt0057131]
+    best performance by a young actor (beste darstellerische leistung - nachwuchsschauspieler):
+      nominee: [tt0058757]
+      winner: [tt0058757]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0056861, tt0058482, tt0130345]
+      winner: [tt0058482]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0058482, tt0058757, tt0059265]
+      winner: [tt0058757]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0057131, tt0130345]
+      winner: [tt0057131]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0058482, tt0058757, tt0130345]
+      winner: [tt0130345]
+    best production design (bestes szenenbild):
+      nominee: [tt0058757]
+      winner: [tt0058757]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0057131]
+      winner: [tt0057131]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0057131]
+      winner: [tt0057131]
+  film award in silver:
+    best cultural short (bester kulturkurzfilm):
+      nominee: [tt0163661]
+      winner: [tt0163661]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt0163539]
+      winner: [tt0163539]
+    best documentary short (bester dokumenatkurzfilm):
+      nominee: [tt0163831, tt0163834]
+      winner: [tt0163831, tt0163834]
+    best short film (bester kurzfilm):
+      nominee: [tt0163508, tt0163510]
+      winner: [tt0163508, tt0163510]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0058482]
+      winner: [tt0058482]
+'1964': # https://www.imdb.com/event/ev0000280/1964/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0057223]
+      winner: [tt0057223]
+    best cultural film or documentary (bester kultur- oder dokumentarfilm):
+      nominee: [tt0163534]
+      winner: [tt0163534]
+    best cultural short (bester kulturkurzfilm):
+      nominee: [tt0057297, tt0163542]
+      winner: [tt0057297, tt0163542]
+    best overall acting performance (beste darstellerische leistung):
+      nominee: [tt0057116]
+      winner: [tt0057116]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0057223, tt0057475, tt0058190]
+      winner: [tt0057223]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0057223, tt0058719, tt0058769]
+      winner: [tt0058719]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0057475, tt0058190, tt0058670]
+      winner: [tt0058190]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0057223, tt0058190, tt0058670]
+      winner: [tt0058190]
+    best production design (bestes szenenbild):
+      nominee: [tt0057223]
+      winner: [tt0057223]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0058719]
+      winner: [tt0058719]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0057223]
+      winner: [tt0057223]
+  film award in silver:
+    best cultural film or documentary (bester kultur- oder dokumentarfilm):
+      nominee: [tt0163769]
+      winner: [tt0163769]
+    best cultural short (bester kulturkurzfilm):
+      nominee: [tt0163813]
+      winner: [tt0163813]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt0163536]
+      winner: [tt0163536]
+    outstanding short film - documentary:
+      nominee: [tt0163835]
+      winner: [tt0163835]
+'1963': # https://www.imdb.com/event/ev0000280/1963/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0057035]
+      winner: [tt0057035]
+    best cultural film or documentary (bester kultur- oder dokumentarfilm):
+      nominee: [tt0055742]
+      winner: [tt0055742]
+    best film score (beste filmmusik):
+      nominee: [tt0057035]
+      winner: [tt0057035]
+    best new direction (beste nachwuchsregie):
+      nominee: [tt0163771]
+      winner: [tt0163771]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0055980, tt0056456, tt0057035]
+      winner: [tt0057035]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0055932, tt0055980, tt0057035]
+      winner: [tt0055980]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0056031, tt0056429, tt0057035]
+      winner: [tt0056031]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0056202, tt0056456]
+      winner: [tt0056456]
+    best production design (bestes szenenbild):
+      nominee: [tt0056456]
+      winner: [tt0056456]
+  film award in silver:
+    best cultural film or documentary (bester kultur- oder dokumentarfilm):
+      nominee: [tt0163771]
+      winner: [tt0163771]
+    best cultural short (bester kulturkurzfilm):
+      nominee: [tt0163533, tt0163644]
+      winner: [tt0163533, tt0163644]
+    best short film (bester kurzfilm):
+      nominee: [tt0056574, tt0163791]
+      winner: [tt0056574, tt0163791]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0055980, tt0057035]
+      winner: [tt0055980, tt0057035]
+    outstanding short film - documentary:
+      nominee: [tt0163531]
+      winner: [tt0163531]
+'1962': # https://www.imdb.com/event/ev0000280/1962/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0054705]
+      winner: [tt0054705]
+    best cultural film or documentary (bester kultur- oder dokumentarfilm):
+      nominee: [tt0163638]
+      winner: [tt0163638]
+    best film score (beste filmmusik):
+      nominee: [tt0054705]
+      winner: [tt0054705]
+    best new direction (beste nachwuchsregie):
+      nominee: [tt0054705]
+      winner: [tt0054705]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0054705, tt0055183, tt0055643]
+      winner: [tt0055183]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0054842, tt0054914, tt0055643]
+      winner: [tt0055643]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0054705, tt0054842, tt0054914]
+      winner: [tt0054705]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0054705, tt0055111, tt0055415, tt0055643]
+      winner: [tt0055415, tt0055643]
+    best production design (bestes szenenbild):
+      nominee: [tt0055183]
+      winner: [tt0055183]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0054705]
+      winner: [tt0054705]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0054705]
+      winner: [tt0054705]
+  film award in silver:
+    best documentary short (bester dokumenatkurzfilm):
+      nominee: [tt0163691]
+      winner: [tt0163691]
+    best short film (bester kurzfilm):
+      nominee: [tt0163641, tt0163838]
+      winner: [tt0163641, tt0163838]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0055183, tt0055643]
+      winner: [tt0055183, tt0055643]
+    special award for a feature film:
+      nominee: [tt0055349]
+      winner: [tt0055349]
+'1961': # https://www.imdb.com/event/ev0000280/1961/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0053867]
+      winner: [tt0053867]
+    best direction (beste regie):
+      nominee: [tt0163624]
+      winner: [tt0163624]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt0163624]
+      winner: [tt0163624]
+    best film score (beste filmmusik):
+      nominee: [tt0053829]
+      winner: [tt0053829]
+    best performance by a young actor (beste darstellerische leistung - nachwuchsschauspieler):
+      nominee: [tt0053829]
+      winner: [tt0053829]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0053855, tt0054281, tt0055575]
+      winner: [tt0054281]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0053867, tt0054025, tt0054479]
+      winner: [tt0054025]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0053867, tt0054025, tt0055501]
+      winner: [tt0053867]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0054025, tt0054281]
+      winner: [tt0054025]
+    best production design (bestes szenenbild):
+      nominee: [tt0053867]
+      winner: [tt0053867]
+    best short film (bester kurzfilm):
+      nominee: [tt0163850]
+      winner: [tt0163850]
+    shaping of feature film (bester spielfilm - gestaltung):
+      nominee: [tt0163624]
+      winner: [tt0163624]
+  film award in silver:
+    best cultural short (bester kulturkurzfilm):
+      nominee: [tt0163796, tt0163921]
+      winner: [tt0163796, tt0163921]
+    best documentary short (bester dokumenatkurzfilm):
+      nominee: [tt0163869]
+      winner: [tt0163869]
+'1960': # https://www.imdb.com/event/ev0000280/1960/1/
+  film award in gold:
+    best cultural film or documentary (bester kultur- oder dokumentarfilm):
+      nominee: [tt0163004]
+      winner: [tt0163004]
+    best direction (beste regie):
+      nominee: [tt0052654]
+      winner: [tt0052654]
+    best film score (beste filmmusik):
+      nominee: [tt0052654]
+      winner: [tt0052654]
+    best performance by a young actress (beste darstellerische leistung - nachwuchsschauspielerin):
+      nominee: [tt0052654]
+      winner: [tt0052654]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0052654, tt0053217, tt0053227]
+      winner: [tt0052654]
+  challenge award 'golden bowl':
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0052654]
+      winner: [tt0052654]
+  film award in silver:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0052984]
+      winner: [tt0052984]
+    best cultural film or documentary (bester kultur- oder dokumentarfilm):
+      nominee: [tt0053268]
+      winner: [tt0053268]
+    best cultural short (bester kulturkurzfilm):
+      nominee: [tt0163081]
+      winner: [tt0163081]
+    best documentary short (bester dokumenatkurzfilm):
+      nominee: [tt0162855, tt0163327]
+      winner: [tt0162855, tt0163327]
+    best performance by a young actor (beste darstellerische leistung - nachwuchsschauspieler):
+      nominee: [tt0052938]
+      winner: [tt0052938]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0053227, tt0053674, tt0054337]
+      winner: [tt0053227]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0052656, tt0053217, tt0053227]
+      winner: [tt0052656]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0052656, tt0052984, tt0053392, tt0054027]
+      winner: [tt0052984]
+    best production design (bestes szenenbild):
+      nominee: [tt0052656]
+      winner: [tt0052656]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0053227]
+      winner: [tt0053227]
+    best short film (bester kurzfilm):
+      nominee: [tt0163164]
+      winner: [tt0163164]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0053227]
+      winner: [tt0053227]
+'1959': # https://www.imdb.com/event/ev0000280/1959/1/
+  film award in gold:
+    best cultural film or documentary (bester kultur- oder dokumentarfilm):
+      nominee: [tt0163786]
+      winner: [tt0163786]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0051588, tt0051712]
+      winner: [tt0051712]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0051963, tt0051964]
+      winner: []
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0051749]
+      winner: [tt0051749]
+  challenge award 'golden bowl':
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0051712]
+      winner: [tt0051712]
+  film award in silver:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0155373]
+      winner: [tt0155373]
+    best cultural film or documentary (bester kultur- oder dokumentarfilm):
+      nominee: [tt0155373]
+      winner: [tt0155373]
+    best cultural short (bester kulturkurzfilm):
+      nominee: [tt0163528]
+      winner: [tt0163528]
+    best direction (beste regie):
+      nominee: [tt0051712, tt0051749, tt0051963]
+      winner: [tt0051749]
+    best documentary short (bester dokumenatkurzfilm):
+      nominee: [tt0163524]
+      winner: [tt0163524]
+    best performance by a young actor (beste darstellerische leistung - nachwuchsschauspieler):
+      nominee: [tt0052400]
+      winner: [tt0052400]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0051749, tt0053048]
+      winner: [tt0053048]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0051712, tt0051964, tt0053048]
+      winner: [tt0053048]
+    best production design (bestes szenenbild):
+      nominee: [tt0051749]
+      winner: [tt0051749]
+    best short film (bester kurzfilm):
+      nominee: [tt0163849]
+      winner: [tt0163849]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0052400]
+      winner: [tt0052400]
+'1958': # https://www.imdb.com/event/ev0000280/1958/1/
+  film award in gold:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0050746]
+      winner: [tt0050746]
+    best cultural film with international reputation - color (bester kulturfilm in farbe mit internationalem rang):
+      nominee: [tt0163568]
+      winner: [tt0163568]
+    best direction (beste regie):
+      nominee: [tt0050746]
+      winner: [tt0050746]
+    best performance by a young actor (beste darstellerische leistung - nachwuchsschauspieler):
+      nominee: [tt0050746]
+      winner: [tt0050746]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0050444, tt0050746, tt0051334, tt0051982]
+      winner: [tt0050746]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0050746, tt0051200, tt0051982]
+      winner: [tt0050746]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0050746, tt0051334, tt0051382]
+      winner: [tt0050746]
+    best production design (bestes szenenbild):
+      nominee: [tt0050746]
+      winner: [tt0050746]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0050746]
+      winner: [tt0050746]
+    best short film - black and white (bester kurzfilm in schwarz-weiß):
+      nominee: [tt0163736]
+      winner: [tt0163736]
+  challenge award 'golden bowl':
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0050746]
+      winner: [tt0050746]
+  film award in silver:
+    best cultural film - black and white (bester kulturfilm in schwarz-weiß):
+      nominee: [tt0163699, tt0163711]
+      winner: [tt0163699, tt0163711]
+    best cultural film - color (bester kulturfilm in farbe):
+      nominee: [tt0163672]
+      winner: [tt0163672]
+    best documentary (bester dokumentarfilm):
+      nominee: [tt0050746]
+      winner: [tt0050746]
+    best documentary - color (bester dokumentarfilm in farbe):
+      nominee: [tt0163664, tt0163695]
+      winner: [tt0163664, tt0163695]
+    best film score (beste filmmusik):
+      nominee: [tt0051982]
+      winner: [tt0051982]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0050444, tt0051200, tt0052213, tt0052268]
+      winner: [tt0051200]
+    best short film - color (bester kurzfilm in farbe):
+      nominee: [tt0163512]
+      winner: [tt0163512]
+'1957': # https://www.imdb.com/event/ev0000280/1957/1/
+  film award in gold:
+    best cultural film or documentary (bester kultur- oder dokumentarfilm):
+      nominee: [tt0163821, tt0163859]
+      winner: [tt0163821, tt0163859]
+    best direction (beste regie):
+      nominee: [tt0049293]
+      winner: [tt0049293]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0048668, tt0049288, tt0049293, tt0050570]
+      winner: [tt0049293]
+    best production design (bestes szenenbild):
+      nominee: [tt0049293]
+      winner: [tt0049293]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0049293]
+      winner: [tt0049293]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0050179]
+      winner: [tt0050179]
+  challenge award 'golden bowl':
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0049293]
+      winner: [tt0049293]
+  film award in silver:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0050570, tt0163821]
+      winner: [tt0050570, tt0163821]
+    best cultural short (bester kulturkurzfilm):
+      nominee: [tt0163682, tt0163866]
+      winner: [tt0163682, tt0163866]
+    best documentary short (bester dokumenatkurzfilm):
+      nominee: [tt0163547]
+      winner: [tt0163547]
+    best film score (beste filmmusik):
+      nominee: [tt0050570]
+      winner: [tt0050570]
+    best new direction (beste nachwuchsregie):
+      nominee: [tt0049288]
+      winner: [tt0049288]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0049293, tt0049689, tt0050179]
+      winner: [tt0049689]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0048948, tt0049288, tt0049689, tt0050635]
+      winner: [tt0048948]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0048948, tt0049293, tt0050179]
+      winner: [tt0048948]
+    ? outstanding feature film promoting democratic values (bester film, der zur förderung des demokratischen gedankens beiträgt)
+    : nominee: [tt0049293]
+      winner: [tt0049293]
+    outstanding feature film promoting the european idea (bester film, der für die europäische idee wirbt):
+      nominee: [tt0048668]
+      winner: [tt0048668]
+'1956': # https://www.imdb.com/event/ev0000280/1956/1/
+  film award in gold:
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0048169, tt0049840]
+      winner: [tt0048169, tt0049840]
+  film award in silver:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0049533]
+      winner: [tt0049533]
+    best cultural film (bester kulturfilm):
+      nominee: [tt0163675]
+      winner: [tt0163675]
+    best cultural film - black and white (bester kulturfilm in schwarz-weiß):
+      nominee: [tt0163904]
+      winner: [tt0163904]
+    best cultural film - color (bester kulturfilm in farbe):
+      nominee: [tt0163611]
+      winner: [tt0163611]
+    best documentary - black and white (bester dokumentarfilm in schwarz-weiß):
+      nominee: [tt0163671]
+      winner: [tt0163671]
+    best film score (beste filmmusik):
+      nominee: [tt0125584]
+      winner: [tt0125584]
+    best performance by a young actor (beste darstellerische leistung - nachwuchsschauspieler):
+      nominee: [tt0048169]
+      winner: [tt0048169]
+    best performance by a young actress (beste darstellerische leistung - nachwuchsschauspielerin):
+      nominee: [tt0048169]
+      winner: [tt0048169]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0047790, tt0048802, tt0049533, tt0049928]
+      winner: [tt0047790]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0047790, tt0048169, tt0049928]
+      winner: [tt0048169]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0048193, tt0048564, tt0049840, tt0049928]
+      winner: [tt0049840]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0048169, tt0048564, tt0049840]
+      winner: [tt0049840]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0047790, tt0049840]
+      winner: [tt0047790, tt0049840]
+    best short film - black and white (bester kurzfilm in schwarz-weiß):
+      nominee: [tt0163619]
+      winner: [tt0163619]
+    best short film - color (bester kurzfilm in farbe):
+      nominee: [tt0163532]
+      winner: [tt0163532]
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0047808, tt0048193]
+      winner: [tt0047808, tt0048193]
+    ? outstanding feature film promoting democratic values (bester film, der zur förderung des demokratischen gedankens beiträgt)
+    : nominee: [tt0047790]
+      winner: [tt0047790]
+  certificate:
+    best cultural film (bester kulturfilm):
+      nominee: [tt0049401]
+      winner: [tt0049401]
+'1955': # https://www.imdb.com/event/ev0000280/1955/1/
+  film award in gold:
+    best cultural film - color (bester kulturfilm in farbe):
+      nominee: [tt0163674]
+      winner: [tt0163674]
+    best direction (beste regie):
+      nominee: [tt0046819]
+      winner: [tt0046819]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0046819, tt0047195, tt0048542, tt0126933]
+      winner: [tt0046819]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0046819]
+      winner: [tt0046819]
+  challenge award 'golden bowl':
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0046819]
+      winner: [tt0046819]
+  film award in silver:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0047080, tt0048542, tt0163857]
+      winner: [tt0047080, tt0048542, tt0163857]
+    best cultural film - black and white (bester kulturfilm in schwarz-weiß):
+      nominee: [tt0163917]
+      winner: [tt0163917]
+    best cultural film - color (bester kulturfilm in farbe):
+      nominee: [tt0163742]
+      winner: [tt0163742]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0046819, tt0047080, tt0047195, tt0047572]
+      winner: [tt0047195]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0046775, tt0048255, tt0048542]
+      winner: [tt0048255]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0046819, tt0047420, tt0047572, tt0048255]
+      winner: [tt0047572]
+  certificate:
+    honorable mention:
+      nominee: [tt0163909]
+      winner: [tt0163909]
+'1954': # https://www.imdb.com/event/ev0000280/1954/1/
+  film award in gold:
+    best film score (beste filmmusik):
+      nominee: [tt0046539]
+      winner: [tt0046539]
+    best performance by an actor in a leading role (beste darstellerische leistung - männliche hauptrolle):
+      nominee: [tt0043635, tt0046539, tt0047172, tt0047176]
+      winner: [tt0046539]
+  challenge award 'golden bowl':
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0046539]
+      winner: [tt0046539]
+  film award in silver:
+    best cinematography (beste kamera/bildgestaltung):
+      nominee: [tt0047176]
+      winner: [tt0047176]
+    best cultural film - black and white (bester kulturfilm in schwarz-weiß):
+      nominee: [tt0163703]
+      winner: [tt0163703]
+    best cultural film - color (bester kulturfilm in farbe):
+      nominee: [tt0163854]
+      winner: [tt0163854]
+    best direction (beste regie):
+      nominee: [tt0047172]
+      winner: [tt0047172]
+    best performance by an actor in a supporting role (beste darstellerische leistung - männliche nebenrolle):
+      nominee: [tt0043635, tt0046061, tt0046340]
+      winner: [tt0046061]
+    best performance by an actress in a leading role (beste darstellerische leistung - weibliche hauptrolle):
+      nominee: [tt0043635, tt0047172, tt0047176, tt0122501]
+      winner: [tt0122501]
+    best performance by an actress in a supporting role (beste darstellerische leistung - weibliche nebenrolle):
+      nominee: [tt0045980, tt0047172]
+      winner: [tt0045980]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0046340]
+      winner: [tt0046340]
+    best short film (bester kurzfilm):
+      nominee: [tt0163912]
+      winner: [tt0163912]
+  certificate:
+    honorable mention:
+      nominee: [tt0163700, tt0163761, tt0163819]
+      winner: [tt0163700, tt0163761, tt0163819]
+'1953': # https://www.imdb.com/event/ev0000280/1953/1/
+  film award in gold:
+    best performance by a young actor (beste darstellerische leistung - nachwuchsschauspieler):
+      nominee: [tt0044676]
+      winner: [tt0044676]
+    best performance by a young actress (beste darstellerische leistung - nachwuchsschauspielerin):
+      nominee: [tt0045046, tt0045185]
+      winner: [tt0045046, tt0045185]
+    best screenplay (bestes drehbuch):
+      nominee: [tt0043835, tt0046502, tt0163903]
+      winner: [tt0043835, tt0046502, tt0163903]
+  challenge award 'golden candlestick':
+    outstanding feature film (bester spielfilm):
+      nominee: [tt0043835]
+      winner: [tt0043835]
+  film award in silver:
+    outstanding feature film dealing outstandingly with social problems:
+      nominee: [tt0163903]
+      winner: [tt0163903]
+    outstanding feature film dealing with problems:
+      nominee: [tt0046502]
+      winner: [tt0046502]
+  challenge award:
+    outstanding feature film promoting the european idea:
+      nominee: [tt0043635]
+      winner: [tt0043635]
+  director's award in gold:
+    director's award in gold:
+      nominee: [tt0043835]
+      winner: [tt0043835]
+  director's award in silver:
+    director's award in silver:
+      nominee: [tt0163804]
+      winner: [tt0163804]
+    outstanding cultural film:
+      nominee: [tt0163793]
+      winner: [tt0163793]
+  silver cup:
+    outstanding feature film promoting democratic values:
+      nominee: [tt0043918]
+      winner: [tt0043918]
+  vase with golden twig:
+    outstanding feature film having an avangardistic filmic approach:
+      nominee: [tt0163878]
+      winner: [tt0163878]
+  silver bowl:
+    outstanding documentary or cultural film:
+      nominee: [tt0163607]
+      winner: [tt0163607]
+  certificate:
+    honorable mention:
+      nominee: [tt0163708]
+      winner: [tt0163708]
+'1952': # https://www.imdb.com/event/ev0000280/1952/1/
+  film award in gold:
+    best screenplay (bestes drehbuch):
+      nominee: [tt0044003]
+      winner: [tt0044003]
+  head with wings:
+    outstanding feature film dealing with problems:
+      nominee: [tt0046502]
+      winner: [tt0046502]
+  challenge award:
+    outstanding feature film promoting democratic values:
+      nominee: [tt0042301]
+      winner: [tt0042301]
+  golden box:
+    best performance by a young actress (beste darstellerische leistung - nachwuchsschauspielerin):
+      nominee: [tt0042878, tt0043627]
+      winner: [tt0042878, tt0043627]
+    outstanding cultural film:
+      nominee: [tt0163765]
+      winner: [tt0163765]
+  golden casket:
+    outstanding cultural film:
+      nominee: [tt0163626]
+      winner: [tt0163626]
+  silver bowl:
+    outstanding documentary or cultural film:
+      nominee: [tt0163846]
+      winner: [tt0163846]
+  silver box:
+    best performance by a young actor (beste darstellerische leistung - nachwuchsschauspieler):
+      nominee: [tt0044099]
+      winner: [tt0044099]
+  certificate:
+    honorable mention:
+      nominee: [tt0044188, tt0163659]
+      winner: [tt0044188, tt0163659]
+'1951': # https://www.imdb.com/event/ev0000280/1951/1/
+  film award in gold:
+    best screenplay (bestes drehbuch):
+      nominee: [tt0042409]
+      winner: [tt0042409]
+  challenge award 'golden candlestick':
+    outstanding feature film:
+      nominee: [tt0042409]
+      winner: [tt0042409]
+  director's award in gold:
+    director's award in gold:
+      nominee: [tt0042409]
+      winner: [tt0042409]
+  golden cup:
+    outstanding cultural film:
+      nominee: [tt0163620]
+      winner: [tt0163620]
+  silver bowl:
+    outstanding documentary or cultural film:
+      nominee: [tt0163701]
+      winner: [tt0163701]
+  silver vase:
+    outstanding cultural film:
+      nominee: [tt0163753]
+      winner: [tt0163753]
+  certificate:
+    honorable mention:
+      nominee: [tt0163564, tt0163820]
+      winner: [tt0163564, tt0163820]

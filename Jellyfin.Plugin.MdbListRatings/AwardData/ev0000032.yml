@@ -1,0 +1,2607 @@
+# Annie Awards
+
+'2026': # https://www.imdb.com/event/ev0000032/2026/1/
+  'annie':
+    'best character animation - feature':
+      nominee: [tt14205554, tt30017619, tt29313285, tt4900148, tt26443597]
+      winner: [tt14205554]
+    'best character animation - live action':
+      nominee: [tt26743210, tt3566834, tt10324164, tt5950044, tt14513804]
+      winner: [tt26743210]
+    'best character animation - tv/media':
+      nominee: [tt13624052, tt36454323, tt0096697, tt36988583, tt14164922, tt35989221]
+      winner: [tt13624052]
+    'best character animation - video game':
+      nominee: [tt28061677, tt37240668, tt33488900, tt14816630, tt24179294]
+      winner: [tt28061677]
+    'best character design - feature':
+      nominee: [tt14205554, tt23572848, tt8785038, tt0498396, tt4900148]
+      winner: [tt14205554]
+    'best character design - tv/media':
+      nominee: [tt9561862, tt36663023, tt27621333, tt38892334, tt37520781, tt14164922, tt35989222, tt13624052, tt33485097]
+      winner: [tt9561862, tt36663023]
+    'best direction - feature':
+      nominee: [tt14205554, tt14883538, tt35114460, tt30472557, tt29313285]
+      winner: [tt14205554]
+    'best direction - tv/media':
+      nominee: [tt28093628, tt33042264, tt30217403, tt36627243, tt28521741, tt39167634, tt37024432]
+      winner: [tt28093628, tt33042264]
+    'best editorial - feature':
+      nominee: [tt14205554, tt14883538, tt17423500, tt4900148, tt29313285]
+      winner: [tt14205554]
+    'best editorial - tv/media':
+      nominee: [tt28093628, tt33042219, tt6741278, tt34952922, tt14164922, tt35989221, tt32499579, tt38177048, tt12809802, tt14956186]
+      winner: [tt28093628, tt33042219]
+    'best fx - feature':
+      nominee: [tt14205554, tt4900148, tt27604215, tt30017619, tt26443597]
+      winner: [tt14205554]
+    'best fx - tv/media':
+      nominee: [tt10324164, tt37729387, tt16027014, tt37170589, tt13622982, tt36599416, tt14076044, tt39045118]
+      winner: [tt10324164, tt37729387]
+    'best feature':
+      nominee: [tt14205554, tt4900148, tt30017619, tt29313285, tt26443597]
+      winner: [tt14205554]
+    'best feature - independent':
+      nominee: [tt14883538, tt28664733, tt13968662, tt36639986, tt35114460]
+      winner: [tt14883538]
+    'best music - feature':
+      nominee: [tt14205554, tt14883538, tt26443597, tt4900148, tt29313285]
+      winner: [tt14205554]
+    'best music - tv/media':
+      nominee: [tt13624052, tt33485092, tt15716776, tt29313603, tt32319379, tt28093628, tt33042251, tt36988583]
+      winner: [tt13624052, tt33485092]
+    'best production design - feature':
+      nominee: [tt14205554, tt0498396, tt26443597, tt30017619, tt4900148]
+      winner: [tt14205554]
+    'best production design - tv/media':
+      nominee: [tt9561862, tt36663021, tt36454323, tt14164922, tt35989220, tt37520781, tt37301067]
+      winner: [tt9561862, tt36663021]
+    'best short subject':
+      nominee: [tt35664086, tt39308143, tt36956820, tt36303123, tt36214704]
+      winner: [tt35664086]
+    'best special production':
+      nominee: [tt36988583, tt38721186, tt32919749, tt32989896, tt39088896]
+      winner: [tt36988583]
+    'best sponsored':
+      nominee: [tt39309409, tt37336102, tt39309386, tt38589783, tt38821667, tt38855845]
+      winner: [tt39309409]
+    'best storyboarding - feature':
+      nominee: [tt30017619, tt29313285, tt4900148, tt14883538, tt26443597]
+      winner: [tt30017619]
+    'best storyboarding - tv/media':
+      nominee: [tt9561862, tt36663021, tt28521741, tt39167634, tt35664086, tt37301067, tt13624052, tt33485097]
+      winner: [tt9561862, tt36663021]
+    'best student film':
+      nominee: [tt37533182, tt34602935, tt34685704, tt34189828, tt37206140]
+      winner: [tt37533182]
+    'best tv/media - children':
+      nominee: [tt36985473, tt39227712, tt37170589, tt28521741, tt39167634, tt35323313, tt37276858, tt36122656]
+      winner: [tt36985473, tt39227712]
+    'best tv/media - mature':
+      nominee: [tt28093628, tt32492353, tt37232370, tt39312439, tt0121955, tt26764413, tt38066553, tt38881616, tt1561755, tt36431668]
+      winner: [tt28093628, tt32492353]
+    'best tv/media - preschool':
+      nominee: [tt39309328, tt39311884, tt20248376, tt39311090, tt19872854, tt11183572, tt35284998]
+      winner: [tt39309328, tt39311884]
+    'best tv/media – limited series':
+      nominee: [tt13624052, tt33485097, tt13622982, tt36599417, tt13968252, tt14749248, tt16027014, tt14164922, tt35989221]
+      winner: [tt13624052, tt33485097]
+    'best voice acting - feature':
+      nominee: [tt14205554, tt4900148, tt10954718, tt0498396, tt27604215]
+      winner: [tt14205554]
+    'best voice acting - tv/media':
+      nominee: [tt1561755, tt37468577, tt7216636, tt36986701, tt33247080, tt37988367, tt36985473, tt36986548, tt12074628, tt38364632]
+      winner: [tt1561755, tt37468577]
+    'best writing - feature':
+      nominee: [tt14205554, tt26443597, tt29313285, tt35114460, tt4900148]
+      winner: [tt14205554]
+    'best writing - tv/media':
+      nominee: [tt28093628, tt32492353, tt13624052, tt33485086, tt39088896, tt36789845, tt18566094, tt18566422]
+      winner: [tt28093628, tt32492353]
+
+'2025': # https://www.imdb.com/event/ev0000032/2025/1/
+  'annie':
+    'best animated feature':
+      nominee: [tt29623480, tt22022452, tt14855468, tt9471678, tt17163970, tt21692408]
+      winner: [tt29623480]
+    'best animated independent feature':
+      nominee: [tt4772188, tt5674658, tt26915336, tt23770030, tt31711040, tt21042126]
+      winner: [tt4772188]
+    'best animated short subject':
+      nominee: [tt28768679, tt29228534, tt32220544, tt30835281, tt28768883]
+      winner: [tt28768679]
+    'best animated special production':
+      nominee: [tt28066777, tt28356173, tt27742699, tt27836891, tt14904388]
+      winner: [tt28066777]
+    'best animated television/media production for children''s audience':
+      nominee: [tt8041658, tt29899148, tt15837206, tt14076044, tt9860690]
+      winner: [tt8041658]
+    'best animated television/media production for mature audience':
+      nominee: [tt1561755, tt11828386, tt9140632, tt32375562, tt8910922]
+      winner: [tt1561755]
+    'best animated television/media production for preschool children':
+      nominee: [tt10558660, tt33999695, tt28069807, tt9165438, tt14075028]
+      winner: [tt10558660]
+    'best limited series animated television/media production':
+      nominee: [tt33088401, tt14681924, tt32598158, tt13623772, tt32306451]
+      winner: [tt33088401]
+    'best sponsored animated production':
+      nominee: [tt32985539, tt35099435, tt35099450, tt34376705, tt34799754]
+      winner: [tt32985539]
+    'best student film':
+      nominee: [tt32611458, tt35100562, tt34076864, tt35100643, tt30452657]
+      winner: [tt32611458]
+    'outstanding achievement for animated effects in a television/media production':
+      nominee: [tt11126994, tt33204697, tt33088401]
+      winner: [tt11126994]
+    'outstanding achievement for animated effects in an animated feature':
+      nominee: [tt29623480, tt21692408, tt13622970, tt9471678, tt17163970]
+      winner: [tt29623480]
+    'outstanding achievement for character animation in a live action production':
+      nominee: [tt11389872, tt9218128, tt14260836, tt11198330, tt14539740]
+      winner: [tt11389872]
+    'outstanding achievement for character animation in a television/media production':
+      nominee: [tt11126994, tt12915960, tt9184820, tt22177220, tt33088401]
+      winner: [tt11126994]
+    'outstanding achievement for character animation in a video game':
+      nominee: [tt27917048, tt32827852, tt30334763, tt16386018, tt34622751]
+      winner: [tt27917048]
+    'outstanding achievement for character animation in an animated feature':
+      nominee: [tt29623480, tt17163970, tt22022452, tt21692408, tt13622970]
+      winner: [tt29623480]
+    'outstanding achievement for character design in an animated feature':
+      nominee: [tt29623480, tt4556264, tt14855468, tt7215232, tt22022452]
+      winner: [tt29623480]
+    'outstanding achievement for character design in an animated television/media production':
+      nominee: [tt8041658, tt27368999, tt28521741, tt33088401, tt16026746]
+      winner: [tt8041658]
+    'outstanding achievement for directing in an animated feature':
+      nominee: [tt29623480, tt4772188, tt21042126, tt17163970, tt14855468]
+      winner: [tt29623480]
+    'outstanding achievement for directing in an animated television/media production':
+      nominee: [tt11126994, tt22752312, tt1561755, tt27742699, tt28521741]
+      winner: [tt11126994]
+    'outstanding achievement for editing in a television/media production':
+      nominee: [tt11126994, tt29899148, tt8041658, tt28521741, tt26545355]
+      winner: [tt11126994]
+    'outstanding achievement for editing in an animated feature':
+      nominee: [tt29623480, tt9471678, tt22022452, tt17163970, tt13622970]
+      winner: [tt29623480]
+    'outstanding achievement for music in an animated feature':
+      nominee: [tt29623480, tt31064841, tt5674658, tt17163970, tt14855468]
+      winner: [tt29623480]
+    'outstanding achievement for music in an animated television/media production':
+      nominee: [tt11126994, tt7216636, tt22752312, tt14076044, tt27368999]
+      winner: [tt11126994]
+    'outstanding achievement for production design in an animated television/media production':
+      nominee: [tt11126994, tt28066777, tt14076044, tt28315425, tt33088401]
+      winner: [tt11126994]
+    'outstanding achievement for production design on an animated feature':
+      nominee: [tt29623480, tt17163970, tt22022452, tt14855468, tt9471678]
+      winner: [tt29623480]
+    'outstanding achievement for storyboarding in an animated feature':
+      nominee: [tt7510222, tt23063732, tt14855468, tt7215232, tt13622970]
+      winner: [tt7510222]
+    'outstanding achievement for storyboarding in an animated television/media production':
+      nominee: [tt11126994, tt30841644, tt28521741, tt20115650, tt29899148]
+      winner: [tt11126994]
+    'outstanding achievement for voice acting in an animated feature':
+      nominee: [tt29623480, tt22022452, tt21042126, tt8864596]
+      winner: [tt29623480]
+    'outstanding achievement for voice acting in an animated television/media production':
+      nominee: [tt33088401, tt7216636, tt28521741, tt1561755]
+      winner: [tt33088401]
+    'outstanding achievement for writing in an animated television/media production':
+      nominee: [tt28066777, tt14075028, tt28356173, tt7713450, tt0096697]
+      winner: [tt28066777]
+    'outstanding achievement in writing for an animated feature':
+      nominee: [tt4772188, tt22022452, tt5674658, tt23770030]
+      winner: [tt4772188]
+
+'2024': # https://www.imdb.com/event/ev0000032/2024/1/
+  'annie':
+    'best animated feature':
+      nominee: [tt9362722, tt19500164, tt16428256, tt8589698, tt6587046, tt21692408]
+      winner: [tt9362722]
+    'best animated independent feature':
+      nominee: [tt13429870, tt22352776, tt11736638, tt5822848, tt8096846]
+      winner: [tt13429870]
+    'best animated short subject':
+      nominee: [tt29795707, tt27757693, tt28833714, tt28309280, tt27646510, tt28768883]
+      winner: [tt29795707]
+    'best animated special production':
+      nominee: [tt27865284, tt28452191, tt25515858, tt20255306, tt9900816]
+      winner: [tt27865284]
+    'best animated television/media production for children''s audience':
+      nominee: [tt6385540, tt29180190, tt8041658, tt13433814, tt25515858]
+      winner: [tt6385540]
+    'best animated television/media production for mature audience':
+      nominee: [tt13309742, tt6524350, tt1561755, tt21056886, tt27118496]
+      winner: [tt13309742]
+    'best animated television/media production for preschool children':
+      nominee: [tt11102230, tt13292830, tt28089654, tt22097692, tt15527326]
+      winner: [tt11102230]
+    'best limited series animated television/media production':
+      nominee: [tt14866860, tt26969235, tt28664721]
+      winner: [tt14866860]
+    'best sponsored animated production':
+      nominee: [tt27736843, tt30852455, tt30852462, tt30852532]
+      winner: [tt27736843]
+    'best student film':
+      nominee: [tt29431265, tt26895908, tt30852651, tt25395508, tt30852655]
+      winner: [tt29431265]
+    'outstanding achievement for animated effects in a television/media production':
+      nominee: [tt13309742, tt14866860, tt13622982, tt28863512, tt10168312]
+      winner: [tt13309742]
+    'outstanding achievement for animated effects in an animated feature':
+      nominee: [tt9362722, tt8337264, tt15789038, tt16428256, tt10651230]
+      winner: [tt9362722]
+    'outstanding achievement for character animation in a live action production':
+      nominee: [tt6791350, tt13622776, tt14209916, tt5971474, tt5090568]
+      winner: [tt6791350]
+    'outstanding achievement for character animation in a television/media production':
+      nominee: [tt13309742, tt15248880, tt14866860, tt13622982, tt27610198]
+      winner: [tt13309742]
+    'outstanding achievement for character animation in a video game':
+      nominee: [tt15399898, tt16897300, tt13107970, tt30852920, tt30852926]
+      winner: [tt15399898]
+    'outstanding achievement for character animation in an animated feature':
+      nominee: [tt6587046, tt15789038, tt19500164, tt27155038, tt16428256]
+      winner: [tt6587046]
+    'outstanding achievement for character design in an animated feature':
+      nominee: [tt9362722, tt15789038, tt15352516, tt19500164, tt13429870]
+      winner: [tt9362722]
+    'outstanding achievement for character design in an animated television/media production':
+      nominee: [tt8041658, tt14028208, tt14075028, tt14866860, tt13351446]
+      winner: [tt8041658]
+    'outstanding achievement for directing in an animated feature':
+      nominee: [tt9362722, tt19500164, tt13429870, tt8589698, tt6587046]
+      winner: [tt9362722]
+    'outstanding achievement for directing in an animated television/media production':
+      nominee: [tt13622982, tt14866860, tt13433814, tt26916286, tt21056886]
+      winner: [tt13622982]
+    'outstanding achievement for editing in a television/media production':
+      nominee: [tt13309742, tt6385540, tt13623148, tt13622982, tt11247158]
+      winner: [tt13309742]
+    'outstanding achievement for editing in an animated feature':
+      nominee: [tt9362722, tt15789038, tt5755238, tt19500164, tt8589698]
+      winner: [tt9362722]
+    'outstanding achievement for music in an animated feature':
+      nominee: [tt9362722, tt15789038, tt16428256, tt8589698, tt6587046]
+      winner: [tt9362722]
+    'outstanding achievement for music in an animated television/media production':
+      nominee: [tt13622982, tt27712788, tt6951546, tt28117957, tt20255306]
+      winner: [tt13622982]
+    'outstanding achievement for production design in an animated television/media production':
+      nominee: [tt13309742, tt21056886, tt13622982, tt10168312]
+      winner: [tt13309742]
+    'outstanding achievement for production design on an animated feature':
+      nominee: [tt9362722, tt15789038, tt19500164, tt8589698, tt6587046]
+      winner: [tt9362722]
+    'outstanding achievement for storyboarding in an animated feature':
+      nominee: [tt6587046, tt8337264, tt19500164, tt13429870, tt16428256]
+      winner: [tt6587046]
+    'outstanding achievement for storyboarding in an animated television/media production':
+      nominee: [tt8041658, tt17154734, tt28004970, tt9860690, tt18783984]
+      winner: [tt8041658]
+    'outstanding achievement for voice acting in an animated feature':
+      nominee: [tt19500164, tt15352516, tt6495056, tt16428256, tt6718170]
+      winner: [tt19500164]
+    'outstanding achievement for voice acting in an animated television/media production':
+      nominee: [tt8041658, tt1486217, tt17154734, tt8910922, tt9900816]
+      winner: [tt8041658]
+    'outstanding achievement for writing in an animated television/media production':
+      nominee: [tt13309742, tt26969235, tt16117344, tt21329138, tt21056886]
+      winner: [tt13309742]
+    'outstanding achievement in writing for an animated feature':
+      nominee: [tt19500164, tt13429870, tt16428256, tt8589698, tt6587046]
+      winner: [tt19500164]
+    'best character animation - tv/media':
+      nominee: [tt27610198]
+      winner: []
+
+'2023': # https://www.imdb.com/event/ev0000032/2023/1/
+  'annie':
+    'best animated feature':
+      nominee: [tt1488589, tt8097030, tt3915174, tt9288046, tt5181830]
+      winner: [tt1488589]
+    'best animated independent feature':
+      nominee: [tt15339456, tt5806814, tt10540510, tt9288748, tt10290244]
+      winner: [tt15339456]
+    'best animated short subject':
+      nominee: [tt19781688, tt13199958, tt15181604, tt14972316, tt20240228]
+      winner: [tt19781688]
+    'best animated special production':
+      nominee: [tt22667880, tt10324164, tt14040072, tt11703050, tt1751634]
+      winner: [tt22667880]
+    'best animated television/media production for children''s audience':
+      nominee: [tt18214248, tt11947288, tt6921882, tt8050756, tt13303478]
+      winner: [tt18214248]
+    'best animated television/media production for preschool children':
+      nominee: [tt10558660, tt11992456, tt9165438, tt17544246, tt13351446]
+      winner: [tt10558660]
+    'best general audience animated television/media production':
+      nominee: [tt1561755, tt7658402, tt2861424, tt0096697, tt8036272]
+      winner: [tt1561755]
+    'best limited series animated television/media production':
+      nominee: [tt9894516, tt13622958, tt16432198, tt9610166, tt8101850]
+      winner: [tt9894516]
+    'best sponsored animated production':
+      nominee: [tt14220316, tt26302848, tt26303154, tt16433946, tt26303710]
+      winner: [tt14220316]
+    'best student film':
+      nominee: [tt15709998, tt16420918, tt21330964, tt26313131, tt17080210]
+      winner: [tt15709998]
+    'outstanding achievement for animated effects in a television/media production':
+      nominee: [tt9561862, tt11981568, tt10324164, tt22667880, tt11703050]
+      winner: [tt9561862]
+    'outstanding achievement for animated effects in an animated feature':
+      nominee: [tt1630029, tt10298810, tt1488589, tt5113044, tt9288046]
+      winner: [tt1630029]
+    'outstanding achievement for character animation in a live action production':
+      nominee: [tt1630029, tt13223398, tt3420504, tt8041270, tt13146488]
+      winner: [tt1630029]
+    'outstanding achievement for character animation in a television/media production':
+      nominee: [tt22667880, tt10687116, tt9894516, tt22097692, tt11703050]
+      winner: [tt22667880]
+    'outstanding achievement for character animation in a video game':
+      nominee: [tt14876256, tt13119450, tt12496904, tt19390310, tt26316025]
+      winner: [tt14876256]
+    'outstanding achievement for character animation in an animated feature':
+      nominee: [tt1488589, tt8115900, tt8097030]
+      winner: [tt1488589]
+    'outstanding achievement for character design in an animated feature':
+      nominee: [tt8115900, tt7214954, tt3915174, tt9784708, tt5181830]
+      winner: [tt8115900]
+    'outstanding achievement for character design in an animated television/media production':
+      nominee: [tt9561862, tt8050740, tt10687116, tt9894516, tt13351446]
+      winner: [tt9561862]
+    'outstanding achievement for directing in an animated feature':
+      nominee: [tt1488589, tt15339456, tt9288748, tt8097030, tt5181830]
+      winner: [tt1488589]
+    'outstanding achievement for directing in an animated television/media production':
+      nominee: [tt22667880, tt13622958, tt14825954, tt17219826, tt9894516]
+      winner: [tt22667880]
+    'outstanding achievement for editing in a television/media production':
+      nominee: [tt22667880, tt4651448, tt13321232, tt9184820]
+      winner: [tt22667880]
+    'outstanding achievement for editing in an animated feature':
+      nominee: [tt3915174, tt10298810, tt8097030, tt1488589, tt9288046]
+      winner: [tt3915174]
+    'outstanding achievement for music in an animated feature':
+      nominee: [tt1488589, tt8097030, tt15090124, tt8115900, tt9288046]
+      winner: [tt1488589]
+    'outstanding achievement for music in an animated television/media production':
+      nominee: [tt10611608, tt9561862, tt9894516, tt22667880, tt11703050]
+      winner: [tt10611608]
+    'outstanding achievement for production design in an animated television/media production':
+      nominee: [tt9894516, tt10332508, tt23732736, tt22667880, tt11703050]
+      winner: [tt9894516]
+    'outstanding achievement for production design on an animated feature':
+      nominee: [tt1488589, tt15090124, tt3915174, tt8115900, tt9288046]
+      winner: [tt1488589]
+    'outstanding achievement for storyboarding in an animated feature':
+      nominee: [tt3915174, tt5113044, tt10298840]
+      winner: [tt3915174]
+    'outstanding achievement for storyboarding in an animated television/media production':
+      nominee: [tt9561862, tt12590266, tt18783984, tt8543208, tt10611608]
+      winner: [tt9561862]
+    'outstanding achievement for voice acting in an animated feature':
+      nominee: [tt15339456, tt1488589, tt3915174, tt9288046]
+      winner: [tt15339456]
+    'outstanding achievement for voice acting in an animated television/media production':
+      nominee: [tt13622956, tt8543208, tt22097692, tt18250460, tt11871764]
+      winner: [tt13622956]
+    'outstanding achievement for writing in an animated television/media production':
+      nominee: [tt9561862, tt13622958, tt11947288, tt11703050, tt8036272]
+      winner: [tt9561862]
+    'outstanding achievement in writing for an animated feature':
+      nominee: [tt15339456, tt8097030, tt20199286, tt10540510]
+      winner: [tt15339456]
+    'best animated television/broadcast production for preschool children':
+      nominee: [tt9165438]
+      winner: []
+    'best editorial - tv/media':
+      nominee: [tt8050740]
+      winner: []
+
+'2022': # https://www.imdb.com/event/ev0000032/2022/1/
+  'annie':
+    'best animated feature':
+      nominee: [tt7979580, tt2953050, tt12801262, tt5109280, tt6467266]
+      winner: [tt7979580]
+    'best animated independent feature':
+      nominee: [tt8430054, tt13651628, tt13758684, tt12439248, tt7014378]
+      winner: [tt8430054]
+    'best animated short subject':
+      nominee: [tt14825950, tt14135840, tt13332920, tt13231684, tt11386280]
+      winner: [tt14825950]
+    'best animated special production':
+      nominee: [tt13836450, tt15553258, tt10347038, tt9096824, tt11657662]
+      winner: [tt13836450]
+    'best animated television/media production for children''s audience':
+      nominee: [tt8787772, tt8050740, tt7042146, tt13624054, tt14770480]
+      winner: [tt8787772]
+    'best animated television/media production for preschool children':
+      nominee: [tt13241650, tt6337766, tt16538364, tt13135714, tt11183572]
+      winner: [tt13241650]
+    'best general audience animated television/media production':
+      nominee: [tt11126994, tt1561755, tt9561862, tt13622982, tt8036272]
+      winner: [tt11126994]
+    'best sponsored animated production':
+      nominee: [tt16538198, tt16151610, tt16538210, tt16538222, tt9140560]
+      winner: [tt16538198]
+    'best student film':
+      nominee: [tt13575264, tt14571520, tt16538588, tt16538626, tt16538636]
+      winner: [tt13575264]
+    'outstanding achievement for animated effects in a television/media production':
+      nominee: [tt11126994, tt6517102, tt8787772, tt15857304, tt12851396]
+      winner: [tt11126994]
+    'outstanding achievement for animated effects in an animated feature':
+      nominee: [tt7979580, tt13651628, tt2953050, tt5109280, tt6338498]
+      winner: [tt7979580]
+    'outstanding achievement for character animation in a live action production':
+      nominee: [tt9376612, tt8521736, tt6334354, tt9777666, tt8042500]
+      winner: [tt9376612]
+    'outstanding achievement for character animation in a television/media production':
+      nominee: [tt11126994, tt9561862, tt13836450, tt13148384, tt14770480]
+      winner: [tt11126994]
+    'outstanding achievement for character animation in a video game':
+      nominee: [tt12497014, tt16539434, tt14321832, tt12497176, tt19072694]
+      winner: [tt12497014]
+    'outstanding achievement for character animation in an animated feature':
+      nominee: [tt2953050, tt12801262, tt5109280, tt6932874, tt5562070]
+      winner: [tt2953050]
+    'outstanding achievement for character design in an animated feature':
+      nominee: [tt7979580, tt12801262, tt5109280, tt7504818, tt6338498]
+      winner: [tt7979580]
+    'outstanding achievement for character design in an animated television/media production':
+      nominee: [tt11126994, tt14324650, tt9248538, tt8787772, tt15528294]
+      winner: [tt11126994]
+    'outstanding achievement for directing in an animated feature':
+      nominee: [tt7979580, tt13651628, tt2953050, tt8430054, tt12801262]
+      winner: [tt7979580]
+    'outstanding achievement for directing in an animated television/media production':
+      nominee: [tt11126994, tt8050740, tt8777690, tt15777864, tt8787772]
+      winner: [tt11126994]
+    'outstanding achievement for editing in a television/media production':
+      nominee: [tt10168312, tt8050740, tt13454122, tt9561862, tt14833766]
+      winner: [tt10168312]
+    'outstanding achievement for editing in an animated feature':
+      nominee: [tt7979580, tt2953050, tt8430054, tt12801262, tt5109280]
+      winner: [tt7979580]
+    'outstanding achievement for music in an animated feature':
+      nominee: [tt2953050, tt12801262, tt13276012, tt5109280, tt6338498]
+      winner: [tt2953050]
+    'outstanding achievement for music in an animated television/media production':
+      nominee: [tt8787772, tt14460998, tt15777864, tt5279120, tt9357248]
+      winner: [tt8787772]
+    'outstanding achievement for production design in an animated television/media production':
+      nominee: [tt11126994, tt13454122, tt9561862, tt8787772, tt15528294]
+      winner: [tt11126994]
+    'outstanding achievement for production design on an animated feature':
+      nominee: [tt7979580, tt13651628, tt5109280, tt7504818, tt6338498]
+      winner: [tt7979580]
+    'outstanding achievement for storyboarding in an animated feature':
+      nominee: [tt2953050, tt5109280, tt11084896, tt11125620, tt6338498]
+      winner: [tt2953050]
+    'outstanding achievement for storyboarding in an animated television/media production':
+      nominee: [tt11126994, tt6741278, tt9248538, tt9561862, tt10684374]
+      winner: [tt11126994]
+    'outstanding achievement for voice acting in an animated feature':
+      nominee: [tt7979580, tt2953050, tt12801262, tt5109280]
+      winner: [tt7979580]
+    'outstanding achievement for voice acting in an animated television/media production':
+      nominee: [tt11126994, tt13454122, tt10919290, tt9628244, tt12851396]
+      winner: [tt11126994]
+    'outstanding achievement for writing in an animated television/media production':
+      nominee: [tt11126994, tt8787772, tt6337766, tt11714946, tt8036272]
+      winner: [tt11126994]
+    'outstanding achievement in writing for an animated feature':
+      nominee: [tt7979580, tt13651628, tt8430054, tt12801262, tt5109280]
+      winner: [tt7979580]
+
+'2021': # https://www.imdb.com/event/ev0000032/2021/1/
+  'annie':
+    'best animated feature':
+      nominee: [tt2948372, tt7146812, tt2850386, tt5206260, tt6587640]
+      winner: [tt2948372]
+    'best animated independent feature':
+      nominee: [tt5198068, tt6193408, tt9719864, tt10487722, tt9193612]
+      winner: [tt5198068]
+    'best animated short subject':
+      nominee: [tt13253166, tt10346180, tt13796046, tt12837488, tt35838674]
+      winner: [tt13253166]
+    'best animated special production':
+      nominee: [tt9303756, tt13050556, tt14188214, tt14188220, tt11454948]
+      winner: [tt9303756]
+    'best animated television/media production for children''s audience':
+      nominee: [tt6385540, tt6601082, tt7745956, tt0458290, tt8146766]
+      winner: [tt6385540]
+    'best animated television/media production for preschool children':
+      nominee: [tt7772600, tt11829340, tt6337766, tt13135714, tt11183572]
+      winner: [tt7772600]
+    'best general audience animated television/media production':
+      nominee: [tt10332508, tt6994156, tt7658402, tt2861424, tt11639414]
+      winner: [tt10332508]
+    'best sponsored animated production':
+      nominee: [tt13492434, tt14188582, tt14188592, tt11564692, tt14188608]
+      winner: [tt13492434]
+    'best student film':
+      nominee: [tt13333898, tt13065942, tt13581812, tt14188910, tt11698640]
+      winner: [tt13333898]
+    'outstanding achievement for animated effects in a television/media production':
+      nominee: [tt10436228, tt8322592, tt10167262, tt7736558, tt9789660]
+      winner: [tt10436228]
+    'outstanding achievement for animated effects in an animated feature':
+      nominee: [tt2948372, tt7488208, tt2850386, tt6587640, tt5198068]
+      winner: [tt2948372]
+    'outstanding achievement for character animation in a live action production':
+      nominee: [tt8111088, tt11057644, tt1312171, tt6820324]
+      winner: [tt8111088]
+    'outstanding achievement for character animation in a television/media production':
+      nominee: [tt6385540, tt11332750, tt3398228, tt11170862, tt10167262]
+      winner: [tt6385540]
+    'outstanding achievement for character animation in a video game':
+      nominee: [tt12496734, tt2071507, tt8329350, tt6298000]
+      winner: [tt12496734]
+    'outstanding achievement for character animation in an animated feature':
+      nominee: [tt2948372, tt7146812, tt2850386, tt5206260, tt5198068]
+      winner: [tt2948372]
+    'outstanding achievement for character design in an animated feature':
+      nominee: [tt5198068, tt2948372, tt2850386, tt5206260, tt6587640]
+      winner: [tt5198068]
+    'outstanding achievement for character design in an animated television/media production':
+      nominee: [tt8050740, tt12013558, tt7713450, tt8543208, tt8050756]
+      winner: [tt8050740]
+    'outstanding achievement for directing in an animated feature':
+      nominee: [tt5198068, tt9719864, tt7488208, tt9193612, tt2948372]
+      winner: [tt5198068]
+    'outstanding achievement for directing in an animated television/media production':
+      nominee: [tt10332508, tt11680468, tt10364808, tt6601082, tt13089270]
+      winner: [tt10332508]
+    'outstanding achievement for editing in a television/media production':
+      nominee: [tt6385540, tt13322484, tt11768948, tt10167262, tt11952320]
+      winner: [tt6385540]
+    'outstanding achievement for editing in an animated feature':
+      nominee: [tt2948372, tt6193408, tt9719864, tt7146812, tt5206260]
+      winner: [tt2948372]
+    'outstanding achievement for music in an animated feature':
+      nominee: [tt2948372, tt7146812, tt7488208, tt5206260, tt5198068]
+      winner: [tt2948372]
+    'outstanding achievement for music in an animated television/media production':
+      nominee: [tt0458290, tt10009170, tt9357248, tt9184820, tt8010354]
+      winner: [tt0458290]
+    'outstanding achievement for production design in an animated television/media production':
+      nominee: [tt11454948, tt13050556, tt7772600, tt11952320, tt9288860]
+      winner: [tt11454948]
+    'outstanding achievement for production design on an animated feature':
+      nominee: [tt5198068, tt7146812, tt2948372, tt5206260, tt6587640]
+      winner: [tt5198068]
+    'outstanding achievement for storyboarding in an animated feature':
+      nominee: [tt2948372, tt12441478, tt7488208, tt2850386, tt5198068]
+      winner: [tt2948372]
+    'outstanding achievement for storyboarding in an animated television/media production':
+      nominee: [tt8543208, tt9165404, tt7165904, tt9580138, tt11454948]
+      winner: [tt8543208]
+    'outstanding achievement for voice acting in an animated feature':
+      nominee: [tt5198068, tt12441478, tt7146812, tt7488208, tt2850386]
+      winner: [tt5198068]
+    'outstanding achievement for voice acting in an animated television/media production':
+      nominee: [tt7736558, tt11416026, tt1817232, tt8435344, tt11875456]
+      winner: [tt7736558]
+    'outstanding achievement for writing in an animated television/media production':
+      nominee: [tt6524350, tt7713450, tt2229129, tt7658402, tt7745956]
+      winner: [tt6524350]
+    'outstanding achievement in writing for an animated feature':
+      nominee: [tt2948372, tt6193408, tt7146812, tt7488208, tt5198068]
+      winner: [tt2948372]
+  'special achievement award':
+    'special achievement award':
+      nominee: [tt7682430]
+      winner: [tt7682430]
+
+'2020': # https://www.imdb.com/event/ev0000032/2020/1/
+  'annie':
+    'best animated feature':
+      nominee: [tt4729430, tt4520988, tt2386490, tt6348138, tt1979376]
+      winner: [tt4729430]
+    'best animated independent feature':
+      nominee: [tt9806192, tt7336470, tt8328740, tt9116358, tt9426210]
+      winner: [tt9806192]
+    'best animated short subject':
+      nominee: [tt10498098, tt10248754, tt11377378, tt8822398, tt7825004]
+      winner: [tt10498098]
+    'best animated special production':
+      nominee: [tt11112140, tt8858104, tt8146754, tt0206512, tt9109620]
+      winner: [tt11112140]
+    'best animated television commercial':
+      nominee: [tt10183844, tt11377570, tt11377576]
+      winner: [tt10183844]
+    'best animated television/broadcast production for children':
+      nominee: [tt2768802, tt3952772, tt6601082, tt7736544, tt3559124]
+      winner: [tt2768802]
+    'best animated television/broadcast production for preschool children':
+      nominee: [tt5846856, tt4549142, tt7200884, tt10703292, tt11183572]
+      winner: [tt5846856]
+    'best general audience animated television/broadcast production':
+      nominee: [tt3398228, tt6524350, tt7658402, tt8036272, tt8101850]
+      winner: [tt3398228]
+    'best student film':
+      nominee: [tt11377786, tt11377814, tt10403322, tt11377760]
+      winner: [tt11377786]
+    'best virtual reality production':
+      nominee: [tt9899790, tt10027376, tt9670896]
+      winner: [tt9899790]
+    'outstanding achievement for animated effects in an animated feature production':
+      nominee: [tt4520988, tt6324278, tt6348138, tt1979376, tt9426210]
+      winner: [tt4520988]
+    'outstanding achievement for animated effects in an animated television/broadcast production':
+      nominee: [tt9561862, tt11112140, tt7909802, tt9353248, tt7736544]
+      winner: [tt9561862]
+    'outstanding achievement for character animation in a live action production':
+      nominee: [tt4154796, tt0437086, tt0944947, tt6027912, tt5884052, tt6320628]
+      winner: [tt4154796]
+    'outstanding achievement for character animation in a video game':
+      nominee: [tt11382492, tt8801880, tt2973418, tt11382424]
+      winner: [tt11382492]
+    'outstanding achievement for character animation in an animated feature production':
+      nominee: [tt4729430, tt4520988, tt2386490, tt6348138]
+      winner: [tt4729430]
+    'outstanding achievement for character animation in an animated television/broadcast production':
+      nominee: [tt5607976, tt5846856, tt10313312, tt4902964, tt9789658, tt11112140, tt0437745, tt10666378]
+      winner: [tt5607976]
+    'outstanding achievement for character design in an animated feature production':
+      nominee: [tt4729430, tt6324278, tt4520988, tt5814534, tt1620981]
+      winner: [tt4729430]
+    'outstanding achievement for character design in an animated television/broadcast production':
+      nominee: [tt7042146, tt8772814, tt9628244, tt8266218, tt8271124, tt9534244, tt8146766, tt10736186]
+      winner: [tt7042146, tt8772814]
+    'outstanding achievement for directing in an animated feature production':
+      nominee: [tt4729430, tt4520988, tt9806192, tt6348138, tt9426210]
+      winner: [tt4729430]
+    'outstanding achievement for directing in an animated television/broadcast production':
+      nominee: [tt2768802, tt5846856, tt9628244, tt9348716, tt8699270]
+      winner: [tt2768802]
+    'outstanding achievement for editorial in an animated feature production':
+      nominee: [tt4729430, tt2386490, tt6348138, tt5113040, tt1979376]
+      winner: [tt4729430]
+    'outstanding achievement for editorial in an animated television/broadcast production':
+      nominee: [tt9561862, tt5515212, tt9628244, tt2768802, tt4651448]
+      winner: [tt9561862]
+    'outstanding achievement for music in an animated feature production':
+      nominee: [tt9806192, tt8288450, tt4520988, tt5814534, tt1979376]
+      winner: [tt9806192]
+    'outstanding achievement for music in an animated television/broadcast production':
+      nominee: [tt9561862, tt7042146, tt10106108, tt7745956, tt3559124]
+      winner: [tt9561862]
+    'outstanding achievement for production design in an animated feature production':
+      nominee: [tt4729430, tt6324278, tt6348138, tt1620981, tt2386490]
+      winner: [tt4729430]
+    'outstanding achievement for production design in an animated television/broadcast production':
+      nominee: [tt9561862, tt7042146, tt4902964, tt10364808, tt8271124]
+      winner: [tt9561862]
+    'outstanding achievement for storyboarding in an animated feature production':
+      nominee: [tt4729430, tt9806192, tt6348138]
+      winner: [tt4729430]
+    'outstanding achievement for storyboarding in an animated television/broadcast production':
+      nominee: [tt7042146, tt8107988, tt9561862, tt10659366, tt9109620]
+      winner: [tt7042146]
+    'outstanding achievement for voice acting in an animated feature production':
+      nominee: [tt4520988, tt6324278, tt6739094, tt5113040, tt1979376]
+      winner: [tt4520988]
+    'outstanding achievement for voice acting in an animated television/broadcast production':
+      nominee: [tt1561755, tt9667904, tt7165904, tt11243484, tt10515852, tt8413062, tt8036272, tt8385686]
+      winner: [tt1561755, tt9667904]
+    'outstanding achievement for writing in an animated feature production':
+      nominee: [tt9806192, tt4520988, tt2386490, tt1979376, tt9426210]
+      winner: [tt9806192]
+    'outstanding achievement for writing in an animated television/broadcast production':
+      nominee: [tt8036272, tt8019790, tt3398228, tt5621544, tt11183572]
+      winner: [tt8036272]
+
+'2019': # https://www.imdb.com/event/ev0000032/2019/1/
+  'annie':
+    'best animated feature':
+      nominee: [tt4633694, tt4701724, tt3606756, tt5104604, tt5848272]
+      winner: [tt4633694]
+    'best animated independent feature':
+      nominee: [tt6900448, tt7925798, tt4717402, tt6241872, tt8327492]
+      winner: [tt6900448]
+    'best animated short subject':
+      nominee: [tt7375186, tt7057890, tt8589236, tt7855990, tt8574350]
+      winner: [tt7375186]
+    'best animated special production':
+      nominee: [tt5028340, tt8365290, tt9042884, tt7546096]
+      winner: [tt5028340]
+    'best animated television/broadcast commercial':
+      nominee: [tt9384524, tt9313996, tt9384546, tt8016566, tt7909898]
+      winner: [tt9384524]
+    'best animated television/broadcast production for children':
+      nominee: [tt6385540, tt8271176, tt5615874, tt6601082, tt1734135]
+      winner: [tt6385540]
+    'best animated television/broadcast production for preschool children':
+      nominee: [tt5846856, tt7620702, tt4291050, tt4148744, tt2948562]
+      winner: [tt5846856]
+    'best general audience animated television/broadcast production':
+      nominee: [tt3398228, tt6524350, tt1561755, tt7665014, tt0417373]
+      winner: [tt3398228]
+    'best student film':
+      nominee: [tt9283014, tt8708214, tt8364842, tt8666168, tt9032798]
+      winner: [tt9283014]
+    'best virtual reality production':
+      nominee: [tt6829580, tt8908420, tt7720282, tt8849074, tt9384140]
+      winner: [tt6829580]
+    'outstanding achievement for animated effects in an animated feature production':
+      nominee: [tt5848272, tt4701724, tt5220122, tt3606756, tt7133686]
+      winner: [tt5848272]
+    'outstanding achievement for animated effects in an animated television/broadcast production':
+      nominee: [tt1734135, tt7340026, tt6601082, tt4843640, tt5670764]
+      winner: [tt1734135]
+    'outstanding achievement for character animation in a live action production':
+      nominee: [tt5028340, tt4154756, tt4575576, tt4468740, tt5523010]
+      winner: [tt5028340]
+    'outstanding achievement for character animation in a video game':
+      nominee: [tt9386794, tt5807780, tt8849074, tt8339682, tt5838588]
+      winner: [tt9386794]
+    'outstanding achievement for character animation in an animated feature production':
+      nominee: [tt4633694, tt4701724, tt3606756, tt5104604, tt5848272]
+      winner: [tt4633694]
+    'outstanding achievement for character animation in an animated television/broadcast production':
+      nominee: [tt6385540, tt8908420, tt8365290, tt4902964, tt2948562]
+      winner: [tt6385540]
+    'outstanding achievement for character design in an animated feature production':
+      nominee: [tt4633694, tt3606756, tt5028340, tt7133686, tt5848272]
+      winner: [tt4633694]
+    'outstanding achievement for character design in an animated television/broadcast production':
+      nominee: [tt4902964, tt8908420, tt3952772, tt8271124]
+      winner: [tt4902964]
+    'outstanding achievement for directing in an animated feature production':
+      nominee: [tt4633694, tt4701724, tt5220122, tt3606756, tt5848272]
+      winner: [tt4633694]
+    'outstanding achievement for directing in an animated television/broadcast production':
+      nominee: [tt2768802, tt5846856, tt3952772, tt4843640, tt7736544]
+      winner: [tt2768802]
+    'outstanding achievement for editorial in an animated feature production':
+      nominee: [tt4633694, tt2709692, tt3606756, tt5848272, tt6241872]
+      winner: [tt4633694]
+    'outstanding achievement for editorial in an animated television/broadcast production':
+      nominee: [tt5515212, tt6688750, tt0206512, tt7736544, tt7741830]
+      winner: [tt5515212]
+    'outstanding achievement for music in an animated feature production':
+      nominee: [tt3606756, tt2709692, tt4701724, tt5848272, tt6182908]
+      winner: [tt3606756]
+    'outstanding achievement for music in an animated television/broadcast production':
+      nominee: [tt2768802, tt8365290, tt4549142, tt4902964, tt3559124]
+      winner: [tt2768802]
+    'outstanding achievement for production design in an animated feature production':
+      nominee: [tt4633694, tt4701724, tt5220122, tt5104604, tt5028340]
+      winner: [tt4633694]
+    'outstanding achievement for production design in an animated television/broadcast production':
+      nominee: [tt8908420, tt2768802, tt5615874, tt3952772, tt8271124]
+      winner: [tt8908420]
+    'outstanding achievement for storyboarding in an animated feature production':
+      nominee: [tt3606756, tt2709692, tt5028340, tt5848272]
+      winner: [tt3606756]
+    'outstanding achievement for storyboarding in an animated television/broadcast production':
+      nominee: [tt2768802, tt6601082, tt6148376, tt5515212, tt2758770]
+      winner: [tt2768802, tt6601082]
+    'outstanding achievement for voice acting in an animated feature production':
+      nominee: [tt5104604, tt4701724, tt3606756, tt7133686, tt5848272]
+      winner: [tt5104604]
+    'outstanding achievement for voice acting in an animated television/broadcast production':
+      nominee: [tt3398228, tt4326894, tt6148744, tt5916218, tt6874502]
+      winner: [tt3398228]
+    'outstanding achievement for writing in an animated feature production':
+      nominee: [tt4633694, tt3606756, tt6900448, tt5848272, tt7424200]
+      winner: [tt4633694]
+    'outstanding achievement for writing in an animated television/broadcast production':
+      nominee: [tt6385540, tt6524350, tt7713450, tt2758770, tt4839610]
+      winner: [tt6385540]
+
+'2018': # https://www.imdb.com/event/ev0000032/2018/1/
+  'annie':
+    'best animated feature':
+      nominee: [tt2380307, tt2091256, tt3606752, tt3469046, tt3874544]
+      winner: [tt2380307]
+    'best animated feature - independent':
+      nominee: [tt3901826, tt4769824, tt3262342, tt5731132, tt5851904]
+      winner: [tt3901826]
+    'best animated short subject':
+      nominee: [tt6794476, tt6988216, tt7090150, tt6461568, tt6567162]
+      winner: [tt6794476]
+    'best animated special production':
+      nominee: [tt6386210, tt6386288, tt5452780, tt5533228, tt7708712, tt7708720]
+      winner: [tt6386210, tt6386288]
+    'best animated television/broadcast commercial':
+      nominee: [tt6450968, tt7708786, tt7708842, tt7708858, tt6623950]
+      winner: [tt6450968]
+    'best animated television/broadcast production for children':
+      nominee: [tt4839610, tt6591468, tt4677846, tt3952772, tt4902964]
+      winner: [tt4839610]
+    'best animated television/broadcast production for preschool children':
+      nominee: [tt1710177, tt6264782, tt2402500, tt3952774, tt7359600]
+      winner: [tt1710177]
+    'best general audience animated television/broadcast production':
+      nominee: [tt2861424, tt6524350, tt3398228, tt0437745, tt0278238]
+      winner: [tt2861424]
+    'best student film':
+      nominee: [tt6652232, tt6146212, tt7710078, tt7710164, tt7710194]
+      winner: [tt6652232]
+    'outstanding achievement for animated effects in an animated production':
+      nominee: [tt2380307, tt3606752, tt3469046, tt5452780]
+      winner: [tt2380307]
+    'outstanding achievement for character animation in a live action production':
+      nominee: [tt3450958, tt0944947, tt3896198, tt3731562, tt2239822]
+      winner: [tt3450958]
+    'outstanding achievement for character animation in a video game':
+      nominee: [tt4779924, tt4044024, tt6304452, tt4674622]
+      winner: [tt4779924]
+    'outstanding achievement for character animation in an animated feature production':
+      nominee: [tt2380307, tt5851904, tt3874544]
+      winner: [tt2380307]
+    'outstanding achievement for character animation in an animated television/broadcast production':
+      nominee: [tt1734135, tt6645614, tt2948562]
+      winner: [tt1734135]
+    'outstanding achievement for character design in an animated feature production':
+      nominee: [tt2380307, tt3469046, tt2398241, tt3874544, tt3901826]
+      winner: [tt2380307]
+    'outstanding achievement for character design in an animated television/broadcast production':
+      nominee: [tt0278238, tt6591468, tt5120600, tt5533228, tt1734135]
+      winner: [tt0278238]
+    'outstanding achievement for directing in an animated feature production':
+      nominee: [tt2380307, tt5851904, tt3874544, tt3901826, tt4116284]
+      winner: [tt2380307]
+    'outstanding achievement for directing in an animated television/broadcast production':
+      nominee: [tt2768802, tt4816058, tt5533228, tt0096697, tt1734135]
+      winner: [tt2768802]
+    'outstanding achievement for editorial in an animated feature production':
+      nominee: [tt2380307, tt3411444, tt3901826, tt4116284, tt4587656]
+      winner: [tt2380307]
+    'outstanding achievement for editorial in an animated television/broadcast production':
+      nominee: [tt0278238, tt1561755, tt3398228, tt7620702, tt3824018]
+      winner: [tt0278238]
+    'outstanding achievement for music in an animated feature production':
+      nominee: [tt2380307, tt2091256, tt3262342, tt3901826, tt5452780]
+      winner: [tt2380307]
+    'outstanding achievement for music in an animated television/broadcast production':
+      nominee: [tt2768802, tt5759196, tt5459566, tt4718304, tt2948562]
+      winner: [tt2768802]
+    'outstanding achievement for production design in an animated feature production':
+      nominee: [tt2380307, tt3411444, tt2261287, tt6336356, tt3901826]
+      winner: [tt2380307]
+    'outstanding achievement for production design in an animated television/broadcast production':
+      nominee: [tt0278238, tt7524614, tt2768802, tt6450968, tt4859164]
+      winner: [tt0278238]
+    'outstanding achievement for storyboarding in an animated feature production':
+      nominee: [tt2380307, tt3874544, tt3901826, tt4587656]
+      winner: [tt2380307]
+    'outstanding achievement for storyboarding in an animated television/broadcast production':
+      nominee: [tt2768802, tt7713204, tt3952772, tt1734135]
+      winner: [tt2768802]
+    'outstanding achievement for voice acting in an animated feature production':
+      nominee: [tt2380307, tt2091256, tt3901826, tt4116284]
+      winner: [tt2380307]
+    'outstanding achievement for voice acting in an animated television/broadcast production':
+      nominee: [tt0206512, tt3398228, tt6433606, tt2768802, tt1942683]
+      winner: [tt0206512]
+    'outstanding achievement for writing in an animated feature production':
+      nominee: [tt2380307, tt3262342, tt6336356, tt3901826]
+      winner: [tt2380307]
+    'outstanding achievement for writing in an animated television/broadcast production':
+      nominee: [tt2861424, tt1486217, tt2768802, tt5439480, tt1734135]
+      winner: [tt2861424]
+    'outstanding achievement in character animation in an animated tv/broadcast production':
+      nominee: [tt1734135]
+      winner: [tt1734135]
+  'special achievement award':
+    'special achievement award':
+      nominee: [tt4779924]
+      winner: [tt4779924]
+
+'2017': # https://www.imdb.com/event/ev0000032/2017/1/
+  'annie':
+    'best animated feature':
+      nominee: [tt2948356, tt2277860, tt4302938, tt2267968, tt3521164]
+      winner: [tt2948356]
+    'best animated feature - independent':
+      nominee: [tt3666024, tt2262345, tt3689910, tt2321405, tt5311514]
+      winner: [tt3666024]
+    'best animated short subject':
+      nominee: [tt5613056, tt5559726, tt5134912, tt5599918, tt4789576]
+      winner: [tt5613056]
+    'best animated special production':
+      nominee: [tt5358978, tt5278460, tt5513770, tt5615874, tt4981636]
+      winner: [tt5358978]
+    'best animated television/broadcast commercial':
+      nominee: [tt5430544, tt6057856]
+      winner: []
+    'best animated television/broadcast production for children':
+      nominee: [tt1305826, tt5580664, tt4549142, tt1877889, tt2252938]
+      winner: [tt1305826]
+    'best animated television/broadcast production for preschool children':
+      nominee: [tt2948562, tt5846856, tt2402500, tt3590338, tt3952774]
+      winner: [tt2948562]
+    'best general audience animated television/broadcast production':
+      nominee: [tt1561755, tt3398228, tt3751400, tt0096697, tt0417373]
+      winner: [tt1561755]
+    'best student film':
+      nominee: [tt5347510, tt5582528, tt5490658, tt6324602, tt6800298]
+      winner: [tt5347510]
+    'outstanding achievement for character design in an animated television/broadcast production':
+      nominee: [tt1734135, tt5717906, tt3218114, tt5845672, tt2252938]
+      winner: [tt1734135]
+    'outstanding achievement in animated effects in a live action production':
+      nominee: [tt1211837, tt1860357, tt1289401, tt3691740, tt0803096]
+      winner: [tt1211837]
+    'outstanding achievement in animated effects in an animated production':
+      nominee: [tt3521164, tt4302938, tt2267968, tt3666024, tt2948356]
+      winner: [tt3521164]
+    'outstanding achievement in character animation in a feature production':
+      nominee: [tt4302938, tt2277860, tt2267968, tt2948356]
+      winner: [tt4302938]
+    'outstanding achievement in character animation in a live action production':
+      nominee: [tt3040964, tt3498820, tt0944947, tt0803096]
+      winner: [tt3040964]
+    'outstanding achievement in character animation in a video game':
+      nominee: [tt3334704, tt6326462, tt3612274, tt2993508]
+      winner: [tt3334704]
+    'outstanding achievement in character animation in an animated tv/broadcast production':
+      nominee: [tt1734135, tt5869342, tt6186164, tt2948562]
+      winner: [tt1734135]
+    'outstanding achievement in character design in an animated feature production':
+      nominee: [tt2948356, tt4302938, tt3521164, tt2709768, tt1679335]
+      winner: [tt2948356]
+    'outstanding achievement in directing in an animated feature production':
+      nominee: [tt2948356, tt4302938, tt2321405, tt3666024, tt5311514]
+      winner: [tt2948356]
+    'outstanding achievement in directing in an animated tv/broadcast production':
+      nominee: [tt5599918, tt6002452, tt1305826, tt4938374, tt2252938]
+      winner: [tt5599918]
+    'outstanding achievement in editorial in an animated feature production':
+      nominee: [tt4302938, tt3422078, tt3521164, tt1700841, tt2948356]
+      winner: [tt4302938]
+    'outstanding achievement in editorial in an animated tv/broadcast production':
+      nominee: [tt2768802, tt3807022, tt1561755, tt1865718, tt2930604]
+      winner: [tt2768802]
+    'outstanding achievement in music in an animated feature production':
+      nominee: [tt1754656, tt5973626, tt3470600, tt3666024, tt2709768]
+      winner: [tt1754656]
+    'outstanding achievement in music in an animated tv/broadcast production':
+      nominee: [tt5599918, tt1561755, tt2768802, tt1734135, tt2930604, tt4718304]
+      winner: [tt5599918]
+    'outstanding achievement in production design in an animated feature production':
+      nominee: [tt4302938, tt2267968, tt1754656, tt1679335, tt2948356]
+      winner: [tt4302938]
+    'outstanding achievement in production design in an animated tv/broadcast production':
+      nominee: [tt5599918, tt1305826, tt3590338, tt5845672, tt5021206, tt2768802]
+      winner: [tt5599918]
+    'outstanding achievement in storyboarding in an animated feature production':
+      nominee: [tt2948356, tt2277860, tt4302938, tt3521164, tt1679335]
+      winner: [tt2948356]
+    'outstanding achievement in storyboarding in an animated tv/broadcast production':
+      nominee: [tt1734135, tt5869342, tt2768802, tt5439480, tt3807034]
+      winner: [tt1734135]
+    'outstanding achievement in voice acting in an animated feature production':
+      nominee: [tt3521164, tt2948356, tt4302938, tt4624424, tt1679335]
+      winner: [tt3521164, tt2948356]
+    'outstanding achievement in voice acting in an animated tv/broadcast production':
+      nominee: [tt5021206, tt3398228, tt4938374, tt6167962, tt2930604, tt6050874]
+      winner: [tt5021206]
+    'outstanding achievement in writing in an animated feature production':
+      nominee: [tt2948356, tt4302938, tt2321405, tt3666024]
+      winner: [tt2948356]
+    'outstanding achievement in writing in an animated tv/broadcast production':
+      nominee: [tt1561755, tt1865718, tt3590338, tt0096697]
+      winner: [tt1561755]
+  'special achievement award':
+    'special achievement award':
+      nominee: [tt3917210]
+      winner: [tt3917210]
+
+'2016': # https://www.imdb.com/event/ev0000032/2016/1/
+  'annie':
+    'best animated feature':
+      nominee: [tt2096673, tt2401878, tt1979388, tt2452042, tt2872750]
+      winner: [tt2096673]
+    'best animated feature - independent':
+      nominee: [tt3183630, tt4272866, tt1640718, tt3398268]
+      winner: [tt3183630]
+    'best animated short subject':
+      nominee: [tt4171032, tt5230196, tt4242936, tt5230188, tt4781734, tt4661600]
+      winner: [tt4171032]
+    'best animated special production':
+      nominee: [tt3065132, tt4147830, tt5134914, tt3952772]
+      winner: [tt3065132]
+    'best animated tv/broadcast production for children''s audience':
+      nominee: [tt2252938, tt3061050, tt1865718, tt3219170, tt2869898, tt2758770, tt3061046]
+      winner: [tt2252938]
+    'best general audience animated tv/broadcast production':
+      nominee: [tt0096697, tt1561755, tt3398228, tt3906560]
+      winner: [tt0096697]
+    'best general audience animated tv/broadcast production for preschool children':
+      nominee: [tt2948562, tt0965404, tt3121722, tt2720144, tt2769458, tt2139371]
+      winner: [tt2948562]
+    'best student film':
+      nominee: [tt5350474, tt5192190, tt4933244, tt4667624, tt2233770, tt5433902]
+      winner: [tt5350474]
+    'outstanding achievement for character animation in a video game':
+      nominee: [tt3801056]
+      winner: [tt3801056]
+    'outstanding achievement in animated effects in a live action production':
+      nominee: [tt2395427, tt2310332, tt0369610, tt4046784]
+      winner: [tt2395427]
+    'outstanding achievement in animated effects in an animated production':
+      nominee: [tt1979388, tt2224026, tt2510894, tt2096673, tt2293640, tt2279373]
+      winner: [tt1979388]
+    'outstanding achievement in character animation in a feature production':
+      nominee: [tt2096673, tt1979388, tt2224026, tt2293640, tt2452042]
+      winner: [tt2096673]
+    'outstanding achievement in character animation in a live action production':
+      nominee: [tt1663202, tt2395427, tt2310332, tt0369610]
+      winner: [tt1663202]
+    'outstanding achievement in character animation in an animated tv/broadcast production':
+      nominee: [tt2325846, tt4147830, tt2720144, tt3010520, tt2252938]
+      winner: [tt2325846]
+    'outstanding achievement in character design in an animated feature production':
+      nominee: [tt2096673, tt1979388, tt2510894, tt2293640]
+      winner: [tt2096673]
+    'outstanding achievement in character design in an animated tv/broadcast production':
+      nominee: [tt4147830, tt3481544, tt5021206, tt3824018, tt3218114, tt3219170]
+      winner: [tt4147830]
+    'outstanding achievement in directing in an animated feature production':
+      nominee: [tt2096673, tt2401878, tt3454574, tt2452042, tt1640718, tt2872750, tt3398268]
+      winner: [tt2096673]
+    'outstanding achievement in directing in an animated tv/broadcast production':
+      nominee: [tt1865718, tt1486217, tt2325846, tt4147830, tt2768802, tt3061046, tt3824018]
+      winner: [tt1865718]
+    'outstanding achievement in editorial in an animated feature production':
+      nominee: [tt2096673, tt2401878, tt1640718, tt2872750]
+      winner: [tt2096673]
+    'outstanding achievement in editorial in an animated tv/broadcast production':
+      nominee: [tt2768802, tt3807022, tt2325846, tt4147830, tt3671692, tt0852863, tt2758770]
+      winner: [tt2768802]
+    'outstanding achievement in music in an animated feature production':
+      nominee: [tt2096673, tt2401878, tt4729754, tt3183630, tt1979388]
+      winner: [tt2096673]
+    'outstanding achievement in music in an animated tv/broadcast production':
+      nominee: [tt2768802, tt4147830, tt3590338, tt2869898, tt2769458, tt0417373, tt2252938]
+      winner: [tt2768802]
+    'outstanding achievement in production design in an animated feature production':
+      nominee: [tt2096673, tt3183630, tt1979388, tt3065132, tt2224026, tt2293640, tt2872750]
+      winner: [tt2096673]
+    'outstanding achievement in production design in an animated tv/broadcast production':
+      nominee: [tt5021206, tt5193172, tt4791498, tt1865718, tt3218114, tt3590338]
+      winner: [tt5021206]
+    'outstanding achievement in storyboarding in an animated feature production':
+      nominee: [tt2096673, tt1979388, tt2510894, tt2293640, tt3454574]
+      winner: [tt2096673]
+    'outstanding achievement in storyboarding in an animated tv/broadcast production':
+      nominee: [tt2768802, tt3807034, tt1305826, tt2325846, tt3952772, tt2252938, tt4839610, tt3061046]
+      winner: [tt2768802]
+    'outstanding achievement in voice acting in an animated feature production':
+      nominee: [tt2096673, tt2401878, tt2293640, tt2452042, tt2279373]
+      winner: [tt2096673]
+    'outstanding achievement in voice acting in an animated tv/broadcast production':
+      nominee: [tt1561755, tt3807034, tt3481544, tt5193172, tt3218114, tt2758770, tt3042608]
+      winner: [tt1561755]
+    'outstanding achievement in writing in an animated feature production':
+      nominee: [tt2096673, tt2872750, tt3398268]
+      winner: [tt2096673]
+    'outstanding achievement in writing in an animated tv/broadcast production':
+      nominee: [tt1561755, tt1305826, tt1865718, tt0096697]
+      winner: [tt1561755]
+    'outstanding achievement in character animation in a video game':
+      nominee: [tt3692056, tt4771836]
+      winner: []
+
+'2015': # https://www.imdb.com/event/ev0000032/2015/1/
+  'annie':
+    'best animated feature':
+      nominee: [tt1646971, tt2245084, tt2361846, tt1865505, tt2262227, tt0787474, tt1490017, tt2576852]
+      winner: [tt1646971]
+    'best animated short subject':
+      nominee: [tt3689498, tt3350724, tt4058120, tt4247164, tt3946086, tt3583608, tt3326262, tt3778722]
+      winner: [tt3689498]
+    'best animated special production':
+      nominee: [tt2395695, tt4191768, tt3816346, tt4217816, tt3473654]
+      winner: [tt2395695]
+    'best animated tv/broadcast commercial':
+      nominee: [tt4247178, tt4247174, tt3757728]
+      winner: [tt4247178]
+    'best animated tv/broadcast production for children''s audience':
+      nominee: [tt1865718, tt1305826, tt1695360, tt3718778, tt2252938]
+      winner: [tt1865718]
+    'best animated video game':
+      nominee: [tt3184534, tt4247292, tt4247300]
+      winner: [tt3184534]
+    'best general audience animated tv/broadcast production':
+      nominee: [tt0096697, tt1486217, tt4204116, tt1561755, tt2861424, tt3038546, tt1710308]
+      winner: [tt0096697]
+    'best general audience animated tv/broadcast production for preschool children':
+      nominee: [tt2948562, tt1710295, tt2720144, tt3514798, tt2204472]
+      winner: [tt2948562]
+    'best student film':
+      nominee: [tt3954878, tt4247362, tt4015866, tt4011640, tt4093664, tt4247378]
+      winner: [tt3954878]
+    'outstanding achievement in animated effects in a live action production':
+      nominee: [tt1631867, tt1959490, tt1872181, tt1170358, tt2109248, tt1877832]
+      winner: [tt1631867]
+    'outstanding achievement in animated effects in an animated production':
+      nominee: [tt2245084, tt1646971, tt0864835, tt1911658, tt2262227, tt0787474, tt1490017]
+      winner: [tt2245084]
+    'outstanding achievement in character animation in a feature production':
+      nominee: [tt1646971, tt1911658, tt0787474]
+      winner: [tt1646971]
+    'outstanding achievement in character animation in a live action production':
+      nominee: [tt2103281, tt2015381, tt1170358]
+      winner: [tt2103281]
+    'outstanding achievement in character animation in a video game':
+      nominee: [tt3947868, tt3052500, tt4247300]
+      winner: [tt3947868]
+    'outstanding achievement in character animation in an animated tv/broadcast production':
+      nominee: [tt2252938, tt3473654, tt2948562]
+      winner: [tt2252938]
+    'outstanding achievement in character design in an animated feature production':
+      nominee: [tt2262227, tt2245084, tt0864835, tt1911658, tt2357291, tt1865505, tt0787474]
+      winner: [tt2262227]
+    'outstanding achievement in character design in an animated tv/broadcast production':
+      nominee: [tt2252938, tt2768802, tt3952578]
+      winner: [tt2252938]
+    'outstanding achievement in directing in an animated feature production':
+      nominee: [tt1646971, tt2245084, tt2361846, tt1865505, tt2262227, tt0787474, tt1490017, tt2576852]
+      winner: [tt1646971]
+    'outstanding achievement in directing in an animated tv/broadcast production':
+      nominee: [tt2768802, tt1305826, tt1486217, tt1561755, tt1865718, tt3718778, tt0096697, tt2252938]
+      winner: [tt2768802]
+    'outstanding achievement in editorial in an animated feature production':
+      nominee: [tt1646971, tt2245084, tt2980706, tt1490017, tt1865505]
+      winner: [tt1646971]
+    'outstanding achievement in editorial in an animated tv/broadcast production':
+      nominee: [tt2768802, tt2325846, tt0182576, tt3473654, tt3010520]
+      winner: [tt2768802]
+    'outstanding achievement in music in an animated feature production':
+      nominee: [tt1646971, tt2361846, tt0864835, tt1865505, tt2576852]
+      winner: [tt1646971]
+    'outstanding achievement in music in an animated tv/broadcast production':
+      nominee: [tt2768802, tt4048256, tt1871731, tt2455546, tt2948562]
+      winner: [tt2768802]
+    'outstanding achievement in production design in an animated feature production':
+      nominee: [tt0787474, tt0864835, tt1865505, tt2262227, tt1490017]
+      winner: [tt0787474]
+    'outstanding achievement in production design in an animated tv/broadcast production':
+      nominee: [tt2768802, tt2395695, tt2732940, tt3010520, tt2252938, tt2204472]
+      winner: [tt2768802]
+    'outstanding achievement in storyboarding in an animated feature production':
+      nominee: [tt1646971, tt2245084, tt2980706, tt2357291, tt0787474]
+      winner: [tt1646971]
+    'outstanding achievement in storyboarding in an animated tv/broadcast production':
+      nominee: [tt1695360, tt2768802, tt1865718, tt2930604, tt0096697, tt3473654, tt2252938]
+      winner: [tt1695360]
+    'outstanding achievement in voice acting in an animated feature production':
+      nominee: [tt0787474, tt1460798, tt2357291]
+      winner: [tt0787474]
+    'outstanding achievement in voice acting in an animated tv/broadcast production':
+      nominee: [tt2768802, tt0235918, tt0437745]
+      winner: [tt2768802]
+    'outstanding achievement in writing in an animated feature production':
+      nominee: [tt1490017, tt2245084, tt1646971, tt1865505, tt0787474]
+      winner: [tt1490017]
+    'outstanding achievement in writing in an animated tv/broadcast production':
+      nominee: [tt2768802, tt2732940, tt0096697, tt3473654]
+      winner: [tt2768802]
+
+'2014': # https://www.imdb.com/event/ev0000032/2014/1/
+  'annie':
+    'best animated feature':
+      nominee: [tt2294629, tt1853614, tt1690953, tt1816518, tt1453405, tt0481499, tt2013293]
+      winner: [tt2294629]
+    'best animated short subject':
+      nominee: [tt2980764, tt3010302, tt3328462, tt3405276]
+      winner: [tt2980764]
+    'best animated special production':
+      nominee: [tt3296746, tt2484120, tt2446040, tt3507226]
+      winner: [tt3296746]
+    'best animated tv/broadcast production for children''s audience':
+      nominee: [tt1305826, tt2329077, tt1865718, tt1545214, tt1710308, tt2059031, tt2771780, tt1695360]
+      winner: [tt1305826]
+    'best animated video game':
+      nominee: [tt2140553]
+      winner: [tt2140553]
+    'best general audience animated tv/broadcast production':
+      nominee: [tt0149460, tt1486217, tt1561755, tt1812523, tt2392143]
+      winner: [tt0149460]
+    'best general audience animated tv/broadcast production for preschool children':
+      nominee: [tt2136138, tt0965404, tt1710295, tt1870073, tt2720144]
+      winner: [tt2136138]
+    'best student film':
+      nominee: [tt3220984, tt2825782, tt2220592, tt2820158, tt2798660, tt2902768, tt2849004, tt2930010]
+      winner: [tt3220984]
+    'outstanding achievement in animated effects in a live action production':
+      nominee: [tt1663662, tt0770828, tt1408101]
+      winner: [tt1663662]
+    'outstanding achievement in animated effects in an animated production':
+      nominee: [tt0481499, tt0848537, tt2325846, tt1453405, tt1860353]
+      winner: [tt0481499]
+    'outstanding achievement in character animation in a feature production':
+      nominee: [tt0481499, tt0848537, tt1690953, tt1453405, tt2013293, tt2294629, tt1816518]
+      winner: [tt0481499]
+    'outstanding achievement in character animation in a live action production':
+      nominee: [tt0903624, tt1663662, tt1131746]
+      winner: [tt0903624]
+    'outstanding achievement in character animation in an animated tv/broadcast production':
+      nominee: [tt2446040, tt3116208, tt3148316, tt0458290]
+      winner: [tt2446040]
+    'outstanding achievement in character design in an animated feature production':
+      nominee: [tt0481499, tt1860353, tt1985966, tt1453405, tt0961097, tt1690953, tt2294629]
+      winner: [tt0481499]
+    'outstanding achievement in character design in an animated tv/broadcast production':
+      nominee: [tt2768802, tt2252938, tt2818496, tt1710308, tt3061046]
+      winner: [tt2768802]
+    'outstanding achievement in directing in an animated feature production':
+      nominee: [tt2294629, tt0481499, tt0848537, tt1860353, tt1816518]
+      winner: [tt2294629]
+    'outstanding achievement in directing in an animated tv/broadcast production':
+      nominee: [tt2446040, tt1695360, tt2325846, tt2958484, tt1865718, tt2768802, tt1870073]
+      winner: [tt2446040]
+    'outstanding achievement in editorial in an animated feature production':
+      nominee: [tt1453405, tt0481499, tt1860353, tt1816518, tt2294629]
+      winner: [tt1453405]
+    'outstanding achievement in editorial in an animated tv/broadcast production':
+      nominee: [tt2768802, tt1545214, tt1877889, tt2325846, tt2446040, tt0149460, tt1305826, tt0458290]
+      winner: [tt2768802]
+    'outstanding achievement in music in an animated feature production':
+      nominee: [tt2294629, tt0481499, tt1860353, tt1985966, tt1690953, tt0848537, tt1453405, tt1621039]
+      winner: [tt2294629]
+    'outstanding achievement in music in an animated tv/broadcast production':
+      nominee: [tt2768802, tt2503074, tt1710310, tt2720144, tt2136138, tt2252938]
+      winner: [tt2768802]
+    'outstanding achievement in production design in an animated feature production':
+      nominee: [tt2294629, tt0481499, tt1690953, tt0848537, tt1453405, tt1816518]
+      winner: [tt2294629]
+    'outstanding achievement in production design in an animated tv/broadcast production':
+      nominee: [tt1695360, tt0417373, tt3061046, tt0096697, tt1659175, tt1305826]
+      winner: [tt1695360]
+    'outstanding achievement in storyboarding in an animated feature production':
+      nominee: [tt1453405, tt0481499, tt2294629, tt1690953, tt1691917]
+      winner: [tt1453405]
+    'outstanding achievement in storyboarding in an animated tv/broadcast production':
+      nominee: [tt2446040, tt2782214, tt2325846, tt1486217, tt2768802, tt1865718, tt0096697, tt1870073]
+      winner: [tt2446040]
+    'outstanding achievement in voice acting in an animated feature production':
+      nominee: [tt2294629, tt1860353, tt1985966, tt1690953, tt1453405]
+      winner: [tt2294629]
+    'outstanding achievement in voice acting in an animated tv/broadcast production':
+      nominee: [tt1305826, tt0235918, tt2768802, tt1710308]
+      winner: [tt1305826]
+    'outstanding achievement in writing in an animated feature production':
+      nominee: [tt2013293, tt1816518, tt1453405, tt2294629]
+      winner: [tt2013293]
+    'outstanding achievement in writing in an animated tv/broadcast production':
+      nominee: [tt0149460, tt1545214, tt0096697, tt1710308]
+      winner: [tt0149460]
+  'certificate of merit':
+    'certificate of merit':
+      nominee: [tt2113683]
+      winner: [tt2113683]
+
+'2013': # https://www.imdb.com/event/ev0000032/2013/1/
+  'annie':
+    'animated effects in a live action production':
+      nominee: [tt0848228, tt0948470, tt0401729, tt1440129]
+      winner: [tt0848228]
+    'animated effects in an animated production':
+      nominee: [tt1446192, tt1623288, tt1667889, tt1217209, tt1772341, tt1277953, tt0458290]
+      winner: [tt1446192]
+    'best animated feature':
+      nominee: [tt1772341, tt1217209, tt1142977, tt0837562, tt1623288, tt1446192, tt1430626, tt1355638]
+      winner: [tt1772341]
+    'best animated short subject':
+      nominee: [tt2388725, tt2244747, tt2160092, tt2251307, tt2479848, tt2403403, tt0096697, tt2175842]
+      winner: [tt2388725]
+    'best animated special production':
+      nominee: [tt2755518, tt2313197, tt2394627, tt1812523, tt2402005, tt2065968, tt2027128]
+      winner: [tt2755518]
+    'best animated television production for children':
+      nominee: [tt2325846, tt2416796, tt1305826, tt2258518, tt2402600, tt0892700, tt2349479, tt0206512, tt1942683, tt4077994, tt0235918, tt1695360, tt2150017]
+      winner: [tt2325846, tt2416796]
+    'best animated video game':
+      nominee: [tt1821474, tt2385021, tt2357337]
+      winner: [tt1821474]
+    'best general audience animated television production':
+      nominee: [tt2381287, tt1486217, tt1561755, tt2393284, tt2392143, tt2326174, tt1718438, tt0121955, tt2128150]
+      winner: [tt2381287]
+    'best general audience animated television production for preschool children':
+      nominee: [tt0965404, tt2376103, tt1307510, tt2315448, tt1833403, tt2193140, tt1710295, tt1870073]
+      winner: [tt0965404, tt2376103]
+    'best student film':
+      nominee: [tt2391009, tt2207752, tt1942840, tt2196116, tt2223776, tt2355236, tt2553910, tt2391067]
+      winner: [tt2391009]
+    'character animation in a feature production':
+      nominee: [tt1623288, tt1217209, tt1446192, tt1430626]
+      winner: [tt1623288]
+    'character animation in a live action production':
+      nominee: [tt0454876, tt0848228, tt0948470]
+      winner: [tt0454876]
+    'character animation in an animated television or other broadcast venue production':
+      nominee: [tt2476918, tt2325846, tt1870073, tt0458290, tt2132039, tt2394627]
+      winner: [tt2476918]
+    'character design in an animated feature production':
+      nominee: [tt1623288, tt0837562, tt1277953, tt1482459, tt1772341]
+      winner: [tt1623288]
+    'character design in an animated television or other broadcast venue production':
+      nominee: [tt1812523, tt2402007, tt1710310, tt2293002, tt2403550, tt2266141, tt2309507, tt1600757, tt2427620, tt2325846, tt2403926, tt1695360, tt2150017, tt2010634, tt2278289]
+      winner: [tt1812523, tt2402007]
+    'directing in an animated feature production':
+      nominee: [tt1772341, tt0837562, tt1355638, tt2077908, tt1623288]
+      winner: [tt1772341]
+    'directing in an animated television or other broadcast venue production':
+      nominee: [tt2325846, tt2389668, tt1833403, tt2193140, tt2476918, tt1942683, tt4077994, tt1901983, tt7154304, tt1877889, tt2413618]
+      winner: [tt2325846, tt2389668]
+    'editorial in an animated feature production':
+      nominee: [tt1217209, tt0837562, tt1446192, tt1217213, tt1772341]
+      winner: [tt1217209]
+    'editorial in an animated television or other broadcast venue production':
+      nominee: [tt1545214, tt2509318, tt2114052, tt2349440, tt0458290, tt2226942, tt1675276, tt2224807, tt2268617, tt2325846, tt2389668, tt2137286]
+      winner: [tt1545214, tt2509318]
+    'music in an animated feature production':
+      nominee: [tt1772341, tt1446192, tt1488181, tt1217213, tt1667889, tt1482459, tt0837562, tt1217209]
+      winner: [tt1772341]
+    'music in an animated television or other broadcast venue production':
+      nominee: [tt2325846, tt2416796, tt0096697, tt2396464, tt0892700, tt1710310, tt0965404, tt2243773, tt1724587, tt1946917]
+      winner: [tt2325846, tt2416796]
+    'production design in an animated feature production':
+      nominee: [tt1217209, tt1277953, tt0837562, tt1667889, tt1430626, tt1446192, tt1142977, tt1623288]
+      winner: [tt1217209]
+    'production design in an animated television or other broadcast venue production':
+      nominee: [tt1812523, tt2466942, tt1870073, tt1865718, tt2152239, tt1305826, tt2401576, tt0096697, tt2416156]
+      winner: [tt1812523, tt2466942]
+    'storyboarding in an animated feature production':
+      nominee: [tt1446192, tt1623288, tt1772341, tt1277953]
+      winner: [tt1446192]
+    'storyboarding in an animated television or other broadcast venue production':
+      nominee: [tt2325846, tt2448268, tt1877889, tt2413610, tt1710295, tt1812523, tt2438426, tt1305826, tt2185414, tt2137286, tt2323656, tt1545214, tt2509318]
+      winner: [tt2325846, tt2448268]
+    'voice acting in an animated feature production':
+      nominee: [tt1772341, tt0837562, tt1142977, tt1430626, tt1488181, tt1446192, tt1217209]
+      winner: [tt1772341]
+    'voice acting in an animated television or other broadcast venue production':
+      nominee: [tt1865718, tt2152239, tt1877889, tt1486217, tt2207831, tt2341339, tt2475546, tt0892700, tt1927860, tt0458290, tt2132039, tt1710310]
+      winner: [tt1865718, tt2152239]
+    'writing in an animated feature production':
+      nominee: [tt1772341, tt1623288, tt1430626, tt1798188, tt1142977, tt1217209]
+      winner: [tt1772341]
+    'writing in an animated television or other broadcast venue production':
+      nominee: [tt0121955, tt2128145, tt2325846, tt2389668, tt0149460, tt1952190, tt0892700, tt0096697, tt2518614, tt1545214, tt2352621, tt2214159, tt2349440]
+      winner: [tt0121955, tt2128145]
+
+'2012': # https://www.imdb.com/event/ev0000032/2012/1/
+  'annie':
+    'animated effects in a live action production':
+      nominee: [tt1399103, tt1298650, tt0409847]
+      winner: [tt1399103]
+    'animated effects in an animated production':
+      nominee: [tt0983193, tt0448694, tt1192628, tt1449283, tt1302011, tt1216475, tt0458290]
+      winner: [tt0983193]
+    'best animated feature':
+      nominee: [tt1192628, tt1673702, tt1407052, tt1235830, tt1302011, tt0448694, tt1430607, tt1436562, tt1216475, tt0983193]
+      winner: [tt1192628]
+    'best animated short subject':
+      nominee: [tt2162565, tt2116900, tt1957945, tt1891881, tt1787092, tt1895334, tt1827536, tt1829747, tt2097943]
+      winner: [tt2162565]
+    'best animated special production':
+      nominee: [tt1980162, tt2100546]
+      winner: [tt1980162]
+    'best animated television production - children':
+      nominee: [tt1942683, tt1299440, tt1545214, tt0892700]
+      winner: [tt1942683]
+    'best animated television production - preschool':
+      nominee: [tt1833403, tt1307510, tt0784896, tt1430135]
+      winner: [tt1833403]
+    'best animated video game':
+      nominee: [tt2162649, tt2002632, tt1638317, tt1885351, tt1800763, tt2162585, tt2162631, tt2162635, tt2162707]
+      winner: [tt2162649]
+    'best general audience animated tv production':
+      nominee: [tt0096697, tt1486217, tt1724587, tt2079513, tt1718438, tt2069885, tt0458290, tt1535715]
+      winner: [tt0096697]
+    'character animation in a feature production':
+      nominee: [tt1436562, tt1449283, tt1302011, tt0448694]
+      winner: [tt1436562]
+    'character animation in a live action production':
+      nominee: [tt1318514, tt1411704, tt1092026]
+      winner: [tt1318514]
+    'character animation in a television production':
+      nominee: [tt2069885, tt1545214, tt1535715]
+      winner: [tt2069885]
+    'character design in a feature production':
+      nominee: [tt1192628, tt1216475, tt0448694, tt1430607, tt1436562]
+      winner: [tt1192628]
+    'character design in a television production':
+      nominee: [tt2069885, tt1600757, tt1486217, tt1675276, tt1710310, tt2010634]
+      winner: [tt2069885]
+    'directing in a feature production':
+      nominee: [tt1302011, tt1436562, tt0448694, tt1449283, tt1192628, tt0377981]
+      winner: [tt1302011]
+    'directing in a television production':
+      nominee: [tt0096697, tt1675276, tt1600757, tt1439629, tt1545214, tt1710310, tt2069885, tt1942683, tt1871731, tt0892700, tt2079513]
+      winner: [tt0096697]
+    'editing in television production':
+      nominee: [tt0892700, tt1535715, tt1545214, tt0458290, tt0149460]
+      winner: [tt0892700]
+    'editing in a feature production':
+      nominee: [tt1192628, tt1302011, tt0448694, tt0983193, tt1216475]
+      winner: [tt1192628]
+    'music in a feature production':
+      nominee: [tt0983193, tt0448694, tt1436562, tt1449283]
+      winner: [tt0983193]
+    'music in a television production':
+      nominee: [tt2069885, tt0892700, tt1942683, tt1724587, tt1450334, tt1666278, tt0437745]
+      winner: [tt2069885]
+    'production design in a feature production':
+      nominee: [tt1302011, tt1216475, tt1449283, tt1436562]
+      winner: [tt1302011]
+    'production design in a television production':
+      nominee: [tt2010634, tt2079513]
+      winner: [tt2010634]
+    'storyboarding in a feature production':
+      nominee: [tt1449283, tt0448694, tt1192628, tt1302011, tt1430607, tt0377981, tt1216475]
+      winner: [tt1449283]
+    'storyboarding in a television production':
+      nominee: [tt2069885, tt1710308, tt1710310, tt1299440, tt1305826]
+      winner: [tt2069885]
+    'voice acting in a feature production':
+      nominee: [tt1430607, tt1302011, tt1436562, tt0377981, tt0448694]
+      winner: [tt1430607]
+    'voice acting in a television production':
+      nominee: [tt0892700, tt0235918, tt1535715, tt0458290, tt1213218, tt1486217, tt1942683]
+      winner: [tt0892700]
+    'writing in a feature production':
+      nominee: [tt1192628, tt1449283, tt1430607, tt0983193, tt0377981]
+      winner: [tt1192628]
+    'writing in a television production':
+      nominee: [tt0096697, tt2083065, tt1725902, tt2055976, tt0206512, tt0149460, tt1642354, tt1710310, tt0297494, tt1959782, tt0235918, tt1960953, tt2069885]
+      winner: [tt0096697, tt2083065]
+
+'2011': # https://www.imdb.com/event/ev0000032/2011/1/
+  'annie':
+    'best animated effects':
+      nominee: [tt0892769, tt0892791, tt1219342, tt1001526]
+      winner: [tt0892769]
+    'best animated feature':
+      nominee: [tt0892769, tt1323594, tt0775489, tt0398286, tt0435761]
+      winner: [tt0892769]
+    'best animated short subject':
+      nominee: [tt1620446, tt1675852, tt1735351, tt1625161, tt1763314]
+      winner: [tt1620446]
+    'best animated television production':
+      nominee: [tt1702433, tt0149460, tt1725156, tt0458290, tt0096697]
+      winner: [tt1702433]
+    'best animated television production for children':
+      nominee: [tt0206512, tt1305826, tt1299440, tt1710308, tt1795757]
+      winner: [tt0206512]
+    'best animated video game':
+      nominee: [tt1754134, tt1606610, tt1957940, tt2231507]
+      winner: [tt1754134]
+    'best character animation in a feature production':
+      nominee: [tt0892769, tt1001526]
+      winner: [tt0892769]
+    'best character animation in a live action production':
+      nominee: [tt1014759, tt0800320]
+      winner: [tt1014759]
+    'best character design in a television production':
+      nominee: [tt1710310, tt1553644, tt1299440, tt1709198]
+      winner: [tt1710310]
+    'best character design in an animated feature production':
+      nominee: [tt0892769, tt0775489, tt1323594, tt1001526]
+      winner: [tt0892769]
+    'best directing in a feature production':
+      nominee: [tt0892769, tt0435761, tt1323594, tt0775489, tt1474276]
+      winner: [tt0892769]
+    'best directing in a television production':
+      nominee: [tt1702433, tt1535715, tt1725156, tt0096697, tt1782440]
+      winner: [tt1702433]
+    'best music in a television production':
+      nominee: [tt0206512, tt1702433, tt0096697, tt1628648, tt0775407]
+      winner: [tt0206512]
+    'best music in an animated feature production':
+      nominee: [tt0892769, tt1219342, tt1323594, tt0892791, tt0775489]
+      winner: [tt0892769]
+    'best production design in an animated feature production':
+      nominee: [tt0892769, tt1323594, tt1219342, tt0892791]
+      winner: [tt0892769]
+    'best production design in an animated television production':
+      nominee: [tt1702433, tt1592270, tt1782440, tt1709198, tt5845886]
+      winner: [tt1702433]
+    'best storyboarding in an animated feature production':
+      nominee: [tt0892769, tt0892791, tt1001526]
+      winner: [tt0892769]
+    'best storyboarding in an animated television production':
+      nominee: [tt1710310, tt1725156, tt1702433, tt0235918]
+      winner: [tt1710310]
+    'best voice acting in an animated feature production':
+      nominee: [tt0892769, tt1323594, tt0892791, tt1219342]
+      winner: [tt0892769]
+    'best voice acting in an animated television production':
+      nominee: [tt1702433, tt1195935, tt0458290, tt1299440]
+      winner: [tt1702433]
+    'best writing in a television production':
+      nominee: [tt1691338, tt0149460, tt0852863, tt0096697, tt0458290]
+      winner: [tt1691338]
+    'best writing in an animated feature production':
+      nominee: [tt0892769, tt0398286, tt0435761, tt1001526, tt0775489]
+      winner: [tt0892769]
+    'character animation in a television production':
+      nominee: [tt1702433, tt1725156, tt1691338]
+      winner: [tt1702433]
+  'special achievement award':
+    'special achievement award':
+      nominee: [tt1159961]
+      winner: [tt1159961]
+
+'2010': # https://www.imdb.com/event/ev0000032/2010/1/
+  'annie':
+    'animated effects':
+      nominee: [tt0780521, tt0472033, tt0844471, tt0892782, tt1049413]
+      winner: [tt0780521]
+    'best animated feature':
+      nominee: [tt1049413, tt0844471, tt0327597, tt0432283, tt0780521, tt0485601]
+      winner: [tt1049413]
+    'best animated short subject':
+      nominee: [tt1522256, tt1634050, tt1521078]
+      winner: []
+    'best animated television production':
+      nominee: [tt1474311, tt1355237, tt0096697, tt1526300]
+      winner: [tt1474311]
+    'best animated television production for children':
+      nominee: [tt0892700, tt0784896, tt0206512, tt1178180, tt0917551]
+      winner: [tt0892700]
+    'best home entertainment production':
+      nominee: [tt1054487, tt0206512, tt1570964, tt1384590, tt1107365]
+      winner: [tt1054487]
+    'character animation in a feature production':
+      nominee: [tt0780521, tt0327597, tt1049413]
+      winner: [tt0780521]
+    'character animation in a television production':
+      nominee: [tt1482967, tt1542599, tt1526300, tt1474311]
+      winner: [tt1482967]
+    'character design in a feature production':
+      nominee: [tt0327597, tt1049413]
+      winner: [tt0327597]
+    'character design in a television production':
+      nominee: [tt1474311, tt0419326, tt0917551, tt1765531, tt1526300]
+      winner: [tt1474311]
+    'directing in a feature production':
+      nominee: [tt1049413, tt0844471, tt0327597, tt0432283, tt0876563]
+      winner: [tt1049413]
+    'directing in a television production':
+      nominee: [tt0892700, tt0397306, tt1494137, tt1178180, tt0775407]
+      winner: [tt0892700]
+    'music in a feature production':
+      nominee: [tt0327597, tt0876563, tt1080016, tt1049413]
+      winner: [tt0327597]
+    'music in a television production':
+      nominee: [tt0235918, tt0437745, tt0458290, tt1474311]
+      winner: [tt0235918]
+    'production design in a feature production':
+      nominee: [tt0327597, tt0472033, tt0780521]
+      winner: [tt0327597]
+    'production design in a television production':
+      nominee: [tt1474311, tt0419326]
+      winner: [tt1474311]
+    'storyboarding in a feature production':
+      nominee: [tt0892782, tt0375568, tt0327597, tt1049413]
+      winner: [tt0892782]
+    'storyboarding in a television production':
+      nominee: [tt1526300, tt0235918, tt0917551, tt1765531, tt0976192, tt1474311]
+      winner: [tt1526300]
+    'voice acting in a feature production':
+      nominee: [tt0780521, tt0327597, tt1080016, tt0892782]
+      winner: [tt0780521]
+    'voice acting in a television production':
+      nominee: [tt0206512, tt1140100, tt1526300]
+      winner: [tt0206512]
+    'writing in a feature production':
+      nominee: [tt0432283, tt0375568, tt0844471, tt1049413]
+      winner: [tt0432283]
+    'writing in a television production':
+      nominee: [tt0096697, tt0775407, tt1474311]
+      winner: [tt0096697]
+
+'2009': # https://www.imdb.com/event/ev0000032/2009/1/
+  'annie':
+    'best animated effects':
+      nominee: [tt0441773, tt0397892, tt0451079, tt0479952, tt0910970]
+      winner: [tt0441773]
+    'best animated feature':
+      nominee: [tt0441773, tt0790799, tt0397892, tt1185616, tt0910970]
+      winner: [tt0441773]
+    'best animated home entertainment production':
+      nominee: [tt1054485, tt1117563, tt0762148, tt0902272, tt0969647]
+      winner: [tt1054485]
+    'best animated short subject':
+      nominee: [tt1118511, tt1256626, tt1352832, tt1245104, tt1305751]
+      winner: [tt1118511]
+    'best animated television production':
+      nominee: [tt1334272, tt0118375, tt0476922, tt0852863, tt0096697]
+      winner: [tt1334272]
+    'best animated television production produced for children':
+      nominee: [tt0417299, tt0419326, tt3004940, tt0917551, tt1332026, tt1327772]
+      winner: [tt0417299]
+    'best animated video game':
+      nominee: [tt1191122, tt1267296, tt1340049]
+      winner: [tt1191122]
+    'best character animation in a feature production':
+      nominee: [tt0441773, tt0451079, tt0910970]
+      winner: [tt0441773]
+    'best character animation in a television production or short form':
+      nominee: [tt1287845, tt1334272]
+      winner: [tt1287845]
+    'best character design in an animated feature production':
+      nominee: [tt0441773, tt0451079, tt0465502]
+      winner: [tt0441773]
+    'best character design in an animated television production or short form':
+      nominee: [tt1287845, tt0805837, tt0419326, tt1221658, tt0917551, tt1234323, tt0976192]
+      winner: [tt1287845]
+    'best directing in an animated feature production':
+      nominee: [tt0441773, tt0790799, tt0420238, tt1185616, tt0910970]
+      winner: [tt0441773]
+    'best directing in an animated television production or short form':
+      nominee: [tt0417299, tt0419326, tt3004940, tt0476922, tt1325268, tt0096697, tt1291168, tt0206512]
+      winner: [tt0417299]
+    'best music in an animated feature production':
+      nominee: [tt0441773, tt1117563, tt0451079, tt0420238, tt1185616]
+      winner: [tt0441773]
+    'best music in an animated television production or short form':
+      nominee: [tt1287845, tt0857277, tt1190760, tt0870039, tt0458290, tt1288768]
+      winner: [tt1287845]
+    'best production design in an animated feature production':
+      nominee: [tt0441773, tt0397892, tt0420238, tt0910970]
+      winner: [tt0441773]
+    'best production design in an animated television production or short form':
+      nominee: [tt1287845, tt1140100, tt1238345, tt0917551, tt1315514, tt1256626]
+      winner: [tt1287845]
+    'best storyboarding in an animated feature production':
+      nominee: [tt0441773, tt0397892, tt0420238, tt0910970]
+      winner: [tt0441773]
+    'best storyboarding in an animated television production or short form':
+      nominee: [tt1256626, tt0235918, tt0917551, tt1315324, tt0934701, tt1409344, tt1287845]
+      winner: [tt1256626]
+    'best voice acting in an animated feature production':
+      nominee: [tt0441773, tt0397892, tt0910970]
+      winner: [tt0441773]
+    'best voice acting in an animated television production or short form':
+      nominee: [tt1334272, tt1140100, tt1260525, tt0182576, tt1293321]
+      winner: [tt1334272]
+    'best writing in an animated feature production':
+      nominee: [tt0441773, tt0479952, tt0451079, tt1185616]
+      winner: [tt0441773]
+    'best writing in an animated television production or short form':
+      nominee: [tt1334272, tt0805837, tt0096697, tt1188966, tt1256626, tt1287845]
+      winner: [tt1334272]
+
+'2008': # https://www.imdb.com/event/ev0000032/2008/1/
+  'annie':
+    'best animated effects':
+      nominee: [tt0423294, tt1114718, tt0382932, tt0413300]
+      winner: [tt0423294]
+    'best animated feature':
+      nominee: [tt0382932, tt0389790, tt0808417, tt0462538, tt0423294]
+      winner: [tt0382932]
+    'best animated short subject':
+      nominee: [tt1134859, tt0887734, tt0859503, tt1103970, tt1114718]
+      winner: [tt1134859]
+    'best animated television production for children':
+      nominee: [tt0805837, tt0439349, tt1140100, tt0756522, tt0389668]
+      winner: [tt0805837]
+    'best animated television program':
+      nominee: [tt0759097]
+      winner: [tt0759097]
+    'best animated video game':
+      nominee: [tt1230569, tt1459461, tt1152817, tt1015475]
+      winner: [tt1230569]
+    'best animation production artist':
+      nominee: [tt0423294, tt0870039, tt0451461, tt0389790, tt1103970]
+      winner: [tt0423294]
+    'best character animation in a feature production':
+      nominee: [tt0382932, tt0423294]
+      winner: [tt0382932]
+    'best character animation in a television production':
+      nominee: [tt0437745, tt0805837, tt0476922]
+      winner: [tt0437745]
+    'best character design in an animated feature production':
+      nominee: [tt0382932, tt0423294]
+      winner: [tt0382932]
+    'best character design in an animated television production':
+      nominee: [tt0805837]
+      winner: [tt0805837]
+    'best directing in an animated feature production':
+      nominee: [tt0382932, tt0413267, tt0808417, tt0462538, tt0423294]
+      winner: [tt0382932]
+    'best directing in an animated television production':
+      nominee: [tt1020990, tt0465327, tt1146582, tt0497310, tt0897387, tt0805905]
+      winner: [tt1020990]
+    'best home entertainment production':
+      nominee: [tt0471711, tt0910865]
+      winner: [tt0471711]
+    'best music in an animated feature production':
+      nominee: [tt0382932, tt0389790, tt1135924, tt0396555, tt0808417]
+      winner: [tt0382932]
+    'best music in an animated television production':
+      nominee: [tt0096697, tt0959423, tt0439349, tt0805837, tt0419326, tt1000070]
+      winner: [tt0096697, tt0959423]
+    'best production design in an animated feature production':
+      nominee: [tt0382932, tt0442933, tt0423294]
+      winner: [tt0382932]
+    'best storyboarding in an animated feature production':
+      nominee: [tt0382932, tt0389790, tt0396555, tt0423294, tt0453556]
+      winner: [tt0382932]
+    'best storyboarding in an animated television production':
+      nominee: [tt0182576, tt0945078, tt0366005, tt1069426, tt0805905, tt0816401, tt1127080, tt0780438]
+      winner: [tt0182576, tt0945078]
+    'best voice acting in an animated feature production':
+      nominee: [tt0382932, tt0389790, tt0462538]
+      winner: [tt0382932]
+    'best voice acting in an animated television production':
+      nominee: [tt0465327, tt1146582, tt0476922, tt0206512, tt0762148, tt0897387]
+      winner: [tt0465327, tt1146582]
+    'best writing in an animated feature production':
+      nominee: [tt0382932, tt0423294, tt0808417, tt0462538]
+      winner: [tt0382932]
+    'best writing in an animated television production':
+      nominee: [tt0096697, tt0907538, tt0857277, tt1140100, tt0451461, tt0497310]
+      winner: [tt0096697, tt0907538]
+    'best animated television production':
+      nominee: [tt0486069, tt0278866, tt0476922, tt1020990]
+      winner: []
+
+'2007': # https://www.imdb.com/event/ev0000032/2007/1/
+  'annie':
+    'best animated effects':
+      nominee: [tt0424095, tt0317219, tt0438097, tt0400717]
+      winner: [tt0424095]
+    'best animated feature':
+      nominee: [tt0317219, tt0366548, tt0385880, tt0400717, tt0327084]
+      winner: [tt0317219]
+    'best animated short subject':
+      nominee: [tt0902999, tt8347240, tt0890874, tt0493418, tt0923583]
+      winner: [tt0902999]
+    'best animated television production':
+      nominee: [tt0419326, tt0487813, tt0235918, tt0118375, tt0762067]
+      winner: [tt0419326]
+    'best animated video game':
+      nominee: [tt0876112, tt0833979]
+      winner: [tt0876112]
+    'best character animation in a feature production':
+      nominee: [tt0424095, tt0317219, tt0327084]
+      winner: [tt0424095]
+    'best character animation in a television production':
+      nominee: [tt0417299, tt0789294, tt0182576, tt0476922, tt0437745]
+      winner: [tt0417299, tt0789294]
+    'best character design in an animated feature production':
+      nominee: [tt0327084, tt0438097, tt0400717]
+      winner: [tt0327084]
+    'best character design in an animated television production':
+      nominee: [tt0419348, tt1137634, tt0366005, tt0830719, tt0443418]
+      winner: [tt0419348, tt1137634]
+    'best directing in an animated feature production':
+      nominee: [tt0327084, tt0317219, tt0424095, tt0438097, tt0385880]
+      winner: [tt0327084]
+    'best directing in an animated television production':
+      nominee: [tt0417299, tt0831940, tt0419326, tt1229927, tt0292800, tt0870039]
+      winner: [tt0417299, tt0831940]
+    'best home entertainment production':
+      nominee: [tt0447854, tt0493201, tt1024677]
+      winner: [tt0447854]
+    'best music in an animated feature production':
+      nominee: [tt0317219, tt0429589, tt0896522, tt0438097, tt0850686]
+      winner: [tt0317219]
+    'best music in an animated television production':
+      nominee: [tt0419326, tt0771757, tt0381772, tt1025629, tt0859503, tt0497310]
+      winner: [tt0419326, tt0771757]
+    'best production design in an animated feature production':
+      nominee: [tt0424095, tt0317219, tt0400717, tt0327084]
+      winner: [tt0424095]
+    'best production design in an animated television production':
+      nominee: [tt0419326, tt0908422, tt0419315, tt0419348, tt0451461, tt0762067]
+      winner: [tt0419326, tt0908422]
+    'best storyboarding in an animated feature production':
+      nominee: [tt0327084, tt0424095, tt0438097, tt0400717]
+      winner: [tt0327084]
+    'best storyboarding in an animated television production':
+      nominee: [tt0443418, tt0429305, tt0826263, tt0366005, tt0878361, tt0823902, tt0810895]
+      winner: [tt0443418]
+    'best voice acting in an animated feature production':
+      nominee: [tt0424095, tt0385880, tt0327084]
+      winner: [tt0424095]
+    'best voice acting in an animated television production':
+      nominee: [tt0465327, tt0890320, tt0182576, tt0837965, tt0419326, tt1155119, tt0381772, tt1955771]
+      winner: [tt0465327, tt0890320]
+    'best writing in an animated feature production':
+      nominee: [tt0424095, tt0465925, tt0317219, tt0366548, tt0385880]
+      winner: [tt0424095]
+    'best writing in an animated television production':
+      nominee: [tt0096697, tt0397306, tt0818278, tt0182576, tt0837965, tt0451461]
+      winner: [tt0096697]
+
+'2006': # https://www.imdb.com/event/ev0000032/2006/1/
+  'annie':
+    'best animated effects':
+      nominee: [tt0312004, tt0371606, tt0351283]
+      winner: [tt0312004]
+    'best animated feature':
+      nominee: [tt0312004, tt0371606, tt0121164, tt0347149, tt0351283]
+      winner: [tt0312004]
+    'best animated short subject':
+      nominee: [tt0469078, tt0499515, tt0481578, tt0449619, tt0482549]
+      winner: [tt0469078]
+    'best animated television production':
+      nominee: [tt0361243, tt0417299, tt0398417, tt0419326, tt0318233]
+      winner: [tt0361243]
+    'best animated video game':
+      nominee: [tt0479196, tt0397042, tt0395252, tt0491165, tt0462563]
+      winner: [tt0479196]
+    'best character animation':
+      nominee: [tt0312004, tt0363771, tt0482053]
+      winner: [tt0312004]
+    'best character design in an animated feature production':
+      nominee: [tt0312004, tt0371606, tt0121164, tt0351283, tt0358082]
+      winner: [tt0312004]
+    'best character design in an animated television production':
+      nominee: [tt0235918, tt0450208, tt0421306, tt0419326, tt0771750, tt0318233]
+      winner: [tt0235918]
+    'best directing in an animated feature production':
+      nominee: [tt0312004, tt0121164, tt0347149]
+      winner: [tt0312004]
+    'best directing in an animated television production':
+      nominee: [tt0182576, tt0576952, tt0235918, tt0576954, tt0419326, tt0771747, tt0275137]
+      winner: [tt0182576, tt0576952]
+    'best home entertainment production':
+      nominee: [tt0457993, tt0472219, tt0471588, tt0401398, tt0437503]
+      winner: [tt0457993]
+    'best music in an animated feature production':
+      nominee: [tt0312004, tt0351283]
+      winner: [tt0312004]
+    'best music in an animated television production':
+      nominee: [tt0419326, tt0771747, tt0398417, tt0519678, tt0478960]
+      winner: [tt0419326, tt0771747]
+    'best production design in an animated feature production':
+      nominee: [tt0312004, tt0371606, tt0457993, tt0351283, tt0358082]
+      winner: [tt0312004]
+    'best production design in an animated television production':
+      nominee: [tt0419326, tt0771742, tt0407398, tt0278866, tt0419348, tt0631988, tt0318233]
+      winner: [tt0419326, tt0771742]
+    'best storyboarding in an animated feature production':
+      nominee: [tt0312004, tt0401398, tt0351283]
+      winner: [tt0312004]
+    'best storyboarding in an animated television production':
+      nominee: [tt0417299, tt0516777, tt0366005, tt0845649, tt0278866, tt0428138]
+      winner: [tt0417299, tt0516777]
+    'best voice acting in an animated feature production':
+      nominee: [tt0312004]
+      winner: [tt0312004]
+    'best voice acting in an animated television production':
+      nominee: [tt0182576, tt0576922, tt0923157, tt0118375, tt0764034, tt0428138, tt0492460]
+      winner: [tt0182576, tt0576922]
+    'best writing in an animated feature production':
+      nominee: [tt0312004, tt0347149, tt0401398]
+      winner: [tt0312004]
+    'best writing in an animated television production':
+      nominee: [tt0206512, tt0320808, tt1273832, tt0417299, tt0381772, tt0423705, tt0827379]
+      winner: [tt0206512]
+  'certificate of merit':
+    'certificate of merit':
+      nominee: [tt0443488]
+      winner: [tt0443488]
+  'ub iwerks award for technical achievement':
+    'ub iwerks award for technical achievement':
+      nominee: [tt0121164]
+      winner: [tt0121164]
+
+'2005': # https://www.imdb.com/event/ev0000032/2005/1/
+  'annie':
+    'animated effects':
+      nominee: [tt0317705, tt0347246, tt0338348, tt0307453, tt0298148]
+      winner: [tt0317705]
+    'best animated feature':
+      nominee: [tt0317705, tt0347246, tt0298148, tt0345950]
+      winner: [tt0317705]
+    'best animated short subject':
+      nominee: [tt0412936, tt0441593, tt0405054, tt0425410, tt0414469]
+      winner: [tt0412936]
+    'best animated television production':
+      nominee: [tt0206512, tt0419326, tt0318233, tt0361243, tt0398417]
+      winner: [tt0206512]
+    'best home entertainment production':
+      nominee: [tt0318403, tt0371823, tt0418141]
+      winner: [tt0318403]
+    'character animation':
+      nominee: [tt0317705, tt0307453]
+      winner: [tt0317705]
+    'character design in an animated feature production':
+      nominee: [tt0317705, tt0299172, tt0307453]
+      winner: [tt0317705]
+    'character design in an animated television production':
+      nominee: [tt0361179, tt0235918, tt0463950, tt0419326, tt0407398, tt0175058, tt1485649]
+      winner: [tt0361179]
+    'directing in an animated feature production':
+      nominee: [tt0317705, tt0299172, tt0347246, tt0298148, tt0345950]
+      winner: [tt0317705]
+    'directing in an animated television production':
+      nominee: [tt0292800, tt0320808, tt0419326, tt0278238]
+      winner: [tt0292800]
+    'music in an animated feature production':
+      nominee: [tt0317705, tt0347246, tt0318403, tt0298148, tt0345950]
+      winner: [tt0317705]
+    'music in an animated television production':
+      nominee: [tt0376390, tt0428138, tt0367439, tt0389668]
+      winner: [tt0376390]
+    'production design in an animated feature production':
+      nominee: [tt0317705, tt0307453, tt0384696]
+      winner: [tt0317705]
+    'production design in an animated television production':
+      nominee: [tt0278238, tt0376390, tt0407398, tt0381772, tt0318233]
+      winner: [tt0278238]
+    'storyboarding in an animated feature production':
+      nominee: [tt0317705, tt0299172, tt0298148, tt0384696]
+      winner: [tt0317705]
+    'storyboarding in an animated television production':
+      nominee: [tt0386176, tt0424603, tt0423621, tt0331744, tt1075191, tt0343314, tt0719006]
+      winner: [tt0386176]
+    'voice acting in an animated feature production':
+      nominee: [tt0317705, tt0371823, tt0298148]
+      winner: [tt0317705]
+    'voice acting in an animated television production':
+      nominee: [tt0118375, tt0320808, tt0381772, tt0318233]
+      winner: [tt0118375]
+    'writing in an animated feature production':
+      nominee: [tt0317705, tt0307453, tt0298148]
+      winner: [tt0317705]
+    'writing in an animated television production':
+      nominee: [tt0118375, tt0423621, tt0762819, tt0386176, tt0419739, tt0419326, tt0771435]
+      winner: [tt0118375]
+  'special achievement award':
+    'special achievement award':
+      nominee: [tt0036497]
+      winner: [tt0036497]
+
+'2004': # https://www.imdb.com/event/ev0000032/2004/1/
+  'annie':
+    'outstanding achievement in an animated home entertainment production':
+      nominee: [tt0328832, tt0324941, tt0373273, tt0348124]
+      winner: [tt0328832]
+    'outstanding achievement in an animated short subject':
+      nominee: [tt0395479, tt0396448, tt0396513, tt0377770, tt0392542]
+      winner: [tt0395479]
+    'outstanding achievement in an animated television production':
+      nominee: [tt0096697, tt0293780, tt0235918, tt0278238, tt0290983]
+      winner: [tt0096697]
+    'outstanding achievement in an animated television production produced for children':
+      nominee: [tt0320808, tt0235916, tt0376390, tt0381772, tt0397800]
+      winner: [tt0320808]
+    'outstanding achievement in an animated theatrical feature':
+      nominee: [tt0266543, tt0328880, tt0318155, tt0291350, tt0286244]
+      winner: [tt0266543]
+    'outstanding character animation':
+      nominee: [tt0266543, tt0328880, tt0318155]
+      winner: [tt0266543]
+    'outstanding character design in an animated feature production':
+      nominee: [tt0266543, tt0328880, tt0165982]
+      winner: [tt0266543]
+    'outstanding character design in an animated television production':
+      nominee: [tt0278238, tt0175058, tt0293737, tt0680030, tt0386993]
+      winner: [tt0278238]
+    'outstanding directing in an animated feature production':
+      nominee: [tt0266543, tt0318155, tt0291350, tt0286244]
+      winner: [tt0266543]
+    'outstanding directing in an animated television production':
+      nominee: [tt0096697, tt0320808, tt0293780, tt0318233, tt0278238]
+      winner: [tt0096697]
+    'outstanding effects animation':
+      nominee: [tt0266543, tt0328880, tt0338094, tt0323642]
+      winner: [tt0266543]
+    'outstanding music in an animated feature production':
+      nominee: [tt0266543, tt0328880, tt0165982]
+      winner: [tt0266543]
+    'outstanding music in an animated television production':
+      nominee: [tt0096697, tt0701090, tt0376390, tt0566904, tt0149460, tt0584456, tt0343314]
+      winner: [tt0096697, tt0701090]
+    'outstanding production design in an animated feature production':
+      nominee: [tt0266543, tt0324941, tt0328880, tt0165982]
+      winner: [tt0266543]
+    'outstanding production design in an animated television production':
+      nominee: [tt0278238, tt0376390, tt0318233]
+      winner: [tt0278238]
+    'outstanding storyboarding in an animated feature production':
+      nominee: [tt0283426, tt0324941]
+      winner: [tt0283426]
+    'outstanding storyboarding in an animated television production':
+      nominee: [tt0235918, tt0235916, tt0331744, tt0290983, tt0706891, tt0343314, tt0719024]
+      winner: [tt0235918]
+    'outstanding voice acting in an animated feature production':
+      nominee: [tt0266543, tt0328880, tt0283426, tt0318155, tt0291350]
+      winner: [tt0266543]
+    'outstanding voice acting in an animated television production':
+      nominee: [tt0320808, tt1375019, tt0376390, tt0381772, tt0318233]
+      winner: [tt0320808, tt1375019]
+    'outstanding writing in an animated feature production':
+      nominee: [tt0266543, tt0324941, tt0328880, tt0291350, tt0286244]
+      winner: [tt0266543]
+    'outstanding writing in an animated television production':
+      nominee: [tt0096697, tt0701274, tt0293780, tt0149460, tt0584459, tt0275137, tt0118375]
+      winner: [tt0096697, tt0701274]
+
+'2003': # https://www.imdb.com/event/ev0000032/2003/1/
+  'annie':
+    'best animated television production for children':
+      nominee: [tt0346326]
+      winner: [tt0346326]
+    'outstanding achievement in an animated home video production':
+      nominee: [tt0339593, tt0345543, tt0399837]
+      winner: [tt0339593]
+    'outstanding achievement in an animated short subject':
+      nominee: [tt0344483, tt0357372, tt0320160]
+      winner: [tt0344483]
+    'outstanding achievement in an animated television production':
+      nominee: [tt0096697, tt0149460, tt0235923, tt0278866, tt0299892]
+      winner: [tt0096697]
+    'outstanding achievement in an animated television production produced for children':
+      nominee: [tt0172049, tt0278866, tt0293737, tt0244926, tt0315068]
+      winner: [tt0172049]
+    'outstanding achievement in an animated theatrical feature':
+      nominee: [tt0245429, tt0268380, tt0275847, tt0198781, tt0166813]
+      winner: [tt0245429]
+    'outstanding character animation':
+      nominee: [tt0198781, tt0268380, tt0275847, tt0133240]
+      winner: [tt0198781]
+    'outstanding character design in an animated feature production':
+      nominee: [tt0166813, tt0268380, tt0275847, tt0198781, tt0133240]
+      winner: [tt0166813]
+    'outstanding directing in an animated feature production':
+      nominee: [tt0245429, tt0268380, tt0275847, tt0198781, tt0133240]
+      winner: [tt0245429]
+    'outstanding directing in an animated television production':
+      nominee: [tt0149460, tt0756888, tt0337761, tt0177455, tt0293737, tt0247729, tt0709823]
+      winner: [tt0149460, tt0756888]
+    'outstanding effects animation':
+      nominee: [tt0166813, tt0275847, tt0133240]
+      winner: [tt0166813]
+    'outstanding music in an animated feature production':
+      nominee: [tt0245429, tt0268380, tt0275847, tt0198781, tt0280030]
+      winner: [tt0245429]
+    'outstanding music in an animated television production':
+      nominee: [tt0278238, tt0235918, tt0283735, tt0935504]
+      winner: [tt0278238]
+    'outstanding production design in an animated feature production':
+      nominee: [tt0166813, tt0268380, tt0275847, tt0198781, tt0133240]
+      winner: [tt0166813]
+    'outstanding production design in an animated television production':
+      nominee: [tt0278238, tt0278866, tt0291672, tt0260662]
+      winner: [tt0278238]
+    'outstanding storyboarding in an animated feature production':
+      nominee: [tt0166813]
+      winner: [tt0166813]
+    'outstanding storyboarding in an animated television production':
+      nominee: [tt0278238, tt0259141, tt0613950, tt0281634]
+      winner: [tt0278238]
+    'outstanding voice acting in an animated feature production':
+      nominee: [tt0275847, tt0298388, tt0280030, tt0133240]
+      winner: [tt0275847]
+    'outstanding voice acting in an animated television production':
+      nominee: [tt0272388, tt0290117]
+      winner: [tt0272388]
+    'outstanding writing in an animated feature production':
+      nominee: [tt0245429, tt0268380, tt0275847, tt0198781]
+      winner: [tt0245429]
+    'outstanding writing in an animated television production':
+      nominee: [tt0118375, tt0764014, tt0293737]
+      winner: [tt0118375, tt0764014]
+    'outstanding character design in an animated television production':
+      nominee: [tt0306371, tt0175058, tt0677595, tt0293737, tt0680034, tt0278238, tt0291672]
+      winner: []
+
+'2001': # https://www.imdb.com/event/ev0000032/2001/1/
+  'annie':
+    'outstanding achievement for an animated production produced for the internet':
+      nominee: [tt0235918, tt0816515]
+      winner: []
+    'outstanding achievement in a daytime animated television production':
+      nominee: [tt0147746, tt0224455, tt0272388, tt0257325]
+      winner: [tt0147746]
+    'outstanding achievement in a primetime or late night animated television production':
+      nominee: [tt0096697, tt0235918, tt0149460, tt0235923, tt0291672]
+      winner: [tt0096697]
+    'outstanding achievement in an animated home video production':
+      nominee: [tt0233298, tt0264734, tt0249677]
+      winner: [tt0233298]
+    'outstanding achievement in an animated short subject':
+      nominee: [tt0304172, tt0234588, tt0309121]
+      winner: [tt0304172]
+    'outstanding achievement in an animated special project':
+      nominee: [tt0439062, tt0235918, tt0290782]
+      winner: [tt0439062]
+    'outstanding achievement in an animated theatrical feature':
+      nominee: [tt0126029, tt0275230, tt0120917, tt0181739]
+      winner: [tt0126029]
+    'outstanding individual achievement for character animation':
+      nominee: [tt0120917, tt0181739, tt0126029]
+      winner: [tt0120917]
+    'outstanding individual achievement for directing in an animated feature production':
+      nominee: [tt0126029, tt0233298, tt0120917, tt0249677]
+      winner: [tt0126029]
+    'outstanding individual achievement for directing in an animated television production':
+      nominee: [tt0147746, tt0262147, tt0235918, tt0235923]
+      winner: [tt0147746]
+    'outstanding individual achievement for effects animation':
+      nominee: [tt0126029, tt0230011, tt0181739]
+      winner: [tt0126029]
+    'outstanding individual achievement for music score an animated feature production':
+      nominee: [tt0126029, tt0230011, tt0120917, tt0240684, tt0253658]
+      winner: [tt0126029]
+    'outstanding individual achievement for music score an animated television production':
+      nominee: [tt0175058, tt0235918, tt0235923, tt0236908, tt1405128, tt0260662, tt0754449]
+      winner: [tt0175058]
+    'outstanding individual achievement for production design in an animated feature production':
+      nominee: [tt0126029, tt0230011, tt0120917, tt0181739]
+      winner: [tt0126029]
+    'outstanding individual achievement for production design in an animated television production':
+      nominee: [tt0175058, tt0235923, tt0257325, tt0291672, tt0247827]
+      winner: [tt0175058]
+    'outstanding individual achievement for storyboarding in an animated feature production':
+      nominee: [tt0126029, tt0230011, tt0120917, tt0248575]
+      winner: [tt0126029]
+    'outstanding individual achievement for storyboarding in an animated television production':
+      nominee: [tt0235923, tt0758088, tt0184111, tt0236908, tt0247827, tt0751386, tt0260662, tt0754449]
+      winner: [tt0235923, tt0758088]
+    'outstanding individual achievement for voice acting by a female performer in an animated feature production':
+      nominee: [tt0120917, tt0230011, tt0249677, tt0240684]
+      winner: [tt0120917]
+    'outstanding individual achievement for voice acting by a female performer in an animated television production':
+      nominee: [tt0118375, tt0147746, tt0519421, tt0235918, tt0206512, tt0291672]
+      winner: [tt0118375]
+    'outstanding individual achievement for voice acting by a male performer in an animated feature production':
+      nominee: [tt0126029, tt0230011, tt0233298, tt0120917, tt0181739]
+      winner: [tt0126029]
+    'outstanding individual achievement for voice acting by a male performer in an animated television production':
+      nominee: [tt0149460, tt0584436, tt0147746, tt0519421, tt0235923, tt0206512, tt0257325, tt0789691]
+      winner: [tt0149460, tt0584436]
+    'outstanding individual achievement for writing in an animated feature production':
+      nominee: [tt0126029, tt0120917, tt0233298, tt0181739]
+      winner: [tt0126029]
+    'outstanding individual achievement for writing in an animated television production':
+      nominee: [tt0149460, tt0147746, tt0519421, tt0293780, tt0118375, tt0620210, tt0096697]
+      winner: [tt0149460]
+    'outstanding individual achievement for a song in an animated production':
+      nominee: [tt0120917, tt0275848, tt0206512, tt0248575]
+      winner: [tt0120917]
+
+'2000': # https://www.imdb.com/event/ev0000032/2000/1/
+  'annie':
+    'outstanding achievement in a daytime animated television program':
+      nominee: [tt0198181, tt0126170, tt0131664, tt0147746, tt0175738]
+      winner: [tt0198181]
+    'outstanding achievement in a primetime or late night animated television program':
+      nominee: [tt0096697, tt0182621, tt0149460, tt0115157, tt0280123]
+      winner: [tt0096697]
+    'outstanding achievement in an animated home video production':
+      nominee: [tt0208185, tt0196931, tt0164226, tt0197273, tt0238414]
+      winner: [tt0208185]
+    'outstanding achievement in an animated short subject':
+      nominee: [tt0248808, tt0290818, tt0219105, tt0209106, tt0251714]
+      winner: [tt0248808]
+    'outstanding achievement in an animated special project':
+      nominee: [tt0296843, tt0243720, tt0290344]
+      winner: [tt0296843]
+    'outstanding achievement in an animated theatrical feature':
+      nominee: [tt0120363, tt0120910, tt0120913, tt0138749, tt0120630]
+      winner: [tt0120363]
+    'outstanding individual achievement for character animation':
+      nominee: [tt0120910, tt0164912, tt0120363, tt0138749]
+      winner: [tt0120910]
+    'outstanding individual achievement for directing in an animated feature production':
+      nominee: [tt0120363, tt0130623, tt0120630, tt0220099, tt0119698]
+      winner: [tt0120363]
+    'outstanding individual achievement for directing in an animated television production':
+      nominee: [tt0149460, tt0118375, tt0766129, tt0118360]
+      winner: [tt0149460]
+    'outstanding individual achievement for effects animation':
+      nominee: [tt0120910, tt0164912, tt0120913, tt0130623, tt0138749]
+      winner: [tt0120910]
+    'outstanding individual achievement for music in an animated feature production':
+      nominee: [tt0120363, tt0130623, tt0138749, tt0164226, tt0220099]
+      winner: [tt0120363]
+    'outstanding individual achievement for music in an animated television production':
+      nominee: [tt0096697, tt0701068, tt0191715, tt1816943, tt0182576, tt0576926, tt0175738, tt2062114, tt0198181]
+      winner: [tt0096697, tt0701068]
+    'outstanding individual achievement for production design in an animated feature production':
+      nominee: [tt0120910, tt0120363, tt0138749, tt0120913]
+      winner: [tt0120910]
+    'outstanding individual achievement for production design in an animated television production':
+      nominee: [tt0220880, tt0182621, tt0280123, tt0236908, tt0644569, tt0218759]
+      winner: [tt0220880]
+    'outstanding individual achievement for storyboarding in an animated feature production':
+      nominee: [tt0120363, tt0130623, tt0138749]
+      winner: [tt0120363]
+    'outstanding individual achievement for storyboarding in an animated television production':
+      nominee: [tt0198181, tt0236908, tt1405136, tt0118360, tt0290727, tt0237987, tt0947742]
+      winner: [tt0198181]
+    'outstanding individual achievement for voice acting by a female performer in an animated feature production':
+      nominee: [tt0120363, tt0130623, tt0164226]
+      winner: [tt0120363]
+    'outstanding individual achievement for voice acting by a female performer in an animated television production':
+      nominee: [tt0293092, tt0118375, tt0243061, tt0175738, tt2062116, tt0126170]
+      winner: [tt0293092]
+    'outstanding individual achievement for voice acting by a male performer in an animated feature production':
+      nominee: [tt0120363, tt0138749, tt0164226, tt0208185, tt0220099]
+      winner: [tt0120363]
+    'outstanding individual achievement for voice acting by a male performer in an animated television production':
+      nominee: [tt0227173, tt0118375, tt0620236, tt0118266, tt0243061]
+      winner: [tt0227173]
+    'outstanding individual achievement for writing in an animated feature production':
+      nominee: [tt0120363, tt0120630, tt0164912]
+      winner: [tt0120363]
+    'outstanding individual achievement for writing in an animated television production':
+      nominee: [tt0227173, tt0118375, tt0620195, tt0147746, tt0519444, tt0175058]
+      winner: [tt0227173]
+    'special achievement in animation':
+      nominee: [tt0290456]
+      winner: [tt0290456]
+    'technical achievement in the field of animation':
+      nominee: [tt0214382]
+      winner: [tt0214382]
+
+'1999': # https://www.imdb.com/event/ev0000032/1999/1/
+  'annie':
+    'outstanding achievement in an animated home video production':
+      nominee: [tt0120131, tt0143808, tt0166792, tt0167247]
+      winner: [tt0120131]
+    'outstanding achievement in an animated television program':
+      nominee: [tt0096697, tt0147746, tt0149460, tt0118375, tt0118266]
+      winner: [tt0096697]
+    'outstanding achievement in an animated theatrical feature':
+      nominee: [tt0129167, tt0120855, tt0120794, tt0120623, tt0158983]
+      winner: [tt0129167]
+    'outstanding individual achievement for character animation':
+      nominee: [tt0129167, tt0120855]
+      winner: [tt0129167]
+    'outstanding individual achievement for directing in an animated feature production':
+      nominee: [tt0129167, tt0120794, tt0120587, tt0120623, tt0120855]
+      winner: [tt0129167]
+    'outstanding individual achievement for directing in an animated television production':
+      nominee: [tt0182621, tt0827382, tt0175058, tt0170996, tt0974303, tt0177455]
+      winner: [tt0182621, tt0827382]
+    'outstanding individual achievement for effects animation':
+      nominee: [tt0129167, tt0120855, tt0131664, tt0120794]
+      winner: [tt0129167]
+    'outstanding individual achievement for music in an animated feature production':
+      nominee: [tt0129167, tt0120855, tt0120131, tt0120587]
+      winner: [tt0129167]
+    'outstanding individual achievement for music in an animated television production':
+      nominee: [tt0175738, tt0182576, tt0112186, tt0198181]
+      winner: [tt0175738]
+    'outstanding individual achievement for production design in an animated feature production':
+      nominee: [tt0129167, tt0120587, tt0120623, tt0120855]
+      winner: [tt0129167]
+    'outstanding individual achievement for production design in an animated television production':
+      nominee: [tt0118266, tt0519697, tt0182621, tt0175058, tt1048803, tt0290339, tt0915760, tt0122353]
+      winner: [tt0118266, tt0519697]
+    'outstanding individual achievement for storyboarding in an animated feature production':
+      nominee: [tt0129167, tt0120794, tt0120855]
+      winner: [tt0129167]
+    'outstanding individual achievement for storyboarding in an animated television production':
+      nominee: [tt0147746, tt0519401, tt0177455, tt0198181, tt0131664, tt0757384]
+      winner: [tt0147746, tt0519401]
+    'outstanding individual achievement for voice acting in an animated feature production':
+      nominee: [tt0129167, tt0158983, tt0120855, tt0120794, tt0120131]
+      winner: [tt0129167]
+    'outstanding individual achievement for voice acting in an animated television production':
+      nominee: [tt0170996, tt0118289, tt0175058, tt0182621]
+      winner: [tt0170996]
+    'outstanding individual achievement for writing in an animated feature production':
+      nominee: [tt0129167, tt0120623, tt0120587, tt0120855, tt0158983]
+      winner: [tt0129167]
+    'outstanding individual achievement for writing in an animated television production':
+      nominee: [tt0096697, tt0781980, tt0147746, tt0118375, tt0620232, tt0108937, tt0706075, tt0149460, tt0756891]
+      winner: [tt0096697, tt0781980]
+    'outstanding individual achievement in animated short subject':
+      nominee: [tt0179011, tt0290127, tt0290728, tt0188913]
+      winner: [tt0179011]
+    'technical achievement in the field of animation':
+      nominee: [tt0120855]
+      winner: [tt0120855]
+
+'1998': # https://www.imdb.com/event/ev0000032/1998/1/
+  'annie':
+    'best individual achievement: technical achievement':
+      nominee: [tt0120338]
+      winner: [tt0120338]
+    'outstanding achievement in an animated daytime television program':
+      nominee: [tt0118266, tt0131664, tt0177455, tt0105941, tt0112123]
+      winner: [tt0118266]
+    'outstanding achievement in an animated home video production':
+      nominee: [tt0143127, tt0167038, tt0129924, tt0119918, tt0290870]
+      winner: [tt0143127]
+    'outstanding achievement in an animated interactive production':
+      nominee: [tt0134599]
+      winner: [tt0134599]
+    'outstanding achievement in an animated primetime or late night television program':
+      nominee: [tt0096697, tt0115157, tt0118375, tt0121955, tt0112123]
+      winner: [tt0096697]
+    'outstanding achievement in an animated short subject':
+      nominee: [tt0131409, tt0141560, tt0237823, tt0290896, tt0152800]
+      winner: [tt0131409]
+    'outstanding achievement in an animated theatrical feature':
+      nominee: [tt0120762, tt0118617, tt0120800, tt0119346]
+      winner: [tt0120762]
+    'outstanding individual achievement for character animation':
+      nominee: [tt0120762, tt0138964]
+      winner: [tt0120762]
+    'outstanding individual achievement for directing in an animated feature production':
+      nominee: [tt0120762, tt0118617, tt0119918, tt0118692]
+      winner: [tt0120762]
+    'outstanding individual achievement for directing in an animated television production':
+      nominee: [tt0096697, tt0701277, tt0177455, tt0125628, tt0112123, tt0674875]
+      winner: [tt0096697, tt0701277]
+    'outstanding individual achievement for effects animation':
+      nominee: [tt0120762, tt0120685, tt0120800, tt0118617]
+      winner: [tt0120762]
+    'outstanding individual achievement for music in an animated feature production':
+      nominee: [tt0120762, tt0119283, tt0118617, tt0119918, tt0118692]
+      winner: [tt0120762]
+    'outstanding individual achievement for music in an animated television production':
+      nominee: [tt0096697, tt0118289, tt0122353, tt0144700, tt0115157]
+      winner: [tt0096697]
+    'outstanding individual achievement for producing in an animated feature production':
+      nominee: [tt0120762, tt0118617, tt0129924]
+      winner: [tt0120762]
+    'outstanding individual achievement for producing in an animated television production':
+      nominee: [tt0118289, tt0138964, tt0208614, tt0177455]
+      winner: [tt0118289]
+    'outstanding individual achievement for production design in an animated feature production':
+      nominee: [tt0120762]
+      winner: [tt0120762]
+    'outstanding individual achievement for production design in an animated television production':
+      nominee: [tt0177455, tt0131664, tt0203268, tt0700802, tt0112186, tt0125628]
+      winner: [tt0177455]
+    'outstanding individual achievement for storyboarding in an animated feature production':
+      nominee: [tt0120762, tt0129924]
+      winner: [tt0120762]
+    'outstanding individual achievement for storyboarding in an animated television production':
+      nominee: [tt0112123, tt0674875, tt0118289, tt0144700, tt0836718, tt0177455]
+      winner: [tt0112123, tt0674875]
+    'outstanding individual achievement for voice acting by a female performer in an animated feature production':
+      nominee: [tt0120762, tt0168473, tt0118617, tt0167038]
+      winner: [tt0120762]
+    'outstanding individual achievement for voice acting by a female performer in an animated television production':
+      nominee: [tt0112186, tt0115157, tt0118375, tt0118252, tt0144700]
+      winner: [tt0112186]
+    'outstanding individual achievement for voice acting by a male performer in an animated feature production':
+      nominee: [tt0118617, tt0118692, tt0168473, tt0119918]
+      winner: [tt0118617]
+    'outstanding individual achievement for voice acting by a male performer in an animated television production':
+      nominee: [tt0112123, tt0122353, tt0143068, tt0138964]
+      winner: [tt0112123]
+    'outstanding individual achievement for writing in an animated feature production':
+      nominee: [tt0120762, tt0119918, tt0118692, tt0118617, tt0129924]
+      winner: [tt0120762]
+    'outstanding writing in an animated television production':
+      nominee: [tt0112123, tt0154061, tt0118360, tt0138964, tt0144700]
+      winner: [tt0112123]
+    'outstanding achievement in an animated interstitial, promotional production or title sequence':
+      nominee: [tt0138964, tt2515140, tt0290116, tt0129634]
+      winner: []
+
+'1997': # https://www.imdb.com/event/ev0000032/1997/1/
+  'annie':
+    'best animated feature':
+      nominee: [tt0118829, tt0119282, tt0117705]
+      winner: [tt0118829]
+    'best animated short subject':
+      nominee: [tt6843784, tt0118551, tt0072562]
+      winner: [tt6843784]
+    'best animated tv program':
+      nominee: [tt0096697, tt0115157, tt0118375, tt0112123, tt0112196]
+      winner: [tt0096697]
+    'best home video production':
+      nominee: [tt0115491, tt0116817, tt0290320, tt0101188]
+      winner: [tt0115491]
+    'best individual achievement: character animation':
+      nominee: [tt0119282, tt0112197, tt0118829]
+      winner: [tt0119282]
+    'best individual achievement: directing in a feature production':
+      nominee: [tt0119282, tt0118829, tt0117705]
+      winner: [tt0119282]
+    'best individual achievement: directing in a tv production':
+      nominee: [tt0096697, tt0701126, tt0112197, tt0118375, tt0105941, tt0207821]
+      winner: [tt0096697, tt0701126]
+    'best individual achievement: effects animation':
+      nominee: [tt0119282, tt0118884, tt0118829]
+      winner: [tt0119282]
+    'best individual achievement: music in a feature/home video production':
+      nominee: [tt0118829, tt0116817, tt0290320, tt0115491]
+      winner: [tt0118829]
+    'best individual achievement: music in a tv production':
+      nominee: [tt0096697, tt0115157, tt0115269, tt0163558, tt0115128, tt0115378]
+      winner: [tt0096697]
+    'best individual achievement: producing in a feature production':
+      nominee: [tt0119282, tt0118829, tt0117705]
+      winner: [tt0119282]
+    'best individual achievement: producing in a tv production':
+      nominee: [tt0096697, tt0701263, tt0111948, tt0072562, tt0115157, tt0108755]
+      winner: [tt0096697, tt0701263]
+    'best individual achievement: production design in a tv production':
+      nominee: [tt0131664, tt0112197, tt0124247]
+      winner: [tt0131664]
+    'best individual achievement: storyboarding in a tv production':
+      nominee: [tt0118289, tt0112186, tt0124949, tt0112197, tt0118475, tt0886219]
+      winner: [tt0118289]
+    'best individual achievement: technical achievement':
+      nominee: [tt0117705]
+      winner: [tt0117705]
+    'best individual achievement: voice acting by a female performer in a tv production':
+      nominee: [tt0112186, tt0115157, tt0111970, tt0118375, tt0096697]
+      winner: [tt0112186]
+    'best individual achievement: voice acting by a male performer in a tv production':
+      nominee: [tt0112123, tt0118360, tt0112196, tt0118375]
+      winner: [tt0112123]
+    'best individual achievement: writing in a tv production':
+      nominee: [tt0115157, tt0290182, tt0227868, tt0118375, tt0620263, tt0764032]
+      winner: [tt0115157]
+    'best promotional production':
+      nominee: [tt0131664, tt0108783, tt0118475]
+      winner: []
+
+'1996': # https://www.imdb.com/event/ev0000032/1996/1/
+  'annie':
+    'best animated feature':
+      nominee: [tt0114709, tt0116583, tt0116683, tt0113568, tt0112453]
+      winner: [tt0114709]
+    'best animated short subject':
+      nominee: [tt0118289]
+      winner: [tt0118289]
+    'best animated television program':
+      nominee: [tt0096697, tt0105941, tt0108783, tt0101188]
+      winner: [tt0096697]
+    'best home video production':
+      nominee: [tt0113596]
+      winner: [tt0113596]
+    'best individual achievement: animation':
+      nominee: [tt0114709, tt0116583, tt0116136]
+      winner: [tt0114709]
+    'best individual achievement: directing':
+      nominee: [tt0114709, tt0116583, tt0108783, tt0116683, tt0113568]
+      winner: [tt0114709]
+    'best individual achievement: music':
+      nominee: [tt0114709, tt0116583, tt0105941, tt0108783, tt0116683]
+      winner: [tt0114709]
+    'best individual achievement: producing':
+      nominee: [tt0114709, tt0116583, tt0116683, tt0112453, tt0113568]
+      winner: [tt0114709]
+    'best individual achievement: production design':
+      nominee: [tt0114709, tt0116583, tt0108783, tt0113568, tt0112453]
+      winner: [tt0114709]
+    'best individual achievement: storyboarding':
+      nominee: [tt0112123, tt0116683, tt0116583, tt0112453]
+      winner: [tt0112123]
+    'best individual achievement: technical achievement':
+      nominee: [tt0114709]
+      winner: [tt0114709]
+    'best individual achievement: voice acting':
+      nominee: [tt0112123, tt0114709, tt0116583, tt0116683, tt0116136, tt0108783]
+      winner: [tt0112123]
+    'best individual achievement: writing':
+      nominee: [tt0114709, tt0108783, tt0116683, tt0113568, tt0116583]
+      winner: [tt0114709]
+
+'1995': # https://www.imdb.com/event/ev0000032/1995/1/
+  'annie':
+    'best achievement for voice acting':
+      nominee: [tt0103359]
+      winner: [tt0103359]
+    'best animated feature':
+      nominee: [tt0114148, tt0113198, tt0111333]
+      winner: [tt0114148]
+    'best animated interactive production':
+      nominee: [tt0824297, tt0189538]
+      winner: [tt0824297]
+    'best animated short subject':
+      nominee: [tt0398943, tt0379764, tt1152693, tt0332161]
+      winner: [tt0398943]
+    'best animated television program':
+      nominee: [tt0096697, tt0103359, tt0105941, tt0112065, tt0112196]
+      winner: [tt0096697]
+    'best animated video production':
+      nominee: [tt0167176, tt0110300, tt0110426]
+      winner: [tt0167176]
+    'best individual achievement for animation':
+      nominee: [tt0114148, tt0113198]
+      winner: [tt0114148]
+    'best individual achievement for creative supervision in the field of animation':
+      nominee: [tt0112196, tt0108755, tt0108734, tt0108783, tt0112065]
+      winner: [tt0112196]
+    'best individual achievement for music in the field of animation':
+      nominee: [tt0114148, tt0111933, tt0113198, tt0105941, tt0103359]
+      winner: [tt0114148]
+    'best individual achievement for production design in the field of animation':
+      nominee: [tt0114148, tt0108783, tt0113198]
+      winner: [tt0114148]
+    'best individual achievement for storyboarding in the field of animation':
+      nominee: [tt0108783, tt0836918, tt0105935, tt0990472, tt0991444, tt0113198, tt0398943]
+      winner: [tt0108783, tt0836918]
+    'best individual achievement for writing in the field of animation':
+      nominee: [tt0112196, tt0101188, tt0105935, tt0108783, tt0585823, tt0112175, tt0706823]
+      winner: [tt0112196]
+    'voice acting in the field of animation':
+      nominee: [tt0096697, tt0332161, tt0162796, tt0105941]
+      winner: [tt0096697]
+
+'1994': # https://www.imdb.com/event/ev0000032/1994/1/
+  'annie':
+    'best achievement for voice acting':
+      nominee: [tt0110357, tt0105941, tt0103359, tt0108755, tt0101178]
+      winner: [tt0110357]
+    'best animated cd-rom':
+      nominee: [tt0330930, tt0192565]
+      winner: [tt0330930]
+    'best animated film':
+      nominee: [tt0110357, tt0106364, tt0107688]
+      winner: [tt0110357]
+    'best animated home video release':
+      nominee: [tt0405474, tt0108467, tt0016039, tt0107952]
+      winner: [tt0405474]
+    'best animated television program':
+      nominee: [tt0096697, tt0105941, tt0103359, tt0108734, tt0101178]
+      winner: [tt0096697]
+    'best individual achievement for artistic excellence in the field of animation':
+      nominee: [tt0107688, tt0105928, tt0110357]
+      winner: [tt0107688]
+    'best individual achievement for creative supervision in the field of animation':
+      nominee: [tt0107688, tt0101178, tt0213898, tt0103359, tt0096697]
+      winner: [tt0107688]
+    'best individual achievement for story contribution in the field of animation':
+      nominee: [tt0110357, tt0103359, tt0140749, tt0392009, tt0107126]
+      winner: [tt0110357]
+
+'1993': # https://www.imdb.com/event/ev0000032/1993/1/
+  'annie':
+    'best animated feature':
+      nominee: [tt0103639, tt0104740, tt0107745]
+      winner: [tt0103639]
+    'best animated television program':
+      nominee: [tt0096697, tt0103477, tt0098929, tt0101178, tt0103359]
+      winner: [tt0096697]
+    'voice acting in the field of animation':
+      nominee: [tt0103428]
+      winner: [tt0103428]
+    'best animated television commercial':
+      nominee: [tt14927004]
+      winner: []
+
+'1992': # https://www.imdb.com/event/ev0000032/1992/1/
+  'annie':
+    'best animated feature':
+      nominee: [tt0101414, tt0103783, tt0104254]
+      winner: [tt0101414]
+    'best animated television commercial':
+      nominee: [tt14926976]
+      winner: [tt14926976]
+    'best animated television program':
+      nominee: [tt0096697, tt0098924, tt0101178, tt0101076, tt0098929]
+      winner: [tt0096697]
+    'outstanding individual achievement in the field of animation':
+      nominee: [tt0101414, tt0101178, tt0096697]
+      winner: [tt0101414, tt0101178, tt0096697]
+    'voice acting in the field of animation':
+      nominee: [tt0101076]
+      winner: [tt0101076]
+
+'1988': # https://www.imdb.com/event/ev0000032/1988/1/
+  'annie':
+    'best animated television production':
+      nominee: [tt0131613]
+      winner: [tt0131613]
+    'best individual achievement: technical achievement':
+      nominee: [tt0096438]
+      winner: [tt0096438]
+    'voice acting in a television production':
+      nominee: [tt0131613]
+      winner: [tt0131613]

@@ -1,0 +1,3488 @@
+# Sundance Film Festival
+'2026':  # https://www.imdb.com/event/ev0000631/2026/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt33035557, tt34577866, tt38952225, tt39132432, tt39149951, tt39150003, tt39150008, tt39150019, tt39150038, tt39150922]
+      winner: [tt39150922]
+    dramatic:
+      nominee: [tt28144668, tt30833294, tt32321285, tt35504660, tt36981462, tt37263549, tt37775809, tt38626943, tt38980819, tt39149197]
+      winner: [tt32321285]
+    world cinema - documentary:
+      nominee: [tt36966956, tt37405791, tt38390390, tt38983842, tt39026593, tt39075417, tt39087873, tt39149574, tt39149925, tt39150043]
+      winner: [tt39150043]
+    world cinema - dramatic:
+      nominee: [tt29009930, tt31382021, tt34798706, tt34916741, tt36840995, tt36867663, tt38111477, tt38268539, tt39140264, tt39149971]
+      winner: [tt39140264]
+  directing award:
+    u.s. documentary:
+      nominee: [tt38952225]
+      winner: [tt38952225]
+    u.s. dramatic:
+      nominee: [tt39149197]
+      winner: [tt39149197]
+    world cinema, documentary:
+      nominee: [tt38983842]
+      winner: [tt38983842]
+    world cinema, dramatic:
+      nominee: [tt29009930]
+      winner: [tt29009930]
+  waldo salt screenwriting award:
+    u.s. dramatic:
+      nominee: [tt37263549]
+      winner: [tt37263549]
+  audience award:
+    next:
+      nominee: [tt39150051]
+      winner: [tt39150051]
+    u.s. documentary:
+      nominee: [tt39150003]
+      winner: [tt39150003]
+    u.s. dramatic:
+      nominee: [tt32321285]
+      winner: [tt32321285]
+    world cinema - documentary:
+      nominee: [tt38983842]
+      winner: [tt38983842]
+    world cinema - dramatic:
+      nominee: [tt36840995]
+      winner: [tt36840995]
+  alfred p. sloan feature film prize:
+    alfred p. sloan feature film prize:
+      nominee: [tt6341826]
+      winner: [tt6341826]
+  nhk award:
+    nhk award:
+      nominee: [tt39486281]
+      winner: [tt39486281]
+  short film grand jury prize:
+    best short film:
+      nominee: [tt30826002, tt35295381, tt36111783, tt36582063, tt36724190, tt37421234, tt37507660, tt37538169, tt37603775, tt37673190, tt37673380, tt37842711, tt37844425, tt37937314, tt38071033, tt38124330, tt38652331, tt38676721, tt38681657, tt38807500, tt39010000, tt39026969, tt39026975, tt39099364, tt39141722, tt39142054, tt39161293, tt39183773, tt39183787, tt39184394, tt39184415, tt39184533, tt39186119, tt39188807, tt39188809, tt39192415, tt39193518, tt39194159, tt39194434, tt39195649, tt39196087, tt39196096, tt39196097, tt39196105, tt39196179, tt39196252, tt39196471, tt39196672, tt39196741, tt39196834, tt39197121, tt39197159, tt39197176, tt39197208]
+      winner: [tt39196105]
+  short film jury award:
+    animation:
+      nominee: [tt39183787]
+      winner: [tt39183787]
+    international fiction:
+      nominee: [tt37842711]
+      winner: [tt37842711]
+    non-fiction:
+      nominee: [tt37937314]
+      winner: [tt37937314]
+    u.s. fiction:
+      nominee: [tt39142054]
+      winner: [tt39142054]
+  world cinema dramatic special jury award:
+    acting ensemble:
+      nominee: [tt38111477]
+      winner: [tt38111477]
+    creative vision:
+      nominee: [tt38268539]
+      winner: [tt38268539]
+  short film special jury award:
+    acting:
+      nominee: [tt39367300]
+      winner: [tt39367300]
+    creative vision:
+      nominee: [tt39183773]
+      winner: [tt39183773]
+  next innovator award:
+    next innovator award:
+      nominee: [tt36980182, tt38589440, tt38906892, tt39150051, tt39150067, tt39150080, tt39150095, tt39150111, tt39151344]
+      winner: [tt36980182]
+  u.s. dramatic special jury award:
+    debut feature:
+      nominee: [tt35504660]
+      winner: [tt35504660]
+    ensemble:
+      nominee: [tt38980819]
+      winner: [tt38980819]
+  world cinema documentary special jury award:
+    civil resistance:
+      nominee: [tt36966956]
+      winner: [tt36966956]
+    journalistic impact:
+      nominee: [tt39026593]
+      winner: [tt39026593]
+  u.s. documentary special jury award:
+    impact for change:
+      nominee: [tt34577866]
+      winner: [tt34577866]
+    journalistic excellence:
+      nominee: [tt39150038]
+      winner: [tt39150038]
+  sundance institute/amazon studios non-fiction producers award:
+    sundance institute/amazon studios non-fiction producers award:
+      nominee: [tt39150038]
+      winner: [tt39150038]
+  jonathan oppenheim editing award:
+    u.s. documentary:
+      nominee: [tt39150008]
+      winner: [tt39150008]
+  next special jury award presented by adobe:
+    next special jury award presented by adobe:
+      nominee: [tt39150095]
+      winner: [tt39150095]
+'2025': # https://www.imdb.com/event/ev0000631/2025/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt26784676, tt28718656, tt33322301, tt34565168, tt34962891, tt34963034, tt34963731, tt34963732, tt34963797, tt34963844]
+      winner: [tt34963731]
+    dramatic:
+      nominee: [tt13650578, tt27550504, tt27827635, tt28618542, tt29253299, tt31122579, tt31322753, tt32843349, tt33998099, tt34880924]
+      winner: [tt31122579]
+    world cinema - documentary:
+      nominee: [tt10196414, tt21104356, tt34909040, tt34964205, tt34964219, tt34965172, tt34965481, tt34965506, tt34965515, tt34965625]
+      winner: [tt10196414]
+    world cinema - dramatic:
+      nominee: [tt13289160, tt15460036, tt29310002, tt31066723, tt31140176, tt31392191, tt32367116, tt32605679, tt34964187, tt9853664]
+      winner: [tt29310002]
+  directing award:
+    u.s. documentary:
+      nominee: [tt34962891]
+      winner: [tt34962891]
+    u.s. dramatic:
+      nominee: [tt27827635]
+      winner: [tt27827635]
+    world cinema, documentary:
+      nominee: [tt34964205]
+      winner: [tt34964205]
+    world cinema, dramatic:
+      nominee: [tt32367116]
+      winner: [tt32367116]
+  waldo salt screenwriting award:
+    u.s. dramatic:
+      nominee: [tt32843349]
+      winner: [tt32843349]
+  audience award:
+    next:
+      nominee: [tt21349688]
+      winner: [tt21349688]
+    u.s. documentary:
+      nominee: [tt34963034]
+      winner: [tt34963034]
+    u.s. dramatic:
+      nominee: [tt31322753]
+      winner: [tt31322753]
+    world cinema - documentary:
+      nominee: [tt34965625]
+      winner: [tt34965625]
+    world cinema - dramatic:
+      nominee: [tt34964187]
+      winner: [tt34964187]
+  alfred p. sloan feature film prize:
+    alfred p. sloan feature film prize:
+      nominee: [tt31193771]
+      winner: [tt31193771]
+  short film grand jury prize:
+    best short film:
+      nominee: [tt14176748, tt27730375, tt28713718, tt30816249, tt31024223, tt31037397, tt31548153, tt31937601, tt31995855, tt32215973, tt32494012, tt32499941, tt32559910, tt32852151, tt32896558, tt33014334, tt33087322, tt33092232, tt33202250, tt33317127, tt33423159, tt34244844, tt34674511, tt34696740, tt34719395, tt34875273, tt35002936, tt35047945, tt35048460, tt35050166, tt35050390, tt35050508, tt35050536, tt35050565, tt35050636, tt35050670, tt35051271, tt35051289, tt35051308, tt35051320, tt35051330, tt35051335, tt35051351, tt35051372, tt35051383, tt35051387, tt35051402, tt35051404, tt35051417, tt35051422, tt35051430, tt35051434, tt35051436, tt35051445, tt35051462, tt35051470, tt35051482]
+      winner: [tt33014334]
+  short film jury award:
+    animation:
+      nominee: [tt35051462]
+      winner: [tt35051462]
+    international fiction:
+      nominee: [tt35002936]
+      winner: [tt35002936]
+    non-fiction:
+      nominee: [tt35051434]
+      winner: [tt35051434]
+    u.s. fiction:
+      nominee: [tt35050636]
+      winner: [tt35050636]
+  world cinema dramatic special jury award:
+    creative vision:
+      nominee: [tt34964187]
+      winner: [tt34964187]
+    writing:
+      nominee: [tt31066723]
+      winner: [tt31066723]
+  short film special jury award:
+    animation directing:
+      nominee: [tt35051470]
+      winner: [tt35051470]
+    directing:
+      nominee: [tt34719395]
+      winner: [tt34719395]
+  sundance institute/amazon studios producers award:
+    sundance institute/amazon studios producers award:
+      nominee: [tt32214413]
+      winner: [tt32214413]
+  next innovator award:
+    next innovator award:
+      nominee: [tt17497960, tt21349688, tt29544916, tt32808757, tt33365660, tt33430448, tt33562917, tt34965959]
+      winner: [tt34965959]
+  u.s. dramatic special jury award:
+    acting:
+      nominee: [tt31322753]
+      winner: [tt31322753]
+    ensemble:
+      nominee: [tt27550504]
+      winner: [tt27550504]
+  world cinema documentary special jury award:
+    freedom of expression:
+      nominee: [tt34964219]
+      winner: [tt34964219]
+    world cinema documentary special jury award:
+      nominee: [tt34965515]
+      winner: [tt34965515]
+  u.s. documentary special jury award:
+    archival storytelling:
+      nominee: [tt34963797]
+      winner: [tt34963797]
+    u.s. documentary special jury award:
+      nominee: [tt28718656]
+      winner: [tt28718656]
+  festival favorite award:
+    festival favorite award:
+      nominee: [tt34966013]
+      winner: [tt34966013]
+  jonathan oppenheim editing award:
+    u.s. documentary:
+      nominee: [tt34963034]
+      winner: [tt34963034]
+  next special jury award presented by adobe:
+    next special jury award presented by adobe:
+      nominee: [tt33562917]
+      winner: [tt33562917]
+'2024': # https://www.imdb.com/event/ev0000631/2024/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt12336480, tt30134880, tt30291991, tt30294282, tt30319555, tt30319823, tt30319825, tt30319830, tt30319854, tt30319916]
+      winner: [tt30294282]
+    dramatic:
+      nominee: [tt13650742, tt21375602, tt21823606, tt23939106, tt24805832, tt27722375, tt28523838, tt30319503, tt30319516, tt30319533]
+      winner: [tt24805832]
+    world cinema - documentary:
+      nominee: [tt14452174, tt16732698, tt19811010, tt21224854, tt30227076, tt30320463, tt30320493, tt30320521, tt30320576, tt30320605]
+      winner: [tt30320576]
+    world cinema - dramatic:
+      nominee: [tt11220024, tt18277182, tt2118648, tt23888758, tt26006472, tt26749327, tt28500076, tt30141676, tt30317033, tt30320410]
+      winner: [tt30320410]
+  directing award:
+    u.s. documentary:
+      nominee: [tt30319854]
+      winner: [tt30319854]
+    u.s. dramatic:
+      nominee: [tt24805832]
+      winner: [tt24805832]
+    world cinema, documentary:
+      nominee: [tt19811010]
+      winner: [tt19811010]
+    world cinema, dramatic:
+      nominee: [tt30141676]
+      winner: [tt30141676]
+  waldo salt screenwriting award:
+    u.s. dramatic:
+      nominee: [tt21823606]
+      winner: [tt21823606]
+  audience award:
+    next:
+      nominee: [tt27367464]
+      winner: [tt27367464]
+    u.s. documentary:
+      nominee: [tt12336480]
+      winner: [tt12336480]
+    u.s. dramatic:
+      nominee: [tt30319503]
+      winner: [tt30319503]
+    world cinema - documentary:
+      nominee: [tt19811010]
+      winner: [tt19811010]
+    world cinema - dramatic:
+      nominee: [tt18277182]
+      winner: [tt18277182]
+  alfred p. sloan feature film prize:
+    alfred p. sloan feature film prize:
+      nominee: [tt21375602]
+      winner: [tt21375602]
+  short film grand jury prize:
+    best short film:
+      nominee: [tt13021784, tt13162310, tt19889406, tt21650346, tt23039638, tt23768110, tt24656910, tt26007706, tt26256574, tt26451699, tt27612246, tt27661652, tt28350115, tt28355685, tt28670320, tt28670640, tt28671712, tt28755203, tt29134283, tt29346140, tt29549406, tt29579095, tt29897029, tt30052206, tt30062682, tt30069369, tt30098567, tt30146387, tt30252620, tt30253429, tt30420138, tt30420185, tt30420685, tt30420719, tt30420743, tt30420749, tt30420791, tt30420986, tt30420991, tt30420996, tt30421207, tt30421211, tt30421212, tt30421215, tt30421218, tt30421224, tt30421226, tt30421231, tt30421233, tt30421235, tt30421250]
+      winner: [tt30069369]
+  short film jury award:
+    animation:
+      nominee: [tt30421212]
+      winner: [tt30421212]
+    international fiction:
+      nominee: [tt29549406]
+      winner: [tt29549406]
+    non-fiction:
+      nominee: [tt30421222]
+      winner: [tt30421222]
+    u.s. fiction:
+      nominee: [tt30420986]
+      winner: [tt30420986]
+  world cinema dramatic special jury award:
+    acting:
+      nominee: [tt18277182]
+      winner: [tt18277182]
+    original music:
+      nominee: [tt2118648]
+      winner: [tt2118648]
+  short film special jury award:
+    directing, international:
+      nominee: [tt30421207]
+      winner: [tt30421207]
+    directing, u.s.:
+      nominee: [tt29579095]
+      winner: [tt29579095]
+  next innovator award:
+    next innovator award:
+      nominee: [tt12309944, tt18322912, tt21740488, tt27367464, tt28510594, tt30320639]
+      winner: [tt21740488]
+  u.s. dramatic special jury award:
+    breakthrough performance:
+      nominee: [tt13650742]
+      winner: [tt13650742]
+    ensemble:
+      nominee: [tt30319503]
+      winner: [tt30319503]
+  world cinema documentary special jury award:
+    cinematic innovation:
+      nominee: [tt14452174]
+      winner: [tt14452174]
+    craft:
+      nominee: [tt30320605]
+      winner: [tt30320605]
+  u.s. documentary special jury award:
+    art of change:
+      nominee: [tt30319916]
+      winner: [tt30319916]
+    sound:
+      nominee: [tt30319823]
+      winner: [tt30319823]
+  festival favorite award:
+    festival favorite award:
+      nominee: [tt12336480]
+      winner: [tt12336480]
+  jonathan oppenheim editing award:
+    u.s. documentary:
+      nominee: [tt30319555]
+      winner: [tt30319555]
+  amazon studios nonfiction producers award:
+    amazon studios nonfiction producers award:
+      nominee: [tt30320463]
+      winner: [tt30320463]
+  amazon studios fiction producers award:
+    amazon studios fiction producers award:
+      nominee: [tt30319533]
+      winner: [tt30319533]
+  next special jury award presented by adobe:
+    next special jury award presented by adobe:
+      nominee: [tt28510594]
+      winner: [tt28510594]
+'2023': # https://www.imdb.com/event/ev0000631/2023/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt13885492, tt24076636, tt24076780, tt24078380, tt24079640, tt24079694, tt24079736, tt24079744, tt24079774, tt24079788, tt7196012]
+      winner: [tt7196012]
+    dramatic:
+      nominee: [tt11534720, tt12427158, tt13652142, tt14483774, tt16304446, tt16431966, tt21156390, tt21232992, tt21813994, tt22751422, tt22777288, tt24076146]
+      winner: [tt12427158]
+    world cinema - documentary:
+      nominee: [tt12427090, tt14065578, tt20521138, tt23640230, tt24082348, tt24082438, tt24082466, tt24082488, tt24082520, tt24082558, tt24082622, tt24082644]
+      winner: [tt24082488]
+    world cinema - dramatic:
+      nominee: [tt12390330, tt13200006, tt15289510, tt17006040, tt17078354, tt20395798, tt21221240, tt24079846, tt6315898, tt7636728, tt8649252, tt8649352]
+      winner: [tt8649252]
+  directing award:
+    u.s. documentary:
+      nominee: [tt24079744]
+      winner: [tt24079744]
+    u.s. dramatic:
+      nominee: [tt22751422]
+      winner: [tt22751422]
+    world cinema - documentary:
+      nominee: [tt23640230]
+      winner: [tt23640230]
+    world cinema - dramatic:
+      nominee: [tt15289510]
+      winner: [tt15289510]
+  waldo salt screenwriting award:
+    u.s. dramatic:
+      nominee: [tt24076146]
+      winner: [tt24076146]
+  audience award:
+    next:
+      nominee: [tt22528178]
+      winner: [tt22528178]
+    u.s. documentary:
+      nominee: [tt25470468]
+      winner: [tt25470468]
+    u.s. dramatic:
+      nominee: [tt24076146]
+      winner: [tt24076146]
+    world cinema - documentary:
+      nominee: [tt24082438]
+      winner: [tt24082438]
+    world cinema - dramatic:
+      nominee: [tt13200006]
+      winner: [tt13200006]
+  alfred p. sloan feature film prize:
+    alfred p. sloan feature film prize:
+      nominee: [tt15768848]
+      winner: [tt15768848]
+  short film grand jury prize:
+    best short film:
+      nominee: [tt14464176, tt14596282, tt14668858, tt15940454, tt17277222, tt17347358, tt17490380, tt18283366, tt19759098, tt19781792, tt19844632, tt20158168, tt20240228, tt20853212, tt21247140, tt21350418, tt21651666, tt21797282, tt21797498, tt21802720, tt21803050, tt21836838, tt21920794, tt21935070, tt22005940, tt22496716, tt23777610, tt23926518, tt23986882, tt24072316, tt24221742, tt24367284, tt24378294, tt24392028, tt24394266, tt24395152, tt24396638, tt24400506, tt24400872, tt24401662, tt24458804, tt24466780, tt24469516, tt24484588, tt24484614, tt24484662, tt24484744, tt24485020, tt24485530, tt24485576, tt24486032, tt24486108, tt24486126, tt24486220, tt24486242, tt24486302, tt24501238, tt24502412]
+      winner: [tt24469516]
+  short film jury award:
+    animation:
+      nominee: [tt20240228]
+      winner: [tt20240228]
+    international fiction:
+      nominee: [tt24484788]
+      winner: [tt24484788]
+    non-fiction:
+      nominee: [tt19781792]
+      winner: [tt19781792]
+    u.s. fiction:
+      nominee: [tt22005940]
+      winner: [tt22005940]
+  world cinema dramatic special jury award:
+    best performance:
+      nominee: [tt7636728]
+      winner: [tt7636728]
+    cinematography:
+      nominee: [tt6315898]
+      winner: [tt6315898]
+    creative vision:
+      nominee: [tt17006040]
+      winner: [tt17006040]
+  short film special jury award:
+    directing, international:
+      nominee: [tt14464176]
+      winner: [tt14464176]
+    directing, u.s.:
+      nominee: [tt24458804]
+      winner: [tt24458804]
+  next innovator award:
+    next innovator award:
+      nominee: [tt15444046, tt22528178, tt24055620, tt24132144, tt24132176, tt24132248, tt7741736, tt8591526, tt9204126]
+      winner: [tt22528178]
+  u.s. dramatic special jury award:
+    acting:
+      nominee: [tt22777288]
+      winner: [tt22777288]
+    creative vision:
+      nominee: [tt13652142]
+      winner: [tt13652142]
+    ensemble:
+      nominee: [tt21232992]
+      winner: [tt21232992]
+  world cinema documentary special jury award:
+    creative vision:
+      nominee: [tt24082520]
+      winner: [tt24082520]
+    vérité filmmaking:
+      nominee: [tt24082466]
+      winner: [tt24082466]
+  u.s. documentary special jury award:
+    clarity of vision:
+      nominee: [tt24079774]
+      winner: [tt24079774]
+    freedom of expression:
+      nominee: [tt24076780]
+      winner: [tt24076780]
+  festival favorite award:
+    festival favorite award:
+      nominee: [tt14570440]
+      winner: [tt14570440]
+  jonathan oppenheim editing award:
+    u.s. documentary:
+      nominee: [tt24079640]
+      winner: [tt24079640]
+'2022': # https://www.imdb.com/event/ev0000631/2022/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt16227006, tt16227014, tt16358560, tt16376478, tt16376494, tt16376512, tt16377356, tt16377380, tt16377496, tt17041964]
+      winner: [tt16227006]
+    dramatic:
+      nominee: [tt10931784, tt11040762, tt11284768, tt11286210, tt12004038, tt12311620, tt13650600, tt14376344, tt15257116, tt9005184]
+      winner: [tt10931784]
+    world cinema - documentary:
+      nominee: [tt10014534, tt10196368, tt11398276, tt16377862, tt16377888, tt16377920, tt16377980, tt16378034, tt16378164, tt16378482]
+      winner: [tt16377862]
+    world cinema - dramatic:
+      nominee: [tt10360808, tt10984580, tt13270424, tt13328800, tt14903018, tt16279390, tt16315948, tt16377714, tt16377816, tt8296030]
+      winner: [tt10984580]
+  directing award:
+    u.s. documentary:
+      nominee: [tt16358560]
+      winner: [tt16358560]
+    u.s. dramatic:
+      nominee: [tt15257116]
+      winner: [tt15257116]
+    world cinema - documentary:
+      nominee: [tt16377920]
+      winner: [tt16377920]
+    world cinema - dramatic:
+      nominee: [tt16315948]
+      winner: [tt16315948]
+  waldo salt screenwriting award:
+    u.s. dramatic:
+      nominee: [tt13650600]
+      winner: [tt13650600]
+  audience award:
+    next:
+      nominee: [tt11513696]
+      winner: [tt11513696]
+    u.s. documentary:
+      nominee: [tt17041964]
+      winner: [tt17041964]
+    u.s. dramatic:
+      nominee: [tt14376344]
+      winner: [tt14376344]
+    world cinema - documentary:
+      nominee: [tt16378164]
+      winner: [tt16378164]
+    world cinema - dramatic:
+      nominee: [tt13328800]
+      winner: [tt13328800]
+  alfred p. sloan feature film prize:
+    alfred p. sloan feature film prize:
+      nominee: [tt8633464]
+      winner: [tt8633464]
+  short film grand jury prize:
+    best short film:
+      nominee: [tt10874280, tt13100230, tt13231684, tt14038046, tt14039654, tt14103944, tt14135824, tt14409428, tt14558656, tt14639404, tt14643218, tt14717664, tt14825950, tt14879826, tt14899008, tt14923382, tt15119688, tt15139848, tt15161210, tt15206308, tt15239576, tt15255260, tt15280404, tt15318898, tt15398110, tt15434132, tt15440564, tt15469862, tt15533014, tt15728022, tt15777202, tt16225276, tt16278858, tt16303872, tt16379454, tt16385148, tt16390638, tt16390750, tt16390818, tt16390972, tt16391020, tt16392090, tt16392444, tt16403648, tt16419812, tt16420400, tt16420614, tt16420634, tt16420664, tt16420708, tt16420758, tt16420768, tt16420896, tt16420910, tt16420918, tt16420944, tt16420948, tt16539356]
+      winner: [tt16392090]
+  short film jury award:
+    animation:
+      nominee: [tt13231684]
+      winner: [tt13231684]
+    international fiction:
+      nominee: [tt15119688, tt16419812]
+      winner: [tt16419812]
+    non-fiction:
+      nominee: [tt14717664]
+      winner: [tt14717664]
+    u.s. fiction:
+      nominee: [tt16390638]
+      winner: [tt16390638]
+  world cinema dramatic special jury award:
+    acting:
+      nominee: [tt16279390]
+      winner: [tt16279390]
+    innovative spirit:
+      nominee: [tt16377714]
+      winner: [tt16377714]
+  short film special jury award:
+    ensemble cast:
+      nominee: [tt15728022]
+      winner: [tt15728022]
+    screenwriting:
+      nominee: [tt15255260]
+      winner: [tt15255260]
+  next innovator award:
+    next innovator award:
+      nominee: [tt11398388, tt11513696, tt12691830, tt13658076, tt14895716, tt16378028, tt16378396]
+      winner: [tt11513696]
+  u.s. dramatic special jury award:
+    ensemble cast:
+      nominee: [tt12311620]
+      winner: [tt12311620]
+    uncompromising artistic vision:
+      nominee: [tt11284768]
+      winner: [tt11284768]
+  world cinema documentary special jury award:
+    documentary craft:
+      nominee: [tt16378164]
+      winner: [tt16378164]
+    excellence in verité filmmaking:
+      nominee: [tt11398276]
+      winner: [tt11398276]
+  u.s. documentary special jury award:
+    creative vision:
+      nominee: [tt16376494]
+      winner: [tt16376494]
+    impact for change:
+      nominee: [tt16376478]
+      winner: [tt16376478]
+  festival favorite award:
+    festival favorite award:
+      nominee: [tt17041964]
+      winner: [tt17041964]
+  jonathan oppenheim editing award:
+    u.s. documentary:
+      nominee: [tt16227014]
+      winner: [tt16227014]
+'2021': # https://www.imdb.com/event/ev0000631/2021/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt10741846, tt13609638, tt13622074, tt13622084, tt13622168, tt13622250, tt13648160, tt13652238, tt7378922, tt8710506]
+      winner: [tt7378922]
+    dramatic:
+      nominee: [tt10366460, tt11160650, tt11271800, tt11285280, tt11307724, tt11433048, tt11741044, tt12373414, tt13559026, tt8893974]
+      winner: [tt10366460]
+    world cinema - documentary:
+      nominee: [tt11226258, tt13567374, tt13621424, tt13630174, tt13648216, tt13648220, tt13648222, tt8430054, tt8801666]
+      winner: [tt8430054]
+    world cinema - dramatic:
+      nominee: [tt11379584, tt11460976, tt11508438, tt12312912, tt12788368, tt13648184, tt13648212, tt3548874, tt7904172, tt8550054]
+      winner: [tt13648212]
+  directing award:
+    documentary:
+      nominee: [tt13609638]
+      winner: [tt13609638]
+    dramatic:
+      nominee: [tt10366460]
+      winner: [tt10366460]
+    world cinema - documentary:
+      nominee: [tt13567374]
+      winner: [tt13567374]
+    world cinema - dramatic:
+      nominee: [tt13648212]
+      winner: [tt13648212]
+  documentary film editing award:
+    documentary film editing award:
+      nominee: [tt13622168]
+      winner: [tt13622168]
+  waldo salt screenwriting award:
+    dramatic:
+      nominee: [tt11160650]
+      winner: [tt11160650]
+  audience award:
+    documentary:
+      nominee: [tt7378922]
+      winner: [tt7378922]
+    dramatic:
+      nominee: [tt10366460]
+      winner: [tt10366460]
+    next presented by adobe:
+      nominee: [tt13157722]
+      winner: [tt13157722]
+    world cinema - documentary:
+      nominee: [tt13630174]
+      winner: [tt13630174]
+    world cinema - dramatic:
+      nominee: [tt13648212]
+      winner: [tt13648212]
+  short filmmaking award:
+    international:
+      nominee: [tt13706792]
+      winner: []
+  alfred p. sloan feature film prize:
+    alfred p. sloan feature film prize:
+      nominee: [tt8908432]
+      winner: [tt8908432]
+  short film grand jury prize:
+    best short film:
+      nominee: [tt10660486, tt10883308, tt11384690, tt11427706, tt11638406, tt11892644, tt12189006, tt12251700, tt12484352, tt12734052, tt12758112, tt12804548, tt12859202, tt12860262, tt12948972, tt12974812, tt12994844, tt13029028, tt13219556, tt13224590, tt13253166, tt13254810, tt13327888, tt13333026, tt13443246, tt13503772, tt13528124, tt13649280, tt13649406, tt13649466, tt13649538, tt13649578, tt13653432, tt13706792, tt13706810, tt13793394, tt13795844, tt13795864, tt13795902, tt13795964, tt13796026, tt13796046, tt13796346, tt13796360, tt13796378, tt13796450, tt13796488, tt5925704]
+      winner: [tt13029028]
+  short film jury award:
+    animation:
+      nominee: [tt13253166]
+      winner: [tt13253166]
+    international fiction:
+      nominee: [tt12189006]
+      winner: [tt12189006]
+    non-fiction:
+      nominee: [tt13649466]
+      winner: [tt13649466]
+    u.s. fiction:
+      nominee: [tt13649538]
+      winner: [tt13649538]
+  world cinema dramatic special jury award:
+    acting:
+      nominee: [tt11379584]
+      winner: [tt11379584]
+    creative vision:
+      nominee: [tt11508438]
+      winner: [tt11508438]
+  short film special jury award:
+    acting:
+      nominee: [tt12758112]
+      winner: [tt12758112]
+    screenwriting:
+      nominee: [tt13224590]
+      winner: [tt13224590]
+  next innovator award:
+    next innovator award:
+      nominee: [tt11378876, tt11398346, tt12311460, tt12330184, tt13157722, tt13622118, tt13648224, tt8897874, tt8908432]
+      winner: [tt13622118]
+  u.s. dramatic special jury award:
+    acting:
+      nominee: [tt13559026]
+      winner: [tt13559026]
+    best ensemble:
+      nominee: [tt10366460]
+      winner: [tt10366460]
+  world cinema documentary special jury award:
+    impact and change:
+      nominee: [tt13630174]
+      winner: [tt13630174]
+    verite filmmaking:
+      nominee: [tt13648222]
+      winner: [tt13648222]
+  u.s. documentary special jury award:
+    emerging filmmaker:
+      nominee: [tt8710506]
+      winner: [tt8710506]
+    nonfiction experimentation:
+      nominee: [tt13622074]
+      winner: [tt13622074]
+  horizon award:
+    emerging female filmmaker:
+      nominee: [tt14309254]
+      winner: [tt14309254]
+'2020': # https://www.imdb.com/event/ev0000631/2020/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt11095742, tt11378264, tt11392114, tt11394166, tt11394168, tt11394170, tt11394176, tt11394180, tt11394182, tt11394184, tt11394188, tt11394198, tt11394200, tt11416746, tt6128108, tt8923484]
+      winner: [tt11095742]
+    dramatic:
+      nominee: [tt10451852, tt10633456, tt10642834, tt10767066, tt11380884, tt11394158, tt5439812, tt5554356, tt7772582, tt7873348, tt8430598, tt8902978, tt9048840, tt9058654, tt9484998, tt9827834]
+      winner: [tt10633456]
+    world cinema - documentary:
+      nominee: [tt10290160, tt11296058, tt11364376, tt11391604, tt11393948, tt11394290, tt11394296, tt11394298, tt11394308, tt11394314, tt11394318, tt9098928]
+      winner: [tt11393948]
+    world cinema - dramatic:
+      nominee: [tt10039524, tt10849514, tt11394282, tt11394284, tt11394288, tt5918982, tt6818118, tt8955708, tt9196192, tt9305634, tt9834492, tt9850050]
+      winner: [tt9834492]
+  directing award:
+    documentary:
+      nominee: [tt11416746]
+      winner: [tt11416746]
+    dramatic:
+      nominee: [tt10642834]
+      winner: [tt10642834]
+    world cinema - documentary:
+      nominee: [tt11394290]
+      winner: [tt11394290]
+    world cinema - dramatic:
+      nominee: [tt9196192]
+      winner: [tt9196192]
+  cinematography award:
+    world cinema - documentary:
+      nominee: [tt11364376]
+      winner: [tt11364376]
+  documentary film editing award:
+    documentary film editing award:
+      nominee: [tt11394200]
+      winner: [tt11394200]
+  waldo salt screenwriting award:
+    dramatic:
+      nominee: [tt10451852]
+      winner: [tt10451852]
+  audience award:
+    best of next!:
+      nominee: [tt11388990]
+      winner: [tt11388990]
+    documentary:
+      nominee: [tt8923484]
+      winner: [tt8923484]
+    dramatic:
+      nominee: [tt10633456]
+      winner: [tt10633456]
+    festival favorite:
+      nominee: [tt11394338]
+      winner: [tt11394338]
+    world cinema - documentary:
+      nominee: [tt9098928]
+      winner: [tt9098928]
+    world cinema - dramatic:
+      nominee: [tt11394282]
+      winner: [tt11394282]
+  alfred p. sloan feature film prize:
+    alfred p. sloan feature film prize:
+      nominee: [tt5259822]
+      winner: [tt5259822]
+  editing award:
+    world cinema - documentary:
+      nominee: [tt11394314]
+      winner: [tt11394314]
+  short film jury prize:
+    animation:
+      nominee: [tt10923134]
+      winner: [tt10923134]
+    international fiction:
+      nominee: [tt10093862]
+      winner: [tt10093862]
+    non-fiction:
+      nominee: [tt11733790]
+      winner: [tt11733790]
+    u.s. fiction:
+      nominee: [tt11384506]
+      winner: [tt11384506]
+  short film grand jury prize:
+    best short film:
+      nominee: [tt10047296, tt10093862, tt10106560, tt10191720, tt10221140, tt10272852, tt10304042, tt10341088, tt10368274, tt10384208, tt10440462, tt10477034, tt10519742, tt10521162, tt10526004, tt10549512, tt10576452, tt10713294, tt10777188, tt10809452, tt10851690, tt10893130, tt10923134, tt11138828, tt11313142, tt11356934, tt11383514, tt11384506, tt11388552, tt11405746, tt11421112, tt11422152, tt11422690, tt11423164, tt11423750, tt11427464, tt11427700, tt11447834, tt11501234, tt11510474, tt11512636, tt11512676, tt11513660, tt11523812, tt11526056, tt11527614, tt11547024, tt11563146, tt11595614, tt11609074, tt11624490, tt11664486, tt11664608, tt11695844, tt11713728, tt11733790, tt11733984, tt11753694, tt12189756, tt12478430, tt12478438, tt12478442, tt12478454, tt12478496, tt7339974, tt8913034, tt8993180, tt9387222, tt9455344, tt9875306]
+      winner: [tt11753694]
+  world cinema dramatic special jury award:
+    acting:
+      nominee: [tt9305634]
+      winner: [tt9305634]
+    best screenplay:
+      nominee: [tt11394282]
+      winner: [tt11394282]
+    visionary filmmaking:
+      nominee: [tt10849514]
+      winner: [tt10849514]
+  short film special jury award:
+    best actress in a short film:
+      nominee: [tt10304042]
+      winner: [tt10304042]
+    directing:
+      nominee: [tt12478496]
+      winner: [tt12478496]
+  new frontier:
+    new frontier:
+      nominee: [tt8874186]
+      winner: []
+  next innovator award:
+    next innovator award:
+      nominee: [tt10313748, tt10702148, tt11358166, tt11388990, tt11389562, tt11394330, tt11394332, tt11394340, tt8785030, tt9601220]
+      winner: [tt11388990]
+  u.s. dramatic special jury award:
+    auteur filmmaking:
+      nominee: [tt8430598]
+      winner: [tt8430598]
+    ensemble cast:
+      nominee: [tt9048840]
+      winner: [tt9048840]
+    neorealism:
+      nominee: [tt7772582]
+      winner: [tt7772582]
+  world cinema documentary special jury award:
+    creative storytelling:
+      nominee: [tt11296058]
+      winner: [tt11296058]
+  u.s. documentary special jury award:
+    emerging filmmaker:
+      nominee: [tt11394182]
+      winner: [tt11394182]
+    innovation in nonfiction storytelling:
+      nominee: [tt11394180]
+      winner: [tt11394180]
+    social impact filmmaking:
+      nominee: [tt11394184]
+      winner: [tt11394184]
+'2019': # https://www.imdb.com/event/ev0000631/2019/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt2352302, tt5884004, tt6010976, tt7170704, tt7193362, tt7913478, tt8499102, tt8760684, tt8923482, tt9135318, tt9351980, tt9353436, tt9358042, tt9358044, tt9358052, tt9358084]
+      winner: [tt8923482]
+    dramatic:
+      nominee: [tt3824648, tt4353250, tt5577494, tt6348410, tt6886080, tt7007696, tt7313348, tt7616148, tt7671064, tt7983890, tt8151874, tt8637428, tt8816178, tt8856090, tt9352926]
+      winner: [tt5577494]
+    world cinema - documentary:
+      nominee: [tt6016744, tt8581872, tt8923500, tt8961624, tt8991268, tt8995252, tt9326056, tt9352780, tt9358246, tt9358250, tt9358254, tt9358256]
+      winner: [tt8991268]
+    world cinema - dramatic:
+      nominee: [tt6062774, tt6920356, tt7334342, tt7666724, tt7798644, tt7802246, tt8311958, tt8378126, tt9355200, tt9358106, tt9358120, tt9358136]
+      winner: [tt6920356]
+  special jury prize:
+    dramatic:
+      nominee: [tt8151874]
+      winner: [tt8151874]
+  directing award:
+    documentary:
+      nominee: [tt9351980]
+      winner: [tt9351980]
+    dramatic:
+      nominee: [tt4353250]
+      winner: [tt4353250]
+    world cinema - documentary:
+      nominee: [tt9352780]
+      winner: [tt9352780]
+    world cinema - dramatic:
+      nominee: [tt9358136]
+      winner: [tt9358136]
+  cinematography award:
+    world cinema - documentary:
+      nominee: [tt8991268]
+      winner: [tt8991268]
+  waldo salt screenwriting award:
+    dramatic:
+      nominee: [tt7007696]
+      winner: [tt7007696]
+  audience award:
+    best of next!:
+      nominee: [tt6885114]
+      winner: [tt6885114]
+    documentary:
+      nominee: [tt9358052]
+      winner: [tt9358052]
+    dramatic:
+      nominee: [tt7671064]
+      winner: [tt7671064]
+    festival favorite:
+      nominee: [tt9358052]
+      winner: [tt9358052]
+    world cinema - documentary:
+      nominee: [tt9326056]
+      winner: [tt9326056]
+    world cinema - dramatic:
+      nominee: [tt8378126]
+      winner: [tt8378126]
+  alfred p. sloan feature film prize:
+    alfred p. sloan feature film prize:
+      nominee: [tt7533152]
+      winner: [tt7533152]
+  editing award:
+    documentary:
+      nominee: [tt8760684]
+      winner: [tt8760684]
+  short film special jury prize:
+    short film special jury prize:
+      nominee: [tt9067480, tt9072706]
+      winner: [tt9067480, tt9072706]
+  short film grand jury prize:
+    short film grand jury prize:
+      nominee: [tt10248754, tt10820652, tt6217698, tt6855230, tt7060688, tt7461380, tt7507644, tt7527406, tt7666972, tt7688426, tt8023822, tt8120754, tt8159724, tt8184736, tt8231844, tt8342522, tt8385042, tt8451424, tt8478236, tt8517672, tt8526074, tt8574350, tt8585336, tt8706828, tt8777146, tt8791506, tt8804076, tt8815754, tt8825914, tt8906678, tt8922572, tt8952644, tt8958868, tt8958890, tt8967928, tt8990520, tt9032798, tt9067480, tt9071140, tt9072706, tt9074322, tt9098948, tt9109086, tt9118454, tt9204606, tt9306392, tt9327640, tt9337746, tt9379374, tt9433046, tt9464080, tt9465738, tt9474806, tt9474854, tt9490584, tt9498994, tt9510082, tt9646526, tt9657888, tt9671828, tt9746382, tt9806544]
+      winner: [tt9510082]
+  short film jury award:
+    animation:
+      nominee: [tt8526074]
+      winner: [tt8526074]
+    international fiction:
+      nominee: [tt9327640]
+      winner: [tt9327640]
+    non-fiction:
+      nominee: [tt9671828]
+      winner: [tt9671828]
+    u.s. fiction:
+      nominee: [tt7060688]
+      winner: [tt7060688]
+  world cinema dramatic special jury award:
+    acting:
+      nominee: [tt9358106]
+      winner: [tt9358106]
+    originality:
+      nominee: [tt9358120]
+      winner: [tt9358120]
+    world cinema dramatic special jury award:
+      nominee: [tt6062774]
+      winner: [tt6062774]
+  new frontier:
+    new frontier:
+      nominee: [tt9670896]
+      winner: []
+  next innovator award:
+    next innovator award:
+      nominee: [tt4169146, tt5342950, tt6127004, tt6316466, tt6885114, tt8456696, tt8759834, tt9133378, tt9356952, tt9358160]
+      winner: [tt6885114]
+  u.s. dramatic special jury award:
+    achievement in acting:
+      nominee: [tt7007696]
+      winner: [tt7007696]
+    creative collaboration:
+      nominee: [tt4353250]
+      winner: [tt4353250]
+  world cinema documentary special jury award:
+    impact and change:
+      nominee: [tt8991268]
+      winner: [tt8991268]
+    no borders:
+      nominee: [tt8923500]
+      winner: [tt8923500]
+  u.s. documentary special jury award:
+    breakthrough filmmaker:
+      nominee: [tt8499102]
+      winner: [tt8499102]
+    moral urgency:
+      nominee: [tt2352302]
+      winner: [tt2352302]
+  horizon award:
+    emerging female filmmaker:
+      nominee: [tt2566082, tt8816028]
+      winner: [tt2566082, tt8816028]
+'2018': # https://www.imdb.com/event/ev0000631/2018/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt1893269, tt3261114, tt5844196, tt6633182, tt6634646, tt7475540, tt7476236, tt7520286, tt7527564, tt7664504, tt7689484, tt7689908, tt7689910, tt7689912, tt7689924, tt7689926]
+      winner: [tt7689912]
+    dramatic:
+      nominee: [tt2850272, tt4015500, tt5160938, tt5314450, tt5688932, tt5929754, tt6169694, tt6212478, tt6257174, tt6443294, tt6509058, tt6729000, tt6952960, tt7014006, tt7242142, tt7689906]
+      winner: [tt6257174]
+    world cinema - documentary:
+      nominee: [tt3041550, tt4378628, tt6617656, tt6862536, tt7240516, tt7472352, tt7519174, tt7689932, tt7689934, tt7689936, tt7689940, tt7689946]
+      winner: [tt7519174]
+    world cinema - dramatic:
+      nominee: [tt4488744, tt5707048, tt5862902, tt6444140, tt6742252, tt6746304, tt6776106, tt7318202, tt7328154, tt7467324, tt7476810, tt7689928]
+      winner: [tt7318202]
+  special jury prize:
+    documentary:
+      nominee: [tt6634646, tt7476236, tt7664504, tt7689908]
+      winner: [tt6634646, tt7476236, tt7664504, tt7689908]
+    dramatic:
+      nominee: [tt6169694, tt6443294, tt7689906]
+      winner: [tt6169694, tt6443294, tt7689906]
+    world cinema - documentary:
+      nominee: [tt3041550, tt6617656, tt6862536]
+      winner: [tt3041550, tt6617656, tt6862536]
+    world cinema - dramatic:
+      nominee: [tt6444140, tt7476810, tt7689928]
+      winner: [tt6444140, tt7476810, tt7689928]
+  directing award:
+    documentary:
+      nominee: [tt7689484]
+      winner: [tt7689484]
+    dramatic:
+      nominee: [tt6952960]
+      winner: [tt6952960]
+    world cinema - documentary:
+      nominee: [tt7472352]
+      winner: [tt7472352]
+    world cinema - dramatic:
+      nominee: [tt6776106]
+      winner: [tt6776106]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt6509058]
+      winner: [tt6509058]
+  audience award:
+    best of next!:
+      nominee: [tt6101602, tt6296764, tt6518270, tt6905402, tt7184124, tt7545566, tt7562932, tt7668870, tt7681824, tt7689950]
+      winner: [tt7668870]
+    documentary:
+      nominee: [tt7689926]
+      winner: [tt7689926]
+    dramatic:
+      nominee: [tt5314450]
+      winner: [tt5314450]
+    festival favorite:
+      nominee: [tt7153434]
+      winner: [tt7153434]
+    world cinema - documentary:
+      nominee: [tt7689946]
+      winner: [tt7689946]
+    world cinema - dramatic:
+      nominee: [tt6742252]
+      winner: [tt6742252]
+  short filmmaking award:
+    animation:
+      nominee: [tt6236696]
+      winner: [tt6236696]
+    documentary:
+      nominee: [tt7924820]
+      winner: [tt7924820]
+    international:
+      nominee: [tt7130628]
+      winner: [tt7130628]
+    special jury prize:
+      nominee: [tt7132658, tt7288818, tt7467476]
+      winner: [tt7132658, tt7288818, tt7467476]
+    us fiction:
+      nominee: [tt7475988]
+      winner: [tt7475988]
+  alfred p. sloan feature film prize:
+    alfred p. sloan feature film prize:
+      nominee: [tt7668870]
+      winner: [tt7668870]
+  nhk award:
+    nhk award:
+      nominee: [tt8508734]
+      winner: [tt8508734]
+  short film grand jury prize:
+    short film grand jury prize:
+      nominee: [tt5363486, tt5968262, tt6089092, tt6236696, tt6324068, tt6485750, tt6527474, tt6531506, tt6569966, tt6585312, tt6710828, tt6718814, tt6724880, tt6739808, tt6740132, tt6764622, tt6772698, tt6905458, tt6915280, tt6952952, tt6966866, tt6982812, tt6988216, tt7007792, tt7106790, tt7130628, tt7132658, tt7139480, tt7206606, tt7207674, tt7227522, tt7238340, tt7278178, tt7288818, tt7319504, tt7370910, tt7374512, tt7379682, tt7385592, tt7434238, tt7441028, tt7467476, tt7471538, tt7475988, tt7498346, tt7535612, tt7561610, tt7571616, tt7611684, tt7639222, tt7655416, tt7676148, tt7679416, tt7771642, tt7790166, tt7820962, tt7844392, tt7872488, tt7872596, tt7874476, tt7877938, tt7879350, tt7879414, tt7882592, tt7889578, tt7889616, tt7924820]
+      winner: [tt7139480]
+  short film jury award:
+    u.s. fiction:
+      nominee: [tt7475988]
+      winner: [tt7475988]
+  new frontier:
+    mobile vr:
+      nominee: [tt6684284, tt8033802]
+      winner: []
+    new frontier:
+      nominee: [tt10324286, tt7720282, tt7918178]
+      winner: []
+  next innovator award:
+    next innovator award:
+      nominee: [tt7184124, tt7681824]
+      winner: [tt7184124, tt7681824]
+'2017': # https://www.imdb.com/event/ev0000631/2017/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt3268850, tt5758404, tt5873150, tt6013154, tt6149818, tt6159518, tt6176928, tt6290202, tt6333052, tt6333054, tt6333056, tt6333058, tt6333060, tt6333062, tt6333064, tt6333066]
+      winner: [tt6333058]
+    dramatic:
+      nominee: [tt3268340, tt3739110, tt4513316, tt5420886, tt5541240, tt5655222, tt5687814, tt5710514, tt5737862, tt5796838, tt5805752, tt5816374, tt5826432, tt5962210, tt6288250, tt6303866]
+      winner: [tt5710514]
+    world cinema - documentary:
+      nominee: [tt5433330, tt5475022, tt5690244, tt6039532, tt6090264, tt6254144, tt6333072, tt6333074, tt6333078, tt6333080, tt6333082, tt6333084]
+      winner: [tt6333074]
+    world cinema - dramatic:
+      nominee: [tt3278224, tt3335606, tt3740066, tt5061564, tt5183594, tt5540188, tt5635086, tt5791536, tt5999770, tt6103318, tt6244730, tt6333070]
+      winner: [tt5540188]
+  special jury prize:
+    documentary:
+      nominee: [tt5758404, tt5873150, tt6333060]
+      winner: [tt5758404, tt5873150, tt6333060]
+    documentary editing:
+      nominee: [tt3268850]
+      winner: [tt3268850]
+    dramatic:
+      nominee: [tt4513316, tt5796838]
+      winner: [tt4513316, tt5796838]
+    world cinema - documentary:
+      nominee: [tt6333080]
+      winner: [tt6333080]
+    world cinema - dramatic:
+      nominee: [tt6244730]
+      winner: [tt6244730]
+  directing award:
+    documentary:
+      nominee: [tt6159518]
+      winner: [tt6159518]
+    dramatic:
+      nominee: [tt6303866]
+      winner: [tt6303866]
+    world cinema - documentary:
+      nominee: [tt6333082]
+      winner: [tt6333082]
+    world cinema - dramatic:
+      nominee: [tt5635086]
+      winner: [tt5635086]
+  cinematography award:
+    dramatic:
+      nominee: [tt3739110]
+      winner: [tt3739110]
+    world cinema - documentary:
+      nominee: [tt5690244]
+      winner: [tt5690244]
+    world cinema - dramatic:
+      nominee: [tt5061564]
+      winner: [tt5061564]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt5962210]
+      winner: [tt5962210]
+  audience award:
+    best of next!:
+      nominee: [tt4144332, tt5247026, tt5649108, tt5952006, tt5973364, tt5990474, tt6057032, tt6265828, tt6266218, tt6333086]
+      winner: [tt6057032]
+    documentary:
+      nominee: [tt6333054]
+      winner: [tt6333054]
+    dramatic:
+      nominee: [tt3268340]
+      winner: [tt3268340]
+    world cinema - documentary:
+      nominee: [tt5433330, tt6333072]
+      winner: [tt6333072]
+    world cinema - dramatic:
+      nominee: [tt3278224]
+      winner: [tt3278224]
+  alfred p. sloan feature film prize:
+    alfred p. sloan feature film prize:
+      nominee: [tt4978710]
+      winner: [tt4978710]
+  editing award:
+    world cinema - documentary:
+      nominee: [tt6333078]
+      winner: [tt6333078]
+  screenwriting award:
+    world cinema - dramatic:
+      nominee: [tt3740066]
+      winner: [tt3740066]
+  short film grand jury prize:
+    short film grand jury prize:
+      nominee: [tt4190832, tt4263816, tt5039776, tt5253436, tt5355020, tt5389642, tt5465728, tt5546342, tt5553972, tt5561056, tt5561518, tt5644824, tt5676764, tt5684934, tt5715760, tt5790568, tt5791324, tt5811176, tt5822628, tt5828764, tt5840276, tt5841114, tt5909408, tt5920250, tt5921584, tt5925130, tt5968168, tt5968238, tt5997756, tt6011388, tt6017358, tt6022096, tt6077960, tt6080014, tt6081572, tt6114164, tt6114826, tt6127330, tt6137110, tt6144994, tt6167568, tt6185654, tt6206284, tt6219668, tt6255010, tt6280100, tt6302950, tt6306190, tt6311936, tt6324176, tt6346080, tt6386710, tt6391374, tt6395008, tt6430180, tt6431716, tt6466046, tt6473120, tt6494396, tt6520660, tt6529816]
+      winner: [tt5841114]
+  short film jury award:
+    animation:
+      nominee: [tt5389642]
+      winner: [tt5389642]
+    documentary:
+      nominee: [tt4263816]
+      winner: [tt4263816]
+    international fiction:
+      nominee: [tt5715760]
+      winner: [tt5715760]
+    special jury award:
+      nominee: [tt6081572]
+      winner: [tt6081572]
+    u.s. fiction:
+      nominee: [tt5968168, tt6219668]
+      winner: [tt5968168]
+  short film special jury award:
+    editing:
+      nominee: [tt6306190]
+      winner: [tt6306190]
+'2016': # https://www.imdb.com/event/ev0000631/2016/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt2634548, tt3917210, tt4086024, tt4632316, tt5236900, tt5246328, tt5259692, tt5278458, tt5278460, tt5278462, tt5278464, tt5278466, tt5278578, tt5278592, tt5278596, tt5278598]
+      winner: [tt5278596]
+    dramatic:
+      nominee: [tt1639084, tt3517044, tt3652862, tt3958780, tt4034354, tt4129870, tt4158876, tt4196450, tt4258698, tt4305148, tt4437216, tt4444438, tt4661798, tt4666726, tt4872078, tt5254640]
+      winner: [tt4196450]
+    world cinema - documentary:
+      nominee: [tt2338774, tt4079902, tt4835086, tt5072370, tt5146068, tt5261818, tt5278506, tt5278868, tt5278914, tt5278928, tt5278930, tt5278932]
+      winner: [tt5278928]
+    world cinema - dramatic:
+      nominee: [tt3521306, tt3544218, tt3777860, tt3826628, tt4071086, tt4365518, tt4650738, tt5105218, tt5240748, tt5278832, tt5278836, tt5278850]
+      winner: [tt4365518]
+  special jury prize:
+    documentary:
+      nominee: [tt5259692, tt5278458]
+      winner: [tt5259692, tt5278458]
+    dramatic:
+      nominee: [tt3652862, tt4444438, tt4872078, tt5254640]
+      winner: [tt3652862, tt4444438, tt4872078, tt5254640]
+    world cinema - documentary:
+      nominee: [tt5278932]
+      winner: [tt5278932]
+    world cinema - dramatic:
+      nominee: [tt5278832, tt5278836]
+      winner: [tt5278832, tt5278836]
+  directing award:
+    documentary:
+      nominee: [tt3917210]
+      winner: [tt3917210]
+    dramatic:
+      nominee: [tt4034354]
+      winner: [tt4034354]
+    world cinema - documentary:
+      nominee: [tt5146068]
+      winner: [tt5146068]
+    world cinema - dramatic:
+      nominee: [tt3544218]
+      winner: [tt3544218]
+  cinematography award:
+    world cinema - documentary:
+      nominee: [tt2338774]
+      winner: [tt2338774]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt3652862]
+      winner: [tt3652862]
+  audience award:
+    best of next!:
+      nominee: [tt3776826, tt4238858, tt4262174, tt4573516, tt4734132, tt5164412, tt5225338, tt5278214, tt5280984, tt5281134]
+      winner: [tt4262174]
+    documentary:
+      nominee: [tt5278466]
+      winner: [tt5278466]
+    dramatic:
+      nominee: [tt4196450]
+      winner: [tt4196450]
+    world cinema - documentary:
+      nominee: [tt5278928]
+      winner: [tt5278928]
+    world cinema - dramatic:
+      nominee: [tt5278836]
+      winner: [tt5278836]
+  short filmmaking award:
+    international:
+      nominee: [tt5004252]
+      winner: [tt5004252]
+  alfred p. sloan feature film prize:
+    alfred p. sloan feature film prize:
+      nominee: [tt4285496]
+      winner: [tt4285496]
+  nhk award:
+    nhk award:
+      nominee: [tt6343058]
+      winner: [tt6343058]
+  editing award:
+    documentary:
+      nominee: [tt5236900]
+      winner: [tt5236900]
+    world cinema - documentary:
+      nominee: [tt4835086]
+      winner: [tt4835086]
+  screenwriting award:
+    documentary:
+      nominee: [tt5278592]
+      winner: [tt5278592]
+    world cinema - dramatic:
+      nominee: [tt3826628]
+      winner: [tt3826628]
+  short film jury prize:
+    animation:
+      nominee: [tt4554344]
+      winner: [tt4554344]
+    fiction:
+      nominee: [tt5087064]
+      winner: [tt5087064]
+    international fiction:
+      nominee: [tt4775726]
+      winner: [tt4775726]
+    non-fiction:
+      nominee: [tt4918278]
+      winner: [tt4918278]
+  short film special jury prize:
+    short film special jury prize:
+      nominee: [tt4513008, tt5120094]
+      winner: [tt4513008, tt5120094]
+  sundance institute/mahindra global filmmaking award:
+    sundance institute/mahindra global filmmaking award:
+      nominee: [tt5375434]
+      winner: [tt5375434]
+  short film grand jury prize:
+    short film grand jury prize:
+      nominee: [tt4248458, tt4384832, tt4396330, tt4417314, tt4419744, tt4421754, tt4422282, tt4450308, tt4513008, tt4516050, tt4523534, tt4554344, tt4608516, tt4636194, tt4641652, tt4671082, tt4702552, tt4775726, tt4805832, tt4860346, tt4860694, tt4918278, tt4919714, tt4933584, tt4982454, tt4991570, tt4992136, tt5001224, tt5020232, tt5027506, tt5039924, tt5078874, tt5087064, tt5089600, tt5113262, tt5116560, tt5120094, tt5126872, tt5127444, tt5127958, tt5134912, tt5140514, tt5142310, tt5143976, tt5144102, tt5246722, tt5249484, tt5258442, tt5262444, tt5291650, tt5302670, tt5340864, tt5347340, tt5424742, tt5424802, tt5424964, tt5424972, tt5425050, tt5425066, tt5425086, tt5433902, tt5433940, tt5434050, tt5434060, tt5579598]
+      winner: [tt5116560]
+  the short film jury award:
+    best short:
+      nominee: [tt14735228]
+      winner: []
+  short film jury award:
+    special jury award:
+      nominee: [tt14735228]
+      winner: []
+'2015': # https://www.imdb.com/event/ev0000631/2015/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt1618448, tt2415458, tt2545428, tt2614776, tt3462002, tt3518012, tt3899932, tt3962848, tt4076756, tt4126304, tt4126312, tt4135896, tt4214450, tt4329244, tt4370922, tt4382552]
+      winner: [tt2415458]
+    dramatic:
+      nominee: [tt0420293, tt1598642, tt2481512, tt2582496, tt2690138, tt3090670, tt3172532, tt3566788, tt3640682, tt3824412, tt3844362, tt3850214, tt3859304, tt4104022, tt4145304, tt4263482]
+      winner: [tt2582496]
+    world cinema - documentary:
+      nominee: [tt2442080, tt3215846, tt3457376, tt3833746, tt4056808, tt4074304, tt4082596, tt4137902, tt4144504, tt4145178, tt4344782, tt4370926]
+      winner: [tt4082596]
+    world cinema - dramatic:
+      nominee: [tt1603900, tt2325977, tt2614722, tt2994832, tt3155242, tt3166500, tt3205376, tt3407428, tt3742378, tt4040888, tt4077742, tt4309356]
+      winner: [tt3205376]
+  special jury prize:
+    documentary:
+      nominee: [tt4126312, tt4214450, tt4370922]
+      winner: [tt4126312, tt4214450, tt4370922]
+    dramatic:
+      nominee: [tt3090670]
+      winner: [tt3090670]
+    world cinema - documentary:
+      nominee: [tt4056808, tt4074304]
+      winner: [tt4056808, tt4074304]
+    world cinema - dramatic:
+      nominee: [tt3407428, tt3742378]
+      winner: [tt3407428, tt3742378]
+  directing award:
+    documentary:
+      nominee: [tt4126304]
+      winner: [tt4126304]
+    dramatic:
+      nominee: [tt4263482]
+      winner: [tt4263482]
+    world cinema - documentary:
+      nominee: [tt3215846]
+      winner: [tt3215846]
+    world cinema - dramatic:
+      nominee: [tt2994832]
+      winner: [tt2994832]
+  cinematography award:
+    documentary:
+      nominee: [tt4126304]
+      winner: [tt4126304]
+    dramatic:
+      nominee: [tt3172532]
+      winner: [tt3172532]
+    world cinema - dramatic:
+      nominee: [tt3155242]
+      winner: [tt3155242]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt0420293]
+      winner: [tt0420293]
+  audience award:
+    best of next!:
+      nominee: [tt3121332, tt3142366, tt3343784, tt3389296, tt3473410, tt3666210, tt3824458, tt3894188, tt4094144, tt4288636]
+      winner: [tt4288636]
+    documentary:
+      nominee: [tt2545428]
+      winner: [tt2545428]
+    dramatic:
+      nominee: [tt2582496]
+      winner: [tt2582496]
+    world cinema - documentary:
+      nominee: [tt4137902]
+      winner: [tt4137902]
+    world cinema - dramatic:
+      nominee: [tt2614722]
+      winner: [tt2614722]
+  alfred p. sloan feature film prize:
+    alfred p. sloan feature film prize:
+      nominee: [tt0420293]
+      winner: [tt0420293]
+  nhk award:
+    nhk award:
+      nominee: [tt5952594]
+      winner: [tt5952594]
+  editing award:
+    dramatic:
+      nominee: [tt3850214]
+      winner: [tt3850214]
+    world cinema - documentary:
+      nominee: [tt4144504]
+      winner: [tt4144504]
+  short film jury prize:
+    animation:
+      nominee: [tt3773012]
+      winner: [tt3773012]
+    fiction:
+      nominee: [tt4214868]
+      winner: [tt4214868]
+    international fiction:
+      nominee: [tt3672582]
+      winner: [tt3672582]
+    non-fiction:
+      nominee: [tt4215336]
+      winner: [tt4215336]
+  short film special jury prize:
+    short film special jury prize:
+      nominee: [tt3686716, tt4215316]
+      winner: [tt3686716, tt4215316]
+  short film grand jury prize:
+    short film grand jury prize:
+      nominee: [tt3140068, tt3203054, tt3373082, tt3453988, tt3505434, tt3561188, tt3609780, tt3623302, tt3624806, tt3630144, tt3630326, tt3642328, tt3672582, tt3679164, tt3686716, tt3730206, tt3730322, tt3755218, tt3823224, tt3826888, tt3831378, tt3831540, tt3843154, tt3885278, tt3901550, tt3951560, tt4033206, tt4061634, tt4110934, tt4171032, tt4180724, tt4196270, tt4196820, tt4214824, tt4214838, tt4214868, tt4214870, tt4214874, tt4214922, tt4214924, tt4214952, tt4215062, tt4215316, tt4215318, tt4215336, tt4215340, tt4322280, tt4357052, tt4357072, tt4357094, tt4383786, tt4439096, tt4439128]
+      winner: [tt4171032]
+'2014': # https://www.imdb.com/event/ev0000631/2014/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt1826730, tt2049589, tt2107850, tt2381335, tt2548738, tt2593392, tt3090252, tt3197558, tt3263520, tt3263996, tt3268458, tt3382636, tt3399112, tt3415214, tt3456090, tt3460082]
+      winner: [tt2548738]
+    dramatic:
+      nominee: [tt1179031, tt1571249, tt1864405, tt1969062, tt2182972, tt2235108, tt2381046, tt2581244, tt2582802, tt2723576, tt2920808, tt2955096, tt2994190, tt3186318, tt3263614, tt3469718]
+      winner: [tt2582802]
+    world cinema - documentary:
+      nominee: [tt2064745, tt2304915, tt2920540, tt2994634, tt3199456, tt3203462, tt3263690, tt3362914, tt3384976, tt3458776, tt3460064, tt3469420]
+      winner: [tt3199456]
+    world cinema - dramatic:
+      nominee: [tt2141751, tt2267712, tt2343621, tt2524674, tt2560102, tt2611390, tt2616810, tt3077150, tt3100636, tt3400872, tt3460152, tt3460184]
+      winner: [tt3460152]
+  special jury prize:
+    documentary:
+      nominee: [tt2049589, tt3263996]
+      winner: [tt2049589, tt3263996]
+    dramatic:
+      nominee: [tt2235108, tt3263614]
+      winner: [tt2235108, tt3263614]
+    world cinema - documentary:
+      nominee: [tt3362914]
+      winner: [tt3362914]
+    world cinema - dramatic:
+      nominee: [tt2141751]
+      winner: [tt2141751]
+  directing award:
+    documentary:
+      nominee: [tt2107850]
+      winner: [tt2107850]
+    dramatic:
+      nominee: [tt3469718]
+      winner: [tt3469718]
+    world cinema - documentary:
+      nominee: [tt2920540]
+      winner: [tt2920540]
+    world cinema - dramatic:
+      nominee: [tt3100636]
+      winner: [tt3100636]
+  cinematography award:
+    documentary:
+      nominee: [tt3456090]
+      winner: [tt3456090]
+    dramatic:
+      nominee: [tt1864405]
+      winner: [tt1864405]
+    world cinema - documentary:
+      nominee: [tt3458776]
+      winner: [tt3458776]
+    world cinema - dramatic:
+      nominee: [tt2560102, tt2611390]
+      winner: [tt2560102]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt1571249]
+      winner: [tt1571249]
+  audience award:
+    best of next!:
+      nominee: [tt2326554, tt2402985, tt2845578, tt2910274, tt2971990, tt3077108, tt3091286, tt3092606, tt3093546, tt3283556, tt3331028]
+      winner: [tt3331028]
+    documentary:
+      nominee: [tt2593392]
+      winner: [tt2593392]
+    dramatic:
+      nominee: [tt2582802]
+      winner: [tt2582802]
+    shorts:
+      nominee: [tt2937630]
+      winner: [tt2937630]
+    world cinema - documentary:
+      nominee: [tt2304915]
+      winner: [tt2304915]
+    world cinema - dramatic:
+      nominee: [tt2611390]
+      winner: [tt2611390]
+  alfred p. sloan feature film prize:
+    alfred p. sloan feature film prize:
+      nominee: [tt2884206]
+      winner: [tt2884206]
+  nhk award:
+    nhk award:
+      nominee: [tt2674430]
+      winner: [tt2674430]
+  editing award:
+    documentary:
+      nominee: [tt2049589]
+      winner: [tt2049589]
+    world cinema - documentary:
+      nominee: [tt2920540]
+      winner: [tt2920540]
+  screenwriting award:
+    world cinema - dramatic:
+      nominee: [tt2616810]
+      winner: [tt2616810]
+  short film jury prize:
+    animation:
+      nominee: [tt3278420]
+      winner: [tt3278420]
+    fiction:
+      nominee: [tt2909154]
+      winner: [tt2909154]
+    international fiction:
+      nominee: [tt3042000]
+      winner: [tt3042000]
+    non-fiction:
+      nominee: [tt3434046]
+      winner: [tt3434046]
+  short film special jury prize:
+    short film special jury prize:
+      nominee: [tt2902316, tt3315732, tt3394946]
+      winner: [tt2902316, tt3315732, tt3394946]
+  sundance institute/mahindra global filmmaking award:
+    sundance institute/mahindra global filmmaking award:
+      nominee: [tt3830162, tt4635372, tt8090564]
+      winner: [tt3830162, tt4635372, tt8090564]
+  short film grand jury prize:
+    short film grand jury prize:
+      nominee: [tt1213575, tt2187064, tt2543714, tt2567960, tt2649628, tt2658170, tt2793902, tt2902316, tt2909154, tt2914716, tt2918338, tt2922078, tt2922112, tt2935290, tt2937630, tt2951912, tt2963658, tt2964792, tt3004842, tt3014054, tt3020682, tt3042000, tt3072076, tt3086458, tt3120806, tt3145466, tt3180148, tt3202982, tt3216358, tt3225348, tt3225532, tt3244856, tt3278420, tt3278940, tt3315732, tt3325034, tt3333202, tt3334028, tt3334396, tt3358498, tt3379508, tt3394946, tt3395836, tt3400904, tt3402078, tt3408882, tt3410858, tt3416142, tt3420378, tt3427062, tt3434046, tt3436196, tt3442560, tt3454716, tt3455624, tt3465312, tt3469462, tt3469500, tt3469580, tt3469604, tt3469616, tt3469626, tt3469642, tt3469674, tt3469682]
+      winner: [tt3278940]
+  red crown producer's award:
+    red crown producer's award:
+      nominee: [tt2910274]
+      winner: [tt2910274]
+'2013': # https://www.imdb.com/event/ev0000631/2013/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt1874513, tt2179053, tt2201488, tt2215151, tt2265179, tt2355540, tt2396566, tt2430104, tt2475544, tt2504022, tt2532528, tt2545088, tt2545118, tt2545338, tt2558550, tt2577990]
+      winner: [tt2265179]
+    dramatic:
+      nominee: [tt1311071, tt1650393, tt1714206, tt1838520, tt1985019, tt2084989, tt2094890, tt2179116, tt2265534, tt2294677, tt2296697, tt2312890, tt2334649, tt2364949, tt2388637, tt2492664]
+      winner: [tt2334649]
+    world cinema - documentary:
+      nominee: [tt1787067, tt1847750, tt2101352, tt2363471, tt2433336, tt2442644, tt2481238, tt2486682, tt2551516, tt2551618, tt2551624, tt2578290]
+      winner: [tt2442644]
+    world cinema - dramatic:
+      nominee: [tt1839522, tt1845838, tt1951299, tt1992156, tt2181961, tt2332579, tt2526138, tt2551428, tt2551456, tt2551460, tt2551492, tt2551500]
+      winner: [tt2526138]
+  special jury prize:
+    documentary:
+      nominee: [tt2215151, tt2545088]
+      winner: [tt2215151, tt2545088]
+    dramatic:
+      nominee: [tt1714206, tt2084989]
+      winner: [tt1714206, tt2084989]
+    world cinema - documentary:
+      nominee: [tt2481238]
+      winner: [tt2481238]
+    world cinema - dramatic:
+      nominee: [tt1839522]
+      winner: [tt1839522]
+  directing award:
+    documentary:
+      nominee: [tt2355540]
+      winner: [tt2355540]
+    dramatic:
+      nominee: [tt2312890]
+      winner: [tt2312890]
+    world cinema - documentary:
+      nominee: [tt2551618]
+      winner: [tt2551618]
+    world cinema - dramatic:
+      nominee: [tt2332579]
+      winner: [tt2332579]
+  cinematography award:
+    documentary:
+      nominee: [tt2532528]
+      winner: [tt2532528]
+    dramatic:
+      nominee: [tt2094890, tt2388637]
+      winner: [tt2094890, tt2388637]
+    world cinema - documentary:
+      nominee: [tt1847750]
+      winner: [tt1847750]
+    world cinema - dramatic:
+      nominee: [tt2551428]
+      winner: [tt2551428]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt2294677]
+      winner: [tt2294677]
+  audience award:
+    best of next!:
+      nominee: [tt1798291, tt2007360, tt2027064, tt2147728, tt2187884, tt2201548, tt2217936, tt2254364, tt2328922, tt2397531]
+      winner: [tt1798291]
+    documentary:
+      nominee: [tt2265179]
+      winner: [tt2265179]
+    dramatic:
+      nominee: [tt2334649]
+      winner: [tt2334649]
+    shorts:
+      nominee: [tt2262654]
+      winner: [tt2262654]
+    world cinema - documentary:
+      nominee: [tt2486682]
+      winner: [tt2486682]
+    world cinema - dramatic:
+      nominee: [tt1845838]
+      winner: [tt1845838]
+  alfred p. sloan feature film prize:
+    alfred p. sloan feature film prize:
+      nominee: [tt2007360]
+      winner: [tt2007360]
+  editing award:
+    documentary:
+      nominee: [tt2179053]
+      winner: [tt2179053]
+    world cinema - documentary:
+      nominee: [tt2363471]
+      winner: [tt2363471]
+  screenwriting award:
+    world cinema - dramatic:
+      nominee: [tt2551492]
+      winner: [tt2551492]
+  short film jury prize:
+    animation:
+      nominee: [tt2586022]
+      winner: [tt2586022]
+    fiction:
+      nominee: [tt2654430]
+      winner: [tt2654430]
+    international fiction:
+      nominee: [tt2247154]
+      winner: [tt2247154]
+    non-fiction:
+      nominee: [tt2659426]
+      winner: [tt2659426]
+  short film special jury prize:
+    short film special jury prize:
+      nominee: [tt2402004, tt2659434]
+      winner: [tt2402004, tt2659434]
+  short film grand jury prize:
+    short film grand jury prize:
+      nominee: [tt2125581, tt2150062, tt2166236, tt2173658, tt2202368, tt2215741, tt2228900, tt2231296, tt2242274, tt2247154, tt2249626, tt2254109, tt2262654, tt2309924, tt2311844, tt2322379, tt2333046, tt2339643, tt2342151, tt2369143, tt2372335, tt2386140, tt2390219, tt2400479, tt2402004, tt2413494, tt2426154, tt2428852, tt2445680, tt2458756, tt2461346, tt2462414, tt2465066, tt2499022, tt2501654, tt2508572, tt2532012, tt2532014, tt2537514, tt2555908, tt2586022, tt2594098, tt2594210, tt2599786, tt2606344, tt2608404, tt2616720, tt2620238, tt2634658, tt2634692, tt2644508, tt2654430, tt2659410, tt2659426, tt2659434, tt2674152, tt2690924, tt2726232, tt2763252, tt2763258, tt2763308, tt2763314, tt2763332, tt2763344]
+      winner: [tt2659410]
+  indian paintbrush producer's award:
+    indian paintbrush producer's award:
+      nominee: [tt2388637]
+      winner: [tt2388637]
+'2012': # https://www.imdb.com/event/ev0000631/2012/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt1579361, tt1606829, tt1736049, tt1795622, tt1845773, tt1855347, tt2073029, tt2088919, tt2093109, tt2124803, tt2124998, tt2125490, tt2125548, tt2125653, tt2125666]
+      winner: [tt2125653]
+    dramatic:
+      nominee: [tt1211890, tt1570583, tt1763303, tt1790834, tt1827578, tt1862079, tt1866249, tt1869425, tt1907707, tt1907731, tt1965065, tt2011953, tt2063666, tt2063781, tt2112293, tt2125435]
+      winner: [tt2125435]
+    world cinema - documentary:
+      nominee: [tt1430625, tt1942884, tt1966604, tt2048877, tt2069916, tt2082232, tt2090463, tt2091307, tt2094920, tt2125423, tt2125608, tt2133383]
+      winner: [tt2069916]
+    world cinema - dramatic:
+      nominee: [tt1684925, tt1729226, tt1760980, tt1890472, tt1901040, tt2014392, tt2076897, tt2088967, tt2095684, tt2106292, tt2125425, tt2125500, tt2125698, tt2170327]
+      winner: [tt2014392]
+  special jury prize:
+    documentary:
+      nominee: [tt1845773, tt2125548]
+      winner: [tt1845773, tt2125548]
+    dramatic:
+      nominee: [tt1866249, tt1907731, tt2063781]
+      winner: [tt1866249]
+    world cinema - documentary:
+      nominee: [tt2125608]
+      winner: [tt2125608]
+    world cinema - dramatic:
+      nominee: [tt2170327]
+      winner: [tt2170327]
+  directing award:
+    documentary:
+      nominee: [tt2125666]
+      winner: [tt2125666]
+    dramatic:
+      nominee: [tt1211890]
+      winner: [tt1211890]
+    world cinema - documentary:
+      nominee: [tt2125423]
+      winner: [tt2125423]
+    world cinema - dramatic:
+      nominee: [tt1729226]
+      winner: [tt1729226]
+  cinematography award:
+    documentary:
+      nominee: [tt1579361]
+      winner: [tt1579361]
+    dramatic:
+      nominee: [tt2125435]
+      winner: [tt2125435]
+    world cinema - documentary:
+      nominee: [tt2094920]
+      winner: [tt2094920]
+    world cinema - dramatic:
+      nominee: [tt2076897]
+      winner: [tt2076897]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt1862079]
+      winner: [tt1862079]
+  audience award:
+    best of next!:
+      nominee: [tt1764636, tt1971352, tt1978480, tt1990422, tt2058677, tt2077851, tt2091318, tt2124074, tt2137818]
+      winner: [tt2077851]
+    documentary:
+      nominee: [tt2120152]
+      winner: [tt2120152]
+    dramatic:
+      nominee: [tt1866249]
+      winner: [tt1866249]
+    shorts:
+      nominee: [tt1884443]
+      winner: [tt1884443]
+    world cinema - documentary:
+      nominee: [tt2125608]
+      winner: [tt2125608]
+    world cinema - dramatic:
+      nominee: [tt2088967]
+      winner: [tt2088967]
+  short filmmaking award:
+    international:
+      nominee: [tt2023801]
+      winner: []
+  alfred p. sloan feature film prize:
+    alfred p. sloan feature film prize:
+      nominee: [tt1990314, tt2088967]
+      winner: [tt1990314, tt2088967]
+  women in film national geographic all roads award:
+    women in film national geographic all roads award:
+      nominee: [tt2028578]
+      winner: [tt2028578]
+  editing award:
+    documentary:
+      nominee: [tt2125490]
+      winner: [tt2125490]
+    world cinema - documentary:
+      nominee: [tt1942884]
+      winner: [tt1942884]
+  screenwriting award:
+    world cinema - dramatic:
+      nominee: [tt2125698]
+      winner: [tt2125698]
+  short film jury prize:
+    animation:
+      nominee: [tt1964446]
+      winner: [tt1964446]
+    fiction:
+      nominee: [tt1727288, tt2184293]
+      winner: [tt2184293]
+    international fiction:
+      nominee: [tt2087841, tt2101356, tt2120738]
+      winner: [tt2087841]
+    non-fiction:
+      nominee: [tt1886621, tt2028578]
+      winner: [tt2028578]
+  short film special jury prize:
+    short film special jury prize:
+      nominee: [tt2023664, tt2066982]
+      winner: [tt2023664, tt2066982]
+  short film grand jury prize:
+    short film grand jury prize:
+      nominee: [tt1727288, tt1744612, tt1851017, tt1884443, tt1895538, tt1904845, tt1954705, tt1964446, tt1982597, tt1988535, tt1999908, tt2006697, tt2011101, tt2015451, tt2023406, tt2023611, tt2023664, tt2025666, tt2028578, tt2054819, tt2056570, tt2056638, tt2061682, tt2063594, tt2064760, tt2070886, tt2073084, tt2077875, tt2078648, tt2087841, tt2088662, tt2095671, tt2119553, tt2124941, tt2184293, tt2203783, tt2501618, tt2754014, tt5105594]
+      winner: [tt2061682]
+'2011': # https://www.imdb.com/event/ev0000631/2011/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt1445203, tt1613023, tt1715802, tt1727491, tt1733679, tt1746153, tt1753549, tt1784538, tt1787660, tt1787725, tt1787777, tt1787791, tt1787797, tt1787816, tt1787837, tt2201271]
+      winner: [tt1715802]
+    dramatic:
+      nominee: [tt1127886, tt1233334, tt1441326, tt1525838, tt1535970, tt1549572, tt1562568, tt1623745, tt1629762, tt1645080, tt1663660, tt1675192, tt1684628, tt1687281, tt1719071, tt1758692]
+      winner: [tt1758692]
+    world cinema - documentary:
+      nominee: [tt1424432, tt1592527, tt1606259, tt1667130, tt1674131, tt1742178, tt1748043, tt1766085, tt1787693, tt1787804, tt1787810, tt1814836]
+      winner: [tt1748043]
+    world cinema - dramatic:
+      nominee: [tt1204340, tt1529273, tt1540133, tt1572154, tt1624996, tt1664892, tt1727250, tt1741690, tt1787663, tt1787664, tt1787747, tt1787758, tt1787787, tt1787829]
+      winner: [tt1664892]
+  special jury prize:
+    documentary:
+      nominee: [tt1787660]
+      winner: [tt1787660]
+    dramatic:
+      nominee: [tt1549572, tt1758692]
+      winner: [tt1549572, tt1758692]
+    world cinema - documentary:
+      nominee: [tt1742178]
+      winner: [tt1742178]
+    world cinema - dramatic:
+      nominee: [tt1204340]
+      winner: [tt1204340]
+  directing award:
+    documentary:
+      nominee: [tt1787791]
+      winner: [tt1787791]
+    dramatic:
+      nominee: [tt1441326]
+      winner: [tt1441326]
+    world cinema - documentary:
+      nominee: [tt1814836]
+      winner: [tt1814836]
+    world cinema - dramatic:
+      nominee: [tt1204340]
+      winner: [tt1204340]
+  cinematography award:
+    documentary:
+      nominee: [tt1733679]
+      winner: [tt1733679]
+    dramatic:
+      nominee: [tt1233334]
+      winner: [tt1233334]
+    world cinema - documentary:
+      nominee: [tt1748043]
+      winner: [tt1748043]
+    world cinema - dramatic:
+      nominee: [tt1787829]
+      winner: [tt1787829]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt1719071]
+      winner: [tt1719071]
+  audience award:
+    best of next!:
+      nominee: [tt1242599, tt1374996, tt1531930, tt1545464, tt1646981, tt1748207, tt1779086, tt1787828]
+      winner: [tt1787828]
+    documentary:
+      nominee: [tt1753549]
+      winner: [tt1753549]
+    dramatic:
+      nominee: [tt1684628]
+      winner: [tt1684628]
+    world cinema - documentary:
+      nominee: [tt1424432]
+      winner: [tt1424432]
+    world cinema - dramatic:
+      nominee: [tt1572154]
+      winner: [tt1572154]
+  short filmmaking award:
+    international:
+      nominee: [tt1521791, tt1535510, tt1586733, tt1587259, tt1601238, tt1608571, tt1632641, tt1638346, tt1646960, tt1661873, tt1663227, tt1673499, tt1680696, tt1683494, tt1695771, tt1706378, tt1720261, tt1725828, tt1727348, tt1739993, tt1756810, tt1757649, tt1772354, tt1772761, tt1772969, tt1785579, tt1797435, tt1799129, tt1805199, tt1808493, tt1814662, tt1821389, tt1825118, tt1868084, tt1977064, tt1986138, tt2092428, tt4406538, tt4406540]
+      winner: [tt1586733]
+    us fiction:
+      nominee: [tt1548014, tt1652172, tt1665728, tt1680065, tt1707320, tt1715218, tt1718127, tt1723790, tt1730242, tt1735922, tt1740806, tt1753423, tt1754221, tt1754910, tt1754919, tt1756726, tt1762363, tt1764378, tt1765973, tt1772793, tt1780945, tt1782433, tt1784488, tt1791504, tt1792649, tt1805322, tt1823756, tt1825693, tt1839406, tt1844056, tt1851076, tt1857621, tt1871441, tt1885364, tt1907619, tt1988127, tt2040560, tt2079583, tt2395036, tt2736092, tt4406552]
+      winner: [tt1825693]
+  short filmmaking award - honorable mention:
+    short filmmaking award - honorable mention:
+      nominee: [tt1608571, tt1632641, tt1638346, tt1680696, tt1695771, tt1720261]
+      winner: [tt1608571, tt1632641, tt1638346, tt1680696, tt1695771, tt1720261]
+  alfred p. sloan feature film prize:
+    alfred p. sloan feature film prize:
+      nominee: [tt1549572]
+      winner: [tt1549572]
+  editing award:
+    documentary:
+      nominee: [tt1787725]
+      winner: [tt1787725]
+    world cinema - documentary:
+      nominee: [tt1592527]
+      winner: [tt1592527]
+  screenwriting award:
+    world cinema - dramatic:
+      nominee: [tt1787663]
+      winner: [tt1787663]
+  sundance institute/mahindra global filmmaking award:
+    sundance institute/mahindra global filmmaking award:
+      nominee: [tt3278224]
+      winner: [tt3278224]
+  women in film award:
+    women in film award:
+      nominee: [tt1727491]
+      winner: [tt1727491]
+'2010': # https://www.imdb.com/event/ev0000631/2010/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt1159712, tt1262958, tt1280015, tt1515059, tt1522857, tt1524095, tt1540814, tt1548865, tt1557720, tt1558250, tt1559549, tt1566648, tt1568150, tt1568331, tt1568334, tt1568335]
+      winner: [tt1559549]
+    dramatic:
+      nominee: [tt0775543, tt1049402, tt1120985, tt1143896, tt1183923, tt1270277, tt1312254, tt1314190, tt1322264, tt1399683, tt1403177, tt1423593, tt1436560, tt1481572, tt1522218, tt1535568]
+      winner: [tt1399683]
+    world cinema - documentary:
+      nominee: [tt1268204, tt1496460, tt1512201, tt1523980, tt1546653, tt1550533, tt1560148, tt1560170, tt1562347, tt1567736, tt1568328, tt1568923]
+      winner: [tt1546653]
+    world cinema - dramatic:
+      nominee: [tt1235162, tt1247696, tt1289449, tt1313092, tt1341167, tt1368491, tt1397502, tt1415290, tt1442584, tt1447508, tt1517269, tt1526317, tt1529252, tt1560139]
+      winner: [tt1313092]
+  special jury prize:
+    documentary:
+      nominee: [tt1558250]
+      winner: [tt1558250]
+    dramatic:
+      nominee: [tt1270277]
+      winner: [tt1270277]
+    world cinema - documentary:
+      nominee: [tt1568328]
+      winner: [tt1568328]
+    world cinema - dramatic:
+      nominee: [tt1397502]
+      winner: [tt1397502]
+  directing award:
+    documentary:
+      nominee: [tt1280015]
+      winner: [tt1280015]
+    dramatic:
+      nominee: [tt1314190]
+      winner: [tt1314190]
+    world cinema - documentary:
+      nominee: [tt1496460]
+      winner: [tt1496460]
+    world cinema - dramatic:
+      nominee: [tt1526317]
+      winner: [tt1526317]
+  cinematography award:
+    documentary:
+      nominee: [tt1522857]
+      winner: [tt1522857]
+    dramatic:
+      nominee: [tt1522218]
+      winner: [tt1522218]
+    world cinema - documentary:
+      nominee: [tt1550533]
+      winner: [tt1550533]
+    world cinema - dramatic:
+      nominee: [tt1529252]
+      winner: [tt1529252]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt1399683]
+      winner: [tt1399683]
+  audience award:
+    documentary:
+      nominee: [tt1566648]
+      winner: [tt1566648]
+    dramatic:
+      nominee: [tt1481572]
+      winner: [tt1481572]
+    world cinema - documentary:
+      nominee: [tt1268204]
+      winner: [tt1268204]
+    world cinema - dramatic:
+      nominee: [tt1368491]
+      winner: [tt1368491]
+  short filmmaking award:
+    international:
+      nominee: [tt1375309, tt1419747, tt1450762, tt1510933, tt1602571]
+      winner: [tt1450762]
+    national:
+      nominee: [tt1288477, tt1517649, tt1520451, tt1526633, tt1540446, tt1556638, tt1562926, tt1577116, tt1581326, tt1646923, tt1661859, tt1745844]
+      winner: []
+  short filmmaking award - honorable mention:
+    short filmmaking award - honorable mention:
+      nominee: [tt1486604, tt1486882, tt1512892, tt1531634, tt1538967, tt1557200, tt1597119]
+      winner: [tt1486604, tt1486882, tt1512892, tt1531634, tt1538967, tt1557200, tt1597119]
+  alfred p. sloan feature film prize:
+    alfred p. sloan feature film prize:
+      nominee: [tt1522218]
+      winner: [tt1522218]
+  nhk award:
+    nhk award:
+      nominee: [tt1925421, tt2125435, tt2852376]
+      winner: [tt1925421, tt2125435, tt2852376]
+  editing award:
+    documentary:
+      nominee: [tt1568150]
+      winner: [tt1568150]
+    world cinema - documentary:
+      nominee: [tt1568923]
+      winner: [tt1568923]
+  screenwriting award:
+    world cinema - dramatic:
+      nominee: [tt1526317]
+      winner: [tt1526317]
+  best of next:
+    best of next:
+      nominee: [tt1557769]
+      winner: [tt1557769]
+'2009': # https://www.imdb.com/event/ev0000631/2009/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0498329, tt1074194, tt1212439, tt1213585, tt1243971, tt1313104, tt1326204, tt1327819, tt1331024, tt1331025, tt1333631, tt1333639, tt1333656, tt1333657, tt1333667, tt1333668]
+      winner: [tt0498329]
+    dramatic:
+      nominee: [tt0760166, tt0790627, tt0929632, tt1019454, tt1127715, tt1127877, tt1144551, tt1185836, tt1187041, tt1190858, tt1209364, tt1226232, tt1228953, tt1241316, tt1331064, tt1334537]
+      winner: [tt0929632]
+    world cinema - documentary:
+      nominee: [tt0956101, tt1175285, tt1176727, tt1179080, tt1180311, tt1288595, tt1307963, tt1330059, tt1333634, tt1334109, tt1334507, tt1334510, tt1334549, tt1334555, tt1334556, tt1334566]
+      winner: [tt1179080]
+    world cinema - dramatic:
+      nominee: [tt0763844, tt0842675, tt0929259, tt0997263, tt1091992, tt1132594, tt1172570, tt1174732, tt1187044, tt1191140, tt1238291, tt1305814, tt1313130, tt1327908, tt1331126, tt1334523]
+      winner: [tt1187044]
+  special jury prize:
+    documentary:
+      nominee: [tt1213585]
+      winner: [tt1213585]
+    dramatic:
+      nominee: [tt0929632, tt1334537]
+      winner: [tt0929632, tt1334537]
+    world cinema - documentary:
+      nominee: [tt1334566]
+      winner: [tt1334566]
+    world cinema - dramatic:
+      nominee: [tt1132594, tt1187044]
+      winner: [tt1132594, tt1187044]
+  directing award:
+    documentary:
+      nominee: [tt1333639]
+      winner: [tt1333639]
+    dramatic:
+      nominee: [tt1127715]
+      winner: [tt1127715]
+    world cinema - documentary:
+      nominee: [tt1334510]
+      winner: [tt1334510]
+    world cinema - dramatic:
+      nominee: [tt1238291]
+      winner: [tt1238291]
+  cinematography award:
+    documentary:
+      nominee: [tt1331025]
+      winner: [tt1331025]
+    dramatic:
+      nominee: [tt1127715]
+      winner: [tt1127715]
+    world cinema - documentary:
+      nominee: [tt0956101]
+      winner: [tt0956101]
+    world cinema - dramatic:
+      nominee: [tt1174732]
+      winner: [tt1174732]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt1331064]
+      winner: [tt1331064]
+  audience award:
+    documentary:
+      nominee: [tt1313104]
+      winner: [tt1313104]
+    dramatic:
+      nominee: [tt0929632]
+      winner: [tt0929632]
+    world cinema - documentary:
+      nominee: [tt1334510]
+      winner: [tt1334510]
+    world cinema - dramatic:
+      nominee: [tt1174732]
+      winner: [tt1174732]
+  short filmmaking award:
+    international:
+      nominee: [tt1337245, tt1352379]
+      winner: [tt1352379]
+  short filmmaking award - honorable mention:
+    short filmmaking award - honorable mention:
+      nominee: [tt1155591, tt1232785, tt1314359, tt1315346, tt1318407, tt1343750, tt1352841, tt1352849]
+      winner: [tt1155591, tt1232785, tt1314359, tt1315346, tt1318407, tt1343750, tt1352841, tt1352849]
+  alfred p. sloan feature film prize:
+    alfred p. sloan feature film prize:
+      nominee: [tt1185836]
+      winner: [tt1185836]
+  editing award:
+    documentary:
+      nominee: [tt1333656]
+      winner: [tt1333656]
+    world cinema - documentary:
+      nominee: [tt1333634]
+      winner: [tt1333634]
+  screenwriting award:
+    world cinema - dramatic:
+      nominee: [tt1238291]
+      winner: [tt1238291]
+  short film grand jury prize:
+    short film grand jury prize:
+      nominee: [tt1155591, tt1230558, tt1232785, tt1233490, tt1253563, tt1255891, tt1282053, tt1290078, tt1299384, tt1318407, tt1336988, tt1339172, tt1345838, tt1351684, tt1352686, tt1352822, tt1352832, tt1352834, tt1352837, tt1352839, tt1352848, tt1469272]
+      winner: [tt1299384]
+'2008': # https://www.imdb.com/event/ev0000631/2008/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0463990, tt0479468, tt0486259, tt0940620, tt0963807, tt1149405, tt1149583, tt1151309, tt1157604, tt1157650, tt1157685, tt1157694, tt1157705, tt1157709, tt1157718, tt1157728]
+      winner: [tt1149405]
+    dramatic:
+      nominee: [tt0411323, tt0768218, tt0804529, tt0862846, tt0876233, tt0944101, tt0978759, tt0990413, tt1024715, tt1034325, tt1037004, tt1058743, tt1082886, tt1148786, tt1153690, tt1157688]
+      winner: [tt0978759]
+    world cinema - documentary:
+      nominee: [tt0866436, tt1037033, tt1073548, tt1093819, tt1114277, tt1149581, tt1149585, tt1155592, tt1157607, tt1157609, tt1157635, tt1157638, tt1157700, tt1157720, tt1158333, tt1172992]
+      winner: [tt1155592]
+    world cinema - dramatic:
+      nominee: [tt0481320, tt0827713, tt0831386, tt0995747, tt1003023, tt1016307, tt1017428, tt1024942, tt1027658, tt1063669, tt1064215, tt1094275, tt1110272, tt1153116, tt1157618, tt1157631]
+      winner: [tt1110272]
+  special jury prize:
+    documentary:
+      nominee: [tt1157650]
+      winner: [tt1157650]
+    dramatic:
+      nominee: [tt1024715, tt1148786]
+      winner: [tt1024715, tt1148786]
+    world cinema - dramatic:
+      nominee: [tt0481320]
+      winner: [tt0481320]
+  directing award:
+    documentary:
+      nominee: [tt0486259]
+      winner: [tt0486259]
+    dramatic:
+      nominee: [tt1153690]
+      winner: [tt1153690]
+    world cinema - documentary:
+      nominee: [tt1157635]
+      winner: [tt1157635]
+    world cinema - dramatic:
+      nominee: [tt0995747]
+      winner: [tt0995747]
+  cinematography award:
+    documentary:
+      nominee: [tt0940620]
+      winner: [tt0940620]
+    dramatic:
+      nominee: [tt1153690]
+      winner: [tt1153690]
+    world cinema - documentary:
+      nominee: [tt1149585]
+      winner: [tt1149585]
+    world cinema - dramatic:
+      nominee: [tt1110272]
+      winner: [tt1110272]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt0804529]
+      winner: [tt0804529]
+  audience award:
+    documentary:
+      nominee: [tt0463990]
+      winner: [tt0463990]
+    dramatic:
+      nominee: [tt1082886]
+      winner: [tt1082886]
+    world cinema - documentary:
+      nominee: [tt1155592]
+      winner: [tt1155592]
+    world cinema - dramatic:
+      nominee: [tt1017428]
+      winner: [tt1017428]
+  short filmmaking award:
+    international:
+      nominee: [tt1019965]
+      winner: [tt1019965]
+    short filmmaking award:
+      nominee: [tt1152708, tt1152712]
+      winner: [tt1152708, tt1152712]
+  short filmmaking award - honorable mention:
+    short filmmaking award - honorable mention:
+      nominee: [tt1029161, tt1047506, tt1085794, tt1157608, tt1157626, tt1161869, tt1333131]
+      winner: [tt1029161, tt1047506, tt1085794, tt1157608, tt1157626, tt1161869, tt1333131]
+  alfred p. sloan feature film prize:
+    alfred p. sloan feature film prize:
+      nominee: [tt0804529]
+      winner: [tt0804529]
+  nhk award:
+    nhk award:
+      nominee: [tt1127886, tt1157549]
+      winner: [tt1127886, tt1157549]
+  editing award:
+    documentary:
+      nominee: [tt1157705]
+      winner: [tt1157705]
+    world cinema - documentary:
+      nominee: [tt1157607]
+      winner: [tt1157607]
+  screenwriting award:
+    world cinema - dramatic:
+      nominee: [tt0827713]
+      winner: [tt0827713]
+  short film grand jury prize:
+    short film grand jury prize:
+      nominee: [tt1031263]
+      winner: []
+'2007': # https://www.imdb.com/event/ev0000631/2007/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0479879, tt0790706, tt0810970, tt0874423, tt0893356, tt0905361, tt0911010, tt0912574, tt0912583, tt0912585, tt0912586, tt0912587, tt0912590, tt0912592, tt0912593, tt0912599]
+      winner: [tt0912590]
+    dramatic:
+      nominee: [tt0415856, tt0453548, tt0477078, tt0484224, tt0497316, tt0497470, tt0758784, tt0772157, tt0772168, tt0780622, tt0790676, tt0808331, tt0817544, tt0834938, tt0893331, tt0911024]
+      winner: [tt0834938]
+    world cinema - documentary:
+      nominee: [tt0473181, tt0800099, tt0832903, tt0833963, tt0893513, tt0896692, tt0924122, tt0924165, tt0924166, tt0925212, tt0925230, tt0925248, tt0925259, tt0925260, tt0925296, tt0925307]
+      winner: [tt0924122]
+    world cinema - dramatic:
+      nominee: [tt0475241, tt0483577, tt0489458, tt0494222, tt0498134, tt0498846, tt0770810, tt0791313, tt0792966, tt0809931, tt0851577, tt0872202, tt0899095, tt0907657, tt0923688, tt0943958]
+      winner: [tt0498846]
+  special jury prize:
+    documentary:
+      nominee: [tt0912593]
+      winner: [tt0912593]
+    dramatic:
+      nominee: [tt0780622, tt0893331, tt0911024]
+      winner: [tt0780622, tt0893331, tt0911024]
+    world cinema - documentary:
+      nominee: [tt0833963]
+      winner: [tt0833963]
+    world cinema - dramatic:
+      nominee: [tt0498134]
+      winner: [tt0498134]
+  directing award:
+    documentary:
+      nominee: [tt0912599]
+      winner: [tt0912599]
+    dramatic:
+      nominee: [tt0477078]
+      winner: [tt0477078]
+  cinematography award:
+    documentary:
+      nominee: [tt0912590]
+      winner: [tt0912590]
+    dramatic:
+      nominee: [tt0808331]
+      winner: [tt0808331]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt0772168]
+      winner: [tt0772168]
+  audience award:
+    documentary:
+      nominee: [tt0912587]
+      winner: [tt0912587]
+    dramatic:
+      nominee: [tt0772168]
+      winner: [tt0772168]
+    world cinema - documentary:
+      nominee: [tt0925248]
+      winner: [tt0925248]
+    world cinema - dramatic:
+      nominee: [tt0907657]
+      winner: [tt0907657]
+  short filmmaking award:
+    international:
+      nominee: [tt0783722, tt0913371, tt0923956]
+      winner: [tt0923956]
+    short filmmaking award:
+      nominee: [tt0846065, tt0887734]
+      winner: [tt0887734]
+  short filmmaking special jury prize:
+    short filmmaking special jury prize:
+      nominee: [tt0914369]
+      winner: [tt0914369]
+  short filmmaking award - honorable mention:
+    short filmmaking award - honorable mention:
+      nominee: [tt0823692, tt0893327, tt0921766, tt0923790, tt0923797, tt0923930]
+      winner: [tt0823692, tt0893327, tt0921766, tt0923790, tt0923797, tt0923930]
+  alfred p. sloan feature film prize:
+    alfred p. sloan feature film prize:
+      nominee: [tt0416675]
+      winner: [tt0416675]
+  "\"delta's fly-in movies\" film contest winner":
+    "\"delta's fly-in movies\" film contest winner":
+      nominee: [tt0783732]
+      winner: [tt0783732]
+  editing award:
+    documentary:
+      nominee: [tt0893356]
+      winner: [tt0893356]
+'2006': # https://www.imdb.com/event/ev0000631/2006/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0301555, tt0434440, tt0446055, tt0446345, tt0491877, tt0492443, tt0492453, tt0492466, tt0492472, tt0492487, tt0492488, tt0492494, tt0492496, tt0492499, tt0492502, tt0492506]
+      winner: [tt0301555]
+    dramatic:
+      nominee: [tt0412808, tt0423169, tt0432290, tt0439833, tt0444631, tt0451176, tt0457308, tt0458367, tt0468489, tt0473488, tt0477139, tt0483812, tt0492463, tt0492481, tt0492489, tt0492492]
+      winner: [tt0451176]
+    world cinema - documentary:
+      nominee: [tt0451698, tt0460427, tt0464022, tt0478157, tt0478160, tt0481265, tt0482633, tt0490984, tt0491882, tt0492447, tt0492450, tt0492454, tt0492464, tt0492469, tt0492484, tt0492491]
+      winner: [tt0492464]
+    world cinema - dramatic:
+      nominee: [tt0373747, tt0402505, tt0420509, tt0424789, tt0431045, tt0434292, tt0445609, tt0452345, tt0464029, tt0475169, tt0476298, tt0479506, tt0479901, tt0492473, tt0492479, tt0492490]
+      winner: [tt0475169]
+  special jury prize:
+    documentary:
+      nominee: [tt0492443, tt0492494]
+      winner: [tt0492443, tt0492494]
+    dramatic:
+      nominee: [tt0473488, tt0492463]
+      winner: [tt0473488, tt0492463]
+    world cinema - documentary:
+      nominee: [tt0478160, tt0492454]
+      winner: [tt0478160, tt0492454]
+    world cinema - dramatic:
+      nominee: [tt0431045]
+      winner: [tt0431045]
+  directing award:
+    documentary:
+      nominee: [tt0492466]
+      winner: [tt0492466]
+    dramatic:
+      nominee: [tt0473488]
+      winner: [tt0473488]
+  cinematography award:
+    documentary:
+      nominee: [tt0492466]
+      winner: [tt0492466]
+    dramatic:
+      nominee: [tt0458367]
+      winner: [tt0458367]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt0483812]
+      winner: [tt0483812]
+  audience award:
+    documentary:
+      nominee: [tt0301555]
+      winner: [tt0301555]
+    dramatic:
+      nominee: [tt0451176]
+      winner: [tt0451176]
+    world cinema - documentary:
+      nominee: [tt0451698]
+      winner: [tt0451698]
+    world cinema - dramatic:
+      nominee: [tt0452345]
+      winner: [tt0452345]
+  short filmmaking award:
+    international:
+      nominee: [tt0441462, tt0493390]
+      winner: [tt0441462]
+    national:
+      nominee: [tt0492961]
+      winner: []
+    short filmmaking award:
+      nominee: [tt0492940, tt0493467]
+      winner: [tt0492940, tt0493467]
+  short filmmaking award - honorable mention:
+    short filmmaking award - honorable mention:
+      nominee: [tt0434067, tt0450518, tt0484879]
+      winner: [tt0434067, tt0450518, tt0484879]
+  alfred p. sloan feature film prize:
+    alfred p. sloan feature film prize:
+      nominee: [tt0373747]
+      winner: [tt0373747]
+  editing award:
+    documentary:
+      nominee: [tt0492466]
+      winner: [tt0492466]
+'2005': # https://www.imdb.com/event/ev0000631/2005/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0368264, tt0395796, tt0427206, tt0436039, tt0436078, tt0436231, tt0436295, tt0436334, tt0436569, tt0436613, tt0436629, tt0436720, tt0436728, tt0436857, tt0436971, tt1016268]
+      winner: [tt0436971]
+    dramatic:
+      nominee: [tt0318761, tt0367089, tt0381505, tt0383965, tt0384929, tt0385006, tt0385056, tt0393109, tt0395543, tt0406038, tt0410097, tt0415978, tt0418773, tt0424840, tt0436262, tt0436941]
+      winner: [tt0395543]
+    world cinema - documentary:
+      nominee: [tt0413018, tt0424272, tt0424435, tt0427312, tt0436233, tt0436428, tt0436508, tt0436649, tt0436784, tt0436794, tt0436864, tt0436978]
+      winner: [tt0436794]
+    world cinema - dramatic:
+      nominee: [tt0356453, tt0382621, tt0386342, tt0386651, tt0386862, tt0395173, tt0399365, tt0410400, tt0416315, tt0420260, tt0422907, tt0424142, tt0424237, tt0426154, tt0436639, tt0436979]
+      winner: [tt0424142]
+  special jury prize:
+    documentary:
+      nominee: [tt0436039, tt0436613]
+      winner: [tt0436039, tt0436613]
+    dramatic:
+      nominee: [tt0318761, tt0393109, tt0415978, tt0418773]
+      winner: [tt0318761, tt0393109, tt0415978, tt0418773]
+    world cinema - documentary:
+      nominee: [tt0413018, tt0436508]
+      winner: [tt0413018, tt0436508]
+    world cinema - dramatic:
+      nominee: [tt0356453, tt0386862]
+      winner: [tt0356453, tt0386862]
+  directing award:
+    documentary:
+      nominee: [tt0436231]
+      winner: [tt0436231]
+    dramatic:
+      nominee: [tt0367089]
+      winner: [tt0367089]
+  cinematography award:
+    documentary:
+      nominee: [tt0427206]
+      winner: [tt0427206]
+    dramatic:
+      nominee: [tt0410097]
+      winner: [tt0410097]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt0367089]
+      winner: [tt0367089]
+  audience award:
+    documentary:
+      nominee: [tt0436613]
+      winner: [tt0436613]
+    dramatic:
+      nominee: [tt0410097]
+      winner: [tt0410097]
+    world cinema - documentary:
+      nominee: [tt0424435]
+      winner: [tt0424435]
+    world cinema - dramatic:
+      nominee: [tt0386342]
+      winner: [tt0386342]
+  short filmmaking award:
+    international:
+      nominee: [tt0388534, tt0408635]
+      winner: [tt0388534]
+    short filmmaking award:
+      nominee: [tt0411376]
+      winner: [tt0411376]
+  short filmmaking award - special recognition:
+    short filmmaking award - special recognition:
+      nominee: [tt0443458]
+      winner: [tt0443458]
+  short filmmaking award - honorable mention:
+    short filmmaking award - honorable mention:
+      nominee: [tt0414469, tt0428017, tt0431298, tt0443254, tt0443645]
+      winner: [tt0414469, tt0428017, tt0431298, tt0443254, tt0443645]
+  alfred p. sloan feature film prize:
+    alfred p. sloan feature film prize:
+      nominee: [tt0427312]
+      winner: [tt0427312]
+  short film special jury prize:
+    short film special jury prize:
+      nominee: [tt0442970]
+      winner: []
+'2004': # https://www.imdb.com/event/ev0000631/2004/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0160398, tt0388789, tt0388835, tt0388888, tt0388935, tt0388941, tt0388996, tt0389009, tt0389277, tt0390109, tt0390123, tt0390190, tt0390299, tt0390365, tt0390521, tt0390632, tt0884842]
+      winner: [tt0388888]
+    dramatic:
+      nominee: [tt0306597, tt0317042, tt0333766, tt0361127, tt0361309, tt0362506, tt0363579, tt0368089, tt0374900, tt0376006, tt0379270, tt0389796, tt0389988, tt0390080, tt0390221, tt0390384]
+      winner: [tt0390384]
+  special jury prize:
+    documentary:
+      nominee: [tt0388935]
+      winner: [tt0388935]
+    dramatic:
+      nominee: [tt0306597, tt0363579]
+      winner: [tt0306597, tt0363579]
+  directing award:
+    documentary:
+      nominee: [tt0390521]
+      winner: [tt0390521]
+    dramatic:
+      nominee: [tt0363579]
+      winner: [tt0363579]
+  cinematography award:
+    documentary:
+      nominee: [tt0160398]
+      winner: [tt0160398]
+    dramatic:
+      nominee: [tt0368089]
+      winner: [tt0368089]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt0361309]
+      winner: [tt0361309]
+  freedom of expression award:
+    freedom of expression award:
+      nominee: [tt0390425]
+      winner: [tt0390425]
+  audience award:
+    documentary:
+      nominee: [tt0388789]
+      winner: [tt0388789]
+    dramatic:
+      nominee: [tt0390221]
+      winner: [tt0390221]
+    world cinema - documentary:
+      nominee: [tt0379225]
+      winner: [tt0379225]
+    world cinema - dramatic:
+      nominee: [tt0366532]
+      winner: [tt0366532]
+  short filmmaking award:
+    international:
+      nominee: [tt0392855]
+      winner: [tt0392855]
+    short filmmaking award:
+      nominee: [tt0391763, tt0392061, tt0392910]
+      winner: [tt0392061, tt0392910]
+  short filmmaking award - honorable mention:
+    short filmmaking award - honorable mention:
+      nominee: [tt0382734, tt0390344, tt0391895, tt0392306, tt0392797]
+      winner: [tt0382734, tt0390344, tt0391895, tt0392306, tt0392797]
+  online film festival jury award:
+    animation:
+      nominee: [tt0423851]
+      winner: [tt0423851]
+    short subject:
+      nominee: [tt0398386]
+      winner: [tt0398386]
+  online film festival viewers award:
+    animation:
+      nominee: [tt4403288]
+      winner: [tt4403288]
+    short subject:
+      nominee: [tt0374247]
+      winner: [tt0374247]
+  alfred p. sloan feature film prize:
+    alfred p. sloan feature film prize:
+      nominee: [tt0390384]
+      winner: [tt0390384]
+  short film grand jury prize:
+    short film grand jury prize:
+      nominee: [tt0392061]
+      winner: [tt0392061]
+'2003': # https://www.imdb.com/event/ev0000631/2003/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0094416, tt0334416, tt0337902, tt0342150, tt0342172, tt0342180, tt0342275, tt0342319, tt0342804, tt0342939, tt0342956, tt0343024, tt0343107, tt0343168, tt0343173]
+      winner: [tt0342172]
+    dramatic:
+      nominee: [tt0271234, tt0299458, tt0301976, tt0305206, tt0311648, tt0318374, tt0320244, tt0322023, tt0328515, tt0328538, tt0339419, tt0340377, tt0342167, tt0342300, tt0342916, tt0343172]
+      winner: [tt0305206]
+  special jury prize:
+    documentary:
+      nominee: [tt0342180, tt0342800]
+      winner: [tt0342180, tt0342800]
+    dramatic:
+      nominee: [tt0299458, tt0311648, tt0322023, tt0340377, tt0343172]
+      winner: [tt0299458, tt0311648, tt0322023, tt0340377, tt0343172]
+  directing award:
+    documentary:
+      nominee: [tt0342804]
+      winner: [tt0342804]
+    dramatic:
+      nominee: [tt0328538]
+      winner: [tt0328538]
+  cinematography award:
+    documentary:
+      nominee: [tt0334416]
+      winner: [tt0334416]
+    dramatic:
+      nominee: [tt0342916]
+      winner: [tt0342916]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt0340377]
+      winner: [tt0340377]
+  freedom of expression award:
+    freedom of expression award:
+      nominee: [tt0343173]
+      winner: [tt0343173]
+  audience award:
+    documentary:
+      nominee: [tt0342804]
+      winner: [tt0342804]
+    dramatic:
+      nominee: [tt0340377]
+      winner: [tt0340377]
+    world cinema:
+      nominee: [tt0298228]
+      winner: [tt0298228]
+  short filmmaking award:
+    short filmmaking award:
+      nominee: [tt0344437]
+      winner: [tt0344437]
+  short filmmaking award - honorable mention:
+    short filmmaking award - honorable mention:
+      nominee: [tt0312695, tt0343619, tt0343683, tt0343692, tt0344135, tt0344174, tt0344210, tt0363445]
+      winner: [tt0312695, tt0343619, tt0343683, tt0343692, tt0344135, tt0344174, tt0344210, tt0363445]
+  online film festival viewers award:
+    animation:
+      nominee: [tt0451002, tt1052011, tt4403108]
+      winner: [tt0451002]
+    short subject:
+      nominee: [tt0298095, tt0379320, tt4403040]
+      winner: [tt0298095]
+  alfred p. sloan feature film prize:
+    alfred p. sloan feature film prize:
+      nominee: [tt0342300]
+      winner: [tt0342300]
+  short film grand jury prize:
+    short film grand jury prize:
+      nominee: [tt0344492]
+      winner: []
+'2002': # https://www.imdb.com/event/ev0000631/2002/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0276334, tt0284000, tt0303281, tt0303282, tt0303297, tt0303298, tt0303307, tt0303321, tt0303324, tt0303326, tt0303334, tt0303348, tt0303384, tt0303392, tt0303394, tt0303411]
+      winner: [tt0303281]
+    dramatic:
+      nominee: [tt0245573, tt0265459, tt0265591, tt0266971, tt0271219, tt0272207, tt0273453, tt0274812, tt0280477, tt0282698, tt0288624, tt0293146, tt0295238, tt0296166, tt0298050, tt0298798, tt0303354, tt0303374]
+      winner: [tt0295238]
+  special jury prize:
+    documentary:
+      nominee: [tt0303348, tt0303392]
+      winner: [tt0303348, tt0303392]
+    dramatic:
+      nominee: [tt0274812, tt0296166, tt0298050]
+      winner: [tt0274812, tt0296166, tt0298050]
+  directing award:
+    documentary:
+      nominee: [tt0303394]
+      winner: [tt0303394]
+    dramatic:
+      nominee: [tt0271219]
+      winner: [tt0271219]
+  cinematography award:
+    documentary:
+      nominee: [tt0303307]
+      winner: [tt0303307]
+    dramatic:
+      nominee: [tt0295238]
+      winner: [tt0295238]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt0282698]
+      winner: [tt0282698]
+  freedom of expression award:
+    freedom of expression award:
+      nominee: [tt0303297]
+      winner: [tt0303297]
+  latin america cinema award:
+    latin america cinema award:
+      nominee: [tt0303408]
+      winner: [tt0303408]
+  audience award:
+    documentary:
+      nominee: [tt0303297]
+      winner: [tt0303297]
+    dramatic:
+      nominee: [tt0296166]
+      winner: [tt0296166]
+    world cinema:
+      nominee: [tt0265930, tt0280491]
+      winner: [tt0265930, tt0280491]
+  short filmmaking award:
+    short filmmaking award:
+      nominee: [tt0303277, tt0303284, tt0303292, tt0303305, tt0303398]
+      winner: [tt0303284]
+  short filmmaking award - honorable mention:
+    short filmmaking award - honorable mention:
+      nominee: [tt0280538, tt0296134, tt0296876, tt0303332, tt0303367, tt0303371]
+      winner: [tt0280538, tt0296134, tt0296876, tt0303332, tt0303367, tt0303371]
+  online film festival viewers award:
+    animation:
+      nominee: [tt0303352]
+      winner: [tt0303352]
+    live action:
+      nominee: [tt0303342]
+      winner: [tt0303342]
+    new forms:
+      nominee: [tt0303315]
+      winner: [tt0303315]
+  nhk award:
+    nhk award:
+      nominee: [tt0804529]
+      winner: [tt0804529]
+'2001': # https://www.imdb.com/event/ev0000631/2001/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0143861, tt0256408, tt0257954, tt0264476, tt0264578, tt0270971, tt0272022, tt0274031, tt0274622, tt0275309, tt0275408, tt0276515, tt0278018, tt0278102, tt0278792, tt0411630]
+      winner: [tt0276515]
+    dramatic:
+      nominee: [tt0207988, tt0209144, tt0229002, tt0242587, tt0243759, tt0246037, tt0246578, tt0247199, tt0247425, tt0248845, tt0250323, tt0265713, tt0270259, tt0270487, tt0273048, tt0274868]
+      winner: [tt0247199]
+  special jury prize:
+    documentary:
+      nominee: [tt0264476]
+      winner: [tt0264476]
+    dramatic:
+      nominee: [tt0247425]
+      winner: [tt0247425]
+  directing award:
+    documentary:
+      nominee: [tt0275309]
+      winner: [tt0275309]
+    dramatic:
+      nominee: [tt0248845]
+      winner: [tt0248845]
+  cinematography award:
+    documentary:
+      nominee: [tt0274622]
+      winner: [tt0274622]
+    dramatic:
+      nominee: [tt0250323]
+      winner: [tt0250323]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt0209144]
+      winner: [tt0209144]
+  freedom of expression award:
+    freedom of expression award:
+      nominee: [tt0278018]
+      winner: [tt0278018]
+  latin america cinema award:
+    latin america cinema award:
+      nominee: [tt0216990, tt0275915]
+      winner: [tt0216990, tt0275915]
+  latin america cinema award - honorable mention:
+    latin america cinema award - honorable mention:
+      nominee: [tt0278396]
+      winner: [tt0278396]
+  audience award:
+    documentary:
+      nominee: [tt0275309, tt0278018]
+      winner: [tt0275309, tt0278018]
+    dramatic:
+      nominee: [tt0248845]
+      winner: [tt0248845]
+    world cinema:
+      nominee: [tt0235060]
+      winner: [tt0235060]
+  short filmmaking award:
+    short filmmaking award:
+      nominee: [tt0274525]
+      winner: [tt0274525]
+  short filmmaking award - honorable mention:
+    short filmmaking award - honorable mention:
+      nominee: [tt0247836, tt0267618, tt0271113, tt0271810, tt0280591, tt0280939, tt0281068]
+      winner: [tt0247836, tt0267618, tt0271113, tt0271810, tt0280591, tt0280939, tt0281068]
+  online film festival viewers award:
+    online film festival viewers award:
+      nominee: [tt0282501]
+      winner: [tt0282501]
+'2000': # https://www.imdb.com/event/ev0000631/2000/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0188028, tt0204131, tt0227578, tt0233687, tt0235327, tt0236008, tt0236447, tt0236576, tt0238132, tt0240505, tt0240534, tt0240641, tt0240885, tt0240912, tt0240939, tt0241051]
+      winner: [tt0236447]
+    dramatic:
+      nominee: [tt0144142, tt0160616, tt0182508, tt0197384, tt0200530, tt0203230, tt0205778, tt0210075, tt0210299, tt0220332, tt0220399, tt0223027, tt0226430, tt0228277, tt0234407, tt0234853]
+      winner: [tt0203230, tt0210075]
+  special jury prize:
+    documentary:
+      nominee: [tt0236008, tt0240534]
+      winner: [tt0236008, tt0240534]
+    dramatic:
+      nominee: [tt0210299, tt0234853]
+      winner: [tt0210299, tt0234853]
+  directing award:
+    documentary:
+      nominee: [tt0236576]
+      winner: [tt0236576]
+    dramatic:
+      nominee: [tt0210075]
+      winner: [tt0210075]
+  cinematography award:
+    documentary:
+      nominee: [tt0204131, tt0235327]
+      winner: [tt0204131, tt0235327]
+    dramatic:
+      nominee: [tt0144142]
+      winner: [tt0144142]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt0203230]
+      winner: [tt0203230]
+  freedom of expression award:
+    freedom of expression award:
+      nominee: [tt0235327]
+      winner: [tt0235327]
+  latin america cinema award:
+    latin america cinema award:
+      nominee: [tt0132905, tt0221344]
+      winner: [tt0132905, tt0221344]
+  audience award:
+    documentary:
+      nominee: [tt0235327]
+      winner: [tt0235327]
+    dramatic:
+      nominee: [tt0202641]
+      winner: [tt0202641]
+    world cinema:
+      nominee: [tt0195234]
+      winner: [tt0195234]
+  short filmmaking award:
+    short filmmaking award:
+      nominee: [tt0240507]
+      winner: [tt0240507]
+  short filmmaking award - honorable mention:
+    short filmmaking award - honorable mention:
+      nominee: [tt0191181, tt0204881, tt0224263, tt0228416, tt0240443, tt0240467, tt0240517, tt0240524, tt0240978]
+      winner: [tt0191181, tt0204881, tt0224263, tt0228416, tt0240443, tt0240467, tt0240517, tt0240524, tt0240978]
+'1999': # https://www.imdb.com/event/ev0000631/1999/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0144969, tt0179074, tt0180545, tt0181287, tt0181288, tt0181449, tt0181577, tt0181650, tt0181659, tt0181733, tt0181781, tt0181786, tt0181810, tt0181817, tt0181833, tt0181835]
+      winner: [tt0181288]
+    dramatic:
+      nominee: [tt0120593, tt0138750, tt0138874, tt0146879, tt0151582, tt0160338, tt0160672, tt0161023, tt0162360, tt0162662, tt0162710, tt0168449, tt0171340, tt0181602, tt0181618, tt0181868]
+      winner: [tt0138874]
+  special jury prize:
+    documentary:
+      nominee: [tt0181733]
+      winner: [tt0181733]
+    dramatic:
+      nominee: [tt0162360, tt0181868]
+      winner: [tt0162360, tt0181868]
+    latin america cinema:
+      nominee: [tt0192745]
+      winner: [tt0192745]
+    short filmmaking:
+      nominee: [tt0192028]
+      winner: [tt0192028]
+  filmmakers trophy:
+    documentary:
+      nominee: [tt0181817]
+      winner: [tt0181817]
+    dramatic:
+      nominee: [tt0161023]
+      winner: [tt0161023]
+  directing award:
+    documentary:
+      nominee: [tt0181786]
+      winner: [tt0181786]
+    dramatic:
+      nominee: [tt0181618]
+      winner: [tt0181618]
+  cinematography award:
+    documentary:
+      nominee: [tt0181781, tt0181786]
+      winner: [tt0181781, tt0181786]
+    dramatic:
+      nominee: [tt0138874]
+      winner: [tt0138874]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt0160338, tt0160672]
+      winner: [tt0160338, tt0160672]
+  freedom of expression award:
+    freedom of expression award:
+      nominee: [tt0180545]
+      winner: [tt0180545]
+  latin america cinema award:
+    latin america cinema award:
+      nominee: [tt0126651]
+      winner: [tt0126651]
+  audience award:
+    documentary:
+      nominee: [tt0187859]
+      winner: [tt0187859]
+    dramatic:
+      nominee: [tt0133189, tt0138874]
+      winner: [tt0138874]
+    world cinema:
+      nominee: [tt0130827, tt0170705]
+      winner: [tt0130827, tt0170705]
+  short filmmaking award:
+    short filmmaking award:
+      nominee: [tt0188913]
+      winner: [tt0188913]
+  short filmmaking award - honorable mention:
+    short filmmaking award - honorable mention:
+      nominee: [tt0179091, tt0191907, tt0191948, tt0192412, tt0194411]
+      winner: [tt0179091, tt0191907, tt0191948, tt0192412, tt0194411]
+  nhk award:
+    nhk award:
+      nominee: [tt0188128, tt0210358, tt0240419, tt0303339]
+      winner: [tt0188128, tt0210358, tt0240419, tt0303339]
+'1998': # https://www.imdb.com/event/ev0000631/1998/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0138393, tt0138582, tt0139057, tt0139193, tt0139221, tt0139468, tt0140559, tt0141699, tt0141986, tt0144276, tt0144937, tt0150338, tt0154893, tt0155004, tt0156310, tt0158964]
+      winner: [tt0139193, tt0139221]
+    dramatic:
+      nominee: [tt0118789, tt0119346, tt0119778, tt0120113, tt0120321, tt0120867, tt0120875, tt0126938, tt0137386, tt0138501, tt0138704, tt0139362, tt0139615, tt0139745, tt0158792, tt0158833]
+      winner: [tt0139615]
+  special jury prize:
+    special jury prize:
+      nominee: [tt0158792]
+      winner: [tt0158792]
+  filmmakers trophy:
+    documentary:
+      nominee: [tt0150338]
+      winner: [tt0150338]
+    dramatic:
+      nominee: [tt0120321]
+      winner: [tt0120321]
+  directing award:
+    documentary:
+      nominee: [tt0154893]
+      winner: [tt0154893]
+    dramatic:
+      nominee: [tt0138704]
+      winner: [tt0138704]
+  cinematography award:
+    documentary:
+      nominee: [tt0141986]
+      winner: [tt0141986]
+    dramatic:
+      nominee: [tt0120113]
+      winner: [tt0120113]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt0139362]
+      winner: [tt0139362]
+  freedom of expression award:
+    freedom of expression award:
+      nominee: [tt0138393]
+      winner: [tt0138393]
+  latin america cinema award:
+    latin america cinema award:
+      nominee: [tt0126627]
+      winner: [tt0126627]
+  audience award:
+    documentary:
+      nominee: [tt0141699]
+      winner: [tt0141699]
+    dramatic:
+      nominee: [tt0120321]
+      winner: [tt0120321]
+  short filmmaking award:
+    international:
+      nominee: [tt0305325]
+      winner: []
+    short filmmaking award:
+      nominee: [tt0117673]
+      winner: [tt0117673]
+  short filmmaking award - honorable mention:
+    short filmmaking award - honorable mention:
+      nominee: [tt0164053]
+      winner: [tt0164053]
+  world cinema grand jury prize:
+    world cinema grand jury prize:
+      nominee: [tt0165546]
+      winner: []
+'1997': # https://www.imdb.com/event/ev0000631/1997/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0116415, tt0116504, tt0116529, tt0116711, tt0117310, tt0119104, tt0119118, tt0119530, tt0119561, tt0120017, tt0120126, tt0123068, tt0123181, tt0127147, tt0184184, tt0347624]
+      winner: [tt0116415]
+    dramatic:
+      nominee: [tt0116070, tt0116261, tt0117664, tt0118586, tt0118640, tt0118729, tt0118866, tt0118873, tt0119188, tt0119209, tt0119324, tt0119338, tt0119361, tt0119572, tt0119746, tt0120062, tt0120244, tt0149171]
+      winner: [tt0120244]
+  filmmakers trophy:
+    documentary:
+      nominee: [tt0119530]
+      winner: [tt0119530]
+    dramatic:
+      nominee: [tt0119361]
+      winner: [tt0119361]
+  directing award:
+    documentary:
+      nominee: [tt0119530]
+      winner: [tt0119530]
+    dramatic:
+      nominee: [tt0119338]
+      winner: [tt0119338]
+  cinematography award:
+    documentary:
+      nominee: [tt0123181]
+      winner: [tt0123181]
+    dramatic:
+      nominee: [tt0119338]
+      winner: [tt0119338]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt0120244]
+      winner: [tt0120244]
+  freedom of expression award:
+    freedom of expression award:
+      nominee: [tt0119104, tt0123068]
+      winner: [tt0119104, tt0123068]
+  latin america cinema award:
+    latin america cinema award:
+      nominee: [tt0116819]
+      winner: [tt0116819]
+  latin america cinema award - honorable mention:
+    latin america cinema award - honorable mention:
+      nominee: [tt0117394]
+      winner: [tt0117394]
+  audience award:
+    documentary:
+      nominee: [tt0117310]
+      winner: [tt0117310]
+    dramatic:
+      nominee: [tt0119338, tt0119572]
+      winner: [tt0119338, tt0119572]
+  short filmmaking award:
+    short filmmaking award:
+      nominee: [tt0116974]
+      winner: [tt0116974]
+  short filmmaking award - honorable mention:
+    short filmmaking award - honorable mention:
+      nominee: [tt0118726, tt0123287]
+      winner: [tt0118726, tt0123287]
+  special recognition:
+    special recognition:
+      nominee: [tt0119209]
+      winner: [tt0119209]
+  special jury recognition:
+    special jury recognition:
+      nominee: [tt0119324, tt0120126]
+      winner: [tt0119324, tt0120126]
+'1996': # https://www.imdb.com/event/ev0000631/1996/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0112651, tt0113458, tt0114597, tt0114646, tt0114735, tt0115634, tt0116310, tt0116475, tt0116589, tt0116846, tt0117293, tt0118147, tt0123021, tt0175475, tt0180854, tt0196413, tt1614420]
+      winner: [tt0114735, tt1614420]
+    dramatic:
+      nominee: [tt0107025, tt0112454, tt0112803, tt0113535, tt0114906, tt0115678, tt0115906, tt0115925, tt0116293, tt0116361, tt0116418, tt0116594, tt0116834, tt0118113, tt0118163, tt0119049, tt0119138]
+      winner: [tt0114906]
+  special jury prize:
+    special jury prize:
+      nominee: [tt0116594]
+      winner: [tt0116594]
+  filmmakers trophy:
+    documentary:
+      nominee: [tt0123021]
+      winner: [tt0123021]
+    dramatic:
+      nominee: [tt0116418]
+      winner: [tt0116418]
+  cinematography award:
+    documentary:
+      nominee: [tt0123021]
+      winner: [tt0123021]
+    dramatic:
+      nominee: [tt0115925]
+      winner: [tt0115925]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt0115678]
+      winner: [tt0115678]
+  freedom of expression award:
+    freedom of expression award:
+      nominee: [tt0112651]
+      winner: [tt0112651]
+  latin america cinema award:
+    latin america cinema award:
+      nominee: [tt0110427]
+      winner: [tt0110427]
+  latin america cinema award - honorable mention:
+    latin america cinema award - honorable mention:
+      nominee: [tt0109949, tt0112609]
+      winner: [tt0109949, tt0112609]
+  audience award:
+    documentary:
+      nominee: [tt0114735, tt1614420]
+      winner: [tt0114735, tt1614420]
+    dramatic:
+      nominee: [tt0117718]
+      winner: [tt0117718]
+  short filmmaking award:
+    short filmmaking award:
+      nominee: [tt0123273]
+      winner: [tt0123273]
+  short filmmaking award - honorable mention:
+    short filmmaking award - honorable mention:
+      nominee: [tt0123049, tt0123222]
+      winner: [tt0123049, tt0123222]
+  special jury recognition:
+    special jury recognition:
+      nominee: [tt0116418, tt0118147]
+      winner: [tt0116418, tt0118147]
+'1995': # https://www.imdb.com/event/ev0000631/1995/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0109285, tt0109465, tt0109508, tt0109618, tt0109706, tt0110217, tt0110680, tt0110753, tt0112452, tt0112888, tt0113367, tt0113665, tt0114667, tt0114805, tt0114914, tt0121798]
+      winner: [tt0109508]
+    dramatic:
+      nominee: [tt0109902, tt0110620, tt0110876, tt0110986, tt0112364, tt0112585, tt0112702, tt0113014, tt0113099, tt0113280, tt0113319, tt0113677, tt0113925, tt0113967, tt0114089, tt0114095, tt0114129, tt0114936, tt0115033]
+      winner: [tt0112585, tt0115033]
+  filmmakers trophy:
+    documentary:
+      nominee: [tt0109285]
+      winner: [tt0109285]
+    dramatic:
+      nominee: [tt0112364]
+      winner: [tt0112364]
+  cinematography award:
+    documentary:
+      nominee: [tt0109508]
+      winner: [tt0109508]
+    dramatic:
+      nominee: [tt0112364]
+      winner: [tt0112364]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt0113677]
+      winner: [tt0113677]
+  freedom of expression award:
+    freedom of expression award:
+      nominee: [tt0114914]
+      winner: [tt0114914]
+  audience award:
+    documentary:
+      nominee: [tt0112452, tt0114805]
+      winner: [tt0112452, tt0114805]
+    dramatic:
+      nominee: [tt0114129]
+      winner: [tt0114129]
+  honorable mention:
+    latin american cinema:
+      nominee: [tt0106966, tt0111858]
+      winner: [tt0106966, tt0111858]
+    short filmmaking:
+      nominee: [tt0111057, tt0111486, tt0113998, tt0123303]
+      winner: [tt0111057, tt0111486, tt0113998, tt0123303]
+  special jury recognition:
+    documentary:
+      nominee: [tt0110217]
+      winner: [tt0110217]
+    dramatic:
+      nominee: [tt0110986, tt0113280]
+      winner: [tt0110986, tt0113280]
+    short filmmaking:
+      nominee: [tt0110084]
+      winner: [tt0110084]
+'1994': # https://www.imdb.com/event/ev0000631/1994/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0106445, tt0106629, tt0108323, tt0109457, tt0109462, tt0109619, tt0109774, tt0109804, tt0109805, tt0109839, tt0110057, tt0110473, tt0123100, tt0212326, tt0323082, tt0354433]
+      winner: [tt0109839]
+    dramatic:
+      nominee: [tt0106579, tt0107045, tt0108260, tt0109293, tt0109445, tt0109816, tt0109842, tt0109855, tt0109913, tt0110671, tt0110870, tt0110994, tt0110998, tt0111107, tt0111252, tt0111689]
+      winner: [tt0111689]
+  special jury prize:
+    special jury prize:
+      nominee: [tt0109842]
+      winner: [tt0109842]
+  filmmakers trophy:
+    documentary:
+      nominee: [tt0108323]
+      winner: [tt0108323]
+    dramatic:
+      nominee: [tt0109445, tt0109842]
+      winner: [tt0109445, tt0109842]
+  cinematography award:
+    documentary:
+      nominee: [tt0109457]
+      winner: [tt0109457]
+    dramatic:
+      nominee: [tt0108260]
+      winner: [tt0108260]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt0111689]
+      winner: [tt0111689]
+  freedom of expression award:
+    freedom of expression award:
+      nominee: [tt0109619, tt0123100]
+      winner: [tt0109619, tt0123100]
+  audience award:
+    documentary:
+      nominee: [tt0110057]
+      winner: [tt0110057]
+    dramatic:
+      nominee: [tt0111252]
+      winner: [tt0111252]
+  special jury recognition:
+    special jury recognition:
+      nominee: [tt0106862, tt0109462, tt0109855, tt0346546]
+      winner: [tt0106862, tt0109462, tt0109855, tt0346546]
+'1993': # https://www.imdb.com/event/ev0000631/1993/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0103634, tt0104078, tt0104306, tt0105053, tt0106556, tt0107081, tt0107411, tt0107629, tt0107693, tt0107974, tt0108046, tt0108138, tt0108183, tt0159876, tt0289172]
+      winner: [tt0106556, tt0108138]
+    dramatic:
+      nominee: [tt0104575, tt0104815, tt0106253, tt0106264, tt0106447, tt0106471, tt0106590, tt0106934, tt0106953, tt0107220, tt0107419, tt0107773, tt0107895, tt0107960, tt0108000, tt0108410]
+      winner: [tt0107895, tt0108000]
+  special jury prize:
+    special jury prize:
+      nominee: [tt0107419, tt0108183]
+      winner: [tt0107419, tt0108183]
+  filmmakers trophy:
+    documentary:
+      nominee: [tt0108183]
+      winner: [tt0108183]
+    dramatic:
+      nominee: [tt0106934]
+      winner: [tt0106934]
+  cinematography award:
+    documentary:
+      nominee: [tt0106556]
+      winner: [tt0106556]
+    dramatic:
+      nominee: [tt0106253]
+      winner: [tt0106253]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt0106590]
+      winner: [tt0106590]
+  freedom of expression award:
+    freedom of expression award:
+      nominee: [tt0108138]
+      winner: [tt0108138]
+  audience award:
+    documentary:
+      nominee: [tt0108183]
+      winner: [tt0108183]
+    dramatic:
+      nominee: [tt0104815]
+      winner: [tt0104815]
+  special jury recognition:
+    special jury recognition:
+      nominee: [tt0104575, tt0289172]
+      winner: [tt0104575, tt0289172]
+'1992': # https://www.imdb.com/event/ev0000631/1992/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0101697, tt0102912, tt0103882, tt0103888, tt0103984, tt0104492, tt0104510, tt0104520, tt0104686, tt0105269, tt0105555, tt0105808, tt0123071, tt0130792, tt0331428]
+      winner: [tt0103882, tt0123071]
+    dramatic:
+      nominee: [tt0102174, tt0103823, tt0104240, tt0104321, tt0104448, tt0104503, tt0104562, tt0104567, tt0104745, tt0105156, tt0105236, tt0105464, tt0105508, tt0105654, tt0105789, tt0105885, tt0244484, tt0348070]
+      winner: [tt0104503]
+  special jury prize:
+    special jury prize:
+      nominee: [tt0104503]
+      winner: [tt0104503]
+  filmmakers trophy:
+    documentary:
+      nominee: [tt0103882]
+      winner: [tt0103882]
+    dramatic:
+      nominee: [tt0105885]
+      winner: [tt0105885]
+  cinematography award:
+    documentary:
+      nominee: [tt0102912]
+      winner: [tt0102912]
+    dramatic:
+      nominee: [tt0105508]
+      winner: [tt0105508]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt0105789]
+      winner: [tt0105789]
+  latin america cinema award:
+    best latino-american film:
+      nominee: [tt0102476]
+      winner: []
+  audience award:
+    documentary:
+      nominee: [tt0103888]
+      winner: [tt0103888]
+    dramatic:
+      nominee: [tt0105789]
+      winner: [tt0105789]
+  special jury recognition:
+    special jury recognition:
+      nominee: [tt0104448, tt0104953]
+      winner: [tt0104448, tt0104953]
+'1991': # https://www.imdb.com/event/ev0000631/1991/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0099028, tt0100332, tt0101266, tt0101479, tt0101581, tt0102114, tt0102402, tt0102778, tt0103070, tt0104703, tt0106252, tt0144649, tt0256700, tt0346658, tt0348176]
+      winner: [tt0099028, tt0100332]
+    dramatic:
+      nominee: [tt0100418, tt0101813, tt0101998, tt0102128, tt0102317, tt0102319, tt0102687, tt0102740, tt0102943, tt0102989, tt0103130, tt0103143, tt0104057, tt0105109, tt0108257, tt0138545]
+      winner: [tt0102687]
+  filmmakers trophy:
+    documentary:
+      nominee: [tt0099028]
+      winner: [tt0099028]
+    dramatic:
+      nominee: [tt0100418]
+      winner: [tt0100418]
+  cinematography award:
+    documentary:
+      nominee: [tt0101581]
+      winner: [tt0101581]
+    dramatic:
+      nominee: [tt0104057]
+      winner: [tt0104057]
+  waldo salt screenwriting award:
+    waldo salt screenwriting award:
+      nominee: [tt0101998, tt0103130]
+      winner: [tt0101998, tt0103130]
+  latin america cinema award:
+    best latino-american film:
+      nominee: [tt0098060]
+      winner: []
+  audience award:
+    documentary:
+      nominee: [tt0099028]
+      winner: [tt0099028]
+    dramatic:
+      nominee: [tt0105109]
+      winner: [tt0105109]
+  special jury recognition:
+    special jury recognition:
+      nominee: [tt0102989]
+      winner: [tt0102989]
+'1990': # https://www.imdb.com/event/ev0000631/1990/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0096442, tt0098483, tt0098624, tt0099121, tt0099838, tt0121545, tt0123097, tt0163594, tt0197704, tt0332596, tt0346832, tt0347717, tt0347727, tt0348186, tt0364151]
+      winner: [tt0098624, tt0123097]
+    dramatic:
+      nominee: [tt0064820, tt0097665, tt0099796, tt0099800, tt0099857, tt0100049, tt0100122, tt0100142, tt0100188, tt0100230, tt0100239, tt0100791, tt0100842, tt0101561, tt0101707, tt0347203]
+      winner: [tt0101561]
+  filmmakers trophy:
+    documentary:
+      nominee: [tt0121545]
+      winner: [tt0121545]
+    dramatic:
+      nominee: [tt0099800]
+      winner: [tt0099800]
+  cinematography award:
+    documentary:
+      nominee: [tt0123097]
+      winner: [tt0123097]
+    dramatic:
+      nominee: [tt0099800]
+      winner: [tt0099800]
+  audience award:
+    documentary:
+      nominee: [tt0099121]
+      winner: [tt0099121]
+    dramatic:
+      nominee: [tt0100049]
+      winner: [tt0100049]
+  special jury recognition:
+    documentary:
+      nominee: [tt0123254]
+      winner: [tt0123254]
+    dramatic:
+      nominee: [tt0100791]
+      winner: [tt0100791]
+'1989': # https://www.imdb.com/event/ev0000631/1989/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0094897, tt0094913, tt0095289, tt0095408, tt0095515, tt0096440, tt0097372, tt0097403, tt0097752, tt0097772, tt0158807, tt0162411, tt0347696, tt0354467]
+      winner: [tt0097372]
+    dramatic:
+      nominee: [tt0094667, tt0094886, tt0095656, tt0096744, tt0097432, tt0097493, tt0097768, tt0097889, tt0098112, tt0098128, tt0098464, tt0098528, tt0098724, tt0099135, tt0099979, tt0103947, tt0254612]
+      winner: [tt0098528]
+  filmmakers trophy:
+    documentary:
+      nominee: [tt0095408]
+      winner: [tt0095408]
+    dramatic:
+      nominee: [tt0098112]
+      winner: [tt0098112]
+  audience award:
+    documentary:
+      nominee: [tt0097372]
+      winner: [tt0097372]
+    dramatic:
+      nominee: [tt0098724]
+      winner: [tt0098724]
+  special jury recognition:
+    documentary:
+      nominee: [tt0096399]
+      winner: [tt0096399]
+    dramatic:
+      nominee: [tt4394374]
+      winner: [tt4394374]
+'1988': # https://www.imdb.com/event/ev0000631/1988/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0092630, tt0092851, tt0092899, tt0093548, tt0093817, tt0095157, tt0159307, tt0163752, tt0163906, tt0267619, tt0284696, tt0289701, tt0315985, tt0342195, tt0346476, tt0346962]
+      winner: [tt0092630]
+    dramatic:
+      nominee: [tt0092695, tt0093165, tt0093403, tt0093816, tt0094027, tt0095270, tt0095565, tt0095835, tt0095916, tt0096108, tt0096147, tt0099176]
+      winner: [tt0093165]
+  special jury prize:
+    documentary:
+      nominee: [tt0092851, tt0284696]
+      winner: [tt0092851, tt0284696]
+    dramatic:
+      nominee: [tt0093403, tt0093816]
+      winner: [tt0093403, tt0093816]
+  cinematography award:
+    documentary:
+      nominee: [tt0092630]
+      winner: [tt0092630]
+    dramatic:
+      nominee: [tt0093816]
+      winner: [tt0093816]
+  special jury recognition:
+    dramatic:
+      nominee: [tt0092695]
+      winner: [tt0092695]
+'1987': # https://www.imdb.com/event/ev0000631/1987/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0090648, tt0090656, tt0090831, tt0090947, tt0091279, tt0091414, tt0091943, tt0093173, tt0093312, tt0141396, tt0209215, tt0216532, tt0298280, tt0346877, tt0348083, tt0348415]
+      winner: [tt0091943]
+    dramatic:
+      nominee: [tt0089331, tt0090913, tt0091583, tt0091638, tt0091860, tt0091920, tt0091971, tt0092238, tt0093429, tt0093763, tt0094023, tt0094187, tt0094286, tt0094289, tt0096902, tt0347162]
+      winner: [tt0094187, tt0094286]
+  special jury prize:
+    documentary:
+      nominee: [tt0090831]
+      winner: [tt0090831]
+    dramatic:
+      nominee: [tt0096902]
+      winner: [tt0096902]
+  cinematography award:
+    documentary:
+      nominee: [tt0090831]
+      winner: [tt0090831]
+    dramatic:
+      nominee: [tt0091638]
+      winner: [tt0091638]
+  special jury recognition:
+    dramatic:
+      nominee: [tt0091860, tt0092238]
+      winner: [tt0091860, tt0092238]
+'1986': # https://www.imdb.com/event/ev0000631/1986/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0089310, tt0089460, tt0089507, tt0090092, tt0121240, tt0123230, tt0141769, tt0158672, tt0163809, tt0176247, tt0182930, tt0204066, tt0347129, tt0347654, tt0348412]
+      winner: [tt0123230]
+    dramatic:
+      nominee: [tt0087150, tt0088897, tt0088955, tt0089015, tt0089255, tt0089904, tt0089997, tt0090037, tt0090069, tt0090710, tt0091151, tt0091676, tt0091725, tt0195210]
+      winner: [tt0090037]
+  special jury prize:
+    documentary:
+      nominee: [tt0089460]
+      winner: [tt0089460]
+    dramatic:
+      nominee: [tt0089015]
+      winner: [tt0089015]
+  special jury recognition:
+    documentary:
+      nominee: [tt0091151]
+      winner: [tt0091151]
+    dramatic:
+      nominee: [tt0089997, tt0091725]
+      winner: [tt0089997, tt0091725]
+'1985': # https://www.imdb.com/event/ev0000631/1985/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0086290, tt0087465, tt0088196, tt0088275, tt0088782, tt0089410, tt0128927, tt0162318, tt0162419, tt0163649, tt0184038, tt0347191, tt0348128, tt0348426]
+      winner: [tt0086290]
+    dramatic:
+      nominee: [tt0086876, tt0086979, tt0087004, tt0087070, tt0087267, tt0087397, tt0087554, tt0088016, tt0088184, tt0091170]
+      winner: [tt0086979]
+  special jury prize:
+    documentary:
+      nominee: [tt0088196, tt0088275, tt0128927, tt0162419]
+      winner: [tt0088196, tt0088275, tt0128927, tt0162419]
+    dramatic:
+      nominee: [tt0086876, tt0087554]
+      winner: [tt0086876, tt0087554]
+  special jury recognition:
+    documentary:
+      nominee: [tt0087465]
+      winner: [tt0087465]
+    dramatic:
+      nominee: [tt0088184]
+      winner: [tt0088184]
+    dramatic non-competition:
+      nominee: [tt0087004]
+      winner: [tt0087004]
+'1984': # https://www.imdb.com/event/ev0000631/1984/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0177262]
+      winner: [tt0177262]
+    dramatic:
+      nominee: [tt0087837]
+      winner: [tt0087837]
+  special jury prize:
+    documentary:
+      nominee: [tt0421089]
+      winner: [tt0421089]
+'1982': # https://www.imdb.com/event/ev0000631/1982/1/
+  grand jury prize:
+    documentary:
+      nominee: [tt0083105]
+      winner: [tt0083105]
+    dramatic:
+      nominee: [tt0085340]
+      winner: [tt0085340]

@@ -1,0 +1,118 @@
+# XBIZ Europa Awards
+
+'2025': # https://www.imdb.com/event/ev0073196/2025/1/
+  'xbiz europa award':
+    'all-sex movie of the year':
+      nominee: [tt36759589, tt37858091, tt35960805, tt33064762, tt35682854, tt34733383, tt35977352]
+      winner: []
+    'best acting':
+      nominee: [tt31241602, tt35404838, tt25273854, tt37093389, tt36621388, tt34439393, tt35184452, tt35889084]
+      winner: []
+    'best feature movie':
+      nominee: [tt36109763, tt35920157, tt37093389, tt35184452, tt35404838, tt35889084, tt36621388]
+      winner: []
+    'best sex scene - all-sex':
+      nominee: [tt37309016, tt33372835, tt34771524, tt37308400]
+      winner: []
+    'best sex scene - feature':
+      nominee: [tt37093389, tt37285918, tt35920157, tt35093000, tt35100337, tt31241602, tt34439393, tt36547019, tt35184452, tt33900830, tt35404838, tt36628998]
+      winner: []
+    'director of the year - individual work':
+      nominee: [tt36621388, tt37093389, tt35404838, tt31241602, tt35184452]
+      winner: []
+
+'2024': # https://www.imdb.com/event/ev0073196/2024/1/
+  'xbiz europa award':
+    'best acting':
+      nominee: [tt32474294, tt16381980, tt30056296, tt32547668, tt32050464, tt32445798]
+      winner: [tt32474294]
+    'best sex scene - feature/featurette':
+      nominee: [tt32598464, tt32569349, tt31407229, tt32755595, tt30056296, tt32547668, tt32207111, tt32445798, tt32474294, tt32050464, tt29144033, tt29380247, tt30831220]
+      winner: [tt32598464, tt32569349]
+    'best sex scene - glamcore':
+      nominee: [tt30832268, tt30222130, tt28521469, tt32755595]
+      winner: [tt30832268]
+    'best sex scene - gonzo':
+      nominee: [tt31315683, tt8085744, tt31242966, tt30984427]
+      winner: [tt31315683, tt8085744]
+    'best sex scene - lesbian':
+      nominee: [tt33339147, tt16381980]
+      winner: [tt33339147, tt16381980]
+    'feature movie of the year':
+      nominee: [tt30056296, tt32547668, tt32050464, tt32207111, tt32569349, tt32445798, tt32474294, tt29144033, tt31407229]
+      winner: [tt30056296]
+    'glamcore movie of the year':
+      nominee: [tt31248933, tt28521469, tt32360259, tt30832268, tt32261366, tt29142098, tt32510478, tt30222130]
+      winner: [tt31248933]
+    'gonzo movie of the year':
+      nominee: [tt31242966, tt29634827]
+      winner: [tt31242966]
+    'best sex scene - all-girl':
+      nominee: [tt15562440, tt30056296, tt30831220, tt31407229, tt23777028, tt32547668]
+      winner: []
+
+'2021': # https://www.imdb.com/event/ev0073196/2021/1/
+  'xbiz europa award':
+    'best sex scene - feature movie':
+      nominee: [tt7771836, tt14604456]
+      winner: [tt7771836, tt14604456]
+    'best sex scene - glamcore':
+      nominee: [tt7771836, tt13340030]
+      winner: []
+    'best sex scene - gonzo':
+      nominee: [tt8085744, tt14489700]
+      winner: []
+
+'2020': # https://www.imdb.com/event/ev0073196/2020/1/
+  'xbiz europa award':
+    'best sex scene - glamcore':
+      nominee: [tt7771836, tt21972558]
+      winner: []
+    'best sex scene - gonzo':
+      nominee: [tt30460456]
+      winner: []
+
+'2019': # https://www.imdb.com/event/ev0073196/2019/1/
+  'xbiz europa award':
+    'best actress':
+      nominee: [tt10537418]
+      winner: []
+    'best sex scene - feature movie':
+      nominee: [tt10537418]
+      winner: []
+    'best sex scene - lesbian':
+      nominee: [tt9518184]
+      winner: []
+    'feature movie of the year':
+      nominee: [tt10537418]
+      winner: []
+
+'2018': # https://www.imdb.com/event/ev0073196/2018/1/
+  'xbiz europa award':
+    'best actor':
+      nominee: [tt8415744]
+      winner: [tt8415744]
+    'best actress':
+      nominee: [tt7310892]
+      winner: [tt7310892]
+    'best sex scene - feature movie':
+      nominee: [tt8564384]
+      winner: [tt8564384]
+    'best sex scene - glamcore':
+      nominee: [tt8871040]
+      winner: [tt8871040]
+    'best sex scene - gonzo':
+      nominee: [tt30474958]
+      winner: [tt30474958]
+    'best sex scene - lesbian':
+      nominee: [tt12287112]
+      winner: [tt12287112]
+    'feature movie of the year':
+      nominee: [tt9199652]
+      winner: [tt9199652]
+    'glamcore movie of the year':
+      nominee: [tt9645854]
+      winner: [tt9645854]
+    'gonzo movie of the year':
+      nominee: [tt8294292]
+      winner: [tt8294292]

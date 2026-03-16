@@ -1,0 +1,2304 @@
+# Hong Kong Film Awards
+'2026':  # https://www.imdb.com/event/ev0000329/2026/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt33348127, tt34610311, tt35464708, tt35498436, tt4968738]
+      winner: []
+    best actor:
+      nominee: [tt33348127, tt33836212, tt34610311, tt35498436, tt36217308]
+      winner: []
+    best actress:
+      nominee: [tt29429728, tt32851910, tt35724928, tt36217308, tt5562068]
+      winner: []
+    best art direction:
+      nominee: [tt33348127, tt33830021, tt36639436, tt4968738, tt5562068]
+      winner: []
+    best cinematography:
+      nominee: [tt14241008, tt33348127, tt33396536, tt4968738, tt5562068]
+      winner: []
+    best costume & make up design:
+      nominee: [tt32851910, tt33348127, tt33830021, tt4968738, tt5562068]
+      winner: []
+    best director:
+      nominee: [tt14241008, tt33396536, tt33836212, tt36639436, tt5562068]
+      winner: []
+    best film:
+      nominee: [tt14241008, tt33348127, tt36639436, tt4968738, tt5562068]
+      winner: []
+    best film editing:
+      nominee: [tt14241008, tt33348127, tt34610311, tt4968738, tt5562068]
+      winner: []
+    best new director:
+      nominee: [tt33396536, tt33830021, tt36639436, tt38857175, tt4968738]
+      winner: []
+    best new performer:
+      nominee: [tt32799446, tt34610311, tt35498436, tt35683790, tt36204735]
+      winner: []
+    best original film score:
+      nominee: [tt14241008, tt33348127, tt33830021, tt36639436, tt4968738]
+      winner: []
+    best original film song:
+      nominee: [tt14241008, tt32851910, tt33830021, tt35683790, tt36639436]
+      winner: []
+    best screenplay:
+      nominee: [tt14241008, tt33396536, tt33836212, tt36639436, tt38857175]
+      winner: []
+    best sound design:
+      nominee: [tt32515812, tt33348127, tt34610311, tt36639436, tt4968738]
+      winner: []
+    best supporting actor:
+      nominee: [tt14241008, tt29429728, tt31645726, tt38857175, tt4968738]
+      winner: []
+    best supporting actress:
+      nominee: [tt14241008, tt29429728, tt33348127, tt35683790, tt4968738]
+      winner: []
+    best visual effects:
+      nominee: [tt14241008, tt32851910, tt33348127, tt35464708, tt4968738]
+      winner: []
+'2025': # https://www.imdb.com/event/ev0000329/2025/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt20316748, tt29495090, tt30024043, tt31648020, tt33420331]
+      winner: [tt20316748]
+    best actor:
+      nominee: [tt20316748, tt30958950, tt31648020, tt31660693, tt33499985]
+      winner: [tt33499985]
+    best actress:
+      nominee: [tt30439035, tt31647711, tt31648020, tt31660693, tt33616537]
+      winner: [tt31648020]
+    best art direction:
+      nominee: [tt20316748, tt29495090, tt31647711, tt31648020, tt33499985]
+      winner: [tt20316748]
+    best asian chinese language film:
+      nominee: [tt17079606, tt28131427, tt28151876, tt28258332, tt29452517]
+      winner: [tt29452517]
+    best cinematography:
+      nominee: [tt20316748, tt29495090, tt31647711, tt31648020, tt33499985]
+      winner: [tt20316748]
+    best costume & make up design:
+      nominee: [tt20316748, tt30958950, tt31648020, tt31659167, tt33499985]
+      winner: [tt20316748]
+    best director:
+      nominee: [tt20316748, tt30439035, tt31648020, tt31660693, tt33499985]
+      winner: [tt20316748]
+    best film:
+      nominee: [tt20316748, tt30439035, tt31648020, tt31660693, tt33499985]
+      winner: [tt20316748]
+    best film editing:
+      nominee: [tt20316748, tt29733923, tt30024043, tt31648020, tt33499985]
+      winner: [tt20316748]
+    best new director:
+      nominee: [tt29733923, tt31647711, tt31659167, tt33420331, tt33982094]
+      winner: [tt29733923]
+    best new performer:
+      nominee: [tt20316748, tt31647711, tt31660693, tt33499985, tt33509234]
+      winner: [tt33499985]
+    best original film score:
+      nominee: [tt20316748, tt31647711, tt31648020, tt31659167, tt33499985]
+      winner: [tt31648020]
+    best original film song:
+      nominee: [tt31647711, tt31648020, tt31659167, tt31660693, tt33509234]
+      winner: [tt31648020]
+    best screenplay:
+      nominee: [tt30439035, tt30958950, tt31648020, tt31659167, tt33499985]
+      winner: [tt31648020]
+    best sound design:
+      nominee: [tt20316748, tt29495090, tt30024043, tt31648020, tt31660693]
+      winner: [tt20316748]
+    best supporting actor:
+      nominee: [tt20316748, tt31648020, tt33616537]
+      winner: [tt31648020]
+    best supporting actress:
+      nominee: [tt30439035, tt31648020, tt31659167, tt33499985]
+      winner: [tt33499985]
+    best visual effects:
+      nominee: [tt19029666, tt20316748, tt29195082, tt29495090, tt31648020]
+      winner: [tt20316748]
+'2024': # https://www.imdb.com/event/ev0000329/2024/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt19856688, tt21330770, tt22488024, tt26929966, tt29632851]
+      winner: [tt29632851]
+    best actor:
+      nominee: [tt11000406, tt14099796, tt25377462, tt27881474, tt27881515]
+      winner: [tt14099796]
+    best actress:
+      nominee: [tt25377462, tt27881515, tt29602209, tt30252459, tt31159533]
+      winner: [tt27881515]
+    best art direction:
+      nominee: [tt14099796, tt19856688, tt27881474, tt27881515, tt28594068]
+      winner: [tt14099796]
+    best asian chinese language film:
+      nominee: [tt21148018, tt22742964, tt27445004, tt28076784, tt29319990]
+      winner: [tt29319990]
+    best cinematography:
+      nominee: [tt14099796, tt19856688, tt21330770, tt27881474, tt27881515]
+      winner: [tt14099796]
+    best costume & make up design:
+      nominee: [tt14099796, tt19856688, tt26493446, tt27139786, tt27881515]
+      winner: [tt14099796]
+    best director:
+      nominee: [tt14099796, tt19856688, tt25377462, tt27881474, tt27881515]
+      winner: [tt19856688]
+    best film:
+      nominee: [tt14099796, tt19856688, tt25377462, tt27881474, tt27881515]
+      winner: [tt25377462]
+    best film editing:
+      nominee: [tt14099796, tt19856688, tt25377462, tt27881474, tt27881515]
+      winner: [tt19856688]
+    best new director:
+      nominee: [tt11000406, tt25377462, tt27139786, tt27881474, tt27881515]
+      winner: [tt27881474]
+    best new performer:
+      nominee: [tt26244196, tt27139786, tt27881474, tt27881515, tt29602209]
+      winner: [tt27139786]
+    best original film score:
+      nominee: [tt14099796, tt27881474, tt27881515, tt29602209, tt31159533]
+      winner: [tt29602209]
+    best original film song:
+      nominee: [tt14099796, tt26244196, tt27881515, tt29602209, tt31159533]
+      winner: [tt31159533]
+    best screenplay:
+      nominee: [tt14099796, tt19856688, tt25377462, tt27881474, tt27881515]
+      winner: [tt19856688]
+    best sound design:
+      nominee: [tt11000406, tt14099796, tt19856688, tt27881515, tt29632851]
+      winner: [tt14099796]
+    best supporting actor:
+      nominee: [tt25377462, tt26493446, tt27139786, tt27881474, tt27881515]
+      winner: [tt27881515]
+    best supporting actress:
+      nominee: [tt25377462, tt27881474, tt27881515, tt30252459]
+      winner: [tt27881515]
+    best visual effects:
+      nominee: [tt14099796, tt19856688, tt20204936, tt28594068, tt29632851]
+      winner: [tt14099796]
+'2023': # https://www.imdb.com/event/ev0000329/2023/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt10283270, tt16194408, tt4431104, tt6902394, tt7375466]
+      winner: [tt7375466]
+    best actor:
+      nominee: [tt10283270, tt18280126, tt21867590, tt22398026]
+      winner: [tt10283270]
+    best actress:
+      nominee: [tt14071600, tt15244854, tt21867590, tt22397894, tt22398026]
+      winner: [tt22397894]
+    best art direction:
+      nominee: [tt10283270, tt21187542, tt21867590, tt6902394, tt7375466]
+      winner: [tt6902394]
+    best asian chinese language film:
+      nominee: [tt14557302, tt15742308, tt18673234]
+      winner: [tt18673234]
+    best cinematography:
+      nominee: [tt10283270, tt21867590, tt22398026, tt6902394, tt7375466]
+      winner: [tt10283270]
+    best costume & make up design:
+      nominee: [tt10283270, tt22397894, tt22398026, tt6902394, tt7375466]
+      winner: [tt6902394]
+    best director:
+      nominee: [tt10283270, tt21187542, tt21867590, tt21867610, tt22398026]
+      winner: [tt10283270]
+    best film:
+      nominee: [tt10283270, tt21867590, tt21867610, tt22398026, tt7375466]
+      winner: [tt21867610]
+    best film editing:
+      nominee: [tt10283270, tt21187542, tt21867590, tt21867610, tt7375466]
+      winner: [tt21867590]
+    best new director:
+      nominee: [tt18280126, tt21187542, tt21867590, tt22398026, tt7375466]
+      winner: [tt21867590]
+    best new performer:
+      nominee: [tt14071600, tt15244854, tt17044664, tt18280126, tt22398080]
+      winner: [tt18280126]
+    best original film score:
+      nominee: [tt21187542, tt21867590, tt22398026, tt6902394, tt7375466]
+      winner: [tt22398026]
+    best original film song:
+      nominee: [tt15244854, tt21187542, tt21867590, tt22397894, tt7375466]
+      winner: [tt22397894]
+    best screenplay:
+      nominee: [tt10283270, tt18280126, tt21187542, tt21867590, tt22398026]
+      winner: [tt10283270]
+    best sound design:
+      nominee: [tt10283270, tt16194408, tt21867590, tt6902394, tt7375466]
+      winner: [tt7375466]
+    best supporting actor:
+      nominee: [tt15244854, tt21187542, tt21867590, tt6902394]
+      winner: [tt6902394]
+    best supporting actress:
+      nominee: [tt15618938, tt21187542, tt21867590, tt22398026]
+      winner: [tt21187542]
+    best visual effects:
+      nominee: [tt10283270, tt16194408, tt21867590, tt6902394, tt7375466]
+      winner: [tt7375466]
+'2022': # https://www.imdb.com/event/ev0000329/2022/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt13210170, tt13611604, tt14032696, tt8165192, tt9597838]
+      winner: [tt8165192]
+    best actor:
+      nominee: [tt13210170, tt13887128, tt14032696, tt14713814, tt14892216]
+      winner: [tt14713814]
+    best actress:
+      nominee: [tt10670442, tt14032696, tt14892216, tt14898796, tt15010590]
+      winner: [tt14032696]
+    best art direction:
+      nominee: [tt10415576, tt13210170, tt13887128, tt14032696, tt15010590]
+      winner: [tt14032696]
+    best asian chinese language film:
+      nominee: [tt13105824, tt14405280, tt15620158]
+      winner: [tt15620158]
+    best cinematography:
+      nominee: [tt10415576, tt13210170, tt14032696, tt15010590, tt8165192]
+      winner: [tt14032696]
+    best costume & make up design:
+      nominee: [tt10415576, tt13210170, tt14032696, tt15010590, tt7587604]
+      winner: [tt15010590]
+    best director:
+      nominee: [tt10670442, tt14032696, tt14059174, tt15010590, tt8165192]
+      winner: [tt8165192]
+    best film editing:
+      nominee: [tt13210170, tt13462900, tt14032696, tt8165192, tt9597838]
+      winner: [tt8165192]
+    best new director:
+      nominee: [tt13210170, tt13611604, tt13887128, tt14059174, tt9877138]
+      winner: [tt13210170]
+    best new performer:
+      nominee: [tt13887128, tt14713814, tt14892216, tt15010590]
+      winner: [tt15010590]
+    best original film score:
+      nominee: [tt10415576, tt13887128, tt14032696, tt14892216, tt15010590]
+      winner: [tt10415576]
+    best original film song:
+      nominee: [tt13212270, tt13611604, tt13887128, tt14892216, tt8165192]
+      winner: [tt13611604]
+    best picture:
+      nominee: [tt13887128, tt14032696, tt14892216, tt15010590, tt8165192]
+      winner: [tt8165192]
+    best screenplay:
+      nominee: [tt13611604, tt13887128, tt14032696, tt14713814, tt14892216]
+      winner: [tt14032696]
+    best sound design:
+      nominee: [tt13462900, tt14032696, tt15010590, tt8165192, tt9597838]
+      winner: [tt15010590]
+    best supporting actor:
+      nominee: [tt13887128, tt14713814, tt14892216, tt15010590]
+      winner: [tt14892216]
+    best supporting actress:
+      nominee: [tt10670442, tt13887128, tt14032696, tt14713814, tt15010590, tt9877138]
+      winner: [tt15010590]
+    best visual effects:
+      nominee: [tt13462900, tt14032696, tt15010590, tt8165192, tt9597838]
+      winner: [tt15010590]
+'2020': # https://www.imdb.com/event/ev0000329/2020/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt10295602, tt10508838, tt11076480, tt2076298, tt8239806]
+      winner: [tt2076298]
+    best actor:
+      nominee: [tt10117402, tt10975520, tt11070230, tt11076480, tt9586294]
+      winner: [tt10975520]
+    best actress:
+      nominee: [tt10551420, tt11070230, tt11810546, tt7271190, tt9586294]
+      winner: [tt9586294]
+    best art direction:
+      nominee: [tt10117402, tt10551420, tt11076480, tt2076298, tt9586294]
+      winner: [tt10551420]
+    best asian chinese language film:
+      nominee: [tt10805432, tt6864046, tt8020896]
+      winner: [tt8020896]
+    best cinematography:
+      nominee: [tt10551420, tt11076480, tt11810546, tt2076298, tt9586294]
+      winner: [tt9586294]
+    best costume & make up design:
+      nominee: [tt10117402, tt10551420, tt10975520, tt2076298, tt9586294]
+      winner: [tt9586294]
+    best director:
+      nominee: [tt10551420, tt10975520, tt11810546, tt2076298, tt9586294]
+      winner: [tt9586294]
+    best film editing:
+      nominee: [tt10975520, tt11070230, tt11076480, tt2076298, tt9586294]
+      winner: [tt2076298]
+    best new director:
+      nominee: [tt10117402, tt10295602, tt11070230, tt11080024, tt11811996]
+      winner: [tt11070230]
+    best new performer:
+      nominee: [tt10975520, tt11810546, tt2076298, tt9368628, tt9586294]
+      winner: [tt9586294]
+    best original film score:
+      nominee: [tt10117402, tt10551420, tt11070230, tt2076298, tt9586294]
+      winner: [tt11070230]
+    best original film song:
+      nominee: [tt10117402, tt10551420, tt11070230, tt8239806, tt9586294]
+      winner: [tt9586294]
+    best picture:
+      nominee: [tt10117402, tt10551420, tt10975520, tt9368628, tt9586294]
+      winner: [tt9586294]
+    best screenplay:
+      nominee: [tt10551420, tt10975520, tt11070230, tt11810546, tt9586294]
+      winner: [tt9586294]
+    best sound design:
+      nominee: [tt10218664, tt10551420, tt11810546, tt2076298, tt8239806]
+      winner: [tt2076298]
+    best supporting actor:
+      nominee: [tt10117402, tt10975520, tt11076480, tt9368628]
+      winner: [tt10117402]
+    best supporting actress:
+      nominee: [tt10117402, tt10551420, tt10975520, tt11070230, tt7271190]
+      winner: [tt10975520]
+    best visual effects:
+      nominee: [tt10218664, tt10218674, tt10295602, tt10508838, tt8239806]
+      winner: [tt8239806]
+'2019': # https://www.imdb.com/event/ev0000329/2019/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt6869538, tt6878882, tt7183578, tt7262882, tt7521990]
+      winner: [tt6878882]
+    best actor:
+      nominee: [tt7183578, tt7762748, tt7767874, tt8497794]
+      winner: [tt8497794]
+    best actress:
+      nominee: [tt7183578, tt8497794, tt9076570, tt9129808, tt9838372]
+      winner: [tt9076570]
+    best art direction:
+      nominee: [tt6170484, tt6466464, tt6869538, tt7183578, tt7762748]
+      winner: [tt7183578]
+    best chinese language film from the two coasts:
+      nominee: [tt7205208, tt7298400, tt7362036, tt8434380, tt9078374]
+      winner: [tt7362036]
+    best cinematography:
+      nominee: [tt6170484, tt6869538, tt6878882, tt7183578, tt9647330]
+      winner: [tt7183578]
+    best costume & make up design:
+      nominee: [tt6170484, tt6466464, tt6869538, tt7183578, tt7762748]
+      winner: [tt7183578]
+    best director:
+      nominee: [tt6878882, tt7183578, tt7767874, tt8497794, tt9076570]
+      winner: [tt7183578]
+    best film editing:
+      nominee: [tt6869538, tt6878882, tt7183578, tt9279172, tt9647330]
+      winner: [tt7183578]
+    best new director:
+      nominee: [tt7759626, tt7762748, tt7767874, tt8497794, tt9647330]
+      winner: [tt8497794]
+    best new performer:
+      nominee: [tt7767874, tt8031554, tt8497794, tt9076570, tt9647330]
+      winner: [tt8497794]
+    best original film score:
+      nominee: [tt7183578, tt7521990, tt7762748, tt7767874, tt9170528]
+      winner: [tt7767874]
+    best original film song:
+      nominee: [tt7183578, tt7521990, tt7762748, tt7767874, tt9129808]
+      winner: [tt7767874]
+    best picture:
+      nominee: [tt6878882, tt7183578, tt7767874, tt8497794, tt9076570]
+      winner: [tt7183578]
+    best screenplay:
+      nominee: [tt7183578, tt7762748, tt7767874, tt8497794, tt8731042]
+      winner: [tt7183578]
+    best sound design:
+      nominee: [tt6170484, tt6869538, tt6878882, tt7183578, tt9647330]
+      winner: [tt6878882]
+    best supporting actor:
+      nominee: [tt7183578, tt7762748, tt7767874, tt8497794]
+      winner: [tt7762748]
+    best supporting actress:
+      nominee: [tt6878882, tt7183578, tt7762748, tt7767874, tt9647330]
+      winner: [tt7762748]
+    best visual effects:
+      nominee: [tt6170484, tt6466464, tt6869538, tt6878882, tt7183578]
+      winner: [tt6878882]
+'2018': # https://www.imdb.com/event/ev0000329/2018/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt6015328, tt6513406, tt6814080, tt7223050, tt7245176]
+      winner: [tt7245176]
+    best actor:
+      nominee: [tt5847286, tt7245176, tt7479718, tt7762772, tt7875604]
+      winner: [tt7245176]
+    best actress:
+      nominee: [tt6095004, tt7075594, tt7479718, tt7599050, tt7875604]
+      winner: [tt7875604]
+    best art direction:
+      nominee: [tt5273624, tt6015328, tt6513406, tt7075594, tt7599050]
+      winner: [tt7075594]
+    best chinese language film from the two coasts:
+      nominee: [tt6461514, tt6654316, tt7010412, tt7131870, tt7479784]
+      winner: [tt7010412]
+    best cinematography:
+      nominee: [tt6015328, tt7075594, tt7245176, tt7479718, tt7599050]
+      winner: [tt6015328]
+    best costume & make up design:
+      nominee: [tt5273624, tt6015328, tt6513406, tt6772874, tt7075594]
+      winner: [tt5273624]
+    best director:
+      nominee: [tt5847286, tt6095004, tt7075594, tt7245176, tt7479718]
+      winner: [tt7075594]
+    best film editing:
+      nominee: [tt5847286, tt6015328, tt6952782, tt7075594, tt7245176]
+      winner: [tt6015328]
+    best new director:
+      nominee: [tt6095004, tt6772874, tt7223050, tt7599050, tt7875604]
+      winner: [tt6095004]
+    best new performer:
+      nominee: [tt5956006, tt6554744, tt7245176, tt7757028, tt7875604]
+      winner: [tt7875604]
+    best original film score:
+      nominee: [tt6095004, tt7075594, tt7479718, tt7599050, tt7762772]
+      winner: [tt7075594]
+    best original film song:
+      nominee: [tt6095004, tt6270524, tt6772874, tt7479718, tt7762772]
+      winner: [tt7762772]
+    best picture:
+      nominee: [tt5847286, tt6015328, tt7075594, tt7245176, tt7479718]
+      winner: [tt7075594]
+    best screenplay:
+      nominee: [tt5956006, tt6095004, tt7075594, tt7479718, tt7757028]
+      winner: [tt7479718]
+    best sound design:
+      nominee: [tt5273624, tt5847286, tt6513406, tt7075594, tt7245176]
+      winner: [tt7245176]
+    best supporting actor:
+      nominee: [tt5847286, tt5956006, tt6083388, tt7245176, tt7599050, tt7762772]
+      winner: [tt5847286]
+    best supporting actress:
+      nominee: [tt6095004, tt6270524, tt7075594, tt7479718, tt7757028]
+      winner: [tt7075594]
+    best visual effects:
+      nominee: [tt5273624, tt5847286, tt6513406, tt6814080, tt7185492]
+      winner: [tt6513406]
+'2017': # https://www.imdb.com/event/ev0000329/2017/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt4591310, tt5112622, tt5269396, tt5842624, tt6044910]
+      winner: [tt6044910]
+    best actor:
+      nominee: [tt4379800, tt5112622, tt6041030, tt6135054]
+      winner: [tt4379800]
+    best actress:
+      nominee: [tt4960242, tt5805026, tt6054290, tt6405384]
+      winner: [tt5805026]
+    best art direction:
+      nominee: [tt3824950, tt4591310, tt4701660, tt5269396, tt6054290]
+      winner: [tt3824950]
+    best chinese language film from the two coasts:
+      nominee: [tt4701702, tt5596352, tt5918090, tt5952306, tt5974402]
+      winner: [tt5952306]
+    best cinematography:
+      nominee: [tt3824950, tt4379728, tt5112622, tt5128712, tt6054290]
+      winner: [tt3824950]
+    best costume & make up design:
+      nominee: [tt3824950, tt4591310, tt5269396, tt5481184, tt6054290]
+      winner: [tt4591310]
+    best director:
+      nominee: [tt4379728, tt4379800, tt4701660, tt6041030, tt6054290]
+      winner: [tt4379800]
+    best film editing:
+      nominee: [tt3824950, tt4379800, tt5112622, tt6044910, tt6054290]
+      winner: [tt4379800]
+    best new director:
+      nominee: [tt5128712, tt5805026, tt5896962, tt6041030, tt6054290]
+      winner: [tt6041030]
+    best new performer:
+      nominee: [tt4701660, tt5128712, tt5805026, tt6386132]
+      winner: [tt5128712]
+    best original film score:
+      nominee: [tt3824950, tt5112622, tt5128712, tt6041030, tt6054290]
+      winner: [tt6054290]
+    best original film song:
+      nominee: [tt3824950, tt4701660, tt5128712, tt5805026, tt6054290]
+      winner: [tt5128712]
+    best picture:
+      nominee: [tt4379800, tt4701660, tt5112622, tt5128712, tt6054290]
+      winner: [tt4379800]
+    best screenplay:
+      nominee: [tt4379800, tt4701660, tt5112622, tt6041030, tt6054290]
+      winner: [tt4379800]
+    best sound design:
+      nominee: [tt3824950, tt4591310, tt5112622, tt5269396, tt6044910]
+      winner: [tt5112622]
+    best supporting actor:
+      nominee: [tt4379800, tt4960242, tt5128712, tt6041030, tt6090588]
+      winner: [tt6041030]
+    best supporting actress:
+      nominee: [tt4701660, tt5112622, tt6041030, tt6386132]
+      winner: [tt6041030]
+    best visual effects:
+      nominee: [tt4591310, tt4701660, tt5112622, tt5269396, tt6044910]
+      winner: [tt4591310]
+'2016': # https://www.imdb.com/event/ev0000329/2016/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt2888046, tt3197766, tt3614922, tt3672840, tt3950078]
+      winner: [tt3197766]
+    best actor:
+      nominee: [tt3950078, tt4417522, tt4440036, tt5157030, tt5514846]
+      winner: [tt4417522]
+    best actress:
+      nominee: [tt3682770, tt4319698, tt4392726, tt4417522, tt5514846]
+      winner: [tt4417522]
+    best art direction:
+      nominee: [tt3682770, tt3781476, tt3950078, tt4027270, tt4392726]
+      winner: [tt4392726]
+    best chinese language film from the two coasts:
+      nominee: [tt2909116, tt3469964, tt3508840, tt3740778, tt4967094]
+      winner: [tt3508840]
+    best cinematography:
+      nominee: [tt2888046, tt3682770, tt3950078, tt4417522, tt4788638]
+      winner: [tt4417522]
+    best costume & make up design:
+      nominee: [tt3682770, tt3781476, tt3950078, tt4027270, tt4392726]
+      winner: [tt3781476]
+    best director:
+      nominee: [tt2888046, tt3950078, tt4319698, tt4417522, tt4786802]
+      winner: [tt3950078]
+    best film editing:
+      nominee: [tt2888046, tt3197766, tt3950078, tt4417522, tt4788638]
+      winner: [tt2888046]
+    best new director:
+      nominee: [tt3781476, tt4533838, tt5157030]
+      winner: [tt3781476]
+    best new performer:
+      nominee: [tt4417522, tt5157030, tt5180856, tt5525504]
+      winner: [tt4417522]
+    best original film score:
+      nominee: [tt3950078, tt4027270, tt4392726, tt4417522, tt5180856]
+      winner: [tt4392726]
+    best original film song:
+      nominee: [tt3911074, tt4027270, tt4417522, tt4484426, tt5180856]
+      winner: [tt5180856]
+    best picture:
+      nominee: [tt2888046, tt3950078, tt4319698, tt4417522, tt5269560]
+      winner: [tt5269560]
+    best screenplay:
+      nominee: [tt4319698, tt4417522, tt4533838, tt4786802, tt5180856]
+      winner: [tt4417522]
+    best sound design:
+      nominee: [tt2888046, tt3781476, tt3950078, tt4392726, tt5157030]
+      winner: [tt3950078]
+    best supporting actor:
+      nominee: [tt2888046, tt3197766, tt3730518, tt4417522, tt5157030]
+      winner: [tt4417522]
+    best supporting actress:
+      nominee: [tt3614922, tt3682770, tt4319698, tt4417522, tt4484426]
+      winner: [tt4417522]
+    best visual effects:
+      nominee: [tt2888046, tt3781476, tt3950078, tt4392726, tt5157030]
+      winner: [tt3781476]
+'2015': # https://www.imdb.com/event/ev0000329/2015/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt2290567, tt2952602, tt3465456, tt3469592, tt3919278]
+      winner: [tt2952602]
+    best actor:
+      nominee: [tt3121442, tt3469592, tt3511542, tt3752930, tt4305562]
+      winner: [tt3121442]
+    best actress:
+      nominee: [tt3313908, tt3451660, tt3696086, tt3752930, tt4510896]
+      winner: [tt3752930]
+    best art direction:
+      nominee: [tt2150371, tt3121442, tt3429014, tt3469592, tt3696086]
+      winner: [tt3696086]
+    best chinese language film from the two coasts:
+      nominee: [tt1456660, tt3125472, tt3469910, tt3974790, tt4012914]
+      winner: [tt3125472]
+    best cinematography:
+      nominee: [tt2150371, tt3121442, tt3469592, tt3504824, tt3696086]
+      winner: [tt3696086]
+    best costume & make up design:
+      nominee: [tt1717715, tt2150371, tt3121442, tt3469592, tt3696086]
+      winner: [tt3696086]
+    best director:
+      nominee: [tt3121442, tt3504824, tt3511542, tt3696086, tt3752930]
+      winner: [tt3696086]
+    best film editing:
+      nominee: [tt2150371, tt3121442, tt3469592, tt3511542, tt3696086]
+      winner: [tt2150371]
+    best new director:
+      nominee: [tt3743974, tt3804012, tt4305562]
+      winner: [tt4305562]
+    best new performer:
+      nominee: [tt3429014, tt3451660, tt3560762, tt3743974, tt3898860]
+      winner: [tt3451660]
+    best original film score:
+      nominee: [tt2150371, tt3429014, tt3469592, tt3504824, tt3696086]
+      winner: [tt3504824]
+    best original film song:
+      nominee: [tt3429014, tt3451660, tt3469592, tt3898860, tt4305562]
+      winner: [tt3429014]
+    best picture:
+      nominee: [tt3121442, tt3429014, tt3504824, tt3696086, tt3752930]
+      winner: [tt3696086]
+    best screenplay:
+      nominee: [tt3121442, tt3429014, tt3504824, tt3696086, tt3752930]
+      winner: [tt3121442]
+    best sound design:
+      nominee: [tt2150371, tt2952602, tt3121442, tt3469592, tt3511542]
+      winner: [tt2150371]
+    best supporting actor:
+      nominee: [tt2952602, tt3121442, tt3429014, tt3504824]
+      winner: [tt3121442]
+    best supporting actress:
+      nominee: [tt3451660, tt3504824, tt3696086, tt4074114, tt4305562]
+      winner: [tt3451660]
+    best visual effects:
+      nominee: [tt1717715, tt2952602, tt3469592, tt3504824, tt3511542]
+      winner: [tt3469592]
+'2014': # https://www.imdb.com/event/ev0000329/2014/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt1462900, tt2118775, tt2992146, tt3003668, tt3341072]
+      winner: [tt1462900]
+    best actor:
+      nominee: [tt1462900, tt2495118, tt2957774, tt3003668]
+      winner: [tt3003668]
+    best actress:
+      nominee: [tt1462900, tt2169322, tt2332707, tt2771800, tt3003996]
+      winner: [tt1462900]
+    best art direction:
+      nominee: [tt1462900, tt2017561, tt2771800, tt2992146, tt3414954]
+      winner: [tt1462900]
+    best chinese language film from the two coasts:
+      nominee: [tt1919137, tt2368920, tt2459022, tt2765340, tt3266806]
+      winner: [tt2765340]
+    best cinematography:
+      nominee: [tt1462900, tt2771800, tt2957774, tt3003668, tt3414954]
+      winner: [tt1462900]
+    best costume & make up design:
+      nominee: [tt1462900, tt2017561, tt2278392, tt2771800, tt2992146]
+      winner: [tt1462900]
+    best director:
+      nominee: [tt1462900, tt2165735, tt2957774, tt3003668, tt3414954]
+      winner: [tt1462900]
+    best film editing:
+      nominee: [tt1462900, tt2957774, tt3003668, tt3341072, tt3414954]
+      winner: [tt1462900]
+    best new director:
+      nominee: [tt2771800, tt3003996, tt3341072]
+      winner: [tt3003996]
+    best new performer:
+      nominee: [tt2278392, tt2859350, tt2992146, tt3003996, tt4305306]
+      winner: [tt3003996]
+    best original film score:
+      nominee: [tt1462900, tt2992146, tt3003668, tt3003996, tt3414954]
+      winner: [tt1462900]
+    best original film song:
+      nominee: [tt2332707, tt2642064, tt2957774, tt3003996, tt3414954]
+      winner: [tt3003996]
+    best picture:
+      nominee: [tt1462900, tt2017561, tt2957774, tt3003668, tt3003996]
+      winner: [tt1462900]
+    best screenplay:
+      nominee: [tt1462900, tt2169322, tt2278392, tt2332707, tt3003668]
+      winner: [tt1462900]
+    best sound design:
+      nominee: [tt1462900, tt2771800, tt2992146, tt3003668, tt3414954]
+      winner: [tt1462900]
+    best supporting actor:
+      nominee: [tt1462900, tt2017561, tt2278392, tt2771800, tt3003668]
+      winner: [tt1462900]
+    best supporting actress:
+      nominee: [tt2278392, tt2771800, tt2957774, tt2992146, tt3003668]
+      winner: [tt2771800]
+    best visual effects:
+      nominee: [tt1462900, tt2771800, tt2992146, tt3341072, tt3414954]
+      winner: [tt2771800]
+'2013': # https://www.imdb.com/event/ev0000329/2013/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt1424310, tt1740002, tt1981080, tt2063011, tt2186715]
+      winner: [tt1424310]
+    best actor:
+      nominee: [tt2078768, tt2106741, tt2171993, tt2186715, tt2266938]
+      winner: [tt2186715]
+    best actress:
+      nominee: [tt1869721, tt1941536, tt2078768, tt2225608, tt2238839]
+      winner: [tt2238839]
+    best art direction:
+      nominee: [tt1847713, tt1981080, tt2078768, tt2106741, tt2458314]
+      winner: [tt2458314]
+    best chinese language film from the two coasts:
+      nominee: [tt2113822, tt2115388, tt2202471, tt2319760, tt2371411]
+      winner: [tt2113822]
+    best cinematography:
+      nominee: [tt2063011, tt2078768, tt2106741, tt2186715, tt2458314]
+      winner: [tt2078768]
+    best costume & make up design:
+      nominee: [tt1847713, tt1869721, tt1981080, tt2078768, tt2106741]
+      winner: [tt1869721]
+    best director:
+      nominee: [tt1740002, tt2063011, tt2106741, tt2186715, tt2238839]
+      winner: [tt2186715]
+    best film editing:
+      nominee: [tt1424310, tt1740002, tt2063011, tt2106741, tt2186715]
+      winner: [tt2186715]
+    best new director:
+      nominee: [tt2168166, tt2171993, tt2275080]
+      winner: [tt2171993]
+    best new performer:
+      nominee: [tt1424310, tt1981080, tt2186715, tt2253038, tt2458314]
+      winner: [tt2186715]
+    best original film score:
+      nominee: [tt2078768, tt2106741, tt2186715, tt2235184, tt2458314]
+      winner: [tt2186715]
+    best original film song:
+      nominee: [tt1847713, tt1941536, tt2235184, tt2253038, tt2458314]
+      winner: [tt2458314]
+    best picture:
+      nominee: [tt1740002, tt2063011, tt2106741, tt2186715, tt2266938]
+      winner: [tt2186715]
+    best screenplay:
+      nominee: [tt2078768, tt2106741, tt2186715, tt2238839, tt2266938]
+      winner: [tt2186715]
+    best sound design:
+      nominee: [tt1740002, tt1847713, tt2063011, tt2106741, tt2186715]
+      winner: [tt2186715]
+    best supporting actor:
+      nominee: [tt2106741, tt2168166, tt2186715, tt2235184, tt2266938]
+      winner: [tt2266938]
+    best supporting actress:
+      nominee: [tt2063011, tt2078768, tt2106741, tt2266938]
+      winner: [tt2266938]
+    best visual effects:
+      nominee: [tt1424310, tt1740002, tt1847713, tt1981080, tt2186715]
+      winner: [tt2186715]
+'2012': # https://www.imdb.com/event/ev0000329/2012/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt1533117, tt1533749, tt1686784, tt1718199, tt1857913]
+      winner: [tt1686784]
+    best actor:
+      nominee: [tt1371585, tt1533117, tt1852904, tt2008006]
+      winner: [tt2008006]
+    best actress:
+      nominee: [tt1686784, tt1718199, tt1776143, tt1934335, tt2008006]
+      winner: [tt2008006]
+    best art direction:
+      nominee: [tt1533117, tt1533749, tt1686784, tt1718199, tt2102472]
+      winner: [tt1686784]
+    best chinese language film from the two coasts:
+      nominee: [tt1410063, tt1810602, tt2007993, tt2036416, tt2084098]
+      winner: [tt2036416]
+    best cinematography:
+      nominee: [tt1533117, tt1686784, tt1718199, tt1852904, tt2008006]
+      winner: [tt1718199]
+    best costume & make up design:
+      nominee: [tt1533117, tt1686784, tt1718199, tt2062596, tt2102472]
+      winner: [tt1533117]
+    best director:
+      nominee: [tt1371585, tt1533117, tt1686784, tt1852904, tt2008006]
+      winner: [tt2008006]
+    best film editing:
+      nominee: [tt1371585, tt1533117, tt1686784, tt1718199, tt1852904]
+      winner: [tt1686784]
+    best new director:
+      nominee: [tt1837529, tt1872026, tt2066857]
+      winner: [tt2066857]
+    best new performer:
+      nominee: [tt1686784, tt1988689, tt2062596, tt2072164, tt2231605]
+      winner: [tt2231605]
+    best original film score:
+      nominee: [tt1686784, tt1718199, tt1852904, tt1934335, tt2102472]
+      winner: [tt1718199]
+    best original film song:
+      nominee: [tt1371585, tt1533749, tt1718199, tt1837529, tt1934335]
+      winner: [tt1837529]
+    best picture:
+      nominee: [tt1371585, tt1533117, tt1686784, tt1852904, tt2008006]
+      winner: [tt2008006]
+    best screenplay:
+      nominee: [tt1371585, tt1533117, tt1776143, tt1852904, tt2008006]
+      winner: [tt2008006]
+    best sound design:
+      nominee: [tt1533117, tt1686784, tt1718199, tt1852904, tt2102472]
+      winner: [tt1686784]
+    best supporting actor:
+      nominee: [tt1371585, tt1533749, tt1718199, tt1852904, tt2008006]
+      winner: [tt1371585]
+    best supporting actress:
+      nominee: [tt1371585, tt1533117, tt1686784, tt1718199, tt2008006]
+      winner: [tt1371585]
+    best visual effects:
+      nominee: [tt1533117, tt1686784, tt1718199, tt1857913, tt2062596]
+      winner: [tt1686784]
+'2011': # https://www.imdb.com/event/ev0000329/2011/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt1123373, tt1386932, tt1456661, tt1460743, tt1611823]
+      winner: [tt1386932]
+    best actor:
+      nominee: [tt1397498, tt1447800, tt1482989, tt1535492]
+      winner: [tt1535492]
+    best actress:
+      nominee: [tt1123373, tt1407972, tt1447800, tt1517633, tt1602479]
+      winner: [tt1123373]
+    best art direction:
+      nominee: [tt1123373, tt1386932, tt1397498, tt1460743, tt1482989]
+      winner: [tt1123373]
+    best asian film:
+      nominee: [tt1393746, tt1554523, tt1590089, tt1604900, tt1745704]
+      winner: [tt1590089]
+    best cinematography:
+      nominee: [tt1123373, tt1386932, tt1397498, tt1460743, tt1756487]
+      winner: [tt1397498]
+    best costume & make up design:
+      nominee: [tt1123373, tt1397498, tt1456661, tt1460743, tt1482989]
+      winner: [tt1123373]
+    best director:
+      nominee: [tt1123373, tt1386932, tt1460743, tt1535492, tt1611823]
+      winner: [tt1123373]
+    best film editing:
+      nominee: [tt1123373, tt1386932, tt1460743, tt1535492, tt1535495]
+      winner: [tt1386932]
+    best new director:
+      nominee: [tt1447800, tt1611840, tt1710983]
+      winner: [tt1611840]
+    best new performer:
+      nominee: [tt1386932, tt1482989, tt1519640, tt1603789, tt1641638]
+      winner: [tt1482989]
+    best original film score:
+      nominee: [tt1123373, tt1386932, tt1460743, tt1517633, tt1611823]
+      winner: [tt1611823]
+    best original film song:
+      nominee: [tt1397498, tt1460743, tt1519640, tt1756487, tt1772958]
+      winner: [tt1756487]
+    best picture:
+      nominee: [tt1123373, tt1386932, tt1460743, tt1535492, tt1611823]
+      winner: [tt1611823]
+    best screenplay:
+      nominee: [tt1447800, tt1517633, tt1535492, tt1602479, tt1611823]
+      winner: [tt1602479]
+    best sound design:
+      nominee: [tt1123373, tt1386932, tt1407972, tt1456661, tt1535492]
+      winner: [tt1123373]
+    best supporting actor:
+      nominee: [tt1123373, tt1460743, tt1535492, tt1611823]
+      winner: [tt1611823]
+    best supporting actress:
+      nominee: [tt1447800, tt1611823, tt1611840, tt1691832]
+      winner: [tt1611823]
+    best visual effects:
+      nominee: [tt1123373, tt1386932, tt1407972, tt1456661, tt1460743]
+      winner: [tt1123373]
+'2010': # https://www.imdb.com/event/ev0000329/2010/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt1075419, tt1186371, tt1326972, tt1403130, tt1442571]
+      winner: [tt1403130]
+    best actor:
+      nominee: [tt1349853, tt1392249, tt1403130, tt1437362, tt1602572]
+      winner: [tt1602572]
+    best actress:
+      nominee: [tt1308138, tt1312156, tt1392249, tt1483799, tt1602572]
+      winner: [tt1483799]
+    best art direction:
+      nominee: [tt1186371, tt1326972, tt1362045, tt1403130, tt1498834]
+      winner: [tt1403130]
+    best asian film:
+      nominee: [tt0876563, tt1069238, tt1124052, tt1434423, tt1438461]
+      winner: [tt1069238]
+    best cinematography:
+      nominee: [tt1075419, tt1326972, tt1362045, tt1403130, tt1498834]
+      winner: [tt1403130]
+    best costume & make up design:
+      nominee: [tt1186371, tt1326972, tt1362045, tt1403130, tt1498834]
+      winner: [tt1403130]
+    best director:
+      nominee: [tt1075419, tt1326972, tt1349853, tt1392249, tt1403130]
+      winner: [tt1403130]
+    best editing:
+      nominee: [tt1202514, tt1326972, tt1562343]
+      winner: []
+    best film:
+      nominee: [tt1075419, tt1326972, tt1349853, tt1403130, tt1562343]
+      winner: [tt1403130]
+    best film editing:
+      nominee: [tt1349853, tt1403130]
+      winner: [tt1349853]
+    best new director:
+      nominee: [tt1437362, tt1459937, tt1562343]
+      winner: [tt1562343]
+    best new performer:
+      nominee: [tt1403130, tt1483421, tt1498834, tt1602572]
+      winner: [tt1602572]
+    best original film score:
+      nominee: [tt1230424, tt1329454, tt1403130, tt1498834]
+      winner: [tt1403130]
+    best original film song:
+      nominee: [tt1308138, tt1326972, tt1403130, tt1430622, tt1602572]
+      winner: [tt1602572]
+    best original score:
+      nominee: [tt1326972]
+      winner: []
+    best screenplay:
+      nominee: [tt1202514, tt1349853, tt1403130, tt1451620, tt1602572]
+      winner: [tt1602572]
+    best sound design:
+      nominee: [tt1186371, tt1326972, tt1403130, tt1442571, tt1562343]
+      winner: [tt1326972]
+    best supporting actor:
+      nominee: [tt1202514, tt1326972, tt1349853, tt1403130]
+      winner: [tt1403130]
+    best supporting actress:
+      nominee: [tt1202514, tt1312156, tt1326972, tt1403130]
+      winner: [tt1202514]
+    best visual effects:
+      nominee: [tt1186371, tt1326972, tt1403130, tt1451620, tt1494775]
+      winner: [tt1186371]
+'2009': # https://www.imdb.com/event/ev0000329/2009/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0425637, tt0882978, tt1055300, tt1156506, tt1220719]
+      winner: [tt1220719]
+    best actor:
+      nominee: [tt0425637, tt0491044, tt1196714, tt1220719, tt1330525]
+      winner: [tt1330525]
+    best actress:
+      nominee: [tt1055300, tt1156506, tt1233499, tt1303846, tt1347006]
+      winner: [tt1233499]
+    best art direction:
+      nominee: [tt0425637, tt0882978, tt1055300, tt1186803, tt1220719]
+      winner: [tt0425637]
+    best asian film:
+      nominee: [tt0851532, tt0881200, tt1160629, tt1267160, tt1330607]
+      winner: [tt0881200]
+    best cinematography:
+      nominee: [tt0425637, tt0491044, tt0882978, tt1055300, tt1220719]
+      winner: [tt1055300]
+    best costume & make up design:
+      nominee: [tt0425637, tt0882978, tt1037146, tt1055300, tt1186803]
+      winner: [tt0425637]
+    best director:
+      nominee: [tt0425637, tt0491044, tt1156506, tt1220719, tt1233499]
+      winner: [tt1233499]
+    best film editing:
+      nominee: [tt0425637, tt0491044, tt1156506, tt1220719, tt1330525]
+      winner: [tt1156506]
+    best new director:
+      nominee: [tt1236325, tt1303846, tt1365026]
+      winner: [tt1236325]
+    best new performer:
+      nominee: [tt0425637, tt0940709, tt1037146, tt1232825, tt1233499]
+      winner: [tt0940709]
+    best original film score:
+      nominee: [tt0425637, tt0491044, tt0882978, tt1055300, tt1220719]
+      winner: [tt0425637]
+    best original film song:
+      nominee: [tt0425637, tt0896815, tt1055300, tt1186803, tt1205065]
+      winner: [tt1055300]
+    best picture:
+      nominee: [tt0425637, tt0940709, tt1055300, tt1220719, tt1233499]
+      winner: [tt1220719]
+    best screenplay:
+      nominee: [tt1055300, tt1196714, tt1233499, tt1303846, tt1330525]
+      winner: [tt1233499]
+    best sound design:
+      nominee: [tt0425637, tt1055300, tt1156506, tt1220719, tt1330525]
+      winner: [tt0425637]
+    best supporting actor:
+      nominee: [tt0425637, tt0940709, tt1220719, tt1330525]
+      winner: [tt1330525]
+    best supporting actress:
+      nominee: [tt0425637, tt1055300, tt1196714, tt1233499, tt1347006]
+      winner: [tt1233499]
+    best visual effects:
+      nominee: [tt0425637, tt0896815, tt0940709, tt1055300, tt1220719]
+      winner: [tt0425637]
+'2008': # https://www.imdb.com/event/ev0000329/2008/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0841150, tt0913968, tt0934949, tt0992911, tt0995739]
+      winner: [tt0992911]
+    best actor:
+      nominee: [tt0901488, tt0913968, tt0969269, tt1107807]
+      winner: [tt0913968]
+    best actress:
+      nominee: [tt0470984, tt0841150, tt1019919, tt1031942, tt1045818]
+      winner: [tt0470984]
+    best art direction:
+      nominee: [tt0841150, tt0897287, tt0913968, tt1107807, tt1210844]
+      winner: [tt0913968]
+    best asian film:
+      nominee: [tt0769507, tt0783475, tt0808357, tt0820158, tt1037850]
+      winner: [tt0808357]
+    best cinematography:
+      nominee: [tt0470984, tt0841150, tt0913968, tt0969269, tt1091616]
+      winner: [tt0913968]
+    best costume design and make up design:
+      nominee: [tt0470984, tt0897287, tt0913968, tt0969269, tt1107807]
+      winner: [tt0913968]
+    best director:
+      nominee: [tt0470984, tt0841150, tt0901488, tt0913968, tt0969269]
+      winner: [tt0913968]
+    best film editing:
+      nominee: [tt0841150, tt0901488, tt0913968, tt0969269, tt1107807]
+      winner: [tt0841150]
+    best new artist:
+      nominee: [tt0841150, tt0901488, tt0996978, tt1018809, tt1210844]
+      winner: [tt0901488]
+    best new director:
+      nominee: [tt0901488, tt1018809, tt1098218]
+      winner: [tt0901488]
+    best original film score:
+      nominee: [tt0470984, tt0831386, tt0841150, tt0913968, tt1107807]
+      winner: [tt0470984]
+    best original film song:
+      nominee: [tt0885505, tt0996978, tt1018809, tt1031942, tt1121801]
+      winner: [tt0996978]
+    best picture:
+      nominee: [tt0470984, tt0841150, tt0901488, tt0913968, tt0969269]
+      winner: [tt0913968]
+    best screenplay:
+      nominee: [tt0470984, tt0841150, tt0901488, tt0913968, tt0969269]
+      winner: [tt0969269]
+    best sound design:
+      nominee: [tt0831386, tt0841150, tt0913968, tt0992911, tt1107807]
+      winner: [tt0913968]
+    best supporting actor:
+      nominee: [tt0470984, tt0841150, tt1031942, tt1091616]
+      winner: [tt0841150]
+    best supporting actress:
+      nominee: [tt0470984, tt0841150, tt0901488, tt1018809, tt1031942]
+      winner: [tt1018809]
+    best visual effects:
+      nominee: [tt0841150, tt0913968, tt0969269, tt1107807]
+      winner: [tt0913968]
+'2007': # https://www.imdb.com/event/ev0000329/2007/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0446059, tt0473444, tt0482930, tt0485863, tt0485976]
+      winner: [tt0446059]
+    best actor:
+      nominee: [tt0446059, tt0473444, tt0768114, tt0834902, tt0843287]
+      winner: [tt0843287]
+    best actress:
+      nominee: [tt0473444, tt0498311, tt0499141, tt0860387, tt0923923]
+      winner: [tt0473444]
+    best art direction:
+      nominee: [tt0465676, tt0473444, tt0499141, tt0768114, tt0834902]
+      winner: [tt0473444]
+    best asian film:
+      nominee: [tt0437447, tt0468492, tt0475179, tt0758742, tt0843270]
+      winner: [tt0437447]
+    best cinematography:
+      nominee: [tt0473444, tt0499141, tt0768114, tt0796212, tt0834902]
+      winner: [tt0834902]
+    best costume & make up design:
+      nominee: [tt0465676, tt0473444, tt0485863, tt0499141, tt0834902]
+      winner: [tt0473444]
+    best director:
+      nominee: [tt0473444, tt0485863, tt0491244, tt0768114, tt0796212]
+      winner: [tt0768114]
+    best film editing:
+      nominee: [tt0446059, tt0485863, tt0768114, tt0796212, tt0834902]
+      winner: [tt0485863]
+    best new director:
+      nominee: [tt0778129, tt0781359, tt0800362]
+      winner: [tt0800362]
+    best new performer:
+      nominee: [tt0446059, tt0485976, tt0768114, tt0819765, tt0843287]
+      winner: [tt0768114]
+    best original film score:
+      nominee: [tt0465676, tt0473444, tt0485863, tt0499141, tt0834902]
+      winner: [tt0499141]
+    best original film song:
+      nominee: [tt0446059, tt0465676, tt0473444, tt0800362, tt0923923]
+      winner: [tt0473444]
+    best picture:
+      nominee: [tt0446059, tt0473444, tt0491244, tt0768114, tt0796212]
+      winner: [tt0768114]
+    best screenplay:
+      nominee: [tt0491244, tt0768114, tt0834902, tt0843287, tt0923923]
+      winner: [tt0768114]
+    best sound design:
+      nominee: [tt0446059, tt0465676, tt0473444, tt0485863, tt0498311]
+      winner: [tt0498311]
+    best supporting actor:
+      nominee: [tt0473444, tt0491244, tt0768114]
+      winner: [tt0768114]
+    best supporting actress:
+      nominee: [tt0465676, tt0768114, tt0819794, tt0843287, tt0865496]
+      winner: [tt0465676]
+    best visual effects:
+      nominee: [tt0439630, tt0465676, tt0473444, tt0482930, tt0485863, tt0498311]
+      winner: [tt0498311]
+'2006': # https://www.imdb.com/event/ev0000329/2006/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0365847, tt0429078, tt0435026, tt0455195, tt0478024]
+      winner: [tt0478024]
+    best actor:
+      nominee: [tt0434008, tt0455195, tt0475263, tt0477898]
+      winner: [tt0434008]
+    best actress:
+      nominee: [tt0383388, tt0454914, tt0475263, tt0477898, tt0483908]
+      winner: [tt0454914]
+    best art direction:
+      nominee: [tt0417976, tt0429078, tt0454914, tt0469050, tt0475263]
+      winner: [tt0454914]
+    best asian film:
+      nominee: [tt0347149, tt0386651, tt0442268, tt0451094, tt0459666]
+      winner: [tt0386651]
+    best cinematography:
+      nominee: [tt0417976, tt0429078, tt0434008, tt0439630, tt0454914]
+      winner: [tt0454914]
+    best costume & make up design:
+      nominee: [tt0417976, tt0429078, tt0454914, tt0469050, tt0475263]
+      winner: [tt0454914]
+    best director:
+      nominee: [tt0429078, tt0434008, tt0439630, tt0454914, tt0457004]
+      winner: [tt0434008]
+    best film editing:
+      nominee: [tt0429078, tt0434008, tt0439630, tt0454914, tt0455195]
+      winner: [tt0455195]
+    best new director:
+      nominee: [tt0383388, tt0435026, tt0482457]
+      winner: [tt0383388]
+    best new performer:
+      nominee: [tt0439630, tt0452581, tt0457004, tt0470263, tt0490393]
+      winner: [tt0439630]
+    best original film score:
+      nominee: [tt0429078, tt0434008, tt0439630, tt0454914, tt0469050]
+      winner: [tt0454914]
+    best original film song:
+      nominee: [tt0365847, tt0439630, tt0454914, tt0471243, tt0477898]
+      winner: [tt0454914]
+    best picture:
+      nominee: [tt0365847, tt0429078, tt0434008, tt0439630, tt0454914]
+      winner: [tt0434008]
+    best screenplay:
+      nominee: [tt0434008, tt0441511, tt0454914, tt0457004, tt0477898]
+      winner: [tt0434008]
+    best sound design:
+      nominee: [tt0417976, tt0429078, tt0439630, tt0454914, tt0469050]
+      winner: [tt0439630]
+    best supporting actor:
+      nominee: [tt0434008, tt0439630, tt0475263, tt0475534, tt0478024]
+      winner: [tt0439630]
+    best supporting actress:
+      nominee: [tt0429078, tt0434008, tt0452581, tt0457004, tt0475263]
+      winner: [tt0457004]
+    best visual effects:
+      nominee: [tt0365847, tt0417976, tt0429078, tt0439630, tt0469050]
+      winner: [tt0439630]
+'2005': # https://www.imdb.com/event/ev0000329/2005/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0373074, tt0386005, tt0398373, tt0415380, tt0430772]
+      winner: [tt0373074]
+    best actor:
+      nominee: [tt0212712, tt0373074, tt0386005, tt0430772]
+      winner: [tt0212712]
+    best actress:
+      nominee: [tt0212712, tt0373074, tt0397229, tt0408970, tt0430772]
+      winner: [tt0212712]
+    best art direction:
+      nominee: [tt0212712, tt0373074, tt0415080, tt0420251, tt0436833]
+      winner: [tt0212712]
+    best asian film:
+      nominee: [tt0363226, tt0364569, tt0385004, tt0400761, tt0439884]
+      winner: [tt0364569]
+    best cinematography:
+      nominee: [tt0212712, tt0373074, tt0386590, tt0420251, tt0430772]
+      winner: [tt0212712]
+    best costume design and make up:
+      nominee: [tt0212712, tt0373074, tt0398373, tt0415080, tt0436833]
+      winner: [tt0212712]
+    best director:
+      nominee: [tt0212712, tt0373074, tt0386005, tt0414931, tt0430772]
+      winner: [tt0430772]
+    best film editing:
+      nominee: [tt0212712, tt0373074, tt0386005, tt0414931, tt0430772]
+      winner: [tt0373074]
+    best new artist:
+      nominee: [tt0373074, tt0398373, tt0434762, tt0436833, tt0440939]
+      winner: [tt0440939]
+    best new director:
+      nominee: [tt0415080, tt0419954, tt0440595]
+      winner: [tt0415080]
+    best new performer:
+      nominee: [tt0436833]
+      winner: []
+    best original film score:
+      nominee: [tt0212712, tt0373074, tt0386590, tt0430772, tt0436833]
+      winner: [tt0212712]
+    best original film song:
+      nominee: [tt0386590, tt0396735, tt0415872, tt0419954, tt0440842]
+      winner: [tt0419954]
+    best original score:
+      nominee: [tt0436833]
+      winner: []
+    best picture:
+      nominee: [tt0212712, tt0373074, tt0386005, tt0414931, tt0430772]
+      winner: [tt0373074]
+    best screenplay:
+      nominee: [tt0212712, tt0373074, tt0420251, tt0430772, tt0440003]
+      winner: [tt0430772]
+    best sound effects:
+      nominee: [tt0212712, tt0373074, tt0386005, tt0408970, tt0430772]
+      winner: [tt0373074]
+    best supporting actor:
+      nominee: [tt0373074, tt0386005, tt0420251, tt0431733]
+      winner: [tt0373074]
+    best supporting actress:
+      nominee: [tt0397229, tt0414931, tt0415872, tt0420251, tt0440595]
+      winner: [tt0420251]
+    best visual effects:
+      nominee: [tt0212712, tt0373074, tt0386005, tt0398373, tt0434762]
+      winner: [tt0373074]
+'2004': # https://www.imdb.com/event/ev0000329/2004/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0288045, tt0351887, tt0374184, tt0378773, tt0379985]
+      winner: [tt0351887]
+    best actor:
+      nominee: [tt0250638, tt0369060, tt0374184, tt0390272, tt0396030]
+      winner: [tt0374184]
+    best actress:
+      nominee: [tt0369060, tt0374184, tt0377923, tt0390272, tt0396030]
+      winner: [tt0390272]
+    best art direction:
+      nominee: [tt0351887, tt0367174, tt0374184, tt0377923, tt0396030]
+      winner: [tt0351887]
+    best asian film:
+      nominee: [tt0291032, tt0332639, tt0333764, tt0348568, tt0351817]
+      winner: [tt0351817]
+    best cinematography:
+      nominee: [tt0250638, tt0369060, tt0374339, tt0377923, tt0379985]
+      winner: [tt0377923]
+    best costume design and make up:
+      nominee: [tt0351887, tt0367174, tt0374184, tt0377923, tt0396030]
+      winner: [tt0351887]
+    best director:
+      nominee: [tt0250638, tt0369060, tt0374184, tt0379985, tt0390272]
+      winner: [tt0250638]
+    best film editing:
+      nominee: [tt0250638, tt0351887, tt0369060, tt0374184, tt0374339]
+      winner: [tt0351887]
+    best new artist:
+      nominee: [tt0378773, tt0379874, tt0389845, tt0390272]
+      winner: [tt0378773]
+    best new director:
+      nominee: [tt0377923, tt0379874, tt0380291]
+      winner: [tt0380291]
+    best original film score:
+      nominee: [tt0250638, tt0367174, tt0369060, tt0374339, tt0390272]
+      winner: [tt0390272]
+    best original film song:
+      nominee: [tt0366371, tt0367174, tt0369060, tt0374184, tt0390272]
+      winner: [tt0369060]
+    best picture:
+      nominee: [tt0250638, tt0369060, tt0374184, tt0374339, tt0390272]
+      winner: [tt0374184]
+    best screenplay:
+      nominee: [tt0250638, tt0369060, tt0374184, tt0374339, tt0390272]
+      winner: [tt0374184]
+    best sound effects:
+      nominee: [tt0250638, tt0351887, tt0369060, tt0374184, tt0374339]
+      winner: [tt0351887]
+    best supporting actor:
+      nominee: [tt0369060, tt0374184, tt0380069, tt0380291]
+      winner: [tt0380291]
+    best supporting actress:
+      nominee: [tt0250638, tt0351887, tt0379874, tt0385754, tt0390272]
+      winner: [tt0385754]
+    best visual effects:
+      nominee: [tt0250638, tt0288045, tt0351887, tt0374184, tt0374339]
+      winner: [tt0351887]
+'2003': # https://www.imdb.com/event/ev0000329/2003/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0282860, tt0293660, tt0299977, tt0300620, tt0338564]
+      winner: [tt0299977]
+    best actor:
+      nominee: [tt0284066, tt0316023, tt0324242, tt0338564]
+      winner: [tt0338564]
+    best actress:
+      nominee: [tt0299977, tt0311913, tt0316023, tt0325655, tt0354593]
+      winner: [tt0325655]
+    best art direction:
+      nominee: [tt0284066, tt0299977, tt0311913, tt0324242, tt0354593]
+      winner: [tt0299977]
+    best asian film:
+      nominee: [tt0260991, tt0287934, tt0293715, tt0307681, tt0312841]
+      winner: [tt0293715]
+    best cinematography:
+      nominee: [tt0284066, tt0293660, tt0299977, tt0324242, tt0338564]
+      winner: [tt0299977]
+    best costumes/make up:
+      nominee: [tt0290654, tt0299977, tt0311913, tt0338564, tt0354593]
+      winner: [tt0299977]
+    best director:
+      nominee: [tt0290654, tt0299977, tt0316023, tt0324242, tt0338564]
+      winner: [tt0338564]
+    best film editing:
+      nominee: [tt0284066, tt0299977, tt0324242, tt0325655, tt0338564]
+      winner: [tt0338564]
+    best music:
+      nominee: [tt0290654, tt0299977, tt0311913, tt0324242, tt0338564]
+      winner: [tt0299977]
+    best new performer:
+      nominee: [tt0290654, tt0324242, tt0341129, tt0348448, tt0354498]
+      winner: [tt0324242]
+    best original film song:
+      nominee: [tt0282860, tt0299977, tt0329784, tt0338564, tt0347230]
+      winner: [tt0338564]
+    best picture:
+      nominee: [tt0290654, tt0299977, tt0324242, tt0338564, tt0354593]
+      winner: [tt0338564]
+    best screenplay:
+      nominee: [tt0284066, tt0290654, tt0299977, tt0324242, tt0338564]
+      winner: [tt0338564]
+    best sound:
+      nominee: [tt0299977, tt0316023, tt0324242, tt0325655, tt0338564]
+      winner: [tt0299977]
+    best supporting actor:
+      nominee: [tt0282860, tt0338564, tt0348448]
+      winner: [tt0338564]
+    best supporting actress:
+      nominee: [tt0284066, tt0299977, tt0324242, tt0354593, tt0354771]
+      winner: [tt0284066]
+    best visual effects:
+      nominee: [tt0282860, tt0284066, tt0299977, tt0325655, tt0338564]
+      winner: [tt0299977]
+'2002': # https://www.imdb.com/event/ev0000329/2002/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0260136, tt0271946, tt0286098, tt0286112, tt0295461]
+      winner: [tt0271946]
+    best actor:
+      nominee: [tt0286112, tt0286797, tt0292066, tt0312886]
+      winner: [tt0286112]
+    best actress:
+      nominee: [tt0272362, tt0277674, tt0286623, tt0286797, tt0312886]
+      winner: [tt0277674]
+    best art direction:
+      nominee: [tt0272362, tt0279523, tt0286098, tt0292066, tt0312886]
+      winner: [tt0279523]
+    best asian film:
+      nominee: [tt0215369, tt0220507, tt0244316, tt0245429, tt0304641]
+      winner: [tt0245429]
+    best cinematography:
+      nominee: [tt0279523, tt0286112, tt0287811, tt0292066, tt0312412]
+      winner: [tt0287811]
+    best costume & make up design:
+      nominee: [tt0272362, tt0279523, tt0286098, tt0286112, tt0292066]
+      winner: [tt0279523]
+    best director:
+      nominee: [tt0286112, tt0286797, tt0287811, tt0292066, tt0312886]
+      winner: [tt0286112]
+    best film editing:
+      nominee: [tt0271946, tt0286098, tt0286112, tt0286635, tt0292066]
+      winner: [tt0271946]
+    best new performer:
+      nominee: [tt0279697, tt0312563, tt0312886, tt0313579, tt0313812]
+      winner: [tt0312886]
+    best original film score:
+      nominee: [tt0286112, tt0292066, tt0300197, tt0312412, tt0312941]
+      winner: [tt0312941]
+    best original film song:
+      nominee: [tt0279523, tt0286112, tt0286797, tt0293895, tt0312412]
+      winner: [tt0286797]
+    best picture:
+      nominee: [tt0286112, tt0286797, tt0292066, tt0312412, tt0312886]
+      winner: [tt0286112]
+    best screenplay:
+      nominee: [tt0286112, tt0292066, tt0312563, tt0312886, tt0312932]
+      winner: [tt0312886]
+    best sound design:
+      nominee: [tt0271946, tt0286098, tt0286112, tt0287811, tt0312412]
+      winner: [tt0286112]
+    best supporting actor:
+      nominee: [tt0276971, tt0286112, tt0287155, tt0300197, tt0306708]
+      winner: [tt0286112]
+    best supporting actress:
+      nominee: [tt0260136, tt0277674, tt0287811, tt0292066, tt0312886]
+      winner: [tt0312886]
+    best visual effects:
+      nominee: [tt0260136, tt0271946, tt0286098, tt0286112, tt0294251]
+      winner: [tt0286112]
+'2001': # https://www.imdb.com/event/ev0000329/2001/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0190332, tt0233600, tt0251094, tt0251433, tt0266408]
+      winner: [tt0190332]
+    best actor:
+      nominee: [tt0118694, tt0190332, tt0260992, tt0266703, tt0277558]
+      winner: [tt0118694]
+    best actress:
+      nominee: [tt0118694, tt0190332, tt0244092, tt0255327]
+      winner: [tt0118694]
+    best art direction:
+      nominee: [tt0118694, tt0190332, tt0255327, tt0259741, tt0274626]
+      winner: [tt0118694]
+    best cinematography:
+      nominee: [tt0118694, tt0190332, tt0259741, tt0274626, tt0277558]
+      winner: [tt0190332]
+    best costume & make up design:
+      nominee: [tt0118694, tt0190332, tt0233600, tt0251094, tt0274626]
+      winner: [tt0118694]
+    best director:
+      nominee: [tt0118694, tt0190332, tt0244092, tt0255327, tt0260992]
+      winner: [tt0190332]
+    best film editing:
+      nominee: [tt0118694, tt0190332, tt0233600, tt0251433, tt0277558]
+      winner: [tt0118694]
+    best new performer:
+      nominee: [tt0118694, tt0251094, tt0251433, tt0255327, tt0266408, tt0282159]
+      winner: [tt0255327]
+    best original film score:
+      nominee: [tt0118694, tt0190332, tt0251433, tt0259741, tt0274626]
+      winner: [tt0190332]
+    best original film song:
+      nominee: [tt0190332, tt0244092, tt0259741, tt0274626, tt0282159]
+      winner: [tt0190332]
+    best picture:
+      nominee: [tt0118694, tt0190332, tt0244092, tt0255327, tt0266703]
+      winner: [tt0190332]
+    best screenplay:
+      nominee: [tt0118694, tt0190332, tt0244092, tt0255327, tt0266703]
+      winner: [tt0255327]
+    best sound design:
+      nominee: [tt0190332, tt0251094, tt0251433, tt0258489, tt0266408]
+      winner: [tt0190332]
+    best supporting actor:
+      nominee: [tt0190332, tt0214728, tt0260992, tt0266703, tt0274626]
+      winner: [tt0214728]
+    best supporting actress:
+      nominee: [tt0118694, tt0190332, tt0251433, tt0253955, tt0261125]
+      winner: [tt0190332]
+'2000': # https://www.imdb.com/event/ev0000329/2000/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0184526, tt0203672, tt0206334, tt0220644, tt0226693]
+      winner: [tt0226693]
+    best actor:
+      nominee: [tt0189954, tt0214555, tt0216165, tt0224345, tt0228048]
+      winner: [tt0216165]
+    best actress:
+      nominee: [tt0189954, tt0213314, tt0214555, tt0215240, tt0241222]
+      winner: [tt0214555]
+    best art direction:
+      nominee: [tt0189954, tt0206334, tt0215240, tt0226693, tt0228048]
+      winner: [tt0226693]
+    best cinematography:
+      nominee: [tt0206334, tt0213314, tt0224345, tt0226693, tt0228048]
+      winner: [tt0226693]
+    best costume & make up design:
+      nominee: [tt0203672, tt0206334, tt0215240, tt0226693, tt0228048]
+      winner: [tt0226693]
+    best director:
+      nominee: [tt0189954, tt0215240, tt0216165, tt0220644, tt0224345]
+      winner: [tt0220644]
+    best film editing:
+      nominee: [tt0206334, tt0216165, tt0220644, tt0226693, tt0234116]
+      winner: [tt0226693]
+    best new performer:
+      nominee: [tt0170626, tt0188766, tt0213314, tt0234116]
+      winner: [tt0213314]
+    best original film score:
+      nominee: [tt0203672, tt0213314, tt0220644, tt0226693, tt0234116]
+      winner: [tt0213314]
+    best original film song:
+      nominee: [tt0203672, tt0213314, tt0228048, tt0234116]
+      winner: [tt0213314]
+    best picture:
+      nominee: [tt0189954, tt0213314, tt0216165, tt0220644, tt0234116]
+      winner: [tt0189954]
+    best screenplay:
+      nominee: [tt0189954, tt0215240, tt0216165, tt0228048, tt0234116]
+      winner: [tt0215240]
+    best sound design:
+      nominee: [tt0203672, tt0206334, tt0214555, tt0224345, tt0226693]
+      winner: [tt0226693]
+    best supporting actor:
+      nominee: [tt0189954, tt0216165, tt0220644, tt0223603, tt0234116]
+      winner: [tt0223603]
+    best supporting actress:
+      nominee: [tt0189954, tt0215240, tt0223603, tt0226693, tt0228048]
+      winner: [tt0223603]
+'1999': # https://www.imdb.com/event/ev0000329/1999/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0127357, tt0163818, tt0165499, tt0180685, tt0181582]
+      winner: [tt0127357]
+    best actor:
+      nominee: [tt0127357, tt0157366, tt0165499, tt0168043, tt0179110]
+      winner: [tt0157366]
+    best actress:
+      nominee: [tt0144029, tt0147608, tt0148631, tt0176809, tt0179110]
+      winner: [tt0148631]
+    best art direction:
+      nominee: [tt0144029, tt0159251, tt0165499, tt0169929, tt0179110]
+      winner: [tt0169929]
+    best cinematography:
+      nominee: [tt0144029, tt0159251, tt0165499, tt0169929, tt0179110]
+      winner: [tt0169929]
+    best costume & make up design:
+      nominee: [tt0159251, tt0165499, tt0169929, tt0176809, tt0179110]
+      winner: [tt0165499]
+    best director:
+      nominee: [tt0144029, tt0157366, tt0168043, tt0179110, tt0189660]
+      winner: [tt0157366]
+    best film editing:
+      nominee: [tt0127357, tt0157366, tt0165499, tt0168043, tt0181582]
+      winner: [tt0165499]
+    best new performer:
+      nominee: [tt0159432, tt0168264, tt0179110, tt0189660]
+      winner: [tt0168264]
+    best original film score:
+      nominee: [tt0144029, tt0159251, tt0165499, tt0179110, tt0189660]
+      winner: [tt0165499]
+    best original film song:
+      nominee: [tt0165499, tt0165998, tt0179110, tt0189660]
+      winner: [tt0179110]
+    best picture:
+      nominee: [tt0127357, tt0157366, tt0165499, tt0179110, tt0189660]
+      winner: [tt0157366]
+    best screenplay:
+      nominee: [tt0157366, tt0159432, tt0168043, tt0179110, tt0189660]
+      winner: [tt0157366]
+    best sound design:
+      nominee: [tt0127357, tt0157366, tt0165499, tt0179110, tt0181582]
+      winner: [tt0165499]
+    best supporting actor:
+      nominee: [tt0144029, tt0157366, tt0178998, tt0184354, tt0189660]
+      winner: [tt0157366]
+    best supporting actress:
+      nominee: [tt0148631, tt0157366, tt0165499, tt0179064]
+      winner: [tt0148631]
+'1998': # https://www.imdb.com/event/ev0000329/1998/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0117786, tt0120115, tt0120530, tt0156588, tt0156998]
+      winner: [tt0156998]
+    best actor:
+      nominee: [tt0118845, tt0134664, tt0134836, tt0156588]
+      winner: [tt0118845]
+    best actress:
+      nominee: [tt0120164, tt0127468, tt0133028, tt0134652, tt0156588]
+      winner: [tt0120164]
+    best art direction:
+      nominee: [tt0118845, tt0120164, tt0127468, tt0156588, tt0156998]
+      winner: [tt0120164]
+    best cinematography:
+      nominee: [tt0118845, tt0120164, tt0120541, tt0127468, tt0156998]
+      winner: [tt0120164]
+    best costume & make up design:
+      nominee: [tt0118845, tt0119818, tt0120164, tt0127468, tt0156998]
+      winner: [tt0120164]
+    best director:
+      nominee: [tt0118845, tt0120115, tt0120164, tt0123328, tt0134664]
+      winner: [tt0123328]
+    best film editing:
+      nominee: [tt0118845, tt0120115, tt0123328, tt0134664, tt0156998]
+      winner: [tt0120115]
+    best new performer:
+      nominee: [tt0120115, tt0123328, tt0156496, tt0156998, tt0159506]
+      winner: [tt0123328]
+    best original film score:
+      nominee: [tt0120164, tt0120541, tt0127468, tt0146745, tt0156998]
+      winner: [tt0120164]
+    best original film song:
+      nominee: [tt0116785, tt0127468, tt0128907, tt0156588, tt0159506]
+      winner: [tt0159506]
+    best picture:
+      nominee: [tt0118845, tt0120115, tt0120164, tt0123328, tt0134664]
+      winner: [tt0123328]
+    best screenplay:
+      nominee: [tt0120164, tt0120541, tt0123328, tt0134836, tt0156588]
+      winner: [tt0134836]
+    best sound design:
+      nominee: [tt0120115, tt0120164, tt0134664, tt0156588, tt0156998]
+      winner: [tt0120115]
+    best supporting actor:
+      nominee: [tt0116785, tt0118845, tt0120164, tt0133285, tt0134836]
+      winner: [tt0120164]
+    best supporting actress:
+      nominee: [tt0120164, tt0127468, tt0133028, tt0156998]
+      winner: [tt0127468]
+'1997': # https://www.imdb.com/event/ev0000329/1997/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0110463, tt0115693, tt0116312, tt0116704, tt0117619, tt0126839]
+      winner: [tt0116704]
+    best actor:
+      nominee: [tt0116312, tt0116704, tt0116902, tt0117575, tt0117905, tt0126839]
+      winner: [tt0116902]
+    best actress:
+      nominee: [tt0116295, tt0116426, tt0116576, tt0117643, tt0117905]
+      winner: [tt0117905]
+    best art direction:
+      nominee: [tt0115693, tt0116295, tt0116462, tt0117619, tt0117905]
+      winner: [tt0117905]
+    best cinematography:
+      nominee: [tt0116295, tt0116820, tt0117619, tt0117905, tt0126839]
+      winner: [tt0117905]
+    best costume & make up design:
+      nominee: [tt0115693, tt0116462, tt0117619, tt0117643, tt0117905]
+      winner: [tt0117905]
+    best director:
+      nominee: [tt0116576, tt0116902, tt0117575, tt0117905, tt0126839]
+      winner: [tt0117905]
+    best film editing:
+      nominee: [tt0116312, tt0116576, tt0116704, tt0116820, tt0126839]
+      winner: [tt0126839]
+    best new performer:
+      nominee: [tt0116462, tt0116576, tt0116704, tt0117575, tt0117905]
+      winner: [tt0117575]
+    best original film score:
+      nominee: [tt0113724, tt0116902, tt0117575, tt0117905, tt0126839]
+      winner: [tt0117905]
+    best original film song:
+      nominee: [tt0116462, tt0117575, tt0117904, tt0126801]
+      winner: [tt0117904]
+    best picture:
+      nominee: [tt0116576, tt0116704, tt0117575, tt0117905, tt0126839]
+      winner: [tt0117905]
+    best screenplay:
+      nominee: [tt0116576, tt0117242, tt0117243, tt0117904, tt0117905, tt0127360]
+      winner: [tt0117905]
+    best supporting actor:
+      nominee: [tt0116455, tt0116902, tt0117575, tt0117905, tt0117921, tt0126839]
+      winner: [tt0117905]
+    best supporting actress:
+      nominee: [tt0115724, tt0116462, tt0116576, tt0117415, tt0117575, tt0126839]
+      winner: [tt0117575]
+'1996': # https://www.imdb.com/event/ev0000329/1996/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0112800, tt0113153, tt0113326, tt0113651, tt0114126]
+      winner: [tt0113326]
+    best actor:
+      nominee: [tt0111767, tt0113292, tt0113326, tt0113651, tt0114996]
+      winner: [tt0111767]
+    best actress:
+      nominee: [tt0111767, tt0112590, tt0112591, tt0113292, tt0113326]
+      winner: [tt0111767]
+    best art direction:
+      nominee: [tt0111767, tt0112913, tt0113292, tt0113927, tt0115016]
+      winner: [tt0115016]
+    best cinematography:
+      nominee: [tt0112590, tt0112913, tt0113292, tt0113578, tt0115016]
+      winner: [tt0112913]
+    best costume & make up design:
+      nominee: [tt0112800, tt0112913, tt0113292, tt0113927, tt0115016]
+      winner: [tt0115016]
+    best director:
+      nominee: [tt0111424, tt0111767, tt0112913, tt0113651, tt0114991]
+      winner: [tt0111767]
+    best film editing:
+      nominee: [tt0111767, tt0112913, tt0113326, tt0113651, tt0115016]
+      winner: [tt0113651]
+    best new performer:
+      nominee: [tt0111767, tt0112673, tt0112913, tt0113326, tt0113651, tt0114998]
+      winner: [tt0112673]
+    best original film score:
+      nominee: [tt0112913, tt0113292, tt0113351, tt0114412, tt0115016]
+      winner: [tt0112913]
+    best original film song:
+      nominee: [tt0113292, tt0113651, tt0114998, tt0115016, tt0126942]
+      winner: [tt0113292]
+    best picture:
+      nominee: [tt0111424, tt0111767, tt0112913, tt0113326, tt0113651]
+      winner: [tt0111767]
+    best screenplay:
+      nominee: [tt0111767, tt0112778, tt0113651, tt0114264, tt0114996]
+      winner: [tt0111767]
+    best supporting actor:
+      nominee: [tt0111767, tt0112978, tt0113351, tt0113651, tt0116732]
+      winner: [tt0111767]
+    best supporting actress:
+      nominee: [tt0111767, tt0112913, tt0113326, tt0113651, tt0114264]
+      winner: [tt0112913]
+'1995': # https://www.imdb.com/event/ev0000329/1995/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0109688, tt0110054, tt0110200, tt0111512, tt0111835]
+      winner: [tt0111512]
+    best actor:
+      nominee: [tt0109424, tt0109789, tt0109958, tt0109962, tt0110071, tt0111063]
+      winner: [tt0109424]
+    best actress:
+      nominee: [tt0109203, tt0109424, tt0109958, tt0110053, tt0110980, tt0111739]
+      winner: [tt0109958]
+    best art direction:
+      nominee: [tt0109424, tt0109688, tt0109958, tt0110053, tt0110340]
+      winner: [tt0109688]
+    best cinematography:
+      nominee: [tt0108997, tt0109424, tt0109688, tt0110071, tt0110980]
+      winner: [tt0109688]
+    best costume & make up design:
+      nominee: [tt0109688, tt0109958, tt0110053, tt0110340, tt0111760]
+      winner: [tt0109688]
+    best director:
+      nominee: [tt0109424, tt0109688, tt0109786, tt0109958, tt0110340]
+      winner: [tt0109424]
+    best film editing:
+      nominee: [tt0109424, tt0109688, tt0109786, tt0111512, tt0111515]
+      winner: [tt0109424]
+    best new performer:
+      nominee: [tt0109786, tt0109789, tt0109958, tt0111661, tt0111739]
+      winner: [tt0111739]
+    best original film score:
+      nominee: [tt0109424, tt0109688, tt0109958, tt0110053, tt0110340, tt0111739]
+      winner: [tt0110340]
+    best original film song:
+      nominee: [tt0109789, tt0109958, tt0110053, tt0111423, tt0111661]
+      winner: [tt0109958]
+    best picture:
+      nominee: [tt0109424, tt0109688, tt0109786, tt0109958, tt0111739]
+      winner: [tt0109424]
+    best screenplay:
+      nominee: [tt0109424, tt0109688, tt0109958, tt0111661, tt0111739]
+      winner: [tt0111739]
+    best supporting actor:
+      nominee: [tt0109471, tt0109786, tt0109958, tt0109962, tt0111661, tt0111772]
+      winner: [tt0111661]
+    best supporting actress:
+      nominee: [tt0109424, tt0110340, tt0110980, tt0111739]
+      winner: [tt0111739]
+'1994': # https://www.imdb.com/event/ev0000329/1994/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0105619, tt0106936, tt0108148, tt0108656]
+      winner: [tt0106936]
+    best actor:
+      nominee: [tt0103743, tt0107904, tt0108630, tt0108656, tt0111770]
+      winner: [tt0103743]
+    best actress:
+      nominee: [tt0106551, tt0106936, tt0107359, tt0108337, tt0111770]
+      winner: [tt0111770]
+    best art direction:
+      nominee: [tt0106342, tt0106559, tt0108335, tt0108630, tt0111770]
+      winner: [tt0106342]
+    best cinematography:
+      nominee: [tt0101644, tt0106342, tt0108335, tt0108337, tt0108630]
+      winner: [tt0106342]
+    best costume & make up design:
+      nominee: [tt0105655, tt0106342, tt0106559, tt0106898, tt0108630, tt0111770]
+      winner: [tt0106342]
+    best director:
+      nominee: [tt0106898, tt0107984, tt0108630, tt0108656, tt0111770]
+      winner: [tt0111770]
+    best film editing:
+      nominee: [tt0106342, tt0106936, tt0108335, tt0108592, tt0108656]
+      winner: [tt0108656]
+    best new performer:
+      nominee: [tt0106991, tt0107266, tt0107904, tt0108335, tt0108630]
+      winner: [tt0108630]
+    best original film score:
+      nominee: [tt0105619, tt0106232, tt0106342, tt0106559, tt0108630, tt0111770]
+      winner: [tt0108630]
+    best original film song:
+      nominee: [tt0105619, tt0106342, tt0107904, tt0111770]
+      winner: [tt0105619]
+    best picture:
+      nominee: [tt0106551, tt0106898, tt0108630, tt0108656, tt0111770]
+      winner: [tt0111770]
+    best screenplay:
+      nominee: [tt0105381, tt0106551, tt0106898, tt0107266, tt0107984, tt0111770]
+      winner: [tt0111770]
+    best supporting actor:
+      nominee: [tt0105400, tt0106898, tt0107984, tt0108630, tt0108656, tt0111770]
+      winner: [tt0111770]
+    best supporting actress:
+      nominee: [tt0106232, tt0107163, tt0107904, tt0111770]
+      winner: [tt0111770]
+'1993': # https://www.imdb.com/event/ev0000329/1993/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0103295, tt0104558, tt0104771, tt0105839, tt0105859]
+      winner: [tt0105839]
+    best actor:
+      nominee: [tt0095450, tt0103602, tt0104558, tt0104675, tt0105385]
+      winner: [tt0103602]
+    best actress:
+      nominee: [tt0102816, tt0103295, tt0104572, tt0105385, tt0105859, tt0109412]
+      winner: [tt0102816]
+    best art direction:
+      nominee: [tt0102816, tt0103295, tt0104771, tt0105839, tt0107461]
+      winner: [tt0102816]
+    best cinematography:
+      nominee: [tt0100963, tt0102816, tt0105839, tt0105844, tt0105859]
+      winner: [tt0102816]
+    best costume & make up design:
+      nominee: [tt0102816, tt0103295, tt0103602, tt0104771, tt0105385]
+      winner: [tt0103295]
+    best director:
+      nominee: [tt0100963, tt0102816, tt0103602, tt0105839, tt0107461]
+      winner: [tt0107461]
+    best film editing:
+      nominee: [tt0103295, tt0104145, tt0104684, tt0105839, tt0105859]
+      winner: [tt0104684]
+    best new performer:
+      nominee: [tt0104245, tt0105534, tt0105839, tt0105864, tt0326422]
+      winner: [tt0105864]
+    best original film score:
+      nominee: [tt0100963, tt0102816, tt0103295, tt0103602, tt0105839]
+      winner: [tt0102816]
+    best original film song:
+      nominee: [tt0100963, tt0102816, tt0103295, tt0104939]
+      winner: [tt0102816]
+    best picture:
+      nominee: [tt0100963, tt0102816, tt0103602, tt0105839, tt0107461]
+      winner: [tt0107461]
+    best screenplay:
+      nominee: [tt0100963, tt0102816, tt0103602, tt0105385, tt0107461]
+      winner: [tt0107461]
+    best supporting actor:
+      nominee: [tt0104572, tt0104684, tt0105831, tt0105839, tt0107461]
+      winner: [tt0107461]
+    best supporting actress:
+      nominee: [tt0103602, tt0105534, tt0105831]
+      winner: [tt0103602]
+'1992': # https://www.imdb.com/event/ev0000329/1992/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0099558, tt0102932, tt0103044, tt0103285, tt0104322]
+      winner: [tt0103285]
+    best actor:
+      nominee: [tt0101020, tt0101490, tt0102886, tt0103045, tt0103292]
+      winner: [tt0102886]
+    best actress:
+      nominee: [tt0102068, tt0102074, tt0103314, tt0109263, tt0110194]
+      winner: [tt0102074]
+    best art direction:
+      nominee: [tt0102068, tt0102886, tt0102932, tt0103285, tt0103292, tt0104322]
+      winner: [tt0104322]
+    best cinematography:
+      nominee: [tt0100910, tt0102068, tt0103285, tt0103292, tt0104322]
+      winner: [tt0104322]
+    best director:
+      nominee: [tt0101020, tt0101490, tt0103045, tt0103285, tt0103292]
+      winner: [tt0103285]
+    best film editing:
+      nominee: [tt0101020, tt0101490, tt0102932, tt0103285, tt0104322]
+      winner: [tt0103285]
+    best new performer:
+      nominee: [tt0101463, tt0103306, tt0110930]
+      winner: [tt0101463]
+    best original film score:
+      nominee: [tt0100910, tt0102074, tt0102891, tt0102932, tt0103285]
+      winner: [tt0103285]
+    best original film song:
+      nominee: [tt0102068, tt0102891, tt0103314, tt0105398, tt0108654]
+      winner: [tt0105398]
+    best picture:
+      nominee: [tt0101020, tt0101490, tt0102074, tt0103285, tt0103292]
+      winner: [tt0101490]
+    best screenplay:
+      nominee: [tt0101490, tt0102074, tt0102886, tt0103045, tt0103292]
+      winner: [tt0101490]
+    best supporting actor:
+      nominee: [tt0101490, tt0103045, tt0103285, tt0103291, tt0103292, tt0104322]
+      winner: [tt0103292]
+    best supporting actress:
+      nominee: [tt0101490, tt0102068, tt0102074, tt0103292, tt0103314]
+      winner: [tt0103314]
+'1991': # https://www.imdb.com/event/ev0000329/1991/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0098147, tt0099791, tt0100625, tt0100973]
+      winner: [tt0100973]
+    best actor:
+      nominee: [tt0099000, tt0099426, tt0100974, tt0101258, tt0104147]
+      winner: [tt0101258]
+    best actress:
+      nominee: [tt0098147, tt0099000, tt0100144, tt0101258, tt0101442]
+      winner: [tt0101442]
+    best art direction:
+      nominee: [tt0098147, tt0099265, tt0100973, tt0101258]
+      winner: [tt0101258]
+    best cinematography:
+      nominee: [tt0098147, tt0099000, tt0099265, tt0099426, tt0099719, tt0101258]
+      winner: [tt0101258]
+    best director:
+      nominee: [tt0099000, tt0099426, tt0099719, tt0099927, tt0101258]
+      winner: [tt0101258]
+    best film editing:
+      nominee: [tt0098147, tt0099426, tt0099719, tt0100625, tt0100973, tt0101258]
+      winner: [tt0099426]
+    best new performer:
+      nominee: [tt0099000, tt0100144, tt0100777]
+      winner: [tt0100144]
+    best original film score:
+      nominee: [tt0098147, tt0099000, tt0099719, tt0100144, tt0100777, tt0100973]
+      winner: [tt0098147]
+    best original film song:
+      nominee: [tt0098147, tt0099719, tt0100777, tt0100973]
+      winner: [tt0100973]
+    best picture:
+      nominee: [tt0098147, tt0099000, tt0099719, tt0099927, tt0101258]
+      winner: [tt0101258]
+    best screenplay:
+      nominee: [tt0099000, tt0099719, tt0099927, tt0100144, tt0101258]
+      winner: [tt0100144]
+    best supporting actor:
+      nominee: [tt0099265, tt0100625, tt0100777, tt0100973, tt0104147]
+      winner: [tt0100777]
+    best supporting actress:
+      nominee: [tt0099000, tt0099709, tt0099719, tt0100144, tt0101258]
+      winner: [tt0100144]
+'1990': # https://www.imdb.com/event/ev0000329/1990/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0097618, tt0098019, tt0098155]
+      winner: [tt0098019]
+    best actor:
+      nominee: [tt0097244, tt0097344, tt0097922, tt0098019, tt0098694, tt0099079]
+      winner: [tt0098694]
+    best actress:
+      nominee: [tt0095011, tt0096102, tt0096989, tt0097344, tt0098694, tt0099079]
+      winner: [tt0096989]
+    best art direction:
+      nominee: [tt0093944, tt0096989, tt0097344, tt0098019, tt0098691]
+      winner: [tt0096989]
+    best cinematography:
+      nominee: [tt0096102, tt0096989, tt0097202, tt0097618, tt0099079]
+      winner: [tt0096989]
+    best director:
+      nominee: [tt0096989, tt0097202, tt0097344, tt0098694, tt0099079]
+      winner: [tt0097202]
+    best film editing:
+      nominee: [tt0093944, tt0095011, tt0097202, tt0097618, tt0098019]
+      winner: [tt0097202]
+    best new performer:
+      nominee: [tt0097344, tt0098056, tt0098694, tt0098708, tt0126257]
+      winner: [tt0126257]
+    best original film score:
+      nominee: [tt0098691, tt0099079, tt0099719]
+      winner: [tt0099079]
+    best original film song:
+      nominee: [tt0098155, tt0098667, tt0098694, tt0099079, tt0099756]
+      winner: [tt0098155]
+    best picture:
+      nominee: [tt0096989, tt0097202, tt0097344, tt0098694, tt0099079]
+      winner: [tt0097344]
+    best screenplay:
+      nominee: [tt0096115, tt0097202, tt0097344, tt0098694, tt0098702, tt0099079]
+      winner: [tt0097344]
+    best supporting actor:
+      nominee: [tt0093944, tt0097202, tt0098694, tt0099002]
+      winner: [tt0093944]
+    best supporting actress:
+      nominee: [tt0095011, tt0096989, tt0097344, tt0097623, tt0098250]
+      winner: [tt0097344]
+'1989': # https://www.imdb.com/event/ev0000329/1989/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0093015, tt0095403, tt0095491]
+      winner: [tt0095403]
+    best actor:
+      nominee: [tt0093258, tt0095396, tt0095937, tt0096461, tt0096505]
+      winner: [tt0095937]
+    best actress:
+      nominee: [tt0093258, tt0095397, tt0096032, tt0096457, tt0096461]
+      winner: [tt0093258]
+    best art direction:
+      nominee: [tt0093258, tt0095405, tt0095937, tt0096461]
+      winner: [tt0096461]
+    best cinematography:
+      nominee: [tt0093258, tt0093814, tt0095937, tt0096461, tt0126331]
+      winner: [tt0095937]
+    best director:
+      nominee: [tt0093258, tt0095937, tt0096284, tt0096461, tt0096505]
+      winner: [tt0093258]
+    best film editing:
+      nominee: [tt0093258, tt0095937, tt0096284, tt0096461]
+      winner: [tt0093258]
+    best new performer:
+      nominee: [tt0094694, tt0095405, tt0096032, tt0096284, tt0126301]
+      winner: [tt0095405]
+    best original film score:
+      nominee: [tt0093258, tt0093814, tt0095937, tt0096032, tt0096461]
+      winner: [tt0093258]
+    best original film song:
+      nominee: [tt0093258, tt0093814, tt0094935, tt0095405]
+      winner: [tt0093258]
+    best picture:
+      nominee: [tt0093258, tt0095396, tt0095937, tt0096284, tt0096461]
+      winner: [tt0093258]
+    best screenplay:
+      nominee: [tt0093258, tt0095937, tt0096032, tt0096457, tt0096505]
+      winner: [tt0096032]
+    best supporting actor:
+      nominee: [tt0096457, tt0096461, tt0096505, tt0126301]
+      winner: [tt0096461]
+    best supporting actress:
+      nominee: [tt0096457, tt0096472, tt0098666, tt0121260]
+      winner: [tt0096472]
+'1988': # https://www.imdb.com/event/ev0000329/1988/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0090956, tt0091431, tt0092501, tt0093545, tt0093978, tt0094357]
+      winner: [tt0092501]
+    best actor:
+      nominee: [tt0093304, tt0093426, tt0093435, tt0093962, tt0094357, tt0094387]
+      winner: [tt0093435]
+    best actress:
+      nominee: [tt0092704, tt0093426, tt0093955, tt0093978, tt0094387]
+      winner: [tt0092704]
+    best art direction:
+      nominee: [tt0093314, tt0093435, tt0093962, tt0093978, tt0094387]
+      winner: [tt0093978]
+    best cinematography:
+      nominee: [tt0090302, tt0093426, tt0093962, tt0093978, tt0094387]
+      winner: [tt0093426]
+    best director:
+      nominee: [tt0093304, tt0093426, tt0093435, tt0093962, tt0093978, tt0094387]
+      winner: [tt0093435]
+    best film editing:
+      nominee: [tt0092501, tt0093435, tt0093962, tt0093978, tt0094387]
+      winner: [tt0094387]
+    best new performer:
+      nominee: [tt0090956, tt0091157, tt0093304, tt0093314, tt0093957]
+      winner: [tt0093957]
+    best original film score:
+      nominee: [tt0093304, tt0093426, tt0093435, tt0093978, tt0094387]
+      winner: [tt0093978]
+    best original film song:
+      nominee: [tt0090302, tt0093304, tt0093435, tt0093978]
+      winner: [tt0093978]
+    best picture:
+      nominee: [tt0092706, tt0093426, tt0093435, tt0093962, tt0093978, tt0094387]
+      winner: [tt0093426]
+    best screenplay:
+      nominee: [tt0093304, tt0093426, tt0093435, tt0093955, tt0094387]
+      winner: [tt0093426]
+    best supporting actor:
+      nominee: [tt0093304, tt0093845, tt0093978, tt0094387]
+      winner: [tt0093845]
+    best supporting actress:
+      nominee: [tt0089238, tt0090956, tt0093435, tt0093845]
+      winner: [tt0093845]
+'1987': # https://www.imdb.com/event/ev0000329/1987/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0089861, tt0090952, tt0091229, tt0091447, tt0091607, tt0094374]
+      winner: [tt0089861]
+    best actor:
+      nominee: [tt0090922, tt0091235, tt0091940, tt0092251, tt0092263]
+      winner: [tt0092263]
+    best actress:
+      nominee: [tt0090952, tt0091235, tt0091505, tt0092301, tt0126663]
+      winner: [tt0092301]
+    best art direction:
+      nominee: [tt0089861, tt0090940, tt0090952, tt0091510, tt0092263, tt0092301]
+      winner: [tt0090940]
+    best cinematography:
+      nominee: [tt0090952, tt0091378, tt0091505, tt0091510, tt0092263]
+      winner: [tt0091378]
+    best director:
+      nominee: [tt0090922, tt0090940, tt0091235, tt0091505, tt0092251, tt0092263]
+      winner: [tt0091505]
+    best film editing:
+      nominee: [tt0089861, tt0090952, tt0091505, tt0092263, tt0092301]
+      winner: [tt0091505]
+    best new performer:
+      nominee: [tt0091404, tt0091428, tt0091505, tt0092263, tt0126239]
+      winner: [tt0091505]
+    best original film score:
+      nominee: [tt0090922, tt0091505, tt0091510, tt0092263, tt0092301]
+      winner: [tt0091510]
+    best original film song:
+      nominee: [tt0089576, tt0090922, tt0091091, tt0091260, tt0092301]
+      winner: [tt0092301]
+    best picture:
+      nominee: [tt0090922, tt0090940, tt0091235, tt0091505, tt0092251, tt0092263]
+      winner: [tt0092263]
+    best screenplay:
+      nominee: [tt0090922, tt0090940, tt0091235, tt0091505, tt0091940, tt0092263]
+      winner: [tt0090922]
+    best supporting actor:
+      nominee: [tt0090922, tt0090940, tt0090952, tt0091228, tt0092263, tt0094374]
+      winner: [tt0090940]
+    best supporting actress:
+      nominee: [tt0090922, tt0091235, tt0091510]
+      winner: [tt0090922]
+'1986': # https://www.imdb.com/event/ev0000329/1986/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0089177, tt0089371, tt0089374, tt0091427, tt0093229]
+      winner: [tt0089374]
+    best actor:
+      nominee: [tt0089259, tt0089374, tt0089631, tt0089708, tt0091427]
+      winner: [tt0089259]
+    best actress:
+      nominee: [tt0089374, tt0089515, tt0089651, tt0089708, tt0121259]
+      winner: [tt0089515]
+    best art direction:
+      nominee: [tt0089371, tt0089651, tt0089708, tt0093740, tt0113975]
+      winner: [tt0093740]
+    best cinematography:
+      nominee: [tt0089371, tt0089374, tt0089708, tt0090012, tt0113975]
+      winner: [tt0090012]
+    best director:
+      nominee: [tt0089133, tt0089371, tt0089374, tt0089708, tt0091427]
+      winner: [tt0089133]
+    best film editing:
+      nominee: [tt0089371, tt0089374, tt0113975, tt0115000]
+      winner: [tt0115000]
+    best new performer:
+      nominee: [tt0088686, tt0089371, tt0093229, tt0115000]
+      winner: [tt0115000]
+    best original film score:
+      nominee: [tt0089371, tt0089708, tt0091427, tt0113975]
+      winner: [tt0089371]
+    best original film song:
+      nominee: [tt0087679, tt0088981, tt0089371, tt0091427, tt0113975]
+      winner: [tt0091427]
+    best picture:
+      nominee: [tt0089133, tt0089371, tt0089374, tt0089708]
+      winner: [tt0089374]
+    best screenplay:
+      nominee: [tt0089133, tt0089371, tt0089515, tt0089708, tt0121259]
+      winner: [tt0089515]
+    best supporting actor:
+      nominee: [tt0089371, tt0089476, tt0093229]
+      winner: [tt0093229]
+    best supporting actress:
+      nominee: [tt0089651, tt0089708, tt0093740, tt0115000]
+      winner: [tt0089651]
+  people's choice award:
+    people's choice award:
+      nominee: [tt0089259, tt0089515, tt0115000]
+      winner: [tt0089259]
+'1985': # https://www.imdb.com/event/ev0000329/1985/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0085127, tt0086606, tt0087578, tt0087993, tt0088107]
+      winner: [tt0085127]
+    best actor:
+      nominee: [tt0085127, tt0086608, tt0087137, tt0087352, tt0088268]
+      winner: [tt0087352]
+    best actress:
+      nominee: [tt0087137, tt0088097, tt0088126, tt0088417]
+      winner: [tt0088126]
+    best art direction:
+      nominee: [tt0087959, tt0088097, tt0088098, tt0088126, tt0121787]
+      winner: [tt0088126]
+    best cinematography:
+      nominee: [tt0087137, tt0087959, tt0088098, tt0088107, tt0088126]
+      winner: [tt0087137]
+    best director:
+      nominee: [tt0087137, tt0087352, tt0088097, tt0088107, tt0088126]
+      winner: []
+    best film editing:
+      nominee: [tt0087137, tt0088097, tt0088107, tt0088126]
+      winner: [tt0088107]
+    best new performer:
+      nominee: [tt0086446, tt0086950, tt0088107, tt0088126, tt0125974]
+      winner: [tt0088126]
+    best original film score:
+      nominee: [tt0087959, tt0088097, tt0088107, tt0088126, tt0121787]
+      winner: [tt0087959]
+    best original film song:
+      nominee: [tt0086616, tt0087522, tt0088097, tt0088098, tt0088126]
+      winner: [tt0088098]
+    best picture:
+      nominee: [tt0087137, tt0088097, tt0088107, tt0088126]
+      winner: [tt0088126]
+    best screenplay:
+      nominee: [tt0086446, tt0087137, tt0088107, tt0088126, tt0088268]
+      winner: [tt0088126]
+    best supporting actor:
+      nominee: [tt0086950, tt0087352, tt0088107, tt0088424, tt0121787]
+      winner: [tt0088107]
+    best supporting actress:
+      nominee: [tt0086950, tt0087137, tt0087959, tt0088097, tt0121787]
+      winner: [tt0086950]
+'1984': # https://www.imdb.com/event/ev0000329/1984/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0084587, tt0084924, tt0085260, tt0086308, tt0086605]
+      winner: [tt0086605]
+    best actor:
+      nominee: [tt0084587, tt0085144, tt0085336, tt0086605, tt0125784]
+      winner: [tt0085336]
+    best actress:
+      nominee: [tt0085144, tt0085336, tt0085833, tt0086308, tt0125784]
+      winner: [tt0085833]
+    best art direction:
+      nominee: [tt0084056, tt0085336, tt0085697, tt0086308, tt0086594]
+      winner: [tt0085336]
+    best cinematography:
+      nominee: [tt0084056, tt0085144, tt0085336, tt0085697, tt0086594]
+      winner: [tt0085697]
+    best director:
+      nominee: [tt0084056, tt0084587, tt0085144, tt0085336, tt0086594]
+      winner: [tt0085144]
+    best film editing:
+      nominee: [tt0084056, tt0084924, tt0085144, tt0085163, tt0086308]
+      winner: [tt0085144]
+    best new performer:
+      nominee: [tt0085144, tt0085336, tt0085697, tt0086595, tt0086607]
+      winner: [tt0085697]
+    best original film score:
+      nominee: [tt0084056, tt0085144, tt0085388, tt0086594, tt0125784]
+      winner: [tt0085388]
+    best original film song:
+      nominee: [tt0084056, tt0085144, tt0085388, tt0086594, tt0125784]
+      winner: [tt0085388]
+    best picture:
+      nominee: [tt0084056, tt0084587, tt0085144, tt0085336, tt0086308]
+      winner: [tt0085144]
+    best screenplay:
+      nominee: [tt0084056, tt0084587, tt0085144, tt0085336, tt0085833]
+      winner: [tt0085833]
+'1983': # https://www.imdb.com/event/ev0000329/1983/1/
+  hong kong film award:
+    best action choreography:
+      nominee: [tt0079891, tt0084266, tt0084267, tt0084557, tt0084671, tt0085211]
+      winner: [tt0085211]
+    best actor:
+      nominee: [tt0083769, tt0083828, tt0084248, tt0084807, tt0084955]
+      winner: [tt0084955]
+    best actress:
+      nominee: [tt0083669, tt0084263, tt0084807, tt0084955]
+      winner: [tt0084263]
+    best art direction:
+      nominee: [tt0084248, tt0084386, tt0084807, tt0084929, tt0084941]
+      winner: [tt0084807]
+    best cinematography:
+      nominee: [tt0084248, tt0084263, tt0084807, tt0084929, tt0084941, tt0125710]
+      winner: [tt0084929]
+    best director:
+      nominee: [tt0084248, tt0084263, tt0084775, tt0084807, tt0085211]
+      winner: [tt0084807]
+    best film editing:
+      nominee: [tt0084263, tt0084807, tt0084929, tt0084941, tt0125710]
+      winner: [tt0084929]
+    best new performer:
+      nominee: [tt0084248, tt0084263, tt0084775, tt0084807]
+      winner: [tt0084807]
+    best original film score:
+      nominee: [tt0084248, tt0084807, tt0084941, tt0084955, tt0126073]
+      winner: [tt0084941]
+    best original film song:
+      nominee: [tt0083708, tt0084050, tt0084925, tt0084955, tt0121057]
+      winner: [tt0084050]
+    best picture:
+      nominee: [tt0084248, tt0084263, tt0084807, tt0085211, tt0125710]
+      winner: [tt0084807]
+    best screenplay:
+      nominee: [tt0084248, tt0084263, tt0084443, tt0084807, tt0084922]
+      winner: [tt0084807]
+'1982': # https://www.imdb.com/event/ev0000329/1982/1/
+  hong kong film award:
+    best actor:
+      nominee: [tt0082761]
+      winner: [tt0082761]
+    best actress:
+      nominee: [tt0080717]
+      winner: [tt0080717]
+    best director:
+      nominee: [tt0082428]
+      winner: [tt0082428]
+    best picture:
+      nominee: [tt0082428]
+      winner: [tt0082428]
+    best screenplay:
+      nominee: [tt0082534]
+      winner: [tt0082534]

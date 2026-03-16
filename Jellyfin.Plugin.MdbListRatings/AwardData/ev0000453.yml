@@ -1,0 +1,1471 @@
+# MTV Movie + TV Awards
+
+'2023': # https://www.imdb.com/event/ev0000453/2023/1/
+  'mtv movie + tv award':
+    'best comedic performance':
+      nominee: [tt15255288, tt14814040, tt9686790, tt10954984, tt14218830]
+      winner: [tt15255288]
+    'best competition series':
+      nominee: [tt2301351, tt20859150, tt0251497, tt20770542, tt15557874]
+      winner: [tt2301351]
+    'best docu-reality show':
+      nominee: [tt15791630, tt2343157, tt14068812, tt1720601, tt7686456]
+      winner: [tt15791630]
+    'best duo':
+      nominee: [tt3581920, tt13327038, tt13443470, tt13406094, tt1745960]
+      winner: [tt3581920]
+    'best fight':
+      nominee: [tt17663992, tt12593682, tt4574334, tt10366206, tt9253284]
+      winner: [tt17663992]
+    'best hero':
+      nominee: [tt3581920, tt9253284, tt13443470, tt10954600, tt1745960]
+      winner: [tt3581920]
+    'best host':
+      nominee: [tt10827252, tt1865740, tt7670568, tt1353056, tt9022950]
+      winner: [tt10827252]
+    'best kick-ass cast':
+      nominee: [tt4574334, tt10954600, tt9114286, tt10293938, tt15486810]
+      winner: [tt4574334]
+    'best kiss':
+      nominee: [tt10293938, tt3581920, tt13139228, tt8749198, tt11691774]
+      winner: [tt10293938]
+    'best movie':
+      nominee: [tt17663992, tt1630029, tt9114286, tt3704428, tt10954984, tt15474916, tt1745960]
+      winner: [tt17663992]
+    'best music documentary':
+      nominee: [tt21819250, tt19637852, tt13622290, tt17678010, tt12992162]
+      winner: [tt21819250]
+    'best performance in a movie':
+      nominee: [tt1745960, tt3704428, tt10731256, tt10954984, tt11145118]
+      winner: [tt1745960]
+    'best performance in a show':
+      nominee: [tt13443470, tt13406094, tt11041332, tt8749198, tt4574334, tt11691774]
+      winner: [tt13443470]
+    'best reality on-screen team':
+      nominee: [tt2343157, tt1720601, tt7686456, tt1353056, tt0176095]
+      winner: [tt2343157]
+    'best show':
+      nominee: [tt3581920, tt4574334, tt13406094, tt13443470, tt15487922, tt4236770, tt11041332]
+      winner: [tt3581920]
+    'best song':
+      nominee: [tt9411972, tt17663992, tt3704428, tt1745960, tt9114286]
+      winner: [tt9411972]
+    'best villain':
+      nominee: [tt9419884, tt10731256, tt4574334, tt8760708, tt14209916]
+      winner: [tt9419884]
+    'breakthrough performance':
+      nominee: [tt4574334, tt12593682, tt3581920, tt11198330, tt8110652]
+      winner: [tt4574334]
+    'most frightened performance':
+      nominee: [tt13406094, tt14209916, tt15791034, tt8110652, tt15474916]
+      winner: [tt13406094]
+
+'2022': # https://www.imdb.com/event/ev0000453/2022/1/
+  'mtv movie + tv award':
+    'best comedic performance':
+      nominee: [tt6264654, tt13146488, tt10986410, tt11466222, tt11815682]
+      winner: [tt6264654]
+    'best competition series':
+      nominee: [tt1353056, tt0319931, tt0463398, tt0176095, tt7670568]
+      winner: [tt1353056]
+    'best docu-reality show':
+      nominee: [tt9817298, tt7686456, tt2224452, tt6645582, tt1720601]
+      winner: [tt9817298]
+    'best fight':
+      nominee: [tt8772296, tt3480822, tt6264654, tt9376612, tt10872600]
+      winner: [tt8772296]
+    'best fight (unscripted)':
+      nominee: [tt1353056, tt5327970, tt1411598, tt9817298]
+      winner: [tt1353056]
+    'best hero':
+      nominee: [tt3480822, tt2382320, tt10872600, tt10234724, tt9376612]
+      winner: [tt3480822]
+    'best host':
+      nominee: [tt9022950, tt15089704, tt1694423, tt1353056, tt1820166]
+      winner: [tt9022950]
+    'best kiss':
+      nominee: [tt11466222, tt1877830, tt8962124, tt8772296, tt10872600]
+      winner: [tt11466222]
+    'best lifestyle show':
+      nominee: [tt12564744, tt1863526, tt6874206, tt7259746, tt6045142]
+      winner: [tt12564744]
+    'best movie':
+      nominee: [tt10872600, tt2463208, tt1877830, tt1160419, tt11245972, tt9376612]
+      winner: [tt10872600]
+    'best music documentary':
+      nominee: [tt18269838, tt14171256, tt14599438, tt15091500, tt9735318]
+      winner: [tt18269838]
+    'best musical moment':
+      nominee: [tt10638036, tt8721424]
+      winner: [tt10638036]
+    'best new unscripted series':
+      nominee: [tt13890060, tt14809614, tt15790598, tt16288636, tt15614920]
+      winner: [tt13890060]
+    'best performance in a movie':
+      nominee: [tt10872600, tt13320622, tt1160419, tt11214590, tt1877830]
+      winner: [tt10872600]
+    'best performance in a show':
+      nominee: [tt8772296, tt13659418, tt4236770, tt10166622]
+      winner: [tt8772296]
+    'best real-life mystery or crime series':
+      nominee: [tt2498968]
+      winner: [tt2498968]
+    'best reality return':
+      nominee: [tt15036422, tt15772310, tt11987400, tt14043930, tt2301351, tt8285922]
+      winner: []
+    'best reality romance':
+      nominee: [tt16375462, tt0176095, tt3780132, tt2343157, tt2224452]
+      winner: [tt16375462]
+    'best reality star':
+      nominee: [tt9817298, tt0176095, tt1411598, tt6645582, tt1353056]
+      winner: [tt9817298]
+    'best show':
+      nominee: [tt8772296, tt8740976, tt9140554, tt10919420, tt10986410, tt4236770]
+      winner: [tt8772296]
+    'best song':
+      nominee: [tt10223460, tt11286314, tt2953050, tt8772296, tt2452150]
+      winner: [tt10223460]
+    'best talk/topical show':
+      nominee: [tt3444938, tt10827252, tt9022950, tt3697842, tt0115147]
+      winner: [tt3444938]
+    'best team':
+      nominee: [tt9140554, tt2463208, tt13320622, tt11691774, tt10872600]
+      winner: [tt9140554]
+    'best villain':
+      nominee: [tt13320622, tt10665338, tt10872600, tt1877830, tt7335184]
+      winner: [tt13320622]
+    'breakthrough performance':
+      nominee: [tt9140554, tt3581652, tt11815682, tt11271038, tt10919420]
+      winner: [tt9140554]
+    'here for the hookup':
+      nominee: [tt8772296, tt10062292, tt13659418, tt10839422, tt11212276]
+      winner: [tt8772296]
+    'most frightened performance':
+      nominee: [tt11245972, tt13560574, tt10665338, tt8332922, tt9701940]
+      winner: [tt11245972]
+
+'2021': # https://www.imdb.com/event/ev0000453/2021/1/
+  'mtv movie + tv award':
+    'best comedic performance':
+      nominee: [tt6802400, tt3526078, tt9684220, tt5024912, tt10986410]
+      winner: [tt6802400]
+    'best comedy/game show':
+      nominee: [tt2100976, tt12370124, tt10333258, tt0472989, tt1820166]
+      winner: [tt2100976]
+    'best competition series':
+      nominee: [tt1353056, tt11048090, tt0176095, tt9581768, tt7670568]
+      winner: [tt1353056]
+    'best dating show':
+      nominee: [tt0348894, tt3469050, tt8285922, tt11704040, tt9165508]
+      winner: [tt0348894]
+    'best docu-reality show':
+      nominee: [tt7686456, tt5665418, tt2738096, tt13660962, tt2224452]
+      winner: [tt7686456]
+    'best duo':
+      nominee: [tt9208876, tt3797512, tt8111088, tt8962124, tt13143964]
+      winner: [tt9208876]
+    'best fight':
+      nominee: [tt9140560, tt7221388, tt12361974, tt7713068, tt1190634]
+      winner: [tt9140560]
+    'best hero':
+      nominee: [tt9208876, tt7126948, tt1190634, tt8111088, tt9140560]
+      winner: [tt9208876]
+    'best host':
+      nominee: [tt1353056, tt6987788, tt1820166, tt0176095, tt10333258]
+      winner: [tt1353056]
+    'best international reality series':
+      nominee: [tt4770018, tt5459372, tt1960255, tt9708588, tt9780442]
+      winner: [tt4770018]
+    'best kiss':
+      nominee: [tt10293938, tt7016936, tt8962124, tt10062292, tt8740790]
+      winner: [tt10293938]
+    'best lifestyle show':
+      nominee: [tt6987788, tt13540190, tt13957038, tt8962394, tt7259746]
+      winner: [tt6987788]
+    'best movie':
+      nominee: [tt10676012, tt13143964, tt9784798, tt9620292, tt2948372]
+      winner: [tt10676012]
+    'best music documentary':
+      nominee: [tt12850582, tt14058484, tt13615386, tt11459366, tt12711158, tt13276386, tt11388580, tt9850386, tt12673718]
+      winner: [tt12850582]
+    'best musical moment':
+      nominee: [tt10183988]
+      winner: [tt10183988]
+    'best new unscripted series':
+      nominee: [tt12564744, tt13660962, tt13674444, tt11363282, tt14068812]
+      winner: [tt12564744]
+    'best performance in a movie':
+      nominee: [tt10514222, tt9620292, tt9784798, tt1070874, tt12676326]
+      winner: [tt10514222]
+    'best performance in a show':
+      nominee: [tt9140560, tt10048342, tt1312171, tt4786824, tt11204260]
+      winner: [tt9140560]
+    'best real-life mystery or crime series':
+      nominee: [tt2498968, tt5489746, tt13651632, tt11823076, tt9642938]
+      winner: [tt2498968]
+    'best reality cast':
+      nominee: [tt1353056, tt3469050, tt7686456, tt2224452, tt1252370]
+      winner: [tt1353056]
+    'best show':
+      nominee: [tt9140560, tt8740790, tt7221388, tt8962124, tt1190634]
+      winner: [tt9140560]
+    'best talk/topical show':
+      nominee: [tt0115147, tt10023178, tt2198870, tt3668896, tt2057880]
+      winner: [tt0115147]
+    'best unscripted fight':
+      nominee: [tt1086761, tt9817298, tt1411598, tt1588754, tt11048090]
+      winner: [tt1086761]
+    'best villain':
+      nominee: [tt9140560, tt1190634, tt7713068, tt8111088, tt2235759]
+      winner: [tt9140560]
+    'breakthrough performance':
+      nominee: [tt8740790, tt10813940, tt8962124, tt13143964, tt9059760]
+      winner: [tt8740790]
+    'most frightened performance':
+      nominee: [tt10970552, tt1051906, tt6905686, tt9698442, tt10919380]
+      winner: [tt10970552]
+
+'2019': # https://www.imdb.com/event/ev0000453/2019/1/
+  'mtv movie + tv award':
+    'best comedic performance':
+      nominee: [tt3526078, tt3104988, tt6524350, tt8085790, tt0448115]
+      winner: [tt3526078]
+    'best fight':
+      nominee: [tt4154664, tt4154796, tt0944947, tt7689964, tt12475788, tt8671116]
+      winner: [tt4154664]
+    'best hero':
+      nominee: [tt4154796, tt4154664, tt7349662, tt0944947, tt0448115]
+      winner: [tt4154796]
+    'best host':
+      nominee: [tt0472989, tt2163227, tt0115147, tt7670568, tt1353056]
+      winner: [tt0472989]
+    'best kiss':
+      nominee: [tt3846674, tt5420376, tt1477834, tt7767422, tt1270797]
+      winner: [tt3846674]
+    'best movie':
+      nominee: [tt4154796, tt7349662, tt4633694, tt3846674, tt6857112]
+      winner: [tt4154796]
+    'best performance in a movie':
+      nominee: [tt1517451, tt5580266, tt6857112, tt1727824, tt2737304]
+      winner: [tt1517451]
+    'best performance in a show':
+      nominee: [tt5834204, tt0944947, tt3566726, tt7569592]
+      winner: [tt5834204]
+    'best show':
+      nominee: [tt0944947, tt3526078, tt6524350, tt5420376, tt6763664]
+      winner: [tt0944947]
+    'best villain':
+      nominee: [tt4154796, tt7016936, tt5834204, tt6857112, tt7335184]
+      winner: [tt4154796]
+    'breakthrough performance':
+      nominee: [tt3846674, tt3104988, tt6472976, tt7562112, tt7767422]
+      winner: [tt3846674]
+    'most frightened performance':
+      nominee: [tt2737304, tt7784604, tt4913966, tt1502407, tt6763664]
+      winner: [tt2737304]
+    'reality royalty':
+      nominee: [tt2224452, tt7686456, tt0176095, tt2343157, tt0313038]
+      winner: [tt2224452]
+    'best meme-able moment':
+      nominee: [tt7689964]
+      winner: []
+
+'2018': # https://www.imdb.com/event/ev0000453/2018/1/
+  'mtv movie + tv award':
+    'best comedic performance':
+      nominee: [tt3564472, tt2283362, tt3526078, tt0072562, tt6791096]
+      winner: [tt3564472]
+    'best fight':
+      nominee: [tt0451279, tt2406566, tt4154756, tt1825683, tt3501632]
+      winner: [tt0451279]
+    'best hero':
+      nominee: [tt1825683, tt0944947, tt0451279, tt3107288, tt2527336]
+      winner: [tt1825683]
+    'best kiss':
+      nominee: [tt5164432, tt3566726, tt1677720, tt5420376, tt4574334]
+      winner: [tt5164432]
+    'best music documentary':
+      nominee: [tt7291268, tt6628790, tt7526414, tt8368574, tt6958022]
+      winner: [tt7291268]
+    'best on-screen team':
+      nominee: [tt1396484, tt1825683, tt2283362, tt1677720, tt4574334, tt2085059]
+      winner: [tt1396484]
+    'best performance in a movie':
+      nominee: [tt1825683, tt5726616, tt3890160, tt2527336, tt4925292]
+      winner: [tt1825683]
+    'best performance in a show':
+      nominee: [tt4574334, tt2788432, tt1837492, tt5024912, tt0944947]
+      winner: [tt4574334]
+    'best reality series/franchise':
+      nominee: [tt1086761, tt1718437, tt1353056, tt2343157]
+      winner: [tt1086761]
+    'best villain':
+      nominee: [tt1825683, tt4154756, tt2527336, tt5114356, tt1396484]
+      winner: [tt1825683]
+    'most frightened performance':
+      nominee: [tt4574334, tt5140878, tt6644200, tt1396484, tt2085059]
+      winner: [tt4574334]
+    'movie of the year':
+      nominee: [tt1825683, tt4154756, tt3564472, tt1396484, tt0451279]
+      winner: [tt1825683]
+    'scene stealer':
+      nominee: [tt5420376, tt3564472, tt4574334, tt3501632, tt1825683]
+      winner: [tt5420376]
+    'show of the year':
+      nominee: [tt4574334, tt1837492, tt0944947, tt7018644, tt5420376]
+      winner: [tt4574334]
+
+'2017': # https://www.imdb.com/event/ev0000453/2017/1/
+  'mtv movie + tv award':
+    'best action sequence':
+      nominee: [tt4630562, tt2660888, tt1628841, tt4425200, tt3748528]
+      winner: [tt4630562]
+    'best actor in a movie':
+      nominee: [tt2771200, tt4972582, tt5052448, tt1878870, tt4846340, tt3315342]
+      winner: [tt2771200]
+    'best actor in a show':
+      nominee: [tt4574334, tt4288182, tt0944947, tt3566726, tt1520211, tt5555260]
+      winner: [tt4574334]
+    'best american story':
+      nominee: [tt3487356, tt3551096, tt3566726, tt4975722, tt3502262]
+      winner: [tt3487356]
+    'best comedic performance':
+      nominee: [tt5052448, tt1610527, tt2578560, tt0182576, tt4116284, tt1700841]
+      winner: [tt5052448]
+    'best documentary':
+      nominee: [tt5895028, tt5804038, tt5275892, tt5875666, tt6133034]
+      winner: [tt5895028]
+    'best duo':
+      nominee: [tt3315342, tt1839337, tt5052448, tt4288182, tt2771200, tt6264286]
+      winner: [tt3315342]
+    'best fight against the system':
+      nominee: [tt4846340, tt5052448, tt4669986, tt3322314, tt4158110]
+      winner: [tt4846340]
+    'best hero':
+      nominee: [tt4846340, tt2193021, tt4574334, tt3322314, tt3107288, tt3748528]
+      winner: [tt4846340]
+    'best host':
+      nominee: [tt0115147, tt0379623, tt3530232, tt1353056, tt5323988]
+      winner: [tt0115147]
+    'best kiss':
+      nominee: [tt4975722, tt3783958, tt2771200, tt3228904, tt2823054]
+      winner: [tt4975722]
+    'best musical moment':
+      nominee: [tt4366830, tt2771200, tt1679335, tt3521164, tt3783958, tt4592410, tt5664684]
+      winner: [tt4366830]
+    'best reality competition':
+      nominee: [tt1353056, tt0759364, tt0313038, tt3038248, tt1839337]
+      winner: [tt1353056]
+    'best villain':
+      nominee: [tt1520211, tt4574334, tt5052448, tt1386697, tt1844624]
+      winner: [tt1520211]
+    'movie of the year':
+      nominee: [tt2771200, tt5052448, tt3315342, tt3748528, tt1878870]
+      winner: [tt2771200]
+    'next generation':
+      nominee: [tt5052448, tt3748528, tt5555260, tt5024912, tt3487356]
+      winner: [tt5052448]
+    'show of the year':
+      nominee: [tt4574334, tt4288182, tt0944947, tt5024912, tt1578873, tt5555260]
+      winner: [tt4574334]
+    'tearjerker':
+      nominee: [tt5555260, tt0944947, tt0413573, tt2674426, tt4975722]
+      winner: [tt5555260]
+
+'2016': # https://www.imdb.com/event/ev0000453/2016/1/
+  'mtv movie award':
+    'documentary':
+      nominee: [tt2870648, tt4126304, tt3065132, tt4185572, tt2415458, tt4284010]
+      winner: [tt2870648]
+    'best action performance':
+      nominee: [tt0369610, tt2126355, tt1951266, tt2488496, tt1431045, tt2820852]
+      winner: [tt0369610]
+    'best comedic performance':
+      nominee: [tt1431045, tt3152624, tt2869728, tt3079380, tt2848292, tt2561572]
+      winner: [tt1431045]
+    'best female performance':
+      nominee: [tt1392190, tt0470752, tt2848292, tt2488496, tt2446980, tt1431045]
+      winner: [tt1392190]
+    'best fight':
+      nominee: [tt1431045, tt1663202, tt1392190, tt2395427, tt2488496, tt3079380]
+      winner: [tt1431045]
+    'best hero':
+      nominee: [tt1951266, tt1392190, tt2395427, tt2488496, tt2126355, tt0478970]
+      winner: [tt1951266]
+    'best kiss':
+      nominee: [tt2848292, tt3152624, tt2322441, tt1524930, tt2381941, tt1431045]
+      winner: []
+    'best male performance':
+      nominee: [tt1663202, tt0369610, tt3659388, tt3076658, tt1431045, tt3322364]
+      winner: [tt1663202]
+    'best villain':
+      nominee: [tt2488496, tt1431045, tt1392190, tt2395427, tt2802144, tt1663202]
+      winner: [tt2488496]
+    'best virtual performance':
+      nominee: [tt2096673, tt2488496, tt2267968, tt2395427, tt2637276]
+      winner: [tt2096673]
+    'breakthrough performance':
+      nominee: [tt2488496, tt3152624, tt3170832, tt2322441, tt1398426]
+      winner: [tt2488496]
+    'ensemble cast':
+      nominee: [tt2848292, tt2395427, tt2820852, tt2488496, tt1951266, tt3152624]
+      winner: [tt2848292]
+    'movie of the year':
+      nominee: [tt2488496, tt2395427, tt3076658, tt1431045, tt0369610, tt1398426]
+      winner: [tt2488496]
+    'true story':
+      nominee: [tt1398426, tt3322364, tt2446980, tt2080374, tt1596363, tt1663202]
+      winner: [tt1398426]
+    'best action sequence':
+      nominee: [tt2820852, tt2395427, tt1431045, tt2381249, tt1392190, tt2293640]
+      winner: [tt2820852]
+
+'2015': # https://www.imdb.com/event/ev0000453/2015/1/
+  'mtv movie award':
+    'best action sequence':
+      nominee: [tt2310332, tt2911666, tt1631867, tt2369135, tt1911658]
+      winner: [tt2310332]
+    'best breakup':
+      nominee: [tt2267998]
+      winner: [tt2267998]
+    'best comedic performance':
+      nominee: [tt2294449, tt2015381, tt2004420, tt2784678, tt0884732]
+      winner: [tt2294449]
+    'best duo':
+      nominee: [tt2004420, tt2294449, tt2582846, tt2015381, tt2788710]
+      winner: [tt2004420]
+    'best female performance':
+      nominee: [tt2582846, tt1951265, tt2562232, tt2305051, tt2872732]
+      winner: [tt2582846]
+    'best fight':
+      nominee: [tt1790864, tt2294449, tt1843866, tt2004420, tt2562232]
+      winner: [tt1790864]
+    'best hero':
+      nominee: [tt1790864, tt2908446, tt1951265, tt2015381, tt2310332]
+      winner: [tt1790864]
+    'best kiss':
+      nominee: [tt2582846, tt2788710, tt1872181, tt1843866, tt2004420]
+      winner: [tt2582846]
+    'best male performance':
+      nominee: [tt2179136, tt2015381, tt2582846, tt2582802, tt1100089]
+      winner: [tt2179136]
+    'best musical moment':
+      nominee: [tt1951265, tt2015381, tt2004420, tt1571249, tt2582802]
+      winner: [tt1951265]
+    'best on-screen transformation':
+      nominee: [tt1951265, tt2980516, tt2015381, tt1100089, tt1065073]
+      winner: [tt1951265]
+    'best scared-as-s**t performance':
+      nominee: [tt3181822, tt2267998, tt3322940, tt1790864, tt2975578]
+      winner: [tt3181822]
+    'best shirtless performance':
+      nominee: [tt2004420, tt2015381, tt1100089, tt2582846, tt2203939]
+      winner: [tt2004420]
+    'best villain':
+      nominee: [tt2180411, tt2267998, tt2582802, tt2294449, tt1877832]
+      winner: [tt2180411]
+    'best wtf moment':
+      nominee: [tt2004420, tt2294449, tt2170439, tt2582802, tt2784678]
+      winner: [tt2004420]
+    'breakthrough performance':
+      nominee: [tt1790864, tt2582846, tt2267998, tt1020072, tt1065073]
+      winner: [tt1790864]
+    'movie of the year':
+      nominee: [tt2582846, tt2179136, tt1951265, tt2015381, tt2267998, tt1065073, tt2582802, tt1020072]
+      winner: [tt2582846]
+
+'2014': # https://www.imdb.com/event/ev0000453/2014/1/
+  'mtv movie award':
+    'best action sequence':
+      nominee: [tt1170358, tt1583421, tt1650554, tt1245492, tt1408101]
+      winner: [tt1170358]
+    'best cameo':
+      nominee: [tt1245492, tt1229340, tt1300854, tt1800241]
+      winner: [tt1245492]
+    'best comedic performance':
+      nominee: [tt0993846, tt1723121, tt3063516, tt1408253, tt2404463, tt1213663]
+      winner: [tt0993846]
+    'best female performance':
+      nominee: [tt1951264, tt1800241, tt1723121, tt2024544, tt1454468]
+      winner: [tt1951264]
+    'best fight':
+      nominee: [tt1170358, tt2024432, tt1951264, tt1245492, tt1229340, tt1213663]
+      winner: [tt1170358]
+    'best hero':
+      nominee: [tt0770828, tt2334879, tt1981115, tt1170358, tt1300854]
+      winner: [tt0770828]
+    'best kiss':
+      nominee: [tt1723121, tt2101441, tt1800241, tt2229499, tt1714206]
+      winner: [tt1723121]
+    'best male performance':
+      nominee: [tt1951264, tt1800241, tt2024544, tt0993846, tt0790636]
+      winner: [tt1951264]
+    'best musical moment':
+      nominee: [tt1245492, tt1800241, tt0993846, tt2024432, tt1723121]
+      winner: [tt1245492]
+    'best on-screen duo':
+      nominee: [tt1905041, tt1800241, tt1408253, tt0993846, tt0790636]
+      winner: [tt1905041]
+    'best on-screen transformation':
+      nominee: [tt0790636, tt1800241, tt1951264, tt1170358]
+      winner: [tt0790636]
+    'best scared-as-s**t performance':
+      nominee: [tt0816711, tt2184339, tt2023587, tt2226417, tt1457767]
+      winner: [tt0816711]
+    'best shirtless performance':
+      nominee: [tt1800246, tt1981115, tt1723121, tt0993846, tt1951264]
+      winner: [tt1800246]
+    'best villain':
+      nominee: [tt1623205, tt1535109, tt1408101, tt1951264, tt2024544]
+      winner: [tt1623205]
+    'best wtf moment':
+      nominee: [tt0993846, tt2193215, tt1245492, tt3063516, tt1229340]
+      winner: [tt0993846]
+    'breakthrough performance':
+      nominee: [tt1723121, tt1727388, tt2334649, tt1714206, tt0993846]
+      winner: [tt1723121]
+    'favorite character':
+      nominee: [tt1840309, tt1951264, tt1981115, tt2771372, tt1408101]
+      winner: [tt1840309]
+    'movie of the year':
+      nominee: [tt1951264, tt2024544, tt1800241, tt1170358, tt0993846]
+      winner: [tt1951264]
+
+'2013': # https://www.imdb.com/event/ev0000453/2013/1/
+  'mtv movie award':
+    'best action sequence':
+      nominee: [tt0903624, tt0790724, tt1673434, tt1345836, tt1646987]
+      winner: [tt0903624]
+    'best female performance':
+      nominee: [tt1045658, tt1707386, tt1659337, tt1637725, tt1981677]
+      winner: [tt1045658]
+    'best fight':
+      nominee: [tt0848228, tt1345836, tt1853728, tt1074638, tt1637725]
+      winner: [tt0848228]
+    'best hero':
+      nominee: [tt0903624, tt0848228, tt1345836, tt1735898]
+      winner: [tt0903624]
+    'best kiss':
+      nominee: [tt1045658, tt1659337, tt1853728, tt1748122, tt1637725]
+      winner: [tt1045658]
+    'best latino actor':
+      nominee: [tt1074638, tt1615065, tt1855199, tt1045658]
+      winner: [tt1074638]
+    'best male performance':
+      nominee: [tt1045658, tt1024648, tt0443272, tt1853728, tt1915581]
+      winner: [tt1045658]
+    'best musical moment':
+      nominee: [tt1981677, tt1707386, tt1915581, tt1659337, tt1045658]
+      winner: [tt1981677]
+    'best on-screen duo':
+      nominee: [tt1637725, tt0848228, tt1790886, tt1853728, tt1045658]
+      winner: [tt1637725]
+    'best scared-as-s**t performance':
+      nominee: [tt0454876, tt1572315, tt1582507, tt1790885, tt0903624]
+      winner: [tt0454876]
+    'best shirtless performance':
+      nominee: [tt1673434, tt1915581, tt1074638, tt1345836, tt1637725]
+      winner: [tt1673434]
+    'best villain':
+      nominee: [tt0848228, tt1074638, tt1853728, tt1345836]
+      winner: [tt0848228]
+    'best wtf moment':
+      nominee: [tt1853728, tt1981677, tt1907668, tt1074638, tt1637725]
+      winner: [tt1853728]
+    'breakthrough performance':
+      nominee: [tt1981677, tt1707386, tt1659337, tt2125435, tt0454876]
+      winner: [tt1981677]
+    'movie of the year':
+      nominee: [tt0848228, tt1637725, tt1345836, tt1853728, tt1045658]
+      winner: [tt0848228]
+    'summer''s biggest teen bad a**':
+      nominee: [tt1650554, tt1538403, tt1854564, tt1815862]
+      winner: [tt1650554]
+
+'2012': # https://www.imdb.com/event/ev0000453/2012/1/
+  'mtv movie award':
+    'best cast':
+      nominee: [tt1201607, tt1454029, tt1478338, tt1232829, tt1392170]
+      winner: [tt1201607]
+    'best comedic performance':
+      nominee: [tt1478338, tt1411697, tt1232829, tt1636826]
+      winner: [tt1478338]
+    'best female performance':
+      nominee: [tt1392170, tt1568346, tt1570728, tt1201607, tt1478338]
+      winner: [tt1392170]
+    'best fight':
+      nominee: [tt1392170, tt1232829, tt1201607, tt1229238, tt1291584]
+      winner: [tt1392170]
+    'best gut-wrenching performance':
+      nominee: [tt1478338, tt1232829, tt1229238, tt1454029, tt0780504]
+      winner: [tt1478338]
+    'best hero':
+      nominee: [tt1201607, tt0458339, tt1232829, tt1392170, tt0800369]
+      winner: [tt1201607]
+    'best kiss':
+      nominee: [tt1324999, tt1201607, tt1392170, tt1606389, tt1570728]
+      winner: [tt1324999]
+    'best male performance':
+      nominee: [tt1392170, tt1201607, tt0780504, tt1606389, tt1306980]
+      winner: [tt1392170]
+    'best movie':
+      nominee: [tt1324999, tt1478338, tt1201607, tt1454029, tt1392170]
+      winner: [tt1324999]
+    'best music':
+      nominee: [tt1232829, tt0993842, tt0780504, tt1758692, tt1636826]
+      winner: [tt1232829]
+    'best on-screen dirtbag':
+      nominee: [tt1499658, tt1636826, tt1454029, tt1478338]
+      winner: [tt1499658]
+    'best on-screen transformation':
+      nominee: [tt1392170, tt1232829, tt1499658, tt1655420, tt1568346]
+      winner: [tt1392170]
+    'breakthrough performance':
+      nominee: [tt1033575, tt1650062, tt1392170, tt1478338, tt1568346]
+      winner: [tt1033575]
+
+'2011': # https://www.imdb.com/event/ev0000453/2011/1/
+  'mtv movie + tv award':
+    'best breakout star':
+      nominee: [tt1250777, tt1285016, tt1403865, tt0990407, tt1104001, tt1325004]
+      winner: [tt1250777]
+    'best comedic performance':
+      nominee: [tt1282140, tt1226229, tt1564367, tt1411238, tt1231583]
+      winner: [tt1282140]
+    'best female performance':
+      nominee: [tt1325004, tt1282140, tt0947798, tt0926084, tt1564367]
+      winner: [tt1325004]
+    'best fight':
+      nominee: [tt1325004, tt0964517, tt1250777, tt0926084, tt1375666]
+      winner: [tt1325004]
+    'best jaw dropping moment':
+      nominee: [tt1702443, tt0947798, tt1542344, tt1375666, tt1116184]
+      winner: [tt1702443]
+    'best kiss':
+      nominee: [tt1325004, tt1375666, tt0926084, tt0947798]
+      winner: [tt1325004]
+    'best line from a movie':
+      nominee: [tt1375670, tt1282140, tt1285016, tt1375666]
+      winner: [tt1375670]
+    'best male performance':
+      nominee: [tt1325004, tt1438254, tt1285016, tt0926084]
+      winner: [tt1325004]
+    'best movie':
+      nominee: [tt1325004, tt1285016, tt0947798, tt0926084, tt1375666]
+      winner: [tt1325004]
+    'best scared-as-shit performance':
+      nominee: [tt1375666, tt1462758, tt1320244, tt1265990, tt0464154]
+      winner: [tt1375666]
+    'best villain':
+      nominee: [tt0926084, tt0990407, tt1265990, tt1228705, tt0435761, tt1470023]
+      winner: [tt0926084]
+    'best african film':
+      nominee: [tt1723120]
+      winner: [tt1723120]
+    'breakthrough male performance':
+      nominee: [tt1375666, tt1250777, tt1104001, tt0963966, tt1470023]
+      winner: [tt1375666]
+    'best music video':
+      nominee: [tt2051847]
+      winner: [tt2051847]
+    'best fight':
+      nominee: [tt0964517]
+      winner: []
+
+'2010': # https://www.imdb.com/event/ev0000453/2010/1/
+  'mtv movie award':
+    'best breakout star':
+      nominee: [tt1193138, tt0814255, tt0929632, tt0796366, tt0878804, tt1119646]
+      winner: [tt1193138]
+    'best comedic performance':
+      nominee: [tt1119646, tt1078912, tt1041829]
+      winner: [tt1119646]
+    'best female performance':
+      nominee: [tt1259571, tt0499549, tt0989757, tt0417741, tt0878804]
+      winner: [tt1259571]
+    'best fight':
+      nominee: [tt1198138, tt0499549, tt0814255, tt0988045, tt0458525]
+      winner: [tt1198138]
+    'best kiss':
+      nominee: [tt1259571, tt0499549, tt1041829, tt1017451, tt0817230]
+      winner: [tt1259571]
+    'best male performance':
+      nominee: [tt1259571, tt0974661, tt0989757, tt0417741]
+      winner: [tt1259571]
+    'best movie':
+      nominee: [tt1259571, tt1014759, tt0499549, tt0417741, tt1119646]
+      winner: [tt1259571]
+    'best scared-as-s**t performance':
+      nominee: [tt1131734, tt1136608, tt1156398, tt1179904, tt1127180]
+      winner: [tt1131734]
+    'best villain':
+      nominee: [tt0417741, tt1014759, tt0499549, tt0361748, tt1119646]
+      winner: [tt0417741]
+    'best wtf moment':
+      nominee: [tt1119646, tt1131734, tt1041829, tt1055369, tt1156398]
+      winner: [tt1119646]
+
+'2009': # https://www.imdb.com/event/ev0000453/2009/1/
+  'mtv movie award':
+    'best song from a movie':
+      nominee: [tt1114677, tt1010048, tt1125849, tt1099212]
+      winner: [tt1114677]
+    'best comedic performance':
+      nominee: [tt1068680, tt0871426, tt0425061, tt0910936, tt0852713]
+      winner: [tt1068680]
+    'best female performance':
+      nominee: [tt1099212, tt0901476, tt0421715, tt0976051, tt0493464]
+      winner: [tt1099212]
+    'best fight':
+      nominee: [tt1099212, tt1132626, tt0901476, tt0411477, tt0910936, tt0468569]
+      winner: [tt1099212]
+    'best kiss':
+      nominee: [tt1099212, tt0962726, tt1155056, tt1013753, tt1010048, tt0493464]
+      winner: [tt1099212]
+    'best male performance':
+      nominee: [tt0962726, tt1059786, tt1013752, tt0371746, tt0468569]
+      winner: [tt0962726]
+    'best movie':
+      nominee: [tt1099212, tt0468569, tt0962726, tt0371746, tt1010048]
+      winner: [tt1099212]
+    'best villain':
+      nominee: [tt0468569, tt0758746, tt0425061, tt0411477, tt0926129]
+      winner: [tt0468569]
+    'best wtf moment':
+      nominee: [tt0871426, tt0800039, tt1010048, tt0942385, tt0493464]
+      winner: [tt0871426]
+    'breakthrough performance female':
+      nominee: [tt0962726, tt1114677, tt0795421, tt0981227, tt1010048]
+      winner: [tt0962726]
+    'breakthrough performance male':
+      nominee: [tt1099212, tt0430922, tt1010048, tt0499448]
+      winner: [tt1099212]
+
+'2008': # https://www.imdb.com/event/ev0000453/2008/1/
+  'mtv movie award':
+    'best comedic performance':
+      nominee: [tt0449088, tt0461770, tt0762107, tt0478311, tt0829482]
+      winner: [tt0449088]
+    'best female performance':
+      nominee: [tt0467406, tt0461770, tt0762107, tt0478311, tt0449088]
+      winner: [tt0467406]
+    'best fight':
+      nominee: [tt1023111, tt0758730, tt0440963, tt0489099, tt0293564, tt0413300]
+      winner: [tt1023111]
+    'best kiss':
+      nominee: [tt1023481, tt0486822, tt0461770, tt0373889, tt0467406]
+      winner: [tt1023481]
+    'best male performance':
+      nominee: [tt0480249, tt0765429, tt0440963, tt0467406, tt0418279]
+      winner: [tt0480249]
+    'best movie':
+      nominee: [tt0418279, tt0480249, tt0467406, tt0465234, tt0449088, tt0829482]
+      winner: [tt0418279]
+    'best summer movie so far':
+      nominee: [tt0371746, tt0499448, tt0367882, tt1000774, tt0811080]
+      winner: [tt0371746]
+    'best villain':
+      nominee: [tt0408236, tt0765429, tt0442933, tt0477348, tt0413300]
+      winner: [tt0408236]
+    'breakthrough performance':
+      nominee: [tt0427327, tt0478311, tt0829482, tt0937375, tt0418279]
+      winner: [tt0427327]
+    'best movie spoof':
+      nominee: [tt1242851]
+      winner: []
+
+'2007': # https://www.imdb.com/event/ev0000453/2007/1/
+  'mtv movie award':
+    'best comedic performance':
+      nominee: [tt0443453, tt0445934, tt0389860, tt0458352, tt0477347]
+      winner: [tt0443453]
+    'best fight':
+      nominee: [tt0416449, tt0445934, tt0443453, tt0465624, tt0457510]
+      winner: [tt0416449]
+    'best kiss':
+      nominee: [tt0415306, tt0457939, tt0445990, tt0430304, tt0775539]
+      winner: [tt0415306]
+    'best movie':
+      nominee: [tt0383574, tt0437179, tt0416449, tt0445934, tt0443453, tt0449059]
+      winner: [tt0383574]
+    'best movie spoof':
+      nominee: [tt1047855, tt1054571, tt1052051, tt1047535]
+      winner: [tt1047855]
+    'best new filmmaker':
+      nominee: [tt1252628]
+      winner: [tt1252628]
+    'best performance':
+      nominee: [tt0383574, tt0416449, tt0443489, tt0454921]
+      winner: [tt0383574]
+    'best summer movie you haven''t seen yet':
+      nominee: [tt0418279, tt0413099, tt0486576, tt0427327, tt0373889, tt0762107, tt0293564, tt0462538]
+      winner: [tt0418279]
+    'best villain':
+      nominee: [tt0407887, tt0416449, tt0458352, tt0383574, tt0489270]
+      winner: [tt0407887]
+    'breakthrough performance':
+      nominee: [tt0454921, tt0416449, tt0426883, tt0458352, tt0449059, tt0775539]
+      winner: [tt0454921]
+
+'2006': # https://www.imdb.com/event/ev0000453/2006/1/
+  'mtv movie award':
+    'best breakthrough performance':
+      nominee: [tt0396269, tt0405422, tt0404032, tt0430105, tt0410097, tt0398165]
+      winner: [tt0396269]
+    'best comedic performance':
+      nominee: [tt0405422, tt0398165, tt0455612, tt0396269]
+      winner: [tt0405422]
+    'best fight':
+      nominee: [tt0356910, tt0360717, tt0373074, tt0121766]
+      winner: [tt0356910]
+    'best frightened performance':
+      nominee: [tt0404032, tt0384806, tt0450278, tt0397065, tt0407304]
+      winner: [tt0404032]
+    'best hero':
+      nominee: [tt0372784, tt0120667, tt0330373, tt0121766, tt0401855]
+      winner: [tt0372784]
+    'best kiss':
+      nominee: [tt0388795, tt0410097, tt0433400, tt0356910, tt0401792]
+      winner: [tt0388795]
+    'best movie':
+      nominee: [tt0396269, tt0372784, tt0405422, tt0360717, tt0401792]
+      winner: [tt0396269]
+    'best on-screen team':
+      nominee: [tt0396269, tt0405422, tt0377818, tt0120667, tt0330373]
+      winner: [tt0396269]
+    'best performance':
+      nominee: [tt0388795, tt0405422, tt0410097, tt0421239, tt0358273]
+      winner: [tt0388795]
+    'best villain':
+      nominee: [tt0121766, tt0372784, tt0363771, tt0330373, tt0432348]
+      winner: [tt0121766]
+    'sexiest performance':
+      nominee: [tt0401792, tt0367652, tt0377818, tt0397535, tt0383216]
+      winner: [tt0401792]
+
+'2005': # https://www.imdb.com/event/ev0000453/2005/1/
+  'mtv movie award':
+    'best action sequence':
+      nominee: [tt0319262, tt0338751, tt0372183, tt0316654, tt0372588]
+      winner: [tt0319262]
+    'best comedic performance':
+      nominee: [tt0290002, tt0357413, tt0364725, tt0386588, tt0298148]
+      winner: [tt0290002]
+    'best female performance':
+      nominee: [tt0377092, tt0333766, tt0378194, tt0405159, tt0332280]
+      winner: [tt0377092]
+    'best fight':
+      nominee: [tt0378194, tt0357413, tt0385004, tt0332452]
+      winner: [tt0378194]
+    'best frightened performance':
+      nominee: [tt0382077, tt0257516, tt0391198, tt0387564, tt0387575]
+      winner: [tt0382077]
+    'best hero':
+      nominee: [tt0378194, tt0316654, tt0338526, tt0360486, tt0372183]
+      winner: [tt0378194]
+    'best kiss':
+      nominee: [tt0332280, tt0357277, tt0333766, tt0265208, tt0346156]
+      winner: [tt0332280]
+    'best male performance':
+      nominee: [tt0338751, tt0372183, tt0386588, tt0350258, tt0332452]
+      winner: [tt0338751]
+    'best movie':
+      nominee: [tt0374900, tt0317705, tt0378194, tt0350258, tt0316654]
+      winner: [tt0374900]
+    'best musical performance':
+      nominee: [tt0374900, tt0337563, tt0357413, tt0366551]
+      winner: [tt0374900]
+    'best on-screen team':
+      nominee: [tt0377092, tt0357413, tt0364725, tt0366551, tt0317705]
+      winner: [tt0377092]
+    'best video game based on a movie':
+      nominee: [tt0405833, tt0414084, tt0433576, tt0411906, tt0412022]
+      winner: [tt0405833]
+    'best villain':
+      nominee: [tt0364725, tt0369339, tt0339291, tt0377092, tt0316654]
+      winner: [tt0364725]
+    'breakthrough female':
+      nominee: [tt0377092, tt0393162, tt0319262, tt0265208, tt0368447]
+      winner: [tt0377092]
+    'breakthrough male':
+      nominee: [tt0374900, tt0422093, tt0308644, tt0390022, tt0333766]
+      winner: [tt0374900]
+
+'2004': # https://www.imdb.com/event/ev0000453/2004/1/
+  'mtv movie award':
+    'best action sequence':
+      nominee: [tt0167260, tt0172156, tt0305357, tt0181852]
+      winner: [tt0167260]
+    'best cameo':
+      nominee: [tt0306047, tt0356150, tt0335438, tt0305224, tt0305357]
+      winner: [tt0306047]
+    'best comedic performance':
+      nominee: [tt0332379, tt0315327, tt0319343, tt0266543, tt0325980]
+      winner: [tt0332379]
+    'best dance sequence':
+      nominee: [tt0328828, tt0343135, tt0305669, tt0305357, tt0365957]
+      winner: [tt0328828]
+    'best female performance':
+      nominee: [tt0266697, tt0343660, tt0305669, tt0348836, tt0340855]
+      winner: [tt0266697]
+    'best fight':
+      nominee: [tt0266697, tt0305669, tt0234215, tt0327850, tt0290334]
+      winner: [tt0266697]
+    'best kiss':
+      nominee: [tt0335438, tt0315327, tt0234215, tt0340855, tt0290334]
+      winner: [tt0335438]
+    'best male performance':
+      nominee: [tt0325980, tt0343660, tt0325710, tt0335266, tt0335345]
+      winner: [tt0325980]
+    'best movie':
+      nominee: [tt0167260, tt0343660, tt0266543, tt0325980, tt0290334]
+      winner: [tt0167260]
+    'best on-screen team':
+      nominee: [tt0343660, tt0172156, tt0325980, tt0332379, tt0335438]
+      winner: [tt0343660]
+    'best villain':
+      nominee: [tt0266697, tt0305357, tt0183649, tt0325980, tt0324216]
+      winner: [tt0266697]
+    'breakthrough female performance':
+      nominee: [tt0322330, tt0335266, tt0325980, tt0324216, tt0328538]
+      winner: [tt0322330]
+    'breakthrough male performance':
+      nominee: [tt0290334, tt0322259, tt0289043, tt0311289, tt0365957]
+      winner: [tt0290334]
+
+'2003': # https://www.imdb.com/event/ev0000453/2003/1/
+  'mtv movie award':
+    'best action sequence':
+      nominee: [tt0167261, tt0309593, tt0181689, tt0121765]
+      winner: [tt0167261]
+    'best comedic performance':
+      nominee: [tt0295178, tt0303714, tt0322802, tt0280590, tt0302886]
+      winner: [tt0295178]
+    'best female performance':
+      nominee: [tt0145487, tt0299658, tt0246460, tt0251127, tt0256415]
+      winner: [tt0145487]
+    'best fight':
+      nominee: [tt0121765, tt0306685, tt0322802, tt0300471]
+      winner: [tt0121765]
+    'best kiss':
+      nominee: [tt0145487, tt0287978, tt0303933, tt0217505, tt0272338]
+      winner: [tt0145487]
+    'best male performance':
+      nominee: [tt0298203, tt0264464, tt0167261, tt0145487, tt0295701]
+      winner: [tt0298203]
+    'best movie':
+      nominee: [tt0167261, tt0298203, tt0303714, tt0298130, tt0145487]
+      winner: [tt0167261]
+    'best on-screen team':
+      nominee: [tt0167261, tt0300532, tt0322802, tt0302886, tt0300471]
+      winner: [tt0167261]
+    'best villain':
+      nominee: [tt0298130, tt0295178, tt0287978, tt0217505, tt0145487]
+      winner: [tt0298130]
+    'best virtual performance':
+      nominee: [tt0167261, tt0295297, tt0257568, tt0267913, tt0121765]
+      winner: [tt0167261]
+    'breakthrough female performance':
+      nominee: [tt0287978, tt0295178, tt0303714, tt0300532, tt0259446, tt0274812]
+      winner: [tt0287978]
+    'breakthrough male performance':
+      nominee: [tt0298203, tt0168786, tt0303933, tt0280760, tt0283111]
+      winner: [tt0298203]
+
+'2002': # https://www.imdb.com/event/ev0000453/2002/1/
+  'mtv movie award':
+    'best action sequence':
+      nominee: [tt0213149, tt0265086, tt0232500, tt0120737]
+      winner: [tt0213149]
+    'best cameo':
+      nominee: [tt0139654, tt0227005, tt0203009, tt0277371, tt0133152, tt0196229]
+      winner: [tt0139654]
+    'best comedic performance':
+      nominee: [tt0250494, tt0252866, tt0266915, tt0126029]
+      winner: [tt0250494]
+    'best dressed':
+      nominee: [tt0250494, tt0275022, tt0162346, tt0240772, tt0196229]
+      winner: [tt0250494]
+    'best female performance':
+      nominee: [tt0203009, tt0146316, tt0250494, tt0285742, tt0213149]
+      winner: [tt0203009]
+    'best fight':
+      nominee: [tt0266915, tt0146316, tt0120737, tt0267804]
+      winner: [tt0266915]
+    'best kiss':
+      nominee: [tt0252866, tt0243155, tt0183790, tt0203009, tt0277371]
+      winner: [tt0252866]
+    'best line':
+      nominee: [tt0250494, tt0252866, tt0162346, tt0277371, tt0139654, tt0196229]
+      winner: [tt0250494]
+    'best male performance':
+      nominee: [tt0248667, tt0268978, tt0232500, tt0120737, tt0213149]
+      winner: [tt0248667]
+    'best movie':
+      nominee: [tt0120737, tt0265086, tt0232500, tt0250494, tt0126029]
+      winner: [tt0120737]
+    'best musical sequence':
+      nominee: [tt0203009, tt0183790, tt0266915]
+      winner: [tt0203009]
+    'best new filmmaker':
+      nominee: [tt0209144]
+      winner: [tt0209144]
+    'best on-screen team':
+      nominee: [tt0232500, tt0240772, tt0266915, tt0126029, tt0196229]
+      winner: [tt0232500]
+    'best villain':
+      nominee: [tt0139654, tt0120737, tt0133152, tt0238546, tt0266915]
+      winner: [tt0139654]
+    'breakthrough female performance':
+      nominee: [tt0281358, tt0221027, tt0275022, tt0183790, tt0247638]
+      winner: [tt0281358]
+    'breakthrough male performance':
+      nominee: [tt0120737, tt0242445, tt0232500, tt0241527, tt0273923]
+      winner: [tt0120737]
+
+'2001': # https://www.imdb.com/event/ev0000453/2001/1/
+  'mtv movie award':
+    'best action sequence':
+      nominee: [tt0120755, tt0162222, tt0172495, tt0187078]
+      winner: [tt0120755]
+    'best cameo in a movie':
+      nominee: [tt0175142, tt0160127, tt0146882, tt0185431, tt0215129]
+      winner: [tt0175142]
+    'best comedic performance':
+      nominee: [tt0212338, tt0208003, tt0183505, tt0144528, tt0215129]
+      winner: [tt0212338]
+    'best dance sequence':
+      nominee: [tt0160127, tt0204946, tt0249462, tt0206275]
+      winner: [tt0160127]
+    'best dressed':
+      nominee: [tt0209958, tt0181875, tt0230030, tt0160127, tt0162650]
+      winner: [tt0209958]
+    'best female performance':
+      nominee: [tt0195685, tt0181875, tt0209958, tt0165929, tt0206275]
+      winner: [tt0195685]
+    'best fight':
+      nominee: [tt0190332, tt0160127, tt0172495, tt0165929]
+      winner: [tt0190332]
+    'best kiss':
+      nominee: [tt0206275, tt0186894, tt0162222, tt0212985, tt0175142]
+      winner: [tt0206275]
+    'best line from a movie':
+      nominee: [tt0212338, tt0181875, tt0160127, tt0195685, tt0172495]
+      winner: [tt0212338]
+    'best male performance':
+      nominee: [tt0120755, tt0162222, tt0172495, tt0199725, tt0187393]
+      winner: [tt0120755]
+    'best movie':
+      nominee: [tt0172495, tt0190332, tt0195685, tt0212985, tt0120903]
+      winner: [tt0172495]
+    'best music moment':
+      nominee: [tt0200550, tt0181875, tt0146882, tt0190590, tt0215129]
+      winner: [tt0200550]
+    'best new filmmaker':
+      nominee: [tt0159097]
+      winner: [tt0159097]
+    'best on-screen team':
+      nominee: [tt0160127, tt0162222, tt0212338, tt0190590, tt0120903]
+      winner: [tt0160127]
+    'best villain':
+      nominee: [tt0170016, tt0209958, tt0172495, tt0212985, tt0164052]
+      winner: [tt0170016]
+    'breakthrough female performance':
+      nominee: [tt0181865, tt0200550, tt0165929, tt0175142, tt0190332]
+      winner: [tt0181865]
+    'breakthrough male performance':
+      nominee: [tt0206275, tt0181875, tt0242423, tt0146882, tt0215129, tt0120903]
+      winner: [tt0206275]
+
+'2000': # https://www.imdb.com/event/ev0000453/2000/1/
+  'mtv movie award':
+    'best action sequence':
+      nominee: [tt0120915, tt0185937, tt0133093, tt0120616]
+      winner: [tt0120915]
+    'best comedic performance':
+      nominee: [tt0142342, tt0145660, tt0163651, tt0134084, tt0195945]
+      winner: [tt0142342]
+    'best female performance':
+      nominee: [tt0139134, tt0151738, tt0134084, tt0163187, tt0150377]
+      winner: [tt0139134]
+    'best fight':
+      nominee: [tt0133093, tt0145660, tt0137523, tt0120915]
+      winner: [tt0133093]
+    'best kiss':
+      nominee: [tt0139134, tt0171804, tt0133046, tt0151738]
+      winner: [tt0139134]
+    'best male performance':
+      nominee: [tt0133093, tt0167404, tt0142342, tt0139134, tt0125664]
+      winner: [tt0133093]
+    'best movie':
+      nominee: [tt0133093, tt0167404, tt0163651, tt0145660, tt0169547]
+      winner: [tt0133093]
+    'best musical performance':
+      nominee: [tt0158983, tt0145660, tt0134119, tt0147800]
+      winner: [tt0158983]
+    'best new filmmaker':
+      nominee: [tt0120601]
+      winner: [tt0120601]
+    'best on-screen duo':
+      nominee: [tt0145660, tt0167404, tt0142342, tt0133093, tt0120363]
+      winner: [tt0145660]
+    'best villain':
+      nominee: [tt0145660, tt0139134, tt0134119, tt0162661, tt0120915]
+      winner: [tt0145660]
+    'breakthrough female performance':
+      nominee: [tt0147800, tt0133093, tt0139134, tt0163651, tt0171804]
+      winner: [tt0147800]
+    'breakthrough male performance':
+      nominee: [tt0167404, tt0163651, tt0146838, tt0169547, tt0120689]
+      winner: [tt0167404]
+
+'1999': # https://www.imdb.com/event/ev0000453/1999/1/
+  'mtv movie award':
+    'best action sequence':
+      nominee: [tt0120591, tt0122690, tt0120815, tt0122151]
+      winner: [tt0120591]
+    'best breakthrough female performance':
+      nominee: [tt0134619, tt0160862, tt0127536, tt0130018, tt0120746]
+      winner: [tt0134619]
+    'best breakthrough male performance':
+      nominee: [tt0139699, tt0124718, tt0122151, tt0120694, tt0138097]
+      winner: [tt0139699]
+    'best comedic performance':
+      nominee: [tt0120484, tt0129387, tt0122151, tt0120812]
+      winner: [tt0120484]
+    'best female performance':
+      nominee: [tt0129387, tt0138097, tt0120780, tt0120591, tt0127723]
+      winner: [tt0129387]
+    'best fight':
+      nominee: [tt0129387, tt0120812, tt0120611, tt0120746]
+      winner: [tt0129387]
+    'best kiss':
+      nominee: [tt0138097, tt0119558, tt0129387, tt0120780, tt0120890]
+      winner: [tt0138097]
+    'best male performance':
+      nominee: [tt0120382, tt0120591, tt0120484, tt0120660, tt0120815]
+      winner: [tt0120382]
+    'best movie':
+      nominee: [tt0129387, tt0120382, tt0138097, tt0120815, tt0120591]
+      winner: [tt0129387]
+    'best movie song':
+      nominee: [tt0120591, tt0120632, tt0120812, tt0139699, tt0118998]
+      winner: [tt0120591]
+    'best new filmmaker':
+      nominee: [tt0120735]
+      winner: [tt0120735]
+    'best on-screen duo':
+      nominee: [tt0120812, tt0160862, tt0129387, tt0120591, tt0120632]
+      winner: [tt0120812]
+    'best villain':
+      nominee: [tt0129387, tt0120611, tt0144120, tt0122151, tt0155776]
+      winner: [tt0129387, tt0120611]
+
+'1998': # https://www.imdb.com/event/ev0000453/1998/1/
+  'mtv movie award':
+    'best action sequence':
+      nominee: [tt0119094, tt0119567, tt0120201, tt0120338, tt0120347]
+      winner: [tt0119094]
+    'best breakthrough performance':
+      nominee: [tt0118749, tt0118842, tt0119738, tt0119345, tt0120094]
+      winner: [tt0118749]
+    'best comedic performance':
+      nominee: [tt0119528, tt0119738, tt0118655, tt0120888, tt0119654]
+      winner: [tt0119528]
+    'best dance sequence':
+      nominee: [tt0118655, tt0119535, tt0120032, tt0119164, tt0118749]
+      winner: [tt0118655]
+    'best female performance':
+      nominee: [tt0120082, tt0120169, tt0119822, tt0119738, tt0120338]
+      winner: [tt0120082]
+    'best fight':
+      nominee: [tt0119654, tt0118604, tt0118571, tt0119116, tt0119173, tt0120347]
+      winner: [tt0119654]
+    'best kiss':
+      nominee: [tt0120888, tt0118842, tt0119217, tt0120338, tt0119360]
+      winner: [tt0120888]
+    'best male performance':
+      nominee: [tt0120338, tt0119094, tt0119217, tt0119396]
+      winner: [tt0120338]
+    'best movie':
+      nominee: [tt0120338, tt0118655, tt0119094, tt0119217, tt0119654]
+      winner: [tt0120338]
+    'best movie song':
+      nominee: [tt0119654, tt0119535, tt0120169, tt0118604, tt0120338]
+      winner: [tt0119654]
+    'best new filmmaker':
+      nominee: [tt0119164]
+      winner: [tt0119164]
+    'best on-screen duo':
+      nominee: [tt0119094, tt0119217, tt0120338, tt0120888, tt0119654]
+      winner: [tt0119094]
+    'best villain':
+      nominee: [tt0118655, tt0119094, tt0118571, tt0118971, tt0120338]
+      winner: [tt0118655]
+
+'1997': # https://www.imdb.com/event/ev0000453/1997/1/
+  'mtv movie award':
+    'best action sequence':
+      nominee: [tt0117998, tt0117060, tt0116629, tt0116213, tt0117500]
+      winner: [tt0117998]
+    'best breakthrough performance':
+      nominee: [tt0117913, tt0116629, tt0117318, tt0117951, tt0116695]
+      winner: [tt0117913]
+    'best comedic performance':
+      nominee: [tt0115798, tt0118708, tt0117979, tt0117218, tt0115685]
+      winner: [tt0115798]
+    'best female performance':
+      nominee: [tt0117509, tt0117913, tt0117571, tt0117998, tt0116250]
+      winner: [tt0117509]
+    'best fight':
+      nominee: [tt0115963, tt0115798, tt0116704, tt0116996, tt0115624]
+      winner: [tt0115963]
+    'best kiss':
+      nominee: [tt0116629, tt0118073, tt0115736, tt0117333, tt0117509]
+      winner: [tt0116629]
+    'best male performance':
+      nominee: [tt0116695, tt0117509, tt0117218, tt0116629, tt0117333]
+      winner: [tt0116695]
+    'best movie':
+      nominee: [tt0117571, tt0116629, tt0116695, tt0117500, tt0117509]
+      winner: [tt0117571]
+    'best movie song':
+      nominee: [tt0116287, tt0117333, tt0117509, tt0116250, tt0117705]
+      winner: [tt0116287]
+    'best new filmmaker':
+      nominee: [tt0117802]
+      winner: [tt0117802]
+    'best on-screen duo':
+      nominee: [tt0117500, tt0115641, tt0116282, tt0117509, tt0115685]
+      winner: [tt0117500]
+    'best villain':
+      nominee: [tt0115798, tt0116277, tt0117913, tt0117381, tt0116287]
+      winner: [tt0115798]
+    'lifetime achievement':
+      nominee: [tt0076759]
+      winner: [tt0076759]
+
+'1996': # https://www.imdb.com/event/ev0000453/1996/1/
+  'mtv movie award':
+    'best action sequence':
+      nominee: [tt0112573, tt0115759, tt0112864, tt0112442]
+      winner: [tt0112573]
+    'best breakthrough performance':
+      nominee: [tt0116367, tt0114885, tt0114508, tt0113118, tt0114168]
+      winner: [tt0116367]
+    'best comedic performance':
+      nominee: [tt0112281, tt0112697, tt0114694, tt0116483, tt0113118]
+      winner: [tt0112281]
+    'best female performance':
+      nominee: [tt0112697, tt0114924, tt0112792, tt0112818, tt0112641]
+      winner: [tt0112697]
+    'best fight':
+      nominee: [tt0116483, tt0115759, tt0113189, tt0113326]
+      winner: [tt0116483]
+    'best kiss':
+      nominee: [tt0114508, tt0113347, tt0112851, tt0112281, tt0114887]
+      winner: [tt0114508]
+    'best male performance':
+      nominee: [tt0112281, tt0112384, tt0114746, tt0112573, tt0112740]
+      winner: [tt0112281]
+    'best movie':
+      nominee: [tt0114369, tt0112697, tt0112573, tt0112384, tt0112792]
+      winner: [tt0114369]
+    'best movie song':
+      nominee: [tt0114885, tt0112462, tt0112792]
+      winner: [tt0114885]
+    'best new filmmaker':
+      nominee: [tt0115734]
+      winner: [tt0115734]
+    'best on-screen duo':
+      nominee: [tt0114694, tt0112442, tt0114369, tt0113118, tt0114709]
+      winner: [tt0114694]
+    'best sandwich in a movie':
+      nominee: [tt0114478, tt0113101, tt0113189]
+      winner: [tt0114478]
+    'best villain':
+      nominee: [tt0114369, tt0112462, tt0115759, tt0112641]
+      winner: [tt0114369]
+    'most desirable female':
+      nominee: [tt0112697, tt0112462, tt0114924, tt0112792, tt0114345]
+      winner: [tt0112697]
+    'most desirable male':
+      nominee: [tt0114369, tt0112851, tt0112573, tt0114887, tt0112462, tt0113277]
+      winner: [tt0114369]
+
+'1995': # https://www.imdb.com/event/ev0000453/1995/1/
+  'mtv movie award':
+    'best action sequence':
+      nominee: [tt0111257, tt0109303, tt0109444, tt0111503]
+      winner: [tt0111257]
+    'best breakthrough performance':
+      nominee: [tt0110148, tt0111070, tt0110475, tt0109831, tt0109830]
+      winner: [tt0110148]
+    'best comedic performance':
+      nominee: [tt0109686, tt0110475, tt0111070, tt0111503, tt0112508]
+      winner: [tt0109686]
+    'best dance sequence':
+      nominee: [tt0110912, tt0110475, tt0111503, tt0112572]
+      winner: [tt0110912]
+    'best female performance':
+      nominee: [tt0111257, tt0111503, tt0110638, tt0111693, tt0110912]
+      winner: [tt0111257]
+    'best kiss':
+      nominee: [tt0109686, tt0112471, tt0110632, tt0111257, tt0111503]
+      winner: [tt0109686]
+    'best male performance':
+      nominee: [tt0110148, tt0109830, tt0111257, tt0110912, tt0109506]
+      winner: [tt0110148]
+    'best movie':
+      nominee: [tt0110912, tt0109506, tt0109830, tt0110148, tt0111257]
+      winner: [tt0110912]
+    'best movie song':
+      nominee: [tt0109506, tt0109035, tt0110357, tt0110912, tt0111732]
+      winner: [tt0109506]
+    'best new filmmaker':
+      nominee: [tt0110057]
+      winner: [tt0110057]
+    'best on-screen duo':
+      nominee: [tt0111257, tt0109686, tt0110148, tt0110632, tt0110912]
+      winner: [tt0111257]
+    'best villain':
+      nominee: [tt0111257, tt0110148, tt0110357, tt0109303, tt0109635]
+      winner: [tt0111257]
+    'most desirable female':
+      nominee: [tt0111257, tt0109813, tt0110475, tt0109635, tt0111255]
+      winner: [tt0111257]
+    'most desirable male':
+      nominee: [tt0110148, tt0111693, tt0111257]
+      winner: [tt0110148]
+
+'1994': # https://www.imdb.com/event/ev0000453/1994/1/
+  'mtv movie award':
+    'best action sequence':
+      nominee: [tt0106977, tt0106582, tt0107076, tt0107290, tt0107983]
+      winner: [tt0106977]
+    'best breakthrough performance':
+      nominee: [tt0106627, tt0108052, tt0106770, tt0108160, tt0106965]
+      winner: [tt0106627]
+    'best comedic performance':
+      nominee: [tt0107614, tt0109040, tt0106387, tt0108147, tt0108186]
+      winner: [tt0107614]
+    'best female performance':
+      nominee: [tt0107840, tt0108551, tt0107211, tt0107798, tt0108160]
+      winner: [tt0107840]
+    'best kiss':
+      nominee: [tt0107211, tt0106965, tt0108525, tt0110950, tt0108399]
+      winner: [tt0107211]
+    'best male performance':
+      nominee: [tt0107818, tt0106918, tt0106977, tt0108358, tt0107614]
+      winner: [tt0107818]
+    'best movie':
+      nominee: [tt0107554, tt0106977, tt0107290, tt0107818, tt0108052]
+      winner: [tt0107554]
+    'best movie song':
+      nominee: [tt0106965, tt0108333, tt0108162, tt0106387, tt0107818, tt0108160]
+      winner: [tt0106965]
+    'best new filmmaker':
+      nominee: [tt0108065]
+      winner: [tt0108065]
+    'best on-screen duo':
+      nominee: [tt0106977, tt0106387, tt0108160, tt0107818, tt0108525]
+      winner: [tt0106977]
+    'best villain':
+      nominee: [tt0106627, tt0107034, tt0107206, tt0106697, tt0107290]
+      winner: [tt0106627]
+    'lifetime achievement':
+      nominee: [tt0067741]
+      winner: [tt0067741]
+    'most desirable female':
+      nominee: [tt0107840, tt0109890, tt0107211, tt0106627, tt0108162]
+      winner: [tt0107840]
+    'most desirable male':
+      nominee: [tt0108162, tt0106918, tt0108358, tt0107076, tt0107798]
+      winner: [tt0108162]
+
+'1993': # https://www.imdb.com/event/ev0000453/1993/1/
+  'mtv movie award':
+    'best action sequence':
+      nominee: [tt0104714, tt0103644, tt0106246, tt0104231, tt0105690]
+      winner: [tt0104714]
+    'best breakthrough performance':
+      nominee: [tt0104952, tt0103859, tt0103855, tt0105417, tt0104694]
+      winner: [tt0104952]
+    'best comedic performance':
+      nominee: [tt0103639, tt0105417, tt0103859, tt0107048, tt0104952]
+      winner: [tt0103639]
+    'best female performance':
+      nominee: [tt0103772, tt0104694, tt0105417, tt0103855, tt0104257]
+      winner: [tt0103772]
+    'best kiss':
+      nominee: [tt0108451, tt0104694, tt0103776, tt0103874, tt0104714, tt0105812]
+      winner: [tt0108451]
+    'best male performance':
+      nominee: [tt0104797, tt0103855, tt0104257, tt0103772]
+      winner: [tt0104797]
+    'best movie':
+      nominee: [tt0104257, tt0103639, tt0103772, tt0103855, tt0104797]
+      winner: [tt0104257]
+    'best movie - europe':
+      nominee: [tt0103855]
+      winner: [tt0103855]
+    'best movie song':
+      nominee: [tt0103855, tt0103639, tt0103859, tt0104714, tt0105415]
+      winner: [tt0103855]
+    'best new filmmaker':
+      nominee: [tt0102592]
+      winner: [tt0102592]
+    'best on-screen duo':
+      nominee: [tt0104714, tt0103772, tt0103855, tt0104231, tt0105812]
+      winner: [tt0104714]
+    'best villain':
+      nominee: [tt0105414, tt0103772, tt0103776, tt0105699, tt0104257]
+      winner: [tt0105414]
+    'most desirable female':
+      nominee: [tt0103772, tt0104009, tt0103859, tt0106453, tt0103776]
+      winner: [tt0103772]
+    'most desirable male':
+      nominee: [tt0108451, tt0103855, tt0104257, tt0104714, tt0107711]
+      winner: [tt0108451]
+
+'1992': # https://www.imdb.com/event/ev0000453/1992/1/
+  'mtv movie award':
+    'best action sequence':
+      nominee: [tt0103064, tt0101393, tt0102004, tt0102266, tt0102685]
+      winner: [tt0103064]
+    'best breakthrough performance':
+      nominee: [tt0103064, tt0102492, tt0101787, tt0102526, tt0101862]
+      winner: [tt0103064]
+    'best comedic performance':
+      nominee: [tt0101587, tt0105793, tt0101862, tt0103241]
+      winner: [tt0101587]
+    'best female performance':
+      nominee: [tt0103064, tt0103074, tt0104389, tt0102798, tt0101787]
+      winner: [tt0103064]
+    'best kiss':
+      nominee: [tt0102492, tt0101272, tt0101516, tt0101540, tt0102510]
+      winner: [tt0102492]
+    'best male performance':
+      nominee: [tt0103064, tt0102798, tt0101540, tt0101761]
+      winner: [tt0103064]
+    'best movie':
+      nominee: [tt0103064, tt0101393, tt0101507, tt0102138, tt0102798]
+      winner: [tt0103064]
+    'best movie song':
+      nominee: [tt0102798, tt0101272, tt0102526, tt0102820, tt0103064]
+      winner: [tt0102798]
+    'best new filmmaker':
+      nominee: [tt0101507]
+      winner: [tt0101507]
+    'best on-screen duo':
+      nominee: [tt0105793, tt0102266, tt0102492, tt0102798, tt0103074]
+      winner: [tt0105793]
+    'best villain':
+      nominee: [tt0104389, tt0101540, tt0103064, tt0102798, tt0102526]
+      winner: [tt0104389]
+    'most desirable female':
+      nominee: [tt0103064, tt0101757, tt0104265, tt0105793, tt0101787]
+      winner: [tt0103064]
+    'most desirable male':
+      nominee: [tt0102685, tt0102798, tt0104647, tt0101764]
+      winner: [tt0102685]

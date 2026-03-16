@@ -1,0 +1,1233 @@
+# XBIZ Awards
+
+'2026': # https://www.imdb.com/event/ev0002080/2026/1/
+  'xbiz award':
+    'best cinematography':
+      nominee: [tt38552928]
+      winner: [tt38552928]
+    'best drama movie':
+      nominee: [tt38552928]
+      winner: [tt38552928]
+    'best new site':
+      nominee: [tt36252374]
+      winner: [tt36252374]
+    'best new studio/imprint':
+      nominee: [tt36252374]
+      winner: [tt36252374]
+    'best sex scene - drama movie':
+      nominee: [tt38552928]
+      winner: [tt38552928]
+    'best picture':
+      nominee: [tt38552928]
+      winner: []
+
+'2025': # https://www.imdb.com/event/ev0002080/2025/1/
+  'xbiz award':
+    'best all-girl movie':
+      nominee: [tt33492074, tt35004772, tt33507749, tt35003411, tt33982750, tt32499825, tt35324868, tt31490709, tt33038073]
+      winner: [tt33492074]
+    'best all-girl series':
+      nominee: [tt34738128, tt3981852, tt32534646, tt10934296, tt7813168, tt31969747, tt31171787, tt31946675, tt11463850]
+      winner: [tt34738128]
+    'best art direction':
+      nominee: [tt31594471, tt33504235, tt33364958, tt29372271, tt32560226, tt30694810, tt34254039, tt30796547]
+      winner: [tt31594471]
+    'best cinematography':
+      nominee: [tt33364958, tt33055479, tt31574265, tt32560226, tt33306508, tt31594471, tt33504235]
+      winner: [tt33364958]
+    'best comedy movie':
+      nominee: [tt33055479, tt33378439, tt32819670, tt33039822, tt30796547, tt31868922, tt33255040, tt31043938]
+      winner: [tt33055479]
+    'best couples-themed movie':
+      nominee: [tt33347967, tt33095885, tt32317157, tt30155814, tt33015112, tt28432794, tt32550846, tt29712803, tt29302667]
+      winner: [tt33347967]
+    'best editing':
+      nominee: [tt33055479, tt31594471, tt34254039, tt34791621, tt33504235, tt29372271, tt33306508, tt31574265, tt33364958, tt32560226]
+      winner: [tt33055479]
+    'best feature movie':
+      nominee: [tt33364958, tt33504235, tt31594471, tt32560226, tt34791621, tt32247020, tt33306508, tt31574265, tt32395168]
+      winner: [tt33364958]
+    'best featurette':
+      nominee: [tt34254039, tt33084224, tt31144299, tt32105930, tt33502299, tt34422471, tt29491941, tt30005806]
+      winner: [tt34254039]
+    'best gay non-narrative movie':
+      nominee: [tt30207285, tt32395540, tt32612176, tt32424220, tt33184232, tt30342194, tt32525952, tt29765284]
+      winner: [tt30207285]
+    'best gonzo series':
+      nominee: [tt10731470, tt28243709, tt15179986, tt32341537, tt33308530, tt32309217, tt33052273, tt34802873, tt30333782, tt30304785]
+      winner: [tt10731470]
+    'best performer showcase':
+      nominee: [tt34814720, tt31963620, tt34749461, tt33337446, tt34749988, tt34354046, tt34749627, tt32350675, tt33499547, tt33749233, tt34799753]
+      winner: [tt34814720]
+    'best screenplay':
+      nominee: [tt33504235, tt31594471, tt33055479, tt33492074, tt32560226, tt31574265, tt33306508, tt34254039, tt34791621, tt33364958]
+      winner: [tt33504235]
+    'best sex scene - comedy':
+      nominee: [tt33055479]
+      winner: [tt33055479]
+    'best sex scene - featurette':
+      nominee: [tt32105930, tt31144299, tt30783435, tt34422471, tt32526329, tt7558652, tt34254039, tt32919783, tt30317352, tt32334910]
+      winner: [tt32105930]
+    'best sex scene - trans':
+      nominee: [tt33098423, tt13348354, tt23132150]
+      winner: [tt33098423]
+    'best trans movie':
+      nominee: [tt30796547, tt33479912, tt33309084, tt34748852, tt33079703, tt35125728, tt30798291, tt30275897, tt31242867, tt30310925]
+      winner: [tt30796547]
+    'best vignette series':
+      nominee: [tt8085744, tt4862524, tt21284456, tt25607830, tt10023474, tt35051670, tt8929630]
+      winner: [tt8085744]
+    'director of the year - individual work':
+      nominee: [tt33504235, tt34254039, tt31574265, tt33306508, tt34791621, tt33055479, tt33502299, tt32560226, tt31594471, tt33364958]
+      winner: [tt33504235]
+    'best gay featurette':
+      nominee: [tt32357387, tt33008284]
+      winner: []
+    'best gonzo movie':
+      nominee: [tt34797810, tt34798972, tt34930478, tt34931949, tt31598467, tt34799588, tt33184211, tt34819132, tt31242940]
+      winner: []
+    'best sex scene - career-first performance':
+      nominee: [tt25398150, tt6064134, tt8085744, tt34799753, tt34749988, tt34876086, tt34814784, tt7771836, tt32411121, tt33749233, tt29926046]
+      winner: []
+    'best sex scene - orgy/group':
+      nominee: [tt4648754, tt33502299, tt32875239, tt32560226, tt25398150]
+      winner: []
+    'best vignette movie':
+      nominee: [tt31283584, tt33096866, tt34993672, tt32376541]
+      winner: []
+
+'2024': # https://www.imdb.com/event/ev0002080/2024/1/
+  'xbiz award':
+    'all-girl movie of the year':
+      nominee: [tt31172982]
+      winner: [tt31172982]
+    'best acting - lead':
+      nominee: [tt23851746]
+      winner: [tt23851746]
+    'best acting - supporting':
+      nominee: [tt18986932]
+      winner: [tt18986932]
+    'best art direction':
+      nominee: [tt23851746]
+      winner: [tt23851746]
+    'best cinematography':
+      nominee: [tt29520019]
+      winner: [tt29520019]
+    'best editing':
+      nominee: [tt29520019]
+      winner: [tt29520019]
+    'best screenplay':
+      nominee: [tt18986932]
+      winner: [tt18986932]
+    'best sex scene - all-girl':
+      nominee: [tt26537385]
+      winner: [tt26537385]
+    'best sex scene - career-first performance':
+      nominee: [tt28774032, tt30320640]
+      winner: [tt28774032]
+    'best sex scene - feature movie':
+      nominee: [tt28717175]
+      winner: [tt28717175]
+    'best sex scene - featurette':
+      nominee: [tt27512242]
+      winner: [tt27512242]
+    'best sex scene - gonzo':
+      nominee: [tt28515785]
+      winner: [tt28515785]
+    'best sex scene - performer showcase':
+      nominee: [tt29259303]
+      winner: [tt29259303]
+    'best sex scene - trans':
+      nominee: [tt23732388]
+      winner: [tt23732388]
+    'best sex scene - vignette':
+      nominee: [tt28813572]
+      winner: [tt28813572]
+    'best sex scene - virtual reality':
+      nominee: [tt31416201]
+      winner: [tt31416201]
+    'director of the year - individual work':
+      nominee: [tt18986932]
+      winner: [tt18986932]
+    'feature movie of the year':
+      nominee: [tt29520019]
+      winner: [tt29520019]
+    'featurette of the year':
+      nominee: [tt29465887]
+      winner: [tt29465887]
+    'gay release of the year - non-narrative':
+      nominee: [tt28254435]
+      winner: [tt28254435]
+    'gonzo series of the year':
+      nominee: [tt8085744]
+      winner: [tt8085744]
+    'performer showcase of the year':
+      nominee: [tt29520019]
+      winner: [tt29520019]
+    'trans movie of the year':
+      nominee: [tt23473948]
+      winner: [tt23473948]
+    'vignette movie of the year':
+      nominee: [tt31272337]
+      winner: [tt31272337]
+    'web series/channel of the year':
+      nominee: [tt25398150]
+      winner: [tt25398150]
+    'best vignette movie':
+      nominee: [tt33309096]
+      winner: []
+  'web & technology':
+    'all-girl site of the year':
+      nominee: [tt7817662]
+      winner: [tt7817662]
+    'trans site of the year':
+      nominee: [tt13348354]
+      winner: [tt13348354]
+
+'2023': # https://www.imdb.com/event/ev0002080/2023/1/
+  'xbiz award':
+    'all-girl movie of the year':
+      nominee: [tt24226516]
+      winner: [tt24226516]
+    'best acting - lead':
+      nominee: [tt21958162]
+      winner: [tt21958162]
+    'best acting - supporting':
+      nominee: [tt17506626]
+      winner: [tt17506626]
+    'best art direction':
+      nominee: [tt22081368]
+      winner: [tt22081368]
+    'best cinematography':
+      nominee: [tt20198930]
+      winner: [tt20198930]
+    'best editing':
+      nominee: [tt17506626]
+      winner: [tt17506626]
+    'best screenplay':
+      nominee: [tt23850848]
+      winner: [tt23850848]
+    'best sex scene - all-girl':
+      nominee: [tt22436654]
+      winner: [tt22436654]
+    'best sex scene - all-sex':
+      nominee: [tt21914656]
+      winner: [tt21914656]
+    'best sex scene - career-first performance':
+      nominee: [tt27238643, tt23777958, tt22460582]
+      winner: [tt27238643]
+    'best sex scene - feature movie':
+      nominee: [tt23132004]
+      winner: [tt23132004]
+    'best sex scene - featurette':
+      nominee: [tt23156000, tt7558652]
+      winner: [tt23156000]
+    'best sex scene - gonzo':
+      nominee: [tt25812314]
+      winner: [tt25812314]
+    'best sex scene - performer showcase':
+      nominee: [tt25401988, tt23777958, tt22460582]
+      winner: [tt25401988]
+    'best sex scene - trans':
+      nominee: [tt22440366]
+      winner: [tt22440366]
+    'best sex scene - vignette':
+      nominee: [tt21328692, tt10804418]
+      winner: [tt21328692]
+    'best sex scene - virtual reality':
+      nominee: [tt14550848, tt13350350]
+      winner: [tt14550848]
+    'feature movie of the year':
+      nominee: [tt23850848]
+      winner: [tt23850848]
+    'featurette of the year':
+      nominee: [tt23156000]
+      winner: [tt23156000]
+    'gay all-sex release of the year':
+      nominee: [tt21342490]
+      winner: [tt21342490]
+    'gonzo movie of the year':
+      nominee: [tt18554698]
+      winner: [tt18554698]
+    'gonzo series of the year':
+      nominee: [tt8085744]
+      winner: [tt8085744]
+    'performer showcase of the year':
+      nominee: [tt25401988, tt23777958, tt22460582]
+      winner: [tt25401988]
+    'trans movie of the year':
+      nominee: [tt20419662]
+      winner: [tt20419662]
+    'vignette movie of the year':
+      nominee: [tt22475446, tt21364076]
+      winner: [tt22475446]
+    'vignette series of the year':
+      nominee: [tt21284456]
+      winner: [tt21284456]
+    'web series of the year':
+      nominee: [tt18228170]
+      winner: [tt18228170]
+
+'2022': # https://www.imdb.com/event/ev0002080/2022/1/
+  'xbiz award':
+    'all-girl movie of the year':
+      nominee: [tt15052980, tt15188066]
+      winner: [tt15052980]
+    'all-girl series of the year':
+      nominee: [tt12106904]
+      winner: [tt12106904]
+    'best acting - supporting':
+      nominee: [tt18748474, tt15484588, tt15188066]
+      winner: [tt18748474]
+    'best actress - feature movie':
+      nominee: [tt18688538]
+      winner: [tt18688538]
+    'best art direction':
+      nominee: [tt15261662, tt18688538, tt18748418, tt15484588]
+      winner: [tt15261662]
+    'best cinematography':
+      nominee: [tt18688538, tt18748418, tt14988068, tt15484588]
+      winner: [tt18688538]
+    'best editing':
+      nominee: [tt14988068, tt18688538, tt18748418, tt14452628]
+      winner: [tt14988068]
+    'best screenplay':
+      nominee: [tt18688538, tt18748418, tt14988068]
+      winner: [tt18688538]
+    'best sex scene - all girl':
+      nominee: [tt15052980, tt14486824, tt14500756, tt18748418, tt15188066, tt20783242]
+      winner: [tt15052980]
+    'best sex scene - feature movie':
+      nominee: [tt15261662, tt18688538, tt14988068, tt15484588]
+      winner: [tt15261662]
+    'best sex scene - gonzo':
+      nominee: [tt18748502, tt15758126]
+      winner: [tt18748502]
+    'best sex scene - performer showcase':
+      nominee: [tt18748418, tt15538748, tt15562670]
+      winner: [tt18748418]
+    'best sex scene - trans':
+      nominee: [tt14981468, tt15215384, tt28246562]
+      winner: [tt14981468]
+    'best sex scene - vignette release':
+      nominee: [tt15453244]
+      winner: [tt15453244]
+    'best sex scene - virtual reality':
+      nominee: [tt18925960, tt33163507]
+      winner: [tt18925960]
+    'feature movie of the year':
+      nominee: [tt18688538, tt18748418, tt14988068, tt15484588]
+      winner: [tt18688538]
+    'gay movie of the year':
+      nominee: [tt15388038]
+      winner: [tt15388038]
+    'gonzo movie of the year':
+      nominee: [tt18689036, tt15758126]
+      winner: [tt18689036]
+    'gonzo series of the year':
+      nominee: [tt10731470]
+      winner: [tt10731470]
+    'performer showcase of the year':
+      nominee: [tt15494894, tt15538748]
+      winner: [tt15494894]
+    'trans movie of the year':
+      nominee: [tt18689280]
+      winner: [tt18689280]
+    'vignette release of the year':
+      nominee: [tt15107722]
+      winner: [tt15107722]
+    'vignette series of the year':
+      nominee: [tt14990712]
+      winner: [tt14990712]
+    'best acting - lead':
+      nominee: [tt14988068, tt15484588]
+      winner: []
+    'best non-sex performance':
+      nominee: [tt18688538]
+      winner: []
+    'best sex scene - all-girl':
+      nominee: [tt14614084]
+      winner: []
+    'best sex scene - vignette':
+      nominee: [tt20517238, tt14452628]
+      winner: []
+    'vignette movie of the year':
+      nominee: [tt14452628]
+      winner: []
+
+'2021': # https://www.imdb.com/event/ev0002080/2021/1/
+  'xbiz award':
+    'all-girl movie of the year':
+      nominee: [tt11254706, tt13098608]
+      winner: [tt11254706]
+    'all-girl series of the year':
+      nominee: [tt11394570]
+      winner: [tt11394570]
+    'best acting - lead':
+      nominee: [tt14456714]
+      winner: [tt14456714]
+    'best acting - supporting':
+      nominee: [tt13230566]
+      winner: [tt13230566]
+    'best art direction':
+      nominee: [tt13103592]
+      winner: [tt13103592]
+    'best cinematography':
+      nominee: [tt14456714]
+      winner: [tt14456714]
+    'best editing':
+      nominee: [tt13230566]
+      winner: [tt13230566]
+    'best music':
+      nominee: [tt16449368]
+      winner: [tt16449368]
+    'best screenplay':
+      nominee: [tt21068746]
+      winner: [tt21068746]
+    'best sex scene - all-girl':
+      nominee: [tt18986702, tt13098608]
+      winner: [tt18986702]
+    'best sex scene - erotic-themed':
+      nominee: [tt13149204]
+      winner: [tt13149204]
+    'best sex scene - feature movie':
+      nominee: [tt14456714]
+      winner: [tt14456714]
+    'best sex scene - gonzo':
+      nominee: [tt15487870, tt30446814, tt30429967, tt15816244]
+      winner: [tt15487870]
+    'best sex scene - trans':
+      nominee: [tt11477266, tt28546376]
+      winner: [tt11477266]
+    'best sex scene - vignette':
+      nominee: [tt11539366]
+      winner: [tt11539366]
+    'best sex scene - virtual reality':
+      nominee: [tt12400014, tt26941509]
+      winner: [tt12400014]
+    'erotic-themed movie of the year':
+      nominee: [tt16449368]
+      winner: [tt16449368]
+    'feature movie of the year':
+      nominee: [tt14456714]
+      winner: [tt14456714]
+    'female performer of the year':
+      nominee: [tt22027574]
+      winner: []
+    'gonzo movie of the year':
+      nominee: [tt20242992]
+      winner: [tt20242992]
+    'gonzo series of the year':
+      nominee: [tt10731470]
+      winner: [tt10731470]
+    'vignette movie of the year':
+      nominee: [tt20872822]
+      winner: [tt20872822]
+    'vignette series of the year':
+      nominee: [tt9812420]
+      winner: [tt9812420]
+    'best three-way sex scene':
+      nominee: [tt10804418]
+      winner: []
+    'specialty release of the year':
+      nominee: [tt26941458]
+      winner: []
+    'trans movie of the year':
+      nominee: [tt28546376, tt30460150]
+      winner: []
+  'xbiz cam award':
+    'best cam model duo':
+      nominee: [tt7304276]
+      winner: []
+
+'2020': # https://www.imdb.com/event/ev0002080/2020/1/
+  'xbiz award':
+    'all sex release of the year':
+      nominee: [tt10921588]
+      winner: [tt10921588]
+    'all-girl feature movie of the year':
+      nominee: [tt10808544]
+      winner: [tt10808544]
+    'all-girl non-feature release of the year':
+      nominee: [tt11539656]
+      winner: [tt11539656]
+    'all-girl series of the year':
+      nominee: [tt11394570]
+      winner: [tt11394570]
+    'best actor - comedy movie':
+      nominee: [tt13206808]
+      winner: [tt13206808]
+    'best actor - erotic-themed movie':
+      nominee: [tt12588288, tt11636566]
+      winner: [tt12588288]
+    'best actor - feature movie':
+      nominee: [tt10837472, tt11309414]
+      winner: [tt10837472]
+    'best actress - all-girl movie':
+      nominee: [tt10808544]
+      winner: [tt10808544]
+    'best actress - comedy movie':
+      nominee: [tt13238736, tt10770736]
+      winner: [tt13238736]
+    'best actress - erotic-themed movie':
+      nominee: [tt12588288, tt11636566]
+      winner: [tt12588288]
+    'best actress - feature movie':
+      nominee: [tt11309414]
+      winner: [tt11309414]
+    'best art direction':
+      nominee: [tt10903006, tt10985316, tt11309414]
+      winner: [tt10903006]
+    'best cinematography':
+      nominee: [tt10808544]
+      winner: [tt10808544]
+    'best editing':
+      nominee: [tt10808544, tt11309414]
+      winner: [tt10808544]
+    'best non-sex performance':
+      nominee: [tt10912310]
+      winner: [tt10912310]
+    'best scene - feature movie':
+      nominee: [tt11309414]
+      winner: [tt11309414]
+    'best sex scene - all-sex':
+      nominee: [tt14720980]
+      winner: [tt14720980]
+    'best sex scene - comedy':
+      nominee: [tt11414102]
+      winner: [tt11414102]
+    'best sex scene - erotic-themed':
+      nominee: [tt10985316]
+      winner: [tt10985316]
+    'best sex scene - feature movie':
+      nominee: [tt11309414]
+      winner: [tt11309414]
+    'best sex scene - gonzo':
+      nominee: [tt15750154]
+      winner: [tt15750154]
+    'best sex scene - taboo-themed':
+      nominee: [tt13238736, tt11135836]
+      winner: [tt13238736]
+    'best special effects':
+      nominee: [tt10903006]
+      winner: [tt10903006]
+    'best supporting actor':
+      nominee: [tt13206808]
+      winner: [tt13206808]
+    'best supporting actress':
+      nominee: [tt10808544]
+      winner: [tt10808544]
+    'comedy movie of the year':
+      nominee: [tt13206808]
+      winner: [tt13206808]
+    'erotic-themed movie of the year':
+      nominee: [tt12588288, tt11636566]
+      winner: [tt12588288]
+    'feature movie of the year':
+      nominee: [tt10808544, tt11309414]
+      winner: [tt10808544]
+    'female performer of the year':
+      nominee: [tt22027574]
+      winner: [tt22027574]
+    'foreign movie release of the year':
+      nominee: [tt11634662]
+      winner: [tt11634662]
+    'gonzo release of the year':
+      nominee: [tt13696552]
+      winner: [tt13696552]
+    'gonzo series of the year':
+      nominee: [tt10110302]
+      winner: [tt10110302]
+    'marketing campaign of the year':
+      nominee: [tt11388864, tt11309414]
+      winner: [tt11388864]
+    'performer showcase of the year':
+      nominee: [tt11388864, tt9603764]
+      winner: [tt11388864]
+    'taboo-themed release of the year':
+      nominee: [tt13347330]
+      winner: [tt13347330]
+    'trans movie of the year':
+      nominee: [tt12665562, tt11941130]
+      winner: [tt12665562]
+    'vignette release of the year':
+      nominee: [tt11001118]
+      winner: [tt11001118]
+    'vignette series of the year':
+      nominee: [tt8085744]
+      winner: [tt8085744]
+    'best actor - taboo-themed release':
+      nominee: [tt11135836]
+      winner: []
+    'best music':
+      nominee: [tt10985316]
+      winner: []
+    'best screenplay':
+      nominee: [tt11309414]
+      winner: []
+    'best sex scene - virtual reality':
+      nominee: [tt11629560]
+      winner: []
+    'foreign movie of the year':
+      nominee: [tt11549658]
+      winner: []
+
+'2019': # https://www.imdb.com/event/ev0002080/2019/1/
+  'xbiz award':
+    'best actor - feature movie':
+      nominee: [tt11382976, tt8888008, tt7773358]
+      winner: [tt11382976]
+    'best actress - feature movie':
+      nominee: [tt9554046, tt8888008, tt7773358, tt11382976]
+      winner: [tt9554046]
+    'best cinematography':
+      nominee: [tt8888008, tt7773358, tt11382976]
+      winner: [tt8888008]
+    'best editing':
+      nominee: [tt8888008, tt11382976]
+      winner: [tt8888008]
+    'best screenplay':
+      nominee: [tt8888008, tt11382976]
+      winner: [tt8888008]
+    'best sex scene - all girl':
+      nominee: [tt9049152, tt8888008]
+      winner: [tt9049152]
+    'best sex scene - comedy release':
+      nominee: [tt13047934]
+      winner: [tt13047934]
+    'best sex scene - vignette release':
+      nominee: [tt9049152]
+      winner: [tt9049152]
+    'best sex scene - virtual reality':
+      nominee: [tt12132260, tt20602366, tt11322580, tt28662388]
+      winner: [tt12132260]
+    'best special effects':
+      nominee: [tt7773358]
+      winner: [tt7773358]
+    'feature movie of the year':
+      nominee: [tt8888008, tt7773358, tt11382976]
+      winner: [tt8888008]
+    'foreign feature release of the year':
+      nominee: [tt9049168]
+      winner: [tt9049168]
+    'performer showcase of the year':
+      nominee: [tt8888008]
+      winner: [tt8888008]
+    'vignette release of the year':
+      nominee: [tt9049152]
+      winner: [tt9049152]
+    'best art direction':
+      nominee: [tt8888008, tt7773358, tt11382976]
+      winner: []
+    'best music':
+      nominee: [tt8888008, tt7773358, tt11382976]
+      winner: []
+    'best non-sex performance':
+      nominee: [tt8888008]
+      winner: []
+    'best sex scene - feature movie':
+      nominee: [tt8888008, tt7773358, tt11382976]
+      winner: []
+    'best sex scene - taboo release':
+      nominee: [tt8492738]
+      winner: []
+    'best supporting actor':
+      nominee: [tt8888008, tt11382976]
+      winner: []
+    'best supporting actress':
+      nominee: [tt11382976]
+      winner: []
+    'marketing campaign of the year':
+      nominee: [tt8888008, tt11382976]
+      winner: []
+    'taboo release of the year':
+      nominee: [tt8492738]
+      winner: []
+
+'2018': # https://www.imdb.com/event/ev0002080/2018/1/
+  'xbiz award':
+    'all-girl release of the year: feature':
+      nominee: [tt7466102]
+      winner: [tt7466102]
+    'best actor - feature release':
+      nominee: [tt7664888, tt6692542]
+      winner: [tt7664888]
+    'best actress - all-girl release':
+      nominee: [tt6692542, tt7466102]
+      winner: [tt6692542]
+    'best actress - feature release':
+      nominee: [tt7414058, tt7664888]
+      winner: [tt7414058]
+    'best cinematography':
+      nominee: [tt7664888, tt6840606, tt7414058]
+      winner: [tt7664888]
+    'best editing':
+      nominee: [tt7664888, tt7466102, tt7414058]
+      winner: [tt7664888]
+    'best non-sex performance':
+      nominee: [tt6692542]
+      winner: [tt6692542]
+    'best sex scene - all-girl release':
+      nominee: [tt7292292, tt7466102, tt6665238, tt6576558]
+      winner: [tt7292292]
+    'best supporting actor':
+      nominee: [tt7664888, tt6840606, tt7414058]
+      winner: [tt7664888]
+    'best supporting actress':
+      nominee: [tt7664888, tt6840606, tt7466102, tt7414058]
+      winner: [tt7664888]
+    'feature movie of the year':
+      nominee: [tt7664888, tt6840606, tt7414058]
+      winner: [tt7664888]
+    'foreign feature release of the year':
+      nominee: [tt6263900]
+      winner: [tt6263900]
+    'performer showcase of the year':
+      nominee: [tt7682658, tt7292292, tt10101036]
+      winner: [tt7682658]
+    'screenplay of the year':
+      nominee: [tt7414058, tt6840606, tt7664888, tt6692542]
+      winner: [tt7414058]
+    'best actor - feature movie':
+      nominee: [tt6840606]
+      winner: []
+    'best actress - couples-themed release':
+      nominee: [tt7296224]
+      winner: []
+    'best actress - feature movie':
+      nominee: [tt6840606]
+      winner: []
+    'best art direction':
+      nominee: [tt7466102, tt7664888]
+      winner: []
+    'best music':
+      nominee: [tt6840606, tt7414058, tt7664888]
+      winner: []
+    'best non-sex acting performance':
+      nominee: [tt6917638]
+      winner: []
+    'best scene - couples-themed release':
+      nominee: [tt7296224]
+      winner: []
+    'best scene - feature movie':
+      nominee: [tt6840606]
+      winner: []
+    'best scene - feature release':
+      nominee: [tt7414058, tt7664888]
+      winner: []
+    'best sex scene - taboo release':
+      nominee: [tt29388160]
+      winner: []
+    'best special effects':
+      nominee: [tt7466102]
+      winner: []
+    'couples-themed release':
+      nominee: [tt7296224]
+      winner: []
+    'foreign non-feature release of the year':
+      nominee: [tt7307768]
+      winner: []
+    'marketing campaign of the year':
+      nominee: [tt7682658, tt7664888, tt6576558]
+      winner: []
+
+'2017': # https://www.imdb.com/event/ev0002080/2017/1/
+  'xbiz award':
+    'best actor - feature release':
+      nominee: [tt6128196]
+      winner: [tt6128196]
+    'best actress - feature release':
+      nominee: [tt6128196]
+      winner: [tt6128196]
+    'best scene - feature movie':
+      nominee: [tt5938888, tt5490040]
+      winner: [tt5938888]
+    'best scene - parody release':
+      nominee: [tt5938862]
+      winner: [tt5938862]
+    'best sex scene - all-sex release':
+      nominee: [tt35254821]
+      winner: [tt35254821]
+    'best sex scene - gonzo release':
+      nominee: [tt34969247]
+      winner: [tt34969247]
+    'best sex scene - virtual reality':
+      nominee: [tt38351329]
+      winner: [tt38351329]
+    'director of the year - feature release':
+      nominee: [tt6128196, tt5938888]
+      winner: [tt6128196]
+    'feature movie of the year':
+      nominee: [tt6128196, tt5938888]
+      winner: [tt6128196]
+    'marketing campaign of the year':
+      nominee: [tt5938888]
+      winner: [tt5938888]
+    'performer showcase of the year':
+      nominee: [tt5445728]
+      winner: [tt5445728]
+    'screenplay of the year':
+      nominee: [tt6128196, tt5938888]
+      winner: [tt6128196]
+    'all-girl release of the year: feature':
+      nominee: [tt6358856]
+      winner: []
+    'best actor - feature movie':
+      nominee: [tt5938888]
+      winner: []
+    'best actress - all-girl release':
+      nominee: [tt6358856]
+      winner: []
+    'best actress - feature movie':
+      nominee: [tt5490040, tt5938888]
+      winner: []
+    'best cinematography':
+      nominee: [tt5938888]
+      winner: []
+    'best editing':
+      nominee: [tt5938888]
+      winner: []
+    'best music':
+      nominee: [tt5938888]
+      winner: []
+    'best non-sex acting performance':
+      nominee: [tt7579626, tt5938888]
+      winner: []
+    'best sex scene - all girl':
+      nominee: [tt5786034]
+      winner: []
+    'best sex scene - vignette release':
+      nominee: [tt5583160]
+      winner: []
+    'best supporting actress':
+      nominee: [tt5938888]
+      winner: []
+    'director of the year - non-feature':
+      nominee: [tt5583160]
+      winner: []
+    'director of the year, non-feature release':
+      nominee: [tt7259668]
+      winner: []
+    'foreign feature release of the year':
+      nominee: [tt6058618, tt5866670]
+      winner: []
+    'gonzo release of the year':
+      nominee: [tt7259668]
+      winner: []
+    'vignette release of the year':
+      nominee: [tt5583160]
+      winner: []
+
+'2016': # https://www.imdb.com/event/ev0002080/2016/1/
+  'xbiz award':
+    'best actor - feature movie':
+      nominee: [tt5037816]
+      winner: [tt5037816]
+    'best actress - all-girl release':
+      nominee: [tt5625720]
+      winner: [tt5625720]
+    'best actress - feature release':
+      nominee: [tt4265510]
+      winner: [tt4265510]
+    'best art direction':
+      nominee: [tt5037816]
+      winner: [tt5037816]
+    'best music':
+      nominee: [tt5037816]
+      winner: [tt5037816]
+    'best scene - couples-themed release':
+      nominee: [tt4548678]
+      winner: [tt4548678]
+    'best sex scene - all girl':
+      nominee: [tt5472794]
+      winner: [tt5472794]
+    'best sex scene - feature release':
+      nominee: [tt4265510]
+      winner: [tt4265510]
+    'best sex scene - vignette release':
+      nominee: [tt6846848]
+      winner: [tt6846848]
+    'best supporting actress':
+      nominee: [tt2725882]
+      winner: [tt2725882]
+    'director of the year - feature release':
+      nominee: [tt5037816]
+      winner: [tt5037816]
+    'feature movie of the year':
+      nominee: [tt5037816]
+      winner: [tt5037816]
+    'foreign feature release of the year':
+      nominee: [tt4939924]
+      winner: [tt4939924]
+    'transgender release of the year':
+      nominee: [tt5138268, tt5848558]
+      winner: [tt5138268]
+    'all-sex release of the year':
+      nominee: [tt4760730]
+      winner: []
+    'best actor - parody release':
+      nominee: [tt4538950]
+      winner: []
+    'best actress - feature movie':
+      nominee: [tt4803464, tt5037816]
+      winner: []
+    'best actress - parody release':
+      nominee: [tt5138268, tt4538950]
+      winner: []
+    'best scene - feature movie':
+      nominee: [tt4803464]
+      winner: []
+    'best scene - feature release':
+      nominee: [tt5037816]
+      winner: []
+    'best scene - parody release':
+      nominee: [tt4538950]
+      winner: []
+    'best sex scene - all-girl':
+      nominee: [tt13728934, tt4680668]
+      winner: []
+    'best sex scene - all-sex release':
+      nominee: [tt5061446, tt4680668, tt5034844, tt4760730]
+      winner: []
+    'director of the year - parody':
+      nominee: [tt5138268]
+      winner: []
+    'marketing campaign of the year':
+      nominee: [tt5048456, tt5138268, tt5037816]
+      winner: []
+    'parody release of the year':
+      nominee: [tt5138268, tt4538950]
+      winner: []
+    'performer showcase of the year':
+      nominee: [tt5061446, tt5034844, tt4981976]
+      winner: []
+    'screenplay of the year':
+      nominee: [tt5037816]
+      winner: []
+    'vignette release of the year':
+      nominee: [tt5048456]
+      winner: []
+
+'2015': # https://www.imdb.com/event/ev0002080/2015/1/
+  'xbiz award':
+    'best non-sex acting performance':
+      nominee: [tt4043864]
+      winner: [tt4043864]
+    'best scene - non-feature release':
+      nominee: [tt3983340]
+      winner: [tt3983340]
+    'best special effects':
+      nominee: [tt4089910]
+      winner: [tt4089910]
+    'all sex series of the year':
+      nominee: [tt3290986]
+      winner: []
+    'all-girl release of the year: feature':
+      nominee: [tt6692542]
+      winner: []
+    'best actor - feature movie':
+      nominee: [tt4089910]
+      winner: []
+    'best actor - parody release':
+      nominee: [tt3799682, tt3525550]
+      winner: []
+    'best actress - feature movie':
+      nominee: [tt4089910]
+      winner: []
+    'best actress - parody release':
+      nominee: [tt3799682, tt3525550]
+      winner: []
+    'best art direction':
+      nominee: [tt4089910, tt3525550]
+      winner: []
+    'best cinematography':
+      nominee: [tt4089910, tt3525550]
+      winner: []
+    'best editing':
+      nominee: [tt4089910, tt3525550]
+      winner: []
+    'best music':
+      nominee: [tt4089910]
+      winner: []
+    'best scene - couples-themed release':
+      nominee: [tt4667270, tt3803672]
+      winner: []
+    'best scene - feature movie':
+      nominee: [tt4089910]
+      winner: []
+    'best scene - parody release':
+      nominee: [tt3525550]
+      winner: []
+    'best sex scene - all-girl':
+      nominee: [tt3803672]
+      winner: []
+    'best supporting actor':
+      nominee: [tt4089910]
+      winner: []
+    'best supporting actress':
+      nominee: [tt4089910]
+      winner: []
+    'director of the year - feature release':
+      nominee: [tt4089910]
+      winner: []
+    'director of the year - parody':
+      nominee: [tt3525550]
+      winner: []
+    'director of the year, non-feature release':
+      nominee: [tt4052742]
+      winner: []
+    'european non-feature release of the year':
+      nominee: [tt3484656]
+      winner: []
+    'feature movie of the year':
+      nominee: [tt4089910]
+      winner: []
+    'interracial release of the year':
+      nominee: [tt4202254, tt17506756]
+      winner: []
+    'parody release of the year - comedy':
+      nominee: [tt3414238]
+      winner: []
+    'parody release of the year - drama':
+      nominee: [tt3525550]
+      winner: []
+    'screenplay of the year':
+      nominee: [tt4089910]
+      winner: []
+    'transsexual release of the year':
+      nominee: [tt3335734]
+      winner: []
+    'vignette release of the year':
+      nominee: [tt4052742]
+      winner: []
+
+'2014': # https://www.imdb.com/event/ev0002080/2014/1/
+  'xbiz award':
+    'best actress - all-girl release':
+      nominee: [tt3121678, tt2502812, tt3675252, tt2783514, tt2997384, tt4055452, tt2763574, tt2763500]
+      winner: [tt3121678]
+    'best actress - couples-themed release':
+      nominee: [tt2829054, tt2705282, tt2560946, tt2916806, tt2832712, tt2876934, tt2785434, tt3127076, tt2845254, tt2785544]
+      winner: [tt2829054]
+    'best actress - feature movie':
+      nominee: [tt3245196, tt3243108, tt3284470, tt2980342, tt3157528, tt2701422, tt3241810, tt3229634, tt3334218, tt2725882]
+      winner: [tt3245196]
+    'best actress - parody release':
+      nominee: [tt3268042, tt2816874, tt3161824, tt3520140, tt3348212, tt3284436, tt3241820, tt3060468, tt3251264, tt2739590]
+      winner: [tt3268042]
+    'best scene - feature movie':
+      nominee: [tt2701422, tt3334240, tt3243108, tt2980342, tt3245196, tt3241810, tt3334218, tt2725882]
+      winner: [tt2701422]
+    'best supporting actress':
+      nominee: [tt2725882, tt3243108, tt3060468, tt3245196, tt3334240, tt3268042, tt2980342, tt3241810, tt3520140, tt2739590, tt3121678]
+      winner: [tt2725882]
+    'director of the year - parody':
+      nominee: [tt3268042]
+      winner: [tt3268042]
+    'parody release of the year - comedy':
+      nominee: [tt3268042]
+      winner: [tt3268042]
+    'all sex release of the year':
+      nominee: [tt3290986]
+      winner: []
+    'best actor - couples-themed release':
+      nominee: [tt2916806]
+      winner: []
+    'best scene - couples-themed release':
+      nominee: [tt2916806, tt2999742]
+      winner: []
+    'best scene - non-feature release':
+      nominee: [tt2947410]
+      winner: []
+    'best scene - parody release':
+      nominee: [tt3348212]
+      winner: []
+    'couples-themed release of the year':
+      nominee: [tt2916806, tt2999742]
+      winner: []
+
+'2013': # https://www.imdb.com/event/ev0002080/2013/1/
+  'xbiz award':
+    'best actress - feature movie':
+      nominee: [tt2504910, tt2622668, tt2332594, tt2493256, tt3018082, tt2496550, tt2494196, tt2103240, tt2808066]
+      winner: [tt2504910]
+    'best actor - couples-themed release':
+      nominee: [tt2622668]
+      winner: []
+    'best actor - feature movie':
+      nominee: [tt2622668, tt2496550]
+      winner: []
+    'best actor - parody release':
+      nominee: [tt2184319]
+      winner: []
+    'best actress - couples-themed release':
+      nominee: [tt2622668]
+      winner: []
+    'best actress - parody release':
+      nominee: [tt2184319, tt2147584]
+      winner: []
+    'best art direction':
+      nominee: [tt2496550]
+      winner: []
+    'best editing':
+      nominee: [tt2496550]
+      winner: []
+    'best music':
+      nominee: [tt2496550]
+      winner: []
+    'best non-sex acting performance':
+      nominee: [tt2622668, tt2496550]
+      winner: []
+    'best scene - couples-themed release':
+      nominee: [tt2622668]
+      winner: []
+    'best scene - feature movie':
+      nominee: [tt2808066, tt2622668, tt2496550]
+      winner: []
+    'best scene - gonzo/non-feature release':
+      nominee: [tt2617162]
+      winner: []
+    'best scene - non-feature release':
+      nominee: [tt3001694]
+      winner: []
+    'best scene - parody release':
+      nominee: [tt2184319]
+      winner: []
+    'best sex scene - all-girl':
+      nominee: [tt2147584]
+      winner: []
+    'best special effects':
+      nominee: [tt2496550, tt2147584]
+      winner: []
+    'best supporting actor':
+      nominee: [tt2622668, tt2496550]
+      winner: []
+    'best supporting actress':
+      nominee: [tt2808066, tt2496550]
+      winner: []
+    'couples-themed release':
+      nominee: [tt2808066, tt2622668]
+      winner: []
+    'director of the year - feature release':
+      nominee: [tt2808066, tt2622668, tt2496550]
+      winner: []
+    'director of the year - parody':
+      nominee: [tt2184319, tt2147584]
+      winner: []
+    'feature movie of the year':
+      nominee: [tt2622668, tt2496550]
+      winner: []
+    'fetish release of the year':
+      nominee: [tt2179046]
+      winner: []
+    'gonzo release of the year':
+      nominee: [tt3169672]
+      winner: []
+    'marketing campaign of the year':
+      nominee: [tt2496550]
+      winner: []
+    'parody release of the year - drama':
+      nominee: [tt2184319, tt2147584]
+      winner: []
+    'screenplay of the year':
+      nominee: [tt2496550]
+      winner: []
+    'transsexual release of the year':
+      nominee: [tt4417158]
+      winner: []
+    'vignette release of the year':
+      nominee: [tt2364692]
+      winner: []
+
+'2012': # https://www.imdb.com/event/ev0002080/2012/1/
+  'xbiz award':
+    'feature movie of the year':
+      nominee: [tt2071559, tt2092414, tt2027209]
+      winner: [tt2071559]
+    'acting performance of the year - male':
+      nominee: [tt2334789]
+      winner: []
+    'all sex release of the year':
+      nominee: [tt2058031]
+      winner: []
+    'director of the year - individual project':
+      nominee: [tt2334789, tt2027209, tt2121249]
+      winner: []
+    'director of the year, individual project':
+      nominee: [tt1967616]
+      winner: []
+    'fetish release of the year':
+      nominee: [tt1754292]
+      winner: []
+    'parody release of the year':
+      nominee: [tt1825099]
+      winner: []
+    'parody release of the year - comedy':
+      nominee: [tt1830795, tt2334789, tt2121249]
+      winner: []
+    'screenplay of the year':
+      nominee: [tt2121249]
+      winner: []
+    'vignette release of the year':
+      nominee: [tt2005345]
+      winner: []
+    'vignette series of the year':
+      nominee: [tt1754292]
+      winner: []
+
+'2011': # https://www.imdb.com/event/ev0002080/2011/1/
+  'xbiz award':
+    'gonzo release of the year':
+      nominee: [tt1644657]
+      winner: []
+
+'2010': # https://www.imdb.com/event/ev0002080/2010/1/
+  'xbiz award':
+    'feature movie of the year':
+      nominee: [tt1505927, tt1519241, tt1409126, tt1630631, tt1489171, tt1372254, tt1578121, tt1519309, tt1515793, tt1303757, tt1590111, tt1977871, tt1364440, tt1519380, tt1493204, tt1515918, tt1519425, tt1325647, tt1402577, tt1310622]
+      winner: [tt1505927]
+    'people''s choice - porn director of the year':
+      nominee: [tt1292033]
+      winner: [tt1292033]
+
+'2009': # https://www.imdb.com/event/ev0002080/2009/1/
+  'xbiz award':
+    'crossover star of the year':
+      nominee: [tt0799887]
+      winner: []
+    'director of the year - individual project':
+      nominee: [tt1282224, tt1301157, tt1442310, tt1289660, tt2131621, tt1303714, tt1206932, tt1198560, tt1291683, tt1266097, tt1242731, tt1300329, tt1250727, tt1225757, tt1211969]
+      winner: [tt1282224]
+    'feature movie of the year':
+      nominee: [tt1266097, tt1230221, tt1242731, tt1250727, tt1303714, tt1301157, tt1228725, tt1388785, tt1177164, tt1282224, tt1291683, tt2131621, tt1120918, tt1225757, tt1300329, tt1289660]
+      winner: [tt1266097]
+    'gonzo release of the year':
+      nominee: [tt1184808, tt1177079, tt1233521, tt1275943, tt1195718, tt1240447, tt1274271, tt1198597, tt1232114, tt1211909, tt1211936, tt1303808, tt1184740, tt1160549, tt1225762]
+      winner: [tt1184808]
+    'marketing campaign of the year':
+      nominee: [tt1310622, tt1291683, tt1266097, tt1258685, tt1289775, tt1303714, tt1282224]
+      winner: [tt1310622]
+    'glbt movie of the year':
+      nominee: [tt2231127, tt2943050, tt1318062, tt1339450, tt1199654, tt1252509, tt2594286, tt1621952, tt1206538, tt1258801]
+      winner: []
+
+'2008': # https://www.imdb.com/event/ev0002080/2008/1/
+  'xbiz award':
+    'feature movie of the year':
+      nominee: [tt1160623, tt1160494, tt1116735, tt0979863, tt1385517, tt1116763, tt1106787, tt1256527, tt1111387, tt1160607]
+      winner: [tt1160623]
+    'glbt feature movie of the year':
+      nominee: [tt1201151, tt1207625, tt1210100, tt1201139, tt1261817, tt1202011, tt0988036, tt1095407, tt1801819, tt1207731, tt1159696, tt1210525]
+      winner: [tt1201151]
+    'gonzo series of the year':
+      nominee: [tt0943446, tt2765142, tt0965577, tt1116722, tt1290144, tt1037017, tt0891448, tt1017895, tt0981055]
+      winner: [tt0943446]
+    'marketing campaign of the year':
+      nominee: [tt1256527]
+      winner: [tt1256527]
+
+'2007': # https://www.imdb.com/event/ev0002080/2007/1/
+  'xbiz award':
+    'crossover move of the year':
+      nominee: [tt0068468]
+      winner: []

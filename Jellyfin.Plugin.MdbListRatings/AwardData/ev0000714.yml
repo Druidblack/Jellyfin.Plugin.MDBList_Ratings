@@ -1,0 +1,878 @@
+# X-Rated Critics' Organization, USA
+
+'2025': # https://www.imdb.com/event/ev0000714/2025/1/
+  'xrco award':
+    'all in the family':
+      nominee: [tt30983100]
+      winner: [tt30983100]
+    'best actor':
+      nominee: [tt33306508]
+      winner: [tt33306508]
+    'best actress':
+      nominee: [tt33504235]
+      winner: [tt33504235]
+    'best anal series':
+      nominee: [tt10731470]
+      winner: [tt10731470]
+    'best comedy':
+      nominee: [tt33255040]
+      winner: [tt33255040]
+    'best gonzo movie':
+      nominee: [tt34798972]
+      winner: [tt34798972]
+    'best release':
+      nominee: [tt31594471]
+      winner: [tt31594471]
+    'best star showcase':
+      nominee: [tt34814720]
+      winner: [tt34814720]
+
+'2024': # https://www.imdb.com/event/ev0000714/2024/1/
+  'xrco award':
+    'best actress':
+      nominee: [tt28086675]
+      winner: [tt28086675]
+    'best comedy':
+      nominee: [tt27511313]
+      winner: [tt27511313]
+    'best ethnic/blended series':
+      nominee: [tt8085744]
+      winner: [tt8085744]
+    'best release':
+      nominee: [tt29520019]
+      winner: [tt29520019]
+  'charlotte stokely girl/girl performer of the year award':
+    'star showcase':
+      nominee: [tt28234370]
+      winner: [tt28234370]
+
+'2023': # https://www.imdb.com/event/ev0000714/2023/1/
+  'xrco award':
+    'best actor':
+      nominee: [tt23850848, tt21919214, tt20198930, tt16711396, tt16793482, tt17501384]
+      winner: [tt23850848]
+    'best actress':
+      nominee: [tt23132004, tt24226516, tt21836608, tt22202852, tt21958162, tt16793482]
+      winner: [tt23132004]
+    'best comedy':
+      nominee: [tt19755726, tt21302572, tt22405612, tt22081368]
+      winner: [tt19755726]
+    'best gonzo movie':
+      nominee: [tt22482766, tt25964752, tt22239750]
+      winner: [tt22482766]
+    'best gonzo series':
+      nominee: [tt8085744, tt5917524, tt10556018, tt10731470]
+      winner: [tt8085744]
+    'best parody':
+      nominee: [tt22081368]
+      winner: [tt22081368]
+    'best release':
+      nominee: [tt23850848, tt23132004, tt20198930, tt26629159, tt21958162]
+      winner: [tt23850848]
+    'best star showcase':
+      nominee: [tt25401988, tt27031930, tt22460582, tt23777958, tt27845541]
+      winner: [tt25401988]
+  'charlotte stokely girl/girl performer of the year award':
+    'best girl/girl series':
+      nominee: [tt24225484, tt7813208, tt24334850]
+      winner: []
+    'best ongoing blended series':
+      nominee: [tt16280056, tt23133974]
+      winner: []
+
+'2022': # https://www.imdb.com/event/ev0000714/2022/1/
+  'xrco award':
+    'best comedy':
+      nominee: [tt15836012, tt15261662, tt18748418]
+      winner: [tt15836012]
+    'best release':
+      nominee: [tt15494894, tt15472110, tt14988068, tt18688538, tt15027260, tt18748474]
+      winner: [tt15494894]
+    'best gonzo movie':
+      nominee: [tt14928008, tt15562648, tt15758126, tt18689036]
+      winner: []
+
+'2021': # https://www.imdb.com/event/ev0000714/2021/1/
+  'xrco award':
+    'best actress':
+      nominee: [tt30446814]
+      winner: []
+    'best comedy':
+      nominee: [tt30446814]
+      winner: []
+    'best gonzo movie':
+      nominee: [tt15816244]
+      winner: []
+    'star showcase':
+      nominee: [tt15768506]
+      winner: []
+
+'2020': # https://www.imdb.com/event/ev0000714/2020/1/
+  'xrco award':
+    'best actor':
+      nominee: [tt10837472, tt11309414]
+      winner: [tt10837472]
+    'best actress':
+      nominee: [tt10837472, tt11309414]
+      winner: [tt10837472]
+    'best star showcase':
+      nominee: [tt12150210, tt38177954, tt11388864]
+      winner: [tt12150210]
+    'best release':
+      nominee: [tt11309414]
+      winner: []
+
+'2019': # https://www.imdb.com/event/ev0000714/2019/1/
+  'xrco award':
+    'best actor':
+      nominee: [tt11382976]
+      winner: [tt11382976]
+    'best anal series':
+      nominee: [tt9482958]
+      winner: [tt9482958]
+    'best interracial series':
+      nominee: [tt8085744]
+      winner: [tt8085744]
+    'star showcase':
+      nominee: [tt10071242, tt9603764]
+      winner: [tt10071242]
+    'best actress':
+      nominee: [tt11382976]
+      winner: []
+    'best gonzo release':
+      nominee: [tt11100566]
+      winner: []
+    'best parody':
+      nominee: [tt7773358, tt11382976]
+      winner: []
+
+'2017': # https://www.imdb.com/event/ev0000714/2017/1/
+  'xrco award':
+    'best actress':
+      nominee: [tt5490040, tt5938888]
+      winner: []
+    'best release':
+      nominee: [tt5938888]
+      winner: []
+
+'2016': # https://www.imdb.com/event/ev0000714/2016/1/
+  'xrco award':
+    'best actress':
+      nominee: [tt4803464]
+      winner: [tt4803464]
+
+'2015': # https://www.imdb.com/event/ev0000714/2015/1/
+  'xrco award':
+    'best actor':
+      nominee: [tt3799682]
+      winner: []
+    'best gonzo movie':
+      nominee: [tt3983340]
+      winner: []
+    'best parody - comedy':
+      nominee: [tt3799682]
+      winner: []
+    'best parody - drama':
+      nominee: [tt3525550]
+      winner: []
+
+'2014': # https://www.imdb.com/event/ev0000714/2014/1/
+  'xrco award':
+    'best actress':
+      nominee: [tt3245196, tt3243108, tt2739538, tt2701422, tt3241810, tt3060468, tt2725882]
+      winner: [tt3245196]
+    'best epic':
+      nominee: [tt3243108, tt2980342, tt2701422, tt3157528, tt3241810, tt17506612]
+      winner: [tt3243108]
+    'best gonzo movie':
+      nominee: [tt3013186, tt3292902, tt2761862, tt2689934, tt3272314, tt3376554]
+      winner: [tt3013186]
+    'best parody - comedy':
+      nominee: [tt3268042]
+      winner: [tt3268042]
+    'best release':
+      nominee: [tt2725882, tt2916806, tt3334218, tt2761846, tt3326374, tt2589104, tt3245196, tt2829054]
+      winner: [tt2725882]
+    'director of the year':
+      nominee: [tt3268042]
+      winner: [tt3268042]
+
+'2013': # https://www.imdb.com/event/ev0000714/2013/1/
+  'xrco award':
+    'best actor':
+      nominee: [tt2493256, tt2510410, tt2196730, tt2496550, tt2285633, tt2808066]
+      winner: [tt2493256]
+    'best actress':
+      nominee: [tt2504910, tt2059288, tt2493256, tt3018082, tt2378529]
+      winner: [tt2504910]
+
+'2012': # https://www.imdb.com/event/ev0000714/2012/1/
+  'xrco award':
+    'best parody - comedy':
+      nominee: [tt2014333, tt2069729, tt2255751, tt2400459, tt1754630]
+      winner: [tt2014333]
+    'best parody - drama':
+      nominee: [tt2074448, tt2137236, tt1874763, tt1977920, tt2030379]
+      winner: [tt2074448]
+    'best release':
+      nominee: [tt1852014, tt2072219]
+      winner: [tt1852014]
+    'best parody - comic book':
+      nominee: [tt2056702]
+      winner: []
+
+'2011': # https://www.imdb.com/event/ev0000714/2011/1/
+  'xrco award':
+    'best epic':
+      nominee: [tt1733291]
+      winner: [tt1733291]
+    'best gonzo movie':
+      nominee: [tt1742195]
+      winner: [tt1742195]
+    'best parody - comedy':
+      nominee: [tt1644691]
+      winner: [tt1644691]
+    'best parody - drama':
+      nominee: [tt1714754]
+      winner: [tt1714754]
+    'best release':
+      nominee: [tt1644663]
+      winner: [tt1644663]
+    'most outrageous dvd xtras':
+      nominee: [tt1733291]
+      winner: [tt1733291]
+
+'2010': # https://www.imdb.com/event/ev0000714/2010/1/
+  'xrco award':
+    'best comedy or parody':
+      nominee: [tt1511442]
+      winner: [tt1511442]
+    'best epic':
+      nominee: [tt1519241]
+      winner: [tt1519241]
+    'best gonzo movie':
+      nominee: [tt1468012]
+      winner: [tt1468012]
+    'best release':
+      nominee: [tt1519309]
+      winner: [tt1519309]
+    'single performance - actor':
+      nominee: [tt1511442, tt1519425, tt1621929, tt1519241, tt1519380]
+      winner: [tt1511442]
+    'single performance - actress':
+      nominee: [tt1519425, tt1519380, tt1505927, tt1402577, tt1446121]
+      winner: [tt1519425]
+    'xrco hall of fame':
+      nominee: [tt0153772]
+      winner: [tt0153772]
+
+'2009': # https://www.imdb.com/event/ev0000714/2009/1/
+  'xrco award':
+    'best comedy - parody':
+      nominee: [tt1282224]
+      winner: [tt1282224]
+    'best epic':
+      nominee: [tt1303714, tt1266097, tt1301157, tt1274271, tt1291683]
+      winner: [tt1303714, tt1266097]
+    'best release':
+      nominee: [tt1233521]
+      winner: [tt1233521]
+  'deep throat award':
+    'most outrageous extras':
+      nominee: [tt1266097]
+      winner: [tt1266097]
+    'single performance - actor':
+      nominee: [tt1266097, tt1301157, tt1289598, tt1303714, tt1289660]
+      winner: [tt1266097]
+    'single performance - actress':
+      nominee: [tt1303714, tt1300329, tt1291683, tt1250727, tt1266097]
+      winner: [tt1303714]
+    'xrco hall of fame':
+      nominee: [tt0135976]
+      winner: [tt0135976]
+
+'2008': # https://www.imdb.com/event/ev0000714/2008/1/
+  'xrco award':
+    'best comedy or parody':
+      nominee: [tt1256527]
+      winner: [tt1256527]
+    'best epic':
+      nominee: [tt1160623]
+      winner: [tt1160623]
+    'best girl-girl release':
+      nominee: [tt0979885]
+      winner: [tt0979885]
+    'best release':
+      nominee: [tt1116724, tt1160494, tt1116735, tt0962574, tt1022545]
+      winner: [tt1116724]
+    'most outrageous dvd xtras':
+      nominee: [tt1160623, tt1256527]
+      winner: [tt1160623]
+    'single performance - actor':
+      nominee: [tt1096857, tt1022545, tt1111387, tt1102190, tt1160623]
+      winner: [tt1096857]
+    'single performance - actress':
+      nominee: [tt1160623, tt1111387, tt1022545, tt0962574, tt1102190]
+      winner: [tt1160623]
+    'xrco hall of fame':
+      nominee: [tt0196897]
+      winner: [tt0196897]
+
+'2007': # https://www.imdb.com/event/ev0000714/2007/1/
+  'xrco award':
+    'best comedy or parody':
+      nominee: [tt1285253]
+      winner: [tt1285253]
+    'best gonzo movie':
+      nominee: [tt0845470]
+      winner: [tt0845470]
+    'best on-screen chemistry':
+      nominee: [tt0892293, tt0897430, tt0840340, tt0920621]
+      winner: [tt0892293]
+    'best release':
+      nominee: [tt0852636]
+      winner: [tt0852636]
+    'best single performance - actor':
+      nominee: [tt0852636, tt0847136, tt0844966, tt0492762, tt0892293]
+      winner: [tt0852636]
+    'best single performance - actress':
+      nominee: [tt1160501, tt0976044, tt0840028, tt0892293]
+      winner: [tt1160501]
+    'best epic':
+      nominee: [tt0892293]
+      winner: []
+    'xrco hall of fame':
+      nominee: [tt0113619]
+      winner: [tt0113619]
+
+'2006': # https://www.imdb.com/event/ev0000714/2006/1/
+  'xrco award':
+    'best amateur/pro-am movie':
+      nominee: [tt0463629]
+      winner: [tt0463629]
+    'best comedy or parody':
+      nominee: [tt0494318]
+      winner: [tt0494318]
+    'best gonzo movie':
+      nominee: [tt0474367]
+      winner: [tt0474367]
+    'single performance - actor':
+      nominee: [tt0494331]
+      winner: [tt0494331]
+    'single performance - actress':
+      nominee: [tt0474270, tt0492597, tt0477457, tt0458594]
+      winner: [tt0474270]
+    'xrco hall of fame':
+      nominee: [tt0161555, tt0104579, tt0082802]
+      winner: [tt0161555, tt0104579, tt0082802]
+
+'2005': # https://www.imdb.com/event/ev0000714/2005/1/
+  'xrco award':
+    '3-way':
+      nominee: [tt0428543, tt0422140]
+      winner: [tt0428543]
+    'best comedy or parody':
+      nominee: [tt0418897]
+      winner: [tt0418897]
+    'best film':
+      nominee: [tt0368859, tt0428415, tt0426855]
+      winner: [tt0368859]
+    'best video':
+      nominee: [tt0415064, tt0428517, tt0413141, tt0404816, tt0401590]
+      winner: [tt0415064]
+    'girl/girl':
+      nominee: [tt0432187]
+      winner: [tt0432187]
+    'group scene':
+      nominee: [tt0429635]
+      winner: [tt0429635]
+    'sex scene - couple':
+      nominee: [tt0422636, tt0432108]
+      winner: [tt0422636]
+    'single performance - actor':
+      nominee: [tt0418897]
+      winner: [tt0418897]
+    'single performance - actress':
+      nominee: [tt0428547, tt0426956, tt0368859, tt0404816, tt0423251]
+      winner: [tt0428547]
+
+'2004': # https://www.imdb.com/event/ev0000714/2004/1/
+  'xrco award':
+    '3-way':
+      nominee: [tt2042599]
+      winner: [tt2042599]
+    'best comedy or parody':
+      nominee: [tt0386047]
+      winner: [tt0386047]
+    'best film':
+      nominee: [tt0419297]
+      winner: [tt0419297]
+    'best single performance - actress':
+      nominee: [tt0419297, tt0389775, tt0411443, tt0408558, tt0412930]
+      winner: [tt0419297]
+    'best single performance, actor':
+      nominee: [tt0386047]
+      winner: [tt0386047]
+    'girl-girl':
+      nominee: [tt2077800]
+      winner: [tt2077800]
+    'group scene':
+      nominee: [tt0408788, tt0397324]
+      winner: [tt0408788]
+    'sex scene - couple':
+      nominee: [tt2124746]
+      winner: [tt2124746]
+    'best dvd':
+      nominee: [tt0386047]
+      winner: []
+    'girl/girl':
+      nominee: [tt0410110]
+      winner: []
+
+'2003': # https://www.imdb.com/event/ev0000714/2003/1/
+  'xrco award':
+    'best actor':
+      nominee: [tt0341350]
+      winner: [tt0341350]
+    'best actress':
+      nominee: [tt0341350, tt0355486, tt0321441, tt0349424]
+      winner: [tt0341350]
+    'best dvd':
+      nominee: [tt0306790]
+      winner: [tt0306790]
+    'best film':
+      nominee: [tt0341350]
+      winner: [tt0341350]
+    'best girl-girl sex scene':
+      nominee: [tt0341350]
+      winner: [tt0341350]
+    'best group sex scene':
+      nominee: [tt0341350]
+      winner: [tt0341350]
+    'best male-female sex scene':
+      nominee: [tt0341350]
+      winner: [tt0341350]
+    'best threeway sex scene':
+      nominee: [tt0358223, tt0325429, tt0307997, tt0365812]
+      winner: [tt0358223]
+    'best video':
+      nominee: [tt0349107]
+      winner: [tt0349107]
+    'worst movie of the year':
+      nominee: [tt0797874]
+      winner: [tt0797874]
+    'group scene':
+      nominee: [tt0330920]
+      winner: []
+
+'2002': # https://www.imdb.com/event/ev0000714/2002/1/
+  'xrco award':
+    'best actor':
+      nominee: [tt0299638]
+      winner: [tt0299638]
+    'best actress':
+      nominee: [tt0309583, tt2144916, tt0283621, tt1310678, tt0306790]
+      winner: [tt0309583]
+    'best dvd':
+      nominee: [tt0309494]
+      winner: [tt0309494]
+    'best film':
+      nominee: [tt0309583]
+      winner: [tt0309583]
+    'best girl-girl sex scene':
+      nominee: [tt0308657, tt0309328]
+      winner: [tt0308657]
+    'best group sex scene':
+      nominee: [tt0293817]
+      winner: [tt0293817]
+    'best male-female sex scene':
+      nominee: [tt0318177]
+      winner: [tt0318177]
+    'best threeway sex scene':
+      nominee: [tt0292312]
+      winner: [tt0292312]
+    'best video':
+      nominee: [tt0306790]
+      winner: [tt0306790]
+    'worst movie of the year':
+      nominee: [tt0299897]
+      winner: [tt0299897]
+
+'2001': # https://www.imdb.com/event/ev0000714/2001/1/
+  'xrco award':
+    'actress (single performance)':
+      nominee: [tt0282635, tt0273280, tt0283133, tt0280887, tt0283110]
+      winner: [tt0282635]
+    'best dvd':
+      nominee: [tt0255963]
+      winner: [tt0255963]
+    'best film':
+      nominee: [tt0283110]
+      winner: [tt0283110]
+    'best threeway sex scene':
+      nominee: [tt0273969]
+      winner: [tt0273969]
+    'best video':
+      nominee: [tt0273488]
+      winner: [tt0273488]
+    'actor (single performance)':
+      nominee: [tt0271332]
+      winner: []
+    'best male-female sex scene':
+      nominee: [tt0273488, tt0273879, tt0282486, tt0283133]
+      winner: []
+
+'2000': # https://www.imdb.com/event/ev0000714/2000/1/
+  'xrco award':
+    'best film':
+      nominee: [tt0265055, tt0207510, tt0234352, tt0216199, tt0865357]
+      winner: [tt0265055]
+    'best video':
+      nominee: [tt0210365, tt0233520, tt0225501, tt0186973, tt0234938]
+      winner: [tt0210365]
+    'girl-girl':
+      nominee: [tt0210365]
+      winner: [tt0210365]
+    'male-female couple':
+      nominee: [tt0234352]
+      winner: [tt0234352]
+    'single performance - actor':
+      nominee: [tt0186973, tt0233447, tt0234068, tt0234352, tt0265055]
+      winner: [tt0186973]
+    'single performance - actress':
+      nominee: [tt0265055, tt0233447, tt0210365, tt0234352]
+      winner: [tt0265055]
+
+'1999': # https://www.imdb.com/event/ev0000714/1999/1/
+  'xrco award':
+    'actor (single performance)':
+      nominee: [tt0775507, tt0303825, tt0156525, tt0165881]
+      winner: [tt0775507]
+    'actress (single performance)':
+      nominee: [tt0156381, tt0775507, tt0185435, tt0326558, tt0165881]
+      winner: [tt0156381]
+    'best anal or d.p. scene':
+      nominee: [tt0192703, tt0148113, tt0775507, tt0192235, tt0234536]
+      winner: [tt0192703]
+    'best film':
+      nominee: [tt0171513, tt0303825, tt0185435, tt0165881, tt0192323]
+      winner: [tt0171513]
+    'best girl-girl scene':
+      nominee: [tt0234850, tt0160093, tt0159950, tt0238724, tt0269794]
+      winner: [tt0234850]
+    'best group scene':
+      nominee: [tt0266263]
+      winner: [tt0266263]
+    'best male-female scene':
+      nominee: [tt0389276, tt0775507, tt0165881, tt0156381, tt0271514]
+      winner: [tt0389276]
+    'best video':
+      nominee: [tt0156381, tt0192235, tt0164822, tt0192462, tt0234536]
+      winner: [tt0156381]
+    'worst movie of the year':
+      nominee: [tt0222505, tt0268642]
+      winner: [tt0222505]
+
+'1998': # https://www.imdb.com/event/ev0000714/1998/1/
+  'xrco award':
+    'best actor':
+      nominee: [tt0151056]
+      winner: [tt0151056]
+    'best actress':
+      nominee: [tt0139875]
+      winner: [tt0139875]
+    'best anal sex scene':
+      nominee: [tt0297772]
+      winner: [tt0297772]
+    'best film':
+      nominee: [tt0139875]
+      winner: [tt0139875]
+    'best girl-girl scene':
+      nominee: [tt0396728]
+      winner: [tt0396728]
+    'best group sex scene':
+      nominee: [tt0281098]
+      winner: [tt0281098]
+    'best male-female sex scene':
+      nominee: [tt0281098]
+      winner: [tt0281098]
+    'worst movie of the year':
+      nominee: [tt0187677]
+      winner: [tt0187677]
+
+'1997': # https://www.imdb.com/event/ev0000714/1997/1/
+  'xrco award':
+    'actor (single performance)':
+      nominee: [tt0124575]
+      winner: [tt0124575]
+    'actress (single performance)':
+      nominee: [tt0189778]
+      winner: [tt0189778]
+    'best anal or d.p. scene':
+      nominee: [tt0123632]
+      winner: [tt0123632]
+    'best film':
+      nominee: [tt0152379]
+      winner: [tt0152379]
+    'best video':
+      nominee: [tt0166519]
+      winner: [tt0166519]
+
+'1996': # https://www.imdb.com/event/ev0000714/1996/1/
+  'xrco award':
+    'actor (single performance)':
+      nominee: [tt0113619]
+      winner: [tt0113619]
+    'best actress - video':
+      nominee: [tt0128523]
+      winner: [tt0128523]
+    'best film':
+      nominee: [tt0123554]
+      winner: [tt0123554]
+    'best male-female sex scene':
+      nominee: [tt0183357]
+      winner: [tt0183357]
+    'best orgy':
+      nominee: [tt0134842]
+      winner: [tt0134842]
+    'best video':
+      nominee: [tt0113619]
+      winner: [tt0113619]
+    'worst movie of the year':
+      nominee: [tt0196217]
+      winner: [tt0196217]
+
+'1995': # https://www.imdb.com/event/ev0000714/1995/1/
+  'xrco award':
+    'best anal sex scene':
+      nominee: [tt0146445, tt0134352]
+      winner: [tt0146445, tt0134352]
+    'best couples scene':
+      nominee: [tt0160857]
+      winner: [tt0160857]
+    'best film':
+      nominee: [tt0135976]
+      winner: [tt0135976]
+    'best girl-girl scene':
+      nominee: [tt0124394]
+      winner: [tt0124394]
+    'best group scene':
+      nominee: [tt0134385]
+      winner: [tt0134385]
+    'best video':
+      nominee: [tt0152865]
+      winner: [tt0152865]
+
+'1994': # https://www.imdb.com/event/ev0000714/1994/1/
+  'xrco award':
+    'actor (single performance)':
+      nominee: [tt0148528]
+      winner: [tt0148528]
+    'actress (single performance)':
+      nominee: [tt0161294]
+      winner: [tt0161294]
+    'best couples scene':
+      nominee: [tt0148528]
+      winner: [tt0148528]
+    'best film':
+      nominee: [tt0104579]
+      winner: [tt0104579]
+    'best girl-girl scene':
+      nominee: [tt0104415]
+      winner: [tt0104415]
+    'best video':
+      nominee: [tt0105192]
+      winner: [tt0105192]
+
+'1993': # https://www.imdb.com/event/ev0000714/1993/1/
+  'xrco award':
+    'best film':
+      nominee: [tt0134527]
+      winner: [tt0134527]
+    'best group scene':
+      nominee: [tt0163249]
+      winner: [tt0163249]
+    'best video':
+      nominee: [tt0159310]
+      winner: [tt0159310]
+
+'1992': # https://www.imdb.com/event/ev0000714/1992/1/
+  'xrco award':
+    'best actress':
+      nominee: [tt0177571]
+      winner: [tt0177571]
+    'best director - film':
+      nominee: [tt0103261]
+      winner: [tt0103261]
+    'best film':
+      nominee: [tt0103261]
+      winner: [tt0103261]
+    'best video':
+      nominee: [tt0138339]
+      winner: [tt0138339]
+    'xrco hall of fame':
+      nominee: [tt0082811]
+      winner: [tt0082811]
+
+'1991': # https://www.imdb.com/event/ev0000714/1991/1/
+  'xrco award':
+    'best actress':
+      nominee: [tt0180200]
+      winner: [tt0180200]
+    'best director - video':
+      nominee: [tt0134387]
+      winner: [tt0134387]
+    'best film':
+      nominee: [tt0159670]
+      winner: [tt0159670]
+    'best video':
+      nominee: [tt0134387]
+      winner: [tt0134387]
+
+'1990': # https://www.imdb.com/event/ev0000714/1990/1/
+  'xrco award':
+    'best director - video':
+      nominee: [tt0097039]
+      winner: [tt0097039]
+    'best screenplay':
+      nominee: [tt0189774]
+      winner: [tt0189774]
+    'best sex scene':
+      nominee: [tt0097039]
+      winner: [tt0097039]
+    'best video':
+      nominee: [tt0097039]
+      winner: [tt0097039]
+
+'1989': # https://www.imdb.com/event/ev0000714/1989/1/
+  'xrco award':
+    'best director - video':
+      nominee: [tt0122426]
+      winner: [tt0122426]
+    'best video':
+      nominee: [tt0122426]
+      winner: [tt0122426]
+
+'1988': # https://www.imdb.com/event/ev0000714/1988/1/
+  'xrco award':
+    'best copulation scene':
+      nominee: [tt0093774]
+      winner: [tt0093774]
+    'best director - film':
+      nominee: [tt0162959]
+      winner: [tt0162959]
+    'best director - video':
+      nominee: [tt0159599]
+      winner: [tt0159599]
+    'best film':
+      nominee: [tt0093774]
+      winner: [tt0093774]
+    'best video':
+      nominee: [tt0159599]
+      winner: [tt0159599]
+
+'1987': # https://www.imdb.com/event/ev0000714/1987/1/
+  'xrco award':
+    'best director - film':
+      nominee: [tt0090939]
+      winner: [tt0090939]
+    'best film':
+      nominee: [tt0124500]
+      winner: [tt0124500]
+    'best video':
+      nominee: [tt0159414]
+      winner: [tt0159414]
+
+'1986': # https://www.imdb.com/event/ev0000714/1986/1/
+  'xrco award':
+    'best actor':
+      nominee: [tt0163257]
+      winner: [tt0163257]
+    'best actress':
+      nominee: [tt0128683]
+      winner: [tt0128683]
+    'best director - film':
+      nominee: [tt0128683]
+      winner: [tt0128683]
+    'best film':
+      nominee: [tt0128683]
+      winner: [tt0128683]
+    'best kinky scene':
+      nominee: [tt0148521]
+      winner: [tt0148521]
+    'best screenplay':
+      nominee: [tt0128683]
+      winner: [tt0128683]
+    'best supporting performance, female':
+      nominee: [tt0124667, tt0183815]
+      winner: [tt0124667, tt0183815]
+    'best supporting performance, male':
+      nominee: [tt0191437]
+      winner: [tt0191437]
+    'best video':
+      nominee: [tt0088815]
+      winner: [tt0088815]
+    'group grope scene':
+      nominee: [tt0089680]
+      winner: [tt0089680]
+    'lascivious lesbian scene':
+      nominee: [tt0127126]
+      winner: [tt0127126]
+    'orgasmic oral scene':
+      nominee: [tt0128316]
+      winner: [tt0128316]
+    'sex scene - couple':
+      nominee: [tt0167019]
+      winner: [tt0167019]
+
+'1985': # https://www.imdb.com/event/ev0000714/1985/1/
+  'xrco award':
+    'best copulation scene':
+      nominee: [tt0123827, tt0124563, tt0196938, tt0183889]
+      winner: [tt0123827]
+    'best director':
+      nominee: [tt0123827, tt0186114, tt0144456, tt0124693]
+      winner: [tt0123827]
+    'best film':
+      nominee: [tt0123827, tt0186114, tt0144456, tt0124693]
+      winner: [tt0123827]
+    'best kinky scene':
+      nominee: [tt0087475, tt0124693, tt0183889, tt0179505]
+      winner: [tt0087475]
+    'best single female performance of the year':
+      nominee: [tt0123827, tt0124693, tt0197059, tt0179505]
+      winner: [tt0123827]
+    'best single male performance of the year':
+      nominee: [tt0124693, tt0123827, tt0144456, tt0134929]
+      winner: [tt0124693]
+    'best supporting performance, female':
+      nominee: [tt0183889, tt0124693, tt0196875, tt0189084]
+      winner: [tt0183889]
+    'best supporting performance, male':
+      nominee: [tt0196875, tt0125377, tt0196938, tt0179505]
+      winner: [tt0196875]
+    'best video':
+      nominee: [tt0159532]
+      winner: [tt0159532]
+    'female performer of the year':
+      nominee: [tt0134898, tt0162846, tt0123827, tt0124693]
+      winner: [tt0134898]
+    'group grope scene':
+      nominee: [tt0128631, tt0123827, tt0124693]
+      winner: [tt0128631]
+    'lascivious lesbian scene':
+      nominee: [tt1230366, tt0178379, tt0178845, tt0128631]
+      winner: [tt1230366]
+    'male performer of the year':
+      nominee: [tt0124693, tt0124563, tt0144456, tt0134929]
+      winner: [tt0124693]
+    'orgasmic oral scene':
+      nominee: [tt0196982, tt0162846, tt0087475, tt0179505]
+      winner: [tt0196982]
+    'sexiest screenplay':
+      nominee: [tt0123827, tt0144456, tt0124693, tt0196875]
+      winner: [tt0123827]
+  'special merit award':
+    'xrco hall of fame':
+      nominee: [tt0068260, tt0068468, tt0075018]
+      winner: [tt0068260, tt0068468, tt0075018]

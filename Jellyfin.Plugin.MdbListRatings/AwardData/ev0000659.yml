@@ -1,0 +1,1959 @@
+# Toronto International Film Festival
+'2025':  # https://www.imdb.com/event/ev0000659/2025/1/
+  people's choice award:
+    best film:
+      nominee: [tt1312221, tt14364480, tt14905854]
+      winner: [tt14905854]
+    documentary:
+      nominee: [tt31726535, tt33350479, tt35003538]
+      winner: [tt33350479]
+    midnight madness:
+      nominee: [tt33311069, tt35522483, tt37287335]
+      winner: [tt35522483]
+  discovery award:
+    best film:
+      nominee: [tt13597298, tt35375401, tt37674996]
+      winner: []
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt35449355]
+      winner: [tt35449355]
+  international critics' award:
+    critic's choice award:
+      nominee: [tt23787976]
+      winner: [tt23787976]
+  netpac award:
+    netpac award:
+      nominee: [tt36390021]
+      winner: [tt36390021]
+  short cuts award - honorable mention:
+    short cuts award - honorable mention:
+      nominee: [tt36724191]
+      winner: [tt36724191]
+  imdbpro short cuts:
+    imdbpro short cuts award best canadian film - honorable mention:
+      nominee: [tt37844412]
+      winner: [tt37844412]
+    imdbpro short cuts award for best animated film:
+      nominee: [tt36592131, tt36724193, tt36956820, tt37505195, tt37507660, tt37673263, tt37844385, tt37844425]
+      winner: [tt36592131]
+    imdbpro short cuts award for best canadian film:
+      nominee: [tt32516461, tt32740047, tt33307473, tt34615501, tt36022809, tt36956820, tt37599545, tt37834734, tt37835848, tt37835851, tt37842648, tt37842711, tt37843082, tt37843479, tt37843939, tt37844412, tt37844416, tt37844437]
+      winner: [tt36956820]
+    imdbpro short cuts award for best film:
+      nominee: [tt31834881, tt32986823, tt34365258, tt34798924, tt35598137, tt36582083, tt36590525, tt36671959, tt36693324, tt36724188, tt36724190, tt36724191, tt37502882, tt37513534, tt37798645, tt37842632, tt37842647, tt37843166, tt37843742, tt37843932, tt37844247, tt37844421, tt37844422]
+      winner: [tt36671959]
+  fipresci prize:
+    fipresci prize:
+      nominee: [tt32126595]
+      winner: [tt32126595]
+  best canadian feature film - honourable mention:
+    best canadian feature film - honourable mention:
+      nominee: [tt37816113]
+      winner: [tt37816113]
+  international people’s choice award:
+    best film:
+      nominee: [tt1527793, tt26733325, tt27714581]
+      winner: [tt1527793]
+  best canadian discovery award:
+    best canadian discovery award:
+      nominee: [tt32252801]
+      winner: [tt32252801]
+  platform award:
+    platform award:
+      nominee: [tt29283995, tt30235784, tt32352280, tt32985279, tt35519445, tt35746682, tt36543744, tt37661864, tt37661885, tt37661902]
+      winner: [tt37661902]
+  platform award - honourable mention:
+    platform award - honourable mention:
+      nominee: [tt29283995]
+      winner: [tt29283995]
+  best canadian discovery award - honourable mention:
+    best canadian discovery award - honourable mention:
+      nominee: [tt37343128]
+      winner: [tt37343128]
+'2024': # https://www.imdb.com/event/ev0000659/2024/1/
+  people's choice award:
+    best film:
+      nominee: [tt12908150, tt18691614, tt19783734, tt20221436, tt22023622, tt28607951, tt31350080, tt32890130]
+      winner: [tt12908150]
+    documentary:
+      nominee: [tt17044840, tt30321133, tt33084872, tt33312360]
+      winner: [tt33312360]
+    midnight madness:
+      nominee: [tt17079606, tt17526714, tt30505698]
+      winner: [tt17526714]
+  discovery award:
+    best film:
+      nominee: [tt32424927, tt33035283, tt33035860]
+      winner: []
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt29634258, tt32424927]
+      winner: [tt29634258]
+  international critics' award:
+    best actress:
+      nominee: [tt33292146]
+      winner: [tt33292146]
+  netpac award:
+    netpac award:
+      nominee: [tt14093994, tt22208340, tt31464877, tt32238611]
+      winner: [tt14093994]
+  short cuts award - honorable mention:
+    best international short film:
+      nominee: [tt33317291]
+      winner: [tt33317291]
+  imdbpro short cuts:
+    imdbpro short cuts award for best canadian film:
+      nominee: [tt12429712, tt29520774, tt30495767, tt32144500, tt32205767, tt32444952, tt32480506, tt32601294, tt33015167, tt33086973, tt33087322, tt33096238, tt33099535, tt33317081, tt33317127, tt33317303]
+      winner: [tt33087322]
+    imdbpro short cuts award for best film:
+      nominee: [tt20519854, tt28632018, tt29869027, tt30751010, tt32144480, tt32205738, tt32205774, tt32342056, tt32365707, tt32560209, tt32810843, tt32875105, tt32897626, tt32923607, tt32989921, tt33091593, tt33131401, tt33202234, tt33202250, tt33317061, tt33317291]
+      winner: [tt33317061]
+  wavelengths section:
+    shorts:
+      nominee: [tt30207757]
+      winner: []
+  fipresci prize:
+    discovery:
+      nominee: [tt31464877]
+      winner: []
+    fipresci prize:
+      nominee: [tt14778372]
+      winner: [tt14778372]
+  tiff variety artisan award:
+    tiff variety artisan award:
+      nominee: [tt20221436]
+      winner: [tt20221436]
+  jury prize:
+    best american writer:
+      nominee: [tt27434692]
+      winner: [tt27434692]
+    best director:
+      nominee: [tt33292146]
+      winner: [tt33292146]
+  best canadian discovery award:
+    best canadian discovery award:
+      nominee: [tt31691389, tt32424927]
+      winner: [tt31691389]
+  platform award:
+    platform award:
+      nominee: [tt21905244, tt26676914, tt27142003, tt27170114, tt27717667, tt29271889, tt30519830, tt30768181, tt33034110, tt7972570]
+      winner: [tt27142003]
+  platform award - honourable mention:
+    platform award - honourable mention:
+      nominee: [tt29271889]
+      winner: [tt29271889]
+  best canadian discovery award - honourable mention:
+    best canadian discovery award - honourable mention:
+      nominee: [tt7264528]
+      winner: [tt7264528]
+'2023': # https://www.imdb.com/event/ev0000659/2023/1/
+  people's choice award:
+    best film:
+      nominee: [tt14849194, tt23561236, tt6587046]
+      winner: [tt23561236]
+    documentary:
+      nominee: [tt12277540, tt21806358, tt27531514, tt28448182, tt28581313]
+      winner: [tt12277540]
+    midnight madness:
+      nominee: [tt11678912, tt21267296, tt28259207, tt28554013, tt7130916]
+      winner: [tt7130916]
+  discovery award:
+    best film:
+      nominee: [tt15495540, tt28534120]
+      winner: []
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt27715185]
+      winner: [tt27715185]
+  netpac award:
+    netpac award:
+      nominee: [tt26248528]
+      winner: [tt26248528]
+  platform prize:
+    platform prize:
+      nominee: [tt13866710, tt18233134, tt21909836, tt21920634, tt21942866, tt26006816, tt26542557, tt28542205, tt28568332, tt6632018]
+      winner: [tt26542557]
+  imdbpro short cuts:
+    imdbpro short cuts award for best canadian film:
+      nominee: [tt26818913, tt27051815, tt27159536, tt27304412, tt28207603, tt28285666, tt28298460, tt28320453, tt28624863, tt28667868, tt28669515, tt28670290, tt28670305, tt28670320, tt28670486, tt28670609, tt28670680, tt28670721]
+      winner: [tt28624863]
+    imdbpro short cuts award for best film:
+      nominee: [tt13021784, tt23742932, tt24656910, tt27658383, tt27683631, tt27689988, tt27770907, tt27803294, tt28101297, tt28293679, tt28294769, tt28326526, tt28365411, tt28500137, tt28667599, tt28667608, tt28669319, tt28669414, tt28669570, tt28670255, tt28670268, tt28670453, tt28670640, tt28670766]
+      winner: [tt27683631]
+    imdbpro short cuts share her journey award:
+      nominee: [tt24656910]
+      winner: [tt24656910]
+    imdbpro short cuts share her journey award - honourable mention:
+      nominee: [tt27051815]
+      winner: [tt27051815]
+  fipresci prize:
+    fipresci prize:
+      nominee: [tt23642420]
+      winner: [tt23642420]
+  best canadian feature film - honourable mention:
+    best canadian feature film - honourable mention:
+      nominee: [tt18688552]
+      winner: [tt18688552]
+  changemaker award:
+    shawn mendes foundation changemaker award:
+      nominee: [tt28639049]
+      winner: [tt28639049]
+  amplify voices award:
+    amplify voices award - best bipoc canadian feature:
+      nominee: [tt18688552]
+      winner: [tt18688552]
+    amplify voices award for best bipoc canadian first feature award:
+      nominee: [tt28679280]
+      winner: [tt28679280]
+  industry selects:
+    industry selects:
+      nominee: [tt26594993]
+      winner: []
+'2022': # https://www.imdb.com/event/ev0000659/2022/1/
+  people's choice award:
+    best film:
+      nominee: [tt11564570, tt13669038, tt14208870]
+      winner: [tt14208870]
+    documentary:
+      nominee: [tt15144270, tt19816018, tt21820452, tt21998498]
+      winner: [tt15144270]
+    midnight madness:
+      nominee: [tt11703244, tt17076046, tt18925334, tt21651560]
+      winner: [tt17076046]
+  best canadian short film - special mention:
+    best canadian short film - special mention:
+      nominee: [tt16226770]
+      winner: [tt16226770]
+  netpac award:
+    netpac award:
+      nominee: [tt21047794]
+      winner: [tt21047794]
+  platform prize:
+    platform prize:
+      nominee: [tt10928202, tt12374656, tt12390508, tt13456340, tt13920920, tt18990128, tt21440560, tt21440780, tt21637282, tt21638044]
+      winner: [tt13456340]
+  short cuts award:
+    best short film:
+      nominee: [tt21862252]
+      winner: []
+  short cuts award - honorable mention:
+    best film:
+      nominee: [tt21797282]
+      winner: [tt21797282]
+  imdbpro short cuts:
+    imdbpro short cuts award for best canadian film:
+      nominee: [tt13142278, tt16117166, tt16226770, tt17275592, tt18231784, tt20240228, tt21247140, tt21424578, tt21631716, tt21853554]
+      winner: [tt21247140]
+    imdbpro short cuts award for best film:
+      nominee: [tt11542496, tt11854700, tt14998762, tt19396182, tt19781688, tt19781766, tt19844654, tt20112734, tt20215392, tt20223392, tt21350418, tt21797282, tt21862252, tt21879724, tt21920446, tt21924626, tt22005940, tt22005990, tt22006118]
+      winner: [tt21920446]
+    imdbpro short cuts share her journey award:
+      nominee: [tt22005922]
+      winner: [tt22005922]
+  fipresci prize:
+    discovery:
+      nominee: [tt11575358, tt6875952]
+      winner: [tt11575358]
+  contemporary world cinema award:
+    best film:
+      nominee: [tt20516932]
+      winner: []
+  changemaker award:
+    shawn mendes foundation changemaker award:
+      nominee: [tt21413834]
+      winner: [tt21413834]
+  amplify voices award:
+    amplify voices award:
+      nominee: [tt16377714, tt21818816]
+      winner: [tt16377714, tt21818816]
+    best film:
+      nominee: [tt21688772]
+      winner: [tt21688772]
+  industry selects:
+    industry selects:
+      nominee: [tt17520962]
+      winner: []
+  tribute award for performance:
+    tribute award for performance:
+      nominee: [tt13139228]
+      winner: [tt13139228]
+'2021': # https://www.imdb.com/event/ev0000659/2021/1/
+  people's choice award:
+    best film:
+      nominee: [tt10293406, tt12789558]
+      winner: [tt12789558]
+    documentary:
+      nominee: [tt7178990, tt9098872]
+      winner: [tt9098872]
+    midnight madness:
+      nominee: [tt10944760]
+      winner: [tt10944760]
+  netpac award:
+    netpac award:
+      nominee: [tt9860858]
+      winner: [tt9860858]
+  platform prize:
+    platform prize:
+      nominee: [tt10062338, tt10951972, tt11051898, tt11897340, tt13622884, tt13656980, tt13834788, tt15211080]
+      winner: [tt13834788]
+  short cuts award - honorable mention:
+    best film:
+      nominee: [tt14528962]
+      winner: [tt14528962]
+  imdbpro short cuts:
+    best international short film:
+      nominee: [tt15398110]
+      winner: []
+    honorable mention for best canadian short film:
+      nominee: [tt15392132]
+      winner: [tt15392132]
+    imdbpro short cuts award for best canadian film:
+      nominee: [tt13833710, tt14081930, tt14865594, tt15011242, tt15207664, tt15220980, tt15244314, tt15246156, tt15340244, tt15345668, tt15392132, tt15397748, tt15398466, tt15398680, tt15398686]
+      winner: [tt13833710]
+    imdbpro short cuts award for best film:
+      nominee: [tt11090806, tt13071528, tt13986830, tt14135824, tt14528962, tt14717664, tt14812800, tt14836958, tt14894894, tt14899008, tt14972316, tt15073242, tt15215502, tt15239576, tt15392132, tt15398110, tt15398290, tt15398742, tt15398792, tt15398848]
+      winner: [tt14717664]
+    imdbpro short cuts share her journey award:
+      nominee: [tt15397592]
+      winner: [tt15397592]
+  fipresci prize:
+    discovery:
+      nominee: [tt11426664]
+      winner: [tt11426664]
+  tiff emerging talent award:
+    tiff emerging talent award:
+      nominee: [tt9568230]
+      winner: [tt9568230]
+  contemporary world cinema award:
+    best film:
+      nominee: [tt9056484, tt9310606]
+      winner: []
+  special tribute award:
+    special tribute award:
+      nominee: [tt6170406]
+      winner: [tt6170406]
+  tiff variety:
+    artisian award:
+      nominee: [tt10293406]
+      winner: [tt10293406]
+  changemaker award:
+    shawn mendes foundation changemaker award:
+      nominee: [tt12890988]
+      winner: [tt12890988]
+  amplify voices award:
+    amplify voices award:
+      nominee: [tt4440842]
+      winner: [tt4440842]
+    best canadian film:
+      nominee: [tt14091768]
+      winner: [tt14091768]
+    special mention:
+      nominee: [tt14812784]
+      winner: [tt14812784]
+  industry selects:
+    industry selects:
+      nominee: [tt12490110, tt14225832, tt8147656]
+      winner: []
+  jury prize:
+    best african film:
+      nominee: [tt13045832]
+      winner: [tt13045832]
+'2020': # https://www.imdb.com/event/ev0000659/2020/1/
+  people's choice award:
+    people's choice award:
+      nominee: [tt10612922, tt11735544, tt9770150]
+      winner: [tt9770150]
+  discovery award:
+    best film:
+      nominee: [tt12800946]
+      winner: []
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt11161474, tt11187454, tt11317142, tt11735544, tt12575636, tt12779696, tt12786834, tt12801798, tt12801814, tt8132778, tt8891904, tt9143112]
+      winner: [tt8891904]
+  netpac award:
+    netpac award:
+      nominee: [tt11692148]
+      winner: [tt11692148]
+  rising stars award:
+    rising stars award:
+      nominee: [tt10795574, tt11735544, tt12801814, tt8310474]
+      winner: [tt10795574, tt11735544, tt12801814, tt8310474]
+  imdbpro short cuts:
+    best international short film:
+      nominee: [tt11698640]
+      winner: []
+    imdbpro short cuts award for best canadian film:
+      nominee: [tt12330544, tt12575606, tt12660466, tt12816868, tt12971578, tt12971692, tt12974252, tt12974790, tt12974802, tt12974812, tt12974900, tt9561918]
+      winner: [tt12575606]
+    imdbpro short cuts award for best film:
+      nominee: [tt11638406, tt12626334, tt12723524, tt12744422, tt12853610, tt12974818, tt12974850, tt12974856, tt12974868, tt12974878, tt12974886, tt12974890, tt12974894, tt12974908, tt8448860, tt9146020]
+      winner: [tt12974856]
+    imdbpro short cuts share her journey award:
+      nominee: [tt9561918]
+      winner: [tt9561918]
+  wavelengths section:
+    tiff new wave:
+      nominee: [tt8890058]
+      winner: []
+  fipresci prize:
+    discovery:
+      nominee: [tt12444572]
+      winner: [tt12444572]
+  grolsch people's choice award:
+    documentary:
+      nominee: [tt8891904]
+      winner: [tt8891904]
+    midnight madness:
+      nominee: [tt9691136]
+      winner: [tt9691136]
+  changemaker award:
+    changemaker award:
+      nominee: [tt12974812]
+      winner: [tt12974812]
+  amplify voices award:
+    amplify voices award:
+      nominee: [tt11423784, tt8132778]
+      winner: [tt11423784, tt8132778]
+    special mention:
+      nominee: [tt10676042]
+      winner: [tt10676042]
+'2019': # https://www.imdb.com/event/ev0000659/2019/1/
+  discovery award:
+    best film:
+      nominee: [tt10883740, tt5905336, tt8689644]
+      winner: []
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt10260042, tt10334456, tt10441486, tt10475900, tt10655608, tt10716712, tt10728282, tt10758534, tt10793310, tt10864040, tt10874006, tt1657517, tt3689484, tt4292432, tt5919756, tt6489562, tt7969836, tt8230872, tt8359842, tt8461156, tt8584722, tt8892632, tt9057620, tt9109492, tt9143636, tt9169036, tt9386648]
+      winner: [tt10260042]
+  best canadian first feature film:
+    best canadian first feature film:
+      nominee: [tt7969836, tt8892632]
+      winner: [tt7969836]
+  best canadian short film:
+    best canadian short film:
+      nominee: [tt10079636, tt10963308]
+      winner: []
+  netpac award:
+    netpac award:
+      nominee: [tt7725384]
+      winner: [tt7725384]
+  platform prize:
+    platform prize:
+      nominee: [tt10298454, tt10874006, tt10899680, tt4516162, tt5363618, tt6290584, tt7374926, tt9067182, tt9451096, tt9822706]
+      winner: [tt4516162]
+  platform prize - honorable mention:
+    platform prize - honorable mention:
+      nominee: [tt10874006, tt7374926]
+      winner: [tt10874006, tt7374926]
+  short cuts award:
+    best canadian short film:
+      nominee: [tt10217024, tt10329270, tt10367274, tt10368274, tt10413396, tt10418008, tt10471716, tt10519238, tt10519554, tt10586744, tt10777188, tt10882960, tt10893130, tt10963308, tt11454944, tt8755868, tt9675138]
+      winner: [tt10519554]
+    best international short film:
+      nominee: [tt10055160, tt10151858, tt10219160, tt10219324, tt10224888, tt10224960, tt10304042, tt10307058, tt10325740, tt10341088, tt10431376, tt10576452, tt10623508, tt10651850, tt10687124, tt10765482, tt10839386, tt10864666, tt10913328, tt10923028, tt10923060, tt10923134, tt11341446, tt5520360, tt9135282, tt9482860, tt9842732]
+      winner: [tt10623508]
+    'short cuts: share her journey shorts':
+      nominee: [tt8081060]
+      winner: []
+  short cuts award - honorable mention:
+    best international short film:
+      nominee: [tt10224960]
+      winner: [tt10224960]
+  wavelengths section:
+    competition:
+      nominee: [tt10603466]
+      winner: []
+  fipresci prize:
+    discovery:
+      nominee: [tt10475900, tt6463320, tt8892632]
+      winner: [tt10475900]
+    special presentations:
+      nominee: [tt4193072]
+      winner: [tt4193072]
+  best canadian feature film - honourable mention:
+    best canadian feature film - honourable mention:
+      nominee: [tt8230872]
+      winner: [tt8230872]
+  grolsch people's choice award:
+    documentary:
+      nominee: [tt10773380, tt10883124, tt7178226]
+      winner: [tt7178226]
+    grolsch people's choice award:
+      nominee: [tt2584384, tt6751668, tt7653254]
+      winner: [tt2584384]
+    midnight madness:
+      nominee: [tt6803046, tt7394674, tt8228288]
+      winner: [tt8228288]
+  contemporary world cinema award:
+    best film:
+      nominee: [tt8147262, tt9581076]
+      winner: []
+  barry avrich award:
+    barry avrich award:
+      nominee: [tt9076466]
+      winner: [tt9076466]
+  midnight madness award:
+    midnight madness award:
+      nominee: [tt5073642]
+      winner: []
+'2018': # https://www.imdb.com/event/ev0000659/2018/1/
+  people's choice award:
+    best film:
+      nominee: [tt4547194]
+      winner: []
+    discovery:
+      nominee: [tt5149490]
+      winner: []
+    documentary:
+      nominee: [tt5795282, tt7775622, tt8969332]
+      winner: [tt7775622]
+    midnight madness:
+      nominee: [tt1502407, tt6205872, tt8055888]
+      winner: [tt8055888]
+  discovery award:
+    best film:
+      nominee: [tt5149490, tt7239688, tt8137722, tt8837018, tt8875366]
+      winner: []
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt4042818, tt4481066, tt5580266, tt6026818, tt7069496, tt7231342, tt7513016, tt7574126, tt7616974, tt7708476, tt8314254, tt8399690, tt8449092, tt8492566, tt8553192, tt8781414, tt8794944, tt8947034, tt9014720]
+      winner: [tt8449092]
+  best canadian first feature film:
+    best canadian first feature film:
+      nominee: [tt6365796]
+      winner: []
+  netpac award:
+    netpac award:
+      nominee: [tt7692966]
+      winner: [tt7692966]
+    netpac award honorable mention:
+      nominee: [tt8875366]
+      winner: [tt8875366]
+  platform prize:
+    platform prize:
+      nominee: [tt4397342, tt5942864, tt6596418, tt6874254, tt7087210, tt7111818, tt7137380, tt7209350, tt7318102, tt7482212, tt7530986, tt7942742, tt8956390]
+      winner: [tt4397342]
+  short cuts award:
+    best canadian short film:
+      nominee: [tt6287942, tt7467476, tt7661428, tt7768208, tt7913020, tt8067634, tt8253972, tt8404430, tt8546364, tt8546884, tt8615478, tt8706942, tt8785424, tt8888834, tt8906678, tt8958906]
+      winner: [tt8906678]
+    best film:
+      nominee: [tt19246540]
+      winner: []
+    best international short film:
+      nominee: [tt7233782, tt7332230, tt7507644, tt7688426, tt7689318, tt7855744, tt7925798, tt7937478, tt7975230, tt8023822, tt8233516, tt8296612, tt8296622, tt8321590, tt8362754, tt8362948, tt8394558, tt8435416, tt8446892, tt8478236, tt8480460, tt8491744, tt8526074, tt8582050, tt8842950, tt8908824, tt8958868, tt8958890, tt9162766]
+      winner: [tt7688426]
+  short cuts award - honorable mention:
+    best canadian short film:
+      nominee: [tt7467476]
+      winner: [tt7467476]
+    best international short film:
+      nominee: [tt7507644, tt7925798]
+      winner: [tt7507644, tt7925798]
+  vanguard honours:
+    best screenplay:
+      nominee: [tt9445682]
+      winner: []
+  eurimages audentia award:
+    eurimages audentia award:
+      nominee: [tt6381456]
+      winner: [tt6381456]
+  fipresci prize:
+    discovery:
+      nominee: [tt7636672]
+      winner: [tt7636672]
+    special presentations:
+      nominee: [tt6043142]
+      winner: [tt6043142]
+  eurimages audentia award - honorable mention:
+    eurimages audentia award - honorable mention:
+      nominee: [tt7976904]
+      winner: [tt7976904]
+  grolsch people's choice award:
+    grolsch people's choice award:
+      nominee: [tt6155172, tt6966692, tt7125860]
+      winner: [tt6966692]
+'2017': # https://www.imdb.com/event/ev0000659/2017/1/
+  people's choice award:
+    discovery:
+      nominee: [tt5225428, tt7133384]
+      winner: []
+    documentary:
+      nominee: [tt5598102, tt7043176, tt7215262]
+      winner: [tt5598102]
+    experimental short film:
+      nominee: [tt13218924]
+      winner: [tt13218924]
+    gala or special presentations:
+      nominee: [tt4917224, tt5027774, tt5580036, tt5726616, tt6953076]
+      winner: [tt5027774]
+    midnight madness:
+      nominee: [tt3521126, tt5657856, tt5883570, tt6044156]
+      winner: [tt5883570]
+  discovery award:
+    best film:
+      nominee: [tt5225428, tt6570972, tt6796742, tt7164066, tt7230148]
+      winner: []
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt3364264, tt5119116, tt5843716, tt5913968, tt6034550, tt6111996, tt6215208, tt6243140, tt7043176, tt7133648, tt7696328]
+      winner: [tt6243140]
+  best canadian first feature film:
+    best canadian first feature film:
+      nominee: [tt2338454, tt5843716, tt6186442, tt6215208]
+      winner: [tt6186442]
+  best canadian short film:
+    best canadian short film:
+      nominee: [tt5840340]
+      winner: []
+  international critics' award (fipresci):
+    discovery:
+      nominee: [tt7259986]
+      winner: [tt7259986]
+    special presentations:
+      nominee: [tt5451244]
+      winner: [tt5451244]
+  netpac award:
+    netpac award:
+      nominee: [tt7010412]
+      winner: [tt7010412]
+  platform prize:
+    platform prize:
+      nominee: [tt4686844, tt5504810, tt5584756, tt5628302, tt5698320, tt5700176, tt5884230, tt6002232, tt6958212, tt7213936, tt7215548, tt7216256]
+      winner: [tt6958212]
+  platform prize - honorable mention:
+    platform prize - honorable mention:
+      nominee: [tt5700176]
+      winner: [tt5700176]
+  short cuts award:
+    best canadian film:
+      nominee: [tt6085744, tt6131010, tt6136920, tt6293388, tt6537272, tt6805006, tt6822956, tt6855276, tt6856360, tt7066502, tt7144278, tt7970452, tt8304906]
+      winner: [tt6136920]
+    best canadian short film:
+      nominee: [tt7433624]
+      winner: []
+    best international short film:
+      nominee: [tt5276548, tt5355020, tt5938550, tt6488386, tt6531506, tt6621204, tt6662050, tt6772602, tt6775428, tt6819172, tt6824012, tt6907522, tt6950724, tt6952952, tt7036616, tt7040678, tt7042920, tt7083868, tt7207674, tt7214814, tt7218834]
+      winner: [tt6531506]
+  short cuts award - honorable mention:
+    best canadian film:
+      nominee: [tt7970452]
+      winner: [tt7970452]
+    best international short film:
+      nominee: [tt7003952]
+      winner: [tt7003952]
+  wavelengths section:
+    competition:
+      nominee: [tt4540384, tt6959620, tt7281188]
+      winner: []
+  best canadian first feature film - honorable mention:
+    best canadian first feature film - honorable mention:
+      nominee: [tt7259986]
+      winner: [tt7259986]
+  best canadian feature film - honourable mention:
+    best canadian feature film - honourable mention:
+      nominee: [tt6034550]
+      winner: [tt6034550]
+'2016': # https://www.imdb.com/event/ev0000659/2016/1/
+  people's choice award:
+    documentary:
+      nominee: [tt3415734, tt5804038, tt5929776, tt5952266, tt5952382]
+      winner: [tt5804038]
+    experimental short film:
+      nominee: [tt5351636]
+      winner: []
+    gala or special presentations:
+      nominee: [tt3741834, tt3783958, tt4341582]
+      winner: [tt3783958]
+    midnight madness:
+      nominee: [tt3289956, tt4158096, tt4954522]
+      winner: [tt4158096]
+  discovery award:
+    best film:
+      nominee: [tt3666024, tt4365518, tt4547938, tt4613254, tt4730986, tt4771932, tt4938050, tt5287168, tt5451054, tt5691550, tt5928396, tt6039442]
+      winner: [tt5691550]
+    discovery award:
+      nominee: [tt5813194]
+      winner: []
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt3477762, tt3721954, tt4181270, tt4412528, tt4645368, tt5058014, tt5059406, tt5326364, tt5474522, tt5869620, tt5928396, tt5937788, tt6045752]
+      winner: [tt5869620]
+  best canadian first feature film:
+    best canadian first feature film:
+      nominee: [tt5474522]
+      winner: [tt5474522]
+  best canadian short film:
+    best canadian short film:
+      nominee: [tt5553108, tt5648102, tt5808852]
+      winner: [tt5553108]
+  international critics' award (fipresci):
+    best film:
+      nominee: [tt5449214]
+      winner: []
+    discovery:
+      nominee: [tt5451054, tt6039442]
+      winner: [tt6039442]
+    special presentations:
+      nominee: [tt5918090]
+      winner: [tt5918090]
+  netpac award:
+    netpac award:
+      nominee: [tt5974388]
+      winner: [tt5974388]
+  platform prize:
+    platform prize:
+      nominee: [tt1619029, tt4047846, tt4291600, tt4628882, tt4795546, tt4911996, tt4975722, tt5096536, tt5712152, tt5869620, tt5890038, tt6045752]
+      winner: [tt1619029]
+  platform prize - honorable mention:
+    platform prize - honorable mention:
+      nominee: [tt5890038]
+      winner: [tt5890038]
+  short cuts award:
+    best canadian short film:
+      nominee: [tt5532868]
+      winner: []
+    best film:
+      nominee: [tt5636934, tt5690914]
+      winner: []
+    best international short film:
+      nominee: [tt5561056, tt5585414, tt5637726, tt5645940, tt5717636, tt5732566, tt5762804, tt5765000, tt5811126, tt5972390, tt6114826]
+      winner: [tt5717636]
+    best short film:
+      nominee: [tt6046820]
+      winner: []
+    competition:
+      nominee: [tt5519972, tt5656648, tt5719046, tt5882428]
+      winner: []
+  short cuts award - honorable mention:
+    best international short film:
+      nominee: [tt6073176]
+      winner: [tt6073176]
+  wavelengths section:
+    competition:
+      nominee: [tt5919006]
+      winner: []
+  vanguard honours:
+    creativity in cinematography:
+      nominee: [tt4568370]
+      winner: [tt4568370]
+  grosch people's choice award:
+    grosch people's choice award:
+      nominee: [tt3638644]
+      winner: []
+'2015': # https://www.imdb.com/event/ev0000659/2015/1/
+  people's choice award:
+    best film:
+      nominee: [tt3763866]
+      winner: []
+    documentary:
+      nominee: [tt1870548, tt4196504, tt4908644]
+      winner: [tt4908644]
+    midnight madness:
+      nominee: [tt2118624, tt3072482, tt4062536]
+      winner: [tt3072482]
+    people's choice award:
+      nominee: [tt1895587, tt3170832, tt3368222]
+      winner: [tt3170832]
+  discovery award:
+    best film:
+      nominee: [tt4710870]
+      winner: [tt4710870]
+    discovery award:
+      nominee: [tt4008758, tt4251006, tt4429074, tt4971824]
+      winner: [tt4008758]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt3066630, tt3638396, tt3704050, tt3778086, tt3838154, tt4116116, tt4170186, tt4852638, tt4881276, tt4935190, tt4935860, tt4940632]
+      winner: [tt3638396]
+  best canadian feature film - special jury citation:
+    best canadian feature film - special jury citation:
+      nominee: [tt4116116]
+      winner: [tt4116116]
+  best canadian first feature film:
+    best canadian first feature film:
+      nominee: [tt3778086]
+      winner: [tt3778086]
+  international critics' award (fipresci):
+    discovery:
+      nominee: [tt3777384]
+      winner: [tt3777384]
+    special presentations:
+      nominee: [tt3147312]
+      winner: [tt3147312]
+  international critics' award:
+    best short film:
+      nominee: [tt10546904]
+      winner: []
+  netpac award:
+    netpac award:
+      nominee: [tt4957538]
+      winner: [tt4957538]
+  rising stars award:
+    rising stars award:
+      nominee: [tt4939412]
+      winner: [tt4939412]
+  film circuit people's choice award:
+    best canadian film:
+      nominee: [tt2622530]
+      winner: []
+  platform prize:
+    platform prize:
+      nominee: [tt0462335, tt3597510, tt3702720, tt3838728, tt3841424, tt4000936, tt4106306, tt4168502, tt4411504, tt4899406, tt4940568, tt4940612]
+      winner: [tt4940568]
+  platform prize - honorable mention:
+    platform prize - honorable mention:
+      nominee: [tt4411504, tt4899406, tt4940612]
+      winner: [tt4411504, tt4899406, tt4940612]
+  short cuts award:
+    best canadian film:
+      nominee: [tt4677350, tt5046452, tt5052670]
+      winner: [tt4677350]
+    best canadian short film:
+      nominee: [tt5131278]
+      winner: []
+    best film:
+      nominee: [tt4662994, tt4775726, tt4858184]
+      winner: [tt4775726]
+    best international short film:
+      nominee: [tt4516050, tt4594746, tt4596846, tt4608516, tt4935068]
+      winner: []
+  short cuts award - honorable mention:
+    best canadian film:
+      nominee: [tt4918278]
+      winner: [tt4918278]
+    best film:
+      nominee: [tt4396330]
+      winner: [tt4396330]
+  contemporary world cinema award:
+    best film:
+      nominee: [tt3510112]
+      winner: []
+'2014': # https://www.imdb.com/event/ev0000659/2014/1/
+  people's choice award:
+    documentary:
+      nominee: [tt2219650, tt3904204, tt3997238]
+      winner: [tt3904204]
+    midnight madness:
+      nominee: [tt2088003, tt3099498, tt3416742]
+      winner: [tt3416742]
+    people's choice award:
+      nominee: [tt2084970, tt2170593, tt3062976]
+      winner: [tt2084970]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt3612616, tt3685218]
+      winner: [tt3685218]
+  best canadian first feature film:
+    best canadian first feature film:
+      nominee: [tt2655734]
+      winner: [tt2655734]
+  best canadian short film:
+    best canadian short film:
+      nominee: [tt3664864]
+      winner: []
+  international critics' award (fipresci):
+    discovery:
+      nominee: [tt3146294]
+      winner: [tt3146294]
+    special presentations:
+      nominee: [tt3505712]
+      winner: [tt3505712]
+  international critics' award:
+    special presentations:
+      nominee: [tt3090634]
+      winner: []
+  netpac award:
+    netpac award:
+      nominee: [tt2929690]
+      winner: [tt2929690]
+  short cuts award:
+    best canadian film:
+      nominee: [tt3946058]
+      winner: [tt3946058]
+    best film:
+      nominee: [tt3357444, tt3596028]
+      winner: [tt3596028]
+    best international short film:
+      nominee: [tt3524428]
+      winner: []
+  short cuts award - honorable mention:
+    best canadian film:
+      nominee: [tt3791046]
+      winner: [tt3791046]
+    best film:
+      nominee: [tt3672582]
+      winner: [tt3672582]
+  contemporary world cinema award:
+    best film:
+      nominee: [tt3833134]
+      winner: []
+'2013': # https://www.imdb.com/event/ev0000659/2013/1/
+  people's choice award:
+    discovery:
+      nominee: [tt3102402]
+      winner: []
+    documentary:
+      nominee: [tt2468638, tt2486682, tt3091338]
+      winner: [tt2486682]
+    midnight madness:
+      nominee: [tt2388715, tt2404738, tt2409302]
+      winner: [tt2409302]
+    people's choice award:
+      nominee: [tt1392214, tt2024544, tt2431286]
+      winner: [tt2024544]
+  discovery award:
+    discovery award:
+      nominee: [tt1568799, tt3138596, tt3142242]
+      winner: [tt1568799]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt2378587, tt2427892, tt3106846]
+      winner: [tt2378587]
+  best canadian feature film - special jury citation:
+    best canadian feature film - special jury citation:
+      nominee: [tt2179035]
+      winner: [tt2179035]
+  best canadian first feature film:
+    best canadian first feature film:
+      nominee: [tt3106916]
+      winner: [tt3106916]
+  best canadian first feature film - special jury citation:
+    best canadian first feature film - special jury citation:
+      nominee: [tt2309961]
+      winner: [tt2309961]
+  international critics' award (fipresci):
+    best film:
+      nominee: [tt2802172]
+      winner: []
+    discovery:
+      nominee: [tt2414046]
+      winner: [tt2414046]
+    special presentations:
+      nominee: [tt2524568, tt2718492]
+      winner: [tt2718492]
+  netpac award:
+    netpac award:
+      nominee: [tt2334779]
+      winner: [tt2334779]
+  rbc emerging filmmaker award:
+    rbc emerging filmmaker award:
+      nominee: [tt1837009]
+      winner: [tt1837009]
+  film circuit people's choice award:
+    best canadian film:
+      nominee: [tt2334593]
+      winner: [tt2334593]
+  short cuts award:
+    best canadian film:
+      nominee: [tt3001186]
+      winner: [tt3001186]
+  short cuts award - honorable mention:
+    best canadian film:
+      nominee: [tt3069670, tt3106980]
+      winner: [tt3069670, tt3106980]
+  rbc emerging filmmaker award - honorable mention:
+    rbc emerging filmmaker award - honorable mention:
+      nominee: [tt3064312, tt5224398]
+      winner: [tt3064312, tt5224398]
+  tiff studio screenwriting lab:
+    tiff studio screenwriting lab:
+      nominee: [tt4254562]
+      winner: [tt4254562]
+'2012': # https://www.imdb.com/event/ev0000659/2012/1/
+  people's choice award:
+    documentary:
+      nominee: [tt1754546, tt2233762, tt2350608, tt2370718]
+      winner: [tt2370718]
+    midnight madness:
+      nominee: [tt1713476, tt1783732, tt1931533]
+      winner: [tt1931533]
+    people's choice award:
+      nominee: [tt1024648, tt1045658, tt2131698]
+      winner: [tt1045658]
+  discovery award:
+    discovery award:
+      nominee: [tt1718765, tt1854513, tt1900908, tt1935902, tt1975286, tt1977739, tt1981140, tt2077721, tt2083294, tt2085002, tt2098628, tt2169662, tt2182209, tt2191612, tt2193676, tt2208272, tt2219514, tt2234397, tt2239512, tt2290934, tt2311822, tt2318625, tt2319142, tt2323264, tt2333598, tt2379438, tt2673176]
+      winner: [tt1718765]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt1650048]
+      winner: [tt1650048]
+  best canadian first feature film:
+    best canadian first feature film:
+      nominee: [tt2077721, tt2099556]
+      winner: [tt2077721, tt2099556]
+  international critics' award (fipresci):
+    discovery:
+      nominee: [tt1977739]
+      winner: [tt1977739]
+    special presentations:
+      nominee: [tt1964624]
+      winner: [tt1964624]
+  netpac award:
+    netpac award:
+      nominee: [tt2283017]
+      winner: [tt2283017]
+  rbc emerging filmmaker award:
+    rbc emerging filmmaker award:
+      nominee: [tt2195476, tt2232934, tt2320027, tt5231736, tt5231752]
+      winner: [tt2320027]
+  short cuts award:
+    best canadian film:
+      nominee: [tt1852155, tt2206804]
+      winner: [tt2206804]
+  short cuts award - honorable mention:
+    best canadian film:
+      nominee: [tt2369628]
+      winner: [tt2369628]
+  rbc emerging filmmaker award - honorable mention:
+    rbc emerging filmmaker award - honorable mention:
+      nominee: [tt5231736]
+      winner: [tt5231736]
+  rbc emerging filmmaker award - fan favorite:
+    rbc emerging filmmaker award - fan favorite:
+      nominee: [tt2195476]
+      winner: [tt2195476]
+'2011': # https://www.imdb.com/event/ev0000659/2011/1/
+  people's choice award:
+    documentary:
+      nominee: [tt1417592, tt1990352, tt2008513]
+      winner: [tt1990352]
+    midnight madness:
+      nominee: [tt1853739, tt1899353, tt1912398]
+      winner: [tt1899353]
+    people's choice award:
+      nominee: [tt1756750, tt1772424, tt1832382]
+      winner: [tt1772424]
+  visions award:
+    visions award:
+      nominee: [tt1714617]
+      winner: []
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt2011971]
+      winner: [tt2011971]
+  best canadian first feature film:
+    best canadian first feature film:
+      nominee: [tt1709654]
+      winner: [tt1709654]
+  best canadian first feature film - special jury citation:
+    best canadian first feature film - special jury citation:
+      nominee: [tt2016955]
+      winner: [tt2016955]
+  international critics' award (fipresci):
+    discovery:
+      nominee: [tt1826593]
+      winner: [tt1826593]
+    special presentations:
+      nominee: [tt1349457]
+      winner: [tt1349457]
+  rbc emerging filmmaker award:
+    rbc emerging filmmaker award:
+      nominee: [tt1954971, tt5231638, tt5231648, tt5231686, tt5231700]
+      winner: [tt5231638]
+  short cuts award:
+    best canadian film:
+      nominee: [tt1711530, tt1948190, tt1954395]
+      winner: [tt1954395]
+  short cuts award - honorable mention:
+    best canadian film:
+      nominee: [tt1946186, tt1954693]
+      winner: [tt1946186, tt1954693]
+  rbc emerging filmmaker award - honorable mention:
+    rbc emerging filmmaker award - honorable mention:
+      nominee: [tt5231648]
+      winner: [tt5231648]
+  rbc emerging filmmaker award - fan favorite:
+    rbc emerging filmmaker award - fan favorite:
+      nominee: [tt1954971]
+      winner: [tt1954971]
+  canadian documentary:
+    best canadian documentary:
+      nominee: [tt2015508]
+      winner: [tt2015508]
+'2010': # https://www.imdb.com/event/ev0000659/2010/1/
+  people's choice award:
+    documentary:
+      nominee: [tt1556190, tt1722514]
+      winner: [tt1722514]
+    midnight madness:
+      nominee: [tt1464580, tt1555747]
+      winner: [tt1464580]
+    people's choice award:
+      nominee: [tt0790663, tt1504320]
+      winner: [tt1504320]
+  discovery award:
+    best film:
+      nominee: [tt1646118, tt1709731, tt1711021]
+      winner: []
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt1255953]
+      winner: [tt1255953]
+  best canadian first feature film:
+    best canadian first feature film:
+      nominee: [tt1479388]
+      winner: [tt1479388]
+  international critics' award (fipresci):
+    discovery:
+      nominee: [tt1533013]
+      winner: [tt1533013]
+    special presentations:
+      nominee: [tt1606382]
+      winner: [tt1606382]
+  rbc emerging filmmaker award:
+    rbc emerging filmmaker award:
+      nominee: [tt1783296]
+      winner: [tt1783296]
+  short cuts award:
+    best canadian film:
+      nominee: [tt1640673]
+      winner: [tt1640673]
+  rbc emerging filmmaker award - honorable mention:
+    rbc emerging filmmaker award - honorable mention:
+      nominee: [tt1843268]
+      winner: [tt1843268]
+  rbc emerging filmmaker award - fan favorite:
+    rbc emerging filmmaker award - fan favorite:
+      nominee: [tt1843268]
+      winner: [tt1843268]
+  contemporary world cinema award:
+    best film:
+      nominee: [tt1447504]
+      winner: []
+'2009': # https://www.imdb.com/event/ev0000659/2009/1/
+  people's choice award:
+    best film:
+      nominee: [tt0929632]
+      winner: [tt0929632]
+    documentary:
+      nominee: [tt1232207, tt1338687]
+      winner: [tt1338687]
+    midnight madness:
+      nominee: [tt0433362, tt1316536]
+      winner: [tt1316536]
+    people's choice award:
+      nominee: [tt0929632, tt1071812, tt1149361]
+      winner: [tt0929632]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt0896529]
+      winner: [tt0896529]
+  best canadian feature film - special jury citation:
+    best canadian feature film - special jury citation:
+      nominee: [tt1345468]
+      winner: [tt1345468]
+  best canadian first feature film:
+    best canadian first feature film:
+      nominee: [tt1493886]
+      winner: [tt1493886]
+  international critics' award (fipresci):
+    discovery:
+      nominee: [tt1499679]
+      winner: [tt1499679]
+    special presentations:
+      nominee: [tt1257562]
+      winner: [tt1257562]
+  international critics' award:
+    special presentations:
+      nominee: [tt1286811]
+      winner: [tt1286811]
+  short cuts award:
+    best canadian film:
+      nominee: [tt1526327]
+      winner: [tt1526327]
+  short cuts award - honorable mention:
+    best canadian film:
+      nominee: [tt1560996]
+      winner: [tt1560996]
+'2008': # https://www.imdb.com/event/ev0000659/2008/1/
+  people's choice award:
+    people's choice award:
+      nominee: [tt1010048, tt1277737, tt1286821]
+      winner: [tt1010048]
+  discovery award:
+    discovery award:
+      nominee: [tt0986233]
+      winner: [tt0986233]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt1285124]
+      winner: [tt1285124]
+  best canadian feature film - special jury citation:
+    best canadian feature film - special jury citation:
+      nominee: [tt1074929]
+      winner: [tt1074929]
+  best canadian first feature film:
+    best canadian first feature film:
+      nominee: [tt0929259]
+      winner: [tt0929259]
+  best canadian first feature film - special jury citation:
+    best canadian first feature film - special jury citation:
+      nominee: [tt1048147]
+      winner: [tt1048147]
+  international critics' award (fipresci):
+    discovery:
+      nominee: [tt0363780]
+      winner: [tt0363780]
+    special presentations:
+      nominee: [tt0445953, tt1286811]
+      winner: [tt0445953, tt1286811]
+  short cuts award:
+    best canadian film:
+      nominee: [tt1284447]
+      winner: [tt1284447]
+  short cuts award - honorable mention:
+    best canadian film:
+      nominee: [tt1255891]
+      winner: [tt1255891]
+'2007': # https://www.imdb.com/event/ev0000659/2007/1/
+  people's choice award:
+    masters:
+      nominee: [tt1085799]
+      winner: []
+    people's choice award:
+      nominee: [tt0467406, tt0765443, tt1068634]
+      winner: [tt0765443]
+  discovery award:
+    discovery award:
+      nominee: [tt0841017, tt0961073]
+      winner: [tt0841017]
+  innovation award:
+    innovation award:
+      nominee: [tt0976212, tt1090200]
+      winner: [tt1090200]
+  cultural innovation award - honorable mention:
+    cultural innovation award - honorable mention:
+      nominee: [tt0475241]
+      winner: [tt0475241]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt1093842]
+      winner: [tt1093842]
+  best canadian first feature film:
+    best canadian first feature film:
+      nominee: [tt1093815]
+      winner: [tt1093815]
+  international critics' award (fipresci):
+    international critics' award (fipresci):
+      nominee: [tt1039652]
+      winner: [tt1039652]
+  short cuts award:
+    best canadian film:
+      nominee: [tt1084703]
+      winner: [tt1084703]
+'2006': # https://www.imdb.com/event/ev0000659/2006/1/
+  people's choice award:
+    best film:
+      nominee: [tt0800135]
+      winner: []
+    gala or special presentations:
+      nominee: [tt0492869]
+      winner: []
+    people's choice award:
+      nominee: [tt0482463]
+      winner: [tt0482463]
+  discovery award:
+    best film:
+      nominee: [tt0837786]
+      winner: []
+    discovery award:
+      nominee: [tt0827517]
+      winner: [tt0827517]
+  innovation award:
+    innovation award:
+      nominee: [tt0499262]
+      winner: [tt0499262]
+  visions award:
+    best film:
+      nominee: [tt0475224]
+      winner: []
+  best canadian feature film - special jury citation:
+    best canadian feature film - special jury citation:
+      nominee: [tt0832906]
+      winner: [tt0832906]
+  best canadian first feature film:
+    best canadian first feature film:
+      nominee: [tt0832958]
+      winner: [tt0832958]
+  international critics' award (fipresci):
+    international critics' award (fipresci):
+      nominee: [tt0853096]
+      winner: [tt0853096]
+  short cuts award:
+    best canadian film:
+      nominee: [tt0841117]
+      winner: [tt0841117]
+  vanguard honours:
+    best screenplay:
+      nominee: [tt0837786]
+      winner: []
+    creativity in cinematography:
+      nominee: [tt0837786]
+      winner: []
+  contemporary world cinema award:
+    best film:
+      nominee: [tt0800135, tt0837786]
+      winner: []
+  jury prize:
+    best film:
+      nominee: [tt0934469]
+      winner: []
+'2005': # https://www.imdb.com/event/ev0000659/2005/1/
+  people's choice award:
+    people's choice award:
+      nominee: [tt0468565]
+      winner: [tt0468565]
+  discovery award:
+    discovery award:
+      nominee: [tt0382806]
+      winner: [tt0382806]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt0401085]
+      winner: [tt0401085]
+  best canadian first feature film:
+    best canadian first feature film:
+      nominee: [tt0408993, tt0425979]
+      winner: [tt0408993, tt0425979]
+  international critics' award (fipresci):
+    international critics' award (fipresci):
+      nominee: [tt0478025]
+      winner: [tt0478025]
+  short cuts award:
+    best canadian film:
+      nominee: [tt0481479]
+      winner: [tt0481479]
+  short cuts award - honorable mention:
+    best canadian film:
+      nominee: [tt0829484]
+      winner: [tt0829484]
+  contemporary world cinema award:
+    best film:
+      nominee: [tt0415147]
+      winner: []
+'2004': # https://www.imdb.com/event/ev0000659/2004/1/
+  people's choice award:
+    people's choice award:
+      nominee: [tt0395169]
+      winner: [tt0395169]
+  discovery award:
+    best film:
+      nominee: [tt0358945]
+      winner: []
+    discovery award:
+      nominee: [tt0408056]
+      winner: [tt0408056]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt0388139]
+      winner: [tt0388139]
+  best canadian feature film - special jury citation:
+    best canadian feature film - special jury citation:
+      nominee: [tt0424410]
+      winner: [tt0424410]
+  best canadian first feature film:
+    best canadian first feature film:
+      nominee: [tt0411743]
+      winner: [tt0411743]
+  international critics' award (fipresci):
+    international critics' award (fipresci):
+      nominee: [tt0385017]
+      winner: [tt0385017]
+  short cuts award:
+    best canadian film:
+      nominee: [tt0439692]
+      winner: [tt0439692]
+'2003': # https://www.imdb.com/event/ev0000659/2003/1/
+  people's choice award:
+    people's choice award:
+      nominee: [tt0363226]
+      winner: [tt0363226]
+  discovery award:
+    best film:
+      nominee: [tt0354243, tt0363290, tt0379587]
+      winner: []
+    discovery award:
+      nominee: [tt0326065]
+      winner: [tt0326065]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt0338135]
+      winner: [tt0338135]
+  best canadian first feature film:
+    best canadian first feature film:
+      nominee: [tt0342316]
+      winner: [tt0342316]
+  best canadian short film:
+    best canadian short film:
+      nominee: [tt0398708]
+      winner: [tt0398708]
+  international critics' award (fipresci):
+    international critics' award (fipresci):
+      nominee: [tt0376800]
+      winner: [tt0376800]
+'2002': # https://www.imdb.com/event/ev0000659/2002/1/
+  people's choice award:
+    people's choice award:
+      nominee: [tt0298228]
+      winner: [tt0298228]
+  discovery award:
+    discovery award:
+      nominee: [tt0318411]
+      winner: [tt0318411]
+  visions award:
+    visions award:
+      nominee: [tt0318034]
+      winner: [tt0318034]
+  visions award - special citation:
+    visions award - special citation:
+      nominee: [tt0302674, tt0317248]
+      winner: [tt0302674, tt0317248]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt0278731]
+      winner: [tt0278731]
+  best canadian first feature film:
+    best canadian first feature film:
+      nominee: [tt0329355]
+      winner: [tt0329355]
+  best canadian short film:
+    best canadian short film:
+      nominee: [tt0355271]
+      winner: [tt0355271]
+  international critics' award (fipresci):
+    international critics' award (fipresci):
+      nominee: [tt0313879]
+      winner: [tt0313879]
+  international critics' award (fipresci) - special mention:
+    international critics' award (fipresci) - special mention:
+      nominee: [tt0315543]
+      winner: [tt0315543]
+'2001': # https://www.imdb.com/event/ev0000659/2001/1/
+  people's choice award:
+    people's choice award:
+      nominee: [tt0211915]
+      winner: [tt0211915]
+  discovery award:
+    discovery award:
+      nominee: [tt0266407]
+      winner: [tt0266407]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt0285441]
+      winner: [tt0285441]
+  best canadian first feature film:
+    best canadian first feature film:
+      nominee: [tt0282612]
+      winner: [tt0282612]
+  best canadian short film:
+    best canadian short film:
+      nominee: [tt0294575]
+      winner: [tt0294575]
+  international critics' award (fipresci):
+    international critics' award (fipresci):
+      nominee: [tt0296008]
+      winner: [tt0296008]
+  international critics' award (fipresci) - special mention:
+    international critics' award (fipresci) - special mention:
+      nominee: [tt0288115, tt0296707]
+      winner: [tt0288115, tt0296707]
+'2000': # https://www.imdb.com/event/ev0000659/2000/1/
+  people's choice award:
+    people's choice award:
+      nominee: [tt0190332]
+      winner: [tt0190332]
+  discovery award:
+    best film:
+      nominee: [tt0242337]
+      winner: []
+    discovery award:
+      nominee: [tt0237993, tt0260332, tt0262432, tt0263957]
+      winner: [tt0237993, tt0262432]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt0219405]
+      winner: [tt0219405]
+  best canadian feature film - special jury citation:
+    best canadian feature film - special jury citation:
+      nominee: [tt0210070, tt0220627]
+      winner: [tt0210070, tt0220627]
+  best canadian first feature film:
+    best canadian first feature film:
+      nominee: [tt0260193]
+      winner: [tt0260193]
+  best canadian first feature film - special jury citation:
+    best canadian first feature film - special jury citation:
+      nominee: [tt0263926]
+      winner: [tt0263926]
+  best canadian short film:
+    best canadian short film:
+      nominee: [tt0262327, tt0292287]
+      winner: [tt0262327]
+  best canadian short film - special mention:
+    best canadian short film - special mention:
+      nominee: [tt0263317]
+      winner: [tt0263317]
+  international critics' award (fipresci):
+    international critics' award (fipresci):
+      nominee: [tt0263101]
+      winner: [tt0263101]
+'1999': # https://www.imdb.com/event/ev0000659/1999/1/
+  people's choice award:
+    masters:
+      nominee: [tt0120731, tt0132905, tt0139877, tt0154443, tt0158117, tt0158692, tt0165196, tt0196355, tt0199777, tt0209463]
+      winner: []
+    people's choice award:
+      nominee: [tt0169547]
+      winner: [tt0169547]
+  discovery award:
+    discovery award:
+      nominee: [tt0156096, tt0162348, tt0188674, tt0188757]
+      winner: [tt0162348]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt0168794]
+      winner: [tt0168794]
+  best canadian feature film - special jury citation:
+    best canadian feature film - special jury citation:
+      nominee: [tt0148103]
+      winner: [tt0148103]
+  best canadian first feature film:
+    best canadian first feature film:
+      nominee: [tt0214822]
+      winner: [tt0214822]
+  best canadian first feature film - special jury citation:
+    best canadian first feature film - special jury citation:
+      nominee: [tt0223323]
+      winner: [tt0223323]
+  best canadian first feature film - special jury congratulation:
+    best canadian first feature film - special jury congratulation:
+      nominee: [tt0148103, tt0213121, tt0214819]
+      winner: [tt0148103, tt0213121, tt0214819]
+  best canadian short film:
+    best canadian short film:
+      nominee: [tt0223176]
+      winner: [tt0223176]
+  best canadian short film - special jury citation:
+    best canadian short film - special jury citation:
+      nominee: [tt0223598]
+      winner: [tt0223598]
+  international critics' award (fipresci):
+    international critics' award (fipresci):
+      nominee: [tt0215369]
+      winner: [tt0215369]
+'1998': # https://www.imdb.com/event/ev0000659/1998/1/
+  people's choice award:
+    people's choice award:
+      nominee: [tt0118799]
+      winner: [tt0118799]
+  metro media award:
+    metro media award:
+      nominee: [tt0147612]
+      winner: [tt0147612]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt0128370]
+      winner: [tt0128370]
+  best canadian first feature film:
+    best canadian first feature film:
+      nominee: [tt0156729]
+      winner: [tt0156729]
+  best canadian short film:
+    best canadian short film:
+      nominee: [tt0169380, tt0168827]
+      winner: [tt0169380]
+  international critics' award (fipresci):
+    international critics' award (fipresci):
+      nominee: [tt0147192, tt0157183]
+      winner: [tt0147192, tt0157183]
+  contemporary world cinema award:
+    best film:
+      nominee: [tt0165546]
+      winner: []
+'1997': # https://www.imdb.com/event/ev0000659/1997/1/
+  people's choice award:
+    best film:
+      nominee: [tt0122710]
+      winner: []
+    people's choice award:
+      nominee: [tt0125128]
+      winner: [tt0125128]
+  metro media award:
+    metro media award:
+      nominee: [tt0118749, tt0119488]
+      winner: [tt0118749, tt0119488]
+  discovery award:
+    best film:
+      nominee: [tt0117045]
+      winner: []
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt0120255, tt0122710, tt0125128]
+      winner: [tt0120255, tt0125128]
+  best canadian first feature film:
+    best canadian first feature film:
+      nominee: [tt0123755]
+      winner: [tt0123755]
+  best canadian short film:
+    best canadian short film:
+      nominee: [tt0125049]
+      winner: [tt0125049]
+  best canadian short film - special mention:
+    best canadian short film - special mention:
+      nominee: [tt0154184]
+      winner: [tt0154184]
+  international critics' award (fipresci):
+    international critics' award (fipresci):
+      nominee: [tt0124185]
+      winner: [tt0124185]
+  international people’s choice award:
+    best film:
+      nominee: [tt0116860]
+      winner: []
+'1996': # https://www.imdb.com/event/ev0000659/1996/1/
+  people's choice award:
+    people's choice award:
+      nominee: [tt0117631]
+      winner: [tt0117631]
+  metro media award:
+    metro media award:
+      nominee: [tt0117631]
+      winner: [tt0117631]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt0116907]
+      winner: [tt0116907]
+  best canadian feature film - special jury citation:
+    best canadian feature film - special jury citation:
+      nominee: [tt0116783]
+      winner: [tt0116783]
+  best canadian short film:
+    best canadian short film:
+      nominee: [tt0116863]
+      winner: [tt0116863]
+  best canadian short film - special jury citation:
+    best canadian short film - special jury citation:
+      nominee: [tt0116901, tt0117656]
+      winner: [tt0116901, tt0117656]
+  international critics' award (fipresci):
+    best film:
+      nominee: [tt0115944]
+      winner: []
+    discovery:
+      nominee: [tt0115999]
+      winner: []
+    international critics' award (fipresci):
+      nominee: [tt0116875]
+      winner: [tt0116875]
+  international critics' award (fipresci) - special mention:
+    international critics' award (fipresci) - special mention:
+      nominee: [tt0116041]
+      winner: [tt0116041]
+  short cuts award:
+    best international short film:
+      nominee: [tt7535126]
+      winner: []
+'1995': # https://www.imdb.com/event/ev0000659/1995/1/
+  people's choice award:
+    people's choice award:
+      nominee: [tt0112379]
+      winner: [tt0112379]
+  metro media award:
+    metro media award:
+      nominee: [tt0112769]
+      winner: [tt0112769]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt0113673]
+      winner: [tt0113673]
+  best canadian feature film - special jury citation:
+    best canadian feature film - special jury citation:
+      nominee: [tt0112759, tt0114305]
+      winner: [tt0112759, tt0114305]
+  best canadian short film:
+    best canadian short film:
+      nominee: [tt0114242]
+      winner: [tt0114242]
+  best canadian short film - special jury citation:
+    best canadian short film - special jury citation:
+      nominee: [tt0114028, tt0114813]
+      winner: [tt0114028, tt0114813]
+  international critics' award (fipresci):
+    international critics' award (fipresci):
+      nominee: [tt0112934, tt0116085]
+      winner: [tt0112934, tt0116085]
+'1994': # https://www.imdb.com/event/ev0000659/1994/1/
+  people's choice award:
+    people's choice award:
+      nominee: [tt0110889]
+      winner: [tt0110889]
+  metro media award:
+    metro media award:
+      nominee: [tt0110005]
+      winner: [tt0110005]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt0109759]
+      winner: [tt0109759]
+  best canadian feature film - special jury citation:
+    best canadian feature film - special jury citation:
+      nominee: [tt0109655, tt0111726]
+      winner: [tt0109655, tt0111726]
+  best canadian short film:
+    best canadian short film:
+      nominee: [tt0106957]
+      winner: [tt0106957]
+  best canadian short film - special jury citation:
+    best canadian short film - special jury citation:
+      nominee: [tt0111382, tt0113741]
+      winner: [tt0111382, tt0113741]
+  international critics' award (fipresci):
+    international critics' award (fipresci):
+      nominee: [tt0111055, tt0111607]
+      winner: [tt0111055, tt0111607]
+'1993': # https://www.imdb.com/event/ev0000659/1993/1/
+  people's choice award:
+    best director:
+      nominee: [tt0107389]
+      winner: [tt0107389]
+    people's choice award:
+      nominee: [tt0108026, tt0108170]
+      winner: [tt0108170]
+  metro media award:
+    metro media award:
+      nominee: [tt0107653]
+      winner: [tt0107653]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt0107305]
+      winner: [tt0107305]
+  best canadian feature film - special jury citation:
+    best canadian feature film - special jury citation:
+      nominee: [tt0108328, tt0108649]
+      winner: [tt0108328, tt0108649]
+  best canadian short film:
+    best canadian short film:
+      nominee: [tt0124866]
+      winner: [tt0124866]
+  best canadian short film - special jury citation:
+    best canadian short film - special jury citation:
+      nominee: [tt0144299]
+      winner: [tt0144299]
+  international critics' award (fipresci):
+    international critics' award (fipresci):
+      nominee: [tt0108230]
+      winner: [tt0108230]
+'1992': # https://www.imdb.com/event/ev0000659/1992/1/
+  people's choice award:
+    people's choice award:
+      nominee: [tt0105488]
+      winner: [tt0105488]
+  metro media award:
+    metro media award:
+      nominee: [tt0103905]
+      winner: [tt0103905]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt0105235]
+      winner: [tt0105235]
+  best canadian feature film - special jury citation:
+    best canadian feature film - special jury citation:
+      nominee: [tt0104782, tt0104810]
+      winner: [tt0104782, tt0104810]
+  best canadian short film:
+    best canadian short film:
+      nominee: [tt0102845]
+      winner: [tt0102845]
+  best canadian short film - special jury citation:
+    best canadian short film - special jury citation:
+      nominee: [tt0103844, tt0104222, tt0192340, tt0193332]
+      winner: [tt0103844, tt0104222, tt0192340, tt0193332]
+  international critics' award (fipresci):
+    international critics' award (fipresci):
+      nominee: [tt0105236]
+      winner: [tt0105236]
+'1991': # https://www.imdb.com/event/ev0000659/1991/1/
+  people's choice award:
+    people's choice award:
+      nominee: [tt0101889]
+      winner: [tt0101889]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt0101273]
+      winner: [tt0101273]
+  best canadian feature film - special jury citation:
+    best canadian feature film - special jury citation:
+      nominee: [tt0101978]
+      winner: [tt0101978]
+  best canadian short film:
+    best canadian short film:
+      nominee: [tt0095571]
+      winner: [tt0095571]
+  international critics' award:
+    international critics' award:
+      nominee: [tt0100623, tt0102494]
+      winner: [tt0100623, tt0102494]
+'1990': # https://www.imdb.com/event/ev0000659/1990/1/
+  people's choice award:
+    people's choice award:
+      nominee: [tt0099334]
+      winner: [tt0099334]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt0128246]
+      winner: [tt0128246]
+  best canadian short film:
+    best canadian short film:
+      nominee: [tt0217044]
+      winner: [tt0217044]
+  international critics' award:
+    international critics' award:
+      nominee: [tt0099040]
+      winner: [tt0099040]
+'1989': # https://www.imdb.com/event/ev0000659/1989/1/
+  people's choice award:
+    people's choice award:
+      nominee: [tt0098213]
+      winner: [tt0098213]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt0098209]
+      winner: [tt0098209]
+  best canadian short film:
+    best canadian short film:
+      nominee: [tt0217062]
+      winner: [tt0217062]
+  international critics' award:
+    international critics' award:
+      nominee: [tt0097635]
+      winner: [tt0097635]
+'1988': # https://www.imdb.com/event/ev0000659/1988/1/
+  people's choice award:
+    people's choice award:
+      nominee: [tt0095675]
+      winner: [tt0095675]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt0095806]
+      winner: [tt0095806]
+  international critics' award:
+    international critics' award:
+      nominee: [tt0095037]
+      winner: [tt0095037]
+'1987': # https://www.imdb.com/event/ev0000659/1987/1/
+  people's choice award:
+    people's choice award:
+      nominee: [tt0093779]
+      winner: [tt0093779]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt0093006]
+      winner: [tt0093006]
+  best canadian feature film - special jury citation:
+    best canadian feature film - special jury citation:
+      nominee: [tt0191792]
+      winner: [tt0191792]
+  international critics' award:
+    international critics' award:
+      nominee: [tt0094210]
+      winner: [tt0094210]
+'1986': # https://www.imdb.com/event/ev0000659/1986/1/
+  people's choice award:
+    people's choice award:
+      nominee: [tt0090985]
+      winner: [tt0090985]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt0090985]
+      winner: [tt0090985]
+  best canadian feature film - special jury citation:
+    best canadian feature film - special jury citation:
+      nominee: [tt0090901, tt0091959]
+      winner: [tt0090901, tt0091959]
+  international critics' award:
+    international critics' award:
+      nominee: [tt0091214]
+      winner: [tt0091214]
+'1985': # https://www.imdb.com/event/ev0000659/1985/1/
+  people's choice award:
+    people's choice award:
+      nominee: [tt0089276]
+      winner: [tt0089276]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt0088880]
+      winner: [tt0088880]
+  international critics' award:
+    international critics' award:
+      nominee: [tt0089647, tt0089697]
+      winner: [tt0089647, tt0089697]
+'1984': # https://www.imdb.com/event/ev0000659/1984/1/
+  people's choice award:
+    discovery:
+      nominee: [tt0090275]
+      winner: []
+    people's choice award:
+      nominee: [tt0087921]
+      winner: [tt0087921]
+  best canadian feature film:
+    best canadian feature film:
+      nominee: [tt0087249]
+      winner: [tt0087249]
+  international critics' award:
+    international critics' award:
+      nominee: [tt0087054]
+      winner: [tt0087054]
+    special presentations:
+      nominee: [tt0090275]
+      winner: []
+'1983': # https://www.imdb.com/event/ev0000659/1983/1/
+  people's choice award:
+    people's choice award:
+      nominee: [tt0085244]
+      winner: [tt0085244]
+  international critics' award:
+    international critics' award:
+      nominee: [tt0086543]
+      winner: [tt0086543]
+'1982': # https://www.imdb.com/event/ev0000659/1982/1/
+  people's choice award:
+    people's choice award:
+      nominee: [tt0084776]
+      winner: [tt0084776]
+  international critics' award:
+    international critics' award:
+      nominee: [tt0084654, tt0084697]
+      winner: [tt0084654, tt0084697]
+  contemporary world cinema award:
+    best film:
+      nominee: [tt0289392]
+      winner: []
+  jury prize:
+    best film:
+      nominee: [tt0159570]
+      winner: []
+'1981': # https://www.imdb.com/event/ev0000659/1981/1/
+  people's choice award:
+    people's choice award:
+      nominee: [tt0082158]
+      winner: [tt0082158]
+'1980': # https://www.imdb.com/event/ev0000659/1980/1/
+  people's choice award:
+    people's choice award:
+      nominee: [tt0080408]
+      winner: [tt0080408]
+'1979': # https://www.imdb.com/event/ev0000659/1979/1/
+  people's choice award:
+    people's choice award:
+      nominee: [tt0078850]
+      winner: [tt0078850]
+'1978': # https://www.imdb.com/event/ev0000659/1978/1/
+  people's choice award:
+    people's choice award:
+      nominee: [tt0077613]
+      winner: [tt0077613]
