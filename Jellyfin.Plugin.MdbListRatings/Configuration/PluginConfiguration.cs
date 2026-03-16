@@ -26,6 +26,23 @@ public class PluginConfiguration : BasePluginConfiguration
     public string MdbListApiKey { get; set; } = string.Empty;
 
     /// <summary>
+    /// Gets or sets the Trakt API client id used for season and episode ratings.
+    /// </summary>
+    public string TraktClientId { get; set; } = string.Empty;
+
+    /// <summary>
+    /// Gets or sets the TMDb API credential used for season ratings.
+    /// Accepts either a v3 api_key or the TMDb API Read Access Token.
+    /// </summary>
+    public string TmdbApiAuth { get; set; } = string.Empty;
+
+    /// <summary>
+    /// Gets or sets the OMDb API key used for IMDb episode ratings.
+    /// The free OMDb tier is limited to 1000 requests/day.
+    /// </summary>
+    public string OmdbApiKey { get; set; } = string.Empty;
+
+    /// <summary>
     /// Gets or sets which MDBList rating source is written to Jellyfin Community Rating for Movies.
     /// Example: imdb, tmdb, trakt, tomatoes, popcorn, letterboxd...
     /// </summary>
@@ -64,6 +81,32 @@ public class PluginConfiguration : BasePluginConfiguration
     public string ShowCommunityFallbackSource { get; set; } = "none";
 
     /// <summary>
+    /// Gets or sets which source is written to Jellyfin Community Rating for Seasons.
+    /// Supported: trakt, tmdb.
+    /// </summary>
+    public string SeasonCommunitySource { get; set; } = "trakt";
+
+    /// <summary>
+    /// Optional fallback rating source for Season Community Rating.
+    /// Used when the primary source has no data.
+    /// Set to "none" (or empty) to disable.
+    /// </summary>
+    public string SeasonCommunityFallbackSource { get; set; } = "none";
+
+    /// <summary>
+    /// Gets or sets which source is written to Jellyfin Community Rating for Episodes.
+    /// Supported: tmdb, trakt, tvmaze, imdb (via OMDb).
+    /// </summary>
+    public string EpisodeCommunitySource { get; set; } = "tmdb";
+
+    /// <summary>
+    /// Optional fallback rating source for Episode Community Rating.
+    /// Used when the primary source has no data.
+    /// Set to "none" (or empty) to disable.
+    /// </summary>
+    public string EpisodeCommunityFallbackSource { get; set; } = "none";
+
+    /// <summary>
     /// If enabled, the plugin will only write ratings when the target field is empty/null/0.
     /// </summary>
     public bool UpdateOnlyWhenEmpty { get; set; } = true;
@@ -89,6 +132,12 @@ public class PluginConfiguration : BasePluginConfiguration
     /// This affects only the web interface; native clients are not modified.
     /// </summary>
     public bool EnableWebRatingSourceIcon { get; set; } = true;
+
+    /// <summary>
+    /// If enabled, titles whose IMDb id is present in the locally cached IMDb Top 250 dataset
+    /// will use imdb_top_250.png instead of the standard IMDb icon in Jellyfin Web.
+    /// </summary>
+    public bool EnableImdbTop250Icon { get; set; } = false;
 
     /// <summary>
     /// If enabled, Jellyfin Web "Details" page will hide the standard Community/Critic
@@ -145,6 +194,26 @@ public bool EnableWebExtraAniList { get; set; } = false;
     /// Visual only; nothing is saved.
     /// </summary>
     public bool EnableWebClickableRatingIcons { get; set; } = false;
+
+
+    /// <summary>
+    /// (Web-only) On the item Details page, show award badges near the rating area.
+    /// Matching is done by IMDb id against local award datasets.
+    /// </summary>
+    public bool EnableWebAwardBadges { get; set; } = false;
+
+    /// <summary>
+    /// Comma/newline separated list of enabled award keys for the Web award badges feature.
+    /// Empty value means "show all discovered awards".
+    /// </summary>
+    public string WebAwardKeysCsv { get; set; } = string.Empty;
+
+    /// <summary>
+    /// (Web-only) When award icons are enabled on the item Details page,
+    /// also show one aggregated nominations badge. Hover to see awards/categories.
+    /// Visual only; nothing is saved.
+    /// </summary>
+    public bool EnableWebAwardNominationsBadge { get; set; } = false;
 
 /// <summary>
     /// Optional per-library overrides.
@@ -209,5 +278,30 @@ public bool EnableWebExtraAniList { get; set; } = false;
         /// Leave empty to use the global setting.
         /// </summary>
         public string ShowCommunityFallbackSource { get; set; } = string.Empty;
+
+
+        /// <summary>
+        /// Override for Season community rating source.
+        /// Leave empty to use the global setting.
+        /// </summary>
+        public string SeasonCommunitySource { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Override for Season community rating fallback source.
+        /// Leave empty to use the global setting.
+        /// </summary>
+        public string SeasonCommunityFallbackSource { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Override for Episode community rating source.
+        /// Leave empty to use the global setting.
+        /// </summary>
+        public string EpisodeCommunitySource { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Override for Episode community rating fallback source.
+        /// Leave empty to use the global setting.
+        /// </summary>
+        public string EpisodeCommunityFallbackSource { get; set; } = string.Empty;
     }
 }

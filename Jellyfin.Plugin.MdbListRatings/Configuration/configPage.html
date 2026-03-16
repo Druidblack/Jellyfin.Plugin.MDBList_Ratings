@@ -23,6 +23,28 @@
                     </div>
                 </div>
 
+                <div class="inputContainer">
+                    <label class="inputLabel inputLabelUnfocused" for="traktClientId">Trakt API Client ID</label>
+                    <input id="traktClientId" name="traktClientId" type="password" class="emby-input" autocomplete="off" />
+                    <div class="fieldDescription">
+                        Used for season and episode ratings via the official Trakt API. Create an application in Trakt and paste its <code>client_id</code> here.
+                    </div>
+                </div>
+                <div class="inputContainer">
+                    <label class="inputLabel inputLabelUnfocused" for="tmdbApiAuth">TMDb API key</label>
+                    <input id="tmdbApiAuth" name="tmdbApiAuth" type="password" class="emby-input" autocomplete="off" />
+                    <div class="fieldDescription">
+                        Used for TMDb-based season and episode ratings.
+                    </div>
+                </div>
+                <div class="inputContainer">
+                    <label class="inputLabel inputLabelUnfocused" for="omdbApiKey">OMDb API key</label>
+                    <input id="omdbApiKey" name="omdbApiKey" type="password" class="emby-input" autocomplete="off" />
+                    <div class="fieldDescription">
+                        Used for IMDb episode ratings via OMDb. OMDb looks up each episode by its episode <code>IMDb id</code>. Free OMDb keys are limited to 1000 requests per day.
+                    </div>
+                </div>
+
                 <h2>Rating mapping</h2>
 
                 <h3>Movies</h3>
@@ -52,15 +74,35 @@
                 <div class="selectContainer">
                     <label class="selectLabel" for="showCommunity">Community rating</label>
                     <select id="showCommunity" name="showCommunity" class="emby-select"></select>
-                    <div class="fieldDescription">
-                        In Jellyfin, series typically use only the Community rating field.
-                    </div>
-
                     </div>
 
                 <div class="selectContainer">
                     <label class="selectLabel" for="showCommunityFallback">Fallback source (if no data)</label>
                     <select id="showCommunityFallback" name="showCommunityFallback" class="emby-select"></select>
+                </div>
+
+                <h3>Seasons</h3>
+
+                <div class="selectContainer">
+                    <label class="selectLabel" for="seasonCommunity">Community rating</label>
+                    <select id="seasonCommunity" name="seasonCommunity" class="emby-select"></select>
+                </div>
+
+                <div class="selectContainer">
+                    <label class="selectLabel" for="seasonCommunityFallback">Fallback source (if no data)</label>
+                    <select id="seasonCommunityFallback" name="seasonCommunityFallback" class="emby-select"></select>
+                </div>
+
+                <h3>Episodes</h3>
+
+                <div class="selectContainer">
+                    <label class="selectLabel" for="episodeCommunity">Community rating</label>
+                    <select id="episodeCommunity" name="episodeCommunity" class="emby-select"></select>
+                </div>
+
+                <div class="selectContainer">
+                    <label class="selectLabel" for="episodeCommunityFallback">Fallback source (if no data)</label>
+                    <select id="episodeCommunityFallback" name="episodeCommunityFallback" class="emby-select"></select>
                 </div>
 
                 <h2>Per-library overrides</h2>
@@ -97,6 +139,14 @@
                 </div>
 
                 <label class="checkboxContainer" style="margin-top: 10px;">
+                    <input type="checkbox" is="emby-checkbox" id="enableImdbTop250Icon" />
+                    <span>Use IMDb Top 250 icon instead of IMDb</span>
+                </label>
+                <div class="fieldDescription" style="margin-top: 4px;">
+                    When enabled, the scheduled task downloads the provided movie and TV Top 250.
+                </div>
+
+                <label class="checkboxContainer" style="margin-top: 10px;">
                     <input type="checkbox" is="emby-checkbox" id="enableWebAllRatings" />
                     <span>On item Details, show all ratings from cache (hide the default blocks)</span>
                 </label>
@@ -122,10 +172,11 @@
                         <label class="inputLabel inputLabelUnfocused" for="webAllRatingsOrder">Rating sources and order</label>
                         <textarea id="webAllRatingsOrder" name="webAllRatingsOrder" class="emby-textarea" rows="4"
                                   placeholder="imdb\ntmdb\nmetacritic\nmetacriticuser\ntomatoes\npopcorn\nletterboxd\ntrakt\nrogerebert\nmyanimelist
-anilist"></textarea>
+anilist
+tvmaze"></textarea>
                         <div class="fieldDescription">
                             Enter one source per line or separated by commas. Source keys must match what MDBList returns
-                            (e.g. imdb, tmdb, metacritic, metacriticuser, tomatoes, popcorn, trakt, letterboxd, rogerebert, myanimelist, anilist).
+                            (e.g. imdb, tmdb, metacritic, metacriticuser, tomatoes, popcorn, trakt, letterboxd, rogerebert, myanimelist, anilist, tvmaze).
                         </div>
                     
 
@@ -162,6 +213,22 @@ anilist"></textarea>
                     </label>
 
                 </div>
+
+                <label class="checkboxContainer" style="margin-top: 10px;">
+                    <input type="checkbox" is="emby-checkbox" id="enableWebAwardBadges" />
+                    <span>On item Details, show award icons near the rating area</span>
+                </label>
+
+                <div id="webAwardOptions" style="margin-left: 22px; margin-top: 8px; display: none;">
+                    <label class="checkboxContainer" style="margin-top: 4px;">
+                        <input type="checkbox" is="emby-checkbox" id="enableWebAwardNominationsBadge" />
+                        <span>Also show one nominations badge (hover for awards/categories)</span>
+                    </label>
+                    <div class="fieldDescription" style="margin-top: 4px;">
+                        Works only together with the option above that shows award icons near the rating area.
+                    </div>
+                </div>
+
 
                 <div class="selectContainer">
                     <label class="selectLabel" for="cacheInterval">Cache refresh interval</label>
@@ -215,13 +282,32 @@ anilist"></textarea>
     { value: "letterboxd", text: "Letterboxd" },
     { value: "rogerebert", text: "RogerEbert" },
     { value: "myanimelist", text: "MyAnimeList" },
+    { value: "anilist", text: "AniList" },
+    { value: "tvmaze", text: "TVmaze (Series/Shows)" },
+            ];
+
+            var seasonSources = [
+    { value: "none", text: "Do not fill" },
+    { value: "trakt", text: "Trakt (Seasons)" },
+    { value: "tmdb", text: "TMDb (Seasons)" }
+            ];
+
+            var episodeSources = [
+    { value: "none", text: "Do not fill" },
+    { value: "tmdb", text: "TMDb (Episodes)" },
+    { value: "trakt", text: "Trakt (Episodes)" },
+    { value: "tvmaze", text: "TVmaze (Episodes)" },
+    { value: "imdb", text: "IMDb (Episodes via OMDb)" }
             ];
 
             // Same as sources, but with a leading "use global" option for per-library overrides.
             var overrideSources = [{ value: "", text: "Use global setting" }].concat(sources);
+            var overrideSeasonSources = [{ value: "", text: "Use global setting" }].concat(seasonSources);
+            var overrideEpisodeSources = [{ value: "", text: "Use global setting" }].concat(episodeSources);
 
             var loadedLibraries = [];
             var librariesCache = [];
+            var awardDefinitionsCache = [];
 
             function fillSelect(select, value, list) {
                 list = list || sources;
@@ -301,6 +387,112 @@ anilist"></textarea>
                     librariesCache = [];
                     return [];
                 });
+            }
+
+
+            function loadAwardDefinitions() {
+                return ajaxGetJson('Plugins/MdbListRatings/AwardsDefinitions').then(function (result) {
+                    if (!result) {
+                        awardDefinitionsCache = [];
+                        return { awards: [] };
+                    }
+                    var awards = Array.isArray(result.Awards) ? result.Awards : (Array.isArray(result.awards) ? result.awards : []);
+                    awardDefinitionsCache = awards;
+                    return {
+                        awards: awards,
+                        customAwardsDirectory: result.CustomAwardsDirectory || result.customAwardsDirectory || '',
+                        customIconsDirectory: result.CustomIconsDirectory || result.customIconsDirectory || ''
+                    };
+                }).catch(function () {
+                    awardDefinitionsCache = [];
+                    return { awards: [] };
+                });
+            }
+
+            function parseCsvKeys(v) {
+                if (!v) return [];
+                var parts = String(v)
+                    .split(/[\n,;]+/)
+                    .map(function (x) { return (x || '').trim().toLowerCase(); })
+                    .filter(Boolean);
+                var seen = Object.create(null);
+                var out = [];
+                parts.forEach(function (p) {
+                    if (!seen[p]) {
+                        seen[p] = true;
+                        out.push(p);
+                    }
+                });
+                return out;
+            }
+
+            function collectCheckedAwardKeys(page) {
+                var nodes = page.querySelectorAll('#webAwardList input[data-award-key]');
+                var out = [];
+                nodes.forEach(function (node) {
+                    if (node.checked) {
+                        out.push((node.getAttribute('data-award-key') || '').toLowerCase());
+                    }
+                });
+                return out.join(',');
+            }
+
+            function renderAwardOptions(page, config, awardsPayload) {
+                awardsPayload = awardsPayload || { awards: [] };
+                var awards = Array.isArray(awardsPayload.awards) ? awardsPayload.awards : [];
+                var selected = parseCsvKeys(config.WebAwardKeysCsv || config.webAwardKeysCsv || '');
+                var selectedMap = Object.create(null);
+                selected.forEach(function (k) { selectedMap[k] = true; });
+
+                var list = page.querySelector('#webAwardList');
+                if (list) {
+                    list.innerHTML = '';
+                    if (!awards.length) {
+                        var empty = document.createElement('div');
+                        empty.className = 'fieldDescription';
+                        empty.textContent = 'No award datasets were discovered.';
+                        list.appendChild(empty);
+                    } else {
+                        awards.forEach(function (award) {
+                            var key = ((award.Key || award.key || '') + '').toLowerCase();
+                            if (!key) return;
+
+                            var label = document.createElement('label');
+                            label.className = 'checkboxContainer';
+                            label.style.marginTop = '6px';
+
+                            var input = document.createElement('input');
+                            input.type = 'checkbox';
+                            input.setAttribute('is', 'emby-checkbox');
+                            input.setAttribute('data-award-key', key);
+
+                            // Empty config => all awards selected by default.
+                            input.checked = selected.length ? !!selectedMap[key] : true;
+
+                            var span = document.createElement('span');
+                            var count = award.EntryCount || award.entryCount || 0;
+                            span.textContent = (award.Name || award.name || key) + (count ? (' (' + count + ')') : '');
+
+                            label.appendChild(input);
+                            label.appendChild(span);
+                            list.appendChild(label);
+                        });
+                    }
+                }
+
+                var paths = page.querySelector('#webAwardPaths');
+                if (paths) {
+                    var lines = [];
+                    if (awardsPayload.customAwardsDirectory) {
+                        lines.push('Custom award data folder: ' + awardsPayload.customAwardsDirectory);
+                    }
+                    if (awardsPayload.customIconsDirectory) {
+                        lines.push('Custom award icon folder: ' + awardsPayload.customIconsDirectory);
+                    }
+                    paths.textContent = lines.join('\n');
+                }
+
+                updateAwardUi(page);
             }
 
             function createOverrideRow(libraries, ov) {
@@ -421,7 +613,7 @@ anilist"></textarea>
                 hMovies.style.marginTop = '14px';
                 container.appendChild(hMovies);
 
-                function addSelectRow(labelText, cls, value) {
+                function addSelectRow(labelText, cls, value, sourceList) {
                     var row = document.createElement('div');
                     row.className = 'selectContainer';
                     var label = document.createElement('label');
@@ -429,7 +621,7 @@ anilist"></textarea>
                     label.textContent = labelText;
                     var sel = document.createElement('select');
                     sel.className = 'emby-select ' + cls;
-                    fillSelect(sel, (value || '').toLowerCase(), overrideSources);
+                    fillSelect(sel, (value || '').toLowerCase(), sourceList || overrideSources);
                     row.appendChild(label);
                     row.appendChild(sel);
                     container.appendChild(row);
@@ -448,6 +640,24 @@ anilist"></textarea>
 
                 addSelectRow('Community rating', 'ovShowCommunity', ov.ShowCommunitySource);
                 addSelectRow('Fallback source (if no data)', 'ovShowCommunityFallback', ov.ShowCommunityFallbackSource);
+
+                // Seasons section
+                var hSeasons = document.createElement('h3');
+                hSeasons.textContent = 'Seasons — override';
+                hSeasons.style.marginTop = '14px';
+                container.appendChild(hSeasons);
+
+                addSelectRow('Community rating', 'ovSeasonCommunity', ov.SeasonCommunitySource, overrideSeasonSources);
+                addSelectRow('Fallback source (if no data)', 'ovSeasonCommunityFallback', ov.SeasonCommunityFallbackSource, overrideSeasonSources);
+
+                // Episodes section
+                var hEpisodes = document.createElement('h3');
+                hEpisodes.textContent = 'Episodes — override';
+                hEpisodes.style.marginTop = '14px';
+                container.appendChild(hEpisodes);
+
+                addSelectRow('Community rating', 'ovEpisodeCommunity', ov.EpisodeCommunitySource, overrideEpisodeSources);
+                addSelectRow('Fallback source (if no data)', 'ovEpisodeCommunityFallback', ov.EpisodeCommunityFallbackSource, overrideEpisodeSources);
 
                 return container;
             }
@@ -529,14 +739,31 @@ anilist"></textarea>
                 }
             }
 
+            function updateAwardUi(page) {
+                try {
+                    var enabled = !!page.querySelector('#enableWebAwardBadges').checked;
+                    var opts = page.querySelector('#webAwardOptions');
+                    if (opts) {
+                        opts.style.display = enabled ? 'block' : 'none';
+                    }
+                } catch (e) {
+                    // ignore
+                }
+            }
+
             function loadConfig(page) {
                 Promise.all([
                     ApiClient.getPluginConfiguration(pluginId),
-                    loadLibraries()
+                    loadLibraries(),
+                    loadAwardDefinitions()
                 ]).then(function (arr) {
                     var config = arr[0];
                     var libraries = arr[1] || [];
+                    var awardsPayload = arr[2] || { awards: [] };
                     page.querySelector('#mdbApiKey').value = config.MdbListApiKey || '';
+                    page.querySelector('#traktClientId').value = config.TraktClientId || '';
+                    page.querySelector('#tmdbApiAuth').value = config.TmdbApiAuth || '';
+                    page.querySelector('#omdbApiKey').value = config.OmdbApiKey || '';
 
                     fillSelect(page.querySelector('#movieCommunity'), (config.MovieCommunitySource || 'imdb').toLowerCase());
                     fillSelect(page.querySelector('#movieCommunityFallback'), (config.MovieCommunityFallbackSource || 'none').toLowerCase());
@@ -544,17 +771,24 @@ anilist"></textarea>
                     fillSelect(page.querySelector('#movieCriticFallback'), (config.MovieCriticFallbackSource || 'none').toLowerCase());
                     fillSelect(page.querySelector('#showCommunity'), (config.ShowCommunitySource || 'tmdb').toLowerCase());
                     fillSelect(page.querySelector('#showCommunityFallback'), (config.ShowCommunityFallbackSource || 'none').toLowerCase());
+                    fillSelect(page.querySelector('#seasonCommunity'), (config.SeasonCommunitySource || 'trakt').toLowerCase(), seasonSources);
+                    fillSelect(page.querySelector('#seasonCommunityFallback'), (config.SeasonCommunityFallbackSource || 'none').toLowerCase(), seasonSources);
+                    fillSelect(page.querySelector('#episodeCommunity'), (config.EpisodeCommunitySource || 'tmdb').toLowerCase(), episodeSources);
+                    fillSelect(page.querySelector('#episodeCommunityFallback'), (config.EpisodeCommunityFallbackSource || 'none').toLowerCase(), episodeSources);
 
                     page.querySelector('#updateOnlyWhenEmpty').checked = (config.UpdateOnlyWhenEmpty !== false);
                     page.querySelector('#enableWebIcons').checked = (config.EnableWebRatingSourceIcon !== false);
+                    page.querySelector('#enableImdbTop250Icon').checked = (config.EnableImdbTop250Icon === true);
                     page.querySelector('#enableWebAllRatings').checked = (config.EnableWebAllRatingsFromCache === true);
 
 
-page.querySelector('#enableWebExtraTomatoesCertified').checked = (config.EnableWebExtraTomatoesCertified === true);
-page.querySelector('#enableWebExtraRottenVerified').checked = (config.EnableWebExtraRottenVerified === true);
-page.querySelector('#enableWebExtraMetacriticMustSee').checked = (config.EnableWebExtraMetacriticMustSee === true);
-page.querySelector('#enableWebExtraAniList').checked = (config.EnableWebExtraAniList === true);
-            page.querySelector('#enableWebClickableRatingIcons').checked = (config.EnableWebClickableRatingIcons === true);
+                    page.querySelector('#enableWebExtraTomatoesCertified').checked = (config.EnableWebExtraTomatoesCertified === true);
+                    page.querySelector('#enableWebExtraRottenVerified').checked = (config.EnableWebExtraRottenVerified === true);
+                    page.querySelector('#enableWebExtraMetacriticMustSee').checked = (config.EnableWebExtraMetacriticMustSee === true);
+                    page.querySelector('#enableWebExtraAniList').checked = (config.EnableWebExtraAniList === true);
+                    page.querySelector('#enableWebClickableRatingIcons').checked = (config.EnableWebClickableRatingIcons === true);
+                    page.querySelector('#enableWebAwardBadges').checked = (config.EnableWebAwardBadges === true);
+                    page.querySelector('#enableWebAwardNominationsBadge').checked = (config.EnableWebAwardNominationsBadge === true);
                     // Web Details all-ratings panel: mode + custom order.
                     var mode = normalizeWebAllRatingsMode(config.WebAllRatingsMode || config.webAllRatingsMode);
                     var modeEl = page.querySelector('#webAllRatingsMode');
@@ -594,6 +828,7 @@ page.querySelector('#enableWebExtraAniList').checked = (config.EnableWebExtraAni
 
                     // Per-library overrides
                     renderOverrides(page, config, libraries);
+                    renderAwardOptions(page, config, awardsPayload);
 
                     Dashboard.hideLoadingMsg();
                 });
@@ -604,6 +839,9 @@ page.querySelector('#enableWebExtraAniList').checked = (config.EnableWebExtraAni
 
                 ApiClient.getPluginConfiguration(pluginId).then(function (config) {
                     config.MdbListApiKey = page.querySelector('#mdbApiKey').value || '';
+                    config.TraktClientId = page.querySelector('#traktClientId').value || '';
+                    config.TmdbApiAuth = page.querySelector('#tmdbApiAuth').value || '';
+                    config.OmdbApiKey = page.querySelector('#omdbApiKey').value || '';
 
                     config.MovieCommunitySource = page.querySelector('#movieCommunity').value;
                     config.MovieCommunityFallbackSource = page.querySelector('#movieCommunityFallback').value;
@@ -611,11 +849,19 @@ page.querySelector('#enableWebExtraAniList').checked = (config.EnableWebExtraAni
                     config.MovieCriticFallbackSource = page.querySelector('#movieCriticFallback').value;
                     config.ShowCommunitySource = page.querySelector('#showCommunity').value;
                     config.ShowCommunityFallbackSource = page.querySelector('#showCommunityFallback').value;
+                    config.SeasonCommunitySource = page.querySelector('#seasonCommunity').value;
+                    config.SeasonCommunityFallbackSource = page.querySelector('#seasonCommunityFallback').value;
+                    config.EpisodeCommunitySource = page.querySelector('#episodeCommunity').value;
+                    config.EpisodeCommunityFallbackSource = page.querySelector('#episodeCommunityFallback').value;
 
                     config.UpdateOnlyWhenEmpty = page.querySelector('#updateOnlyWhenEmpty').checked;
                     config.EnableWebRatingSourceIcon = page.querySelector('#enableWebIcons').checked;
+                    config.EnableImdbTop250Icon = page.querySelector('#enableImdbTop250Icon').checked;
                     config.EnableWebAllRatingsFromCache = page.querySelector('#enableWebAllRatings').checked;
                     config.EnableWebClickableRatingIcons = page.querySelector('#enableWebClickableRatingIcons').checked;
+                    config.EnableWebAwardBadges = page.querySelector('#enableWebAwardBadges').checked;
+                    config.EnableWebAwardNominationsBadge = page.querySelector('#enableWebAwardNominationsBadge').checked;
+                    config.WebAwardKeysCsv = collectCheckedAwardKeys(page);
 
                     config.EnableWebExtraTomatoesCertified = page.querySelector('#enableWebExtraTomatoesCertified').checked;
                     config.EnableWebExtraRottenVerified = page.querySelector('#enableWebExtraRottenVerified').checked;
@@ -673,7 +919,11 @@ page.querySelector('#enableWebExtraAniList').checked = (config.EnableWebExtraAni
                             MovieCriticSource: (row.querySelector('.ovMovieCritic') || {}).value || '',
                             MovieCriticFallbackSource: (row.querySelector('.ovMovieCriticFallback') || {}).value || '',
                             ShowCommunitySource: (row.querySelector('.ovShowCommunity') || {}).value || '',
-                            ShowCommunityFallbackSource: (row.querySelector('.ovShowCommunityFallback') || {}).value || ''
+                            ShowCommunityFallbackSource: (row.querySelector('.ovShowCommunityFallback') || {}).value || '',
+                            SeasonCommunitySource: (row.querySelector('.ovSeasonCommunity') || {}).value || '',
+                            SeasonCommunityFallbackSource: (row.querySelector('.ovSeasonCommunityFallback') || {}).value || '',
+                            EpisodeCommunitySource: (row.querySelector('.ovEpisodeCommunity') || {}).value || '',
+                            EpisodeCommunityFallbackSource: (row.querySelector('.ovEpisodeCommunityFallback') || {}).value || ''
                         });
                     });
 
@@ -698,6 +948,9 @@ page.querySelector('#enableWebExtraAniList').checked = (config.EnableWebExtraAni
             });
             getPage().querySelector('#webAllRatingsMode').addEventListener('change', function () {
                 updateWebAllRatingsUi(getPage());
+            });
+            getPage().querySelector('#enableWebAwardBadges').addEventListener('change', function () {
+                updateAwardUi(getPage());
             });
 
             getPage().querySelector('#addLibraryOverride').addEventListener('click', function () {
