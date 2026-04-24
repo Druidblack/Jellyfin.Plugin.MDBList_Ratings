@@ -44,7 +44,7 @@ public class PluginConfiguration : BasePluginConfiguration
 
     /// <summary>
     /// Gets or sets which MDBList rating source is written to Jellyfin Community Rating for Movies.
-    /// Example: imdb, tmdb, trakt, tomatoes, popcorn, letterboxd...
+    /// Example: imdb, tmdb, trakt, filmweb, tomatoes, popcorn, letterboxd...
     /// </summary>
     public string MovieCommunitySource { get; set; } = "imdb";
 
@@ -70,6 +70,7 @@ public class PluginConfiguration : BasePluginConfiguration
 
     /// <summary>
     /// Gets or sets which MDBList rating source is written to Jellyfin Community Rating for Series.
+    /// Example: imdb, tmdb, trakt, filmweb, tvmaze...
     /// </summary>
     public string ShowCommunitySource { get; set; } = "tmdb";
 

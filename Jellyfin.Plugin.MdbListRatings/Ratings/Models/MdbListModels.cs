@@ -26,6 +26,10 @@ public sealed class MdbListIds
 
     [JsonPropertyName("imdb")]
     public string? Imdb { get; set; }
+
+    [JsonPropertyName("filmweb")]
+    [JsonConverter(typeof(NullableStringLenientConverter))]
+    public string? Filmweb { get; set; }
 }
 
 public sealed class MdbListRating
