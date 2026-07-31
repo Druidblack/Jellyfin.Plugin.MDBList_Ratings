@@ -17,8 +17,14 @@ public class PluginConfiguration : BasePluginConfiguration
 
         Day = 1,
         Week = 2,
-        Month = 3
+        Month = 3,
+        Custom = 4
     }
+
+    /// <summary>
+    /// Gets or sets the custom cache refresh interval in days (used when <see cref="CacheInterval"/> is <see cref="CacheIntervalPreset.Custom"/>).
+    /// </summary>
+    public int CacheCustomDays { get; set; } = 14;
 
     /// <summary>
     /// Gets or sets the MDBList API key.
