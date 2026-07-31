@@ -33,10 +33,12 @@ internal sealed class RatingsUpdater
     private readonly TmdbSeasonApiClient _tmdbSeason;
     private readonly TmdbEpisodeApiClient _tmdbEpisode;
     private readonly OmdbEpisodeApiClient _omdbEpisode;
+    private readonly WhatsOnApiClient _whatsOn;
 
     private readonly MdbListCacheStore _cacheStore;
     private readonly RateLimitStateStore _rateLimit;
     private readonly RateLimitStateStore _omdbRateLimit;
+    private readonly RateLimitStateStore _whatsOnRateLimit;
     private readonly SemaphoreSlim _initLock = new(1, 1);
     private bool _initialized;
 
@@ -60,9 +62,11 @@ internal sealed class RatingsUpdater
         _tmdbSeason = new TmdbSeasonApiClient(httpClientFactory, logger);
         _tmdbEpisode = new TmdbEpisodeApiClient(httpClientFactory, logger);
         _omdbEpisode = new OmdbEpisodeApiClient(httpClientFactory, logger);
+        _whatsOn = new WhatsOnApiClient(httpClientFactory, logger);
         _cacheStore = new MdbListCacheStore(cacheDir, logger);
         _rateLimit = new RateLimitStateStore(statePath, logger);
         _omdbRateLimit = new RateLimitStateStore(System.IO.Path.Combine(System.IO.Path.GetDirectoryName(statePath) ?? string.Empty, "omdb-episode-state.json"), logger);
+        _whatsOnRateLimit = new RateLimitStateStore(System.IO.Path.Combine(System.IO.Path.GetDirectoryName(statePath) ?? string.Empty, "whatson-state.json"), logger);
     }
 
     public async Task<UpdateOutcome> UpdateItemRatingsAsync(BaseItem item, CancellationToken cancellationToken)
@@ -79,6 +83,7 @@ internal sealed class RatingsUpdater
 
         string? contentType = null;
         bool isMovie = false;
+        bool isShow = false;
         bool isSeason = false;
         bool isEpisode = false;
         int? seasonNumber = null;
@@ -96,6 +101,7 @@ internal sealed class RatingsUpdater
         {
             // MDBList expects "show" (not "tv").
             contentType = "show";
+            isShow = true;
         }
         else if (item is Season seasonItem)
         {
@@ -147,6 +153,10 @@ internal sealed class RatingsUpdater
         var imdbId = item.GetProviderId(MetadataProvider.Imdb);
         var tvdbId = item.GetProviderId(MetadataProvider.Tvdb);
 
+        var effectiveMoviePrimary = NormalizeSource(effectiveForTransport.MovieCommunitySource);
+        var effectiveMovieFallback = NormalizeSource(effectiveForTransport.MovieCommunityFallbackSource);
+        var effectiveMovieCritic = NormalizeSource(effectiveForTransport.MovieCriticSource);
+        var effectiveMovieCriticFallback = NormalizeSource(effectiveForTransport.MovieCriticFallbackSource);
         var effectiveShowPrimary = NormalizeSource(effectiveForTransport.ShowCommunitySource);
         var effectiveShowFallback = NormalizeSource(effectiveForTransport.ShowCommunityFallbackSource);
         var effectiveSeasonPrimary = NormalizeSource(effectiveForTransport.SeasonCommunitySource);
@@ -161,6 +171,8 @@ internal sealed class RatingsUpdater
             && (!string.IsNullOrWhiteSpace(seasonShowImdbId) || !string.IsNullOrWhiteSpace(seasonShowTvdbId));
         var needsSeasonTmdb = isSeason && seasonNumber.HasValue && SeasonRequiresTmdb(effectiveSeasonPrimary, effectiveSeasonFallback)
             && (!string.IsNullOrWhiteSpace(seasonShowTmdbId) || !string.IsNullOrWhiteSpace(seasonShowImdbId) || !string.IsNullOrWhiteSpace(seasonShowTvdbId));
+        var needsSeasonWhatsOn = isSeason && seasonNumber.HasValue && SeasonRequiresWhatsOn(effectiveSeasonPrimary, effectiveSeasonFallback)
+            && !string.IsNullOrWhiteSpace(seasonShowTmdbId);
         var needsEpisodeTmdb = isEpisode && seasonNumber.HasValue && episodeNumber.HasValue && EpisodeRequiresTmdb(effectiveEpisodePrimary, effectiveEpisodeFallback)
             && (!string.IsNullOrWhiteSpace(seasonShowTmdbId) || !string.IsNullOrWhiteSpace(seasonShowImdbId) || !string.IsNullOrWhiteSpace(seasonShowTvdbId));
         var needsEpisodeTrakt = isEpisode && seasonNumber.HasValue && episodeNumber.HasValue && EpisodeRequiresTrakt(effectiveEpisodePrimary, effectiveEpisodeFallback)
@@ -169,9 +181,19 @@ internal sealed class RatingsUpdater
             && (!string.IsNullOrWhiteSpace(seasonShowImdbId) || !string.IsNullOrWhiteSpace(seasonShowTvdbId));
         var needsEpisodeOmdb = isEpisode && seasonNumber.HasValue && episodeNumber.HasValue && EpisodeRequiresOmdb(effectiveEpisodePrimary, effectiveEpisodeFallback)
             && !string.IsNullOrWhiteSpace(imdbId);
-        var needsMdbList = !isSeason && !isEpisode && (isMovie || ShowRequiresMdbList(effectiveShowPrimary, effectiveShowFallback));
+        var needsEpisodeWhatsOn = isEpisode && seasonNumber.HasValue && episodeNumber.HasValue && EpisodeRequiresWhatsOn(effectiveEpisodePrimary, effectiveEpisodeFallback)
+            && !string.IsNullOrWhiteSpace(seasonShowTmdbId);
+        var whatsOnSources = isMovie
+            ? GetWhatsOnSources(effectiveMoviePrimary, effectiveMovieFallback, effectiveMovieCritic, effectiveMovieCriticFallback)
+            : isShow
+                ? GetWhatsOnSources(effectiveShowPrimary, effectiveShowFallback)
+                : Array.Empty<string>();
+        var needsWhatsOn = whatsOnSources.Count > 0;
+        var needsMdbList = isMovie && (RequiresMdbListSource(effectiveMoviePrimary) || RequiresMdbListSource(effectiveMovieFallback)
+            || RequiresMdbListSource(effectiveMovieCritic) || RequiresMdbListSource(effectiveMovieCriticFallback))
+            || (isShow && ShowRequiresMdbList(effectiveShowPrimary, effectiveShowFallback));
 
-        if (!needsMdbList && !needsTvMaze && !needsSeasonTrakt && !needsSeasonTmdb && !needsEpisodeTmdb && !needsEpisodeTrakt && !needsEpisodeTvMaze && !needsEpisodeOmdb)
+        if (!needsMdbList && !needsWhatsOn && !needsTvMaze && !needsSeasonTrakt && !needsSeasonTmdb && !needsSeasonWhatsOn && !needsEpisodeTmdb && !needsEpisodeTrakt && !needsEpisodeTvMaze && !needsEpisodeOmdb && !needsEpisodeWhatsOn)
         {
             return UpdateOutcome.Skipped;
         }
@@ -227,23 +249,23 @@ internal sealed class RatingsUpdater
             }
             else if (isSeason)
             {
-                if (!allowUpdateCommunity && !needsSeasonTrakt && !needsSeasonTmdb)
+                if (!allowUpdateCommunity && !needsSeasonTrakt && !needsSeasonTmdb && !needsSeasonWhatsOn)
                 {
                     return UpdateOutcome.Skipped;
                 }
             }
             else if (isEpisode)
             {
-                if (!allowUpdateCommunity && !needsEpisodeTmdb && !needsEpisodeTrakt && !needsEpisodeTvMaze && !needsEpisodeOmdb)
+                if (!allowUpdateCommunity && !needsEpisodeTmdb && !needsEpisodeTrakt && !needsEpisodeTvMaze && !needsEpisodeOmdb && !needsEpisodeWhatsOn)
                 {
                     return UpdateOutcome.Skipped;
                 }
             }
             else
             {
-                // Series: still allow fetching/augmenting the cache (e.g. TVmaze) even when we
+                // Series: still allow fetching/augmenting the cache (e.g. TVmaze, WhatsOn) even when we
                 // are not going to overwrite the saved CommunityRating field.
-                if (!allowUpdateCommunity && !needsTvMaze)
+                if (!allowUpdateCommunity && !needsTvMaze && !needsWhatsOn)
                 {
                     return UpdateOutcome.Skipped;
                 }
@@ -251,10 +273,10 @@ internal sealed class RatingsUpdater
         }
 
         var fetchResult = isSeason
-            ? await GetCachedOrFetchSeasonAsync(item, seasonShowTmdbId, seasonShowImdbId, seasonShowTvdbId, seasonNumber!.Value, cfg, needsSeasonTrakt, needsSeasonTmdb, cancellationToken).ConfigureAwait(false)
+            ? await GetCachedOrFetchSeasonAsync(item, seasonShowTmdbId, seasonShowImdbId, seasonShowTvdbId, seasonNumber!.Value, cfg, needsSeasonTrakt, needsSeasonTmdb, needsSeasonWhatsOn, cancellationToken).ConfigureAwait(false)
             : isEpisode
-                ? await GetCachedOrFetchEpisodeAsync(item, imdbId, seasonShowTmdbId, seasonShowImdbId, seasonShowTvdbId, seasonNumber!.Value, episodeNumber!.Value, cfg, effectiveEpisodePrimary, effectiveEpisodeFallback, needsEpisodeTmdb, needsEpisodeTrakt, needsEpisodeTvMaze, needsEpisodeOmdb, cancellationToken).ConfigureAwait(false)
-                : await GetCachedOrFetchAsync(contentType, tmdbId, imdbId, tvdbId, cfg, needsMdbList, needsTvMaze, cancellationToken).ConfigureAwait(false);
+                ? await GetCachedOrFetchEpisodeAsync(item, imdbId, seasonShowTmdbId, seasonShowImdbId, seasonShowTvdbId, seasonNumber!.Value, episodeNumber!.Value, cfg, effectiveEpisodePrimary, effectiveEpisodeFallback, needsEpisodeTmdb, needsEpisodeTrakt, needsEpisodeTvMaze, needsEpisodeOmdb, needsEpisodeWhatsOn, cancellationToken).ConfigureAwait(false)
+                : await GetCachedOrFetchAsync(contentType, tmdbId, imdbId, tvdbId, cfg, needsMdbList, whatsOnSources, needsTvMaze, cancellationToken).ConfigureAwait(false);
         if (fetchResult.Outcome == UpdateOutcome.RateLimited)
         {
             return UpdateOutcome.RateLimited;
@@ -312,7 +334,12 @@ internal sealed class RatingsUpdater
             var seasonEffective = GetEffectiveMapping(item, cfg);
             var seasonPrimary = NormalizeSource(seasonEffective.SeasonCommunitySource);
             var seasonFallback = NormalizeSource(seasonEffective.SeasonCommunityFallbackSource);
-            var seasonResolved = ResolveScoreWithSource(data, seasonPrimary, seasonFallback);
+
+            // WhatsOn season data is sourced from IMDb; report the original source when applying the rating.
+            seasonPrimary = MapWhatsOnToImdb(seasonPrimary);
+            seasonFallback = MapWhatsOnToImdb(seasonFallback);
+
+            var seasonResolved = ResolveScoreWithSource(data, seasonPrimary, seasonFallback, seasonEffective.SeasonCommunitySource, seasonEffective.SeasonCommunityFallbackSource);
             if (!seasonResolved.Score0To100.HasValue)
             {
                 return UpdateOutcome.Skipped;
@@ -346,7 +373,7 @@ internal sealed class RatingsUpdater
             try
             {
                 await item.UpdateToRepositoryAsync(ItemUpdateType.MetadataEdit, cancellationToken).ConfigureAwait(false);
-                _logger.LogInformation("Updated season ratings from configured source: {Name} (IMDb {ImdbId}, TVDB {TvdbId}, Season {SeasonNumber}, Source {Source})", item.Name, seasonShowImdbId, seasonShowTvdbId, seasonNumber, seasonResolved.UsedSource);
+                _logger.LogInformation("Updated season ratings from configured source: {Name} (IMDb {ImdbId}, TVDB {TvdbId}, Season {SeasonNumber}, Source {ConfiguredSource} -> {ResolvedSource})", item.Name, seasonShowImdbId, seasonShowTvdbId, seasonNumber, seasonResolved.ConfiguredSource, seasonResolved.UsedSource);
                 return UpdateOutcome.Updated;
             }
             catch (Exception ex)
@@ -361,7 +388,12 @@ internal sealed class RatingsUpdater
             var episodeEffective = GetEffectiveMapping(item, cfg);
             var episodePrimary = NormalizeSource(episodeEffective.EpisodeCommunitySource);
             var episodeFallback = NormalizeSource(episodeEffective.EpisodeCommunityFallbackSource);
-            var episodeResolved = ResolveScoreWithSource(data, episodePrimary, episodeFallback);
+
+            // WhatsOn episode data is sourced from IMDb; report the original source when applying the rating.
+            episodePrimary = MapWhatsOnToImdb(episodePrimary);
+            episodeFallback = MapWhatsOnToImdb(episodeFallback);
+
+            var episodeResolved = ResolveScoreWithSource(data, episodePrimary, episodeFallback, episodeEffective.EpisodeCommunitySource, episodeEffective.EpisodeCommunityFallbackSource);
             if (!episodeResolved.Score0To100.HasValue)
             {
                 return fetchResult.StopAfterThis ? UpdateOutcome.RateLimited : UpdateOutcome.Skipped;
@@ -395,7 +427,7 @@ internal sealed class RatingsUpdater
             try
             {
                 await item.UpdateToRepositoryAsync(ItemUpdateType.MetadataEdit, cancellationToken).ConfigureAwait(false);
-                _logger.LogInformation("Updated episode ratings from configured source: {Name} (IMDb {ImdbId}, TVDB {TvdbId}, S{SeasonNumber}E{EpisodeNumber}, Source {Source})", item.Name, seasonShowImdbId, seasonShowTvdbId, seasonNumber, episodeNumber, episodeResolved.UsedSource);
+                _logger.LogInformation("Updated episode ratings from configured source: {Name} (IMDb {ImdbId}, TVDB {TvdbId}, S{SeasonNumber}E{EpisodeNumber}, Source {ConfiguredSource} -> {ResolvedSource})", item.Name, seasonShowImdbId, seasonShowTvdbId, seasonNumber, episodeNumber, episodeResolved.ConfiguredSource, episodeResolved.UsedSource);
                 return fetchResult.StopAfterThis ? UpdateOutcome.RateLimited : UpdateOutcome.Updated;
             }
             catch (Exception ex)
@@ -408,12 +440,14 @@ internal sealed class RatingsUpdater
         // Resolve mapping, considering optional per-library overrides.
         var effective = GetEffectiveMapping(item, cfg);
 
-        var movieCommunitySource = NormalizeSource(effective.MovieCommunitySource);
-        var movieCommunityFallback = NormalizeSource(effective.MovieCommunityFallbackSource);
-        var movieCriticSource = NormalizeSource(effective.MovieCriticSource);
-        var movieCriticFallback = NormalizeSource(effective.MovieCriticFallbackSource);
-        var showCommunitySource = NormalizeSource(effective.ShowCommunitySource);
-        var showCommunityFallback = NormalizeSource(effective.ShowCommunityFallbackSource);
+        // WhatsOn-backed IMDb/TMDb/Trakt aliases resolve to the native source key so the applied
+        // rating/icon matches selecting "imdb"/"tmdb"/"trakt" directly (only the fetch mechanism differs).
+        var movieCommunitySource = MapWhatsOnAliasToNative(NormalizeSource(effective.MovieCommunitySource));
+        var movieCommunityFallback = MapWhatsOnAliasToNative(NormalizeSource(effective.MovieCommunityFallbackSource));
+        var movieCriticSource = MapWhatsOnAliasToNative(NormalizeSource(effective.MovieCriticSource));
+        var movieCriticFallback = MapWhatsOnAliasToNative(NormalizeSource(effective.MovieCriticFallbackSource));
+        var showCommunitySource = MapWhatsOnAliasToNative(NormalizeSource(effective.ShowCommunitySource));
+        var showCommunityFallback = MapWhatsOnAliasToNative(NormalizeSource(effective.ShowCommunityFallbackSource));
         var seasonCommunitySource = NormalizeSource(effective.SeasonCommunitySource);
         var seasonCommunityFallback = NormalizeSource(effective.SeasonCommunityFallbackSource);
 
@@ -753,9 +787,10 @@ internal sealed class RatingsUpdater
     {
         public double? Score0To100 { get; init; }
         public string? UsedSource { get; init; }
+        public string? ConfiguredSource { get; init; }
     }
 
-    private ResolvedScore ResolveScoreWithSource(MdbListTitleResponse data, string primarySource, string fallbackSource)
+    private ResolvedScore ResolveScoreWithSource(MdbListTitleResponse data, string primarySource, string fallbackSource, string? configuredPrimary = null, string? configuredFallback = null)
     {
         var p = NormalizeSource(primarySource);
         var f = NormalizeSource(fallbackSource);
@@ -763,7 +798,7 @@ internal sealed class RatingsUpdater
         var pScore = TryGetScore0To100(data, p);
         if (pScore.HasValue)
         {
-            return new ResolvedScore { Score0To100 = pScore.Value, UsedSource = p };
+            return new ResolvedScore { Score0To100 = pScore.Value, UsedSource = p, ConfiguredSource = configuredPrimary ?? p };
         }
 
         if (!string.IsNullOrWhiteSpace(f) && f != "none" && !string.Equals(p, f, StringComparison.OrdinalIgnoreCase))
@@ -771,11 +806,11 @@ internal sealed class RatingsUpdater
             var fScore = TryGetScore0To100(data, f);
             if (fScore.HasValue)
             {
-                return new ResolvedScore { Score0To100 = fScore.Value, UsedSource = f };
+                return new ResolvedScore { Score0To100 = fScore.Value, UsedSource = f, ConfiguredSource = configuredFallback ?? f };
             }
         }
 
-        return new ResolvedScore { Score0To100 = null, UsedSource = null };
+        return new ResolvedScore { Score0To100 = null, UsedSource = null, ConfiguredSource = null };
     }
 
     private static bool SetProviderId(BaseItem item, string key, string? value)
@@ -906,10 +941,122 @@ internal sealed class RatingsUpdater
             || string.Equals(NormalizeSource(fallback), "imdb", StringComparison.OrdinalIgnoreCase);
     }
 
+    private static bool EpisodeRequiresWhatsOn(string primary, string fallback)
+    {
+        return string.Equals(NormalizeSource(primary), "whatson", StringComparison.OrdinalIgnoreCase)
+            || string.Equals(NormalizeSource(fallback), "whatson", StringComparison.OrdinalIgnoreCase);
+    }
+
+    private static bool SeasonRequiresWhatsOn(string primary, string fallback)
+    {
+        return string.Equals(NormalizeSource(primary), "whatson", StringComparison.OrdinalIgnoreCase)
+            || string.Equals(NormalizeSource(fallback), "whatson", StringComparison.OrdinalIgnoreCase);
+    }
+
+    private static readonly HashSet<string> WhatsOnOnlySources = new(StringComparer.OrdinalIgnoreCase)
+    {
+        "whatson", "senscritique", "allocine_critics", "allocine_users", "betaseries", "tvtime",
+        "whatson_imdb", "whatson_tmdb", "whatson_trakt", "whatson_tomatoes", "whatson_popcorn",
+        "whatson_metacritic", "whatson_metacriticuser", "whatson_letterboxd"
+    };
+
+    internal static bool IsWhatsOnOnlySource(string? source)
+    {
+        return WhatsOnOnlySources.Contains(NormalizeSource(source));
+    }
+
+    // Movie/Show community and critic sources can select "<Provider> (WhatsOn)" as an
+    // alternative to fetching the same data from MDBList (which has a daily rate limit, vs
+    // WhatsOn's hourly limit). These aliases resolve to the same native rating key so the
+    // resulting icon/label matches selecting the native source (e.g. "imdb") directly.
+    private static string MapWhatsOnAliasToNative(string source)
+    {
+        return source switch
+        {
+            "whatson_imdb" => "imdb",
+            "whatson_tmdb" => "tmdb",
+            "whatson_trakt" => "trakt",
+            "whatson_tomatoes" => "tomatoes",
+            "whatson_popcorn" => "popcorn",
+            "whatson_metacritic" => "metacritic",
+            "whatson_metacriticuser" => "metacriticuser",
+            "whatson_letterboxd" => "letterboxd",
+            _ => source
+        };
+    }
+
+    // Returns the distinct WhatsOn-backed source keys (e.g. "senscritique", "whatson") that are
+    // actually configured among the given primary/fallback sources, so cache checks can look for
+    // the specific rating(s) needed instead of the generic "whatson" aggregate key.
+    private static IReadOnlyCollection<string> GetWhatsOnSources(params string?[] sources)
+    {
+        return sources
+            .Select(NormalizeSource)
+            .Where(IsWhatsOnOnlySource)
+            .Distinct(StringComparer.OrdinalIgnoreCase)
+            .ToArray();
+    }
+
     private static bool RequiresMdbListSource(string? source)
     {
         var s = NormalizeSource(source);
-        return !string.IsNullOrWhiteSpace(s) && s != "none" && s != "tvmaze";
+        return !string.IsNullOrWhiteSpace(s) && s != "none" && s != "tvmaze" && !IsWhatsOnOnlySource(s);
+    }
+
+    private async Task ApplyWhatsOnRateLimitAsync(WhatsOnApiResult result, DateTimeOffset now, CancellationToken cancellationToken)
+    {
+        if (!result.IsRateLimited)
+        {
+            return;
+        }
+
+        var retryAfter = result.RetryAfterSeconds > 0 ? result.RetryAfterSeconds : 3600;
+        await _whatsOnRateLimit.UpdateAsync(null, 0, now.AddSeconds(retryAfter), true, cancellationToken).ConfigureAwait(false);
+        _logger.LogWarning("WhatsOn API rate limit reached. Retry after {Seconds} seconds.", retryAfter);
+    }
+
+    private bool IsWhatsOnRateLimitActive(DateTimeOffset now)
+    {
+        return _whatsOnRateLimit.NotBeforeUtc.HasValue && _whatsOnRateLimit.NotBeforeUtc.Value > now;
+    }
+
+    private static string MapWhatsOnToImdb(string source)
+    {
+        return string.Equals(source, "whatson", StringComparison.OrdinalIgnoreCase) ? "imdb" : source;
+    }
+
+    private async Task<IReadOnlyList<MdbListRating>?> TryFetchWhatsOnEpisodeRatingAsync(string? showTmdbId, int seasonNumber, int episodeNumber, PluginConfiguration cfg, DateTimeOffset now, CancellationToken cancellationToken)
+    {
+        if (IsWhatsOnRateLimitActive(now) || !int.TryParse(showTmdbId, out var tmdbId))
+        {
+            return null;
+        }
+
+        var lookup = await _whatsOn.GetEpisodeRatingAsync(tmdbId, seasonNumber, episodeNumber, cfg.WhatsOnApiKey, cancellationToken).ConfigureAwait(false);
+        if (lookup.IsRateLimited)
+        {
+            await ApplyWhatsOnRateLimitAsync(lookup, now, cancellationToken).ConfigureAwait(false);
+            return null;
+        }
+
+        return lookup.Data?.Ratings is { Count: > 0 } ratings ? ratings : null;
+    }
+
+    private async Task<IReadOnlyList<MdbListRating>?> TryFetchWhatsOnSeasonRatingAsync(string? showTmdbId, int seasonNumber, PluginConfiguration cfg, DateTimeOffset now, CancellationToken cancellationToken)
+    {
+        if (IsWhatsOnRateLimitActive(now) || !int.TryParse(showTmdbId, out var tmdbId))
+        {
+            return null;
+        }
+
+        var lookup = await _whatsOn.GetSeasonRatingAsync(tmdbId, seasonNumber, cfg.WhatsOnApiKey, cancellationToken).ConfigureAwait(false);
+        if (lookup.IsRateLimited)
+        {
+            await ApplyWhatsOnRateLimitAsync(lookup, now, cancellationToken).ConfigureAwait(false);
+            return null;
+        }
+
+        return lookup.Data?.Ratings is { Count: > 0 } ratings ? ratings : null;
     }
 
     private static string? BuildCacheKey(string contentType, string? tmdbId, string? imdbId, string? tvdbId)
@@ -1328,6 +1475,7 @@ internal sealed class RatingsUpdater
         bool needsEpisodeTrakt,
         bool needsEpisodeTvMaze,
         bool needsEpisodeOmdb,
+        bool needsEpisodeWhatsOn,
         CancellationToken cancellationToken)
     {
         var cacheKey = BuildEpisodeCacheKey(showTmdbId, showImdbId, showTvdbId, seasonNumber, episodeNumber);
@@ -1340,12 +1488,43 @@ internal sealed class RatingsUpdater
         var ttl = GetTtl(cfg);
         var normalizedEpisodePrimary = NormalizeSource(episodePrimarySource);
         var omdbPrimary = string.Equals(normalizedEpisodePrimary, "imdb", StringComparison.OrdinalIgnoreCase);
+        var whatsOnPrimary = string.Equals(normalizedEpisodePrimary, "whatson", StringComparison.OrdinalIgnoreCase);
         var omdbCooldownActive = _omdbRateLimit.NotBeforeUtc.HasValue && _omdbRateLimit.NotBeforeUtc.Value > now;
 
         async Task<FetchResult> ReturnEpisodeCacheAsync(MdbListCacheStore.CacheEnvelope env)
         {
             var changed = false;
             EnsureIds(env.Data, showTmdbId, showImdbId);
+
+            // WhatsOn and OMDb episode ratings are both IMDb-sourced, so they are fetched in the
+            // user-configured order: whichever runs first claims the imdb rating.
+            async Task FetchWhatsOnEpisodeAsync()
+            {
+                if (needsEpisodeWhatsOn && !HasRatingSource(env.Data, "imdb"))
+                {
+                    try
+                    {
+                        var ratings = await TryFetchWhatsOnEpisodeRatingAsync(showTmdbId, seasonNumber, episodeNumber, cfg, now, cancellationToken).ConfigureAwait(false);
+                        if (ratings is not null)
+                        {
+                            foreach (var r in ratings)
+                            {
+                                UpsertRating(env.Data, r);
+                            }
+                            changed = true;
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        _logger.LogWarning(ex, "WhatsOn episode augmentation failed for {Key}", cacheKey);
+                    }
+                }
+            }
+
+            if (whatsOnPrimary)
+            {
+                await FetchWhatsOnEpisodeAsync().ConfigureAwait(false);
+            }
 
             if (needsEpisodeOmdb && !HasRatingSource(env.Data, "imdb"))
             {
@@ -1388,6 +1567,11 @@ internal sealed class RatingsUpdater
                         }
                     }
                 }
+            }
+
+            if (!whatsOnPrimary)
+            {
+                await FetchWhatsOnEpisodeAsync().ConfigureAwait(false);
             }
 
             if (needsEpisodeTmdb && !HasRatingSource(env.Data, "tmdb"))
@@ -1489,6 +1673,28 @@ internal sealed class RatingsUpdater
         };
         EnsureIds(data, showTmdbId, showImdbId);
 
+        // WhatsOn and OMDb episode ratings are both IMDb-sourced, so they are fetched in the
+        // user-configured order: whichever runs first claims the imdb rating.
+        async Task FetchWhatsOnEpisodeAsync()
+        {
+            if (needsEpisodeWhatsOn && !HasRatingSource(data, "imdb"))
+            {
+                var ratings = await TryFetchWhatsOnEpisodeRatingAsync(showTmdbId, seasonNumber, episodeNumber, cfg, now, cancellationToken).ConfigureAwait(false);
+                if (ratings is not null)
+                {
+                    foreach (var r in ratings)
+                    {
+                        UpsertRating(data, r);
+                    }
+                }
+            }
+        }
+
+        if (whatsOnPrimary)
+        {
+            await FetchWhatsOnEpisodeAsync().ConfigureAwait(false);
+        }
+
         if (needsEpisodeOmdb && !HasRatingSource(data, "imdb") && !omdbCooldownActive)
         {
             var omdbLookup = await TryFetchOmdbEpisodeRatingAsync(episodeImdbId, ttl, cfg.OmdbApiKey, cancellationToken).ConfigureAwait(false);
@@ -1521,6 +1727,11 @@ internal sealed class RatingsUpdater
                     });
                 }
             }
+        }
+
+        if (!whatsOnPrimary)
+        {
+            await FetchWhatsOnEpisodeAsync().ConfigureAwait(false);
         }
 
         if (needsEpisodeTmdb && !HasRatingSource(data, "tmdb"))
@@ -1568,7 +1779,7 @@ internal sealed class RatingsUpdater
             return new FetchResult { Data = null, Outcome = UpdateOutcome.Failed };
         }
 
-        var episodeSourceCount = (needsEpisodeTmdb ? 1 : 0) + (needsEpisodeTrakt ? 1 : 0) + (needsEpisodeTvMaze ? 1 : 0) + (needsEpisodeOmdb ? 1 : 0);
+        var episodeSourceCount = (needsEpisodeTmdb ? 1 : 0) + (needsEpisodeTrakt ? 1 : 0) + (needsEpisodeTvMaze ? 1 : 0) + (needsEpisodeOmdb ? 1 : 0) + (needsEpisodeWhatsOn ? 1 : 0);
         var episodeSourceTag = episodeSourceCount > 1
             ? "episode-multi"
             : needsEpisodeOmdb
@@ -1577,7 +1788,9 @@ internal sealed class RatingsUpdater
                     ? "trakt-episode"
                     : needsEpisodeTvMaze
                         ? "tvmaze-episode"
-                        : "tmdb-episode";
+                        : needsEpisodeWhatsOn
+                            ? "whatson-episode"
+                            : "tmdb-episode";
 
         var env = new MdbListCacheStore.CacheEnvelope
         {
@@ -1599,6 +1812,7 @@ internal sealed class RatingsUpdater
         PluginConfiguration cfg,
         bool needsSeasonTrakt,
         bool needsSeasonTmdb,
+        bool needsSeasonWhatsOn,
         CancellationToken cancellationToken)
     {
         var cacheKey = BuildSeasonCacheKey(showTmdbId, showImdbId, showTvdbId, seasonNumber);
@@ -1667,6 +1881,26 @@ internal sealed class RatingsUpdater
                 }
             }
 
+            if (needsSeasonWhatsOn && !HasRatingSource(env.Data, "imdb"))
+            {
+                try
+                {
+                    var ratings = await TryFetchWhatsOnSeasonRatingAsync(showTmdbId, seasonNumber, cfg, now, cancellationToken).ConfigureAwait(false);
+                    if (ratings is not null)
+                    {
+                        foreach (var r in ratings)
+                        {
+                            UpsertRating(env.Data, r);
+                        }
+                        changed = true;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogWarning(ex, "WhatsOn season augmentation failed for {Key}", cacheKey);
+                }
+            }
+
             if (changed)
             {
                 env.CachedAtUtc = now;
@@ -1726,6 +1960,18 @@ internal sealed class RatingsUpdater
             }
         }
 
+        if (needsSeasonWhatsOn && !HasRatingSource(data, "imdb"))
+        {
+            var ratings = await TryFetchWhatsOnSeasonRatingAsync(showTmdbId, seasonNumber, cfg, now, cancellationToken).ConfigureAwait(false);
+            if (ratings is not null)
+            {
+                foreach (var r in ratings)
+                {
+                    UpsertRating(data, r);
+                }
+            }
+        }
+
         if (data.Ratings.Count == 0)
         {
             if (cached is not null)
@@ -1736,15 +1982,20 @@ internal sealed class RatingsUpdater
             return new FetchResult { Data = null, Outcome = UpdateOutcome.Failed };
         }
 
+        var seasonSourceTag = (needsSeasonTmdb, needsSeasonTrakt, needsSeasonWhatsOn) switch
+        {
+            (true, true, _) => "season-multi",
+            (true, false, false) => "tmdb-season",
+            (false, true, false) => "trakt-season",
+            (false, false, true) => "whatson-season",
+            _ => "season-multi"
+        };
+
         var env = new MdbListCacheStore.CacheEnvelope
         {
             CachedAtUtc = now,
             Data = data,
-            RawJson = needsSeasonTmdb && needsSeasonTrakt
-                ? "{\"source\":\"season-multi\"}"
-                : needsSeasonTmdb
-                    ? "{\"source\":\"tmdb-season\"}"
-                    : "{\"source\":\"trakt-season\"}"
+            RawJson = $"{{\"source\":\"{seasonSourceTag}\"}}"
         };
 
         await _cacheStore.SaveAsync(cacheKey, env, cancellationToken).ConfigureAwait(false);
@@ -1758,9 +2009,11 @@ internal sealed class RatingsUpdater
         string? tvdbId,
         PluginConfiguration cfg,
         bool needsMdbList,
+        IReadOnlyCollection<string> whatsOnSources,
         bool needsTvMaze,
         CancellationToken cancellationToken)
     {
+        var needsWhatsOn = whatsOnSources.Count > 0;
         var cacheKey = BuildCacheKey(contentType, tmdbId, imdbId, tvdbId);
         if (string.IsNullOrWhiteSpace(cacheKey))
         {
@@ -1942,6 +2195,32 @@ internal sealed class RatingsUpdater
             };
         }
 
+        if (needsWhatsOn && whatsOnSources.Any(s => !HasRatingSource(data, s)) && !IsWhatsOnRateLimitActive(now))
+        {
+            var tmdbParsed = int.TryParse(tmdbId, out var tid) ? (int?)tid : null;
+            var whatsOnItemType = string.Equals(contentType, "show", StringComparison.OrdinalIgnoreCase) ? "tvshow" : "movie";
+            var whatsonLookup = await _whatsOn.GetTitleRatingsAsync(tmdbParsed, imdbId, cfg.WhatsOnApiKey, whatsOnItemType, cancellationToken).ConfigureAwait(false);
+
+            if (whatsonLookup.IsRateLimited)
+            {
+                await ApplyWhatsOnRateLimitAsync(whatsonLookup, now, cancellationToken).ConfigureAwait(false);
+                stopAfterThis = true;
+            }
+            else if (whatsonLookup.Data?.Ratings?.Count > 0)
+            {
+                data ??= new MdbListTitleResponse
+                {
+                    Type = contentType,
+                    Ids = new MdbListIds { Imdb = NormalizeImdbId(imdbId), Tmdb = tmdbParsed }
+                };
+
+                foreach (var r in whatsonLookup.Data.Ratings)
+                {
+                    UpsertRating(data, r);
+                }
+            }
+        }
+
         EnsureIds(data, tmdbId, imdbId);
 
         if (needsTvMaze && !HasRatingSource(data, "tvmaze"))
@@ -1951,6 +2230,11 @@ internal sealed class RatingsUpdater
                 var tvmazeRating = await TryFetchTvMazeRatingAsync(imdbId, tvdbId, cancellationToken).ConfigureAwait(false);
                 if (tvmazeRating is not null)
                 {
+                    data ??= new MdbListTitleResponse
+                    {
+                        Type = contentType,
+                        Ids = new MdbListIds { Imdb = NormalizeImdbId(imdbId), Tmdb = int.TryParse(tmdbId, out var parsedTmdb) ? parsedTmdb : null }
+                    };
                     UpsertRating(data, tvmazeRating);
                 }
             }
@@ -1960,11 +2244,20 @@ internal sealed class RatingsUpdater
             }
         }
 
+        if (data == null || data.Ratings == null || data.Ratings.Count == 0)
+        {
+            if (cached is not null)
+            {
+                return new FetchResult { Data = cached.Data, Outcome = UpdateOutcome.Skipped, StopAfterThis = stopAfterThis };
+            }
+            return new FetchResult { Data = null, Outcome = UpdateOutcome.Failed, StopAfterThis = stopAfterThis };
+        }
+
         var env = new MdbListCacheStore.CacheEnvelope
         {
             CachedAtUtc = now,
             Data = data,
-            RawJson = needsMdbList ? rawJson : "{\"source\":\"tvmaze-only\"}"
+            RawJson = needsMdbList ? rawJson : "{\"source\":\"custom-or-fallback\"}"
         };
 
         await _cacheStore.SaveAsync(cacheKey, env, cancellationToken).ConfigureAwait(false);

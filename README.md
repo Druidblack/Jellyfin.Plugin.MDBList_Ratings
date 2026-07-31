@@ -30,6 +30,14 @@ MDBList Ratings is a Jellyfin plugin that automatically fetches ratings from MDB
 
   - Customize rating source mapping per Jellyfin library (Library Overrides).
 
+- Additional rating providers
+
+  - **WhatsOn**: AlloCiné, BetaSeries, IMDb, Letterboxd, Metacritic, Rotten Tomatoes, SensCritique, TMDb, Trakt, TV Time. Available for Movies, Shows, Seasons (as `WhatsOn`) and Episodes (as `WhatsOn`).
+  - **TVmaze**: Series/Shows and Episodes.
+  - **Trakt**: Seasons and Episodes.
+  - **TMDb**: Seasons and Episodes.
+  - **OMDb**: IMDb-based Episode ratings.
+
 - Caching & rate-limit handling
 
   - File cache + in-memory cache.

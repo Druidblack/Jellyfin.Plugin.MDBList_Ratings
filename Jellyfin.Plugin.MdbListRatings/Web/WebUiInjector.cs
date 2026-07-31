@@ -132,8 +132,20 @@ internal static class WebUiInjector
       kinopoisk:          'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/kinopoisk.png',
       myanimelist:        'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/mal.png',
       anilist:            'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/anilist.png',
-      tvmaze:             asset('tvmaze.png'),
-      imdb_top_250:       asset('imdb_top_250.png')
+      // TODO: should probably be changed to jsdelivr as well to simplify the resolving to just localizeIconUrl()
+      // NOTE: these are intentionally NOT resolved via asset() here. Resolving eagerly, while the
+      // ICONS object literal is still being constructed, can run before window.ApiClient is ready
+      // (a real race observed with reverse-proxy Base URL setups). They're resolved later, in the
+      // same pass as the CDN->local rewrite below, once script execution has had a chance to catch
+      // up with Jellyfin's own bootstrap.
+      tvmaze:             '@asset:tvmaze.png',
+      imdb_top_250:       '@asset:imdb_top_250.png',
+      whatson:            '@asset:whatson.png',
+      senscritique:       '@asset:senscritique.png',
+      allocine_critics:   '@asset:allocine.png',
+      allocine_users:     '@asset:allocine.png',
+      betaseries:         '@asset:betaseries.png',
+      tvtime:             '@asset:tvtime.png'
     };
 
     // Resolve the Jellyfin base URL (e.g. "" or "/jellyfin") even before ApiClient is ready.
@@ -189,6 +201,9 @@ internal static class WebUiInjector
     function localizeIconUrl(url){
       try {
         var s = String(url || '');
+        if (s.indexOf('@asset:') === 0) {
+          return asset(s.slice('@asset:'.length));
+        }
         var m = s.match(/\/logo\/([^\/?#]+)(?:[?#].*)?$/i);
         if (!m) return url;
         return asset(m[1]);
@@ -760,6 +775,7 @@ internal static class WebUiInjector
       var map = {
         imdb: 'IMDb',
         imdb_top_250: 'IMDb Top 250',
+        whatson: 'WhatsOn',
         tmdb: 'TMDb',
         trakt: 'Trakt',
         tomatoes: 'Rotten Tomatoes',
@@ -769,6 +785,11 @@ internal static class WebUiInjector
         metacriticuser: 'Metacritic User',
         metacriticms: 'Metacritic Must-See',
         letterboxd: 'Letterboxd',
+        senscritique: 'SensCritique',
+        allocine_critics: 'AlloCiné Critics',
+        allocine_users: 'AlloCiné Users',
+        betaseries: 'BetaSeries',
+        tvtime: 'TV Time',
         rogerebert: 'RogerEbert.com',
         anilist: 'AniList',
         tvmaze: 'TVmaze'

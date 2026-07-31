@@ -44,6 +44,13 @@
                         Used for IMDb episode ratings via OMDb. OMDb looks up each episode by its episode <code>IMDb id</code>. Free OMDb keys are limited to 1000 requests per day.
                     </div>
                 </div>
+                <div class="inputContainer">
+                    <label class="inputLabel inputLabelUnfocused" for="whatsOnApiKey">WhatsOn API key (optional)</label>
+                    <input id="whatsOnApiKey" name="whatsOnApiKey" type="password" class="emby-input" autocomplete="off" />
+                    <div class="fieldDescription">
+                        Optional. Without a key: 100 req/h. Free key: 500 req/h. Sponsor: 5000 req/h.
+                    </div>
+                </div>
 
                 <h2>Rating mapping</h2>
 
@@ -257,10 +264,37 @@ tvmaze"></textarea>
                     </button>
                 </div>
 
-                <div class="fieldDescription" style="margin-top: 12px;">
+                <div class="fieldDescription" style="margin-top: 10px;">
                     To apply ratings to your library, run the task
                     <b>Update MDBList ratings</b> in <b>Dashboard → Scheduled Tasks</b>.
                 </div>
+
+                <h2>Debug: refresh a single item</h2>
+                <div class="inputContainer">
+                    <label class="inputLabel inputLabelUnfocused" for="debugItemId">Item id</label>
+                    <input id="debugItemId" name="debugItemId" type="text" class="emby-input" autocomplete="off" placeholder="Jellyfin item id (guid)" />
+                    <div class="fieldDescription">
+                        Fetches and applies ratings for a single Movie/Series/Season/Episode, using its saved configuration and existing cache.
+                        Useful for testing without running the full library task or burning through daily API limits.
+                        Find the item id in the item's Details page URL (the <code>id=</code> query parameter).
+                    </div>
+                </div>
+                <div class="checkboxContainer checkboxContainer-withDescription">
+                    <label>
+                        <input id="debugIncludeSeasonsEpisodes" type="checkbox" is="emby-checkbox" />
+                        <span>Also refresh all seasons and episodes (Series only)</span>
+                    </label>
+                    <div class="fieldDescription">
+                        If the item id above is a Series, also fetch and apply ratings for every Season and Episode belonging to it.
+                        Ignored for Movies/Seasons/Episodes. This can make many API requests for shows with many episodes.
+                    </div>
+                </div>
+                <div>
+                    <button id="debugRefreshItemBtn" is="emby-button" type="button" class="raised emby-button">
+                        <span>Refresh item</span>
+                    </button>
+                </div>
+                <div id="debugRefreshItemResult" class="fieldDescription" style="margin-top: 6px; white-space: pre-wrap;"></div>
             </form>
 
         </div>
@@ -280,6 +314,20 @@ tvmaze"></textarea>
     { value: "metacritic", text: "Metacritic" },
     { value: "metacriticuser", text: "Metacritic User" },
     { value: "letterboxd", text: "Letterboxd" },
+    { value: "whatson_imdb", text: "IMDb (WhatsOn)" },
+    { value: "whatson_tmdb", text: "TMDb (WhatsOn)" },
+    { value: "whatson_trakt", text: "Trakt (WhatsOn)" },
+    { value: "whatson_tomatoes", text: "RottenTomatoes critics (WhatsOn)" },
+    { value: "whatson_popcorn", text: "RottenTomatoes audience (WhatsOn)" },
+    { value: "whatson_metacritic", text: "Metacritic (WhatsOn)" },
+    { value: "whatson_metacriticuser", text: "Metacritic User (WhatsOn)" },
+    { value: "whatson_letterboxd", text: "Letterboxd (WhatsOn)" },
+    { value: "senscritique", text: "SensCritique (WhatsOn)" },
+    { value: "allocine_critics", text: "AlloCiné Critics (WhatsOn)" },
+    { value: "allocine_users", text: "AlloCiné Users (WhatsOn)" },
+    { value: "betaseries", text: "BetaSeries (WhatsOn)" },
+    { value: "tvtime", text: "TV Time (WhatsOn)" },
+    { value: "whatson", text: "WhatsOn (normalized average from all WhatsOn sources)" },
     { value: "rogerebert", text: "RogerEbert" },
     { value: "myanimelist", text: "MyAnimeList" },
     { value: "anilist", text: "AniList" },
@@ -289,7 +337,8 @@ tvmaze"></textarea>
             var seasonSources = [
     { value: "none", text: "Do not fill" },
     { value: "trakt", text: "Trakt (Seasons)" },
-    { value: "tmdb", text: "TMDb (Seasons)" }
+    { value: "tmdb", text: "TMDb (Seasons)" },
+    { value: "whatson", text: "IMDb (Seasons via WhatsOn)" }
             ];
 
             var episodeSources = [
@@ -297,7 +346,8 @@ tvmaze"></textarea>
     { value: "tmdb", text: "TMDb (Episodes)" },
     { value: "trakt", text: "Trakt (Episodes)" },
     { value: "tvmaze", text: "TVmaze (Episodes)" },
-    { value: "imdb", text: "IMDb (Episodes via OMDb)" }
+    { value: "imdb", text: "IMDb (Episodes via OMDb)" },
+    { value: "whatson", text: "IMDb (Episodes via WhatsOn)" }
             ];
 
             // Same as sources, but with a leading "use global" option for per-library overrides.
@@ -764,6 +814,7 @@ tvmaze"></textarea>
                     page.querySelector('#traktClientId').value = config.TraktClientId || '';
                     page.querySelector('#tmdbApiAuth').value = config.TmdbApiAuth || '';
                     page.querySelector('#omdbApiKey').value = config.OmdbApiKey || '';
+                    page.querySelector('#whatsOnApiKey').value = config.WhatsOnApiKey || '';
 
                     fillSelect(page.querySelector('#movieCommunity'), (config.MovieCommunitySource || 'imdb').toLowerCase());
                     fillSelect(page.querySelector('#movieCommunityFallback'), (config.MovieCommunityFallbackSource || 'none').toLowerCase());
@@ -838,10 +889,11 @@ tvmaze"></textarea>
                 Dashboard.showLoadingMsg();
 
                 ApiClient.getPluginConfiguration(pluginId).then(function (config) {
-                    config.MdbListApiKey = page.querySelector('#mdbApiKey').value || '';
-                    config.TraktClientId = page.querySelector('#traktClientId').value || '';
-                    config.TmdbApiAuth = page.querySelector('#tmdbApiAuth').value || '';
-                    config.OmdbApiKey = page.querySelector('#omdbApiKey').value || '';
+                    config.MdbListApiKey = (page.querySelector('#mdbApiKey').value || '').trim();
+                    config.TraktClientId = (page.querySelector('#traktClientId').value || '').trim();
+                    config.TmdbApiAuth = (page.querySelector('#tmdbApiAuth').value || '').trim();
+                    config.OmdbApiKey = (page.querySelector('#omdbApiKey').value || '').trim();
+                    config.WhatsOnApiKey = (page.querySelector('#whatsOnApiKey').value || '').trim();
 
                     config.MovieCommunitySource = page.querySelector('#movieCommunity').value;
                     config.MovieCommunityFallbackSource = page.querySelector('#movieCommunityFallback').value;
@@ -967,6 +1019,60 @@ tvmaze"></textarea>
                 e.preventDefault();
                 saveConfig(getPage());
                 return false;
+            });
+
+            getPage().querySelector('#debugRefreshItemBtn').addEventListener('click', function () {
+                var page = getPage();
+                var resultEl = page.querySelector('#debugRefreshItemResult');
+                var itemId = (page.querySelector('#debugItemId').value || '').trim();
+                var includeSeasonsAndEpisodes = !!page.querySelector('#debugIncludeSeasonsEpisodes').checked;
+
+                if (!itemId) {
+                    resultEl.textContent = 'Please enter an item id.';
+                    return;
+                }
+
+                resultEl.textContent = 'Refreshing…';
+                Dashboard.showLoadingMsg();
+
+                ApiClient.ajax({
+                    type: 'POST',
+                    url: ApiClient.getUrl('Plugins/MdbListRatings/DebugRefreshItem', { itemId: itemId, includeSeasonsAndEpisodes: includeSeasonsAndEpisodes }),
+                    dataType: 'json'
+                }).then(function (result) {
+                    Dashboard.hideLoadingMsg();
+                    if (!result) {
+                        resultEl.textContent = 'No response.';
+                        return;
+                    }
+                    if (!result.found) {
+                        resultEl.textContent = 'Item not found. Check the item id.';
+                        return;
+                    }
+                    var lines = [
+                        'Name: ' + result.name,
+                        'Outcome: ' + result.outcome,
+                        'CommunityRating: ' + (result.communityRating != null ? result.communityRating : '(none)'),
+                        'CriticRating: ' + (result.criticRating != null ? result.criticRating : '(none)')
+                    ];
+
+                    if (result.children && result.children.length) {
+                        lines.push('');
+                        lines.push('Seasons/Episodes (' + result.children.length + '):');
+                        for (var i = 0; i < result.children.length; i++) {
+                            var c = result.children[i];
+                            lines.push('  [' + c.type + '] ' + c.name
+                                + ' — Outcome: ' + c.outcome
+                                + ', CommunityRating: ' + (c.communityRating != null ? c.communityRating : '(none)')
+                                + ', CriticRating: ' + (c.criticRating != null ? c.criticRating : '(none)'));
+                        }
+                    }
+
+                    resultEl.textContent = lines.join('\n');
+                }).catch(function (err) {
+                    Dashboard.hideLoadingMsg();
+                    resultEl.textContent = 'Request failed: ' + (err && err.statusText ? err.statusText : String(err));
+                });
             });
         })();
     </script>

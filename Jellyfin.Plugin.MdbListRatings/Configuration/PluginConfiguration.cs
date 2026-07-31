@@ -21,6 +21,11 @@ public class PluginConfiguration : BasePluginConfiguration
     }
 
     /// <summary>
+    /// Gets or sets the WhatsOn API key.
+    /// </summary>
+    public string WhatsOnApiKey { get; set; } = string.Empty;
+
+    /// <summary>
     /// Gets or sets the MDBList API key.
     /// </summary>
     public string MdbListApiKey { get; set; } = string.Empty;

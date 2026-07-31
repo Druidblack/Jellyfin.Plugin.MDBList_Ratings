@@ -19,7 +19,7 @@ public sealed class UpdateRatingsTask : IScheduledTask
 
     public string Key => "MdbListRatingsUpdate";
 
-    public string Description => "Fetch ratings from MDBList, TVmaze, OMDb, and season/episode ratings from Trakt/TMDb/TVmaze/OMDb, then write them into the standard Jellyfin rating fields.";
+    public string Description => "Fetch ratings from MDBList, WhatsOn, TVmaze, OMDb, and season/episode ratings from Trakt/TMDb/WhatsOn/TVmaze/OMDb, then write them into the standard Jellyfin rating fields.";
 
     public string Category => "Library";
 
@@ -76,6 +76,17 @@ public sealed class UpdateRatingsTask : IScheduledTask
         if (needsOmdbEpisode && string.IsNullOrWhiteSpace(cfg.OmdbApiKey))
         {
             plugin.Log.LogWarning("OMDb API key is empty. IMDb-based episode ratings via OMDb will be skipped.");
+        }
+
+        var needsWhatsOn = Ratings.RatingsUpdater.IsWhatsOnOnlySource(cfg.MovieCommunitySource) || Ratings.RatingsUpdater.IsWhatsOnOnlySource(cfg.MovieCommunityFallbackSource)
+            || Ratings.RatingsUpdater.IsWhatsOnOnlySource(cfg.MovieCriticSource) || Ratings.RatingsUpdater.IsWhatsOnOnlySource(cfg.MovieCriticFallbackSource)
+            || Ratings.RatingsUpdater.IsWhatsOnOnlySource(cfg.ShowCommunitySource) || Ratings.RatingsUpdater.IsWhatsOnOnlySource(cfg.ShowCommunityFallbackSource);
+        var needsWhatsOnSeason = Ratings.RatingsUpdater.IsWhatsOnOnlySource(cfg.SeasonCommunitySource) || Ratings.RatingsUpdater.IsWhatsOnOnlySource(cfg.SeasonCommunityFallbackSource);
+        var needsWhatsOnEpisode = Ratings.RatingsUpdater.IsWhatsOnOnlySource(cfg.EpisodeCommunitySource) || Ratings.RatingsUpdater.IsWhatsOnOnlySource(cfg.EpisodeCommunityFallbackSource);
+
+        if ((needsWhatsOn || needsWhatsOnSeason || needsWhatsOnEpisode) && string.IsNullOrWhiteSpace(cfg.WhatsOnApiKey))
+        {
+            plugin.Log.LogWarning("WhatsOn source is selected but no API key is provided. WhatsOn requests will be limited to 100 requests per hour.");
         }
 
         // Query all Movies, Series, Seasons and Episodes.
