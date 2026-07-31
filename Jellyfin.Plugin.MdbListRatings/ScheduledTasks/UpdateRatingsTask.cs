@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Jellyfin.Data.Enums;
 using Microsoft.Extensions.Logging;
 using MediaBrowser.Controller.Entities;
+using MediaBrowser.Controller.Entities.Movies;
+using MediaBrowser.Controller.Entities.TV;
 using MediaBrowser.Model.Tasks;
 
 namespace Jellyfin.Plugin.MdbListRatings.ScheduledTasks;
@@ -84,6 +86,57 @@ public sealed class UpdateRatingsTask : IScheduledTask
             Recursive = true,
             IncludeItemTypes = new[] { BaseItemKind.Movie, BaseItemKind.Series, BaseItemKind.Season, BaseItemKind.Episode }
         });
+
+        static Guid GetSeriesGroupKey(BaseItem item)
+        {
+            return item switch
+            {
+                Season season => season.Series?.Id ?? Guid.Empty,
+                Episode episode => episode.Series?.Id ?? Guid.Empty,
+                _ => item.Id
+            };
+        }
+
+        static int GetItemKindOrder(BaseItem item)
+        {
+            return item switch
+            {
+                Series => 0,
+                Season => 1,
+                Episode => 2,
+                _ => 3
+            };
+        }
+
+        static int GetSeasonOrder(BaseItem item)
+        {
+            return item switch
+            {
+                Season season => season.IndexNumber ?? 0,
+                Episode episode => episode.ParentIndexNumber ?? 0,
+                _ => 0
+            };
+        }
+
+        static int GetEpisodeOrder(BaseItem item)
+        {
+            return (item as Episode)?.IndexNumber ?? 0;
+        }
+
+        // Process each show's seasons and episodes consecutively instead of
+        // Jellyfin's default interleaved order,
+        // Keeps the age of ratings of Episodes of a show consistent
+        // also enables API response reuse while they are still hot in the in-memory caches.
+        // Grouped by the series' Guid (not its name) so shows with identical titles across
+        // different libraries are never interleaved with each other.
+        // Movies are standalone items and are processed last.
+        items = items
+            .OrderBy(item => item is Movie)
+            .ThenBy(GetSeriesGroupKey)
+            .ThenBy(GetItemKindOrder)
+            .ThenBy(GetSeasonOrder)
+            .ThenBy(GetEpisodeOrder)
+            .ToArray();
 
         var total = items.Count;
         if (total == 0)
