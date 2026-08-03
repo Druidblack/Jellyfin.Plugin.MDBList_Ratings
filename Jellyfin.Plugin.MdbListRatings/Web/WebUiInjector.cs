@@ -144,8 +144,7 @@ internal static class WebUiInjector
       senscritique:       '@asset:senscritique.png',
       allocine_critics:   '@asset:allocine.png',
       allocine_users:     '@asset:allocine.png',
-      betaseries:         '@asset:betaseries.png',
-      tvtime:             '@asset:tvtime.png'
+      betaseries:         '@asset:betaseries.png'
     };
 
     // Resolve the Jellyfin base URL (e.g. "" or "/jellyfin") even before ApiClient is ready.
@@ -789,7 +788,6 @@ internal static class WebUiInjector
         allocine_critics: 'AlloCiné Critics',
         allocine_users: 'AlloCiné Users',
         betaseries: 'BetaSeries',
-        tvtime: 'TV Time',
         rogerebert: 'RogerEbert.com',
         anilist: 'AniList',
         tvmaze: 'TVmaze'

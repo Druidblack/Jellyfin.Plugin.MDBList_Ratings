@@ -43,9 +43,6 @@ public class WhatsOnTitleResponse
     [JsonPropertyName("betaseries")]
     public WhatsOnSimpleRating? BetaSeries { get; set; }
 
-    [JsonPropertyName("tv_time")]
-    public WhatsOnSimpleRating? TvTime { get; set; }
-
     [JsonPropertyName("episodes_details")]
     public WhatsOnEpisodeDetails[]? EpisodesDetails { get; set; }
 }

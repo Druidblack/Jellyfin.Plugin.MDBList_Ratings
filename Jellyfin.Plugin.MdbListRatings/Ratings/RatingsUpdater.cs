@@ -955,7 +955,7 @@ internal sealed class RatingsUpdater
 
     private static readonly HashSet<string> WhatsOnOnlySources = new(StringComparer.OrdinalIgnoreCase)
     {
-        "whatson", "senscritique", "allocine_critics", "allocine_users", "betaseries", "tvtime",
+        "whatson", "senscritique", "allocine_critics", "allocine_users", "betaseries",
         "whatson_imdb", "whatson_tmdb", "whatson_trakt", "whatson_tomatoes", "whatson_popcorn",
         "whatson_metacritic", "whatson_metacriticuser", "whatson_letterboxd"
     };

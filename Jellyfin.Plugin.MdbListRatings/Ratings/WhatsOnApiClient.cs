@@ -365,7 +365,6 @@ internal sealed class WhatsOnApiClient
         AddRating("allocine_critics", t.Allocine?.CriticsRating, 20f); // 0-5 scale
         AddRating("allocine_users", t.Allocine?.UsersRating, 20f); // 0-5 scale
         AddRating("betaseries", t.BetaSeries?.UsersRating, 20f); // 0-5 scale
-        AddRating("tvtime", t.TvTime?.UsersRating, 20f); // 0-5 scale
 
         // The WhatsOn API does not expose a pre-computed aggregate rating directly
         // But on https://whatson-app.com there is an average over all rating sources
