@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.Text.Json.Serialization;
 using System.Threading;
 using System.Threading.Tasks;
+using MediaBrowser.Common.Api;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Jellyfin.Plugin.MdbListRatings.Api;
 
 [ApiController]
+[Authorize]
 [Route("Plugins/MdbListRatings")]
 public sealed class ImdbTop250Controller : ControllerBase
 {

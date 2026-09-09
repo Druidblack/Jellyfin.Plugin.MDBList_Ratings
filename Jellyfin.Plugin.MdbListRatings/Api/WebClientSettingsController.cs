@@ -1,4 +1,6 @@
 using System.Text.Json.Serialization;
+using MediaBrowser.Common.Api;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Jellyfin.Plugin.MdbListRatings.Api;
@@ -8,6 +10,7 @@ namespace Jellyfin.Plugin.MdbListRatings.Api;
 /// This avoids using the admin-only plugin configuration endpoint from the browser.
 /// </summary>
 [ApiController]
+[Authorize]
 [Route("Plugins/MdbListRatings")]
 public sealed class WebClientSettingsController : ControllerBase
 {
