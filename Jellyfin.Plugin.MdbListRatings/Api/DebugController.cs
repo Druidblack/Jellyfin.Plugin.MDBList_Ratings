@@ -5,8 +5,10 @@ using System.Text.Json.Serialization;
 using System.Threading;
 using System.Threading.Tasks;
 using Jellyfin.Data.Enums;
+using MediaBrowser.Common.Api;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Entities.TV;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Jellyfin.Plugin.MdbListRatings.Api;
@@ -16,6 +18,7 @@ namespace Jellyfin.Plugin.MdbListRatings.Api;
 /// without having to run the full library scheduled task (and burn through daily API limits).
 /// </summary>
 [ApiController]
+[Authorize(Policy = Policies.RequiresElevation)]
 [Route("Plugins/MdbListRatings")]
 public sealed class DebugController : ControllerBase
 {
