@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.Json.Serialization;
+using MediaBrowser.Common.Api;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Jellyfin.Plugin.MdbListRatings.Api;
@@ -10,6 +12,7 @@ namespace Jellyfin.Plugin.MdbListRatings.Api;
 /// Read-only API for award datasets used by the Web UI.
 /// </summary>
 [ApiController]
+[Authorize]
 [Route("Plugins/MdbListRatings")]
 public sealed class AwardsController : ControllerBase
 {

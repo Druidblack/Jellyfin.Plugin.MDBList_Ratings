@@ -4,6 +4,8 @@ using System.Text.Json.Serialization;
 using System.Threading;
 using System.Threading.Tasks;
 using Jellyfin.Plugin.MdbListRatings.Ratings.Models;
+using MediaBrowser.Common.Api;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Jellyfin.Plugin.MdbListRatings.Api;
@@ -13,6 +15,7 @@ namespace Jellyfin.Plugin.MdbListRatings.Api;
 /// Used by the Web UI injector to display all available ratings on the Details page.
 /// </summary>
 [ApiController]
+[Authorize]
 [Route("Plugins/MdbListRatings")]
 public sealed class CachedRatingsController : ControllerBase
 {
