@@ -236,11 +236,17 @@ tvmaze"></textarea>
                         <option value="1">1 day</option>
                         <option value="2">1 week</option>
                         <option value="3">1 month</option>
+                        <option value="4">Custom</option>
                     </select>
                     <div class="fieldDescription">
                         While the cache entry is fresh, the plugin does not make a network request to MDBList and uses the saved data.
                         This also lets you change the rating mapping without re-querying.
                     </div>
+                </div>
+
+                <div class="inputContainer" id="cacheCustomDaysWrap" style="display: none;">
+                    <label class="inputLabel inputLabelUnfocused" for="cacheCustomDays">Custom interval (days)</label>
+                    <input id="cacheCustomDays" name="cacheCustomDays" type="number" min="1" max="365" class="emby-input" />
                 </div>
 
                 <div class="inputContainer">
@@ -801,9 +807,9 @@ tvmaze"></textarea>
                     }
                     updateWebAllRatingsUi(page);
 
-                    // CacheInterval: 1=day, 2=week, 3=month.
+                    // CacheInterval: 1=day, 2=week, 3=month, 4=custom.
                     // Depending on Jellyfin JSON settings, enums may arrive as numbers (1) or strings ("Day").
-                    // Normalize to numeric values that match <option value="1|2|3">.
+                    // Normalize to numeric values that match <option value="1|2|3|4">.
                     var ciRaw = (config.CacheInterval ?? 0);
                     var ci;
 
@@ -812,6 +818,7 @@ tvmaze"></textarea>
                         if (s === 'day') ci = 1;
                         else if (s === 'week') ci = 2;
                         else if (s === 'month') ci = 3;
+                        else if (s === 'custom') ci = 4;
                         else ci = 0;
                     } else {
                         ci = parseInt(ciRaw || 0, 10) || 0;
@@ -824,6 +831,11 @@ tvmaze"></textarea>
                     }
 
                     page.querySelector('#cacheInterval').value = String(ci);
+                    page.querySelector('#cacheCustomDays').value = String(config.CacheCustomDays || 14);
+
+                    var customDaysWrap = page.querySelector('#cacheCustomDaysWrap');
+                    if (customDaysWrap) customDaysWrap.style.display = (ci === 4) ? 'block' : 'none';
+
                     page.querySelector('#requestDelayMs').value = config.RequestDelayMs || 0;
 
                     // Per-library overrides
@@ -877,8 +889,10 @@ tvmaze"></textarea>
                     config.WebAllRatingsOrderCsv = multilineToCsv(orderEl ? orderEl.value : '');
 
                     config.CacheInterval = parseInt(page.querySelector('#cacheInterval').value || '1', 10);
+                    config.CacheCustomDays = parseInt(page.querySelector('#cacheCustomDays').value || '14', 10);
                     // Keep legacy CacheHours in sync for backward compatibility.
-                    config.CacheHours = (config.CacheInterval === 3) ? 720 : (config.CacheInterval === 2) ? 168 : 24;
+                    config.CacheHours = (config.CacheInterval === 4) ? Math.max(1, config.CacheCustomDays) * 24
+                        : (config.CacheInterval === 3) ? 720 : (config.CacheInterval === 2) ? 168 : 24;
                     config.RequestDelayMs = parseInt(page.querySelector('#requestDelayMs').value || '0', 10);
 
                     // Per-library overrides
@@ -951,6 +965,10 @@ tvmaze"></textarea>
             });
             getPage().querySelector('#enableWebAwardBadges').addEventListener('change', function () {
                 updateAwardUi(getPage());
+            });
+            getPage().querySelector('#cacheInterval').addEventListener('change', function () {
+                var wrap = getPage().querySelector('#cacheCustomDaysWrap');
+                if (wrap) wrap.style.display = (this.value === '4') ? 'block' : 'none';
             });
 
             getPage().querySelector('#addLibraryOverride').addEventListener('click', function () {
