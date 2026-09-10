@@ -1,19 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <LangVersion>latest</LangVersion>
 
     <AssemblyName>Jellyfin.Plugin.MdbListRatings</AssemblyName>
     <RootNamespace>Jellyfin.Plugin.MdbListRatings</RootNamespace>
-    <Version>1.0.0.6</Version>
-    <AssemblyVersion>1.0.0.6</AssemblyVersion>
+    <Version>1.0.0.8</Version>
+    <AssemblyVersion>1.0.0.8</AssemblyVersion>
     <FileVersion>1.0.0.6</FileVersion>
-    <InformationalVersion>1.0.0.6</InformationalVersion>
-    <!-- IMPORTANT: match your Jellyfin Server version (e.g. 10.11.5) -->
-    <JellyfinVersion>10.11.5</JellyfinVersion>
+    <InformationalVersion>1.0.0.8</InformationalVersion>
+    <!-- IMPORTANT: match your Jellyfin Server version (e.g. 12.0.0) -->
+    <JellyfinVersion>12.0.0</JellyfinVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -32,11 +32,6 @@
     <EmbeddedResource Include="AwardData\**\*.json" />
     <EmbeddedResource Include="AwardData\**\*.yml" />
     <EmbeddedResource Include="AwardData\**\*.yaml" />
-  </ItemGroup>
-
-  <!-- Needed for ASP.NET Core MVC attributes/controllers (plugin API endpoint) -->
-  <ItemGroup>
-    <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
 </Project>

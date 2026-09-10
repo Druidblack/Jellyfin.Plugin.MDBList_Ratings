@@ -2273,6 +2273,7 @@ internal sealed class RatingsUpdater
             {
                 PluginConfiguration.CacheIntervalPreset.Week => TimeSpan.FromDays(7),
                 PluginConfiguration.CacheIntervalPreset.Month => TimeSpan.FromDays(30),
+                PluginConfiguration.CacheIntervalPreset.Custom => TimeSpan.FromDays(Math.Max(1, cfg.CacheCustomDays)),
                 _ => TimeSpan.FromDays(1)
             };
         }

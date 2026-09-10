@@ -9,6 +9,8 @@ using System.Threading;
 using System.Threading.Tasks;
 using Jellyfin.Plugin.MdbListRatings.Configuration;
 using Jellyfin.Plugin.MdbListRatings.Ratings;
+using MediaBrowser.Common.Api;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -19,6 +21,7 @@ namespace Jellyfin.Plugin.MdbListRatings.Api;
 /// These values are fetched for the web UI and cached on disk to reduce repeated network requests.
 /// </summary>
 [ApiController]
+[Authorize]
 [Route("Plugins/MdbListRatings")]
 public sealed class WebExtrasController : ControllerBase
 {
@@ -473,6 +476,7 @@ private static TimeSpan GetWebExtrasTtl(PluginConfiguration cfg)
         {
             PluginConfiguration.CacheIntervalPreset.Week => TimeSpan.FromDays(7),
             PluginConfiguration.CacheIntervalPreset.Month => TimeSpan.FromDays(30),
+            PluginConfiguration.CacheIntervalPreset.Custom => TimeSpan.FromDays(Math.Max(1, cfg.CacheCustomDays)),
             _ => TimeSpan.FromDays(1)
         };
     }

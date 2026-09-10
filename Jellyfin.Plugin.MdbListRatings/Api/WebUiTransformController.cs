@@ -1,6 +1,8 @@
 using System;
 using Jellyfin.Plugin.MdbListRatings;
 using Jellyfin.Plugin.MdbListRatings.Web;
+using MediaBrowser.Common.Api;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Jellyfin.Plugin.MdbListRatings.Api;
@@ -11,6 +13,7 @@ namespace Jellyfin.Plugin.MdbListRatings.Api;
 /// but the File Transformation plugin requires an endpoint field in its payload model.
 /// </summary>
 [ApiController]
+[Authorize]
 [Route("Plugins/MdbListRatings/Transform")]
 public sealed class WebUiTransformController : ControllerBase
 {
