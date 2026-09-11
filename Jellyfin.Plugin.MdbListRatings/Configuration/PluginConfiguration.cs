@@ -22,6 +22,11 @@ public class PluginConfiguration : BasePluginConfiguration
     }
 
     /// <summary>
+    /// Gets or sets the WhatsOn API key.
+    /// </summary>
+    public string WhatsOnApiKey { get; set; } = string.Empty;
+
+    /// <summary>
     /// Gets or sets the custom cache refresh interval in days (used when <see cref="CacheInterval"/> is <see cref="CacheIntervalPreset.Custom"/>).
     /// </summary>
     public int CacheCustomDays { get; set; } = 14;
