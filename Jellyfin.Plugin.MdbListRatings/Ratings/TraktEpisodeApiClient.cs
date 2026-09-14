@@ -232,7 +232,7 @@ internal sealed class TraktEpisodeApiClient
 
             try
             {
-                var http = _httpClientFactory.CreateClient();
+                var http = _httpClientFactory.CreateClient(SecretHttpClient.Name);
                 http.Timeout = TimeSpan.FromSeconds(25);
 
                 using var request = new HttpRequestMessage(HttpMethod.Get, url);

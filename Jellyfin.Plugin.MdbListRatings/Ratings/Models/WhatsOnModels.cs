@@ -45,6 +45,9 @@ public class WhatsOnTitleResponse
 
     [JsonPropertyName("episodes_details")]
     public WhatsOnEpisodeDetails[]? EpisodesDetails { get; set; }
+
+    [JsonPropertyName("ratings_average")]
+    public float? RatingsAverage { get; set; }
 }
 
 public class WhatsOnEpisodeDetails
@@ -67,35 +70,80 @@ public class WhatsOnEpisodeDetails
 
 public class WhatsOnSimpleRating
 {
+    [JsonPropertyName("url")]
+    public string? Url { get; set; }
+
     [JsonPropertyName("users_rating")]
     public float? UsersRating { get; set; }
+
+    [JsonPropertyName("users_rating_count")]
+    public int? UsersRatingCount { get; set; }
+
+    [JsonPropertyName("top_ranking")]
+    public int? TopRanking { get; set; }
 }
 
 public class WhatsOnRottenTomatoesRating
 {
+    [JsonPropertyName("url")]
+    public string? Url { get; set; }
+
     [JsonPropertyName("critics_rating")]
     public float? CriticsRating { get; set; }
 
+    [JsonPropertyName("critics_rating_count")]
+    public int? CriticsRatingCount { get; set; }
+
     [JsonPropertyName("users_rating")]
     public float? UsersRating { get; set; }
+
+    [JsonPropertyName("users_rating_count")]
+    public int? UsersRatingCount { get; set; }
+
+    [JsonPropertyName("users_certified")]
+    public bool? UsersCertified { get; set; }
+
+    [JsonPropertyName("critics_certified")]
+    public bool? CriticsCertified { get; set; }
 }
 
 public class WhatsOnMetacriticRating
 {
+    [JsonPropertyName("url")]
+    public string? Url { get; set; }
+
     [JsonPropertyName("critics_rating")]
     public float? CriticsRating { get; set; }
 
+    [JsonPropertyName("critics_rating_count")]
+    public int? CriticsRatingCount { get; set; }
+
     [JsonPropertyName("users_rating")]
     public float? UsersRating { get; set; }
+
+    [JsonPropertyName("users_rating_count")]
+    public int? UsersRatingCount { get; set; }
+
+    [JsonPropertyName("must_see")]
+    public bool? MustSee { get; set; }
 }
 
 public class WhatsOnAllocineRating
 {
+    [JsonPropertyName("url")]
+    public string? Url { get; set; }
+
     [JsonPropertyName("critics_rating")]
     public float? CriticsRating { get; set; }
 
+    [JsonPropertyName("critics_rating_count")]
+    public int? CriticsRatingCount { get; set; }
+
     [JsonPropertyName("users_rating")]
     public float? UsersRating { get; set; }
+
+    [JsonPropertyName("users_rating_count")]
+    public int? UsersRatingCount { get; set; }
 }
 
 public class WhatsOnSeasonResponse

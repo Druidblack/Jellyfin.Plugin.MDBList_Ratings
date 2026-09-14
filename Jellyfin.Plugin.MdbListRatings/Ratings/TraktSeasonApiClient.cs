@@ -135,7 +135,7 @@ internal sealed class TraktSeasonApiClient
 
             try
             {
-                var http = _httpClientFactory.CreateClient();
+                var http = _httpClientFactory.CreateClient(SecretHttpClient.Name);
                 http.Timeout = TimeSpan.FromSeconds(20);
 
                 using var request = new HttpRequestMessage(HttpMethod.Get, url);

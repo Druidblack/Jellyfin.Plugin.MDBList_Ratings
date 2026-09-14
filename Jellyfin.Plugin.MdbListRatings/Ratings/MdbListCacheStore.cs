@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Concurrent;
+using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Text.Json;
@@ -20,6 +21,12 @@ internal sealed class MdbListCacheStore
     internal sealed class CacheEnvelope
     {
         public DateTimeOffset CachedAtUtc { get; set; }
+        public DateTimeOffset? MdbListFetchedAtUtc { get; set; }
+        public DateTimeOffset? WhatsOnFetchedAtUtc { get; set; }
+        // Persistent provider-specific negative-cache markers. This prevents known misses
+        // (for example an OMDb episode with no IMDb rating) from consuming the same API
+        // request on every scheduled run.
+        public Dictionary<string, DateTimeOffset>? ProviderMissesUtc { get; set; }
         public MdbListTitleResponse Data { get; set; } = new();
         public string? RawJson { get; set; }
     }

@@ -35,15 +35,19 @@ internal sealed class MdbListClient
             return new MdbListApiResult { Data = null };
         }
 
-        // https://api.mdblist.com/tmdb/{type}/{tmdbId}?apikey={key}
-        var url = $"https://api.mdblist.com/tmdb/{Uri.EscapeDataString(contentType)}/{Uri.EscapeDataString(tmdbId)}?apikey={Uri.EscapeDataString(apiKey)}";
+        // Keep the credential-bearing URL strictly local to the HTTP request.
+        // Never put it into plugin logs or result objects.
+        var safeUrl = $"https://api.mdblist.com/tmdb/{Uri.EscapeDataString(contentType)}/{Uri.EscapeDataString(tmdbId)}";
+        var requestUrl = safeUrl + "?apikey=" + Uri.EscapeDataString(apiKey);
 
         try
         {
-            var http = _httpClientFactory.CreateClient();
+            // This named client has the default IHttpClientFactory request loggers removed.
+            // Otherwise HttpClient logging could expose the API key through the request URI.
+            var http = _httpClientFactory.CreateClient(SecretHttpClient.Name);
             http.Timeout = TimeSpan.FromSeconds(15);
 
-            using var response = await http.GetAsync(url, cancellationToken).ConfigureAwait(false);
+            using var response = await http.GetAsync(requestUrl, cancellationToken).ConfigureAwait(false);
 
             // Read rate limit headers if present.
             var limit = TryGetIntHeader(response, "X-RateLimit-Limit");
@@ -56,10 +60,10 @@ internal sealed class MdbListClient
             {
                 if (hardRateLimited)
                 {
-                    _logger.LogWarning("MDBList rate limited for {Url}. Remaining={Remaining}, ResetUtc={ResetUtc:o}", url, remaining, resetUtc);
+                    _logger.LogWarning("MDBList rate limited for {Url}. Remaining={Remaining}, ResetUtc={ResetUtc:o}", safeUrl, remaining, resetUtc);
                     return new MdbListApiResult
                     {
-                        Url = url,
+                        Url = safeUrl,
                         StatusCode = (int)response.StatusCode,
                         ReasonPhrase = response.ReasonPhrase,
                         RateLimitLimit = limit,
@@ -70,10 +74,10 @@ internal sealed class MdbListClient
                     };
                 }
 
-                _logger.LogWarning("MDBList request failed: {Status} {Reason} for {Url}", (int)response.StatusCode, response.ReasonPhrase, url);
+                _logger.LogWarning("MDBList request failed: {Status} {Reason} for {Url}", (int)response.StatusCode, response.ReasonPhrase, safeUrl);
                 return new MdbListApiResult
                 {
-                    Url = url,
+                    Url = safeUrl,
                     StatusCode = (int)response.StatusCode,
                     ReasonPhrase = response.ReasonPhrase,
                     RateLimitLimit = limit,
@@ -86,9 +90,10 @@ internal sealed class MdbListClient
 
             var raw = await response.Content.ReadAsStringAsync(cancellationToken).ConfigureAwait(false);
             var data = JsonSerializer.Deserialize<MdbListTitleResponse>(raw, JsonOptions);
+            AddMdbListScoreAverage(data);
             return new MdbListApiResult
             {
-                Url = url,
+                Url = safeUrl,
                 StatusCode = (int)response.StatusCode,
                 ReasonPhrase = response.ReasonPhrase,
                 RateLimitLimit = limit,
@@ -105,9 +110,41 @@ internal sealed class MdbListClient
         }
         catch (Exception ex)
         {
-            _logger.LogWarning(ex, "MDBList request error for {Url}", url);
-            return new MdbListApiResult { Url = url, Data = null };
+            _logger.LogWarning("MDBList request error for {Url}. ErrorType={ErrorType}", safeUrl, ex.GetType().Name);
+            return new MdbListApiResult { Url = safeUrl, Data = null };
         }
+    }
+
+    private static void AddMdbListScoreAverage(MdbListTitleResponse? data)
+    {
+        if (data is null || !data.ScoreAverage.HasValue)
+        {
+            return;
+        }
+
+        var score = data.ScoreAverage.Value;
+        if (double.IsNaN(score) || double.IsInfinity(score) || score <= 0 || score > 100)
+        {
+            return;
+        }
+
+        data.Ratings ??= new System.Collections.Generic.List<MdbListRating>();
+        var existing = data.Ratings.FirstOrDefault(r => string.Equals(r.Source, "mdblist", StringComparison.OrdinalIgnoreCase));
+        if (existing is null)
+        {
+            data.Ratings.Add(new MdbListRating
+            {
+                Source = "mdblist",
+                Value = score,
+                Score = score
+            });
+            return;
+        }
+
+        // Keep the top-level aggregate authoritative if a future API response also happens
+        // to contain an entry with the same source key in the ratings array.
+        existing.Value = score;
+        existing.Score = score;
     }
 
     private static int? TryGetIntHeader(System.Net.Http.HttpResponseMessage response, string headerName)

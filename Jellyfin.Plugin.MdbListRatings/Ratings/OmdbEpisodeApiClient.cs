@@ -24,6 +24,9 @@ internal sealed class OmdbEpisodeApiClient
     {
         public OmdbEpisodeLookupResult? Data { get; init; }
         public bool IsRateLimited { get; init; }
+        // True only when OMDb gave a definitive per-title answer that should be negative-cached
+        // (not found / unsupported / no IMDb rating). Transport and credential errors are not cached.
+        public bool IsDefinitiveMiss { get; init; }
         public string? ErrorMessage { get; init; }
     }
 
@@ -75,7 +78,7 @@ internal sealed class OmdbEpisodeApiClient
 
         try
         {
-            var http = _httpClientFactory.CreateClient();
+            var http = _httpClientFactory.CreateClient(SecretHttpClient.Name);
             http.Timeout = TimeSpan.FromSeconds(25);
 
             using var request = new HttpRequestMessage(HttpMethod.Get, url);
@@ -103,6 +106,7 @@ internal sealed class OmdbEpisodeApiClient
             {
                 return new OmdbEpisodeLookupResponse
                 {
+                    IsDefinitiveMiss = IsDefinitiveMissError(payload.Error),
                     ErrorMessage = payload.Error
                 };
             }
@@ -110,7 +114,7 @@ internal sealed class OmdbEpisodeApiClient
             var rating = TryParseDouble(payload.ImdbRating);
             if (!rating.HasValue || rating.Value <= 0)
             {
-                return new OmdbEpisodeLookupResponse();
+                return new OmdbEpisodeLookupResponse { IsDefinitiveMiss = true };
             }
 
             var result = new OmdbEpisodeLookupResult
@@ -134,7 +138,7 @@ internal sealed class OmdbEpisodeApiClient
         }
         catch (Exception ex)
         {
-            _logger.LogWarning(ex, "OMDb episode request error for {ImdbId}", imdbId);
+            _logger.LogWarning("OMDb episode request error for {ImdbId}. ErrorType={ErrorType}", imdbId, ex.GetType().Name);
             return new OmdbEpisodeLookupResponse();
         }
     }
@@ -157,6 +161,18 @@ internal sealed class OmdbEpisodeApiClient
         }
 
         return ContainsLimitReached(payload.Error);
+    }
+
+    private static bool IsDefinitiveMissError(string? error)
+    {
+        if (string.IsNullOrWhiteSpace(error))
+        {
+            return false;
+        }
+
+        return error.IndexOf("not found", StringComparison.OrdinalIgnoreCase) >= 0
+            || error.IndexOf("incorrect imdb id", StringComparison.OrdinalIgnoreCase) >= 0
+            || error.IndexOf("no result", StringComparison.OrdinalIgnoreCase) >= 0;
     }
 
     private static bool ContainsLimitReached(string? error)

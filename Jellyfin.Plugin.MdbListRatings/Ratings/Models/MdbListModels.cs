@@ -16,6 +16,36 @@ public sealed class MdbListTitleResponse
 
     [JsonPropertyName("ratings")]
     public List<MdbListRating> Ratings { get; set; } = new();
+
+    /// <summary>
+    /// MDBList aggregate score from the top-level score_average field (0-100).
+    /// It is exposed to the plugin as a synthetic rating source named "mdblist".
+    /// </summary>
+    [JsonPropertyName("score_average")]
+    [JsonConverter(typeof(NullableDoubleLenientConverter))]
+    public double? ScoreAverage { get; set; }
+
+    /// <summary>
+    /// Extra status flags supplied by WhatsOn. These are not ratings themselves, but are
+    /// useful for Web UI badges/icons without downloading or scraping additional datasets.
+    /// </summary>
+    [JsonPropertyName("whatson_features")]
+    public MdbListWhatsOnFeatures? WhatsOnFeatures { get; set; }
+}
+
+public sealed class MdbListWhatsOnFeatures
+{
+    [JsonPropertyName("imdb_top_ranking")]
+    public int? ImdbTopRanking { get; set; }
+
+    [JsonPropertyName("metacritic_must_see")]
+    public bool? MetacriticMustSee { get; set; }
+
+    [JsonPropertyName("rotten_tomatoes_critics_certified")]
+    public bool? RottenTomatoesCriticsCertified { get; set; }
+
+    [JsonPropertyName("rotten_tomatoes_users_certified")]
+    public bool? RottenTomatoesUsersCertified { get; set; }
 }
 
 public sealed class MdbListIds

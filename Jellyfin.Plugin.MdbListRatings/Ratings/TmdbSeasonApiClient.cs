@@ -135,7 +135,7 @@ internal sealed class TmdbSeasonApiClient
     {
         try
         {
-            var http = _httpClientFactory.CreateClient();
+            var http = _httpClientFactory.CreateClient(SecretHttpClient.Name);
             http.Timeout = TimeSpan.FromSeconds(20);
 
             using var request = new HttpRequestMessage(HttpMethod.Get, BuildAuthorizedUrl(url, auth));
@@ -169,7 +169,7 @@ internal sealed class TmdbSeasonApiClient
         }
         catch (Exception ex)
         {
-            _logger.LogWarning(ex, "TMDb season request error for {Url}", url);
+            _logger.LogWarning("TMDb season request error for {Url}. ErrorType={ErrorType}", url, ex.GetType().Name);
             return default;
         }
     }

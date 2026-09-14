@@ -32,7 +32,7 @@ internal sealed class WhatsOnApiClient
     // so a generous timeout is needed.
     private HttpClient CreateHttpClient()
     {
-        var http = _httpClientFactory.CreateClient();
+        var http = _httpClientFactory.CreateClient(SecretHttpClient.Name);
         http.Timeout = TimeSpan.FromSeconds(60);
         return http;
     }
@@ -84,10 +84,12 @@ internal sealed class WhatsOnApiClient
             if (cachedShow.Response is null)
             {
                 // Cached as not found: don't keep retrying the API.
+                result.StatusCode = 404;
                 return result;
             }
 
             _logger.LogInformation("Using cached WhatsOn title response for tmdbId {TmdbId}", tmdbId.Value);
+            result.StatusCode = 200;
             result.Data = MapToMdbListTitleResponse(cachedShow.Response);
             return result;
         }
@@ -124,8 +126,9 @@ internal sealed class WhatsOnApiClient
 
             if (!response.IsSuccessStatusCode)
             {
-                // Cache the failure so we don't retry the same tmdbId on every episode/season.
-                if (tmdbId.HasValue)
+                // Cache only a real not-found result. Transient 5xx/auth/network failures must be
+                // retryable and must not masquerade as a valid provider refresh.
+                if (tmdbId.HasValue && response.StatusCode == HttpStatusCode.NotFound)
                 {
                     _titleResponseCache[(tmdbId.Value, itemType)] = (null, now);
                 }
@@ -134,9 +137,9 @@ internal sealed class WhatsOnApiClient
             }
 
             var content = await response.Content.ReadAsStringAsync(cancellationToken).ConfigureAwait(false);
-            var searchResponse = JsonSerializer.Deserialize<WhatsOnSearchResponse>(content, GetJsonOptions());
-            // TMDB id namespaces overlap between movies and TV shows; pick the result matching the requested item type.
-            var raw = searchResponse?.Results?.FirstOrDefault(r => string.Equals(r.ItemType, itemType, StringComparison.OrdinalIgnoreCase));
+            // WhatsOn has returned both a direct title object and a { "results": [...] } wrapper
+            // across API versions/endpoints. Accept both shapes so provider-specific ratings are not lost.
+            var raw = ParseTitleResponse(content, itemType);
             if (raw is not null)
             {
                 result.Data = MapToMdbListTitleResponse(raw);
@@ -154,7 +157,7 @@ internal sealed class WhatsOnApiClient
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "Error fetching from WhatsOn API");
+            _logger.LogWarning("WhatsOn API request failed. ErrorType={ErrorType}", ex.GetType().Name);
         }
 
         return result;
@@ -275,7 +278,7 @@ internal sealed class WhatsOnApiClient
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "Error fetching season ratings from WhatsOn API");
+            _logger.LogWarning("WhatsOn season API request failed. ErrorType={ErrorType}", ex.GetType().Name);
             return (null, false, 0);
         }
     }
@@ -299,16 +302,14 @@ internal sealed class WhatsOnApiClient
             if (response.IsSuccessStatusCode)
             {
                 var content = await response.Content.ReadAsStringAsync(cancellationToken).ConfigureAwait(false);
-                var searchResponse = JsonSerializer.Deserialize<WhatsOnSearchResponse>(content, GetJsonOptions());
-                // TMDB id namespaces overlap between movies and TV shows; pick the tvshow result.
-                return (searchResponse?.Results?.FirstOrDefault(r => string.Equals(r.ItemType, "tvshow", StringComparison.OrdinalIgnoreCase)), false, 0);
+                return (ParseTitleResponse(content, "tvshow"), false, 0);
             }
 
             return (null, false, 0);
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "Error fetching show episode details from WhatsOn API");
+            _logger.LogWarning("WhatsOn episode-details API request failed. ErrorType={ErrorType}", ex.GetType().Name);
             return (null, false, 0);
         }
     }
@@ -335,53 +336,114 @@ internal sealed class WhatsOnApiClient
 
     private static MdbListTitleResponse MapToMdbListTitleResponse(WhatsOnTitleResponse t)
     {
-        var res = new MdbListTitleResponse();
-        res.Ratings = new List<MdbListRating>();
-
-        // Value must stay in the provider's native scale (matching MdbListRating.Value's contract),
-        // Score is always the 0-100 normalized value. normalizeMultiplier converts native -> 0-100.
-        void AddRating(string source, float? val, float normalizeMultiplier)
+        var res = new MdbListTitleResponse
         {
-            if (val.HasValue)
+            Ratings = new List<MdbListRating>(),
+            WhatsOnFeatures = new MdbListWhatsOnFeatures
             {
+                ImdbTopRanking = t.Imdb?.TopRanking,
+                MetacriticMustSee = t.Metacritic?.MustSee,
+                RottenTomatoesCriticsCertified = t.RottenTomatoes?.CriticsCertified,
+                RottenTomatoesUsersCertified = t.RottenTomatoes?.UsersCertified
+            }
+        };
+
+        // Keep WhatsOn-routed variants under their own source keys. This prevents a cached MDBList
+        // "imdb"/"tmdb"/etc. value from being mistaken for the explicitly selected "(WhatsOn)" source.
+        void AddRating(string source, float? val, float normalizeMultiplier, int? votes = null, string? url = null)
+        {
+            if (!val.HasValue || val.Value <= 0)
+            {
+                return;
+            }
+
+            res.Ratings.Add(new MdbListRating
+            {
+                Source = source,
+                Value = val.Value,
+                Score = val.Value * normalizeMultiplier,
+                Votes = votes,
+                Url = url
+            });
+        }
+
+        AddRating("whatson_imdb", t.Imdb?.UsersRating, 10f, t.Imdb?.UsersRatingCount, t.Imdb?.Url);
+        AddRating("whatson_tmdb", t.Tmdb?.UsersRating, 10f, t.Tmdb?.UsersRatingCount, t.Tmdb?.Url);
+        AddRating("whatson_trakt", t.Trakt?.UsersRating, 1f, t.Trakt?.UsersRatingCount, t.Trakt?.Url);
+        AddRating("whatson_tomatoes", t.RottenTomatoes?.CriticsRating, 1f, t.RottenTomatoes?.CriticsRatingCount, t.RottenTomatoes?.Url);
+        AddRating("whatson_popcorn", t.RottenTomatoes?.UsersRating, 1f, t.RottenTomatoes?.UsersRatingCount, t.RottenTomatoes?.Url);
+        AddRating("whatson_metacritic", t.Metacritic?.CriticsRating, 1f, t.Metacritic?.CriticsRatingCount, t.Metacritic?.Url);
+        AddRating("whatson_metacriticuser", t.Metacritic?.UsersRating, 10f, t.Metacritic?.UsersRatingCount, t.Metacritic?.Url);
+        AddRating("whatson_letterboxd", t.Letterboxd?.UsersRating, 20f, t.Letterboxd?.UsersRatingCount, t.Letterboxd?.Url);
+        AddRating("senscritique", t.SensCritique?.UsersRating, 10f, t.SensCritique?.UsersRatingCount, t.SensCritique?.Url);
+        AddRating("allocine_critics", t.Allocine?.CriticsRating, 20f, t.Allocine?.CriticsRatingCount, t.Allocine?.Url);
+        AddRating("allocine_users", t.Allocine?.UsersRating, 20f, t.Allocine?.UsersRatingCount, t.Allocine?.Url);
+        AddRating("betaseries", t.BetaSeries?.UsersRating, 20f, t.BetaSeries?.UsersRatingCount, t.BetaSeries?.Url);
+
+        // Current WhatsOn responses expose ratings_average directly on a native 0-5 scale.
+        // Prefer that value; keep a computed fallback for older API responses.
+        if (t.RatingsAverage.HasValue && t.RatingsAverage.Value > 0)
+        {
+            AddRating("whatson", t.RatingsAverage.Value, 20f);
+        }
+        else
+        {
+            var scores = res.Ratings
+                .Where(r => r.Score.HasValue && r.Score.Value > 0)
+                .Select(r => r.Score!.Value)
+                .ToList();
+
+            if (scores.Count > 0)
+            {
+                var avgScore = scores.Average();
                 res.Ratings.Add(new MdbListRating
                 {
-                    Source = source,
-                    Value = val.Value,
-                    Score = val.Value * normalizeMultiplier
+                    Source = "whatson",
+                    Value = Math.Round(avgScore / 20.0, 2, MidpointRounding.AwayFromZero),
+                    Score = avgScore
                 });
             }
         }
 
-        AddRating("imdb", t.Imdb?.UsersRating, 10f); // 0-10 scale
-        AddRating("tmdb", t.Tmdb?.UsersRating, 10f); // 0-10 scale
-        AddRating("trakt", t.Trakt?.UsersRating, 1f); // already 0-100
-        AddRating("tomatoes", t.RottenTomatoes?.CriticsRating, 1f); // already 0-100
-        AddRating("popcorn", t.RottenTomatoes?.UsersRating, 1f); // already 0-100
-        AddRating("metacritic", t.Metacritic?.CriticsRating, 1f); // already 0-100
-        AddRating("metacriticuser", t.Metacritic?.UsersRating, 10f); // 0-10 scale
-        AddRating("letterboxd", t.Letterboxd?.UsersRating, 20f); // 0-5 scale
-        AddRating("senscritique", t.SensCritique?.UsersRating, 10f); // 0-10 scale
-        AddRating("allocine_critics", t.Allocine?.CriticsRating, 20f); // 0-5 scale
-        AddRating("allocine_users", t.Allocine?.UsersRating, 20f); // 0-5 scale
-        AddRating("betaseries", t.BetaSeries?.UsersRating, 20f); // 0-5 scale
+        return res;
+    }
 
-        // The WhatsOn API does not expose a pre-computed aggregate rating directly
-        // But on https://whatson-app.com there is an average over all rating sources
-        // To match this we compute our own normalized average
-        var scores = res.Ratings.Where(r => r.Score.HasValue && r.Score.Value > 0).Select(r => r.Score!.Value).ToList();
-        if (scores.Count > 0)
+    private static WhatsOnTitleResponse? ParseTitleResponse(string content, string itemType)
+    {
+        if (string.IsNullOrWhiteSpace(content))
         {
-            var avgScore = scores.Average();
-            res.Ratings.Add(new MdbListRating
-            {
-                Source = "whatson",
-                Value = Math.Round(avgScore / 20.0, 2, MidpointRounding.AwayFromZero),
-                Score = avgScore
-            });
+            return null;
         }
 
-        return res;
+        using var doc = JsonDocument.Parse(content);
+        var root = doc.RootElement;
+
+        IEnumerable<WhatsOnTitleResponse> candidates;
+
+        if (root.ValueKind == JsonValueKind.Array)
+        {
+            candidates = JsonSerializer.Deserialize<WhatsOnTitleResponse[]>(root.GetRawText(), GetJsonOptions())
+                ?? Array.Empty<WhatsOnTitleResponse>();
+        }
+        else if (root.ValueKind == JsonValueKind.Object && root.TryGetProperty("results", out var results) && results.ValueKind == JsonValueKind.Array)
+        {
+            candidates = JsonSerializer.Deserialize<WhatsOnTitleResponse[]>(results.GetRawText(), GetJsonOptions())
+                ?? Array.Empty<WhatsOnTitleResponse>();
+        }
+        else if (root.ValueKind == JsonValueKind.Object)
+        {
+            var direct = JsonSerializer.Deserialize<WhatsOnTitleResponse>(root.GetRawText(), GetJsonOptions());
+            candidates = direct is null ? Array.Empty<WhatsOnTitleResponse>() : new[] { direct };
+        }
+        else
+        {
+            return null;
+        }
+
+        // TMDb ids overlap between movies and TV shows. Prefer the requested item type, but if
+        // an older/direct response omits item_type, still accept that single candidate.
+        return candidates.FirstOrDefault(r => string.Equals(r.ItemType, itemType, StringComparison.OrdinalIgnoreCase))
+            ?? candidates.FirstOrDefault(r => string.IsNullOrWhiteSpace(r.ItemType));
     }
 
     private static JsonSerializerOptions GetJsonOptions() => new()

@@ -136,7 +136,7 @@ internal sealed class TmdbEpisodeApiClient
     {
         try
         {
-            var http = _httpClientFactory.CreateClient();
+            var http = _httpClientFactory.CreateClient(SecretHttpClient.Name);
             http.Timeout = TimeSpan.FromSeconds(20);
 
             using var request = new HttpRequestMessage(HttpMethod.Get, BuildAuthorizedUrl(url, auth));
@@ -170,7 +170,7 @@ internal sealed class TmdbEpisodeApiClient
         }
         catch (Exception ex)
         {
-            _logger.LogWarning(ex, "TMDb episode request error for {Url}", url);
+            _logger.LogWarning("TMDb episode request error for {Url}. ErrorType={ErrorType}", url, ex.GetType().Name);
             return default;
         }
     }
