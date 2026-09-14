@@ -145,7 +145,7 @@ public class PluginConfiguration : BasePluginConfiguration
     public bool EnableWebRatingSourceIcon { get; set; } = true;
 
     /// <summary>
-    /// If enabled, titles whose IMDb id is present in the locally cached IMDb Top 250 dataset
+    /// If enabled, titles whose WhatsOn imdb.top_ranking is between 1 and 250
     /// will use imdb_top_250.png instead of the standard IMDb icon in Jellyfin Web.
     /// </summary>
     public bool EnableImdbTop250Icon { get; set; } = false;

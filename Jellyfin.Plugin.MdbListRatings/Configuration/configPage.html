@@ -16,39 +16,57 @@
                 <div class="inputContainer">
                     <label class="inputLabel inputLabelUnfocused" for="mdbApiKey">MDBList API key</label>
                     <input id="mdbApiKey" name="mdbApiKey" type="password" class="emby-input" autocomplete="off" />
+                    <button is="emby-button" type="button" class="raised emby-button apiCredentialTestButton" data-provider="mdblist" data-input="mdbApiKey" data-result="mdbApiKeyTestResult" style="margin-top:8px;">
+                        <span>Test</span>
+                    </button>
+                    <div id="mdbApiKeyTestResult" class="fieldDescription apiCredentialTestResult" style="display:none; margin-top:6px;"></div>
                     <div class="fieldDescription">
-                        Request format:
-                        <code>https://api.mdblist.com/tmdb/&lt;type&gt;/&lt;tmdbId&gt;?apikey=&lt;key&gt;</code>
-                        where <code>type</code> is <code>movie</code> or <code>show</code>.
+                        <code>https://mdblist.com/</code> Free MDBList keys are limited to 1000 requests per day.
                     </div>
                 </div>
 
                 <div class="inputContainer">
-                    <label class="inputLabel inputLabelUnfocused" for="traktClientId">Trakt API Client ID</label>
+                    <label class="inputLabel inputLabelUnfocused" for="traktClientId">Trakt Client ID</label>
                     <input id="traktClientId" name="traktClientId" type="password" class="emby-input" autocomplete="off" />
+                    <button is="emby-button" type="button" class="raised emby-button apiCredentialTestButton" data-provider="trakt" data-input="traktClientId" data-result="traktClientIdTestResult" style="margin-top:8px;">
+                        <span>Test</span>
+                    </button>
+                    <div id="traktClientIdTestResult" class="fieldDescription apiCredentialTestResult" style="display:none; margin-top:6px;"></div>
                     <div class="fieldDescription">
-                        Used for season and episode ratings via the official Trakt API. Create an application in Trakt and paste its <code>client_id</code> here.
+                        <code>https://app.trakt.tv/</code>
                     </div>
                 </div>
                 <div class="inputContainer">
                     <label class="inputLabel inputLabelUnfocused" for="tmdbApiAuth">TMDb API key</label>
                     <input id="tmdbApiAuth" name="tmdbApiAuth" type="password" class="emby-input" autocomplete="off" />
+                    <button is="emby-button" type="button" class="raised emby-button apiCredentialTestButton" data-provider="tmdb" data-input="tmdbApiAuth" data-result="tmdbApiAuthTestResult" style="margin-top:8px;">
+                        <span>Test</span>
+                    </button>
+                    <div id="tmdbApiAuthTestResult" class="fieldDescription apiCredentialTestResult" style="display:none; margin-top:6px;"></div>
                     <div class="fieldDescription">
-                        Used for TMDb-based season and episode ratings.
+                        <code>https://www.themoviedb.org/</code>
                     </div>
                 </div>
                 <div class="inputContainer">
                     <label class="inputLabel inputLabelUnfocused" for="omdbApiKey">OMDb API key</label>
                     <input id="omdbApiKey" name="omdbApiKey" type="password" class="emby-input" autocomplete="off" />
+                    <button is="emby-button" type="button" class="raised emby-button apiCredentialTestButton" data-provider="omdb" data-input="omdbApiKey" data-result="omdbApiKeyTestResult" style="margin-top:8px;">
+                        <span>Test API key</span>
+                    </button>
+                    <div id="omdbApiKeyTestResult" class="fieldDescription apiCredentialTestResult" style="display:none; margin-top:6px;"></div>
                     <div class="fieldDescription">
-                        Used for IMDb episode ratings via OMDb. OMDb looks up each episode by its episode <code>IMDb id</code>. Free OMDb keys are limited to 1000 requests per day.
+                        <code>https://www.omdbapi.com/</code> Free OMDb keys are limited to 1000 requests per day.
                     </div>
                 </div>
                 <div class="inputContainer">
-                    <label class="inputLabel inputLabelUnfocused" for="whatsOnApiKey">WhatsOn API key (optional)</label>
+                    <label class="inputLabel inputLabelUnfocused" for="whatsOnApiKey">WhatsOn API key</label>
                     <input id="whatsOnApiKey" name="whatsOnApiKey" type="password" class="emby-input" autocomplete="off" />
+                    <button is="emby-button" type="button" class="raised emby-button apiCredentialTestButton" data-provider="whatson" data-input="whatsOnApiKey" data-result="whatsOnApiKeyTestResult" style="margin-top:8px;">
+                        <span>Test</span>
+                    </button>
+                    <div id="whatsOnApiKeyTestResult" class="fieldDescription apiCredentialTestResult" style="display:none; margin-top:6px;"></div>
                     <div class="fieldDescription">
-                        Optional. Without a key: 100 req/h. Free key: 500 req/h. Sponsor: 5000 req/h.
+                        <code>https://github.com/pierrevano/whatson-api</code> Without a key: 100 req/h. Free key: 500 req/h. Sponsor: 5000 req/h.
                     </div>
                 </div>
 
@@ -150,7 +168,7 @@
                     <span>Use IMDb Top 250 icon instead of IMDb</span>
                 </label>
                 <div class="fieldDescription" style="margin-top: 4px;">
-                    When enabled, the scheduled task downloads the provided movie and TV Top 250.
+                    Uses from the cached WhatsOn response.
                 </div>
 
                 <label class="checkboxContainer" style="margin-top: 10px;">
@@ -183,7 +201,7 @@ anilist
 tvmaze"></textarea>
                         <div class="fieldDescription">
                             Enter one source per line or separated by commas. Source keys must match what MDBList returns
-                            (e.g. imdb, tmdb, metacritic, metacriticuser, tomatoes, popcorn, trakt, letterboxd, rogerebert, myanimelist, anilist, tvmaze).
+                            (e.g. imdb, mdblist, tmdb, metacritic, metacriticuser, tomatoes, popcorn, trakt, letterboxd, senscritique, allocine_critics, allocine_users, betaseries, rogerebert, myanimelist, anilist, tvmaze).
                         </div>
                     
 
@@ -312,47 +330,48 @@ tvmaze"></textarea>
 
             var sources = [
     { value: "none", text: "Do not fill" },
-    { value: "imdb", text: "IMDb" },
-    { value: "tmdb", text: "TMDb" },
-    { value: "trakt", text: "Trakt" },
-    { value: "tomatoes", text: "RottenTomatoes (critics)" },
-    { value: "popcorn", text: "RottenTomatoes (audience)" },
-    { value: "metacritic", text: "Metacritic" },
-    { value: "metacriticuser", text: "Metacritic User" },
-    { value: "letterboxd", text: "Letterboxd" },
+    { value: "imdb", text: "IMDb (MDBList)" },
     { value: "whatson_imdb", text: "IMDb (WhatsOn)" },
+    { value: "tmdb", text: "TMDb (MDBList)" },
     { value: "whatson_tmdb", text: "TMDb (WhatsOn)" },
+    { value: "trakt", text: "Trakt (MDBList)" },
     { value: "whatson_trakt", text: "Trakt (WhatsOn)" },
-    { value: "whatson_tomatoes", text: "RottenTomatoes critics (WhatsOn)" },
-    { value: "whatson_popcorn", text: "RottenTomatoes audience (WhatsOn)" },
+    { value: "tomatoes", text: "RottenTomatoes (critics) (MDBList)" },
+    { value: "popcorn", text: "RottenTomatoes (audience) (MDBList)" },
+    { value: "whatson_tomatoes", text: "RottenTomatoes (critics) (WhatsOn)" },
+    { value: "whatson_popcorn", text: "RottenTomatoes (audience) (WhatsOn)" },
+    { value: "metacritic", text: "Metacritic (MDBList)" },
+    { value: "metacriticuser", text: "Metacritic User (MDBList)" },
     { value: "whatson_metacritic", text: "Metacritic (WhatsOn)" },
     { value: "whatson_metacriticuser", text: "Metacritic User (WhatsOn)" },
+    { value: "letterboxd", text: "Letterboxd (MDBList)" },
     { value: "whatson_letterboxd", text: "Letterboxd (WhatsOn)" },
-    { value: "senscritique", text: "SensCritique (WhatsOn)" },
     { value: "allocine_critics", text: "AlloCiné Critics (WhatsOn)" },
     { value: "allocine_users", text: "AlloCiné Users (WhatsOn)" },
+    { value: "rogerebert", text: "RogerEbert (MDBList)" },
+    { value: "myanimelist", text: "MyAnimeList (MDBList)" },
+    { value: "senscritique", text: "SensCritique (WhatsOn)" },
     { value: "betaseries", text: "BetaSeries (WhatsOn)" },
-    { value: "whatson", text: "WhatsOn (normalized average from all WhatsOn sources)" },
-    { value: "rogerebert", text: "RogerEbert" },
-    { value: "myanimelist", text: "MyAnimeList" },
+    { value: "whatson", text: "WhatsOn" },
+    { value: "mdblist", text: "MDBList" },
     { value: "anilist", text: "AniList" },
     { value: "tvmaze", text: "TVmaze (Series/Shows)" },
             ];
 
             var seasonSources = [
     { value: "none", text: "Do not fill" },
-    { value: "trakt", text: "Trakt (Seasons)" },
-    { value: "tmdb", text: "TMDb (Seasons)" },
-    { value: "whatson", text: "IMDb (Seasons via WhatsOn)" }
+    { value: "trakt", text: "Trakt (Seasons) (Trakt)" },
+    { value: "tmdb", text: "TMDb (Seasons)(TMDb)" },
+    { value: "whatson", text: "IMDb (Seasons) (WhatsOn)" }
             ];
 
             var episodeSources = [
     { value: "none", text: "Do not fill" },
-    { value: "tmdb", text: "TMDb (Episodes)" },
-    { value: "trakt", text: "Trakt (Episodes)" },
-    { value: "tvmaze", text: "TVmaze (Episodes)" },
-    { value: "imdb", text: "IMDb (Episodes via OMDb)" },
-    { value: "whatson", text: "IMDb (Episodes via WhatsOn)" }
+    { value: "tmdb", text: "TMDb (Episodes) (TMDb)" },
+    { value: "trakt", text: "Trakt (Episodes) (Trakt)" },
+    { value: "tvmaze", text: "TVmaze (Episodes) (TVmaze)" },
+    { value: "imdb", text: "IMDb (Episodes) (OMDb)" },
+    { value: "whatson", text: "IMDb (Episodes) (WhatsOn)" }
             ];
 
             // Same as sources, but with a leading "use global" option for per-library overrides.
@@ -388,6 +407,60 @@ tvmaze"></textarea>
                         try { return JSON.parse(result); } catch (e) { return null; }
                     }
                     return result;
+                });
+            }
+
+            function setApiCredentialTestResult(page, resultId, status, message) {
+                var el = page.querySelector('#' + resultId);
+                if (!el) return;
+
+                el.style.display = 'block';
+                el.style.fontWeight = '600';
+                el.style.color = status === 'success' ? '#4caf50' : (status === 'error' ? '#f44336' : '#ffb300');
+                el.textContent = message || 'The API credential could not be verified.';
+            }
+
+            function testApiCredential(page, button) {
+                var provider = button.getAttribute('data-provider') || '';
+                var inputId = button.getAttribute('data-input') || '';
+                var resultId = button.getAttribute('data-result') || '';
+                var input = page.querySelector('#' + inputId);
+                var credential = input ? (input.value || '').trim() : '';
+                var label = button.querySelector('span');
+                var originalText = label ? label.textContent : button.textContent;
+
+                if (!credential) {
+                    setApiCredentialTestResult(page, resultId, 'error', 'Enter a credential first.');
+                    return;
+                }
+
+                button.disabled = true;
+                if (label) label.textContent = 'Testing...';
+                setApiCredentialTestResult(page, resultId, 'warning', 'Checking the credential...');
+
+                ApiClient.ajax({
+                    type: 'POST',
+                    url: ApiClient.getUrl('Plugins/MdbListRatings/TestApiCredential'),
+                    data: JSON.stringify({ provider: provider, credential: credential }),
+                    contentType: 'application/json'
+                }).then(function (response) {
+                    // Jellyfin Web normally returns a Fetch Response here. Keep compatibility with
+                    // clients that return an already parsed object or a JSON string.
+                    if (!response) return null;
+                    if (typeof response.json === 'function') return response.json();
+                    if (typeof response === 'string') {
+                        try { return JSON.parse(response); } catch (e) { return null; }
+                    }
+                    return response;
+                }).then(function (result) {
+                    var status = result && result.status ? String(result.status).toLowerCase() : 'warning';
+                    var message = result && result.message ? result.message : 'The API credential could not be verified.';
+                    setApiCredentialTestResult(page, resultId, status, message);
+                }).catch(function () {
+                    setApiCredentialTestResult(page, resultId, 'error', 'API credential check failed. Check the Jellyfin connection and try again.');
+                }).then(function () {
+                    button.disabled = false;
+                    if (label) label.textContent = originalText;
                 });
             }
 
@@ -1030,6 +1103,22 @@ tvmaze"></textarea>
                     libs = [];
                 }
                 wrap.appendChild(createOverrideRow(libs, { Enabled: true }));
+            });
+
+            getPage().querySelectorAll('.apiCredentialTestButton').forEach(function (button) {
+                button.addEventListener('click', function () {
+                    testApiCredential(getPage(), button);
+                });
+
+                var inputId = button.getAttribute('data-input') || '';
+                var resultId = button.getAttribute('data-result') || '';
+                var input = getPage().querySelector('#' + inputId);
+                if (input) {
+                    input.addEventListener('input', function () {
+                        var result = getPage().querySelector('#' + resultId);
+                        if (result) result.style.display = 'none';
+                    });
+                }
             });
 
             getPage().querySelector('#mdbListRatingsConfigForm').addEventListener('submit', function (e) {
