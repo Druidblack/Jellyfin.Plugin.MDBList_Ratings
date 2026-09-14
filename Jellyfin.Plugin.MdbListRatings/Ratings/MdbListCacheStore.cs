@@ -23,6 +23,7 @@ internal sealed class MdbListCacheStore
         public DateTimeOffset CachedAtUtc { get; set; }
         public DateTimeOffset? MdbListFetchedAtUtc { get; set; }
         public DateTimeOffset? WhatsOnFetchedAtUtc { get; set; }
+        public DateTimeOffset? SimklFetchedAtUtc { get; set; }
         // Persistent provider-specific negative-cache markers. This prevents known misses
         // (for example an OMDb episode with no IMDb rating) from consuming the same API
         // request on every scheduled run.

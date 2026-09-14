@@ -34,11 +34,13 @@ internal sealed class RatingsUpdater
     private readonly TmdbEpisodeApiClient _tmdbEpisode;
     private readonly OmdbEpisodeApiClient _omdbEpisode;
     private readonly WhatsOnApiClient _whatsOn;
+    private readonly SimklApiClient _simkl;
 
     private readonly MdbListCacheStore _cacheStore;
     private readonly RateLimitStateStore _rateLimit;
     private readonly RateLimitStateStore _omdbRateLimit;
     private readonly RateLimitStateStore _whatsOnRateLimit;
+    private readonly RateLimitStateStore _simklRateLimit;
     private readonly SemaphoreSlim _initLock = new(1, 1);
     private bool _initialized;
 
@@ -64,10 +66,12 @@ internal sealed class RatingsUpdater
         _tmdbEpisode = new TmdbEpisodeApiClient(httpClientFactory, logger);
         _omdbEpisode = new OmdbEpisodeApiClient(httpClientFactory, logger);
         _whatsOn = new WhatsOnApiClient(httpClientFactory, logger);
+        _simkl = new SimklApiClient(httpClientFactory, logger);
         _cacheStore = new MdbListCacheStore(cacheDir, logger);
         _rateLimit = new RateLimitStateStore(statePath, logger);
         _omdbRateLimit = new RateLimitStateStore(System.IO.Path.Combine(System.IO.Path.GetDirectoryName(statePath) ?? string.Empty, "omdb-episode-state.json"), logger);
         _whatsOnRateLimit = new RateLimitStateStore(System.IO.Path.Combine(System.IO.Path.GetDirectoryName(statePath) ?? string.Empty, "whatson-state.json"), logger);
+        _simklRateLimit = new RateLimitStateStore(System.IO.Path.Combine(System.IO.Path.GetDirectoryName(statePath) ?? string.Empty, "simkl-state.json"), logger);
     }
 
     internal DateTimeOffset? OmdbCooldownUntilUtc => _omdbRateLimit.NotBeforeUtc;
@@ -187,12 +191,13 @@ internal sealed class RatingsUpdater
         var needsEpisodeWhatsOn = isEpisode && seasonNumber.HasValue && episodeNumber.HasValue && EpisodeRequiresWhatsOn(effectiveEpisodePrimary, effectiveEpisodeFallback)
             && !string.IsNullOrWhiteSpace(seasonShowTmdbId);
         // Movie/Series cache population is deliberately independent from the selected rating source:
-        // always try both MDBList and WhatsOn. The configured primary/fallback mapping only decides
+        // always try MDBList, WhatsOn and Simkl. The configured primary/fallback mapping only decides
         // which cached value is written to Jellyfin's CommunityRating/CriticRating fields.
         var needsWhatsOn = isMovie || isShow;
         var needsMdbList = isMovie || isShow;
+        var needsSimkl = isMovie || isShow;
 
-        if (!needsMdbList && !needsWhatsOn && !needsTvMaze && !needsSeasonTrakt && !needsSeasonTmdb && !needsSeasonWhatsOn && !needsEpisodeTmdb && !needsEpisodeTrakt && !needsEpisodeTvMaze && !needsEpisodeOmdb && !needsEpisodeWhatsOn)
+        if (!needsMdbList && !needsWhatsOn && !needsSimkl && !needsTvMaze && !needsSeasonTrakt && !needsSeasonTmdb && !needsSeasonWhatsOn && !needsEpisodeTmdb && !needsEpisodeTrakt && !needsEpisodeTvMaze && !needsEpisodeOmdb && !needsEpisodeWhatsOn)
         {
             return UpdateOutcome.Skipped;
         }
@@ -237,7 +242,7 @@ internal sealed class RatingsUpdater
 
         // Re-evaluate after credential filtering. If every requested transport is unavailable,
         // there is genuinely nothing left to fetch for this item.
-        if (!needsMdbList && !needsWhatsOn && !needsTvMaze && !needsSeasonTrakt && !needsSeasonTmdb && !needsSeasonWhatsOn && !needsEpisodeTmdb && !needsEpisodeTrakt && !needsEpisodeTvMaze && !needsEpisodeOmdb && !needsEpisodeWhatsOn)
+        if (!needsMdbList && !needsWhatsOn && !needsSimkl && !needsTvMaze && !needsSeasonTrakt && !needsSeasonTmdb && !needsSeasonWhatsOn && !needsEpisodeTmdb && !needsEpisodeTrakt && !needsEpisodeTvMaze && !needsEpisodeOmdb && !needsEpisodeWhatsOn)
         {
             return UpdateOutcome.Skipped;
         }
@@ -261,7 +266,7 @@ internal sealed class RatingsUpdater
             if (isMovie)
             {
                 // Movie: community + critic
-                if (!allowUpdateCommunity && !allowUpdateCritic && !needsMdbList && !needsWhatsOn)
+                if (!allowUpdateCommunity && !allowUpdateCritic && !needsMdbList && !needsWhatsOn && !needsSimkl)
                 {
                     return UpdateOutcome.Skipped;
                 }
@@ -282,9 +287,9 @@ internal sealed class RatingsUpdater
             }
             else
             {
-                // Series: still allow fetching/augmenting the cache (e.g. TVmaze, WhatsOn) even when we
+                // Series: still allow fetching/augmenting the cache (e.g. TVmaze, WhatsOn, Simkl) even when we
                 // are not going to overwrite the saved CommunityRating field.
-                if (!allowUpdateCommunity && !needsTvMaze && !needsWhatsOn)
+                if (!allowUpdateCommunity && !needsTvMaze && !needsWhatsOn && !needsSimkl)
                 {
                     return UpdateOutcome.Skipped;
                 }
@@ -295,7 +300,7 @@ internal sealed class RatingsUpdater
             ? await GetCachedOrFetchSeasonAsync(item, seasonShowTmdbId, seasonShowImdbId, seasonShowTvdbId, seasonNumber!.Value, cfg, needsSeasonTrakt, needsSeasonTmdb, needsSeasonWhatsOn, cancellationToken).ConfigureAwait(false)
             : isEpisode
                 ? await GetCachedOrFetchEpisodeAsync(item, imdbId, seasonShowTmdbId, seasonShowImdbId, seasonShowTvdbId, seasonNumber!.Value, episodeNumber!.Value, cfg, effectiveEpisodePrimary, effectiveEpisodeFallback, needsEpisodeTmdb, needsEpisodeTrakt, needsEpisodeTvMaze, needsEpisodeOmdb, needsEpisodeWhatsOn, cancellationToken).ConfigureAwait(false)
-                : await GetCachedOrFetchAsync(contentType, tmdbId, imdbId, tvdbId, cfg, needsMdbList, needsWhatsOn, needsTvMaze, cancellationToken).ConfigureAwait(false);
+                : await GetCachedOrFetchAsync(contentType, tmdbId, imdbId, tvdbId, cfg, needsMdbList, needsWhatsOn, needsSimkl, needsTvMaze, cancellationToken).ConfigureAwait(false);
         if (fetchResult.Outcome == UpdateOutcome.RateLimited)
         {
             return UpdateOutcome.RateLimited;
@@ -540,7 +545,7 @@ internal sealed class RatingsUpdater
             }
 
             // Store the *actual* used source (primary or fallback) so the web UI can show the right icon.
-            var sourceChanged = SetProviderId(item, ProviderIdCommunitySource, MapWhatsOnAliasToNative(usedCommunitySource ?? string.Empty));
+            var sourceChanged = SetProviderId(item, ProviderIdCommunitySource, MapProviderAliasToNative(usedCommunitySource ?? string.Empty));
 
             changed = changed || ratingChanged || sourceChanged;
         }
@@ -553,7 +558,7 @@ internal sealed class RatingsUpdater
                 item.CriticRating = newCritic.Value;
             }
 
-            var sourceChanged = SetProviderId(item, ProviderIdCriticSource, MapWhatsOnAliasToNative(usedCriticSource ?? string.Empty));
+            var sourceChanged = SetProviderId(item, ProviderIdCriticSource, MapProviderAliasToNative(usedCriticSource ?? string.Empty));
             changed = changed || ratingChanged || sourceChanged;
         }
 
@@ -1028,11 +1033,22 @@ internal sealed class RatingsUpdater
         return WhatsOnOnlySources.Contains(NormalizeSource(source));
     }
 
+
+    private static readonly HashSet<string> SimklOnlySources = new(StringComparer.OrdinalIgnoreCase)
+    {
+        "simkl", "simkl_imdb", "simkl_mal"
+    };
+
+    internal static bool IsSimklOnlySource(string? source)
+    {
+        return SimklOnlySources.Contains(NormalizeSource(source));
+    }
+
     // Movie/Show community and critic sources can select "<Provider> (WhatsOn)" as an
     // alternative to fetching the same data from MDBList (which has a daily rate limit, vs
     // WhatsOn's hourly limit). These aliases resolve to the same native rating key so the
     // resulting icon/label matches selecting the native source (e.g. "imdb") directly.
-    private static string MapWhatsOnAliasToNative(string source)
+    private static string MapProviderAliasToNative(string source)
     {
         return source switch
         {
@@ -1044,6 +1060,8 @@ internal sealed class RatingsUpdater
             "whatson_metacritic" => "metacritic",
             "whatson_metacriticuser" => "metacriticuser",
             "whatson_letterboxd" => "letterboxd",
+            "simkl_imdb" => "imdb",
+            "simkl_mal" => "myanimelist",
             _ => source
         };
     }
@@ -1063,7 +1081,7 @@ internal sealed class RatingsUpdater
     private static bool RequiresMdbListSource(string? source)
     {
         var s = NormalizeSource(source);
-        return !string.IsNullOrWhiteSpace(s) && s != "none" && s != "tvmaze" && !IsWhatsOnOnlySource(s);
+        return !string.IsNullOrWhiteSpace(s) && s != "none" && s != "tvmaze" && !IsWhatsOnOnlySource(s) && !IsSimklOnlySource(s);
     }
 
     private async Task ApplyWhatsOnRateLimitAsync(WhatsOnApiResult result, DateTimeOffset now, CancellationToken cancellationToken)
@@ -1081,6 +1099,24 @@ internal sealed class RatingsUpdater
     private bool IsWhatsOnRateLimitActive(DateTimeOffset now)
     {
         return _whatsOnRateLimit.NotBeforeUtc.HasValue && _whatsOnRateLimit.NotBeforeUtc.Value > now;
+    }
+
+
+    private async Task ApplySimklRateLimitAsync(SimklApiResult result, DateTimeOffset now, CancellationToken cancellationToken)
+    {
+        if (!result.IsRateLimited)
+        {
+            return;
+        }
+
+        var retryAfter = result.RetryAfterSeconds > 0 ? result.RetryAfterSeconds : 60;
+        await _simklRateLimit.UpdateAsync(null, 0, now.AddSeconds(retryAfter), true, cancellationToken).ConfigureAwait(false);
+        _logger.LogWarning("Simkl API rate limit reached. Retry after {Seconds} seconds.", retryAfter);
+    }
+
+    private bool IsSimklRateLimitActive(DateTimeOffset now)
+    {
+        return _simklRateLimit.NotBeforeUtc.HasValue && _simklRateLimit.NotBeforeUtc.Value > now;
     }
 
     private static string MapWhatsOnToImdb(string source)
@@ -1392,6 +1428,7 @@ internal sealed class RatingsUpdater
 
             await _rateLimit.LoadAsync(cancellationToken).ConfigureAwait(false);
             await _omdbRateLimit.LoadAsync(cancellationToken).ConfigureAwait(false);
+            await _simklRateLimit.LoadAsync(cancellationToken).ConfigureAwait(false);
             _initialized = true;
         }
         finally
@@ -2030,6 +2067,7 @@ internal sealed class RatingsUpdater
         PluginConfiguration cfg,
         bool needsMdbList,
         bool needsWhatsOn,
+        bool needsSimkl,
         bool needsTvMaze,
         CancellationToken cancellationToken)
     {
@@ -2074,6 +2112,9 @@ internal sealed class RatingsUpdater
             && !string.IsNullOrWhiteSpace(tmdbId);
         var canFetchWhatsOn = needsWhatsOn
             && (!string.IsNullOrWhiteSpace(tmdbId) || !string.IsNullOrWhiteSpace(imdbId));
+        var canFetchSimkl = needsSimkl
+            && !string.IsNullOrWhiteSpace(cfg.SimklClientId)
+            && (!string.IsNullOrWhiteSpace(tmdbId) || !string.IsNullOrWhiteSpace(imdbId) || !string.IsNullOrWhiteSpace(tvdbId));
 
         // ---- MDBList -------------------------------------------------------
         // Fetch independently from the configured primary/fallback source. This keeps the
@@ -2110,6 +2151,7 @@ internal sealed class RatingsUpdater
                         // WhatsOn/TVMaze can supply, then replace the MDBList portion with fresh data.
                         var preservedRatings = env.Data.Ratings
                             .Where(r => IsWhatsOnOnlySource(r.Source)
+                                || IsSimklOnlySource(r.Source)
                                 || string.Equals(r.Source, "tvmaze", StringComparison.OrdinalIgnoreCase))
                             .ToList();
                         var preservedFeatures = env.Data.WhatsOnFeatures;
@@ -2203,6 +2245,49 @@ internal sealed class RatingsUpdater
             catch (Exception ex)
             {
                 _logger.LogWarning(ex, "WhatsOn augmentation failed for {Key}", cacheKey);
+            }
+        }
+
+        // ---- Simkl ---------------------------------------------------------
+        // Simkl is populated independently from the selected rating source, like MDBList and
+        // WhatsOn. Its IMDb/MAL ratings carry vote counts and participate in Web UI dedupe.
+        if (canFetchSimkl
+            && !IsFresh(env.SimklFetchedAtUtc, now, ttl)
+            && !IsSimklRateLimitActive(now))
+        {
+            try
+            {
+                var lookup = await _simkl.GetTitleRatingsAsync(tmdbId, imdbId, tvdbId, contentType, cfg.SimklClientId, cancellationToken).ConfigureAwait(false);
+
+                if (lookup.IsRateLimited)
+                {
+                    await ApplySimklRateLimitAsync(lookup, now, cancellationToken).ConfigureAwait(false);
+                    _logger.LogWarning("Simkl rate limit/cooldown reached for {Key}; continuing with cached Simkl data and other providers.", cacheKey);
+                }
+                else if (lookup.IsCredentialRejected)
+                {
+                    _logger.LogWarning("Simkl rejected the configured Client ID for {Key}; continuing with other providers.", cacheKey);
+                }
+                else if ((lookup.StatusCode >= 200 && lookup.StatusCode < 300) || lookup.StatusCode == 404)
+                {
+                    env.SimklFetchedAtUtc = now;
+                    cacheChanged = true;
+
+                    // A completed Simkl refresh is authoritative for Simkl-owned keys.
+                    env.Data.Ratings.RemoveAll(r => IsSimklOnlySource(r.Source));
+                    if (lookup.Data?.Ratings is not null)
+                    {
+                        EnsureIds(env.Data, tmdbId, imdbId);
+                        foreach (var r in lookup.Data.Ratings)
+                        {
+                            UpsertRating(env.Data, r);
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogWarning(ex, "Simkl augmentation failed for {Key}", cacheKey);
             }
         }
 

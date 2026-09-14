@@ -188,13 +188,16 @@ internal sealed class ImdbRatingsDataset
         using var reader = new StreamReader(fs);
 
         // Header
-        _ = await reader.ReadLineAsync().ConfigureAwait(false);
+        _ = await reader.ReadLineAsync(cancellationToken).ConfigureAwait(false);
 
-        while (!reader.EndOfStream)
+        while (true)
         {
-            cancellationToken.ThrowIfCancellationRequested();
+            var line = await reader.ReadLineAsync(cancellationToken).ConfigureAwait(false);
+            if (line is null)
+            {
+                break;
+            }
 
-            var line = await reader.ReadLineAsync().ConfigureAwait(false);
             if (string.IsNullOrWhiteSpace(line))
             {
                 continue;
