@@ -8,4 +8,5 @@ namespace Jellyfin.Plugin.MdbListRatings;
 internal static class SecretHttpClient
 {
     public const string Name = "MdbListRatings.SecretApi";
+    public const string SimklNoRedirectName = "MdbListRatings.SimklNoRedirect";
 }

@@ -19,6 +19,17 @@ public sealed class PluginServiceRegistrator : IPluginServiceRegistrator
             .AddHttpClient(SecretHttpClient.Name)
             .RemoveAllLoggers();
 
+        // Simkl /redirect returns the catalog id only in a 301 Location header. Do not
+        // follow it to the human-facing HTML page. Logging is also disabled because Simkl
+        // requires client_id as a URL parameter on the redirect/detail requests.
+        serviceCollection
+            .AddHttpClient(SecretHttpClient.SimklNoRedirectName)
+            .ConfigurePrimaryHttpMessageHandler(() => new System.Net.Http.HttpClientHandler
+            {
+                AllowAutoRedirect = false
+            })
+            .RemoveAllLoggers();
+
         // Register a hosted service that registers our Web UI transformation via
         // jellyfin-plugin-file-transformation. This avoids writing to index.html on disk.
         serviceCollection.AddHostedService<WebUiTransformationHostedService>();
