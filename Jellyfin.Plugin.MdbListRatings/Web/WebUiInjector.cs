@@ -106,6 +106,7 @@ internal static class WebUiInjector
 
     var PLUGIN_ID = '__PLUGIN_ID__';
     var PROVIDER_KEY = 'MdbListCommunitySource';
+    var TOP_RANK_PROVIDER_KEY = 'MdbListImdbTopRanking';
     var APPLIED_CLASS = 'mdblist-rating-icon-applied';
     var IMG_CLASS = 'mdblist-rating-icon-img';
     var STAR_SHRINK_CLASS = 'mdblist-star-shrink';
@@ -115,32 +116,27 @@ internal static class WebUiInjector
     var DETAILS_AWARD_SUMMARY_CLASS = 'mdblist-award-summary-badge';
 
     var ICONS = {
-      imdb:               'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/IMDb.png',
-      tmdb:               'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/TMDB.png',
-      tomatoes:           'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/Rotten_Tomatoes.png',
-      tomatoes_rotten:    'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/Rotten_Tomatoes_rotten.png',
-      tomatoes_certified: 'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/rotten-tomatoes-certified.png',
-      audience:           'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/Rotten_Tomatoes_positive_audience.png',
-      audience_rotten:    'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/Rotten_Tomatoes_negative_audience.png',
-      rotten_ver:         'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/roten_tomatoes_ver.png',
-      metacritic:         'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/Metacritic.png',
-      metacriticms:       'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/metacriticms.png',
-      metacriticus:       'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/mus2.png',
-      rogerebert:         'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/Roger_Ebert.png',
-      trakt:              'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/Trakt.png',
-      letterboxd:         'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/letterboxd.png',
-      kinopoisk:          'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/kinopoisk.png',
-      myanimelist:        'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/mal.png',
-      anilist:            'https://cdn.jsdelivr.net/gh/Druidblack/jellyfin_ratings@main/logo/anilist.png',
-      // TODO: should probably be changed to jsdelivr as well to simplify the resolving to just localizeIconUrl()
-      // NOTE: these are intentionally NOT resolved via asset() here. Resolving eagerly, while the
-      // ICONS object literal is still being constructed, can run before window.ApiClient is ready
-      // (a real race observed with reverse-proxy Base URL setups). They're resolved later, in the
-      // same pass as the CDN->local rewrite below, once script execution has had a chance to catch
-      // up with Jellyfin's own bootstrap.
+      imdb:               '@asset:IMDb.png',
+      tmdb:               '@asset:TMDB.png',
+      tomatoes:           '@asset:Rotten_Tomatoes.png',
+      tomatoes_rotten:    '@asset:Rotten_Tomatoes_rotten.png',
+      tomatoes_certified: '@asset:rotten-tomatoes-certified.png',
+      audience:           '@asset:Rotten_Tomatoes_positive_audience.png',
+      audience_rotten:    '@asset:Rotten_Tomatoes_negative_audience.png',
+      rotten_ver:         '@asset:roten_tomatoes_ver.png',
+      metacritic:         '@asset:Metacritic.png',
+      metacriticms:       '@asset:metacriticms.png',
+      metacriticus:       '@asset:mus2.png',
+      rogerebert:         '@asset:Roger_Ebert.png',
+      trakt:              '@asset:Trakt.png',
+      letterboxd:         '@asset:letterboxd.png',
+      kinopoisk:          '@asset:kinopoisk.png',
+      myanimelist:        '@asset:mal.png',
+      anilist:            '@asset:anilist.png',
       tvmaze:             '@asset:tvmaze.png',
       imdb_top_250:       '@asset:imdb_top_250.png',
       whatson:            '@asset:whatson.png',
+      mdblist:            '@asset:mdblist.svg',
       senscritique:       '@asset:senscritique.png',
       allocine_critics:   '@asset:allocine.png',
       allocine_users:     '@asset:allocine.png',
@@ -441,57 +437,20 @@ internal static class WebUiInjector
       return window.ApiClient.ajax({ url: url, type: 'GET', dataType: 'json' });
     }
 
-    var _top250Index = null;
-    var _top250IndexPromise = null;
-
-    function normalizeImdbId(imdbId){
+    function parseTopRanking(value){
       try {
-        var s = String(imdbId || '').trim();
-        if (!s) return null;
-        if (s.toLowerCase().indexOf('tt') !== 0) return null;
-        return s.toLowerCase();
+        var n = Number(value);
+        if (!isFinite(n)) return null;
+        n = Math.floor(n);
+        return (n >= 1 && n <= 250) ? n : null;
       } catch (e) {
         return null;
       }
     }
 
-    function ensureTop250Index(){
-      if (_top250Index !== null) return Promise.resolve(_top250Index);
-      if (_top250IndexPromise) return _top250IndexPromise;
-      if (!hasApiClient()) {
-        _top250Index = { enabled: false, hasCache: false, ids: Object.create(null) };
-        return Promise.resolve(_top250Index);
-      }
-
-      var url = window.ApiClient.getUrl('Plugins/MdbListRatings/ImdbTop250Index', {});
-      _top250IndexPromise = ajaxJson(url).then(function(resp){
-        var ids = (resp && (resp.ids || resp.Ids)) || [];
-        var map = Object.create(null);
-        for (var i=0;i<ids.length;i++) {
-          var norm = normalizeImdbId(ids[i]);
-          if (norm) map[norm] = true;
-        }
-        _top250Index = { enabled: !!(resp && (resp.enabled !== false)), hasCache: !!(resp && (resp.hasCache === true || resp.HasCache === true)), ids: map };
-        return _top250Index;
-      }).catch(function(){
-        _top250Index = { enabled: false, hasCache: false, ids: Object.create(null) };
-        return _top250Index;
-      }).finally(function(){
-        _top250IndexPromise = null;
-      });
-
-      return _top250IndexPromise;
-    }
-
-    function isImdbTop250(imdbId){
-      var norm = normalizeImdbId(imdbId);
-      if (!norm || !_top250Index || !_top250Index.ids) return false;
-      return _top250Index.ids[norm] === true;
-    }
-
-    function resolveDisplaySource(source, imdbId, settings){
+    function resolveDisplaySource(source, topRanking, settings){
       var src = String(source || '').toLowerCase();
-      if (src === 'imdb' && settings && settings.top250 === true && isImdbTop250(imdbId)) {
+      if ((src === 'imdb' || src === 'whatson_imdb') && settings && settings.top250 === true && parseTopRanking(topRanking) !== null) {
         return 'imdb_top_250';
       }
       return src;
@@ -553,6 +512,19 @@ internal static class WebUiInjector
     function toIconKey(source, communityRating0to10){
       if (!source) return null;
       var s = String(source).toLowerCase();
+      // WhatsOn-routed provider keys are stored separately in cache so they cannot be confused
+      // with values fetched from MDBList, but they intentionally use the provider's normal icon.
+      var whatsonAliases = {
+        whatson_imdb: 'imdb',
+        whatson_tmdb: 'tmdb',
+        whatson_trakt: 'trakt',
+        whatson_tomatoes: 'tomatoes',
+        whatson_popcorn: 'popcorn',
+        whatson_metacritic: 'metacritic',
+        whatson_metacriticuser: 'metacriticuser',
+        whatson_letterboxd: 'letterboxd'
+      };
+      if (whatsonAliases[s]) s = whatsonAliases[s];
       if (s === 'metacriticuser') return 'metacriticus';
       if (s === 'metacriticms') return 'metacriticms';
       if (s === 'tomatoes') {
@@ -570,7 +542,7 @@ internal static class WebUiInjector
 
     function applyIconToEl(el, itemId, source, communityRating, settings){
       var info = itemCache[itemId] || null;
-      var displaySource = resolveDisplaySource(source, info ? info.imdbId : null, settings);
+      var displaySource = resolveDisplaySource(source, info ? info.topRanking : null, settings);
       var iconKey = toIconKey(displaySource, communityRating);
       var url = iconKey ? ICONS[iconKey] : null;
       if (!url) return;
@@ -751,8 +723,16 @@ internal static class WebUiInjector
 
     function formatCachedRating(r){
       if (!r) return null;
+      var src = String(r.source || r.Source || '').toLowerCase();
       var v = (r.value !== undefined && r.value !== null) ? Number(r.value) : null;
       var s = (r.score !== undefined && r.score !== null) ? Number(r.score) : null;
+
+      // MDBList exposes TMDb in the familiar integer 0-100 form in the all-ratings panel.
+      // WhatsOn exposes the native TMDb value (for example 8.69). Render the WhatsOn copy
+      // from its normalized score so both TMDb sources look identical (87 instead of 8.7).
+      if (src === 'whatson_tmdb' && s !== null && !isNaN(s) && s > 0 && s <= 100) {
+        return { text: String(Math.round(s)), rating0to10: s / 10 };
+      }
 
       if (v !== null && !isNaN(v)) {
         if (v <= 10) return { text: v.toFixed(1), rating0to10: v };
@@ -767,6 +747,57 @@ internal static class WebUiInjector
       return null;
     }
 
+    function getEquivalentRatingSource(source){
+      var src = String(source || '').toLowerCase();
+      var aliases = {
+        whatson_imdb: 'imdb',
+        whatson_tmdb: 'tmdb',
+        whatson_trakt: 'trakt',
+        whatson_tomatoes: 'tomatoes',
+        whatson_popcorn: 'popcorn',
+        whatson_metacritic: 'metacritic',
+        whatson_metacriticuser: 'metacriticuser',
+        metacriticus: 'metacriticuser',
+        whatson_letterboxd: 'letterboxd'
+      };
+      return aliases[src] || src;
+    }
+
+    function dedupeEquivalentRatings(ratings){
+      var input = ratings || [];
+      var bestBySource = Object.create(null);
+      var familyOrder = [];
+
+      for (var i=0;i<input.length;i++) {
+        var r = input[i];
+        if (!r) continue;
+        var src = String(r.source || r.Source || '').toLowerCase();
+        if (!src) continue;
+        var family = getEquivalentRatingSource(src);
+        var existing = bestBySource[family];
+        if (!existing) {
+          bestBySource[family] = r;
+          familyOrder.push(family);
+          continue;
+        }
+
+        // Unknown vote counts rank below a known positive count. On a tie keep the first
+        // provider to avoid flickering between MDBList and WhatsOn across refreshes.
+        var existingVotes = tryGetVotesFromRating(existing);
+        var candidateVotes = tryGetVotesFromRating(r);
+        var ev = existingVotes === null ? -1 : existingVotes;
+        var cv = candidateVotes === null ? -1 : candidateVotes;
+        if (cv > ev) bestBySource[family] = r;
+      }
+
+      var result = [];
+      for (var j=0;j<familyOrder.length;j++) {
+        var winner = bestBySource[familyOrder[j]];
+        if (winner) result.push(winner);
+      }
+      return result;
+    }
+
 
     function getSourceDisplayName(source){
       var s = String(source || '').toLowerCase();
@@ -774,7 +805,16 @@ internal static class WebUiInjector
       var map = {
         imdb: 'IMDb',
         imdb_top_250: 'IMDb Top 250',
+        mdblist: 'MDBList',
         whatson: 'WhatsOn',
+        whatson_imdb: 'IMDb (WhatsOn)',
+        whatson_tmdb: 'TMDb (WhatsOn)',
+        whatson_trakt: 'Trakt (WhatsOn)',
+        whatson_tomatoes: 'Rotten Tomatoes (WhatsOn)',
+        whatson_popcorn: 'Rotten Tomatoes Audience (WhatsOn)',
+        whatson_metacritic: 'Metacritic (WhatsOn)',
+        whatson_metacriticuser: 'Metacritic User (WhatsOn)',
+        whatson_letterboxd: 'Letterboxd (WhatsOn)',
         tmdb: 'TMDb',
         trakt: 'Trakt',
         tomatoes: 'Rotten Tomatoes',
@@ -920,6 +960,17 @@ internal static class WebUiInjector
     function buildProviderHref(src, rating, ctx){
       try {
         src = String(src||'').toLowerCase();
+        var whatsonLinkAliases = {
+          whatson_imdb: 'imdb',
+          whatson_tmdb: 'tmdb',
+          whatson_trakt: 'trakt',
+          whatson_tomatoes: 'tomatoes',
+          whatson_popcorn: 'popcorn',
+          whatson_metacritic: 'metacritic',
+          whatson_metacriticuser: 'metacritic',
+          whatson_letterboxd: 'letterboxd'
+        };
+        if (whatsonLinkAliases[src]) src = whatsonLinkAliases[src];
         var ids = (ctx && (ctx.ids || ctx.Ids)) || {};
         var imdbId = ids.imdb || ids.Imdb || null;
         var tmdbId = ids.tmdb || ids.Tmdb || null;
@@ -1013,6 +1064,19 @@ internal static class WebUiInjector
           return 'https://letterboxd.com' + url;
         }
 
+        // WhatsOn-only providers. Their API response already contains the canonical
+        // provider page URL, so prefer it instead of trying to reconstruct a slug.
+        if (src === 'senscritique' || src === 'allocine_critics' || src === 'allocine_users' || src === 'betaseries') {
+          if (!rawUrl) return null;
+          var providerUrl = String(rawUrl).trim();
+          if (!providerUrl) return null;
+          if (providerUrl.indexOf('https://') === 0 || providerUrl.indexOf('http://') === 0) return providerUrl;
+          if (src === 'senscritique') return 'https://www.senscritique.com/' + providerUrl.replace(/^\/+/, '');
+          if (src === 'allocine_critics' || src === 'allocine_users') return 'https://www.allocine.fr/' + providerUrl.replace(/^\/+/, '');
+          if (src === 'betaseries') return 'https://www.betaseries.com/' + providerUrl.replace(/^\/+/, '');
+          return null;
+        }
+
         // Roger Ebert
         if (src === 'rogerebert') {
           var s = rawUrl;
@@ -1037,8 +1101,10 @@ function buildAllRatingsContainer(ratings, itemId, settings, ctx){
       container.className = 'mediaInfoItem mdblist-allratings-container ' + DETAILS_CONTAINER_CLASS;
       try { container.setAttribute('data-mdblist-itemid', itemId); } catch (e) {}
 
-      // Determine what to show and in what order.
-      var list = ratings || [];
+      // Determine what to show and in what order. MDBList and WhatsOn can both contain
+      // IMDb/TMDb/Trakt/RT/Metacritic/Letterboxd. Treat those as the same provider in the
+      // all-ratings panel and keep the copy with the larger vote count.
+      var list = dedupeEquivalentRatings(ratings || []);
       try {
         if (settings && settings.mode === 'custom' && settings.order && settings.order.length) {
           var map = Object.create(null);
@@ -1046,12 +1112,19 @@ function buildAllRatingsContainer(ratings, itemId, settings, ctx){
             var rr = list[m];
             if (!rr) continue;
             var ssrc = (rr.source || rr.Source || '').toString().toLowerCase();
-            if (ssrc && !map[ssrc]) map[ssrc] = rr;
+            if (!ssrc) continue;
+            var family = getEquivalentRatingSource(ssrc);
+            if (!map[family]) map[family] = rr;
           }
           var ordered = [];
+          var usedFamilies = Object.create(null);
           for (var o=0;o<settings.order.length;o++) {
-            var key = settings.order[o];
-            if (key && map[key]) ordered.push(map[key]);
+            var key = String(settings.order[o] || '').toLowerCase();
+            var requestedFamily = getEquivalentRatingSource(key);
+            if (requestedFamily && map[requestedFamily] && !usedFamilies[requestedFamily]) {
+              ordered.push(map[requestedFamily]);
+              usedFamilies[requestedFamily] = true;
+            }
           }
           list = ordered;
         }
@@ -1068,9 +1141,9 @@ function buildAllRatingsContainer(ratings, itemId, settings, ctx){
         var fmt = formatCachedRating(r);
         if (!fmt) continue;
 
-        var ids = (ctx && (ctx.ids || ctx.Ids)) || {};
-        var imdbId = ids.imdb || ids.Imdb || null;
-        var displaySource = resolveDisplaySource(src, imdbId, settings);
+        var features = (ctx && (ctx.whatsonFeatures || ctx.WhatsOnFeatures)) || {};
+        var topRanking = features.imdb_top_ranking || features.imdbTopRanking || features.ImdbTopRanking || null;
+        var displaySource = resolveDisplaySource(src, topRanking, settings);
         var iconUrl = getIconUrlForSource(displaySource, fmt.rating0to10);
         if (!iconUrl) iconUrl = getFallbackIconUrl(displaySource) || ICONS.tmdb;
 
@@ -1512,9 +1585,12 @@ function buildAllRatingsContainer(ratings, itemId, settings, ctx){
         }
 
         // For tomatoes/popcorn/metacritic we only fetch extras if that source will actually be shown.
-        var showTomatoes = hasSrc(ratings, 'tomatoes') && (settings.mode !== 'custom' || inOrder(settings, 'tomatoes'));
-        var showPopcorn  = hasSrc(ratings, 'popcorn')  && (settings.mode !== 'custom' || inOrder(settings, 'popcorn'));
-        var showMeta     = hasSrc(ratings, 'metacritic') && (settings.mode !== 'custom' || inOrder(settings, 'metacritic'));
+        var showTomatoes = (hasSrc(ratings, 'tomatoes') || hasSrc(ratings, 'whatson_tomatoes'))
+          && (settings.mode !== 'custom' || inOrder(settings, 'tomatoes') || inOrder(settings, 'whatson_tomatoes'));
+        var showPopcorn = (hasSrc(ratings, 'popcorn') || hasSrc(ratings, 'whatson_popcorn'))
+          && (settings.mode !== 'custom' || inOrder(settings, 'popcorn') || inOrder(settings, 'whatson_popcorn'));
+        var showMeta = (hasSrc(ratings, 'metacritic') || hasSrc(ratings, 'whatson_metacritic'))
+          && (settings.mode !== 'custom' || inOrder(settings, 'metacritic') || inOrder(settings, 'whatson_metacritic'));
 
         var want = {
           tc: !!ex.tc && showTomatoes,
@@ -1531,9 +1607,6 @@ function buildAllRatingsContainer(ratings, itemId, settings, ctx){
           : Promise.resolve(null);
 
         return extrasPromise.then(function(extras){
-          var top250Promise = (settings && settings.top250 === true) ? ensureTop250Index() : Promise.resolve(null);
-          return top250Promise.then(function(){
-
           // Add AniList as a virtual rating (web-only). Not saved anywhere.
           if (extras && want.al && extras.anilistScore !== undefined && extras.anilistScore !== null) {
             try {
@@ -1551,7 +1624,8 @@ function buildAllRatingsContainer(ratings, itemId, settings, ctx){
           removeCustomFromBox(box);
 
           var ids = resp.ids || resp.Ids || null;
-          var container = buildAllRatingsContainer(ratings, itemId, settings, { contentType: pack.info.contentType, ids: ids, seasonNumber: pack.info.seasonNumber, episodeNumber: pack.info.episodeNumber });
+          var whatsonFeatures = resp.whatsonFeatures || resp.WhatsOnFeatures || null;
+          var container = buildAllRatingsContainer(ratings, itemId, settings, { contentType: pack.info.contentType, ids: ids, whatsonFeatures: whatsonFeatures, seasonNumber: pack.info.seasonNumber, episodeNumber: pack.info.episodeNumber });
           if (!container || !container.children || container.children.length === 0) return;
 
           hideDefaultRatingsBlocks(box);
@@ -1570,22 +1644,25 @@ function buildAllRatingsContainer(ratings, itemId, settings, ctx){
             try { return container.querySelector('.mdblist-allratings-item[data-rating-source=\"' + key + '\"] img'); } catch (e) { return null; }
           }
 
-          // Replace base icons with badge-specific icons when applicable.
+          // Replace base icons with badge-specific icons when applicable. Apply the same
+          // WhatsOn status flag to both the MDBList-native and WhatsOn-routed copy of a source.
+          function replaceIcons(keys, url){
+            for (var ri=0;ri<keys.length;ri++) {
+              var badgeImg = findIcon(keys[ri]);
+              if (badgeImg) badgeImg.src = url;
+            }
+          }
           if (extras && want.tc && extras.rtCriticsCertified === true) {
-            var imgTc = findIcon('tomatoes');
-            if (imgTc) imgTc.src = ICONS.tomatoes_certified;
+            replaceIcons(['tomatoes', 'whatson_tomatoes'], ICONS.tomatoes_certified);
           }
           if (extras && want.rv && extras.rtAudienceVerified === true) {
-            var imgRv = findIcon('popcorn');
-            if (imgRv) imgRv.src = ICONS.rotten_ver;
+            replaceIcons(['popcorn', 'whatson_popcorn'], ICONS.rotten_ver);
           }
           if (extras && want.mc && extras.metacriticMustSee === true) {
-            var imgMc = findIcon('metacritic');
-            if (imgMc) imgMc.src = ICONS.metacriticms;
+            replaceIcons(['metacritic', 'whatson_metacritic'], ICONS.metacriticms);
           }
 
           _detailsLastItemId = itemId;
-          });
         });
       }).catch(function(){
         // ignore
@@ -1638,6 +1715,10 @@ function buildAllRatingsContainer(ratings, itemId, settings, ctx){
             tmdbId = pids.Tmdb || pids.tmdb || pids.TMDB || null;
             imdbId = pids.Imdb || pids.imdb || pids.IMDb || null;
           }
+          var topRanking = null;
+          if (pids && typeof pids === 'object') {
+            topRanking = pids[TOP_RANK_PROVIDER_KEY] || pids[TOP_RANK_PROVIDER_KEY.toLowerCase()] || null;
+          }
           var contentType = null;
           var type = String(it.Type || it.type || '').toLowerCase();
           if (type === 'movie') contentType = 'movie';
@@ -1650,6 +1731,7 @@ function buildAllRatingsContainer(ratings, itemId, settings, ctx){
             community: (typeof it.CommunityRating === 'number') ? it.CommunityRating : null,
             tmdbId: tmdbId,
             imdbId: imdbId,
+            topRanking: topRanking,
             contentType: contentType,
             votes: null,
             tooltip: buildRatingTooltip(src, null),
@@ -1717,9 +1799,6 @@ function buildAllRatingsContainer(ratings, itemId, settings, ctx){
       p.then(function(){
         return ensureAllRatingsSettings();
       }).then(function(settings){
-        if (settings && settings.top250 === true) {
-          return ensureTop250Index().then(function(){ return settings; });
-        }
         return settings || { top250: false };
       }).then(function(settings){
         for (var i=0;i<targets.length;i++) {
