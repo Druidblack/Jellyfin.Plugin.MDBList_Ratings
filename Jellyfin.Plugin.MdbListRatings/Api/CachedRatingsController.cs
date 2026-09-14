@@ -61,7 +61,8 @@ public sealed class CachedRatingsController : ControllerBase
             HasCache = true,
             CachedAtUtc = env.CachedAtUtc,
             Ids = env.Data.Ids,
-            Ratings = env.Data.Ratings ?? new List<MdbListRating>()
+            Ratings = env.Data.Ratings ?? new List<MdbListRating>(),
+            WhatsOnFeatures = env.Data.WhatsOnFeatures
         });
     }
 
@@ -101,7 +102,8 @@ public sealed class CachedRatingsController : ControllerBase
             HasCache = true,
             CachedAtUtc = env.CachedAtUtc,
             Ids = env.Data.Ids,
-            Ratings = env.Data.Ratings ?? new List<MdbListRating>()
+            Ratings = env.Data.Ratings ?? new List<MdbListRating>(),
+            WhatsOnFeatures = env.Data.WhatsOnFeatures
         });
     }
     public sealed class CachedByTmdbResponse
@@ -115,7 +117,10 @@ public sealed class CachedRatingsController : ControllerBase
                 [JsonPropertyName("ids")]
         public MdbListIds? Ids { get; set; }
 
-[JsonPropertyName("ratings")]
+        [JsonPropertyName("ratings")]
         public List<MdbListRating> Ratings { get; set; } = new();
+
+        [JsonPropertyName("whatsonFeatures")]
+        public MdbListWhatsOnFeatures? WhatsOnFeatures { get; set; }
     }
 }
