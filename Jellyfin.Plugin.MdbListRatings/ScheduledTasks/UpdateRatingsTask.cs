@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
@@ -35,18 +36,6 @@ public sealed class UpdateRatingsTask : IScheduledTask
 
         var cfg = plugin.Configuration;
 
-        if (cfg.EnableImdbTop250Icon)
-        {
-            try
-            {
-                await plugin.Updater.EnsureImdbTop250ReadyAsync(cfg, cancellationToken).ConfigureAwait(false);
-            }
-            catch (Exception ex)
-            {
-                plugin.Log.LogWarning(ex, "Failed to refresh IMDb Top 250 cache before the ratings task.");
-            }
-        }
-
         if (string.IsNullOrWhiteSpace(cfg.MdbListApiKey))
         {
             plugin.Log.LogWarning("MDBList API key is empty. MDBList-based sources will be skipped; TVmaze-only Series/Shows/Episodes mappings and Trakt/TMDb season-episode ratings can still be updated if configured.");
@@ -80,15 +69,9 @@ public sealed class UpdateRatingsTask : IScheduledTask
             plugin.Log.LogWarning("OMDb API key is empty. IMDb-based episode ratings via OMDb will be skipped.");
         }
 
-        var needsWhatsOn = Ratings.RatingsUpdater.IsWhatsOnOnlySource(cfg.MovieCommunitySource) || Ratings.RatingsUpdater.IsWhatsOnOnlySource(cfg.MovieCommunityFallbackSource)
-            || Ratings.RatingsUpdater.IsWhatsOnOnlySource(cfg.MovieCriticSource) || Ratings.RatingsUpdater.IsWhatsOnOnlySource(cfg.MovieCriticFallbackSource)
-            || Ratings.RatingsUpdater.IsWhatsOnOnlySource(cfg.ShowCommunitySource) || Ratings.RatingsUpdater.IsWhatsOnOnlySource(cfg.ShowCommunityFallbackSource);
-        var needsWhatsOnSeason = Ratings.RatingsUpdater.IsWhatsOnOnlySource(cfg.SeasonCommunitySource) || Ratings.RatingsUpdater.IsWhatsOnOnlySource(cfg.SeasonCommunityFallbackSource);
-        var needsWhatsOnEpisode = Ratings.RatingsUpdater.IsWhatsOnOnlySource(cfg.EpisodeCommunitySource) || Ratings.RatingsUpdater.IsWhatsOnOnlySource(cfg.EpisodeCommunityFallbackSource);
-
-        if ((needsWhatsOn || needsWhatsOnSeason || needsWhatsOnEpisode) && string.IsNullOrWhiteSpace(cfg.WhatsOnApiKey))
+        if (string.IsNullOrWhiteSpace(cfg.WhatsOnApiKey))
         {
-            plugin.Log.LogWarning("WhatsOn source is selected but no API key is provided. WhatsOn requests will be limited to 100 requests per hour.");
+            plugin.Log.LogWarning("WhatsOn API key is empty. Movie/Series cache enrichment still runs through the anonymous WhatsOn tier and is subject to its lower hourly limit.");
         }
 
         // Query all Movies, Series, Seasons and Episodes.
@@ -149,6 +132,28 @@ public sealed class UpdateRatingsTask : IScheduledTask
             .ThenBy(GetEpisodeOrder)
             .ToArray();
 
+        // Persist a continuation cursor for quota-limited OMDb episode backfills. Rotating the
+        // deterministic item order means the next successful OMDb window starts where the
+        // previous quota-limited run stopped instead of spending quota on the same early episodes.
+        var progressStore = new UpdateRatingsProgressStore(Path.Combine(plugin.PluginDataPath, "update-ratings-progress.json"), plugin.Log);
+        await progressStore.LoadAsync(cancellationToken).ConfigureAwait(false);
+        var existingOmdbCursor = progressStore.OmdbEpisodeResumeItemId;
+        if (existingOmdbCursor.HasValue)
+        {
+            var resumeIndex = Array.FindIndex(items.ToArray(), item => item is Episode && item.Id == existingOmdbCursor.Value);
+            if (resumeIndex >= 0)
+            {
+                items = items.Skip(resumeIndex).Concat(items.Take(resumeIndex)).ToArray();
+                plugin.Log.LogInformation("Resuming OMDb episode backfill from saved cursor at item {ItemId} ({Name}).", existingOmdbCursor.Value, items[0].Name);
+            }
+            else
+            {
+                plugin.Log.LogWarning("Saved OMDb episode continuation item {ItemId} no longer exists; clearing the cursor.", existingOmdbCursor.Value);
+                await progressStore.SetOmdbEpisodeResumeAsync(null, cancellationToken).ConfigureAwait(false);
+                existingOmdbCursor = null;
+            }
+        }
+
         var total = items.Count;
         if (total == 0)
         {
@@ -158,6 +163,9 @@ public sealed class UpdateRatingsTask : IScheduledTask
 
         var processed = 0;
         var stoppedEarly = false;
+        var omdbQuotaHitThisRun = false;
+        Guid? omdbQuotaItemId = null;
+        string? omdbQuotaItemName = null;
 
         foreach (var item in items)
         {
@@ -169,9 +177,22 @@ public sealed class UpdateRatingsTask : IScheduledTask
                 processed++;
                 progress.Report(processed * 100.0 / total);
 
-                if (outcome == Ratings.RatingsUpdater.UpdateOutcome.RateLimited)
+                if (outcome == Ratings.RatingsUpdater.UpdateOutcome.OmdbRateLimited)
                 {
-                    plugin.Log.LogWarning("MDBList daily limit reached (or cooldown active). Task will stop now and continue on the next run.");
+                    // Save only the first item where the quota was actually reached. Later items
+                    // continue using configured fallbacks while OMDb is on cooldown.
+                    if (!omdbQuotaHitThisRun && item is Episode)
+                    {
+                        omdbQuotaHitThisRun = true;
+                        omdbQuotaItemId = item.Id;
+                        omdbQuotaItemName = item.Name;
+                        await progressStore.SetOmdbEpisodeResumeAsync(item.Id, cancellationToken).ConfigureAwait(false);
+                        plugin.Log.LogWarning("OMDb episode quota reached at {Name} ({ItemId}). Saved continuation cursor; the task will continue with unrelated items and available fallback providers.", item.Name, item.Id);
+                    }
+                }
+                else if (outcome == Ratings.RatingsUpdater.UpdateOutcome.RateLimited)
+                {
+                    plugin.Log.LogWarning("A provider rate limit requiring task-wide stop was reached. Task will stop now and continue on the next run.");
                     stoppedEarly = true;
                     break;
                 }
@@ -191,6 +212,27 @@ public sealed class UpdateRatingsTask : IScheduledTask
         if (!stoppedEarly)
         {
             progress.Report(100);
+        }
+
+        if (omdbQuotaHitThisRun)
+        {
+            plugin.Log.LogWarning("Ratings task completed other available work, but OMDb episode backfill is paused by its daily quota. Resume cursor: {Name} ({ItemId}); OMDb cooldown until {Cooldown}.",
+                omdbQuotaItemName,
+                omdbQuotaItemId,
+                plugin.Updater.OmdbCooldownUntilUtc?.ToString("o") ?? "unknown");
+        }
+        else if (existingOmdbCursor.HasValue)
+        {
+            var cooldown = plugin.Updater.OmdbCooldownUntilUtc;
+            if (cooldown.HasValue && cooldown.Value > DateTimeOffset.UtcNow)
+            {
+                plugin.Log.LogWarning("Ratings task completed while OMDb episode cooldown is still active until {Cooldown:o}. Saved continuation cursor {ItemId} is retained.", cooldown.Value, existingOmdbCursor.Value);
+            }
+            else
+            {
+                await progressStore.SetOmdbEpisodeResumeAsync(null, cancellationToken).ConfigureAwait(false);
+                plugin.Log.LogInformation("OMDb episode continuation pass completed without reaching the quota again. The saved continuation cursor has been cleared.");
+            }
         }
     }
 
