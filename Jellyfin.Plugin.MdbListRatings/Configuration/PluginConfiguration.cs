@@ -27,6 +27,11 @@ public class PluginConfiguration : BasePluginConfiguration
     public string WhatsOnApiKey { get; set; } = string.Empty;
 
     /// <summary>
+    /// Gets or sets the Simkl API Client ID used for public catalog ratings.
+    /// </summary>
+    public string SimklClientId { get; set; } = string.Empty;
+
+    /// <summary>
     /// Gets or sets the custom cache refresh interval in days (used when <see cref="CacheInterval"/> is <see cref="CacheIntervalPreset.Custom"/>).
     /// </summary>
     public int CacheCustomDays { get; set; } = 14;

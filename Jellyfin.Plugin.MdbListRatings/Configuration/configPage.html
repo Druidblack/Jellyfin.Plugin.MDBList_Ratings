@@ -70,6 +70,18 @@
                     </div>
                 </div>
 
+                <div class="inputContainer">
+                    <label class="inputLabel inputLabelUnfocused" for="simklClientId">Simkl Client ID</label>
+                    <input id="simklClientId" name="simklClientId" type="password" class="emby-input" autocomplete="off" />
+                    <button is="emby-button" type="button" class="raised emby-button apiCredentialTestButton" data-provider="simkl" data-input="simklClientId" data-result="simklClientIdTestResult" style="margin-top:8px;">
+                        <span>Test</span>
+                    </button>
+                    <div id="simklClientIdTestResult" class="fieldDescription apiCredentialTestResult" style="display:none; margin-top:6px;"></div>
+                    <div class="fieldDescription">
+                        <code>https://simkl.com/settings/developer</code> Limited to 1,000 requests/day, send for approval to get unlimited.
+                    </div>
+                </div>
+
                 <h2>Rating mapping</h2>
 
                 <h3>Movies</h3>
@@ -196,12 +208,12 @@
                     <div class="inputContainer" id="webAllRatingsCustomWrap" style="margin-top: 6px; display: none;">
                         <label class="inputLabel inputLabelUnfocused" for="webAllRatingsOrder">Rating sources and order</label>
                         <textarea id="webAllRatingsOrder" name="webAllRatingsOrder" class="emby-textarea" rows="4"
-                                  placeholder="imdb\ntmdb\nmetacritic\nmetacriticuser\ntomatoes\npopcorn\nletterboxd\ntrakt\nrogerebert\nmyanimelist
+                                  placeholder="imdb\ntmdb\nmetacritic\nmetacriticuser\ntomatoes\npopcorn\nletterboxd\ntrakt\nsimkl\nrogerebert\nmyanimelist
 anilist
 tvmaze"></textarea>
                         <div class="fieldDescription">
-                            Enter one source per line or separated by commas. Source keys must match what MDBList returns
-                            (e.g. imdb, mdblist, tmdb, metacritic, metacriticuser, tomatoes, popcorn, trakt, letterboxd, senscritique, allocine_critics, allocine_users, betaseries, rogerebert, myanimelist, anilist, tvmaze).
+                            Enter one source per line or separated by commas. Source keys may come from MDBList, WhatsOn, Simkl, or the other supported providers
+                            (e.g. imdb, mdblist, simkl, tmdb, metacritic, metacriticuser, tomatoes, popcorn, trakt, letterboxd, senscritique, allocine_critics, allocine_users, betaseries, rogerebert, myanimelist, anilist, tvmaze).
                         </div>
                     
 
@@ -332,6 +344,7 @@ tvmaze"></textarea>
     { value: "none", text: "Do not fill" },
     { value: "imdb", text: "IMDb (MDBList)" },
     { value: "whatson_imdb", text: "IMDb (WhatsOn)" },
+    { value: "simkl_imdb", text: "IMDb (Simkl)" },
     { value: "tmdb", text: "TMDb (MDBList)" },
     { value: "whatson_tmdb", text: "TMDb (WhatsOn)" },
     { value: "trakt", text: "Trakt (MDBList)" },
@@ -350,9 +363,11 @@ tvmaze"></textarea>
     { value: "allocine_users", text: "AlloCiné Users (WhatsOn)" },
     { value: "rogerebert", text: "RogerEbert (MDBList)" },
     { value: "myanimelist", text: "MyAnimeList (MDBList)" },
+    { value: "simkl_mal", text: "MyAnimeList (Simkl)" },
     { value: "senscritique", text: "SensCritique (WhatsOn)" },
     { value: "betaseries", text: "BetaSeries (WhatsOn)" },
     { value: "whatson", text: "WhatsOn" },
+    { value: "simkl", text: "Simkl" },
     { value: "mdblist", text: "MDBList" },
     { value: "anilist", text: "AniList" },
     { value: "tvmaze", text: "TVmaze (Series/Shows)" },
@@ -893,6 +908,7 @@ tvmaze"></textarea>
                     page.querySelector('#tmdbApiAuth').value = config.TmdbApiAuth || '';
                     page.querySelector('#omdbApiKey').value = config.OmdbApiKey || '';
                     page.querySelector('#whatsOnApiKey').value = config.WhatsOnApiKey || '';
+                    page.querySelector('#simklClientId').value = config.SimklClientId || '';
 
                     fillSelect(page.querySelector('#movieCommunity'), (config.MovieCommunitySource || 'imdb').toLowerCase());
                     fillSelect(page.querySelector('#movieCommunityFallback'), (config.MovieCommunityFallbackSource || 'none').toLowerCase());
@@ -978,6 +994,7 @@ tvmaze"></textarea>
                     config.TmdbApiAuth = (page.querySelector('#tmdbApiAuth').value || '').trim();
                     config.OmdbApiKey = (page.querySelector('#omdbApiKey').value || '').trim();
                     config.WhatsOnApiKey = (page.querySelector('#whatsOnApiKey').value || '').trim();
+                    config.SimklClientId = (page.querySelector('#simklClientId').value || '').trim();
 
                     config.MovieCommunitySource = page.querySelector('#movieCommunity').value;
                     config.MovieCommunityFallbackSource = page.querySelector('#movieCommunityFallback').value;
