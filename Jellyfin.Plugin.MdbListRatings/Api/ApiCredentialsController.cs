@@ -48,6 +48,7 @@ public sealed class ApiCredentialsController : ControllerBase
             "tmdb" => Ok(await TestTmdbAsync(credential, cancellationToken).ConfigureAwait(false)),
             "omdb" => Ok(await TestOmdbAsync(credential, cancellationToken).ConfigureAwait(false)),
             "whatson" => Ok(await TestWhatsOnAsync(credential, cancellationToken).ConfigureAwait(false)),
+            "simkl" => Ok(await TestSimklAsync(credential, cancellationToken).ConfigureAwait(false)),
             _ => BadRequest(Result(provider, false, "error", "Unknown API provider."))
         };
     }
@@ -315,6 +316,56 @@ public sealed class ApiCredentialsController : ControllerBase
         catch
         {
             return Result(provider, null, "warning", "Could not connect to WhatsOn to verify the API key.");
+        }
+    }
+
+    private async Task<ApiCredentialTestResponse> TestSimklAsync(string clientId, CancellationToken cancellationToken)
+    {
+        const string provider = "simkl";
+        const string url = "https://api.simkl.com/movies/472214?app-name=jellyfin-mdblist-ratings&app-version=1.0.0.10";
+
+        try
+        {
+            var http = CreateSecretClient(TimeSpan.FromSeconds(15));
+            using var request = new HttpRequestMessage(HttpMethod.Get, url);
+            request.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            request.Headers.UserAgent.ParseAdd("Jellyfin.Plugin.MdbListRatings/1.0 (+credential-test)");
+            request.Headers.TryAddWithoutValidation("simkl-api-key", clientId);
+
+            using var response = await http.SendAsync(request, HttpCompletionOption.ResponseHeadersRead, cancellationToken).ConfigureAwait(false);
+            if (response.IsSuccessStatusCode)
+            {
+                return Result(provider, true, "success", "Simkl Client ID is valid.", (int)response.StatusCode);
+            }
+
+            if (response.StatusCode is HttpStatusCode.Unauthorized or HttpStatusCode.Forbidden)
+            {
+                return Result(provider, false, "error", "Simkl rejected the Client ID.", (int)response.StatusCode);
+            }
+
+            if ((int)response.StatusCode == 412)
+            {
+                return Result(provider, false, "error", "Simkl did not accept this Client ID (HTTP 412 client_id_failed).", (int)response.StatusCode);
+            }
+
+            if ((int)response.StatusCode == 429)
+            {
+                return Result(provider, true, "warning", "Simkl accepted the Client ID, but its request rate limit is currently active.", (int)response.StatusCode);
+            }
+
+            return Result(provider, null, "warning", $"Simkl returned HTTP {(int)response.StatusCode}; the Client ID could not be confirmed.", (int)response.StatusCode);
+        }
+        catch (OperationCanceledException) when (!cancellationToken.IsCancellationRequested)
+        {
+            return Result(provider, null, "warning", "Simkl API check timed out.");
+        }
+        catch (OperationCanceledException)
+        {
+            throw;
+        }
+        catch
+        {
+            return Result(provider, null, "warning", "Could not connect to Simkl to verify the Client ID.");
         }
     }
 
