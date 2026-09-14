@@ -137,6 +137,7 @@ internal static class WebUiInjector
       imdb_top_250:       '@asset:imdb_top_250.png',
       whatson:            '@asset:whatson.png',
       mdblist:            '@asset:mdblist.svg',
+      simkl:               '@asset:simkl.png',
       senscritique:       '@asset:senscritique.png',
       allocine_critics:   '@asset:allocine.png',
       allocine_users:     '@asset:allocine.png',
@@ -450,7 +451,7 @@ internal static class WebUiInjector
 
     function resolveDisplaySource(source, topRanking, settings){
       var src = String(source || '').toLowerCase();
-      if ((src === 'imdb' || src === 'whatson_imdb') && settings && settings.top250 === true && parseTopRanking(topRanking) !== null) {
+      if ((src === 'imdb' || src === 'whatson_imdb' || src === 'simkl_imdb') && settings && settings.top250 === true && parseTopRanking(topRanking) !== null) {
         return 'imdb_top_250';
       }
       return src;
@@ -512,9 +513,9 @@ internal static class WebUiInjector
     function toIconKey(source, communityRating0to10){
       if (!source) return null;
       var s = String(source).toLowerCase();
-      // WhatsOn-routed provider keys are stored separately in cache so they cannot be confused
+      // Provider-routed keys are stored separately in cache so they cannot be confused
       // with values fetched from MDBList, but they intentionally use the provider's normal icon.
-      var whatsonAliases = {
+      var providerAliases = {
         whatson_imdb: 'imdb',
         whatson_tmdb: 'tmdb',
         whatson_trakt: 'trakt',
@@ -522,9 +523,11 @@ internal static class WebUiInjector
         whatson_popcorn: 'popcorn',
         whatson_metacritic: 'metacritic',
         whatson_metacriticuser: 'metacriticuser',
-        whatson_letterboxd: 'letterboxd'
+        whatson_letterboxd: 'letterboxd',
+        simkl_imdb: 'imdb',
+        simkl_mal: 'myanimelist'
       };
-      if (whatsonAliases[s]) s = whatsonAliases[s];
+      if (providerAliases[s]) s = providerAliases[s];
       if (s === 'metacriticuser') return 'metacriticus';
       if (s === 'metacriticms') return 'metacriticms';
       if (s === 'tomatoes') {
@@ -758,7 +761,9 @@ internal static class WebUiInjector
         whatson_metacritic: 'metacritic',
         whatson_metacriticuser: 'metacriticuser',
         metacriticus: 'metacriticuser',
-        whatson_letterboxd: 'letterboxd'
+        whatson_letterboxd: 'letterboxd',
+        simkl_imdb: 'imdb',
+        simkl_mal: 'myanimelist'
       };
       return aliases[src] || src;
     }
@@ -807,7 +812,9 @@ internal static class WebUiInjector
         imdb_top_250: 'IMDb Top 250',
         mdblist: 'MDBList',
         whatson: 'WhatsOn',
+        simkl: 'Simkl',
         whatson_imdb: 'IMDb (WhatsOn)',
+        simkl_imdb: 'IMDb (Simkl)',
         whatson_tmdb: 'TMDb (WhatsOn)',
         whatson_trakt: 'Trakt (WhatsOn)',
         whatson_tomatoes: 'Rotten Tomatoes (WhatsOn)',
@@ -828,6 +835,8 @@ internal static class WebUiInjector
         allocine_critics: 'AlloCiné Critics',
         allocine_users: 'AlloCiné Users',
         betaseries: 'BetaSeries',
+        myanimelist: 'MyAnimeList',
+        simkl_mal: 'MyAnimeList (Simkl)',
         rogerebert: 'RogerEbert.com',
         anilist: 'AniList',
         tvmaze: 'TVmaze'
@@ -960,7 +969,7 @@ internal static class WebUiInjector
     function buildProviderHref(src, rating, ctx){
       try {
         src = String(src||'').toLowerCase();
-        var whatsonLinkAliases = {
+        var providerLinkAliases = {
           whatson_imdb: 'imdb',
           whatson_tmdb: 'tmdb',
           whatson_trakt: 'trakt',
@@ -968,9 +977,11 @@ internal static class WebUiInjector
           whatson_popcorn: 'popcorn',
           whatson_metacritic: 'metacritic',
           whatson_metacriticuser: 'metacritic',
-          whatson_letterboxd: 'letterboxd'
+          whatson_letterboxd: 'letterboxd',
+          simkl_imdb: 'imdb',
+          simkl_mal: 'myanimelist'
         };
-        if (whatsonLinkAliases[src]) src = whatsonLinkAliases[src];
+        if (providerLinkAliases[src]) src = providerLinkAliases[src];
         var ids = (ctx && (ctx.ids || ctx.Ids)) || {};
         var imdbId = ids.imdb || ids.Imdb || null;
         var tmdbId = ids.tmdb || ids.Tmdb || null;
@@ -980,6 +991,10 @@ internal static class WebUiInjector
 
         // IMDb
         if (src === 'imdb') {
+          if (rawUrl) {
+            var imdbRawUrl = String(rawUrl).trim();
+            if (imdbRawUrl.indexOf('https://') === 0 || imdbRawUrl.indexOf('http://') === 0) return imdbRawUrl;
+          }
           if (imdbId) return 'https://www.imdb.com/title/' + String(imdbId).trim();
           return null;
         }
@@ -1064,6 +1079,22 @@ internal static class WebUiInjector
           return 'https://letterboxd.com' + url;
         }
 
+        // Simkl and MyAnimeList. Simkl provides canonical URLs in the cached rating entry.
+        if (src === 'simkl') {
+          if (!rawUrl) return null;
+          var simklUrl = String(rawUrl).trim();
+          if (simklUrl.indexOf('https://') === 0 || simklUrl.indexOf('http://') === 0) return simklUrl;
+          return null;
+        }
+
+        if (src === 'myanimelist') {
+          if (!rawUrl) return null;
+          var malUrl = String(rawUrl).trim();
+          if (malUrl.indexOf('https://') === 0 || malUrl.indexOf('http://') === 0) return malUrl;
+          if (isDigitsOnly(malUrl)) return 'https://myanimelist.net/anime/' + malUrl;
+          return null;
+        }
+
         // WhatsOn-only providers. Their API response already contains the canonical
         // provider page URL, so prefer it instead of trying to reconstruct a slug.
         if (src === 'senscritique' || src === 'allocine_critics' || src === 'allocine_users' || src === 'betaseries') {
@@ -1101,8 +1132,8 @@ function buildAllRatingsContainer(ratings, itemId, settings, ctx){
       container.className = 'mediaInfoItem mdblist-allratings-container ' + DETAILS_CONTAINER_CLASS;
       try { container.setAttribute('data-mdblist-itemid', itemId); } catch (e) {}
 
-      // Determine what to show and in what order. MDBList and WhatsOn can both contain
-      // IMDb/TMDb/Trakt/RT/Metacritic/Letterboxd. Treat those as the same provider in the
+      // Determine what to show and in what order. MDBList, WhatsOn and Simkl can contain
+      // overlapping provider ratings. Treat those as the same provider in the
       // all-ratings panel and keep the copy with the larger vote count.
       var list = dedupeEquivalentRatings(ratings || []);
       try {
