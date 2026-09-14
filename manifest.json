@@ -9,6 +9,14 @@
         "imageUrl": "https://raw.githubusercontent.com/Druidblack/Jellyfin.Plugin.MDBList_Ratings/main/images/logo.jpg",
         "versions": [
             {
+                "version": "1.0.1.0",
+                "changelog": "[changes list](https://github.com/Druidblack/Jellyfin.Plugin.MDBList_Ratings/releases/tag/Release-1.0.1.0)",
+                "targetAbi": "12.0",
+                "sourceUrl": "https://github.com/Druidblack/Jellyfin.Plugin.MDBList_Ratings/releases/download/Release-1.0.1.0/Release-1.0.1.0.zip",
+                "checksum": "f4d7d52f8786e0071e260f0ef973cad4",
+                "timestamp": "2026-09-14T15:00:00+00:00"
+            },
+            {
                 "version": "1.0.0.9",
                 "changelog": "[#25](https://github.com/Druidblack/Jellyfin.Plugin.MDBList_Ratings/pull/25), [#23](https://github.com/Druidblack/Jellyfin.Plugin.MDBList_Ratings/pull/23), [#21](https://github.com/Druidblack/Jellyfin.Plugin.MDBList_Ratings/pull/21)",
                 "targetAbi": "12.0",
