@@ -113,7 +113,7 @@ internal sealed class WhatsOnApiClient
 
         try
         {
-            url += "&ratings_filters=all&append_to_response=episodes_details";
+            url += $"&item_type={itemType}&ratings_filters=all&append_to_response=episodes_details";
             using var http = CreateHttpClient();
             using var request = CreateRequest(url);
             using var response = await http.SendAsync(request, cancellationToken).ConfigureAwait(false);
@@ -285,7 +285,7 @@ internal sealed class WhatsOnApiClient
 
     private async Task<(WhatsOnTitleResponse? Response, bool IsRateLimited, int RetryAfterSeconds)> FetchShowWithEpisodesAsync(int tmdbId, string apiKey, CancellationToken cancellationToken)
     {
-        var url = GetUrlWithAuth($"/?tmdbId={tmdbId}", apiKey);
+        var url = GetUrlWithAuth($"/?tmdbId={tmdbId}&item_type=tvshow", apiKey);
         url += "&ratings_filters=all&append_to_response=episodes_details";
 
         try
