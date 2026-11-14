@@ -252,7 +252,7 @@ public sealed class ApiCredentialsController : ControllerBase
     private async Task<ApiCredentialTestResponse> TestWhatsOnAsync(string apiKey, CancellationToken cancellationToken)
     {
         const string provider = "whatson";
-        const string safeUrl = "https://whatson-api.onrender.com/?tmdbId=550&ratings_filters=all";
+        const string safeUrl = "https://whatson-api.onrender.com/?tmdbId=550&item_type=movie&ratings_filters=all";
         var requestUrl = safeUrl + "&api_key=" + Uri.EscapeDataString(apiKey);
 
         try
